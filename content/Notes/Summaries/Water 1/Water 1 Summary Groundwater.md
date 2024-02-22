@@ -284,4 +284,32 @@ For [[Phreatic Aquifer|Phreatic Aquifers]], lines connecting points with equal g
 
 ---
 ## 12.2 Flow Lines and Flow Nets
-Water flows from high to low hydraulic heads. The paths water droplets take can be visualised with ==flow lines==. If the soil is [[Isotropy|Isotropic]] (i.e. conductivity is the same in all directions), the flow lines are perpendicular to the equipotential lines, because the water droplets follow the steepest decrease in hydraulic head (steepest slope of the groundwater table). When a soil is [[Anisotropy|Anisotropic]], water will not follow the steepest slope, but it will follow the route of lowest resistance. In that case, the angle between equipotential lines and flow lines will deviate from 90 degrees. A ==flow path== or ==flow tube== is the area between two flow lines. A ==flow net== is a network of equipotential lines and flow lines.
+Water flows from high to low hydraulic heads. The paths water droplets take can be visualised with **flow lines**. If the soil is [[Isotropy|Isotropic]] (i.e. [[Permeability|Conductivity]] is the same in all directions), the flow lines are perpendicular to the equipotential lines, because the water droplets follow the steepest decrease in hydraulic head (steepest slope of the groundwater table). When a soil is [[Anisotropy|Anisotropic]], water will not follow the steepest slope, but it will follow the route of lowest [[Resistance]]. In that case, the angle between equipotential lines and flow lines will deviate from 90 degrees. A **flow path** or **flow tube** is the area between two flow lines. A **flow net** is a network of equipotential lines and flow lines.
+
+![[Pasted image 20240222215543.jpg]]
+
+The first figure displays an aquifer that is enclosed at the top and bottom by two almost impermeable layers. Due to the difference in water level between the channels, water will flow from the left to the right channel through the aquifer. Since there is no vertical flux through the impermeable layer (no water entering or exiting the aquifer from above or below), the horizontal water flux is constant. The equipotential lines of this situation are displayed in the second figure, which is an example of a flow net. Since the soil is isotropic, the flow lines (dashed lines) are perpendicular to the equipotential lines. 
+
+---
+## 12.3 Curvilinear Square Flow Nets
+When setting up a flow net, a hydrologist can choose at which intervals to draw equipotential lines and flow lines. A smart way to do this is by constructing a Curvilinear Sqare Flow Net.
+
+![[Pasted image 20240222215834.jpg]]
+
+This figure shows a part of a curvilinear square flow net. The displayed equipotential lines are a result of hydraulic head measurements at many locations. First, the equipotential lines are drawn at a constant distance ($\Delta x$). The values of the equipotential lines (the hydraulics heads $H_1$, $H_2$ and $H_3$) often decrease with fixed steps, but this is not necessary. Next, flow lines are drawn perpendicular to the equipotential lines (isotropic soil). The starting points are chosen in such a way that the distance between the flow lines ($\Delta y$) equals the distance between equipotential lines ($\Delta x$). If this is done for all flow lines, a curvilinear square flow net is formed. 
+
+>[!Note]
+>The advantage of curvilinear square flow nets is that the volume of water flowing through each flow tube (in m$^3$/d) is the same
+
+
+---
+## 12.4 Dupuit's Assumption
+Flow lines also reveal the flow direction in hydrogeological layers. 
+
+![[Pasted image 20240222215951.jpg]]
+
+This figure shows a schematised flow pattern through a valley between 2 ice-pushed ridges. Water infiltrates on both ice-pushed ridges, and in the valley both upward and downward seepage occur. These processes vary in space and time. The spatial variability is a result of differences in elevation and soil composition, while the temporal variability is a result of wet and dry periods. During wet periods, mainly infiltration and percolation occur, while during dry periods upward seepage is the dominant process. 
+
+In the figure, 3 aquifers and 2 aquitards are visible. The bottom of the third aquifer is at approximately 100 m below sea level. Water flows mainly horizontally through aquifers and mainly vertically through aquitards. Often, especially for projects at regional scale, the groundwater flow is mainly horizontal. The reason is that the horizontal distances are much larger than the vertical distances. Even though the water fluxes are smaller, vertical water flow is important, especially for local scale and for areas with upward seepage that have vegetation depending on the chemistry of this seepage water.
+
+In 1863, Dupuit made the assumption that for most circumstances the error in the estimation of groundwater flow will be relatively small when the vertical stream component is neglected. Forchheimer continued with his ideas in 1914, which resulted in the so-called [[Dupuit Assumptions]], which state that the flow in aquifers can be simplified to horizontal flow and flow through aquitards can be simplified to vertical flow. These assumptions make analyses of three-dimensional groundwater systems much easier. 
