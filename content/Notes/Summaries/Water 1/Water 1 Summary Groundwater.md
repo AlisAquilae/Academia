@@ -313,3 +313,93 @@ This figure shows a schematised flow pattern through a valley between 2 ice-push
 In the figure, 3 aquifers and 2 aquitards are visible. The bottom of the third aquifer is at approximately 100 m below sea level. Water flows mainly horizontally through aquifers and mainly vertically through aquitards. Often, especially for projects at regional scale, the groundwater flow is mainly horizontal. The reason is that the horizontal distances are much larger than the vertical distances. Even though the water fluxes are smaller, vertical water flow is important, especially for local scale and for areas with upward seepage that have vegetation depending on the chemistry of this seepage water.
 
 In 1863, Dupuit made the assumption that for most circumstances the error in the estimation of groundwater flow will be relatively small when the vertical stream component is neglected. Forchheimer continued with his ideas in 1914, which resulted in the so-called [[Dupuit Assumptions]], which state that the flow in aquifers can be simplified to horizontal flow and flow through aquitards can be simplified to vertical flow. These assumptions make analyses of three-dimensional groundwater systems much easier. 
+
+![[Pasted image 20240222220259.jpg]]
+
+This figure at A displays a fictional groundwater flow pattern. Suppose that the soil of every layer is isotropic, so flow lines are perpendicular to the equipotential lines. If we apply the Dupuit assumptions, the flow pattern will change to B
+
+The aquifers only have horizontal water flow and hydraulic head gradients (so vertical equipotential lines); the aquitards only have vertical water flow and hydraulic head gradients (horizontal equipotential lines - not shown)
+
+For the phreatic aquifer, the consequence of the Dupuit assumptions is that each point in a vertical cross-section through the aquifer has the same hydraulic head, which equals the groundwater level there. From groundwater level measurements at several locations, an isohypse map can be constructed and the direction of the horizontal flow in this aquifer (perpendicular to the isohypses) can be found. In addition, the slope of the groundwater table can be used to calculate the flow magnitude.
+
+Vertical flow directions (infiltration or seepage) can be determined by making hydraulic head maps for both aquifers. For each location on the map, the hydraulic head in the top and bottom aquifers are compared. When $H$ is higher in the top aquifer than in the bottom aquifer, infiltration occurs. In this way, spatial patterns of infiltration and seepage can be found. 
+
+---
+# 13. Flow Patterns
+## 13.1 Introduction
+The land surface can be divided into **recharge areas**, where water flows into the ground, and **seepage areas**, where water is exiting the ground. Water can also leave the soil by flowing into channels or drainpipes, through which the water is discharged. The flow towards these drainage systems can follow a fast and short route when the water has infiltrated nearby, or a long route which takes centuries. Maps of [[Equipotential Lines]] and [[Isohypses]] are used to determine which path the water takes. 
+
+>[!Important]
+>Since flow is caused by [[Hydraulic Head]] differences, flow velocities are high when the change in hydraulic head is large over a short distance, which is visible by short distances between equipotential lines or isohypses.
+
+---
+### 13.2 Recharge and Seepage Areas
+
+![[Pasted image 20240222220655.jpg]]
+
+The figure above shows how water flows from a recharge area to a seepage area. The left and right edges of the figure are the water divides: here the groundwater tables are horizontal, so the hydraulic head is the same in the horizontal direction and there is no horizontal flow. In between, the groundwater table slopes, so water flows form right to left. In the recharge area, the volume of water that has to be transported through a vertical cross-section increases when moving away from the water divide (because more water has infiltrated between the water divide and the point of interest). The consequence is that the hydraulic head (and thus the groundwater level) decreases more quickly (the slope of the groundwater table becomes steeper), so water flows faster and a larger volume of water can be transported in the same amount of time. 
+
+>[!Important]
+>Therefore, the slope of the groundwater table is steepest in the middle of the figure, at the transition from the infiltration to seepage area. 
+
+In the seepage area, water is leaving the ground, so less water needs to be transported through the soil when moving from the middle of the figure to the left edge. Therefore, the slope of the water table gradually decreases from the start of  the seepage area towards the left. 
+
+>[!Note]
+>That is why isohypse maps give a good first impression of recharge and seepage areas, which is very relevant to the environmental conditions and vegetation. 
+
+The same can be seen in the following picture, which gives a top view of the isohypse pattern of a homogeneous and isotropic phreatic aquifer below a hill
+
+![[Pasted image 20240222220807.jpg]]
+
+Groundwater recharge takes place by surplus rainfall (= rainfall - evapotranspiration). Between the water divide and the 19 m-isohypse, the isohypses get closer together, which indicates infiltration (a groundwater recharge area), since a steeper slope of the hydraulic head is needed to transport more water. Between the 19 m- and 17 m-isohypses, the isohypses get further apart, which indicates a seepage area.
+
+>[!Summary]
+>When looking at a top view map with isohypses, areas where isohypses get close together hint at an infiltration area, whereas isohypses which move further apart points to a seepage area
+
+---
+## 13.3 Flow to a Drainpipe
+
+![[Pasted image 20240222220926.jpg]]
+
+The figure above displays a net of stationary flow (flow constant in time) to a drainpipe. A drainpipe is a horizontal porous tube which transports soil water rapidly to the surface water system. 
+
+>[!Info]
+>Drainpipes are not only common in delta areas but also in semi-arid regions with irrigation, since surplus water that is needed to prevent salinisation should be drained. Otherwise waterlogging could occur.
+
+The image displays a winter situation with barely any evapotranspiration and a groundwater recharge of 7 mm/d. The left and right side of the figure are symmetry axes through which no water flows (note the horizontal water table). The left side is the middle of the drain and the right side is the water divide (the middle of the field between the drains). Precipitation which falls on the water divide (10 m from the drain) flows downward, then to the left and finally it flows vertically upward as seepage just below the drain. 
+
+Closer to the drain, the slope of the groundwater table becomes steeper. The explanation is the same as previously: the amount of groundwater flow increases with distance from the water divide, because the accumulated recharge is larger. Therefore, the hydraulic head needs to decrease more quickly. As at the groundwater table the the hydraulic head equals the groundwater level, the slope of the groundwater table becomes steeper near the drain. 
+
+The equipotential lines show similar behaviour as the groundwater table: they are closer together near the drain because their gradient is the force behind water flow. However, where an isohypse map only reveals horizontal flow, equipotential lines can also indicate upward water flow to the drains. 
+
+
+---
+## 13.4 Nested Flow Nets
+Knowing the flow direction around drainpipes is useful for field scale applications, but these flows are of minor importance for regional studies (more than tens of km). In a vertical cross-section of a large ares (with flow lines) short and long routes can be distinguished. A landscape often has multiple nested groundwater networks, which means that small networks are part of a bigger network.
+
+>[!Example]
+>For example, in the Netherlands, water flows roughly from the southeast to the northwest (from high to low). Within the elevated areas in the south and the east, however, there is often a pattern of infiltration areas on sandy soils together with seepage areas in the brook valleys. The brook valleys sometimes have ditches and drainpipes, which drain water that has infiltrated nearby
+
+>[!Info]
+>The division into local and regional systems is important because these differences in spatial scales result in differences in temporal scales. In general longer flow routes take more time. The movement of water between 2 ditches never takes more time than some years, while water that is extracted from the border of the Veluwe has infiltrated at the beginning of the Holocene (11,000 years ago). Due to the long residence time, pathogens do not survive and the water quality of this well is excellent. These temporal scales also determine the variability of the stream pattern over time. The flow to ditches changes between years and seasons, while regional flow patterns remain the same for decades or centuries. 
+
+---
+## 13.5 Interpreting Isohypse Maps
+
+![[Pasted image 20240222221025.jpg]]
+
+The figure above displays an isohypse map of a brook that flows into a river. From the 13-m-isohypse to the 7-m-isohypse, the distance between the isohypses becomes smaller, indicating an infiltration area. From the 7-m-isohypse to the 4-m-isohypse, the distance between the isohypses becomes larger, indicating a seepage area. 
+
+These maps usually do not contain flow lines, but they can be drawn perpendicular to the isohypses and reveal the following details:
+- First, the river flows towards the west since the lower hydraulic head decreases in that direction. 
+- At point A, groundwater flows towards the brook. 
+- At point B, something strange happens: the isohypses are close together, indicating a steep groundwater drop. The 9-m-isohypse indicates flow from the brook to the groundwater, while the 8-m-isohypse indicates flow from the groundwater to the brook. Probably there is a weir here, which results in relatively high surface water levels upstream of the weir, while there will be relatively low surface water levels downstream of the weir. The drop in groundwater level is more gradual than the drop in surface water, but causes groundwater flow around the weir. Groundwater tends to bypass weirs and dams! 
+- At point C the isohypses are circular. The values of the isohypses show that the water flows to point C from all directions and then disappears. The only explanation is that at point C groundwater is extracted from the soil. 
+
+---
+# 14. Flow Magnitude
+## 14.1 Introduction
+When the difference in [[Hydraulic Head]] and the material and size of soil layers are known, the amount of water flow can be computed using [[Darcy's Law]]: the most important equation for groundwater hydrology. Darcy's Law can be used to calculate the amount of water flow through soil, both in the horizontal and vertical direction and through both [[Aquifer|Aquifers]] and [[Aquitard|Aquitards]].
+
+---
+## 14.2 Darcy's Law for Horizontal Flow

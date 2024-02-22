@@ -36,3 +36,5 @@ Water flows from the reservoir with the highest water level (and therefore the h
 >>Hence, the pressure in the aquifer near the filter of the bottom piezometer is higher, which is both caused by the pressure of the water column on top and by the pressure resulting from the seepage flux.
 
 Spatial variations in hydraulic head are visualised using [[Equipotential Lines]]
+
+The hydraulic head is used in many formulas which explain groundwater flow, such as [[Darcy's Law]].
