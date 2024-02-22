@@ -480,7 +480,7 @@ $$
 
 
 ---
-### 14.3 Darcy's Law for Vertical Flow
+## 14.3 Darcy's Law for Vertical Flow
 [[Darcy's Law]] can also be used for vertical flow, for example to compute infiltration or seepage flux densities through aquitards. The flux density through the aquitard can be computed with Eq. 14.3. Since the hydraulic heads are measured above and below the aquitard, the distance $\Delta x$ equals the thickness of the layer $D$ in this case. Since aquitards are often characterised by their resistance ($c$), Equations 10.2 and 14.3 are often combined to 
 
 $$
