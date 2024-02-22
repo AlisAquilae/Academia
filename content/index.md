@@ -13,6 +13,7 @@ This site contains clickable links, which redirect to other pages on this site (
 If you read this, I hope it is useful to you and helps you in your studying endeavours
 
 >[!Warning]- Disclaimer
+>
 >Before you continue, I need to make a few disclaimers:
 >- The contents of this website are based on papers, books and readers written and published by third parties. I do not own any of these works. I do not make money from publishing this site, though if you appreciate my work you are always free to buy me a coffee
 >- The summaries are my own work, and therefore are not to be distributed without my explicit consent. 
@@ -41,6 +42,7 @@ That being said, these are the courses which I have followed or intend to follow
 - [[River Flow and Morphology]]
 
 >[!Note]
+>
 >If the links do not open a page, that means I have not yet followed that course
 
 # 🧩 Structure
