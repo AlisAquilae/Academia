@@ -246,3 +246,13 @@ As mentioned earlier, groundwater droplets always experience a positive pressure
 
 ![[Pasted image 20240220230018.jpg]]
 
+The figure above displays the elevation head, pressure head and hydraulic head measured in a [[Phreatic Aquifer]]. The measurements of the piezometer hold for the soil volume directly around the filter since that is where the tube is in connection with the groundwater. The hydraulic head $H$ is constant within the piezometer. This means that the hydraulic head $H$ at the water table is the same as the hydraulic head at the filter. At the groundwater table, $h=0$, so $H=z$ so the hydraulic head in a piezometer is equal to the water level in the piezometer. Note that further down in the piezometer, the elevation head is smaller but the pressure head is higher (a larger water column sitting on the droplet), leading to the same hydraulic head.
+
+>[!Note]
+>
+>The hydraulic head can be measured in the same way in confined aquifers and aquitards. However, the water level in the piezometer may not correspond to the groundwater level, because the groundwater level belongs to another hydrogeologic layer. 
+
+---
+## 11.4 Flow Direction
+Differences in hydraulic heads cause groundwater flow. This is illustrated for two reservoirs with different water levels.
+
