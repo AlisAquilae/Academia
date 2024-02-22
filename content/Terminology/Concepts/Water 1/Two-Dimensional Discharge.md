@@ -1,13 +1,13 @@
 ---
 fileClass: Base, Concepts
 title: 
-Parents: 
+Parents: ["[[Darcy's Law]]", "[[Flux Density]]", "[[Water 1 Summary Groundwater]]"]
 Draft: 
-Status: 
+Status: Done
 aliases: 
-Related Notes: 
-Related Terminology: 
-Related Courses: 
+Related Notes: ["[[Water 1 Summary Groundwater]]"]
+Related Terminology: ["[[Darcy's Law]]", "[[Flux Density]]"]
+Related Courses: ["[[Water 1]]"]
 ---
 The **Two-Dimensional Discharge** ($q$) refers to the [[Discharge]] as calculated using [[Darcy's Law]] when limited to 2 dimensions. In practice, this results in the water flow per unit of width, achieved by taking the groundwater discharge $Q$ and dividing by the soil layer width $B$. This quantity is useful when the vertical cross-section is similar for a longer distance (for example flow under a long dam). It is computed as 
 

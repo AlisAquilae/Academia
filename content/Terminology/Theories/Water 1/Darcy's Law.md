@@ -3,12 +3,12 @@ fileClass: Base, Theories
 title: 
 Parents: ["[[Water 1 Summary Groundwater]]", "[[Discharge]]", "[[Hydraulic Head]]", "[[Two-Dimensional Discharge]]"]
 Draft: 
-Status: 
+Status: Done
 aliases: 
-Authors: 
-Related Notes: 
-Related Terminology: 
-Related Courses: 
+Authors: Darcy
+Related Notes: ["[[Water 1 Summary Groundwater]]"]
+Related Terminology: ["[[Flux Density]]", "[[Two-Dimensional Discharge]]", "[[Conductance]]", "[[Permeability]]"]
+Related Courses: ["[[Water 1]]"]
 ---
 **Darcy's Law** is arguably the most important equation for groundwater hydrology. It is used to calculate the amount of water flow through a soil, both in the horizontal and vertical direction and both through aquifers and aquitards. 
 

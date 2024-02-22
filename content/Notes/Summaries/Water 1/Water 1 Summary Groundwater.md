@@ -65,6 +65,7 @@ Natural vegetation also depends on groundwater, because it requires enough water
 The chemical composition of groundwater has a large effect on vegetation type. Rainwater has a different composition than seepage water (groundwater flowing upwards and out of the ground in valleys) which has been in the soil for centuries or even thousands of years. Some plants require water with the chemical composition of rainwater, while others require water with the chemical composition of seepage water. 
 
 >[!Important]
+>
 >In summary, vegetation requires a combination of location factors that belong to their species. They could require fresh or salty water, wet or dry conditions, nutrient-rich or nutrient-poor conditions, etc. The local groundwater flow conditions determine all of these factors to a large extent. In cases where humans have influenced the regional water management, for example to recover or protect so-called blue grassland vegetation, proper analysis of groundwater flow determines the succes or failure of these measures. 
 
 ---
@@ -330,6 +331,7 @@ Vertical flow directions (infiltration or seepage) can be determined by making h
 The land surface can be divided into **recharge areas**, where water flows into the ground, and **seepage areas**, where water is exiting the ground. Water can also leave the soil by flowing into channels or drainpipes, through which the water is discharged. The flow towards these drainage systems can follow a fast and short route when the water has infiltrated nearby, or a long route which takes centuries. Maps of [[Equipotential Lines]] and [[Isohypses]] are used to determine which path the water takes. 
 
 >[!Important]
+>
 >Since flow is caused by [[Hydraulic Head]] differences, flow velocities are high when the change in hydraulic head is large over a short distance, which is visible by short distances between equipotential lines or isohypses.
 
 ---
@@ -340,6 +342,7 @@ The land surface can be divided into **recharge areas**, where water flows into 
 The figure above shows how water flows from a recharge area to a seepage area. The left and right edges of the figure are the water divides: here the groundwater tables are horizontal, so the hydraulic head is the same in the horizontal direction and there is no horizontal flow. In between, the groundwater table slopes, so water flows form right to left. In the recharge area, the volume of water that has to be transported through a vertical cross-section increases when moving away from the water divide (because more water has infiltrated between the water divide and the point of interest). The consequence is that the hydraulic head (and thus the groundwater level) decreases more quickly (the slope of the groundwater table becomes steeper), so water flows faster and a larger volume of water can be transported in the same amount of time. 
 
 >[!Important]
+>
 >Therefore, the slope of the groundwater table is steepest in the middle of the figure, at the transition from the infiltration to seepage area. 
 
 In the seepage area, water is leaving the ground, so less water needs to be transported through the soil when moving from the middle of the figure to the left edge. Therefore, the slope of the water table gradually decreases from the start of  the seepage area towards the left. 
@@ -354,6 +357,7 @@ The same can be seen in the following picture, which gives a top view of the iso
 Groundwater recharge takes place by surplus rainfall (= rainfall - evapotranspiration). Between the water divide and the 19 m-isohypse, the isohypses get closer together, which indicates infiltration (a groundwater recharge area), since a steeper slope of the hydraulic head is needed to transport more water. Between the 19 m- and 17 m-isohypses, the isohypses get further apart, which indicates a seepage area.
 
 >[!Summary]
+>
 >When looking at a top view map with isohypses, areas where isohypses get close together hint at an infiltration area, whereas isohypses which move further apart points to a seepage area
 
 ---
@@ -502,5 +506,31 @@ Vertical flux densities related to seepage or infiltration can easily be compare
 >>
 
 ---
-### 14.4 Using Isohypse Maps for Darcy's Law
+## 14.4 Using Isohypse Maps for Darcy's Law
 [[Isohypses]] give the groundwater level at certain locations, hence the slope of the groundwater table can be read from isohypse maps. Since in phreatic aquifers the hydraulic head is equal to the groundwater level, the hydraulic head gradient ($\frac{\Delta H}{\Delta x}$) is equal to the slope of the groundwater table. 
+
+![[Pasted image 20240222223539.jpg]]
+
+From the isohypse map above the hydraulic head gradient at point A can be read. The hydraulic head gradient can be computed as the difference between the groundwater levels belonging to the isohypses closest to point A (here $\Delta H=21-20=1$ m) divided by the distance between the isohypses in the flow direction (perpendicular to the isohypses, here 1 km). Hence, the hydraulic head gradient in this example is $\frac{1}{1000}=0.001$.
+
+The hydraulic head gradient can be used as input for Darcy's Law. When the conductivity is known the horizontal flux density at point A can be computed using Eq. 14.3. When the aquifer thickness (or conductance) is known, the 2-dimensional discharge at point A can be computed using Eq. 14.2
+
+>[!Question]
+>Suppose that the conductance of the aquifer at point B (in the image above) is 350 m$^2$/d. Compute the 2-dimensional discharge
+>
+>>[!Check]- Answer
+>>
+>>The distance between the isohypses closest to B is about 800 m. 
+>>
+>>$$
+>>q=kD \, \frac{\Delta H}{\Delta x} =350 \, \frac{21-20}{800} = 0.44 \, \text{m}^2 \, \text{d}^{-1} 
+>>$$
+>>
+
+---
+## 14.5 Using Equipotential Lines for Darcy's Law
+Equipotential lines are often used to compute 2-dimensional discharge in a vertical cross-section. To get the hydraulic head gradient at a certain point, the difference between the $H$-values of the 2 nearest equipotential lines is divided by the distance between them.
+
+In curvilinear square flow nets the distance between equipotential lines equals the distance between flow lines. This simplifies the computation of the 2-dimensional discharge through a flow tube (the area between the 2 flow lines). When applying Eq. 14.2 for a flow tube instead of the entire aquifer, $D$ is replaced with the height of that flow tube. Since this is the same as the distance between the flow lines and thus the distance between the equipotential lines, $D$ is replaced with $\Delta x$, which cancels out against the $\Delta x$ in the hydraulic gradient. The same method can be applied to square flow nets on a horizontal plane (with isohypses or equipotential lines)
+
+---
