@@ -57,5 +57,3 @@ The content of this website is structured as follows:
 - **Practice Questions** are questions related to a specific (part of a) course, a concept or theory (though these are both generally included in the summary or respective note and not written down separately). Most of these questions are from the readers and books or practice exams, though I might come up with my own questions here and there. All practice questions come with answers and explanations
 
 All content is grouped according to the course it relates to. In case content belongs to multiple courses (for example a concept being discussed multiple times), it is allocated to that course which discussed it first.
-
-==Testing==
