@@ -1,14 +1,14 @@
 ---
 fileClass: Base, Courses
 title: 
-Parents: 
+Parents: ["[[index]]"]
 Draft: 
-Status: 
-Course Code: 
-Period: 
-Duration: 
-Timeslot: 
-Year: 
+Status: To Revisit
+Course Code: AEW23803
+Period: 4
+Duration: Whole Period
+Timeslot: Morning
+Year: 2024
 ---
 
 # 🔎 Introduction
