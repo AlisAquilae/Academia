@@ -1,14 +1,14 @@
 ---
 fileClass: Base, Literature Notes
 title: 
-Parents: 
+Parents: ["[[Water 2]]"]
 Draft: 
-Status: 
+Status: In Progress
 Authors: 
-Year of Publication: 
+Year of Publication: 2024
 Related Notes: 
 Related Terminology: 
-Related Courses: 
+Related Courses: ["[[Water 2]]"]
 ---
 ### 1.3.1 Introduction
 Discharge dynamics with their high and low flow periods determine, together with the geology and topography, the shape of channels. Sediment is mainly transported during high water levels, which results in a transformation of the river shape.
@@ -24,12 +24,12 @@ In the course Water 1 we introduced the order numbers according to Strahler ([[S
 If we apply this analysis to a natural catchment, we will discover a notable structure in the data: 
 
 $$
-R_B=\frac{N_i}{N_{i+1}} \tag{2.22}
+R_B=\frac{N_i}{N_{i+1}} \tag{1.22}
 $$
 
 With $R_B$ a constant value. 
 
-We call $R_B$ the ==[[Bifurcation Number]]== (*bifurcation* means splitting). If we repeat this analysis for many catchments in the same geomorpholoigical unit (e.g. the Belgian Ardennes), we will get almost the same bifurcation number for every channel. Even between those geomorphological units, the bifurcation number is relatively constant, with an average value of 3.5. 
+We call $R_B$ the [[Bifurcation Number]] (*bifurcation* means splitting). If we repeat this analysis for many catchments in the same geomorpholoigical unit (e.g. the Belgian Ardennes), we will get almost the same bifurcation number for every channel. Even between those geomorphological units, the bifurcation number is relatively constant, with an average value of 3.5. 
 
 >[!Info]
 >Globally, the bifurcation number roughly varies between 3 and 5, which is a very small spread for what seems to be a randomly established drainage pattern. 
