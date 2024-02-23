@@ -50,7 +50,7 @@ We can subdivide rainfall-runoff models in three types:
 
 >[!missing]
 >
-  >Insert Fig. 2.4
+>Insert Fig. 2.4
 
 
 - **Physically-based models** are based on detailed catchment characteristics and water flow equations, such as [[Darcy's Law]]. These models are often spatially distributed, which means that the catchment is subdivided in cells, which all have their own input series and parameter values. For all these cells, the water flow equations are calculated per time step. This type of model gives more information about the processes which take place at scales that are smaller than the catchment scale. The disadvantage, however, is that these models need much more input data and parameter values than black box and parametric models. 
