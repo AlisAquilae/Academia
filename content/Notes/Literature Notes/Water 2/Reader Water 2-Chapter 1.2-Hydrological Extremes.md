@@ -232,7 +232,7 @@ There are several methods to determine if a water system is in drought and to qu
 
 Just like flood analysis, drought analysis starts with the flow duration curve, from which the discharges for high exceedance probabilities are determines. For perennial rivers (rivers which can carry water year-round, in contrast to ephemeral rivers which run dry) often the Q95 or Q90, the discharges which are exceeded 95 or 90% of the time, are used. The Q95 (or any other exceedance probability) can be determined for the whole year or per month
 
-When the discharge drops below the Q95 (the threshold), the river is considered to be in drought. When the Q95 is computed over and applied to a whole year, this is called a fixed threshold==. For a ==variable threshold==, the Q95 is computed for each month and a moving average is computed to obtain a smooth line. By definition, the river is in drought 5% of the time. 
+When the discharge drops below the Q95 (the threshold), the river is considered to be in drought. When the Q95 is computed over and applied to a whole year, this is called a fixed threshold. For a **variable threshold**, the Q95 is computed for each month and a moving average is computed to obtain a smooth line. By definition, the river is in drought 5% of the time. 
 
 A drought event can be characterised by:
 - Duration: time when the discharge is below the threshold
