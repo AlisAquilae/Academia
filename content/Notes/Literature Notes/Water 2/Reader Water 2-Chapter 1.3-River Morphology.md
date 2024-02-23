@@ -15,11 +15,11 @@ Discharge dynamics with their high and low flow periods determine, together with
 
 In this section, we will go deeper into natural river shapes and river systems, and in what way these shapes and systems depend on the discharge. This knowledge is even important for man-made channels. Nowadays, we often 'design' channels, but we still have to be aware of the natural processes of erosion and sedimentation when doing this. 
 
-We already introduced the calculation of the required [[Discharge]] capacity in the course [[M2.3.1 Water 1 (HWM10303)]] ([[Chézy Equation]]). In this section, we will expand this knowledge with the explanation of river shapes: ==river morphology==. 
+We already introduced the calculation of the required [[Discharge]] capacity in the course [[Water 1]] ([[Chézy Equation]]). In this section, we will expand this knowledge with the explanation of river shapes: **river morphology**. 
 
 ---
 ### 1.3.2 Horton's Geomorphological Laws
-In the course [[M2.3.1 Water 1 (HWM10303)]] we introduced the order numbers according to Strahler ([[Strahler Order Numbering]]). When a river system is ordered according to Strahler's ordering, we can ask ortselves whether dendritic networks have certain universal characteristics. For example, we can calculate the number of links/streams in every order: $N_i$ is the number of links/streams of order $i$; $N_{i+1}$ the number of links of order $i+1$, etc. 
+In the course Water 1 we introduced the order numbers according to Strahler ([[Strahler Order Numbering]]). When a river system is ordered according to Strahler's ordering, we can ask ortselves whether dendritic networks have certain universal characteristics. For example, we can calculate the number of links/streams in every order: $N_i$ is the number of links/streams of order $i$; $N_{i+1}$ the number of links of order $i+1$, etc. 
 
 If we apply this analysis to a natural catchment, we will discover a notable structure in the data: 
 
