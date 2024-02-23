@@ -137,7 +137,7 @@ $$
 
 Subsequently, $- \ln (- \ln (1-p))$ is placed on the x-axis and $Q$ on the y-axis (see the previous picture, right). When the Gumbel distribution is a good estimator of the probability distribution of the annual maxima, all points will lie on one line with slope $\alpha$ and intercept $\mu$. We can easily extrapolate this line.
 
-We can determine the parameters $\mu$ and $\alpha$ graphically (i.e. with a graph), or from measurements. We only need to know the average values $Q_{ave}$ and standard deviation $s$ of $N$ extreme discharges Subsequently, we will find  $\mu$ and $\alpha$ with: 
+We can determine the parameters $\mu$ and $\alpha$ graphically (i.e. with a graph), or from measurements. We only need to know the average values $Q_{ave}$ and standard deviation $s$ of $N$ extreme discharges. Subsequently, we will find  $\mu$ and $\alpha$ with: 
 
 $$
 \alpha = \frac{\sqrt{6}}{\pi}s \tag{1.14}
@@ -246,5 +246,5 @@ Drought does not only occur in the river itself. Therefore, we distinguish 4 typ
 4. The fourth type, **streamflow drought**, considers low river discharges, so this is the type of drought mentioned before. Because rain water takes both fast and slow routes towards the surface water network, the dynamics (attenuation and delay) of discharge droughts are between precipitation drought and groundwater drought. Streamflow drought is the most important type for aquatic ecosystems, navigation and hydro-power dams. 
 
 >[!Note]
->Besides lack of precipitation, a change in temperature can also lead to drought. When evapotranspiration is higher than normal,. a soil moisture drought may occur while there is no precipitation drought. 
+>Besides lack of precipitation, a change in temperature can also lead to drought. When evapotranspiration is higher than normal, a soil moisture drought may occur while there is no precipitation drought. 
 
