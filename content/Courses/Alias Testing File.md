@@ -19,11 +19,13 @@ Year:
 >>
 >>Callout used: example
 
+
 >[!Notes]
 >Callout used: Notes
 >
 >>[!Note]
 >>Callout used: Note
+
 
 >[!Summaries]
 >
@@ -43,6 +45,7 @@ Year:
 >>
 >>Callout used: TLDR
 
+
 >[!Info]
 >
 >Callout used: Info
@@ -55,6 +58,7 @@ Year:
 >>[!Todo]
 >>
 >>Callout used: Todo
+
 
 >[!Hint]
 >Callout used: Hint
@@ -71,6 +75,7 @@ Year:
 >>
 >>Callout used: Important
 
+
 >[!Success]
 >Callout used: Success
 >
@@ -85,6 +90,7 @@ Year:
 >>[!Done]
 >>Callout used: Done
 
+
 >[!Question]
 >Callout used: Question
 >
@@ -96,6 +102,7 @@ Year:
 >
 >>[!FAQ]
 >>Callout used: FAQ
+
 
 >[!Failure]
 >Callout used: Failure
@@ -109,6 +116,7 @@ Year:
 >>[!Missing]
 >>Callout used: missing
 
+
 >[!Error]
 >Callout used: Error
 >
@@ -117,6 +125,7 @@ Year:
 >
 >>[!danger]
 >>Callout used: danger
+
 
 >[!Bug]
 >Callout used: Bug
