@@ -1,6 +1,6 @@
 ---
 fileClass: Base, Concepts
-aliases: 
+aliases: Horton Infiltration Model
 Related Terminology: ["[[Surface Runoff]]"]
 Related Notes: ["[[Water 1 Summary Catchments]]"]
 Related Courses: ["[[Water 1]]"]

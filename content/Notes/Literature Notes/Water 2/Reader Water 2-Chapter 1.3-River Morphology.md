@@ -29,7 +29,7 @@ $$
 
 With $R_B$ a constant value. 
 
-We call $R_B$ the [[Bifurcation Number]] (*bifurcation* means splitting). If we repeat this analysis for many catchments in the same geomorpholoigical unit (e.g. the Belgian Ardennes), we will get almost the same bifurcation number for every channel. Even between those geomorphological units, the bifurcation number is relatively constant, with an average value of 3.5. 
+We call $R_B$ the **Bifurcation Number** (*bifurcation* means splitting). If we repeat this analysis for many catchments in the same geomorphological unit (e.g. the Belgian Ardennes), we will get almost the same bifurcation number for every channel. Even between those geomorphological units, the bifurcation number is relatively constant, with an average value of 3.5. 
 
 >[!Info]
 >Globally, the bifurcation number roughly varies between 3 and 5, which is a very small spread for what seems to be a randomly established drainage pattern. 
@@ -39,19 +39,19 @@ We call $R_B$ the [[Bifurcation Number]] (*bifurcation* means splitting). If we 
 
 Also, other transportation networks have similar bifurcation numbers: trees have an average of 3.2, lightning splits with an average ratio of 3.5 and our blood vessels have an $R_B$ of 3.4. Hence, nature gives us a clear ordering in seemingly chaotic transporting systems
 
-Equation 2.22 is called [[Horton's Geomorphological Law]], also called the [[Horton's Geomorphological Law|Bifurcation Law of Drainage Patterns]]. Since we have an order for every interior and exterior link of the river system, we can extend our analysis with the average length of channels with a certain order, or even the average slope of channels and the average drainage area of a certain order.
+Equation 2.22 is called [[Horton's Law of Stream Numbers]], also called the **Bifurcation Law of Drainage Patterns**. Since we have an order for every interior and exterior link of the river system, we can extend our analysis with the average length of channels with a certain order, or even the average slope of channels and the average drainage area of a certain order.
 
 We can calculate the average length of the channel of order $i$ with the arithmetic mean: 
 
 $$
-\bar{L}_i=\frac{1}{N} \sum_{j=1}^N L_{ij} \tag{2.23}
+\bar{L}_i=\frac{1}{N} \sum_{j=1}^N L_{ij} \tag{1.23}
 $$
 
 
 The ratio of the average lengths for increasing orders in a catchment also gives constant values: 
 
 $$
-R_L=\frac{\bar{L}_i}{\bar{L}_{i-1}} \tag{2.24} 
+R_L=\frac{\bar{L}_i}{\bar{L}_{i-1}} \tag{1.24} 
 $$
 
 with $R_L$ the so-called ==length ratio number==. The value for $R_L$ is between 1.5 and 3.5 for natural watercourses. The average length ratio number is 2 for catchments
@@ -61,13 +61,13 @@ We call this [[Horton's Geomorphological Law]] as well. The average length of a 
 Even for the average slope of channels in a certain order, we can find a geometrical constant ratio. This is Horton's third geomorphological law: 
 
 $$
-R_S=\frac{\bar{S}_i}{\bar{S}_{i+1}} \tag{2.25}
+R_S=\frac{\bar{S}_i}{\bar{S}_{i+1}} \tag{1.25}
 $$
 
 with $R_S$ the ==slope ratio number==. The average slope of channels with Strahler order $i$ can be calculated with: 
 
 $$
-\bar{S}_i=\frac1N \sum_{j=1}^N S_{ij} \tag{2.26} 
+\bar{S}_i=\frac1N \sum_{j=1}^N S_{ij} \tag{1.26} 
 $$
 
 
@@ -77,14 +77,14 @@ $$
 If we define the average drainage area for a given Strahler order as: 
 
 $$
-\bar{A}_i=\frac1N \sum_{j=1}^N A_{ij} \tag{2.27} 
+\bar{A}_i=\frac1N \sum_{j=1}^N A_{ij} \tag{1.27} 
 $$
 
 
 then we will be able to formulate the ==surface ratio number== $R_A$ as: 
 
 $$
-R_A=\frac{\bar{A}_ i}{\bar{A}_{i-1}} 
+R_A=\frac{\bar{A}_ i}{\bar{A}_{i-1}} \tag{1.28}
 $$
 
 
@@ -106,7 +106,7 @@ Deterministic models as used in hydrology and hydraulics (river mechanics) use m
 Classical mechanics are based on [[Newton's Second Law of Motion]]: 
 
 $$
-\overrightarrow{F}=m\overrightarrow{a} \tag{2.29}
+\overrightarrow{F}=m\overrightarrow{a} \tag{1.29}
 $$
 
 
@@ -125,14 +125,14 @@ $$
 & \sum F_x=0 \\
 & \sum F_y=0 \\
 & \sum F_z=0 \\
-\end{align} \tag{2.30}
+\end{align} \tag{1.30}
 $$
 
 
 Or, in vector notation: 
 
 $$
-\sum \overrightarrow{F} = (0,0,0) \tag{2.31} 
+\sum \overrightarrow{F} = (0,0,0) \tag{1.31} 
 $$
 
 
@@ -145,21 +145,21 @@ $$
 & \sum M_x=0 \\
 & \sum M_y=0 \\
 & \sum M_z=0 \\
-\end{align} \tag{2.32}
+\end{align} \tag{1.32}
 $$
 
 
 Or, in vector notation: 
 
 $$
-\sum \overrightarrow{M} = (0,0,0) \tag{2.33} 
+\sum \overrightarrow{M} = (0,0,0) \tag{1.33} 
 $$
 
 
 ==Torque== is the product of a force times the arm (distance) of that force, or in vector notation: 
 
 $$
-\overrightarrow{M} = \overrightarrow{r} \times \overrightarrow{F} \tag{2.34} 
+\overrightarrow{M} = \overrightarrow{r} \times \overrightarrow{F} \tag{1.34} 
 $$
 
 
@@ -173,7 +173,7 @@ When the water movement exceeds the threshold for movement of the sand particle,
 Also in dynamics, where we try to quantify water movement and the transport of sediments, the second law of Newton is important. We will have to rewrite Eq. 2.29 in order to use this equation for a liquid: 
 
 $$
-\overrightarrow{F} = m\overrightarrow{a} = \frac{\delta}{\delta t}(m\overrightarrow{v} \,) \tag{2.35}
+\overrightarrow{F} = m\overrightarrow{a} = \frac{\delta}{\delta t}(m\overrightarrow{v} \,) \tag{1.35}
 $$
 
 
@@ -229,7 +229,7 @@ Also between the meander length and the average radius of the curvature (the wid
 If we want to mathematically describe the shape of regular meanders, we have to use an equation which strives for a distribution of changes that is as evenly distributed as possible. Leopold et al. (1995) argued that the best mathematical model for this is a so-called sinusoidal curve: 
 
 $$
-\Theta = \Theta_\text{max} \Bigl( 2 \pi \frac sM \Bigr) \tag{2.36} 
+\Theta = \Theta_\text{max} \Bigl( 2 \pi \frac sM \Bigr) \tag{1.36} 
 $$
 
 With
@@ -264,14 +264,14 @@ The figure above displays 2 cross-sections (one close to the source and one clos
 If we follow the river from source to outlet (so from C top D in the figure above), then we see that the sizes of the cross-sections will gradually increase. This is because the discharge (and also the bankfull discharge) increases with an increasing draining surface area of the river. Based on a long dataset of discharge measurements, Leopold et al. (1995) concluded that there is an almost linear relationship between the average annual discharge and the drainage area: 
 
 $$
-Q_{\text{avg}} \cong A^{1.03} \tag{2.37} 
+Q_{\text{avg}} \cong A^{1.03} \tag{1.37} 
 $$
 
 
 The bankfull discharge $Q_{\text{eff}}$ increases non-linearly with the drainage area: 
 
 $$
-Q_{\text{eff}} \cong A^{0.8} \tag{2.38}  
+Q_{\text{eff}} \cong A^{0.8} \tag{1.38}  
 $$
 
 
