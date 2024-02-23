@@ -237,28 +237,28 @@ $$
 Followed by an integration to $t$ : 
 
 $$
-\ln \, \bar{H}=-\frac{c^*}{\mu A}+ C \tag{2.7} 
+\ln \, \bar{H}=-\frac{c^*}{\mu A}+ C \tag{1.7} 
 $$
 
 
 With C the integration constant. So, the following holds: 
 
 $$
-\bar{H}(t)=e^C e^{-\frac{c^*}{\mu A}t} \tag{2.8}
+\bar{H}(t)=e^C e^{-\frac{c^*}{\mu A}t} \tag{1.8}
 $$
 
 
 We indicate the groundwater level at the start of the recession with $\bar{H}_0$. At time $t=0$, the following holds: $\bar{H}(0) = \bar{H}_0$, and thus: 
 
 $$
-\bar{H}_t =H_0 \, e^{-\frac{c^*}{\mu A}t} \tag{2.9}
+\bar{H}_t =H_0 \, e^{-\frac{c^*}{\mu A}t} \tag{1.9}
 $$
 
 
 If we use this in equation 2.3, and $Q_0 = c^* \cdot \bar{H}_0$, we find 
 
 $$
-Q(t) = Q_0 \, \cdot e^{-\frac{c^*}{\mu A}t} \tag{2.10} 
+Q(t) = Q_0 \, \cdot e^{-\frac{c^*}{\mu A}t} \tag{1.10} 
 $$
 
 
