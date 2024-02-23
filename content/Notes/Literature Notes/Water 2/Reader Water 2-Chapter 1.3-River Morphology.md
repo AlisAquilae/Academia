@@ -56,7 +56,7 @@ $$
 
 with $R_L$ the so-called ==length ratio number==. The value for $R_L$ is between 1.5 and 3.5 for natural watercourses. The average length ratio number is 2 for catchments
 
-We call this [[Horton's Geomorphological Law]] as well. The average length of a channel doubles (approximately) per increasing order. With an increasing Strahler order, the number of channels in this order will decrease until we reach a point where we can no longer accurately determine the average length of the channel in that order. Therefore, this ratio is often no longer constant for higher Strahler orders. 
+We call this [[Horton's Law of Stream Length]]. The average length of a channel doubles (approximately) per increasing order. With an increasing Strahler order, the number of channels in this order will decrease until we reach a point where we can no longer accurately determine the average length of the channel in that order. Therefore, this ratio is often no longer constant for higher Strahler orders. 
 
 Even for the average slope of channels in a certain order, we can find a geometrical constant ratio. This is Horton's third geomorphological law: 
 
