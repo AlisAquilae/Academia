@@ -40,7 +40,7 @@ Besides causing floods, extreme precipitation events can also lead to landslides
 
 ---
 ### 1.2.3 Flow Duration Curve
-If our discharge time series at a certain location along the river is long enough, we will be able to construct ==[[Flow Duration Curves]]== which describe the relationship between certain discharge amounts and the ==exceedance probability== of these discharge amounts. Obviously, a small discharge has a higher probability of exceedance than a large discharge amount. 
+If our discharge time series at a certain location along the river is long enough, we will be able to construct [[Flow Duration Curves]] which describe the relationship between certain discharge amounts and the **exceedance probability** of these discharge amounts. Obviously, a small discharge has a higher probability of exceedance than a large discharge amount. 
 
 To design a flow duration curve, we will have to follow the following steps. 
 1. Choose a time interval $\Delta t$ for which you want to design the flow duration curve (e.g. a number of days)
@@ -52,9 +52,11 @@ To design a flow duration curve, we will have to follow the following steps.
 >[!Missing]
 >Insert Fig. 2.13
 
-The figure above displays the ==dimensionless flow duration curve== (sometimes called exceedence plot) of daily discharge amounts for the Rhine, Meuse, Hupsel Brook and Rietholzbach. We can obtain dimensionless flow duration curves by dividing daily discharges by the average discharge ($Q/Q_{ave}$), followed by plotting these values on the Y-axis. With the flow duration curve, we can determine the frequency of occurrence of certain characteristic discharges. 
+The figure above displays the **dimensionless flow duration curve** (sometimes called exceedence plot) of daily discharge amounts for the Rhine, Meuse, Hupsel Brook and Rietholzbach. We can obtain dimensionless flow duration curves by dividing daily discharges by the average discharge ($Q/Q_{ave}$), followed by plotting these values on the Y-axis. With the flow duration curve, we can determine the frequency of occurrence of certain characteristic discharges. 
 
-We can also determine the average daily discharge from these curves. In dimensionless flow duration curves, we can find this at $Q/Q_{ave}=1$. 
+>[!Important]
+>
+>We can also determine the average daily discharge from these curves. In dimensionless flow duration curves, we can find this at $Q/Q_{ave}=1$. 
 
 >[!Info]
 >For most rivers, the average daily discharge is exceeded about 30% of the time (about 100 days a year). Hence, the average daily discharge is actually a relatively high discharge
@@ -73,14 +75,14 @@ If we compare the hydrographs and dimensionless flow duration curves of the Meus
 ---
 ### 1.2.4 Extreme Value Statistics
 #### 1.2.4.1 Exceedance Probabilities and Return Periods
-The ==exceedance probability== of a certain discharge is the probability that this discharge will be exceeded during a (random) year at a certain location. Another way to express this, is by determining the ==return period== of that discharge. The return period is a way to express how many years we have to wait (on average) before a certain discharge will take place again. The exceedence probability $p$ (per year) during a certain year and the return period $T$ (in years) relate to each other in the following way: 
+The **exceedance probability** of a certain discharge is the probability that this discharge will be exceeded during a (random) year at a certain location. Another way to express this, is by determining the **return period** of that discharge. The return period is a way to express how many years we have to wait (on average) before a certain discharge will take place again. The exceedence probability $p$ (per year) during a certain year and the return period $T$ (in years) relate to each other in the following way: 
 
 $$
-T=\frac{1}{p} \tag{2.11} 
+T=\frac{1}{p} \tag{1.11} 
 $$
 
 
-The determination of the exceedance probabilities and the return periods of certain high flows is crucial for our protection against floods. Dike heights in the Netherlands, for example, are based on the so-called ==design discharge== of the river. A design discharge is the discharge that corresponds to a certain return period. The government decides what this return period should be. Subsequently, we determine the design water levels from the design discharge, which eventually determines the dike heights. 
+The determination of the exceedance probabilities and the return periods of certain high flows is crucial for our protection against floods. Dike heights in the Netherlands, for example, are based on the so-called **design discharge** of the river. A design discharge is the discharge that corresponds to a certain return period. The government decides what this return period should be. Subsequently, we determine the design water levels from the design discharge, which eventually determines the dike heights. 
 
 >[!Info]
 >The return period used to determine the design discharge for the large rivers in the Netherlands is 2000 years. Hence, here, dikes should have a height which should be sufficient to assume that only once every 2000 years a flood can take place. 
@@ -98,15 +100,15 @@ For extreme value statistics, we start with selecting the annual (yearly) maxima
 >[!Missing]
 >Insert Fig. 2.14
 
-We call this a ==[[Cumulative Probability Distribution]]==. By interpolating the results, we can easily find the corresponding annual maximum discharge for a certain probability exceedance (e.g. 10%). For 10%, we find $9.4 \times 10^3$ m$^3$ s$^{-1}$ for the Rhine. The corresponding return period is then (see Eq. 2.11) $T=10$ years. So on average, once every 10 years a discharge of $9.4 \times 10^3$  m$^3$ s$^{-1}$ or more occurs in the Rhine river. 
+We call this a [[Cumulative Probability Distribution]]. By interpolating the results, we can easily find the corresponding annual maximum discharge for a certain probability exceedance (e.g. 10%). For 10%, we find $9.4 \times 10^3$ m$^3$ s$^{-1}$ for the Rhine. The corresponding return period is then (see Eq. 2.11) $T=10$ years. So on average, once every 10 years a discharge of $9.4 \times 10^3$  m$^3$ s$^{-1}$ or more occurs in the Rhine river. 
 
 The largest return period which we can read from the figure above is $N=1=108$ years. This means that, if we want to determine a design discharge for a larger return period, we will have to extrapolate this graph to the left. That is extremely difficult. Actually, with this method, it is not even possible to determine the design of discharge of the Rhine at Lobith for a return period of 1250 years. Nevertheless, for water safety, we want to be able to estimate a design discharge for a return period longer than the available time series. This means that we are going to determine the probability of a certain event that has never been experienced. To make such an extrapolation possible, we use extreme value statistics.
 
 #### 1.2.4.4 Gumbel Distribution
-We can fit a probability distribution through annual maxima (or maxima above a certain value), which allows us to estimate the precipitation sums that correspond to certain return periods. An often used probability distribution for this purpose is the ==[[Gumbel Distribution]]==: 
+We can fit a probability distribution through annual maxima (or maxima above a certain value), which allows us to estimate the precipitation sums that correspond to certain return periods. An often used probability distribution for this purpose is the [[Gumbel Distribution]]: 
 
 $$
-x(p)=\mu - \alpha \ln(1 - \ln (1-p)) \tag{2.12} 
+x(p)=\mu - \alpha \ln(1 - \ln (1-p)) \tag{1.12} 
 $$
 
 Where:
@@ -116,16 +118,17 @@ Where:
 
 Both $\mu$ and $\alpha$ are empirical parameters with the same unit as $x$
 
-Usually, we transform $p$ before plotting it. The transformed value of $p$ is cvalled the ==[[Gumbel Reduced Variate]]== ($y$): 
+Usually, we transform $p$ before plotting it. The transformed value of $p$ is called the [[Gumbel Reduced Variate]] ($y$): 
 
 $$
-y(p)=-\ln (-\ln (1-p)) \tag{2.13} 
+y(p)=-\ln (-\ln (1-p)) \tag{1.13} 
 $$
 
 
 And with that, Eq. 2.12 turns into 
 
-$$x(y)=\mu + \alpha y 
+$$
+x(y)=\mu + \alpha y 
 $$
 
 
@@ -137,36 +140,36 @@ Subsequently, $- \ln (- \ln (1-p))$ is placed on the x-axis and $Q$ on the y-axi
 We can determine the parameters $\mu$ and $\alpha$ graphically (i.e. with a graph), or from measurements. We only need to know the average values $Q_{ave}$ and standard deviation $s$ of $N$ extreme discharges Subsequently, we will find  $\mu$ and $\alpha$ with: 
 
 $$
-\alpha = \frac{\sqrt{6}}{\pi}s \tag{2.14}
+\alpha = \frac{\sqrt{6}}{\pi}s \tag{1.14}
 $$
 
 And 
 
 $$
-\mu = Q_{ave}-0.5772 \alpha \tag{2.15} 
+\mu = Q_{ave}-0.5772 \alpha \tag{1.15} 
 $$
 
 
 From equation 2.12 we are now able to calculate the discharge that corresponds to a certain return period. Here, we assume measurements follow the Gumbel distribution, even for extreme values which we have never measured. Besides, we also assume that this distribution holds for future values. The parameters  $\mu$ and $\alpha$ can, however, change due to for example changes in the upstream part of the river. A change in land use or climate cal also result in different values for the parameters of this distribution. Therefore, our current estimations of the discharges for return periods of 1250 years or more has quite some uncertainty. 
 
 #### 1.2.4.5 GEV Distribution
-The Gumbel distribution is often used for extreme precipitation sums, but this distribution is actually not suited for this purpose, because it underestimates the precipitation sum for large return periods. The ==[[GEV Distribution]]== or [[GEV Distribution|Generalised Extreme Value Distribution]] is a better way to estimate this upper tail of the probability distribution. Beside the location parameter $\mu$ in mm and scale parameter $\alpha$ in mm, the GEV distribution also has a shape parameter $k$ (no unit)
+The Gumbel distribution is often used for extreme precipitation sums, but this distribution is actually not suited for this purpose, because it underestimates the precipitation sum for large return periods. The [[GEV Distribution]] or [[GEV Distribution|Generalised Extreme Value Distribution]] is a better way to estimate this upper tail of the probability distribution. Beside the location parameter $\mu$ in mm and scale parameter $\alpha$ in mm, the GEV distribution also has a shape parameter $k$ (no unit)
 
 >[!Missing]
 >Insert Fig. 2.15
 
 The GEV distribution combines three asymptotic extreme values distribution with the value for $k$: the Gumbel distribution when $k=0$, the [[Fréchet Distribution]] when $k \lt 0$ and the [[Weibull Distribution]] when $k \gt 0$. The Fréchet distribution has a longer tail than the Gumbel distribution, while the Weibull distribution has a shorter tail.
 
-The ==[[Quantile Function]]==, with which we can calculate the precipitation sum for a certain exceedance probability, equals for a GEV distribution with $k\not= 0$: 
+The [[Quantile Function]], with which we can calculate the precipitation sum for a certain exceedance probability, equals for a GEV distribution with $k\not= 0$: 
 
 $$
-x(p)= \mu + \frac{\alpha \{1- [- \ln (1-p)]^k \}}{k} \tag{2.16}
+x(p)= \mu + \frac{\alpha \{1- [- \ln (1-p)]^k \}}{k} \tag{1.16}
 $$
 
 We often simplify this equation to: 
 
 $$
-x(y)=\mu + \alpha \frac{1-\exp(=ky)}{k} \tag{2.17} 
+x(y)=\mu + \alpha \frac{1-\exp(=ky)}{k} \tag{1.17} 
 $$
 
 With $y$ again being the Gumbel reduced variate (Eq. 2.13)
@@ -174,10 +177,10 @@ With $y$ again being the Gumbel reduced variate (Eq. 2.13)
 In order to obtain $\alpha$, $\mu$ and $k$ for a certain location, we have to fit the GEV distribution for annual maxima. For this, we need a dataset with many years of data (> 100 years), which is often not available. 
 
 ### 1.2.5 Rainfall Depth-Duration-Frequency Curves
-Often, we present extreme precipitation statistics as ==[[Rainfall Depth-Frequency Curves]]==, also called [[Rainfall Depth-Frequency Curves|DDF Curves]]. These curves give for different return periods or exceedence probabilities, the precipitation sum as a function of the event duration. Especially for short durations, the precipitation intensity is often used instead of the precipitation sum ([[Rainfall Intensity-Duration-Frequency Curves]]; [[Rainfall Intensity-Duration-Frequency Curves|IDF Curves]]). The method to determine both types is comparable. In the next section, we will explain how we can derive rainfall DDF curves
+Often, we present extreme precipitation statistics as [[Rainfall Depth-Frequency Curves]], also called [[Rainfall Depth-Frequency Curves|DDF Curves]]. These curves give for different return periods or exceedence probabilities, the precipitation sum as a function of the event duration. Especially for short durations, the precipitation intensity is often used instead of the precipitation sum ([[Rainfall Intensity-Duration-Frequency Curves]]; [[Rainfall Intensity-Duration-Frequency Curves|IDF Curves]]). The method to determine both types is comparable. In the next section, we will explain how we can derive rainfall DDF curves
 
 #### 1.2.5.1 Extreme Value Statistics of Spatial Precipitation
-For hydrological purposes, one is often not interested in point measurements of precipitation sums, but rather in the precipitation sum of an entire catchment. We can use radar to determine the rainfall depth-duration-frequency curves of larger surface areas. For extreme values, the average precipitation sum significantly decreased with increasing surface area (for the same $D$ and $T$). We can describe this decrease by making use of the smallest available surface area, which gives us ==Areal Reduction Factors==. Areal reduction factors are small for small durations, for which the extreme sums are caused by severe and local (convective) showers, which can only affect a small area for a short duration.
+For hydrological purposes, one is often not interested in point measurements of precipitation sums, but rather in the precipitation sum of an entire catchment. We can use radar to determine the rainfall depth-duration-frequency curves of larger surface areas. For extreme values, the average precipitation sum significantly decreased with increasing surface area (for the same $D$ and $T$). We can describe this decrease by making use of the smallest available surface area, which gives us **Areal Reduction Factors**. Areal reduction factors are small for small durations, for which the extreme sums are caused by severe and local (convective) showers, which can only affect a small area for a short duration.
 
 ---
 ### 1.2.6 Using Rainfall Depth-Duration-Frequency Curves for Design
@@ -188,7 +191,7 @@ The first step is to determine the acceptable inundation risk. This depends on l
 During intensive rainfall events, water should be either stored or discharged, as the other water balance terms (evapotranspiration, and possibly surface water supply, groundwater flor or additional sources or sinks) are negligible. The water balance simplifies to: 
 
 $$
-\sum P= \sum Q + \Delta S \tag{2.21}
+\sum P= \sum Q + \Delta S \tag{1.21}
 $$
 
 
@@ -219,7 +222,7 @@ As with every model the DDF method is a simplification of reality. Important sim
 - Precipitation is assumed to be discharged directly. With snow, a low rainfall intensity or an unsaturated soil with high infiltration capacity, this is not the case. That is why this method is mostly used for urban areas and polders with high groundwater tables and clay or peat soils
 - The DDF method is an event-based method, in which you evaluate if an area is able to discharge the rain from one event. Initial wetness factors are not taken into account, which means that if the groundwater and surface water levels before the event are high because the the water from an earlier storm has not been discharged yet, a rainfall event with a lower return period can cause floods, because the storage capacity is smaller. 
 - In reality, the distribution of rainfall over time will never follow the shape of the DDF curve. For example, it is possible that in the first hour the event has a return period of one month, in the second 20 years, etc., which together leads to a 24 hour rainfall sum with a return period of one year
-- For large areas, the areal reduction factors for DDF curves shouls be applied to avoid overestimation of the necessary discharge or storage capacity.
+- For large areas, the areal reduction factors for DDF curves should be applied to avoid overestimation of the necessary discharge or storage capacity.
 
 Even given these drawbacks, the DDF method is much used in practice, because it is an easy way to obtain a first estimate of the necessary discharge or storage capacity without having to set up and run a more complex hydrological model. 
 
@@ -229,7 +232,7 @@ There are several methods to determine if a water system is in drought and to qu
 
 Just like flood analysis, drought analysis starts with the flow duration curve, from which the discharges for high exceedance probabilities are determines. For perennial rivers (rivers which can carry water year-round, in contrast to ephemeral rivers which run dry) often the Q95 or Q90, the discharges which are exceeded 95 or 90% of the time, are used. The Q95 (or any other exceedance probability) can be determined for the whole year or per month
 
-When the discharge drops below the Q95 (the threshold), the river is considered to be in drought. When the Q95 is computed over and applied to a whole year, this is called a ==fixed threshold==. For a ==variable threshold==, the Q95 is computed for each month and a moving average is computed to obtain a smooth line. By definition, the river is in drought 5% of the time. 
+When the discharge drops below the Q95 (the threshold), the river is considered to be in drought. When the Q95 is computed over and applied to a whole year, this is called a fixed threshold==. For a ==variable threshold==, the Q95 is computed for each month and a moving average is computed to obtain a smooth line. By definition, the river is in drought 5% of the time. 
 
 A drought event can be characterised by:
 - Duration: time when the discharge is below the threshold
