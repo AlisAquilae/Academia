@@ -21,7 +21,7 @@ This course introduces the occurrence, movement and quality of water over the la
 # 📖 Course Material
 The literature for this course consists of a reader which has been divided into 3 parts with 8 chapters each
 
-## Catchments
+## 1. Catchments
 This chapter introduces the most important concepts of catchment hydrology. A catchment's functioning is largely determined by its landscape characteristics (1.1) and the channel network (1.2). Together with the climate (1.3) they determine which rainfall-runoff processes occur (1.4) and whether water is stored (1.5) or discharged (flowing out of the catchment through the river, 1.6). Finally, we will explain the two most important methods to analyse the behaviour of a catchment: the hydrograph (the way in which river discharge changes in time, 1.7) and the water balance (the amount of water that flows in and out of a catchment, 1.8)
 
 - [[Reader Water 1-Chapter 1.1-Catchment Characteristics]]
@@ -33,7 +33,7 @@ This chapter introduces the most important concepts of catchment hydrology. A ca
 - [[Reader Water 1-Chapter 1.7-Hydrograph]]
 - [[Reader Water 1-Chapter 1.8-Water Balance]]
 
-## Groundwater
+## 2. Groundwater
 This chapter focuses on the 'hidden half' of the hydrological cycle: groundwater. After ice caps, most fresh water in the world is stored in the ground, from which it can be extracted for various purposes (2.1). Water in the ground is moving constantly, caused by differences in hydraulic head (the total energy of a water droplet, 2.3) and affected by the properties of soil layers (2.2). The flow directions can be visualised on maps with isohypes and equipotential lines (lines with equal hydraulic head, 2.4) and from these maps flow patterns can be derived (2.5). The amount of flow and the time water spends in the soil (2.8) can be computed with [[Darcy's Law]] (2.6) or a water balance approach (2.7)
 
 - [[Reader Water 1-Chapter 2.1-Groundwater Usage]]
@@ -45,7 +45,7 @@ This chapter focuses on the 'hidden half' of the hydrological cycle: groundwater
 - [[Reader Water 1-Chapter 2.7-Water Balance Approach]]
 - [[Reader Water 1-Chapter 2.8-Residence Time]]
 
-## Aquatic Ecosystems
+## 3. Aquatic Ecosystems
 In the previous chapters we discussed the origin and flow of surface water and groundwater. These have shown the importance of good water management to balance supply and demand. But water quality is also of great importance for a functional water body. The communities of organisms living in the water that are dependent on each other and on their environment are called an aquatic ecosystem. Furthermore, the species composition of plants and animals under water can tell you a lot about the condition of the water body.
 
 An ecosystem is composed of biotic communities that are structured by biological interactions and abiotic environmental factors. Some of the most important abiotic environmental factors of aquatic ecosystems include substrate type, water depth, nutrient levels, temperature, salinity and flow. It is often difficult to determine the relative importance of these factors without rather large experiments. Nowadays, we are aware that the community composition represents the water quality of the past time period. Moreover, plants and animals affect their environment as so-called 'ecosystem-engineers' Moreover, there also may be complicated feedback loops. For example, sediment may determine the presence of aquatic plants, but aquatic plants may also trap sediment, which contributes to water clarity. Due to these complex relationships different water bodies have different species communities connected to their abiotic environments. And such systems can only be understood when studied as a whole. 
