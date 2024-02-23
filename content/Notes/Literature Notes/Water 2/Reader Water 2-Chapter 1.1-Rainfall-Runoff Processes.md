@@ -48,7 +48,8 @@ We can subdivide rainfall-runoff models in three types:
 - **Parametric Models** or parameter-based models are based on simplified representationos of catchment processes with often reservoirs, fluxes (variables that flow, such as precipitation or drainage), states (variables that do not flow, such as water level) and paramaters (which determine the relationship between variables). The structure of the model is fixed and more complex than the structure of black box models. A more complex structure results in a simulation of more processes, but this also results in more parameters. Parameters are sometimes environmental characteristics of an area (such as the [[Permeability|Conductivity]] of a soil), but some parameters are also quite abstract (such as the relative share of the quick-discharge processes). We often subdivide large catchments into smaller catchments (e.g. due to spatial variation in precipitation or soil types). We often use parametric models to study the effect of climate change or to forecast river discharges in scarcely measured catchments
 
 
-  >[!missing]
+>[!missing]
+>
   >Insert Fig. 2.4
 
 
@@ -56,6 +57,7 @@ We can subdivide rainfall-runoff models in three types:
 
 
 >[!missing]
+>
 >Insert Fig. 2.5
 
 
@@ -130,6 +132,7 @@ When not all water can infiltrate in the soil after a rain shower or a snow-melt
 The effect of a rain shower with an intensity that exceeds the infiltration capacity is illustrated in the following figure
 
 >[!missing]
+>
 >Insert Fig. 2.6
 
 Assume that we are dealing with a rain shower of a constant intensity (e.g. 10 mm/h) which falls on a relatively dry soil. The initial soil moisture content is displayed in the soil moisture profile at time $t_0$. Since the soil is relatively dry at the start, all precipitation will be able to infiltrate. 
@@ -155,6 +158,7 @@ Summarising the requirements to get Hortonian overland flow due to an infniltrat
 If the conductivity of the soil is high enough to let all water infiltrate during most rain showers (also severe ones), Horton's principles can no longer explain the formation of ponds and surface runoff. Surface runoff, however, does occur in catchments with very permeable soils and even in climates with low precipitation intensities. How is this possible? Let's look at the following figure
 
 >[!missing]
+>
 >Insert Fig. 2.7
 
 Assume again that a rain shower with a constant intensity (e.g. of 10 mm/h). This rain shower falls this time on a soil which has an infiltration capacity f $f_\infty$ (or $k_{\text{sat}}$). which remains higher than the precipitation intensity. This often occurs in relatively humid areas such as the North-Werst of Europe. At some locations in these areas,. groundwater levels are close to the surface level. These are often the valley areas close to a slope (e.g. in between mountains)  or delta regions. 
@@ -192,6 +196,7 @@ A small $c$ results in a slowly decreasing discharge. So if $c$ is small, the su
 We can explain the exponential shape of the recession curve with the mass balance of the groundwater reservoir, of which we can describe the behaviour with a linear reservoir. During the recession, we can assume the groundwater recharge to be zero. Hence, due to the drainage of the groundwater, groundwater tables will slowly decline. As a result of this, the difference in [[Hydraulic Head]] between groundwater and the river, so the driving force behind the groundwater flow, will decline as well. 
 
 >[!missing]
+>
 >Insert Fig. 2.11
 
 Assume that the groundwater table is a leaking bucket. The groundwater flow will be comparable to the outflow of the bucket (the discharge $Q$) and this is linearly proportional to the water level of the bucket. A lower water level in the bucket causes slower water flow out of the bucket. Besides that, the size of the leaking point (e.g. a hole) also influences the discharge. So a large leak results in a high discharge: 
@@ -203,7 +208,7 @@ $$
 With:
 - $Q$ as the [[Discharge]] (in L$^3$ T$^{-1}$)
 - $\bar{H}$ as the difference between the average groundwater level and the water level of the river (so the water level in the bucket) in L
-- $c^*$ a coefficient which depends on the [[Conductance]] of the soil and the average distance to the river (the size of the leak).
+- $c^*$ as a coefficient which depends on the [[Conductance]] of the soil and the average distance to the river (the size of the leak).
 
 >[!Note]
 >This equation is actually a simplified version of [[Darcy's Law]]
@@ -218,7 +223,7 @@ Where:
 - $\mu$ is the storage coefficient (no unit)
 - $A$ is the surface area of the catchment (or the bucket). 
 
-We use a minus sign, because a water level drop means a positive discharge. The storage coefficient is necessary, because a groundwater table decline of 1 cm does not equal to a water layer of 1 cm (because part of the soil volume is filled with soil particles). \
+We use a minus sign, because a water level drop means a positive discharge. The storage coefficient is necessary, because a groundwater table decline of 1 cm does not equal to a water layer of 1 cm (because part of the soil volume is filled with soil particles). 
 
 Now, we can state that equations 2.4 and 2.4 equal each other: 
 
