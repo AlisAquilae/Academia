@@ -79,4 +79,25 @@ Precipitation occurs when the solubility of hydroxides, carbonates and phosphate
 
 Coagulation and flocculation are terms that indicate that colloidal molecules (especially with electric loading) lose their stability and therefore can become "solid" and flocculate. This happens often in the transition zone between salt and fresh water leading to high sedimentation (like in the harbour of Rotterdam). In drinking water treatment coagulation and flocculation is used to remove for instance clay particles. Coagulation can co-occur with adsorption: the small particles often have a reactive surface and therefore they will bind dissolved substances. 
 
-Hydrolysis is the decomposition of chemical bindings by reaction with water. pH is important for that. Sometimes decomposition is activated by light energy, so called photolysis, that op
+Hydrolysis is the decomposition of chemical bindings by reaction with water. pH is important for that. Sometimes decomposition is activated by light energy, so called photolysis, that occurs mainly with some organic compounds. Also oxidation with oxygen under the influence of light, photo-oxidation, is a known decomposition process
+
+---
+### 3.2.6 Biological Processes
+Most conversions of substrances take place as a result of biological activity. In water and sediment all kind of micro-organisms are present that can decompose or convert organic materials (sometimes inorganic materials) and the resulting energy is used for new cell material made from part of the organic material or even to produce carbon dioxide. As an electron acceptor oxygen ius mostly used, and when that is not available, nitrate, iron, sulphate and even carbon dioxide can be used by specialised organisms. For the oxygen balance this is of important, but also the nitrogen cycle is influenced strongly by this.
+
+Furthermore, micro-pollutants can decompose harmful pollutants. In general, organic compounds are less decomposable when the carbon chain is longer, with more side-bnranches, the molecule has more aromatic rings and more hydrogen is substituted by halogens (specially chlorinated). Due to the diversity of structures of many substances there is a large range in the ligespan in the aquatic environment. Carbohydrates, proteins and fats are good or very good decomposable; their harmfulness is mainly caused due to the depletion of xygen. On the other hand, there are PCB's and Pesticides that are often poorly decomposabnle (persistent). This varies strongly with the environmental situation (redox conditions, adsorption, etc.) and is often quantified by the half-life: the time that is needed to decompose half of the original amount. Because persistent pollutants are llonger in the environment they are more harmful and generally have a stricter legislation. Decomposition of substances by organisms follow normally a 1st-order process. This means that the speed of the process depends on the concentration of the substance. An example is the decomposition of oxygen-bounded substrances, or the growth of algae. The change of a substance coentnration is a qst order process: 
+
+$$
+\frac{dC}{dt} = kC \tag{3.3}
+$$
+
+Where:
+- $C$ is the concentration
+- $k$ is the 1st-order process rate
+
+The ratge $k$ is positive in case of increase and negative in case of decrease. Assuming a start concentration $C_0$ at $t=0$ the concentration at $t=t$, ($C_t$) can be determined by integratinf equation 3.3:
+
+$$
+C_t=C_0 \, e^{kt} \tag{3.4}
+$$
+
