@@ -15,3 +15,14 @@ To be able to take efficient measures against water quality problems you have to
 ---
 ### 3.2.1 Water Flow and Mixing
 The concentration of substances on a certain time and place in the surface water is determined by the water flow and mixing processes in the water. When the water flows dissolved and suspended elements will be transported. This is called [[Advection]] or **Advective Behaviour**. Also in standing water like lakes and reservoirs local water flows are present leading to a certain mixing of water with material or properties like temperature. Also in running waters like rivers, mixing takes place due to a combination of different flow velocities along the width and the depth caused by turbulence. With turbulence we mean circular movement in the water that occur on different scales. Frictions along interfaces (like banks and bottoms) occur and are visible as whirls behind a boot for instance. This turbulence contributed to the spreading of a pollution that is loaded from the water side. Commonly, those local turbulences and whirls are not analysed separately but the effect can be summarised with the term [[Dispersion]] or **dispersive transport**. Like diffusion this mixing behaviour is described [[Fick's Law]] (which will be explained in continuation courses). Dispersion takes place on a larger scale than diffusion, which is a molecular process ([[Brownian Movement]]). Sometimes it is also important to take into account vertical dispersion (like the transport of warm water in a lake; it floats on colder water). In other cases it is important to study suspersion in the longitudinal direction. For example, when an accident happens on the Rhine, and perople want to know when the pollution arrives at an intake point of drinking water. By advection the peak of the concentration will move with the water velocity downstream, and with longitudinal dispersion the profile of the concentration will stretch and flatten out. 
+
+---
+### 3.2.2 Lake Stratification
+In deep lakes different layers in the water column can be formed especially during the summer period. This is called **Stratification**, and is the result of different temperatures at different depths in the lake. Therefore it is also referred to as **Thermal Stratification**. The top layer is called the **Epilimnion** and is in contact with the atmosphere, so the temperature is high and the layer is mixed due to wind. 
+
+At the bottom there is the **hypolimnion** which is much colder due to lack of incoming light and lack of mixing with he upper layer. In between these two layers there is a, generally small, layer where the temperature decreases quickly: the **metalimnion** or **thermocline**
+
+>[!Missing]
+>Insert Fig. 4.4
+
+Clearly the development of stratification is driven by physical processes (changing density of water with different temper)
