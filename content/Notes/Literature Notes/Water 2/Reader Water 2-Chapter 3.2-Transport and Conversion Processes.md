@@ -51,4 +51,22 @@ In rivers, streams, etc. water flow is generating the energy for resuspension. I
 #### 3.2.3.1 Resuspension by Waves
 Waves develop by the friction of wind on water surfaces. The water movement caused by waves is generally complex, but results in horizontal movements along the bottom that can cause resuspension. The shallower the water the stronger the maximum current velocity along the bottom. Resuspension takes place when a critical water movement along the bottom is exceeded. Fine sludge and organic material will be resuspended faster than sand. Moreover, the sediment can consolidate when there is little disturbance or when a layer of bacteria and benthic algae has developed: in such cases resuspension reduces, because the critical water velocity for resuspension increases. 
 
-Although resuspension by waves depends on many factors, it can be predicted with a rather simple rule: resuspension occurs when waves reach the bottom; this might happen if the wavelength is longer than two times the depth of the lake. Generally, the wavelength increases with wind speed. Next to that, the wavelength depends strongly on the **fetch**. This is 
+Although resuspension by waves depends on many factors, it can be predicted with a rather simple rule: resuspension occurs when waves reach the bottom; this might happen if the wavelength is longer than two times the depth of the lake. Generally, the wavelength increases with wind speed. Next to that, the wavelength depends strongly on the **fetch**. This is the length of the water surface on which the wind has impact. This can be observed in small lakes where there is wind. Close to the protected banks the water is calm, but the waves grow with the distance to the open water. 
+
+In general for a lake two characteristics are important for resuspension by waves:
+1. The size of the lake. Large lakes have longer fetches and are therefore more susceptible to resuspension
+2. The depth of the lake. Deep lakes are less susceptible than shallow lakes, because resuspension occurs when the wavelength is 2 times the depth
+
+#### 3.2.3.2 Resuspension by Fish
+In shallow lakes a large part of the fish population eats invertebrates living in and on the sediment like mosquito larvae, snails and worms. Especially bream and carp are known for that. During foraging they ingest the sediment and filter the "benthic invertebrates" out of it. Fine sludge from the bottom will then be resuspended. In lake sediments you can find small craters that are made by foraging fishes, which are called **Benthivorous** fishes. Their resuspension effect can be very large. 
+
+#### 3.2.3.3 The Effect of Water Plants
+Water plants decrease resuspension of sediment to a large extent. This can be concluded from some large lakes that were clear till the water plants disappeared and resuspension started with turbid water as a result. Not only submerged water plants but also reed-like plants can decrease resuspension in small lakes. The effect water plants have on reducing sediment resuspension depends on the vegetation density and  structure. 
+
+---
+### 3.2.4 Physical Processes of Dissolved and Suspended Material
+Mixing and resuspension, as described in the previous section, are physical processes of the water itself. Now we will explain some other important physical processes that influence the substances in the water directly. 
+
+Exchange of substances between the air and thew water (e.g. volatilisation) is important for oxygen, $\ce{CO2}$ and several other volatile pollutants. The ratio between volatilisation and solubility of materials is important for the exchange rate between water and air, next to mixing conditions in the boundary layer. The turbulence in this water layer at the border is determined by the flow velocity, the water depth and the wind. Evaporation of water itself is of great important for the energy balance. 
+
+Sedimentation takes place when particles have a higher density than water. When pollutants are bounded to those particles this results in accumulation in the sediment. Close to the top layer of the sediment the shear stress can be too high and the particles do not settle permanently but concentrate close to the bottom. Therefore a lot of material 
