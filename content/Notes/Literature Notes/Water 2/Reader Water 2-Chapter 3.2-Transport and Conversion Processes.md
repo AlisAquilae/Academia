@@ -40,3 +40,15 @@ C_r \bigl(\frac{\tau}{\tau_k}-1 \bigr), & \text{for} \tau \gt \tau_k
 \tag{3.2}
 $$
 
+Where:
+- $\phi_r$ is the resuspension flux [g m$^2$ d$^{-1}$] 
+- $\tau$ is the shear stress [Pa]
+- $\tau_k$ is the critical shear stress [Pa]
+- $C_r$ is the resuspension constant [g m$^2$ d$^{-1}$] 
+
+In rivers, streams, etc. water flow is generating the energy for resuspension. In lakes the water movements at the sediment (giving resuspension) are mostly caused by waves, but also fish that search for food in the bottom contribute. Water plants can decrease resuspension by limiting the water flow and stabilising the sediment with their roots. In many shallow likes there is a short cycle for resuspension and settling of sediment and algae. The continuous process of sedimentation and resuspension determines the concentration of suspended material in shallow lakes. The shallower the lake the faster the cycle is finished. When the water of a shallow lake becomes less dynamic for example with a layer of ice, the resuspension decreases strongly and the lake can become clear in a short period of time. In deep lakes there is thermal stratification during summer which reduces the mixing. In such a situation the particles will not get in resuspension easily, once they are settled in the deeper part. In shallow lakes mixing can decrease during summer and the water movement just above the sediment can decrease strongly. This results in sedimentation in a shallow lake. However, when the water movement reaches above a critical limit, for instance because of strong wind, the sediment is resuspended again. 
+
+#### 3.2.3.1 Resuspension by Waves
+Waves develop by the friction of wind on water surfaces. The water movement caused by waves is generally complex, but results in horizontal movements along the bottom that can cause resuspension. The shallower the water the stronger the maximum current velocity along the bottom. Resuspension takes place when a critical water movement along the bottom is exceeded. Fine sludge and organic material will be resuspended faster than sand. Moreover, the sediment can consolidate when there is little disturbance or when a layer of bacteria and benthic algae has developed: in such cases resuspension reduces, because the critical water velocity for resuspension increases. 
+
+Although resuspension by waves depends on many factors, it can be predicted with a rather simple rule: resuspension occurs when waves reach the bottom; this might happen if the wavelength is longer than two times the depth of the lake. Generally, the wavelength increases with wind speed. Next to that, the wavelength depends strongly on the **fetch**. This is 
