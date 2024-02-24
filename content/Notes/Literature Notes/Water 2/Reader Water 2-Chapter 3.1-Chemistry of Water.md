@@ -1,14 +1,14 @@
 ---
 fileClass: Base, Literature Notes
 title: 
-Parents: 
+Parents: ["[[Water 2]]"]
 Draft: 
-Status: 
+Status: To Revisit
 Authors: 
-Year of Publication: 
+Year of Publication: 2024
 Related Notes: 
 Related Terminology: 
-Related Courses: 
+Related Courses: ["[[Water 2]]"]
 ---
 ### 3.1.1 What is Water Quality?
 Really pure water does not exist in nature. There are always substances dissolved or particles that float in the water (suspended matter). The amount and characteristics of dissolved and floating substances determine the "water quality"
@@ -32,4 +32,20 @@ The different components that are present in surface water in short are:
 
 ---
 ### 3.1.2 Problems with Water Quality
-Problems with the quality of surface water can be cau
+Problems with the quality of surface water can be caused by a shortage or overload of certain materials. For example not enough oxygen will lead to dead fish, too many nutrients will lead to algae dominance, or organisms will die with too many toxicants. Native substances (nutrients, oxygen) can be present in too low or too high amounts
+
+The effect of a substance depends on the concentration. With the load of a certain substance not only the amount is important but also in what water volume it is discharged. The change in concentration of a substance is determined by transport (influx - outflow) and local processes. That can be physical, chemical and biological processes. This can be expressed as: 
+
+$$
+\frac{dC}{dt}= \text{influx - outflow + processes} \tag{3.1} 
+$$
+
+in which:
+- $C$ is the concentration
+- $t$ is the time
+
+Whether transport or local processes are dominant for the concentration differs per type of compound. 
+
+The load of pollution can come from a point or a diffuse source. A point source can be located exactly, for example a discharge point of an industry. An example of a diffuse source is runoff of nutrients from agricultural soils. Dry and wet deposition of acid substances (acid rain) or micro-pollutants is also an example of diffuse pollution. 
+
+After ages of fighting high water and flooding at present drought is a problem in certain areas. This is a quantity problem, though it can also affect water quality. A measure to decrease the drought is the influx of 'foreign' water. This can be a problem when the chemical composition of the foreign water differs from the native water. In the Netherlands the impact of the Rhine is large, and when foreign water enters an area it is often directly or indirectly coming form the Rhine. The eutrophic Rhine water can cause eutrophication when it is used to supply water in dry oligotrophic areas. 
