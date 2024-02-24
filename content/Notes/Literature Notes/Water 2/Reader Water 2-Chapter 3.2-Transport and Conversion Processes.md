@@ -25,4 +25,18 @@ At the bottom there is the **hypolimnion** which is much colder due to lack of i
 >[!Missing]
 >Insert Fig. 4.4
 
-Clearly the development of stratification is driven by physical processes (changing density of water with different temper)
+Clearly the development of stratification is driven by physical processes (changing density of water with different temperature), however, there are important consequences for lake chemistry and ecology as well. In the epilimnion most of the primary production takes place, mainly algae growth. Here the light conditions are good, and temperature is high. Due to primary production and rearation from the atmosphere dissolved oxygen concentration is generally good. In contrast, the hypolimnion is a dark layer where the dissolved oxygen concentration is low and can even be depleted (anoxic). Here organic matter, e.g. sinking of dead algae material from the epilimnion, is decomposed consuming oxygen from the water. Because of absence of primary production and rearation from the atmosphere anoxic conditions can easily exist. 
+
+---
+### 3.2.3 Resuspension
+Suspended particles have a mahjor role in the turbidity of rivers and lakes. Except algae species that can regulate their floating capacities or can swim, all particles sink to the bottom. **Resuspension** of particles is caused by water movement along the interface water-sediment. This causes a "drag-force" that is also called **Sheer Stress**. Whether the water movement will result in resuspension depends on the flow velocity of the water and the characteristics of the sediment. The minimum force needed for a particle to resuspend is called the **Critical Sheer Stress**. This is different for every particle and is determined by shape, size and mass. The resuspension flux can be described as follows: 
+
+$$ 
+\phi_r = 
+\begin{cases}
+0, & \text{for} \, \tau \le \tau_k \\
+C_r \bigl(\frac{\tau}{\tau_k}-1 \bigr), & \text{for} \tau \gt \tau_k
+\end{cases}
+\tag{3.2}
+$$
+
