@@ -29,3 +29,36 @@ When the concentration of BOD is not too high, the influx of oxygen from the atm
 - Accidental spills
 - Dying algae and water plants, after extensive growth
 
+Important for the oxygen balance of the surface waters is the amount of organic matter that is discharged and the amount of oxygen the micro-organisms need to decompose the organic matter. For a singular substance like glucose it is straightforward top use the equation of the oxidation-reaction: 
+
+$$
+\ce{C6H12O6 + 6CO2 -> 6CO2 + 6H2O} \tag{3.5}
+$$
+
+The decomposition as presented in this equation is complete. Sewage discharge, composed of a mixture of many different substances, is often not totally decomposed. Many substances are only partly oxidised; also oxidation has different velocities. 
+
+Decomposition of a BOD is often described as a 1st-order process:
+
+$$
+\frac{d\text{BOD}}{dt}=-k_r \, \text{BOD} \tag{3.6}
+$$
+
+Where:
+- BOD is the remaining BOD concentration [mg l$^{-1}$]
+- $k_r$ is the decay rate for BOD [time$^{-1}$] 
+
+Integration of this equation results in:
+
+$$
+\text{BOD}_t = \text{BOD}_0 \cdot e^{-k_r \, t} \tag{3.7}
+$$
+
+Where:
+- BOD$_0$ is the BOD-concentration at time 0
+- BOD$_t$ is the BOD-concentration at time $t$
+
+The rate of oxygen depletion in surface water does not necessarily have to be equal to BOD decay rate $k_r$. Part of the BOD can disappear due to other processes like sedimentation or adsorption. In that case the oxygen consumption is lower than the decrease of the BOD
+
+BOD-decomposition is a biological process and therefore temperature dependent. Decomposition processes are generally faster with higher temperatures. Therefore, in tropical areas and in summer the oxygen concentration will be lower with a similar amount of organic substances
+
+In addition, at higher temperatures, oxygen is less soluble in water. Due to this combined effect of temperature disdc
