@@ -3,7 +3,7 @@ fileClass: Base, Literature Notes
 title: 
 Parents: ["[[Water 2]]"]
 Draft: 
-Status: In Progress
+Status: Done
 Authors: 
 Year of Publication: 2024
 Related Notes: 
@@ -264,7 +264,7 @@ The figure above displays 2 cross-sections (one close to the source and one clos
 If we follow the river from source to outlet (so from C top D in the figure above), then we see that the sizes of the cross-sections will gradually increase. This is because the discharge (and also the bankfull discharge) increases with an increasing draining surface area of the river. Based on a long dataset of discharge measurements, Leopold et al. (1995) concluded that there is an almost linear relationship between the average annual discharge and the drainage area: 
 
 $$
-Q_{\text{avg}} \cong A^{1.03} \tag{1.37} 
+Q_{\text{ave}} \cong A^{1.03} \tag{1.37} 
 $$
 
 

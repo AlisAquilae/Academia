@@ -32,7 +32,7 @@ When the concentration of BOD is not too high, the influx of oxygen from the atm
 Important for the oxygen balance of the surface waters is the amount of organic matter that is discharged and the amount of oxygen the micro-organisms need to decompose the organic matter. For a singular substance like glucose it is straightforward top use the equation of the oxidation-reaction: 
 
 $$
-\ce{C6H12O6 + 6CO2 -> 6CO2 + 6H2O} \tag{3.5}
+\ce{ C6H12O6 + 6CO2 -> 6CO2 + 6H2O } \tag{3.5}
 $$
 
 The decomposition as presented in this equation is complete. Sewage discharge, composed of a mixture of many different substances, is often not totally decomposed. Many substances are only partly oxidised; also oxidation has different velocities. 
