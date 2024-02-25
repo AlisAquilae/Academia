@@ -87,5 +87,32 @@ With:
 For a water system with a surface area $A$ m$^2$ and a water volume $V$ m$^3$ the change in oxygen concentration is described as:
 
 $$
-V \frac{d \ce{O2}}{dt} = 
+V \frac{d \ce{O2}}{dt} = k_L (C_s - \ce{O2}) \tag{3.9}
+$$
+
+Resulting in a change in oxygen concentration of
+
+$$
+\begin{aligned}
+\frac{d \ce{O2}}{dt} &= k_L \frac{A}{V}(C_s - \ce{O2}) \\
+&= \frac{k_L}{H}(C_s - \ce{O2})
+\end{aligned} \tag{3.10}
+$$
+
+The ratio between volume $V$ and area $A$ is the average depth $H$
+
+The "constant" $k_L / H$ is also indicated with the **rearation constant** $K_a$ with the unit [time^{-1}$]. A flux of oxygen over the air-water boundary layer will have a large impact on oxygen concentration in shallow waters compared to deep waters.
+
+---
+### 3.3.4
+To explain the change in oxygen balance in a river, we will first picture a completely mixed system (reactor or vessel). In this system with volume $V$ m$^3$ an amount $M$ g of BOD is loaded. If we neglect the time of mixing the starting concentration of BOD [g m$^{-3}$] will be:
+
+$$
+\text{BOD}_0 = \frac{M}{V} \tag{3.11}
+$$
+
+As a result of biological oxidation this BOD concentration will decrease with a velocity $k_r \cdot \text{BOD}_t$  (see equation 3.7). For the oxygen balance this means that oxygen is extracted with a velocity $k_r \cdot \text{BOD}_t$. The use of oxygen for BOD decomposition generates in a deficit $D$, that increases with the same speed as $k_r \cdot \text{BOD}_t$. At the same time rearation starts and the oxygen concentration increases with the velocity ${k_L}/{H} \cdot (C_s - \ce{O2})$ and the oxygen balance can be written as:
+
+$$
+
 $$
