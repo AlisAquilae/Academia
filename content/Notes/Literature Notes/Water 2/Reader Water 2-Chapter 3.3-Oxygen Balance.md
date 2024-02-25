@@ -135,4 +135,4 @@ Like the reaeration processes the sediment oxygen demand is a flux over a bounda
 
 ---
 ### 3.3.6 Primary Production
-Primary production is the development of organic material from inorganic substances (mainly CO2)
+Primary production is the development of organic material from inorganic substances (mainly $\ce{CO2}$, ammonium or nitrate, phosphorus and other micro-nutrients) with light energy. Light energy is captured by chlorophyll and other pigments and via photosynthesis this is stored in chemical energy (organic matter). Therefore, primary production is the basis of the food web. This process is important for the oxygen balance because
