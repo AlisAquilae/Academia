@@ -61,4 +61,31 @@ The rate of oxygen depletion in surface water does not necessarily have to be eq
 
 BOD-decomposition is a biological process and therefore temperature dependent. Decomposition processes are generally faster with higher temperatures. Therefore, in tropical areas and in summer the oxygen concentration will be lower with a similar amount of organic substances
 
-In addition, at higher temperatures, oxygen is less soluble in water. Due to this combined effect of temperature disdc
+In addition, at higher temperatures, oxygen is less soluble in water. Due to this combined effect of temperature discharges of for instance cooling water have an indirect effect on the oxygen balance. 
+
+---
+### 3.3.3 Rearation
+In water of $16 \degree$C around 10 mg l$^{-1}$ of oxygen dissolves. At higher temperatures that is less and at lower temperatures this is more. This amount is called the equilibrium or **saturation concentration**
+
+A shortage of oxygen in surface waters compared to the saturation concentration for a certain temperature is called the **oxygen deficit**. In this case oxygen will diffuse from the atmosphere into the water. The same occurs the other way around when there is an over-saturation of oxygen due to water plants or algae growth
+
+The rate of oxygen exchange with the atmosphere is proportionate to the oxygen deficit. In addition, oxygen transport is dependent on the **mass transfer coefficient**, which is determined by the flow conditions at the boundary layer between air and water. Important factors are flow velocity, water depth, bank roughness and especially for standing waters the wind speed. 
+
+Mass transfer coefficient $k_L$ has an order of magnitude of 1 to 5 m d$^{-1}$, so it has a dimension of speed.
+
+Per unit of watersurface the oxygenflux $\phi(\ce{O2})$ [g m$^{-2}$ hour$^{-1}$] can be described as:
+
+$$
+\phi(\ce{O2})=k_L (C_s - \ce{O2}) \tag{3.8}
+$$
+
+With:
+- $k_L$ the mass transfer coefficient
+- $C_s$ the saturation concentration of $\ce{O2}$ in water [g m$^{-3}$]
+- $\ce{O2}$ the actual oxygen concentration in the water column [g m$^{-3}$]
+
+For a water system with a surface area $A$ m$^2$ and a water volume $V$ m$^3$ the change in oxygen concentration is described as:
+
+$$
+V \frac{d \ce{O2}}{dt} = 
+$$
