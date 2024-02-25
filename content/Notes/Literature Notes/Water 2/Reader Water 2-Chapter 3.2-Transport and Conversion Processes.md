@@ -1,14 +1,14 @@
 ---
 fileClass: Base, Literature Notes
 title: 
-Parents: 
+Parents: ["[[Water 2]]"]
 Draft: 
-Status: 
+Status: Done
 Authors: 
-Year of Publication: 
+Year of Publication: 2024
 Related Notes: 
 Related Terminology: 
-Related Courses: 
+Related Courses: ["[[Water 2]]"]
 ---
 To be able to take efficient measures against water quality problems you have to understand how the concentration of substances are affected by transport and conversion processes. The behaviour and the movement of dissolved substances is determined by the water flow and mixing processes in the water; this will be discussed in paragraph 3.2.1. The behaviour of suspended material (particles) is determined mainly by sedimentation and resuspension, as can be read in paragraph 3.2.3. Different conversion processes exist: physical processes are discussed in paragraph 3.2.4, chemical processes in paragraph 3.2.5 and biological processes in paragraph 4.2.6.
 
