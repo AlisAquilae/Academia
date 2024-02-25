@@ -64,7 +64,7 @@ BOD-decomposition is a biological process and therefore temperature dependent. D
 In addition, at higher temperatures, oxygen is less soluble in water. Due to this combined effect of temperature discharges of for instance cooling water have an indirect effect on the oxygen balance. 
 
 ---
-### 3.3.3 Rearation
+### 3.3.3 Reaeration
 In water of $16 \degree$C around 10 mg l$^{-1}$ of oxygen dissolves. At higher temperatures that is less and at lower temperatures this is more. This amount is called the equilibrium or **saturation concentration**
 
 A shortage of oxygen in surface waters compared to the saturation concentration for a certain temperature is called the **oxygen deficit**. In this case oxygen will diffuse from the atmosphere into the water. The same occurs the other way around when there is an over-saturation of oxygen due to water plants or algae growth
@@ -101,7 +101,7 @@ $$
 
 The ratio between volume $V$ and area $A$ is the average depth $H$
 
-The "constant" $k_L / H$ is also indicated with the **rearation constant** $K_a$ with the unit [time^{-1}$]. A flux of oxygen over the air-water boundary layer will have a large impact on oxygen concentration in shallow waters compared to deep waters.
+The "constant" $k_L / H$ is also indicated with the **reaeration constant** $K_a$ with the unit [time^{-1}$]. A flux of oxygen over the air-water boundary layer will have a large impact on oxygen concentration in shallow waters compared to deep waters.
 
 ---
 ### 3.3.4
@@ -111,8 +111,20 @@ $$
 \text{BOD}_0 = \frac{M}{V} \tag{3.11}
 $$
 
-As a result of biological oxidation this BOD concentration will decrease with a velocity $k_r \cdot \text{BOD}_t$  (see equation 3.7). For the oxygen balance this means that oxygen is extracted with a velocity $k_r \cdot \text{BOD}_t$. The use of oxygen for BOD decomposition generates in a deficit $D$, that increases with the same speed as $k_r \cdot \text{BOD}_t$. At the same time rearation starts and the oxygen concentration increases with the velocity ${k_L}/{H} \cdot (C_s - \ce{O2})$ and the oxygen balance can be written as:
+As a result of biological oxidation this BOD concentration will decrease with a velocity $k_r \cdot \text{BOD}_t$  (see equation 3.7). For the oxygen balance this means that oxygen is extracted with a velocity $k_r \cdot \text{BOD}_t$. The use of oxygen for BOD decomposition generates in a deficit $D$, that increases with the same speed as $k_r \cdot \text{BOD}_t$. At the same time reaeration starts and the oxygen concentration increases with the velocity ${k_L}/{H} \cdot (C_s - \ce{O2})$ and the oxygen balance can be written as:
 
 $$
+\frac{d \ce{O2}}{dt}=\frac{k_L}{H}(C_s - \ce{O2}) - k_r \cdot \text{BOD}_t \tag{3.12}
+$$
+
+The maximum deficit and thus the minimum oxygen concentration occurs when reaeration and oxygen consumption compensate each other or, mathematically, when ${d \ce{O2}}/{dt}=0$. In this minimum oxygen concentration we see (based on equation 3.12)
 
 $$
+\frac{k_L}{H}(C_s - \ce{O2})=k_r \cdot \text{BOD}_t \tag{3.13}
+$$
+
+The same pattern as described for an ideal reactor occurs in a river with constant BOD loading of $M$ [g s$^{-1}$]. Physically one can see the analogy by thinking that with a discharge $Q$ per second a package of water with volume $Q$ passes the discharge point and receiving $M$ BOD. After mixing, the BOD concentration in the package is thus $M/Q$. This package of water flows downstream with oxygen consumption and reaeration takes place as described above. When we assume no mixing between individual packages the change in deficit will occur exactly in this way. So we can use equation 3.9. Instead of time, we can use the flow distance $x$ as a variable because with constant flow velocity $u$: $u \cdot t = x$. 
+
+---
+### 3.3.5 The Effect of Sediment
+In the previous paragraph we considered the oxygen balance
