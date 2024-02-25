@@ -104,7 +104,7 @@ The ratio between volume $V$ and area $A$ is the average depth $H$
 The "constant" $k_L / H$ is also indicated with the **reaeration constant** $K_a$ with the unit [time^{-1}$]. A flux of oxygen over the air-water boundary layer will have a large impact on oxygen concentration in shallow waters compared to deep waters.
 
 ---
-### 3.3.4
+### 3.3.4 The Oxygen Balance of Rivers
 To explain the change in oxygen balance in a river, we will first picture a completely mixed system (reactor or vessel). In this system with volume $V$ m$^3$ an amount $M$ g of BOD is loaded. If we neglect the time of mixing the starting concentration of BOD [g m$^{-3}$] will be:
 
 $$
@@ -132,3 +132,7 @@ In the previous paragraph we considered the oxygen balance only with 2 terms. Ho
 Complex processes occur in the sediment, leading to an oxygen consumption. A normal value of SOD is 0.5 - 1 [g $\ce{O2}$ m$^{-2}$ time$^{-1}$], however. in very polluted sediments this value can be much higher. Also flow conditions and temperature will affect this rate. 
 
 Like the reaeration processes the sediment oxygen demand is a flux over a boundary layer (sediment-water). To determine the effect of SOD on the oxygen concentration in the water we divide SOD by the height of the water column $H$. With a high water column the effect of the sediment is relatively small, whereas in a low water column the oxygen will be depleted fast. 
+
+---
+### 3.3.6 Primary Production
+Primary production is the development of organic material from inorganic substances (mainly CO2)
