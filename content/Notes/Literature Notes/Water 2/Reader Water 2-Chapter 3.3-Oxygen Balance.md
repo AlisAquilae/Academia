@@ -135,4 +135,36 @@ Like the reaeration processes the sediment oxygen demand is a flux over a bounda
 
 ---
 ### 3.3.6 Primary Production
-Primary production is the development of organic material from inorganic substances (mainly $\ce{CO2}$, ammonium or nitrate, phosphorus and other micro-nutrients) with light energy. Light energy is captured by chlorophyll and other pigments and via photosynthesis this is stored in chemical energy (organic matter). Therefore, primary production is the basis of the food web. This process is important for the oxygen balance because
+Primary production is the development of organic material from inorganic substances (mainly $\ce{CO2}$, ammonium or nitrate, phosphorus and other micro-nutrients) with light energy. Light energy is captured by chlorophyll and other pigments and via photosynthesis this is stored in chemical energy (organic matter). Therefore, primary production is the basis of the food web. This process is important for the oxygen balance because with primary production by water plants or algae oxygen is released. Algae have a differenbt chemical composition depending on for instance the species, the age and the availability of nutrients and light energy during growth. 
+
+Algae production and decay can be quantified with a 1st order equation: 
+
+$$
+\frac{dA}{dt}=(\mu - R)A \tag{4.16}
+$$
+Where
+- A is algae biomass concentration [M L$^{-3}$]
+- $\mu$ is the specific growth rate
+- $R$ is the loss rate due to respiration
+
+The term $\mu - R$ indicated the "net" or actual growth rate. The growth rate can be limited by the light availability and/or nutrients, and the maximum growth rate is a function of temperature. This leads to:
+
+$$
+\mu = \mu_{\text{max}}(T) \cdot f_c(\text{light}) \cdot f_c(\text{nutrients}) \tag{4.17}
+$$
+
+The maximum growth rate increases around 3-8% per grade Celsius temperature rise until a maximum temperature. Every algae species has its own optimal temperature. 
+
+The nutrient factor $f_c$ is often described as a Monod-function: 
+
+$$
+f_c(N) = \frac{N}{k_s + N} \tag{4.18}
+$$
+
+With
+- $N$ the nutrient concentration [mg l$^{-1}$]
+- $k_s$ the half saturation concentration (or Monod constant) [mg l$^{-1}$]
+
+When $N$ is equal to $k_s$ the result of equation 4.18 is 0.5. This explains the term half saturation concentration. Equation 4.18 shows that with low values of $N$ growth is proportional to $N$; at high nutrient concentrations the limiting factor slowly tends to 1
+
+Including primary production in the oxygen balance could lead to the equati
