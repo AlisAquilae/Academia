@@ -95,7 +95,7 @@ Since high discharge peaks in separate years are independent of each other, we c
 Besides, the probability that a discharge with a return period of $T$ years gets exceeded during a period of $T$ years for one or more instances, does not equal 1. If we use this precious equation and change $n$ for $T$, we will get a probability of 'only' 63%.
 
 #### 1.2.4.3 Annual Maxima
-For extreme value statistics, we start with selecting the annual (yearly) maxima of a discharge or precipitation time series. We can plot these annual maxima against the exceedennce probabilities in a similar way as done in Section 2.2.4 and Fig. 2.13. If we do this for the Rhine at Lobith and the Meuse at Borgharen, we find the following figure (left)
+For extreme value statistics, we start with selecting the annual (yearly) maxima of a discharge or precipitation time series. We can plot these annual maxima against the exceedance probabilities in a similar way as done in Section 2.2.4 and Fig. 2.13. If we do this for the Rhine at Lobith and the Meuse at Borgharen, we find the following figure (left)
 
 >[!Missing]
 >Insert Fig. 2.14

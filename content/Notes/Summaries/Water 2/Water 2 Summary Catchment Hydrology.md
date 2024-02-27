@@ -285,3 +285,72 @@ Besides causing floods, extreme precipitation events can also lead to landslides
 
 ---
 ## 2.3 Flow Duration Curve
+If our discharge time series at a certain location along the river is long enough, we will be able to construct [[Flow Duration Curves]] which describe the relationship between certain discharge amounts and the **exceedance probability** of these discharge amounts. Obviously, a small discharge has a higher probability of exceedance than a large discharge amount. 
+
+To design a flow duration curve, we will have to follow the following steps. 
+1. Choose a time interval $\Delta t$ for which you want to design the flow duration curve (e.g. a number of days)
+2. Calculate the average discharge for every time step. When you have hourly observations, but want to design the curve for daily discharges, you average over 24 hours
+3. Order these discharges from large to small
+4. The highest discharge is exceeded during $\frac{1}{N+1}$ of the time steps, the second highest discharge is exceeded during $\frac{2}{N+1}$ of the time steps, and so on. Here, N is the total number of time steps. Hence, the smallest discharge is exceeded during $\frac{N}{N+1}$ of the time steps.
+5. Plot these discharges against their time of exceedance. 
+
+![[20240227_140942.jpg]]
+
+The figure above displays the **dimensionless flow duration curve** (sometimes called exceedance plot) of daily discharge amounts for the Rhine, Meuse, Hupsel Brook and Rietholzbach. We can obtain dimensionless flow duration curves by dividing daily discharges by the average discharge ($Q/Q_{ave}$), followed by plotting these values on the Y-axis. With the flow duration curve, we can determine the frequency of occurrence of certain characteristic discharges. 
+
+
+>[!Important]
+>
+>We can also determine the average daily discharge from these curves. In dimensionless flow duration curves, we can find this at $Q/Q_{ave}=1$. 
+
+>[!Info]
+>For most rivers, the average daily discharge is exceeded about 30% of the time (about 100 days a year). Hence, the average daily discharge is actually a relatively high discharge
+
+>[!Important]
+>Another measure for river discharge is the median discharge. This is a discharge which is exceeded 50% of the time. The median discharge is lower than the average discharge, which shows that the distribution is not symmetric: there are many days with relatively low discharge and a few peaks with a large influence on the average.
+
+The shape of the flow duration curve tells us much about the flow characteristics of the river. A relatively flat curve indicates a more evenly distributed discharge. For such a river, the probability of extremely high discharges is quite low. Catchments can have such a gradual flow duration curve when there is for example a high storage capacity on soils, brooks or lakes. Precipitation will have a slower and more evenly distributed transport towards the river, or most water flow takes place via groundwater flow (which is also much slower than surface runoff)
+
+Below we see the hydrographs of the Meuse and Rhine
+
+![[20240227_141145.jpg]]
+
+If we compare the hydrographs and dimensionless flow duration curves of the Meuse and Rhine, we will immediately see that the flow duration curve of the Rhine is much less steep than the curve of the Meuse. The river Meuse is a typical rain-fed river, which responds quickly to intense precipitation events, because much surface runoff and macropore flow is formed in the Belgian Ardennes. On the other hand, during prolonged dry periods, the discharge will decrease quickly, while the Rhine still delivers plenty of water during these periods (partly glacier and snow melt). Besides this, the shape and size of the catchment also influence these processes. A small catchment will react faster to precipitation events. Large catchments will never have rain at the same place at the same time, so discharge shows a more gradual pattern.
+
+---
+## 2.4 Extreme Value Statistics
+### 2.4.1 Exceedance Probabilities and Return Periods
+The **exceedance probability** of a certain discharge is the probability that this discharge will be exceeded during a (random) year at a certain location. Another way to express this, is by determining the **return period** of that discharge. The return period is a way to express how many years we have to wait (on average) before a certain discharge will take place again. The exceedence probability $p$ (per year) during a certain year and the return period $T$ (in years) relate to each other in the following way: 
+
+$$
+T=\frac{1}{p} \tag{1.11} 
+$$
+
+
+The determination of the exceedance probabilities and the return periods of certain high flows is crucial for our protection against floods. Dike heights in the Netherlands, for example, are based on the so-called **design discharge** of the river. A design discharge is the discharge that corresponds to a certain return period. The government decides what this return period should be. Subsequently, we determine the design water levels from the design discharge, which eventually determines the dike heights. 
+
+>[!Info]
+>The return period used to determine the design discharge for the large rivers in the Netherlands is 2000 years. Hence, here, dikes should have a height which should be sufficient to assume that only once every 2000 years a flood can take place. 
+
+### 2.4.2 Relationship between Return Periods and the Probability of High Waters
+We want to calculate the probability that a discharge with a return period of $T$ (e.g. 1250 years) is exceeded one or more times during a period of $n$ years (e.g. 100 years). The probability that a discharge with a return period of $T$ years is not exceeded during 1 year equals 1 minus the probability that this discharge is exceeded in that year; hence, $1-p$, which we can write as $1-\frac{1}{T}$ (according to Eq. 2.11)
+
+Since high discharge peaks in separate years are independent of each other, we can multiply the probabilities with each other in order to calculate the probability that a discharge with a return period of $T$ years will not be exceeded during $n$ years. And, since all these probabilities are the same, this simply gives $(1-\frac{1}{T})^n$. The probability that this discharge is exceeded in $n$ years, is then $1-(1-\frac{1}{T})^n$. This seems unnecessarily complex, but because the discharge can be exceeded more than once, this is not the same as $(\frac{1}{T})^n$. For $T=1250$ years and $n$ = 100 years, this is 7.7%
+
+Besides, the probability that a discharge with a return period of $T$ years gets exceeded during a period of $T$ years for one or more instances, does not equal 1. If we use this precious equation and change $n$ for $T$, we will get a probability of 'only' 63%.
+
+>[!Summary]
+>To calculate whether a discharge  **IS NOT** exceeded: 
+>
+>$$ 
+>(1-\frac{1}{T})^n
+>$$
+>
+>To calculate whether a discharge **IS** exceeded:
+>
+>$$
+>1-(1-\frac{1}{T})^n
+>$$
+
+### 2.4.3 Annual Maxima
+For extreme value statistics, we start with selecting the annual (yearly) maxima of a discharge or precipitation time series. We can plot these annual maxima against the exceedance probabilities in a similar way as done in Section 2.2.4 and Fig. 2.13. If we do this for the Rhine at Lobith and the Meuse at Borgharen, we find the following figure (left)
