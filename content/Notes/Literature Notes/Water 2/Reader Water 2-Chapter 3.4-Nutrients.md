@@ -1,14 +1,14 @@
 ---
 fileClass: Base, Literature Notes
 title: 
-Parents: 
+Parents: ["[[Water 2]]"]
 Draft: 
-Status: 
+Status: Done
 Authors: 
-Year of Publication: 
+Year of Publication: 2024
 Related Notes: 
 Related Terminology: 
-Related Courses: 
+Related Courses: ["[[Water 2]]"]
 ---
 ### 3.4.1 Phosphorus Cycle
 Phosphorus (P) is an essential element for living organisms for example because it is a component of DNA and ATP. The following figure is a simplified diagram of the P-cycle in fresh water (a lake):
@@ -42,4 +42,6 @@ In the aquatic system anaerobic conditions can be found mainly in the sediment; 
 ### 3.4.3 Load of Nitrogen and Phosphorus to Surface Waters
 The loads of nitrogen and phosphorus to surface waters in the Netherlands increased strongly due to agriculture, especially in sandy areas where the phosphate bidding capacity is limited and even exceeded (P-saturated soils). At many places the export of P to surface waters from over-fertilised agricultural land is still limited, though the percentage of saturated land is increasing and worrying. A "front" of high P-levels will be transported via the groundwater and finally reach the surface water; then large problems will arise. Even if we take measures now we will face increasing P loads far into the future because the P is "still on the way". 
 
-For nitrogen the limited absorption in soils increases the tr
+For nitrogen the limited absorption in soils increases the transport and therefore reduction measures will have a faster effect. Like P there can be large regional differences between nitrogen budgets. When nitrate is transported from soils to surface waters denitrification in the sediment can result in a loss of nitrogen. 
+
+Due to increasing air pollution surface waters are affected as well. There is a difference between dry and wet deposition (rainfall). For gasses dry deposition is larger, for aerosols the wet deposition. The total acid deposition in the Netherlands per year is about 5000 moll ha$^{-1}$. In well buffered surface water this is not a problem but locally the acidity will increase. RIVM measures the rainfall composition with a national monitoring network. Deposition of substances varies in the country, in intensive cattle areas ammonia deposition is much bigger than outside these areas. And at coastal areas chloride deposition is two times higher than inland
