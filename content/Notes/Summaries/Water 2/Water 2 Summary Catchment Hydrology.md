@@ -438,6 +438,73 @@ In order to obtain $\alpha$, $\mu$ and $k$ for a certain location, we have to fi
 Often, we present extreme precipitation statistics as Rainfall [[Depth-Duration-Frequency Curves]], also called [[Depth-Duration-Frequency Curves|DDF Curves]]. These curves give for different return periods or exceedance probabilities, the precipitation sum as a function of the event duration. Especially for short durations, the precipitation intensity is often used instead of the precipitation sum (Rainfall [[Intensity-Duration-Frequency Curves]]; [[Intensity-Duration-Frequency Curves|IDF Curves]]). The method to determine both types is comparable. In the next section, we will explain how we can derive rainfall DDF curves
 
 >[!Warning]
->I did not summarise / 
+>I did not summarise / memo this part because I did not quite understand it
 
 ### 2.5.1 Extreme Value Statistics of Spatial Precipitation
+For hydrological purposes, one is often not interested in point measurements of precipitation sums, but rather in the precipitation sum of an entire catchment. We can use radar to determine the rainfall depth-duration-frequency curves of larger surface areas. For extreme values, the average precipitation sum significantly decreased with increasing surface area (for the same $D$ and $T$). We can describe this decrease by making use of the smallest available surface area, which gives us **Areal Reduction Factors**. Areal reduction factors are small for small durations, for which the extreme sums are caused by severe and local (convective) showers, which can only affect a small area for a short duration.
+
+---
+## 2.6 Using Rainfall Depth-Duration-Frequency Curves for Design
+Rainfall DDF curves can be used to estimate the necessary discharge capacity for quickly draining areas, such as the capacity of sewage systems in urban areas or the capacity of pumping stations in polders with shallow groundwater tables. In this section, this so-called DDF-method is described.
+
+The first step is to determine the acceptable inundation risk. This depends on land use, because flooding causes more (economic) damage in urban areas than on grassland. The next step is to loop up the DDF-curve for that return period.
+
+During intensive rainfall events, water should be either stored or discharged, as the other water balance terms (evapotranspiration, and possibly surface water supply, groundwater flor or additional sources or sinks) are negligible. The water balance simplifies to: 
+
+$$
+\sum P= \sum Q + \Delta S \tag{1.21}
+$$
+
+
+To compute the necessary discharge capacity for the sewage system or pumping station, one needs to know the rainfall sum belonging to an event with a certain return period and the storage capacity. The storage capacity is the amount of water which can still be stored in the soil, surface water network or water retention areas before inundation occurs
+
+>[!note]
+>The storage capacity should not be confused with storage itself, which is the amount of water that is already stored
+
+The other way around, if the discharge capacity is known, you can compute how much water needs to be stored during the event. The third option is that you compute the return period (or inundation probability) given a certain discharge capacity and storage capacity
+
+This problem can be solved numerically or graphically. Here, we focus on the graphical approach. First, plot the cumulative sums of each of the water balance terms (so with time on the x-axis and the depth on the y-axis): 
+- The cumulative rainfall ($\sum P$) is the DDF curve belonging to a certain return period
+- The cumulative discharge ($\sum Q$ ) is a line for which the slope corresponds to the discharge capacity. For example, if the discharge capacity is 20 mm/d, then after 1 day 20 mm has been discharged, after 2 days 40 mm, etc.
+- The (cumulative) storage change ($\Delta S$) is a horizontal line corresponding to the storage capacity, because the storage capacity can only be filled once and does not increase over time
+
+![[20240227_145925.jpg]]
+
+To determine if an area inundates, the lines of cumulative discharge and storage change should be added and compared to the cumulative rainfall. When $\sum Q + \Delta S \lt \sum P$, inundation occurs at that moment. 
+
+To design the necessary discharge capacity when the return period and storage capacity are known, draw (or pick) the DDF curve belonging to that return period and draw the horizontal line for the storage capacity. Then, draw a sloping line which crosses the y-axis at the storage capacity (the intercept) and touches the DDF curve (so inundation does not occur). The slope of the line gives the discharge capacity (in mm/d). This often needs to be converted to m$^3$/s (using the surface of the draining area) since the capacity of pumps or channels is of course measured in this way.
+
+To design the necessary storage capacity when the return period and discharge capacity are known, draw (or pick) the DDF curve belonging to that return period and draw the cumulative dischargte as a line starting at the origin and with a slope equal to the discharge capacity. The find the largest vertical distance between this line and the DDF curve. This is the storage capacity. Alternatively, you can draw lines parallel to the line for the cumulative discharge and pick the line which touches the DDF curve. The intercept of this line gives the storage capacity.
+
+To determine the return period belonging to a certain storage and discharge capacity, draw a line with the storage capacity as intercept and the discharge capacity as slope. Pick the DDF curve which just touches upon this line and read its return period.
+
+As with every model the DDF method is a simplification of reality. Important simplifications are:
+- Precipitation is assumed to be discharged directly. With snow, a low rainfall intensity or an unsaturated soil with high infiltration capacity, this is not the case. That is why this method is mostly used for urban areas and polders with high groundwater tables and clay or peat soils
+- The DDF method is an event-based method, in which you evaluate if an area is able to discharge the rain from one event. Initial wetness factors are not taken into account, which means that if the groundwater and surface water levels before the event are high because the the water from an earlier storm has not been discharged yet, a rainfall event with a lower return period can cause floods, because the storage capacity is smaller. 
+- In reality, the distribution of rainfall over time will never follow the shape of the DDF curve. For example, it is possible that in the first hour the event has a return period of one month, in the second 20 years, etc., which together leads to a 24 hour rainfall sum with a return period of one year
+- For large areas, the areal reduction factors for DDF curves should be applied to avoid overestimation of the necessary discharge or storage capacity.
+
+Even given these drawbacks, the DDF method is much used in practice, because it is an easy way to obtain a first estimate of the necessary discharge or storage capacity without having to set up and run a more complex hydrological model. 
+
+---
+## 2.7 Drought
+There are several methods to determine if a water system is in drought and to quantify the severity of the drought. In this section, we explain the most common ones.
+
+Just like flood analysis, drought analysis starts with the flow duration curve, from which the discharges for high exceedance probabilities are determines. For perennial rivers (rivers which can carry water year-round, in contrast to ephemeral rivers which run dry) often the Q95 or Q90, the discharges which are exceeded 95 or 90% of the time, are used. The Q95 (or any other exceedance probability) can be determined for the whole year or per month
+
+When the discharge drops below the Q95 (the threshold), the river is considered to be in drought. When the Q95 is computed over and applied to a whole year, this is called a fixed threshold. For a **variable threshold**, the Q95 is computed for each month and a moving average is computed to obtain a smooth line. By definition, the river is in drought 5% of the time. 
+
+A drought event can be characterised by:
+- Duration: time when the discharge is below the threshold
+- Deficit: volume of water below the threshold, so the cumulative difference between the threshold and the discharge
+- Return period: the inverse of the exceedance probability of the minimum discharge, duration or deficit.
+
+Drought does not only occur in the river itself. Therefore, we distinguish 4 types of drought
+1. **Precipitation Drought**. This type of drought usually has little direct societal impact because rainfall is by nature variable. However, a drought in precipitation may propagate through the hydrological cycle. 
+2. A precipitation drought can lead to a lack of water in the unsaturated zone: a **soil moisture drought**. Soil moisture drought is the most relevant type for agriculture and terrestrial ecosystems, because it determines the water availability in the root zone
+3. When there is less water in the top soil, less water will percolate to the groundwater and a **groundwater drought** may develop. Groundwater droughts only occur when the soil moisture drought lasts long enough, since groundwater responds slowly to changes in the topsoil (when there is shallow groundwater, the response to rainfall is faster). On the other hand, groundwater droughts can last long. Groundwater drought is especially important for drinking water extraction and sustaining baseflow
+4. The fourth type, **streamflow drought**, considers low river discharges, so this is the type of drought mentioned before. Because rain water takes both fast and slow routes towards the surface water network, the dynamics (attenuation and delay) of discharge droughts are between precipitation drought and groundwater drought. Streamflow drought is the most important type for aquatic ecosystems, navigation and hydro-power dams. 
+
+>[!Note]
+>Besides lack of precipitation, a change in temperature can also lead to drought. When evapotranspiration is higher than normal, a soil moisture drought may occur while there is no precipitation drought. 
+
