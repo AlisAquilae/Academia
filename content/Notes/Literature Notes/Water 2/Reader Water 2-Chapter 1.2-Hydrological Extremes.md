@@ -160,7 +160,7 @@ The Gumbel distribution is often used for extreme precipitation sums, but this d
 
 The GEV distribution combines three asymptotic extreme values distribution with the value for $k$: the Gumbel distribution when $k=0$, the [[Fréchet Distribution]] when $k \lt 0$ and the [[Weibull Distribution]] when $k \gt 0$. The Fréchet distribution has a longer tail than the Gumbel distribution, while the Weibull distribution has a shorter tail.
 
-The [[Quantile Function]], with which we can calculate the precipitation sum for a certain exceedance probability, equals for a GEV distribution with $k\not= 0$: 
+The quantile function, with which we can calculate the precipitation sum for a certain exceedance probability, equals for a GEV distribution with $k\not= 0$: 
 
 $$
 x(p)= \mu + \frac{\alpha \{1- [- \ln (1-p)]^k \}}{k} \tag{1.16}

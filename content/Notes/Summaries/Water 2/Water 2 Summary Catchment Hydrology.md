@@ -382,7 +382,7 @@ y(p)=-\ln (-\ln (1-p)) \tag{1.13}
 $$
 
 
-And with that, Eq. 2.12 turns into 
+And with that, Eq. 1.12 turns into 
 
 $$
 x(y)=\mu + \alpha y 
@@ -407,4 +407,31 @@ $$
 $$
 
 
-From equation 2.12 we are now able to calculate the discharge that corresponds to a certain return period. Here, we assume measurements follow the Gumbel distribution, even for extreme values which we have never measured. Besides, we also assume that this distribution holds for future values. The parameters  $\mu$ and $\alpha$ can, however, change due to for example changes in the upstream part of the river. A change in land use or climate cal also result in different values for the parameters of this distribution. Therefore, our current estimations of the discharges for return periods of 1250 years or more has quite some uncertainty. 
+From equation 1.12 we are now able to calculate the discharge that corresponds to a certain return period. Here, we assume measurements follow the Gumbel distribution, even for extreme values which we have never measured. Besides, we also assume that this distribution holds for future values. The parameters  $\mu$ and $\alpha$ can, however, change due to for example changes in the upstream part of the river. A change in land use or climate cal also result in different values for the parameters of this distribution. Therefore, our current estimations of the discharges for return periods of 1250 years or more has quite some uncertainty. 
+
+### 2.4.5 GEV Distribution
+
+The Gumbel distribution is often used for extreme precipitation sums, but this distribution is actually not suited for this purpose, because it underestimates the precipitation sum for large return periods. The [[GEV Distribution]] or [[GEV Distribution|Generalised Extreme Value Distribution]] is a better way to estimate this upper tail of the probability distribution. Beside the location parameter $\mu$ in mm and scale parameter $\alpha$ in mm, the GEV distribution also has a shape parameter $k$ (no unit)
+
+![[20240227_144215.jpg]]
+
+The GEV distribution combines three asymptotic extreme values distribution with the value for $k$: the Gumbel distribution when $k=0$, the [[Fréchet Distribution]] when $k \lt 0$ and the [[Weibull Distribution]] when $k \gt 0$. The Fréchet distribution has a longer tail than the Gumbel distribution, while the Weibull distribution has a shorter tail.
+
+The quantile function, with which we can calculate the precipitation sum for a certain exceedance probability, equals for a GEV distribution with $k\not= 0$: 
+
+$$
+x(p)= \mu + \frac{\alpha \{1- [- \ln (1-p)]^k \}}{k} \tag{1.16}
+$$
+
+We often simplify this equation to: 
+
+$$
+x(y)=\mu + \alpha \frac{1-\exp(=ky)}{k} \tag{1.17} 
+$$
+
+With $y$ again being the Gumbel reduced variate (Eq. 1.13)
+
+In order to obtain $\alpha$, $\mu$ and $k$ for a certain location, we have to fit the GEV distribution for annual maxima. For this, we need a dataset with many years of data (> 100 years), which is often not available. 
+
+---
+## 2.5 Rainfall Depth-Duration Curves
