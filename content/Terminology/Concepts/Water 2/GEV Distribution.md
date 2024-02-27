@@ -4,7 +4,7 @@ title:
 Parents: ["[[GEV Distribution]]", "[[Water 2 Summary Catchment Hydrology]]"]
 Draft: 
 Status: Done
-aliases: 
+aliases: "Generalised Extreme Value Distribution"
 Related Notes: ["[[Water 2 Summary Catchment Hydrology]]"]
 Related Terminology: ["[[GEV Distribution]]"]
 Related Courses: ["[[Water 2]]"]

@@ -4,7 +4,7 @@ title:
 Parents: ["[[Depth-Duration-Frequency Curves]]", "[[Water 2 Summary Catchment Hydrology]]"]
 Draft: 
 Status: Done
-aliases: IDF Curves
+aliases: "IDF Curves"
 Related Notes: ["[[Water 2 Summary Catchment Hydrology]]"]
 Related Terminology: ["[[Depth-Duration-Frequency Curves]]"]
 Related Courses: ["[[Water 2]]"]
