@@ -19,7 +19,7 @@ We already introduced the calculation of the required [[Discharge]] capacity in 
 
 ---
 ### 1.3.2 Horton's Geomorphological Laws
-In the course Water 1 we introduced the order numbers according to Strahler ([[Strahler Order Numbering]]). When a river system is ordered according to Strahler's ordering, we can ask ortselves whether dendritic networks have certain universal characteristics. For example, we can calculate the number of links/streams in every order: $N_i$ is the number of links/streams of order $i$; $N_{i+1}$ the number of links of order $i+1$, etc. 
+In the course Water 1 we introduced the order numbers according to Strahler ([[Strahler Order Numbering]]). When a river system is ordered according to Strahler's ordering, we can ask ourselves whether dendritic networks have certain universal characteristics. For example, we can calculate the number of links/streams in every order: $N_i$ is the number of links/streams of order $i$; $N_{i+1}$ the number of links of order $i+1$, etc. 
 
 If we apply this analysis to a natural catchment, we will discover a notable structure in the data: 
 
@@ -39,7 +39,7 @@ We call $R_B$ the **Bifurcation Number** (*bifurcation* means splitting). If we 
 
 Also, other transportation networks have similar bifurcation numbers: trees have an average of 3.2, lightning splits with an average ratio of 3.5 and our blood vessels have an $R_B$ of 3.4. Hence, nature gives us a clear ordering in seemingly chaotic transporting systems
 
-Equation 2.22 is called [[Horton's Law of Stream Numbers]], also called the **Bifurcation Law of Drainage Patterns**. Since we have an order for every interior and exterior link of the river system, we can extend our analysis with the average length of channels with a certain order, or even the average slope of channels and the average drainage area of a certain order.
+Equation 1.22 is called [[Horton's Law of Stream Numbers]], also called the **Bifurcation Law of Drainage Patterns**. Since we have an order for every interior and exterior link of the river system, we can extend our analysis with the average length of channels with a certain order, or even the average slope of channels and the average drainage area of a certain order.
 
 We can calculate the average length of the channel of order $i$ with the arithmetic mean: 
 
