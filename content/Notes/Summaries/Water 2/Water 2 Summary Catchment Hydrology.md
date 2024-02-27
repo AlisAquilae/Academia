@@ -434,4 +434,10 @@ With $y$ again being the Gumbel reduced variate (Eq. 1.13)
 In order to obtain $\alpha$, $\mu$ and $k$ for a certain location, we have to fit the GEV distribution for annual maxima. For this, we need a dataset with many years of data (> 100 years), which is often not available. 
 
 ---
-## 2.5 Rainfall Depth-Duration Curves
+## 2.5 Rainfall Depth-Duration-Frequency Curves
+Often, we present extreme precipitation statistics as Rainfall [[Depth-Duration-Frequency Curves]], also called [[Depth-Duration-Frequency Curves|DDF Curves]]. These curves give for different return periods or exceedance probabilities, the precipitation sum as a function of the event duration. Especially for short durations, the precipitation intensity is often used instead of the precipitation sum (Rainfall [[Intensity-Duration-Frequency Curves]]; [[Intensity-Duration-Frequency Curves|IDF Curves]]). The method to determine both types is comparable. In the next section, we will explain how we can derive rainfall DDF curves
+
+>[!Warning]
+>I did not summarise / 
+
+### 2.5.1 Extreme Value Statistics of Spatial Precipitation
