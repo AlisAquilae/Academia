@@ -44,3 +44,7 @@ and micro-pollutants (paragraph 4.6) in surface water. Studying this chapter it 
 
 # 🔗 Summaries
 Since the literature which the summaries are based on are divided into 3, the summaries have been divided as well.
+
+- [[Water 2 Summary Catchment Hydrology]]
+- [[Water 2 Summary Groundwater Flow and Quality]]
+- [[Water 2 Summary Surface Water Quality]]
