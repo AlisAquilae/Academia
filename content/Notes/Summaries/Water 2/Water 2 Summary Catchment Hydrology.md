@@ -121,4 +121,21 @@ Also $f_0$ and $f_\infty$ depend on the soil type, the soil moisture and vegetat
 >  >So after 22 minutes, surface runoff will take place on the clayey soil
 >  
 
-#### 
+### 1.3.2 Exceedance of Infiltration Capacity
+When not all water can infiltrate in the soil after a rain shower or a snow-melt period due to an exceedance of the infiltration capacity, an infiltration surplus occurs, which leads to surface runoff. We call this effect the [[Infiltration Excess Overland Flow|Horton Overland Flow]] or [[Infiltration Excess Overland Flow]]
+
+The effect of a rain shower with an intensity that exceeds the infiltration capacity is illustrated in the following figure
+
+![[20240227_133001.jpg]]
+
+Assume that we are dealing with a rain shower of a constant intensity (e.g. 10 mm/h) which falls on a relatively dry soil. The initial soil moisture content is displayed in the soil moisture profile at time $t_0$. Since the soil is relatively dry at the start, all precipitation will be able to infiltrate. 
+
+The infiltrating water changes the soil moisture profile and the soil moisture will increase faster near the soil surface than deeper in the soil profile (because the water does not infiltrate fast enough). With increasing duration of the rain shower, the infiltration capacity of the soil will decrease: water will infiltrate less easily in wet soils. The curve of the infiltration capacity of the soil as a function of time, will move towards the asymptote with an equilibrium value of $f_\infty$ (or $k_{\text{sat}}$, [[Saturated Hydraulic Conductivity]]). 
+
+If the saturated conductivity of the soil is smaller than the constant precipitation intensity, we will reach a point where the infiltration capacity becomes smaller than the precipitation intensity. We call this instant, at $t_p$, the [[Ponding Time]]. From this moment onwards, water will be stored on top of the surface and subsequently it will move as surface runoff. 
+
+>[!Important]
+>Summarising the requirements to get Horton overland flow due to an infiltration surplus are:
+>- The saturated conductivity of the soil is smaller than the precipitation intensity
+>- The duration of the precipitation shower is larger than the ponding time. 
+

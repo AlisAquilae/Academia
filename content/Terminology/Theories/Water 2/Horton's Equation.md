@@ -65,4 +65,4 @@ Also $f_0$ and $f_\infty$ depend on the soil type, the soil moisture and vegetat
 >  >So after 22 minutes, surface runoff will take place on the clayey soil
 >  
 
-Exceedance of the infiltration capacity will lead to [[Infiltration Excess Overland Flow|Horton Overland Flow]], also known as [[infiltr]]
+Exceedance of the infiltration capacity will lead to [[Infiltration Excess Overland Flow|Horton Overland Flow]], also known as [[Infiltration Excess Overland Flow]]. 
