@@ -539,4 +539,58 @@ We call $R_B$ the **Bifurcation Number** (*bifurcation* means splitting). If we 
 
 Also, other transportation networks have similar bifurcation numbers: trees have an average of 3.2, lightning splits with an average ratio of 3.5 and our blood vessels have an $R_B$ of 3.4. Hence, nature gives us a clear ordering in seemingly chaotic transporting systems
 
-Equation 1.22 is called [[Horton's Law of Stream Numbers]], also called the **Bifurcation Law of Drainage Patterns**. Since we have an order for every interior and exterior link of the river system, we can extend our analysis with the average length of channels with a certain order, or even the average slope of channels and the average drainage area of a certain order.
+Equation 1.22 is called [[Horton's Law of Stream Numbers]], also called the **Bifurcation Law of Drainage Patterns**. 
+
+Since we have an order for every interior and exterior link of the river system, we can extend our analysis with the average length of channels with a certain order, or even the average slope of channels and the average drainage area of a certain order.
+
+We can calculate the average length of the channel of order $i$ with the arithmetic mean: 
+
+$$
+\bar{L}_i=\frac{1}{N} \sum_{j=1}^N L_{ij} \tag{1.23}
+$$
+
+
+The ratio of the average lengths for increasing orders in a catchment also gives constant values: 
+
+$$
+R_L=\frac{\bar{L}_i}{\bar{L}_{i-1}} \tag{1.24} 
+$$
+
+with $R_L$ the so-called **length ratio number**. The value for $R_L$ is between 1.5 and 3.5 for natural watercourses. The average length ratio number is 2 for catchments
+
+We call this [[Horton's Law of Stream Length]]. The average length of a channel doubles (approximately) per increasing order. With an increasing Strahler order, the number of channels in this order will decrease until we reach a point where we can no longer accurately determine the average length of the channel in that order. Therefore, this ratio is often no longer constant for higher Strahler orders. 
+
+Even for the average slope of channels in a certain order, we can find a geometrical constant ratio: 
+
+$$
+R_S=\frac{\bar{S}_i}{\bar{S}_{i+1}} \tag{1.25}
+$$
+
+with $R_S$ the slope ratio number. The average slope of channels with Strahler order $i$ can be calculated with: 
+
+$$
+\bar{S}_i=\frac1N \sum_{j=1}^N S_{ij} \tag{1.26} 
+$$
+
+If we define the average drainage area for a given Strahler order as: 
+
+$$
+\bar{A}_i=\frac1N \sum_{j=1}^N A_{ij} \tag{1.27} 
+$$
+
+
+then we will be able to formulate the surface ratio number $R_A$ as: 
+
+$$
+R_A=\frac{\bar{A}_ i}{\bar{A}_{i-1}} \tag{1.28}
+$$
+
+>[!Note]
+>Note that the denominator in Eqs. 1.22 and 1.25 use $i+1$ and the ones in Eqs. 1.24 and 1.28 use $i-1$, because $N$ and $S$ decrease in the downstream direction, while $L$ and $A$ increase, leading to positive numbers for the ratios
+
+The fact that bifurcation (splitting), the average length and slope, and even the average drainage area of river systems is not a random development, but rather a system which obeys geomorphological laws, indicates a strong ordering system of natural drainage patterns. The resulting river network determines the way in which water and sediments are transported in the catchment. If we want to understand or simulate these transport systems, we have to take these structures into account. 
+
+In the course Water 1, we introduced you to the relationship between the shape of the river network and the way water is discharged. In this course and with the introduced geomorphological laws, we will expand your knowledge with the physical background of these processes. 
+
+---
+## 3

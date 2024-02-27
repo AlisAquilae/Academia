@@ -1,14 +1,14 @@
 ---
 fileClass: Base, Theories
 title: 
-Parents: 
+Parents: ["[[Ponding Time]]", "[[Infiltration Excess Overland Flow]]", "[[Water 2 Summary Catchment Hydrology]]"]
 Draft: 
-Status: 
+Status: Done
 aliases: 
-Authors: 
-Related Notes: 
-Related Terminology: 
-Related Courses: 
+Authors: Horton
+Related Notes: ["[[Water 2 Summary Catchment Hydrology]]"]
+Related Terminology: ["[[Infiltration Excess Overland Flow]]"]
+Related Courses: ["[[Water 2]]"]
 ---
 Since infiltration depends on many factors, it is not possible to set up a conceptual model based on relatively simple relationships. Therefore, people have been searching for empirical relationships to describe the mathematical processes. 
 
