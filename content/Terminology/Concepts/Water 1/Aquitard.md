@@ -1,6 +1,6 @@
 ---
 fileClass: Base, Concepts
-aliases: Confining Unit
+aliases: "Confining Unit"
 Related Terminology: ["[[Aquifer]]"]
 Related Notes: ["[[Reader Water 1-Chapter 1.1-Catchment Characteristics]]"]
 Related Courses: ["[[Water 1]]"]

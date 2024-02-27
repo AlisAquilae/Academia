@@ -4,7 +4,7 @@ title:
 Parents: ["[[Resistance]]", "[[Phreatic Aquifer]]", "[[Permeability]]", "[[Water 1 Summary Groundwater]]", "[[Aquifer]]"]
 Draft: 
 Status: Done
-aliases: Transmissivity
+aliases: "Transmissivity"
 Related Notes: ["[[Water 1 Summary Groundwater]]"]
 Related Terminology: ["[[Resistance]]", "[[Permeability]]"]
 Related Courses: ["[[Water 1]]"]

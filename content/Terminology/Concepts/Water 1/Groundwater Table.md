@@ -4,7 +4,7 @@ Parents: ["[[Unsaturated Zone]]", "[[Saturated Zone]]"]
 title: 
 Draft: 
 Status: To Revisit
-aliases: Water Table
+aliases: "Water Table"
 Related Terminology: ["[[Unsaturated Zone]]", "[[Saturated Zone]]"]
 Related Notes: ["[[Water 1 Summary Catchments]]"]
 Related Courses: ["[[Water 1]]"]

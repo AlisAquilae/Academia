@@ -4,7 +4,7 @@ title:
 Parents: ["[[Water 1 Summary Groundwater]]", "[[Unconsolidated Sediment]]"]
 Draft: 
 Status: Done
-aliases: Bedrock
+aliases: "Bedrock"
 Related Notes: ["[[Water 1 Summary Groundwater]]"]
 Related Terminology: ["[[Unconsolidated Sediment]]"]
 Related Courses: ["[[Water 1]]"]
