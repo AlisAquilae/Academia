@@ -593,4 +593,112 @@ The fact that bifurcation (splitting), the average length and slope, and even th
 In the course Water 1, we introduced you to the relationship between the shape of the river network and the way water is discharged. In this course and with the introduced geomorphological laws, we will expand your knowledge with the physical background of these processes. 
 
 ---
-## 3
+## 3.3 River Mechanics
+Horton's geomorphological laws, as described in the previous sections, give a geometrical description of the river network. Within a catchment, we can use these statistical laws to understand river networks and the spatial variation in hydrological regimes. The predictive skills of these laks is, however, limited. For this reason, we often use deterministic models for changes in channels, such as the construction of a secondary channel in the flood plains of the Rhine river
+
+Deterministic models as used in hydrology and hydraulics (river mechanics) use methods from classical mechanics, which we can subdivide into statics and dynamics. Projects related to statics are for example the succumbing of river banks or the pillar of a bridge, but for example also the buoyancy of a water plant. Dynamics describe the movement of both solids (e.g. sediments) and liquids, for example the effects of a narrower part in the river. 
+
+Classical mechanics are based on [[Newton's Second Law of Motion]]: 
+
+$$
+\overrightarrow{F}=m\overrightarrow{a} \tag{1.29}
+$$
+
+
+In this equation, $\overrightarrow{F}$  is the force in Newton [N], $m$ is the mass [kg] and $\overrightarrow{a}$ is the acceleration $[m \, s^{-2}]$. 
+
+>[!Note]
+>The arrows indicate a vector, which has a quantity and a direction (in contrast to a [[Scalars|Scalar]], such as temperature, which does not have a direction). 
+
+Equation 1.29 forms the basic principle for both statics and dynamics. We will explain both processes with examples of sand particles and water flow in a river.
+
+### 3.3.1 Statics
+When the water flow in the river is not strong enough to move a sand particle on the river bottom, the condition of the sand particle is characterised by a **static equilibrium**. If we use a Cartesian axis-system with coordinates (x, y, z), this means that the sum of forces in all three directions equals 0 (equilibrium of all forces): 
+
+$$
+\begin{align}
+& \sum F_x=0 \\
+& \sum F_y=0 \\
+& \sum F_z=0 \\
+\end{align} \tag{1.30}
+$$
+
+
+Or, in vector notation: 
+
+$$
+\sum \overrightarrow{F} = (0,0,0) \tag{1.31} 
+$$
+
+
+When the sand particle resists the dragging force (the so-called **shear stress**) of the water flow on the river bottom, this means that the surrounding sand particles exercise a force in the opposite direction and equal the force of the water flow, such that an equilibrium of forces is formed. The water flow normally has to overcome a certain threshold in order to break through the static equilibrium resulting in a motion of the sand particle. If this happens, the sand particle will experience a **translation**. A translation is a shift or movement without a rotation. 
+
+A static equilibrium is not only characterised by an equilibrium in forces, but also by an equilibrium of torque: 
+
+$$
+\begin{align}
+& \sum M_x=0 \\
+& \sum M_y=0 \\
+& \sum M_z=0 \\
+\end{align} \tag{1.32}
+$$
+
+
+Or, in vector notation: 
+
+$$
+\sum \overrightarrow{M} = (0,0,0) \tag{1.33} 
+$$
+
+
+**Torque** is the product of a force times the arm (distance) of that force, or in vector notation: 
+
+$$
+\overrightarrow{M} = \overrightarrow{r} \times \overrightarrow{F} \tag{1.34} 
+$$
+
+
+Here $r$ is the 'arm', which we can display as a vector, because it is a unit with both a quantity and a direction. When the torque is not in equilibrium in one of the three directions, the sand particle will experience a rotation. Hence, the absence of an equilibrium opf $M_x$, $M_y$ or $M_z$ results in a rotation around respectively the x-axis, y-axis or z-axis. 
+
+We can thus explain the static behaviour of a sand particle on the river bottom as a simultaneous occurrence of six equilibria: an equilibrium of forces in three directions and a torque equilibrium on three axes. Statics, as described above, are the basics to describe whether for example the banks of a river, a pillar of a bridge or a dike will succumb due to the forces and torque of water that act on it. 
+
+When the water movement exceeds the threshold for movement of the sand particle, the particles will roll, slide and jump over the river bottom, or the particles will move with the water in **suspension** (i.e. 'floating' in the water). Most rivers in the world travel enormous amounts of sand or other sediments
+
+### 3.3.2 Dynamics
+Also in dynamics, where we try to quantify water movement and the transport of sediments, the second law of Newton is important. We will have to rewrite Eq. 2.29 in order to use this equation for a liquid: 
+
+$$
+\overrightarrow{F} = m\overrightarrow{a} = \frac{\delta}{\delta t}(m\overrightarrow{v} \,) \tag{1.35}
+$$
+
+
+The product of mass and velocity in this equation $(m\overrightarrow{v} \,)$ is called the **impulse** (vector), which has the same direction as the velocity. Hence, a force is the change of an impulse in time. The application of this law to river water, with or without suspended sediments, starts with setting up a control volume. A control volume of a river has imaginary boundaries and is both in static and dynamic equilibrium. This means that we can set up a balance of mass and impulse for this control volume. 
+
+![[20240227_153102.jpg]]
+
+We can set up a mass balance when we define the control volume with two boundaries transversal to the water flow. The distance between those two boundaries is $\Delta x$. When more water flows through the upper boundary than through the lower boundary, the water level will increase in the control volume. Vice versa, when more water leaves the control volumes than that water enters, the water level of the control volume will drop. Here, we assume that there is no water exchange with the groundwater (so no infiltration or drainage) and that the flux on the upper boundary (the water level), e.g. precipitation, is negligible. 
+
+For sediment transport, we can make a similar balance with a control volume. When more sediment enters than leaves the control volume, there will be a sediment increase in the control volume. If this happens, there will be 2 options: the concentration of sediment in suspension will increase (the water will get more turbid) or sedimentation will take place. Sedimentation within the control volume can raise the river bottom or form river banks. With such a simplified mass balance, we can solve many problems in river functioning, but for some complex problems when the water velocity is of importance, we have to solve the impulse balance next to the water balance. 
+
+>[!Info]
+>To solve three dimensional water flow in detail, we have to make a mass and impulse balance for an infinitesimally small control volume. This means extremely small, but not infinitely small, because the volume should be larger than the scale of molecules. Both balances will become a coupled system of differential equations, which is very difficult to solve analytically. With the growth in computer power, solving this system is getting closer, but it will take many years before we are really there. Hence, our current models are not yet able to simulate sediment transport of every individual particle on the scale of a river by solving these equations.
+
+The transport of sediments depends heavily on the drag force of the river flow at the bottom of the river, together with the mixing forces by turbulent fluctuations in the flow, which results in suspended sediments. Streamflow details determine the river's capacity to transport sediments. As described above with the help of the mass balance, streamflow gradients can result in changes in the river morphology. The river morphology, in its turn, determines the boundary conditions of the water flow. Characteristic for coupled rivers systems is that changes in water movement, both in space and time, take place much faster than change in the river morphology. 
+
+---
+## 3.4 Meandering
+Not all rivers look the same from above. Generally, we have the following subdivision in river patterns
+- **Straight**: the river has a clear channel and it has barely any bends
+- **Meandering**: the river shows a large sequence of bends
+- **Braided**: this pattern is characterised by a river which has many different channels that intersect or cross each other, and then converge or diverge again, like the strands of a braid. We often see this pattern in sandy river banks with a strongly changing discharge and/or steep hill slopes. Hence, this river pattern often occurs in mountainous areas
+- **Anastomosing**: we find this pattern in rivers with clayey banks and low streamflow velocities, such as delta regions. 
+
+It is not always easy to distinguish the different patterns, but from laboratory experiments, we know that the patterns are mainly determined by the slope. 
+
+>[!Info]
+>The straight pattern is the least occurring pattern; at least for natural rivers. Most rivers on Earth have a meandering pattern, while only a small part shows a braided pattern
+
+Why does a river meander? This has to do with the strive of the river for an energetic condition that is as low as possible. A too high streamflow velocity and shear stress (the force which pushes on the sediment particles) will result in a movement of the sediment from the river bottom. This movement lasts until the river bed and banks have reached a new shape, in which sediment transport is minimal. A river will always 'strive' for such an energetically favourable shape,. as long as that is possible within the current boundary of conditions as determined by external processes, such as sea level rise or plate tectonics. These external processes determine the height difference the river has to bridge between the source and the debouchment. 
+
+We can quantify to which extent the river meanders with the so-called [[Sinuosity]]. Sinuosity is the ratio between the actual distance of the river (measured alongside the river channel) and the shortest possible distance when the river would have been straight. A straight line / river thus has a sinuosity of 1. 
+
