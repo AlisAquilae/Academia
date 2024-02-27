@@ -1,6 +1,6 @@
 ---
 fileClass: Base, Concepts
-aliases: Conductivity
+aliases: "Conductivity"
 Related Terminology: ["[[Porosity]]"]
 Related Notes: ["[[Reader Water 1-Chapter 1.1-Catchment Characteristics]]"]
 Related Courses: ["[[Water 1]]"]

@@ -4,7 +4,7 @@ title:
 Parents: ["[[Hydrograph]]"]
 Draft: 
 Status: Done
-aliases: Direct Runoff
+aliases: "Direct Runoff"
 Related Notes: ["[[Water 1 Summary Catchments]]"]
 Related Terminology: ["[[Hydrograph]]", "[[Baseflow]]"]
 Related Courses: ["[[Water 1]]"]

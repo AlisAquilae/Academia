@@ -1,6 +1,6 @@
 ---
 fileClass: Base, Concepts
-aliases: Phreatic Zone
+aliases: "Phreatic Zone"
 Related Terminology: ["[[Unsaturated Zone]]", "[[Groundwater Table]]"]
 Related Notes: ["[[Water 1 Summary Catchments]]"]
 Related Courses: ["[[Water 1]]"]

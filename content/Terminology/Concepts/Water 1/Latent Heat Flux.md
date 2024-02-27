@@ -4,7 +4,7 @@ Parents: ["[[Energy Balance Model]]", "[[Water 1 Summary Catchments]]"]
 title: 
 Draft: 
 Status: Done
-aliases: Wet Energy Flux
+aliases: "Wet Energy Flux"
 Related Terminology: ["[[Sensible Heat Flux]]", "[[Energy Balance Model]]", "[[Bowen Ratio]]"]
 Related Notes: ["[[Water 1 Summary Catchments]]"]
 Related Courses: ["[[Water 1]]"]

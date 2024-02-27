@@ -4,7 +4,7 @@ title:
 Parents: ["[[Water 1 Summary Catchments]]"]
 Draft: 
 Status: Done
-aliases: Lag Time
+aliases: "Lag Time"
 Related Notes: ["[[Water 1 Summary Catchments]]"]
 Related Terminology: 
 Related Courses: ["[[Water 1]]"]

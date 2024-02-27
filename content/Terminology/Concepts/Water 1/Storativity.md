@@ -4,7 +4,7 @@ title:
 Parents: ["[[Specific Storage]]"]
 Draft: 
 Status: Done
-aliases: Storage Coefficient
+aliases: "Storage Coefficient"
 Related Notes: ["[[Water 1 Summary Catchments]]"]
 Related Terminology: ["[[Specific Storage]]"]
 Related Courses: ["[[Water 1]]"]

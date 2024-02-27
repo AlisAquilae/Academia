@@ -4,7 +4,7 @@ title:
 Parents: ["[[Chézy Equation]]", "[[Uniform Flow]]"]
 Draft: 
 Status: To Revisit
-aliases: Steady Flow
+aliases: "Steady Flow"
 Related Notes: ["[[Water 1 Summary Catchments]]"]
 Related Terminology: ["[[Chézy Equation]]", "[[Uniform Flow]]"]
 Related Courses: ["[[Water 1]]"]

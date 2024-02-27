@@ -1,8 +1,8 @@
 ---
 fileClass: Base, Concepts
 aliases:
-  - Horton Infiltration Model
-  - Horton Overland Flow
+  - "Horton Infiltration Model"
+  - "Horton Overland Flow"
 Related Terminology: ["[[Surface Runoff]]", "[[Horton's Equation]]"]
 Related Notes:
   - "[[Water 1 Summary Catchments]]"

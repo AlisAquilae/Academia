@@ -1,6 +1,6 @@
 ---
 fileClass: Base, Concepts
-aliases: Soil Water
+aliases: "Soil Water"
 Related Terminology: ["[[Soil Moisture]]", "[[Unsaturated Zone]]"]
 Related Notes: ["[[Water 1 Summary Catchments]]"]
 Related Courses: ["[[Water 1]]"]

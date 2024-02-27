@@ -1,6 +1,6 @@
 ---
 fileClass: Base, Concepts
-aliases: Dry Energy Flux
+aliases: "Dry Energy Flux"
 Related Terminology: ["[[Energy Balance Model]]", "[[Latent Heat Flux]]", "[[Bowen Ratio]]"]
 Related Notes: ["[[Water 1 Summary Catchments]]"]
 Related Courses: ["[[Water 1]]"]
