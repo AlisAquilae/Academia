@@ -166,3 +166,96 @@ Because rainwater will infiltrate, groundwater tables will rise. This effect can
 Since groundwater tables are shallow close to a channel, the soil will saturate more quickly closer to a channel than towards the hilltop. The longer the duration of the precipitation event, or when multiple precipitation events occur within a relatively short time span, an increasing part of the catchment will get saturated (often starting around the brook and then expanding). The part of the catchment which will become saturated and thus which contributes to the surface runoff, is called the [[Variable Contributing Area]]
 
 The size of the saturated area determines the amount of rainwater that will reach the channels via surface runoff during a rain shower. If the catchment is wetter (so wet initial conditions), rain water will drain to the channels more quickly, and the discharge peak arrives faster at the catchment outlet. This is also why a precipitation event in summer barely results in a discharge increase, while a similar event could already lead to inundations during winter. This non-linear catchment behaviour (the same amount of precipitation does not always lead to the same amount of discharge) is one of the largest challenges in simulating rainfall-runoff processes. 
+
+---
+## 1.5 Baseflow
+### 1.5.1 Recession Curve
+Even when it has not rained for some time, most rivers and brooks contain (and transport) water. This water flow is called the [[Baseflow]] and it is fed by groundwater in which rainwater from older precipitation events is stored. This storage gradually empties and this is the baseflow which flows towards the river or brook. Because groundwater flow is often a slow process, water can reach the channel even long after a rain shower. During a dry period, the baseflow will slowly decrease. The amount of baseflow and the maximum duration of baseflow depend mainly on the amount of water stored in the soil and the soil properties (e.g. aquifer thickness and [[Permeability]]). Some brooks dry up during dry periods, which happens when the groundwater tables drop below the channel bottom. 
+
+The part of the [[Hydrograph]] that displays the drying proces of the soil and the decline in the baseflow, is called the [[Recession]]. Recession curves often have a negative exponential shape: 
+
+$$
+Q(t)=Q_0 \cdot e^{-c \, t} \tag{1.2} 
+$$
+
+where:
+- $Q(t)$ is the [[Discharge]] at time $t$ after the start of the recession (in L$^3$ T$^{-1}$)
+- $Q_0$ is the discharge at time 0 (at the start of the recession) in L$^3$ T$^{-1}$
+- $c$ is the recession coefficient (in T$^{-1}$) 
+
+A small $c$ results in a slowly decreasing discharge. So if $c$ is small, the supply of groundwater to the stream will take place for a longer time during dry periods
+
+We can explain the exponential shape of the recession curve with the mass balance of the groundwater reservoir, of which we can describe the behaviour with a linear reservoir. During the recession, we can assume the groundwater recharge to be zero. Hence, due to the drainage of the groundwater, groundwater tables will slowly decline. As a result of this, the difference in [[Hydraulic Head]] between groundwater and the river, so the driving force behind the groundwater flow, will decline as well. 
+
+![[20240227_135603.jpg]]
+
+Assume that the groundwater table is a leaking bucket. The groundwater flow will be comparable to the outflow of the bucket (the discharge $Q$) and this is linearly proportional to the water level of the bucket. A lower water level in the bucket causes slower water flow out of the bucket. Besides that, the size of the leaking point (e.g. a hole) also influences the discharge. So a large leak results in a high discharge: 
+
+$$
+Q=c^* \cdot \bar{H} \tag{1.3}
+$$
+
+With:
+- $Q$ as the [[Discharge]] (in L$^3$ T$^{-1}$)
+- $\bar{H}$ as the difference between the average groundwater level and the water level of the river (so the water level in the bucket) in L
+- $c^*$ as a coefficient which depends on the [[Conductance]] of the soil and the average distance to the river (the size of the leak).
+
+>[!Note]
+>This equation is actually a simplified version of [[Darcy's Law]]
+
+Discharge is also proportional (linearly) to the change of the hydraulic head over time. Compare this to the leaking bucket: how fast the water level in the bucket drops, is a measure for the discharge. This follows: 
+
+$$
+Q=-\mu A \frac{\text{d}\bar{H}}{\text{d}t} \tag{1.4} 
+$$
+
+Where:
+- $\mu$ is the storage coefficient (no unit)
+- $A$ is the surface area of the catchment (or the bucket). 
+
+We use a minus sign, because a water level drop means a positive discharge. The storage coefficient is necessary, because a groundwater table decline of 1 cm does not equal to a water layer of 1 cm (because part of the soil volume is filled with soil particles). 
+
+Now, we can state that equations 2.4 and 2.4 equal each other: 
+
+$$
+c^* \cdot \bar{H} =-\mu A \frac{\text{d}\bar{H}}{\text{d}t} \tag{1.5}  
+$$
+
+
+If we move the terms with $\bar{H}$ to the left hand side, we will get: 
+
+$$
+\frac{\text{d}\bar{H}}{\text{d}t} \frac{1}{\bar{H}}=-\frac{c^*}{\mu A}\tag{1.6}
+$$
+
+
+Followed by an integration to $t$ : 
+
+$$
+\ln \, \bar{H}=-\frac{c^*}{\mu A}+ C \tag{1.7} 
+$$
+
+
+With C the integration constant. So, the following holds: 
+
+$$
+\bar{H}(t)=e^C e^{-\frac{c^*}{\mu A}t} \tag{1.8}
+$$
+
+
+We indicate the groundwater level at the start of the recession with $\bar{H}_0$. At time $t=0$, the following holds: $\bar{H}(0) = \bar{H}_0$, and thus: 
+
+$$
+\bar{H}_t =H_0 \, e^{-\frac{c^*}{\mu A}t} \tag{1.9}
+$$
+
+
+If we use this in equation 2.3, and $Q_0 = c^* \cdot \bar{H}_0$, we find 
+
+$$
+Q(t) = Q_0 \, \cdot e^{-\frac{c^*}{\mu A}t} \tag{1.10} 
+$$
+
+
+>[!Note]
+>Not all catchments have a recession curve which resembles the flow from a linear reservoir. In those cases, we need to use other mathematical equations to describe the recession curve
