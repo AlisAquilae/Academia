@@ -19,5 +19,5 @@ It is based on [[Horton's Equation]]
 
 >[!Important]
 >Summarising the requirements to get Horton overland flow due to an infiltration surplus are:
->- The saturated conductivity of the soil is smaller than the precipitation intensity
->- The duration of the precipitation shower is larger than the ponding time. 
+>- The [[Saturated Hydraulic Conductivity]] of the soil is smaller than the precipitation intensity
+>- The duration of the precipitation shower is larger than the [[Ponding Time]]. 

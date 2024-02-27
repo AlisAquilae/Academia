@@ -139,3 +139,30 @@ If the saturated conductivity of the soil is smaller than the constant precipita
 >- The saturated conductivity of the soil is smaller than the precipitation intensity
 >- The duration of the precipitation shower is larger than the ponding time. 
 
+>[!Info]
+>We often see this type of surface runoff in arid and semi-arid areas. The absence of vegetation in these areas results in compaction of the soil, which on its turn lowers the conductivity and infiltration capacity of the soil. Vegetation results in a soil structure with higher conductivity, even on soil types which normally have a low conductivity, such as clayey soils. 
+
+>[!Note]
+>The simplified situation of the figure above will not occur in reality, because the precipitation intensity of a rain shower is never constant. Surface runoff due to an infiltration surplus (Hortonian overland flow) does occur though, because during parts of the precipitation duration, the precipitation intensity can be larger than the infiltration capacity. There is also a spatial variation in the precipitation intensity and infiltration capacity. Hence, in paved areas within a catchment (e.g. streets, urban areas, etc.) ponding can occur, but these ponds infiltrate again nearby. 
+
+---
+## 1.4 Surface Runoff due to Soil Saturation
+### 1.4.1 Dunne's Principle
+If the conductivity of the soil is high enough to let all water infiltrate during most rain showers (also severe ones), Horton's principles can no longer explain the formation of ponds and surface runoff. Surface runoff, however, does occur in catchments with very permeable soils and even in climates with low precipitation intensities. How is this possible? Let's look at the following figure:
+
+![[20240227_133859.jpg]]
+
+Assume again that a rain shower with a constant intensity (e.g. of 10 mm/h). This rain shower falls this time on a soil which has an infiltration capacity $f_\infty$ (or $k_{\text{sat}}$). which remains higher than the precipitation intensity. This often occurs in relatively humid areas such as the North-Werst of Europe. At some locations in these areas,. groundwater levels are close to the surface level. These are often the valley areas close to a slope (e.g. in between mountains)  or delta regions. 
+
+Because rainwater will infiltrate, groundwater tables will rise. This effect can even be aggravated due to **return flow** from elevated areas (called groundwater ridging). Higher groundwater tables leas to lower storage capacities in the unsaturated zone. The unsaturated zone will be thinner: less porespace remains which can be filled with water. If this process continues, the soil will eventually be completely saturated. We call this time, $t_{\text{sat}}$, the **saturation time**. When we reach the saturation time, the soil can no longer store any precipitation water (the storage capacity is 0) and all water has to be stored on the surface. When the surface slopes (this slope can be quite small), surface runoff will take place. This process is called the **Dunne's Principle** (leading to [[Saturation Excess Overland Flow|Dunne Overland Flow]], otherwise known as [[Saturation Excess Overland Flow]]), because Dunne, another American hydrologist, was the first describe this phenomenon. 
+
+>[!Important]
+>The required conditions for the formation of surface runoff due to a saturation surplus, are:
+>- The infiltration capacity at saturation ($f_\infty$) of the soil is larger than the precipitation intensity
+>- The duration of the rain shower is longer than the saturation time
+>- Groundwater tables are shallow. 
+
+### 1.4.2 Variable Contributing Area
+Since groundwater tables are shallow close to a channel, the soil will saturate more quickly closer to a channel than towards the hilltop. The longer the duration of the precipitation event, or when multiple precipitation events occur within a relatively short time span, an increasing part of the catchment will get saturated (often starting around the brook and then expanding). The part of the catchment which will become saturated and thus which contributes to the surface runoff, is called the [[Variable Contributing Area]]
+
+The size of the saturated area determines the amount of rainwater that will reach the channels via surface runoff during a rain shower. If the catchment is wetter (so wet initial conditions), rain water will drain to the channels more quickly, and the discharge peak arrives faster at the catchment outlet. This is also why a precipitation event in summer barely results in a discharge increase, while a similar event could already lead to inundations during winter. This non-linear catchment behaviour (the same amount of precipitation does not always lead to the same amount of discharge) is one of the largest challenges in simulating rainfall-runoff processes. 
