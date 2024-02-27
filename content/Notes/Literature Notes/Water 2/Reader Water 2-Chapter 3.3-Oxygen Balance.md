@@ -3,7 +3,7 @@ fileClass: Base, Literature Notes
 title: 
 Parents: ["[[Water 2]]"]
 Draft: 
-Status: In Progress
+Status: Done
 Authors: 
 Year of Publication: 2024
 Related Notes: 
@@ -167,4 +167,10 @@ With
 
 When $N$ is equal to $k_s$ the result of equation 4.18 is 0.5. This explains the term half saturation concentration. Equation 4.18 shows that with low values of $N$ growth is proportional to $N$; at high nutrient concentrations the limiting factor slowly tends to 1
 
-Including primary production in the oxygen balance could lead to the equati
+Including primary production in the oxygen balance could lead to the equation:
+
+$$
+\frac{d \ce{O2}}{dt} = co(\mu - R)A + \frac{k_L}{H}(C_s - \ce{O2})-k_r \, \text{BOD}_t - \frac{\text{SOD}}{H} \tag{4.19}
+$$
+
+In which the last term is the sediment oxygen demand that is divided by depth. The constant $co$ is the production of $\ce{O2}$ per mg produced cell material. 
