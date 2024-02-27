@@ -353,4 +353,58 @@ Besides, the probability that a discharge with a return period of $T$ years gets
 >$$
 
 ### 2.4.3 Annual Maxima
-For extreme value statistics, we start with selecting the annual (yearly) maxima of a discharge or precipitation time series. We can plot these annual maxima against the exceedance probabilities in a similar way as done in Section 2.2.4 and Fig. 2.13. If we do this for the Rhine at Lobith and the Meuse at Borgharen, we find the following figure (left)
+For extreme value statistics, we start with selecting the annual (yearly) maxima of a discharge or precipitation time series. We can plot these annual maxima against the exceedance probabilities in a similar way as done in Section 2.4 and Fig. 2.13. If we do this for the Rhine at Lobith and the Meuse at Borgharen, we find the following figure (left):
+
+![[20240227_141734.jpg]]
+
+We call this a **Cumulative Probability Distribution**. By interpolating the results, we can easily find the corresponding annual maximum discharge for a certain probability exceedance (e.g. 10%). For 10%, we find $9.4 \times 10^3$ m$^3$ s$^{-1}$ for the Rhine. The corresponding return period is then (see Eq. 1.11) $T=10$ years. So on average, once every 10 years a discharge of $9.4 \times 10^3$  m$^3$ s$^{-1}$ or more occurs in the Rhine river. 
+
+The largest return period which we can read from the figure above is $N=1=108$ years. This means that, if we want to determine a design discharge for a larger return period, we will have to extrapolate this graph to the left. That is extremely difficult. Actually, with this method, it is not even possible to determine the design of discharge of the Rhine at Lobith for a return period of 1250 years. Nevertheless, for water safety, we want to be able to estimate a design discharge for a return period longer than the available time series. This means that we are going to determine the probability of a certain event that has never been experienced. To make such an extrapolation possible, we use extreme value statistics.
+
+### 2.4.4 Gumbel Distribution
+We can fit a probability distribution through annual maxima (or maxima above a certain value), which allows us to estimate the precipitation sums that correspond to certain return periods. An often used probability distribution for this purpose is the [[Gumbel Distribution]]: 
+
+$$
+x(p)=\mu - \alpha \ln(1 - \ln (1-p)) \tag{1.12} 
+$$
+
+Where:
+- $x$ is the discharge or precipitation for a certain exceedance probability $p$ (a year)
+- $\mu$ is the location parameter
+- $\alpha$ the scale parameter
+
+Both $\mu$ and $\alpha$ are empirical parameters with the same unit as $x$
+
+Usually, we transform $p$ before plotting it. The transformed value of $p$ is called the [[Gumbel Reduced Variate]] ($y$): 
+
+$$
+y(p)=-\ln (-\ln (1-p)) \tag{1.13} 
+$$
+
+
+And with that, Eq. 2.12 turns into 
+
+$$
+x(y)=\mu + \alpha y 
+$$
+
+
+>[!Note]
+>It is a bit confusing that $y$ is plotted on the x-axis and $x$ is plotted on the y-axis, but since these symbols are internationally used in this way, we will do the same as well here
+
+Subsequently, $- \ln (- \ln (1-p))$ is placed on the x-axis and $Q$ on the y-axis (see the previous picture, right). When the Gumbel distribution is a good estimator of the probability distribution of the annual maxima, all points will lie on one line with slope $\alpha$ and intercept $\mu$. We can easily extrapolate this line.
+
+We can determine the parameters $\mu$ and $\alpha$ graphically (i.e. with a graph), or from measurements. We only need to know the average values $Q_{ave}$ and standard deviation $s$ of $N$ extreme discharges. Subsequently, we will find  $\mu$ and $\alpha$ with: 
+
+$$
+\alpha = \frac{\sqrt{6}}{\pi}s \tag{1.14}
+$$
+
+And 
+
+$$
+\mu = Q_{ave}-0.5772 \alpha \tag{1.15} 
+$$
+
+
+From equation 2.12 we are now able to calculate the discharge that corresponds to a certain return period. Here, we assume measurements follow the Gumbel distribution, even for extreme values which we have never measured. Besides, we also assume that this distribution holds for future values. The parameters  $\mu$ and $\alpha$ can, however, change due to for example changes in the upstream part of the river. A change in land use or climate cal also result in different values for the parameters of this distribution. Therefore, our current estimations of the discharges for return periods of 1250 years or more has quite some uncertainty. 

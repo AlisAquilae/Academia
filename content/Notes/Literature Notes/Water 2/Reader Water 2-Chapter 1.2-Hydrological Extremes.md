@@ -100,7 +100,7 @@ For extreme value statistics, we start with selecting the annual (yearly) maxima
 >[!Missing]
 >Insert Fig. 2.14
 
-We call this a [[Cumulative Probability Distribution]]. By interpolating the results, we can easily find the corresponding annual maximum discharge for a certain probability exceedance (e.g. 10%). For 10%, we find $9.4 \times 10^3$ m$^3$ s$^{-1}$ for the Rhine. The corresponding return period is then (see Eq. 2.11) $T=10$ years. So on average, once every 10 years a discharge of $9.4 \times 10^3$  m$^3$ s$^{-1}$ or more occurs in the Rhine river. 
+We call this a **Cumulative Probability Distribution**. By interpolating the results, we can easily find the corresponding annual maximum discharge for a certain probability exceedance (e.g. 10%). For 10%, we find $9.4 \times 10^3$ m$^3$ s$^{-1}$ for the Rhine. The corresponding return period is then (see Eq. 2.11) $T=10$ years. So on average, once every 10 years a discharge of $9.4 \times 10^3$  m$^3$ s$^{-1}$ or more occurs in the Rhine river. 
 
 The largest return period which we can read from the figure above is $N=1=108$ years. This means that, if we want to determine a design discharge for a larger return period, we will have to extrapolate this graph to the left. That is extremely difficult. Actually, with this method, it is not even possible to determine the design of discharge of the Rhine at Lobith for a return period of 1250 years. Nevertheless, for water safety, we want to be able to estimate a design discharge for a return period longer than the available time series. This means that we are going to determine the probability of a certain event that has never been experienced. To make such an extrapolation possible, we use extreme value statistics.
 
