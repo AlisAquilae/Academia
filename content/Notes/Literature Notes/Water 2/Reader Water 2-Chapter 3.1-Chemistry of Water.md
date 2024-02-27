@@ -49,3 +49,5 @@ Whether transport or local processes are dominant for the concentration differs 
 The load of pollution can come from a point or a diffuse source. A point source can be located exactly, for example a discharge point of an industry. An example of a diffuse source is runoff of nutrients from agricultural soils. Dry and wet deposition of acid substances (acid rain) or micro-pollutants is also an example of diffuse pollution. 
 
 After ages of fighting high water and flooding at present drought is a problem in certain areas. This is a quantity problem, though it can also affect water quality. A measure to decrease the drought is the influx of 'foreign' water. This can be a problem when the chemical composition of the foreign water differs from the native water. In the Netherlands the impact of the Rhine is large, and when foreign water enters an area it is often directly or indirectly coming form the Rhine. The eutrophic Rhine water can cause eutrophication when it is used to supply water in dry oligotrophic areas. 
+
+Testing
