@@ -127,7 +127,7 @@ Also $f_0$ and $f_\infty$ depend on the soil type, the soil moisture and vegetat
 >  
 
 #### 1.1.3.2 Exceedance of the Infiltration Capacity
-When not all water can infiltrate in the soil after a rain shower or a snow-melt period due to an exceedance of the infiltration capacity, an infiltration surplus occurs, which leads to surface runoff. We call this effect the [[Hortonian Overland Flow|Principle of Horton]] or [[Hortonian Overland Flow]]
+When not all water can infiltrate in the soil after a rain shower or a snow-melt period due to an exceedance of the infiltration capacity, an infiltration surplus occurs, which leads to surface runoff. We call this effect the [[Hortonian Overland Flow|Principle of Horton]] or [[Horton Overland Flow]]
 
 The effect of a rain shower with an intensity that exceeds the infiltration capacity is illustrated in the following figure
 
