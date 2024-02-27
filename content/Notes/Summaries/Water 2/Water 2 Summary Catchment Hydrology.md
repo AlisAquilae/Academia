@@ -215,7 +215,7 @@ Where:
 
 We use a minus sign, because a water level drop means a positive discharge. The storage coefficient is necessary, because a groundwater table decline of 1 cm does not equal to a water layer of 1 cm (because part of the soil volume is filled with soil particles). 
 
-Now, we can state that equations 2.4 and 2.4 equal each other: 
+Now, we can state that equations 1.3 and 1.4 equal each other: 
 
 $$
 c^* \cdot \bar{H} =-\mu A \frac{\text{d}\bar{H}}{\text{d}t} \tag{1.5}  
@@ -236,7 +236,7 @@ $$
 $$
 
 
-With C the integration constant. So, the following holds: 
+With $C$ the integration constant. So, the following holds: 
 
 $$
 \bar{H}(t)=e^C e^{-\frac{c^*}{\mu A}t} \tag{1.8}
@@ -250,7 +250,7 @@ $$
 $$
 
 
-If we use this in equation 2.3, and $Q_0 = c^* \cdot \bar{H}_0$, we find 
+If we use this in equation 1.3, and $Q_0 = c^* \cdot \bar{H}_0$, we find 
 
 $$
 Q(t) = Q_0 \, \cdot e^{-\frac{c^*}{\mu A}t} \tag{1.10} 
@@ -259,3 +259,29 @@ $$
 
 >[!Note]
 >Not all catchments have a recession curve which resembles the flow from a linear reservoir. In those cases, we need to use other mathematical equations to describe the recession curve
+
+---
+# 2. Hydrological Extremes
+## 2.1 Introduction
+For many applications, the normal or average discharge is less relevant than the extremes. What is the probability of getting a very high or very low discharge? In this section we will talk more about the so-called "wet" extremes, floods and severe precipitation events, and droughts. Based on discharge time series (the [[Hydrograph]]), we can calculate probabilities of exceedance and return periods. If we want to conduct studies for certain scenarios (land use or climate change), we will need a simulated discharge time series (the output of the models from the previous section).
+
+In this section, we will explain how you can use a time series for flow duration curves (Sec. 2.3) and extreme values analysis (Sec. 2.4). This can be used for e.g. the calculation of rainfall depth-duration-frequency curves (Sec. 2.5), which are in turn used for water system design (Sec. 2.6). Finally, we give some background on drought processes and analyses (Sec. 2.7)
+
+---
+## 2.2 Societal Context
+When at the start of the rain shower, the storage capacity of the catchment soils is small, e.g. during wet periods, floods can occur. A **high flow** or **flood** is an above-normal river discharge. If the river has a floodplain, part of this discharge will take place over these floodplains. 
+
+Floods are not the only hydrological extreme causing damage to nature and society. Drought can lead to crop damage, (irreversible) damage to aquatic and terrestrial ecosystems, low river water levels which hamper navigation, salt intrusion at the river delta, lack of cooling water for electricity plants, and many other negative situations. 
+
+**Drought** is defined as a situation with less water than normal. Its effect on society, meaning having less water than needed, is called water scarcity. It is possible that these two do not coincide, for example when there is less water than normal in the middle of winter. 
+
+>[!Note]
+>In this section we focus on the Hydrology, so on drought, rather than water scarcity
+
+Besides causing floods, extreme precipitation events can also lead to landslides and inundated streets when the sewage system capacity is exceeded. Knowledge about extreme precipitation events is thus very important for warnings of dangerous weather, for advice to citizens, for water damage insurances and of course for our scientific knowledge
+
+>[!Example]
+>In order to prevent damage, we have to formulate certain design criteria. Society has to decide what risk is acceptable, for example how often a certain flood is allowed to occur. As a result of that, scientists can estimate the probability of certain precipitation sums and the resulting discharge. We use these amounts to design channels, storage basins and pumping stations
+
+---
+## 2.3 Flow Duration Curve
