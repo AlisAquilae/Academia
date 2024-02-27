@@ -375,7 +375,7 @@ Where:
 
 Both $\mu$ and $\alpha$ are empirical parameters with the same unit as $x$
 
-Usually, we transform $p$ before plotting it. The transformed value of $p$ is called the [[Gumbel Reduced Variate]] ($y$): 
+Usually, we transform $p$ before plotting it. The transformed value of $p$ is called the **Gumbel Reduced Variate** ($y$): 
 
 $$
 y(p)=-\ln (-\ln (1-p)) \tag{1.13} 
