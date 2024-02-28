@@ -29,7 +29,7 @@ When the concentration of BOD is not too high, the influx of oxygen from the atm
 - Accidental spills
 - Dying algae and water plants, after extensive growth
 
-Important for the oxygen balance of the surface waters is the amount of organic matter that is discharged and the amount of oxygen the micro-organisms need to decompose the organic matter. For a singular substance like glucose it is straightforward top use the equation of the oxidation-reaction: 
+Important for the oxygen balance of the surface waters is the amount of organic matter that is discharged and the amount of oxygen the micro-organisms need to decompose the organic matter. For a singular substance like glucose it is straightforward to use the equation of the oxidation-reaction: 
 
 $$
 \ce{ C6H12O6 + 6CO2 -> 6CO2 + 6H2O } \tag{3.5}

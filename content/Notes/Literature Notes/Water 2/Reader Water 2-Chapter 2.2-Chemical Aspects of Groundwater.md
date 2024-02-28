@@ -1,14 +1,14 @@
 ---
 fileClass: Base, Literature Notes
 title: 
-Parents: 
+Parents: ["[[Water 2]]"]
 Draft: 
-Status: 
+Status: Done
 Authors: 
-Year of Publication: 
+Year of Publication: 2024
 Related Notes: 
 Related Terminology: 
-Related Courses: 
+Related Courses: ["[[Water 2]]"]
 ---
 ### 2.2.1 Introduction
 Water is essential for the transport of substances, both dissolved and suspended. Needless to say, there is a close connection between quantitative hydrology on one hand and disciplines such as environmental science, biochemistry, agronomy and ecology on the other hand. In this chapter we will introduce the interaction between groundwater flow and the chemical aspects of groundwater
@@ -161,20 +161,38 @@ $$
 \ce{NH4^+ + 2O2 -> NO3^- + 2H^+ + H2O} \tag{3.39} 
 $$
 
-This process, in which protons are released and thus acidification occurs, is called [[Nitrification]]. Because Dutch farmland is usually well-drained, nitrogen is almost exclusively present as nitrate. However, when there is a shallow water table acidic conditions prevail because the diffusion rate of oxygen is particularly low in water. Under such conditions nitrate is being converted to the harmless nitrogen gas, which disappears into the atmosphere (the atmosphere consists for about 80% of nitrogen gas). This nitrogen decomposition process is called [[Denitrification]]: $$\ce{4NO3- + 5CH2O -> 2N2 ^ + H2CO3^- + 2H2O} \tag{3.40} $$
+This process, in which protons are released and thus acidification occurs, is called [[Nitrification]]. Because Dutch farmland is usually well-drained, nitrogen is almost exclusively present as nitrate. However, when there is a shallow water table acidic conditions prevail because the diffusion rate of oxygen is particularly low in water. Under such conditions nitrate is being converted to the harmless nitrogen gas, which disappears into the atmosphere (the atmosphere consists for about 80% of nitrogen gas). This nitrogen decomposition process is called [[Denitrification]]: 
+
+$$
+\ce{4NO3- + 5CH2O -> 2N2 ^ + H2CO3^- + 2H2O} \tag{3.40} 
+$$
+
+
 In this equation organic matter is presented in simplified form as $\ce{CH2O}$. Denitrification appears for example after inundation with river water or in wet nature reserves. As a by-product of denitrification, $\ce{N2O}$ (laughing gas) is formed. This is harmful gas because it also contributes to the greenhouse effect. Denitrification has a positive effect on the quality of groundwater, but this process does contribute to another environmental problem. 
 
 To remove nitrate from the groundwater a high water table is desirable. However, the risk of a high water table in periods of high precipitation is that manure is transported into the ditches. Furthermore, a high water table can lead to increased leaching of P towards groundwater under weakly acid to neutral conditions, because iron-phosphate complexes become unstable. 
 
 Drinking water companies are especially worried about excessive nitrate concentrations. The nature of sediment through which the water flows strongly influences whether nitrate is broken down or not. 
 
-In the groundwater nitrate can be reduced by pyrite ($\ce{FeS2}$) or organic matter (Equation 3.40). Marine deposits contain more pyrite than fluvial or glacial deposits. This is correlated with the high sulphate concentration of seawater, which serves as the source of sulphur in the formation of pyrite. In aeolian depositions which are not "buried", such as cover sand, no pyrite is found. In the reduction process of pyrite by nitrate, nitrogen gas is formed again: $$\ce{2FeS2 + 6NO3^- + 4H2O -> 2Fe(OH)3 + 3N2 ^ +4SO4^{2-} + 2H^+} \tag{3.41} $$
+In the groundwater nitrate can be reduced by pyrite ($\ce{FeS2}$) or organic matter (Equation 3.40). Marine deposits contain more pyrite than fluvial or glacial deposits. This is correlated with the high sulphate concentration of seawater, which serves as the source of sulphur in the formation of pyrite. In aeolian depositions which are not "buried", such as cover sand, no pyrite is found. In the reduction process of pyrite by nitrate, nitrogen gas is formed again: 
+
+$$
+\ce{2FeS2 + 6NO3^- + 4H2O -> 2Fe(OH)3 + 3N2 ^ +4SO4^{2-} + 2H^+} \tag{3.41} 
+$$
+
+
 This chemical equation (chemical denitrification) is one explanation as to why low nitrate concentrations are often found in the groundwater under fertilised soils containing pyrite, although in combination with high sulphate concentrations and a low pH. In case lime is present, the produced acid can be neutralised (equation 3.37). 
 
 >[!Important]
 >Hence, groundwater rich in calcium and sulphate can indicate over-fertilisation. 
 
-The rate of many (bio-)chemical formation and decomposition processes is proportional to the concentrations in the solution. We call this a "linear" reaction, or a "first-order reaction". The rate of chemical denitrification (eq. 3.14) is proportional to the nitrate concentration ($\text{d}C / \text{d}t) \sim C$) and can thus be described as a first-order decomposition process: $$C = C_0e^{- \alpha \, t} \tag{3.42} $$
+The rate of many (bio-)chemical formation and decomposition processes is proportional to the concentrations in the solution. We call this a "linear" reaction, or a "first-order reaction". The rate of chemical denitrification (eq. 3.14) is proportional to the nitrate concentration ($\text{d}C / \text{d}t) \sim C$) and can thus be described as a first-order decomposition process: 
+
+$$
+C = C_0e^{- \alpha \, t} \tag{3.42} 
+$$
+
+
 With:
 - $C$ being the nitrate concentration at time $t$ (e.g. mg / l)
 - $C_0$ being the nitrate concentration at time $t=0$ (e.g. mg / l)
@@ -186,11 +204,37 @@ With:
 
 Not only drinking water companies are worried about pollution of groundwater with nutrients, nature conservationists have been aware of this problem since the sixties. Nutrients that are applied to agricultural plots can flow to nearby nature reserves through the groundwater. High nutrient concentrations lead highly productive plant species to dominate vegetation. They out-compete species that grow slowly, which are often rare and characteristic species from which nature reserves derive their value. 
 
-Furthermore, there is attention for the questionable role of sulphate in the decline of nature reserves. This sulphate can come directly from fertiliser applications, but also from the decomposition of pyrite under the influence of nitrate (equation 3.41). The reduction of sulphate in wet natural areas, in which oxygen-poor conditions dominate the soil, does not lead to a decrease of its influence such as with nitrate, but on the contrary produces a problem. This is because sulphide (with the characteristic rotten egg odour) is formed, which is already toxic for plant roots at low concentrations: $$\ce{SO4^{2-} + 2CH2O <=>> HS^- + HCO3- + CO2 + H2O} \tag{3.43} $$
+Furthermore, there is attention for the questionable role of sulphate in the decline of nature reserves. This sulphate can come directly from fertiliser applications, but also from the decomposition of pyrite under the influence of nitrate (equation 3.41). The reduction of sulphate in wet natural areas, in which oxygen-poor conditions dominate the soil, does not lead to a decrease of its influence such as with nitrate, but on the contrary produces a problem. This is because sulphide (with the characteristic rotten egg odour) is formed, which is already toxic for plant roots at low concentrations: 
+
+$$
+\ce{SO4^{2-} + 2CH2O <=>> HS^- + HCO3- + CO2 + H2O} \tag{3.43} 
+$$
+
+
 A second characteristic of sulphate is that it can be bound strongly to iron, in which case iron sulphides such as $\ce{FeS}$ and $\ce{FeS2}$ (pyrite) are formed. However, iron is the most important factor for the binding of phosphate in most of the wetland soils. Sulphide seriously disrupts the binding of phosphate in all kinds of iron-phosphate complexes and largely consumes newly freed iron. The consequence is "internal" Eutrophication with phosphate: the already present phosphate is freed increasingly fast and "new" phosphate is to a lesser degree bound to iron. 
 
 >[!Important]
 >In conclusion: the supply of sulphate-rich water nearly always leads to eutrophication, even when phosphate is completely absent
 
 ---
-### 2.2.6 A Buffer Zone Against Nitrate (==Ski)
+### 2.2.6 A Buffer Zone Against Nitrate (==Skipped==)
+General message: An assessment of the water quality of an area cannot be considered separately from a profound understanding of water quantity
+
+---
+### 2.2.7 Salinisation
+A close interaction between hydrology, chemistry and agronomy is also found in the irrigation of arid and semi-arid areas. 
+
+Obviously irrigation is meant to improve crop growth. However, when too little irrigation water is applied, there is the danger that salt accumulates in the soil and arable land is lost. 
+
+>[!Info]
+>An extreme example where this has occurred naturally is Death Valley in the United States
+
+In areas with irrigation percolation from irrigation channels and watering of fields frequently cause a rise in the water table. Percolation however is necessary because of the need to leach out salts in the rootzone. 
+
+In case the natural drainage of an area is insufficient to keep the groundwater level low enough for percolation to occur and salt to leach away, the construction of a drainage network is required. Hence, irrigation is not possible without natural or artificial drainage. 
+
+While drainage in wet areas, like the Netherlands, is meant to improve the oxygen supply, soil temperature and workability of the land, the main purpose of drainage and irrigated land in dry regions is combating salinisation. 
+
+>[!Note]
+>In the western part of the Netherlands another kind of threat due to salinisation exists, namely via the supply of brackish groundwater to a deeply reclaimed lake or other polders. Salt water can flow beneath the dunes and thus cause salinisation. However, below the dunes a deep freshwater bubble occurs which floats on top of the brackish and salty groundwater. As long as this bubble is deep enough it functions like a wall against salt water encroachment. 
+
