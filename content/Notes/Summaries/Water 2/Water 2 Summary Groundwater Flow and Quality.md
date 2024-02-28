@@ -116,6 +116,7 @@ $$
 
 in which $C$ is a constant of integration, which we will solve in step 5 of the procedure
 
+
 ***Step 5. Defining and Substituting the Boundary Conditions***
 The hydraulic head can be defined relative to any reference point consistently chosen within the same case study. Here, we define $H$ relative to the water level in the ditch, which means the boundary condition is: 
 
@@ -157,3 +158,188 @@ This formula, together with more complex ones (see the next section), have had a
 In [[Water 1]] we stated that there is a relation between the spatial and the temporal scale. It should be clear that the water table between stream separated from each other by a distance of several kilometers reacts less quickly to the pattern of precipitation and evaporation compared to the water table under a small field. To describe the maximum [[Centerfield Head Difference]] between streams we thus need to apply another, lower, value for $R$ than for a field. The water table in very large groundwater systems reflects the precipitation surplus of a period of many years. 
 
 Stationary formulas are often used to describe the average water table levels. In certain conditions this is valid, i.e. when the groundwater system is "linear", meaning that the output is proportional to the input. For example, 4.11 is linear: when $R$ doubles, $M_0$ is twice as large as well. A very practical feature of linear systems is that the outcomes of several formulas can be added.
+
+---
+## 4.3 Centerfield Head Differences Between Parallel Ditches Without Using the Flow Layer Thickness
+
+We examine the same flow problem as in the previous section, only now the [[Centerfield Head Difference|CFHD]] with respect to the depth of the impermeable layer below the drain level is so large that it is no longer justified to use the flow layer thickness $D$ in our calculations. Also in this case we can derive the shape of the water table.
+
+***Step 1. Limiting the Flow System***
+Same as in the previous section
+
+***Step 2. Simplifying the Flow Pattern***
+Same as in the previous section, only simplification 6 no longer applies. 
+
+***Step 3. Formulating the Differential Equation***
+Equation 4.1 still holds for $q$. Additionally, $q$ can also be calculated as the product of the [[Flux Density]] (also called Specific Discharge or sometimes Apparent Velocity), and the flow layer thickness. However, in this case the flow layer thickness is not a constant value like in the previous section, because it significantly decreases in the direction of $x$. Hence, we define $H$ here with respect to the impermeable layer (instead of the water level in the ditch), in order for $H$ to represent the depth of the impermeable layer below drain level.
+
+![[20240228_142927.jpg]]
+
+This way we arrive at: 
+
+$$
+q=-kH\frac{\text{d}H}{\text{d}x} \tag{4.12} 
+$$
+
+
+Equating 4.1 and 4.12 yields: 
+
+$$
+Rx =-kH\frac{\text{d}H}{\text{d}x} \tag{4.13} 
+$$
+
+
+
+***Step 4. Solving the differential equation***
+From 4.13 follows: 
+
+$$
+Rx\text{d}x = -kH\text{d}H \tag{4.14} 
+$$
+
+
+Integrating once gives: 
+
+$$
+\frac12 Rx^2 =- \frac12 kH^2 + C \tag{4.15} 
+$$
+
+
+
+***Step 5. Defining and Substituting the Boundary Conditions***
+When the depth (anmd thus the [[Hydraulic Head]]) of the ditch is unknown, but we still want to calculate the constant of integration, we use a symbol instead of a number. Let us call the hydraulic head at the water level of the ditch $H_0$. One of the boundary conditions is then: 
+
+$$
+\langle x=\frac12 L, \, H=H_0 \rangle \tag{4.16}
+$$
+
+
+Substituting these data in 4.15 results in: 
+
+$$
+C=\frac18 RL^2 + \frac12 kH_0^2 \tag{4.17} 
+$$
+
+
+Again substituting 4.17 in 4.15 and writing $H$ explicitly gives: 
+
+$$
+H= \sqrt{H_0^2 + \frac RK \Bigl(\frac14 L^2 - x^2 \Bigr) } \tag{4.18} 
+$$
+
+
+In the middle between the ditches $\langle x=0, \, H=H_0 + m_0 \rangle$ applies as a boundary condition. Substituting in 4.18 leads to: 
+
+$$
+L^2=\frac{8kH_0m_0 + 4m_0^2}{R} \tag{4.19} 
+$$
+
+
+This formula is known as the [[Hooghoudt Formula]] and is widely used when determining the desired distance between ditches. 
+
+>[!Note]
+>Equation 4.11 is a simplification of 4.19, i.e. in many instances $8kH_0m_0 \gg 4km_0^2$ (which means the latter term can be neglected) and $H_0 \approx D$ which means 4.19 becomes 4.11
+
+---
+## 4.4 The Shape of a Dome-Shaped Raised Bog
+Raised bogs are bogs that fully rely on precipitation for their water supply. Therefore they only occur in a climate with a certain precipitation surplus. Just as fens, raised bogs need to be permanently wet in order to prevent the peat from oxidising. 
+
+>[!Info]
+>A long time ago, a large part of the Netherlands consisted of bogs. Since then a large part has been washed away by the sea or has been covered with clay. The remainder has largely been reclaimed for agriculture and has been mined as a fuel, which is why today only about 8000 ha of raised bog remains in the Netherlands, most of which is degenerated
+
+Raised bogs are large dome-shaped bodies of peat which in the middle are raised many meters above their surroundings. 
+
+>[!Info]
+>Engelsmann (1967) compared historical data on 64 raised bogs in north-western Germany and found an average diameter of 6 km and a [[Centerfield Head Difference|CFHD]] of 5 m. 
+
+>[!Info]
+>In a high profile article in Nature, Ingram (1982) provided the first hydrological explanation for the shape of a "living" raised bog. According to Ingram the shape id dictated by the amount of water that has to be discharged. This amount increases towards the edge of the raised bog and thus, following [[Darcy's Law]], the [[Hydraulic Head]] gradient needs to increase towards the edge as well. The shape of the land surface us explained by the fact that it is similar to that of the water table. 
+
+Most of the precipitation surplus that feeds living raised bog is discharged close to the land surface through the top soil layer. This layer consists of peat mosses and dwarf shrubs (like heather), often in a pattern of hummocks and hollows. A small part of the water percolates to an aquifer below the bog. [[Percolation]] at the lower boundary is limited by the high resistance of a waxy layer of illuviated humus on the border between the bog and the sandy subsurface. What remains of the water flows horizontally through the peat body from the centre towards the edges. This horizontal component is assigned the symbol $u$ and defined as the amount of water per unit area that flows through the bog per unit of time (unit: m d$^{-1}$). 
+
+>[!Example]
+>For example: $u=0.0002$ m d$^{-1}$ if 20% of the precipitation surplus of 1 mm d$^{-1}$ flows through the bog
+
+Now, we will hydrologically derive the shape of the raised bog and subsequently calculate how large $u$ should be in order to explain that shape. 
+
+![[20240228_143332.jpg]]
+
+***Step 1. Limiting the Flow System***
+There is a water divide in the middle of the bog where $r = 0$ and at the edge of the bog at $r_{\text{max}}$ 
+
+***Step 2. Simplifying the Flow Pattern***
+1. The layer of peat is homogeneous and horizontally [[Isotropy|isotropic]]
+2. Flow is [[Stationary Flow|stationary]]
+3. $u$ is spatially constant (no variation with distance towards the centre)
+4. The raised bog is perfectly circular
+5. The water table ends exactly at the edge of the raised bog
+6. The [[Dupuit Assumptions]] can be applied
+
+***Step 3. Formulating the Differential Equation***
+A volume flow rate $Q$ flows from the centre through a circular raised bog with radius $r$, which is equal to the product of the area of that circle and $u$: 
+
+$$
+Q= \pi r^2 u \tag{4.20} 
+$$
+
+
+When $H$ is defined with respect to the bottom of the bog, we can place an imaginary cylinder in the bog at distance $r$ with an area size of $2 \pi r H$. Multiplying this area with the apparent velocity in [[Darcy's Law]] gives a second expression for the volume flow rate: 
+
+$$
+Q=2 \pi rHk \frac{\text{d}H}{\text{d}r} \tag{4.21} $$
+
+
+Setting both equations equal yields after some rewriting: 
+
+$$
+ur\text{d}r = -2kH\text{d}H \tag{4.22} 
+$$
+
+
+***Step 4. Solving the Differential Equation***
+Integrating once results in: 
+
+$$
+\frac12 ur^2 = -kH^2 + C \tag{4.23} 
+$$
+
+
+***Step 5. Defining and Substituting the Boundary Conditions***
+On the edge of the raised bog the following applies: 
+
+$$
+\langle r = r_{\text{max}}, \, H=0 \rangle \tag{4.24} 
+$$
+
+
+Substituting these conditions in 4.23 and solving for $C$: 
+
+$$
+C= \frac12 ur_{\text{max}}^2  \tag{4.25}
+$$
+
+
+Substituting $C$ in 4.23 and writing $H$ explicitly leads to: 
+
+$$
+H=\sqrt{\frac{u}{2k}(r_{\text{max}}^2 - r^2)} \tag{4.26} 
+$$
+
+
+Ingram could describe the shape of raised bogs with equation 4.26 fairly well. He derived the amount of water flowing through the bog ($u$), necessary to know the shape of the bog, from 3.26, the average values from Engelmann's research ($r_{\text{max}}=3$ km, $m_0 = 5$ m), and an assumed hydraulic (saturated) [[Permeability|Conductivity]] of $0,5$ m d$^{-1}$. 
+
+In the centre of the raised bog, we find $\langle r = 0, \, H=m_0 \rangle$. Substituting in 4.26, writing $u$ explicitly and substituting the values mentioned previously results in: 
+
+$$
+\begin{aligned}
+u &=\frac{2km_0^2}{r_{\text{max}}} \\ &= \frac{2 \times 0.5 \times 5^2}{3000^2} \\ &= 0.0000028 \, \text{m d}^{-1} \\ &\approx 1 \, \text{mm y}^{-1} 
+\end{aligned} 
+$$
+
+This result shows that only 1 mm of recharge per year would be needed to explain a bog with a height of 5 m and a dismater of 6000 m! A remarkable result. However, do not forget that there is still a large amount of water flowing through the edges of a bog of such dimensions)
+
+>[!Note]
+>There is much criticism on this theory of Ingram concerning the shape of a raised bog, especially on some of his assumptions (Step 2). Nowadays, other hydrological theories exist that explain the shape of a raised bog. Nonetheless, the essence of Ingram's theory remains: the shape of a raised bog reflects the discharge of water
+
+---
+## 4.5 Conclusion

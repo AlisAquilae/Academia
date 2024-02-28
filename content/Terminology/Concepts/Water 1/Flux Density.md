@@ -1,13 +1,22 @@
 ---
 fileClass: Base, Concepts
 title: 
-Parents: ["[[Darcy's Law]]", "[[Two-Dimensional Discharge]]", "[[Water 1 Summary Groundwater]]"]
+Parents:
+  - "[[Darcy's Law]]"
+  - "[[Two-Dimensional Discharge]]"
+  - "[[Water 1 Summary Groundwater]]"
 Draft: 
 Status: Done
-aliases: 
-Related Notes: ["[[Water 1 Summary Groundwater]]"]
-Related Terminology: ["[[Darcy's Law]]", "[[Two-Dimensional Discharge]]"]
-Related Courses: ["[[Water 1]]"]
+aliases:
+  - Specific Discharge
+  - Apparent Velocity
+Related Notes:
+  - "[[Water 1 Summary Groundwater]]"
+Related Terminology:
+  - "[[Darcy's Law]]"
+  - "[[Two-Dimensional Discharge]]"
+Related Courses:
+  - "[[Water 1]]"
 ---
 The **Flux Density** ($v$) refers to the groundwater discharge, as calculated using [[Darcy's Law]], when considered per unit of area. This is achieved by taking Darcy's Law and dividing by the width and depth of the soil area under consideration. 
 
