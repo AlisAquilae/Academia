@@ -143,7 +143,7 @@ $$
 
 This equation described the height of the water table $H$ relative to the water level in the ditch as a function of the distance $x$ to the middle of the field and two parameters which are independent of location: the [[Conductance|Transmissivity]] $kD$ and a stationary groundwater recharge rate $R$.
 
-Farmers are particularly concerned with keeping the maximum [[Centerfield Head Difference]] ($m_0$, in the middle between the ditches, sufficiently small. In order to do that the ditches need to be separated by a certain distance $L$. Substituting $\langle x=0, \, H=m_0 \rangle$ in 3.10 gives: 
+Farmers are particularly concerned with keeping the maximum [[Centerfield Head Difference]] ($m_0$), in the middle between the ditches, sufficiently small. In order to do that the ditches need to be separated by a certain distance $L$. Substituting $\langle x=0, \, H=m_0 \rangle$ in 3.10 gives: 
 
 $$
 L^2 = \frac{8kDm_0}{R} \tag{2.11} 
