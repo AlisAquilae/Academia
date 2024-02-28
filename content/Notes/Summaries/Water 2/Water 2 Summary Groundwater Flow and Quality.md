@@ -3,7 +3,7 @@ fileClass: Base, Summaries
 title: 
 Parents: ["[[Water 2]]"]
 Draft: 
-Status: In Progress
+Status: Done
 Related Notes: ["[[Reader Water 2-Chapter 2.1-Formulas for Stationary Groundwater Flow]]", "[[Reader Water 2-Chapter 2.2-Chemical Aspects of Groundwater]]"]
 Related Terminology: 
 Related Courses: ["[[Water 2]]"]
@@ -519,19 +519,19 @@ Drinking water companies are especially worried about excessive nitrate concentr
 In the groundwater nitrate can be reduced by pyrite ($\ce{FeS2}$) or organic matter (Equation 5.7). Marine deposits contain more pyrite than fluvial or glacial deposits. This is correlated with the high sulphate concentration of seawater, which serves as the source of sulphur in the formation of pyrite. In aeolian depositions which are not "buried", such as cover sand, no pyrite is found. In the reduction process of pyrite by nitrate, nitrogen gas is formed again: 
 
 $$
-\ce{2FeS2 + 6NO3^- + 4H2O -> 2Fe(OH)3 + 3N2 ^ +4SO4^{2-} + 2H^+} \tag{3.41} 
+\ce{2FeS2 + 6NO3^- + 4H2O -> 2Fe(OH)3 + 3N2 ^ +4SO4^{2-} + 2H^+} \tag{5.8} 
 $$
 
 
-This chemical equation (chemical denitrification) is one explanation as to why low nitrate concentrations are often found in the groundwater under fertilised soils containing pyrite, although in combination with high sulphate concentrations and a low pH. In case lime is present, the produced acid can be neutralised (equation 3.37). 
+This chemical equation (chemical denitrification) is one explanation as to why low nitrate concentrations are often found in the groundwater under fertilised soils containing pyrite, although in combination with high sulphate concentrations and a low pH. In case lime is present, the produced acid can be neutralised (equation 5.4). 
 
 >[!Important]
 >Hence, groundwater rich in calcium and sulphate can indicate over-fertilisation. 
 
-The rate of many (bio-)chemical formation and decomposition processes is proportional to the concentrations in the solution. We call this a "linear" reaction, or a "first-order reaction". The rate of chemical denitrification (eq. 3.14) is proportional to the nitrate concentration ($\text{d}C / \text{d}t) \sim C$) and can thus be described as a first-order decomposition process: 
+The rate of many (bio-)chemical formation and decomposition processes is proportional to the concentrations in the solution. We call this a "linear" reaction, or a "first-order reaction". The rate of chemical denitrification (eq. 5.8) is proportional to the nitrate concentration ($\text{d}C / \text{d}t) \sim C$) and can thus be described as a first-order decomposition process: 
 
 $$
-C = C_0e^{- \alpha \, t} \tag{3.42} 
+C = C_0e^{- \alpha \, t} \tag{5.9} 
 $$
 
 
@@ -546,10 +546,10 @@ With:
 
 Not only drinking water companies are worried about pollution of groundwater with nutrients, nature conservationists have been aware of this problem since the sixties. Nutrients that are applied to agricultural plots can flow to nearby nature reserves through the groundwater. High nutrient concentrations lead highly productive plant species to dominate vegetation. They out-compete species that grow slowly, which are often rare and characteristic species from which nature reserves derive their value. 
 
-Furthermore, there is attention for the questionable role of sulphate in the decline of nature reserves. This sulphate can come directly from fertiliser applications, but also from the decomposition of pyrite under the influence of nitrate (equation 3.41). The reduction of sulphate in wet natural areas, in which oxygen-poor conditions dominate the soil, does not lead to a decrease of its influence such as with nitrate, but on the contrary produces a problem. This is because sulphide (with the characteristic rotten egg odour) is formed, which is already toxic for plant roots at low concentrations: 
+Furthermore, there is attention for the questionable role of sulphate in the decline of nature reserves. This sulphate can come directly from fertiliser applications, but also from the decomposition of pyrite under the influence of nitrate (equation 5.8). The reduction of sulphate in wet natural areas, in which oxygen-poor conditions dominate the soil, does not lead to a decrease of its influence such as with nitrate, but on the contrary produces a problem. This is because sulphide (with the characteristic rotten egg odour) is formed, which is already toxic for plant roots at low concentrations: 
 
 $$
-\ce{SO4^{2-} + 2CH2O <=>> HS^- + HCO3- + CO2 + H2O} \tag{3.43} 
+\ce{SO4^{2-} + 2CH2O <=>> HS^- + HCO3- + CO2 + H2O} \tag{5.10} 
 $$
 
 
@@ -557,3 +557,22 @@ A second characteristic of sulphate is that it can be bound strongly to iron, in
 
 >[!Important]
 >In conclusion: the supply of sulphate-rich water nearly always leads to eutrophication, even when phosphate is completely absent
+
+---
+## 5.6 Salinisation
+A close interaction between hydrology, chemistry and agronomy is also found in the irrigation of arid and semi-arid areas. 
+
+Obviously irrigation is meant to improve crop growth. However, when too little irrigation water is applied, there is the danger that salt accumulates in the soil and arable land is lost. 
+
+>[!Info]
+>An extreme example where this has occurred naturally is Death Valley in the United States
+
+In areas with irrigation percolation from irrigation channels and watering of fields frequently cause a rise in the water table. Percolation however is necessary because of the need to leach out salts in the rootzone. 
+
+In case the natural drainage of an area is insufficient to keep the groundwater level low enough for percolation to occur and salt to leach away, the construction of a drainage network is required. Hence, irrigation is not possible without natural or artificial drainage. 
+
+While drainage in wet areas, like the Netherlands, is meant to improve the oxygen supply, soil temperature and workability of the land, the main purpose of drainage and irrigated land in dry regions is combating salinisation. 
+
+>[!Note]
+>In the western part of the Netherlands another kind of threat due to salinisation exists, namely via the supply of brackish groundwater to a deeply reclaimed lake or other polders. Salt water can flow beneath the dunes and thus cause salinisation. However, below the dunes a deep freshwater bubble occurs which floats on top of the brackish and salty groundwater. As long as this bubble is deep enough it functions like a wall against salt water encroachment. 
+
