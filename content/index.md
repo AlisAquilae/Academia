@@ -26,20 +26,24 @@ I have followed a rather unusual track. Though I an enrolled in the Master Clima
 On the other hand, I have followed a plethora of other courses in my Bachelor of Public Administration at the Erasmus University. Initially, I do not intend to include the notes of these courses here, partially because they are not fully complete, and partially because they are less relevant for the present. 
 
 That being said, these are the courses which I have followed or intend to follow in the future:
-- [[Water 1]]
-- [[Water 2]]
-- [[Hydrogeology]]
-- [[Water and Air Flow Numerical Techniques]]
-- [[Geophysical Fluid Mechanics]]
-- [[Water Quantity and Quality]]
-- [[Catchment and Climate Hydrology]]
-- [[Coastal Oceanography and Delta Geology]]
 - [[Advanced Hydrogeology]]
 - [[Advanced Hydrological Systems Analysis]]
+- [[Catchment and Climate Hydrology]]
+- [[Coastal Oceanography and Delta Geology]]
+- [[Environmental Hydraulics]]
+- [[General Chemistry]]
+- [[General Physics]]
+- [[Geophysical Fluid Mechanics]]
+- [[Hydrogeology]]
 - [[Mathematics 2]]
 - [[Mathematics 3]]
 - [[Multivariate Mathematics Applied]]
 - [[River Flow and Morphology]]
+- [[Water 1]]
+- [[Water 2]]
+- [[Water and Air Flow Numerical Techniques]]
+- [[Water Quantity and Quality]]
+
 
 >[!Note]
 >
