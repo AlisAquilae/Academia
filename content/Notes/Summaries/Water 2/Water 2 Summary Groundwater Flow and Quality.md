@@ -348,3 +348,91 @@ An hydrologist conceptualised reality in order to describe it with formulas. We 
 In step 2 of the procedure to derive equations for groundwater flow the [[Continuity Principle]] was combined with [[Darcy's Law]]. So the principle to derive stationary solutions is: multiplication of the [[Flux Density|Apparent Velocity]] according to Darcy ($v=-k\text{d}H/Dx$) with an area (e.g. $D$, $H$ or $A$ in sections 4.2 and 4.3 respectively); calculation of the amount of water flowing through that area by looking at the water balance ([[Continuity Principle]]); equation of both expressions for the volume flow rate, and solving the resulting differential equation
 
 The differential equations that we have presented could be solved. However, in more complex cases a hydrologist conceptualised the situation, discusses the possibility of a solution and when this is not possible, switches to modelling
+
+---
+# 5. Chemical Aspects of Groundwater
+## 5.1 Introduction
+Water is essential for the transport of substances, both dissolved and suspended. Needless to say, there is a close connection between quantitative hydrology on one hand and disciplines such as environmental science, biochemistry, agronomy and ecology on the other hand. In this chapter we will introduce the interaction between groundwater flow and the chemical aspects of groundwater
+
+## 5.2 Composition and Chemical Genesis of Groundwater
+
+>[!Info]
+>
+|  | Cations |  |  | Anions |  |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| Name | Symbol | Molecular weight | Name | Symbol | Molecular weight |
+| Calcium | $\ce{CA^2+}$ | 40 | Bicarbonate | $\ce{HCO3-}$ | 61 |
+| Magnesium | $\ce{Mg^{2+}}$ | 24.5 | Sulphate | $\ce{SO4^{2-}}$ | 96 |
+| Sodium | $\ce{Na+}$ | 23 | Chloride | $\ce{Cl^-}$ | 35.5 |
+| Potassium | $\ce{K^+}$ | 39 |  |  |  |
+
+The cations and anions given in the table above naturally occur in groundwater. The ratios of these so-called macro-ions changes during the flow process due to oxidation, reduction, weathering, dissolution, precipitation and cation exchange
+
+The [[Electric Conductivity]] (EC) is an easy to measure indicator for the total ion concentration in non-industrial regions. Rainwater is low in ions and in natural composition mainly contains sulphate and sodium ions, Because of air pollution in the Netherlands the concentration of ammonium and sulphate in particular have increased. Ion concentrations in the upper groundwater layer are already higher than in rainwater because of "concentration" as a result of evaporation, since water vapour does not transport ions. 
+
+>[!Important]
+>Because the chloride ion ($\ce{Cl^-}$) does not react with other substances and is not adsorbed to soil particles, the ratio between the chloride concentration in rainwater and in the upper groundwater can be used to estimate the actual evaporation. 
+
+At equilibrium the amount of chloride entering the system through precipitation should be discharged through groundwater replenishment. Thus: 
+
+$$
+P \times [\ce{Cl^-}]_{\text{precipitation}} = (P-E) \times [\ce{Cl^-}]_{\text{groundwater}} \tag{5.1}
+$$
+
+
+This can be rewritten as: 
+
+$$
+E = p \times \Biggl(1-\frac{[\ce{Cl^-}]_{\text{precipitation}}}{[\ce{Cl^-}]_{\text{groundwater}}} \Biggr) \tag{5.2} 
+$$
+
+
+>[!Example]
+>For example, if rainwater contains 3 mg $\ce{Cl^-}$ per litre and the upper groundwater 9 mg, then the rainwater has been concentrated with a factor of 3; with an annual precipitation of 750 mm the actual evaporation probably was 500 mm. 
+
+A flowing freshwater system is enriched in calcium and bicarbonate ions, primarily because of the dissolution of calcareous (high in calcium) substances present in the sediment. 
+
+>[!!Info]
+>In this process the following reactions occur: 
+>
+> $$
+\ce{H2O + CO2 <=>> H2CO3 <=>> H^+ + HCO3-} \tag{5.3} 
+> $$
+> 
+>$$
+\ce{CaCO3 + H^+ <=>> Ca^{2+} + HCO3-} \tag{5.4} 
+> $$
+
+It is likely that the weathering of limestone (Eq. 5.4) occurs mainly under the influence of protons ($\ce{H^+}$) formed in the root zone. This is where, through the respiration of roots and micro-organisms, carbon dioxide ($\ce{CO2}$) is produced, which shifts the balance in Eq. 5.3 to the right. During the flow process in deeper soil layers increasing amounts of lime are dissolved, increasing the concentrations of calcium and bicarbonate irons while the concentration of $\ce{H^+}$ decreases (i.e. the pH rises). 
+
+This explains the concentrations in "matured" seepage water. The speed of maturing depends on the amount of substances in the sediment that are easily weathered. 
+
+During the flow process many more changes occur in the composition of groundwater. For example, groundwater is often low in oxygen because oxygen has been used in the topsoil during the decomposition of organic material. Because of this relative absence of oxygen $\ce{Fe^{3+}}$ can be reduced to $\ce{Fe^{2+}}$. Mature groundwater is often rich in $\ce{Fe^{2+}}$. When this water comes into contact with air in seepage areas the iron oxidises, which can be observed as rust-brown particles floating in the water and attached to plants. Based on these rust phenomena seepage areas can be identified. 
+
+---
+## 5.3 Chemical Profile of Groundwater
+There are several ways in which the results of the analyses of macro-ions in groundwater can be presented in such a way that it immediately becomes clear what type of groundwater we are dealing with. Well-known are the methods suggested by Piper, Maucha, Stuifzand and **Stiff**. By means of an example we will illustrate the latter.
+
+The concentration of macro-ions in the water sample is converted to meq l$^{-1}$. Subsequently the concentration of each ion is converted to its relative contribution to the total concentrations of either cations or anions. These percentages are plotted in a diagram with the cations on the left and the anions on the right.
+
+![[20240228_145438.jpg]]
+
+Below are some of the Stiff diagrams for common types of groundwater
+
+![[20240228_145520.jpg]]
+
+Below the diagram a bar can be drawn, the length of which is a measure for the total concentration of anions and cations. Normally, the sum of the macro-cations is about the same as that of the macro-anions. Based on the shape of the diagram and the length of the bar the water can be classified as being of a certain type. 
+
+For ecological purposed groundwater can also be classified using the [[Electric Conductivity]] and the ion ratio (IR) according to Van Wirdum: 
+
+$$
+IR = \frac{\ce{[Ca^{2+}]}}{\ce{[Ca^{2+}]}+\ce{[Cl^-]}} \tag{5.5} 
+$$
+
+The IR indicates the share of calcium ions in the total amount of cations. 
+
+
+>[!Note]
+>The concentrations of IR are in meq l$^{-1}$. For singly charged ions 1 mmol is equal to 1 meq, and for doubly charged ions 1 mmol equals 2 meq
+
+Different samples can be plotted on the diagram, with on the x-axis the EC logarithmically and on the y-axis the IR

@@ -665,7 +665,7 @@ We can thus explain the static behaviour of a sand particle on the river bottom 
 When the water movement exceeds the threshold for movement of the sand particle, the particles will roll, slide and jump over the river bottom, or the particles will move with the water in **suspension** (i.e. 'floating' in the water). Most rivers in the world travel enormous amounts of sand or other sediments
 
 ### 3.3.2 Dynamics
-Also in dynamics, where we try to quantify water movement and the transport of sediments, the second law of Newton is important. We will have to rewrite Eq. 2.29 in order to use this equation for a liquid: 
+Also in dynamics, where we try to quantify water movement and the transport of sediments, the second law of Newton is important. We will have to rewrite Eq. 3.8 in order to use this equation for a liquid: 
 
 $$
 \overrightarrow{F} = m\overrightarrow{a} = \frac{\delta}{\delta t}(m\overrightarrow{v} \,) \tag{3.14}
