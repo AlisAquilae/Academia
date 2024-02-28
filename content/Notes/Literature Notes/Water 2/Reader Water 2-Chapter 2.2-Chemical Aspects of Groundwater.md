@@ -155,8 +155,13 @@ Raised bogs are under more or less the same conditions as high sandy plains, the
 ### 2.5 Consequences of Over-Fertilisation
 Since the fifties of the twentieth century, farmlands in the Netherlands are intensively fertilised, mainly with nitrogen (N), Phosphorus (P), Potassium (K) and sulphate (S) through the application of artificial fertilisers and animal manure. In general, more nutrients were added to the lands than were taken off via crops or livestock. Depending on the weather conditions, manner of application, soil type and hydrological regime a certain amount of the surplus disappears to the groundwater. Hence, high concentrations of nutrients can occur in the upper groundwater under agricultural plots. Especially the high nitrate concentration is a threat to groundwater as a source of drinking water. The amount of nutrients that is leached to the groundwater strongly depends on the height of the water table and the corresponding oxygen-richness. 
 
-In conditions rich in oxygen ammonium is converted into nitrate during the breakdown of organic fertilisers in soils. $$\ce{NH4^+ + 2O2 -> NO3^- + 2H^+ + H2O} \tag{3.39} $$
-This process, in which protons are released and thus acidification occurs, is called [[Nitrification]]. Because Dutch farmland is usually well-drained, nitrogen is almost exclusively present as nitrate. However, when there is a shallow water table acidic conditions prevail because the diffusion rate of oxygen is particularly low in water. Under such conditions nitrate is being converted to the harmless nitrogen gas, which disappears into the atmosphere (the atmosphere consists for about80% of nitrogen gas). This nitrogen decomposition process is called [[Denitrification]]: $$\ce{4NO3- + 5CH2O -> 2N2 ^ + H2CO3^- + 2H2O} \tag{3.40} $$
+In conditions rich in oxygen ammonium is converted into nitrate during the breakdown of organic fertilisers in soils. 
+
+$$
+\ce{NH4^+ + 2O2 -> NO3^- + 2H^+ + H2O} \tag{3.39} 
+$$
+
+This process, in which protons are released and thus acidification occurs, is called [[Nitrification]]. Because Dutch farmland is usually well-drained, nitrogen is almost exclusively present as nitrate. However, when there is a shallow water table acidic conditions prevail because the diffusion rate of oxygen is particularly low in water. Under such conditions nitrate is being converted to the harmless nitrogen gas, which disappears into the atmosphere (the atmosphere consists for about 80% of nitrogen gas). This nitrogen decomposition process is called [[Denitrification]]: $$\ce{4NO3- + 5CH2O -> 2N2 ^ + H2CO3^- + 2H2O} \tag{3.40} $$
 In this equation organic matter is presented in simplified form as $\ce{CH2O}$. Denitrification appears for example after inundation with river water or in wet nature reserves. As a by-product of denitrification, $\ce{N2O}$ (laughing gas) is formed. This is harmful gas because it also contributes to the greenhouse effect. Denitrification has a positive effect on the quality of groundwater, but this process does contribute to another environmental problem. 
 
 To remove nitrate from the groundwater a high water table is desirable. However, the risk of a high water table in periods of high precipitation is that manure is transported into the ditches. Furthermore, a high water table can lead to increased leaching of P towards groundwater under weakly acid to neutral conditions, because iron-phosphate complexes become unstable. 
@@ -186,3 +191,6 @@ A second characteristic of sulphate is that it can be bound strongly to iron, in
 
 >[!Important]
 >In conclusion: the supply of sulphate-rich water nearly always leads to eutrophication, even when phosphate is completely absent
+
+---
+### 2.2.6 A Buffer Zone Against Nitrate (==Ski)
