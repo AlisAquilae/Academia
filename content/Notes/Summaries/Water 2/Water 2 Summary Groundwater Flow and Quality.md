@@ -286,7 +286,8 @@ $$
 When $H$ is defined with respect to the bottom of the bog, we can place an imaginary cylinder in the bog at distance $r$ with an area size of $2 \pi r H$. Multiplying this area with the apparent velocity in [[Darcy's Law]] gives a second expression for the volume flow rate: 
 
 $$
-Q=2 \pi rHk \frac{\text{d}H}{\text{d}r} \tag{4.21} $$
+Q=2 \pi rHk \frac{\text{d}H}{\text{d}r} \tag{4.21} 
+$$
 
 
 Setting both equations equal yields after some rewriting: 

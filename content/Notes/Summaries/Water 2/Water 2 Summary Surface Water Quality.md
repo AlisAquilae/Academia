@@ -151,3 +151,12 @@ $$
 ---
 # 8. Oxygen Balance
 ## 8.1 Introduction
+The oxygen balance is essential for water quality. Not only direct, like for living organisms, but also indirect because many processes and quality features are regulated via the oxygen level. For instance decomposition processes under either aerobic or anaerobic conditions.
+
+The oxygen concentration is a result of different biotic and abiotic processes; the most important are shown in the figure below. In the next paragraph the different terms are discusses. 
+
+![[20240228_163004.jpg]]
+
+---
+## 8.2 Oxygen Binding Substances, BOD Decomposition
+
