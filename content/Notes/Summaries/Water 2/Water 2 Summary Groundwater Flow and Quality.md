@@ -1,12 +1,12 @@
 ---
 fileClass: Base, Summaries
 title: 
-Parents: 
+Parents: ["[[Water 2]]"]
 Draft: 
-Status: 
-Related Notes: 
+Status: In Progress
+Related Notes: ["[[Reader Water 2-Chapter 2.1-Formulas for Stationary Groundwater Flow]]", "[[Reader Water 2-Chapter 2.2-Chemical Aspects of Groundwater]]"]
 Related Terminology: 
-Related Courses: 
+Related Courses: ["[[Water 2]]"]
 ---
 # 4. Formulas for Stationary Groundwater Flow
 ## 4.1 Introduction
@@ -326,7 +326,7 @@ H=\sqrt{\frac{u}{2k}(r_{\text{max}}^2 - r^2)} \tag{4.26}
 $$
 
 
-Ingram could describe the shape of raised bogs with equation 4.26 fairly well. He derived the amount of water flowing through the bog ($u$), necessary to know the shape of the bog, from 3.26, the average values from Engelmann's research ($r_{\text{max}}=3$ km, $m_0 = 5$ m), and an assumed hydraulic (saturated) [[Permeability|Conductivity]] of $0,5$ m d$^{-1}$. 
+Ingram could describe the shape of raised bogs with equation 4.26 fairly well. He derived the amount of water flowing through the bog ($u$), necessary to know the shape of the bog, from 4.26, the average values from Engelmann's research ($r_{\text{max}}=3$ km, $m_0 = 5$ m), and an assumed hydraulic (saturated) [[Permeability|Conductivity]] of $0,5$ m d$^{-1}$. 
 
 In the centre of the raised bog, we find $\langle r = 0, \, H=m_0 \rangle$. Substituting in 4.26, writing $u$ explicitly and substituting the values mentioned previously results in: 
 
@@ -343,3 +343,8 @@ This result shows that only 1 mm of recharge per year would be needed to explain
 
 ---
 ## 4.5 Conclusion
+An hydrologist conceptualised reality in order to describe it with formulas. We should always test  a formula against reality using measurement data. A hydrologist should also be able to judge whether a specific flow problem fits the concepts used to derive the formula - do the assumptions hold?
+
+In step 2 of the procedure to derive equations for groundwater flow the [[Continuity Principle]] was combined with [[Darcy's Law]]. So the principle to derive stationary solutions is: multiplication of the [[Flux Density|Apparent Velocity]] according to Darcy ($v=-k\text{d}H/Dx$) with an area (e.g. $D$, $H$ or $A$ in sections 4.2 and 4.3 respectively); calculation of the amount of water flowing through that area by looking at the water balance ([[Continuity Principle]]); equation of both expressions for the volume flow rate, and solving the resulting differential equation
+
+The differential equations that we have presented could be solved. However, in more complex cases a hydrologist conceptualised the situation, discusses the possibility of a solution and when this is not possible, switches to modelling

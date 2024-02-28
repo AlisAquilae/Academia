@@ -323,7 +323,7 @@ If we compare the hydrographs and dimensionless flow duration curves of the Meus
 The **exceedance probability** of a certain discharge is the probability that this discharge will be exceeded during a (random) year at a certain location. Another way to express this, is by determining the **return period** of that discharge. The return period is a way to express how many years we have to wait (on average) before a certain discharge will take place again. The exceedence probability $p$ (per year) during a certain year and the return period $T$ (in years) relate to each other in the following way: 
 
 $$
-T=\frac{1}{p} \tag{1.11} 
+T=\frac{1}{p} \tag{2.1} 
 $$
 
 
@@ -333,7 +333,7 @@ The determination of the exceedance probabilities and the return periods of cert
 >The return period used to determine the design discharge for the large rivers in the Netherlands is 2000 years. Hence, here, dikes should have a height which should be sufficient to assume that only once every 2000 years a flood can take place. 
 
 ### 2.4.2 Relationship between Return Periods and the Probability of High Waters
-We want to calculate the probability that a discharge with a return period of $T$ (e.g. 1250 years) is exceeded one or more times during a period of $n$ years (e.g. 100 years). The probability that a discharge with a return period of $T$ years is not exceeded during 1 year equals 1 minus the probability that this discharge is exceeded in that year; hence, $1-p$, which we can write as $1-\frac{1}{T}$ (according to Eq. 2.11)
+We want to calculate the probability that a discharge with a return period of $T$ (e.g. 1250 years) is exceeded one or more times during a period of $n$ years (e.g. 100 years). The probability that a discharge with a return period of $T$ years is not exceeded during 1 year equals 1 minus the probability that this discharge is exceeded in that year; hence, $1-p$, which we can write as $1-\frac{1}{T}$ (according to Eq. 2.1)
 
 Since high discharge peaks in separate years are independent of each other, we can multiply the probabilities with each other in order to calculate the probability that a discharge with a return period of $T$ years will not be exceeded during $n$ years. And, since all these probabilities are the same, this simply gives $(1-\frac{1}{T})^n$. The probability that this discharge is exceeded in $n$ years, is then $1-(1-\frac{1}{T})^n$. This seems unnecessarily complex, but because the discharge can be exceeded more than once, this is not the same as $(\frac{1}{T})^n$. For $T=1250$ years and $n$ = 100 years, this is 7.7%
 
@@ -357,7 +357,7 @@ For extreme value statistics, we start with selecting the annual (yearly) maxima
 
 ![[20240227_141734.jpg]]
 
-We call this a **Cumulative Probability Distribution**. By interpolating the results, we can easily find the corresponding annual maximum discharge for a certain probability exceedance (e.g. 10%). For 10%, we find $9.4 \times 10^3$ m$^3$ s$^{-1}$ for the Rhine. The corresponding return period is then (see Eq. 1.11) $T=10$ years. So on average, once every 10 years a discharge of $9.4 \times 10^3$  m$^3$ s$^{-1}$ or more occurs in the Rhine river. 
+We call this a **Cumulative Probability Distribution**. By interpolating the results, we can easily find the corresponding annual maximum discharge for a certain probability exceedance (e.g. 10%). For 10%, we find $9.4 \times 10^3$ m$^3$ s$^{-1}$ for the Rhine. The corresponding return period is then (see Eq. 2.1) $T=10$ years. So on average, once every 10 years a discharge of $9.4 \times 10^3$  m$^3$ s$^{-1}$ or more occurs in the Rhine river. 
 
 The largest return period which we can read from the figure above is $N=1=108$ years. This means that, if we want to determine a design discharge for a larger return period, we will have to extrapolate this graph to the left. That is extremely difficult. Actually, with this method, it is not even possible to determine the design of discharge of the Rhine at Lobith for a return period of 1250 years. Nevertheless, for water safety, we want to be able to estimate a design discharge for a return period longer than the available time series. This means that we are going to determine the probability of a certain event that has never been experienced. To make such an extrapolation possible, we use extreme value statistics.
 
@@ -365,7 +365,7 @@ The largest return period which we can read from the figure above is $N=1=108$ y
 We can fit a probability distribution through annual maxima (or maxima above a certain value), which allows us to estimate the precipitation sums that correspond to certain return periods. An often used probability distribution for this purpose is the [[Gumbel Distribution]]: 
 
 $$
-x(p)=\mu - \alpha \ln(1 - \ln (1-p)) \tag{1.12} 
+x(p)=\mu - \alpha \ln(1 - \ln (1-p)) \tag{2.2} 
 $$
 
 Where:
@@ -378,11 +378,11 @@ Both $\mu$ and $\alpha$ are empirical parameters with the same unit as $x$
 Usually, we transform $p$ before plotting it. The transformed value of $p$ is called the **Gumbel Reduced Variate** ($y$): 
 
 $$
-y(p)=-\ln (-\ln (1-p)) \tag{1.13} 
+y(p)=-\ln (-\ln (1-p)) \tag{2.3} 
 $$
 
 
-And with that, Eq. 1.12 turns into 
+And with that, Eq. 2.2 turns into 
 
 $$
 x(y)=\mu + \alpha y 
@@ -397,17 +397,17 @@ Subsequently, $- \ln (- \ln (1-p))$ is placed on the x-axis and $Q$ on the y-axi
 We can determine the parameters $\mu$ and $\alpha$ graphically (i.e. with a graph), or from measurements. We only need to know the average values $Q_{ave}$ and standard deviation $s$ of $N$ extreme discharges. Subsequently, we will find  $\mu$ and $\alpha$ with: 
 
 $$
-\alpha = \frac{\sqrt{6}}{\pi}s \tag{1.14}
+\alpha = \frac{\sqrt{6}}{\pi}s \tag{2.4}
 $$
 
 And 
 
 $$
-\mu = Q_{ave}-0.5772 \alpha \tag{1.15} 
+\mu = Q_{ave}-0.5772 \alpha \tag{2.5} 
 $$
 
 
-From equation 1.12 we are now able to calculate the discharge that corresponds to a certain return period. Here, we assume measurements follow the Gumbel distribution, even for extreme values which we have never measured. Besides, we also assume that this distribution holds for future values. The parameters  $\mu$ and $\alpha$ can, however, change due to for example changes in the upstream part of the river. A change in land use or climate cal also result in different values for the parameters of this distribution. Therefore, our current estimations of the discharges for return periods of 1250 years or more has quite some uncertainty. 
+From equation 2.2 we are now able to calculate the discharge that corresponds to a certain return period. Here, we assume measurements follow the Gumbel distribution, even for extreme values which we have never measured. Besides, we also assume that this distribution holds for future values. The parameters  $\mu$ and $\alpha$ can, however, change due to for example changes in the upstream part of the river. A change in land use or climate cal also result in different values for the parameters of this distribution. Therefore, our current estimations of the discharges for return periods of 1250 years or more has quite some uncertainty. 
 
 ### 2.4.5 GEV Distribution
 
@@ -420,16 +420,16 @@ The GEV distribution combines three asymptotic extreme values distribution with 
 The quantile function, with which we can calculate the precipitation sum for a certain exceedance probability, equals for a GEV distribution with $k\not= 0$: 
 
 $$
-x(p)= \mu + \frac{\alpha \{1- [- \ln (1-p)]^k \}}{k} \tag{1.16}
+x(p)= \mu + \frac{\alpha \{1- [- \ln (1-p)]^k \}}{k} \tag{2.6}
 $$
 
 We often simplify this equation to: 
 
 $$
-x(y)=\mu + \alpha \frac{1-\exp(=ky)}{k} \tag{1.17} 
+x(y)=\mu + \alpha \frac{1-\exp(=ky)}{k} \tag{2.7} 
 $$
 
-With $y$ again being the Gumbel reduced variate (Eq. 1.13)
+With $y$ again being the Gumbel reduced variate (Eq. 2.3)
 
 In order to obtain $\alpha$, $\mu$ and $k$ for a certain location, we have to fit the GEV distribution for annual maxima. For this, we need a dataset with many years of data (> 100 years), which is often not available. 
 
@@ -452,7 +452,7 @@ The first step is to determine the acceptable inundation risk. This depends on l
 During intensive rainfall events, water should be either stored or discharged, as the other water balance terms (evapotranspiration, and possibly surface water supply, groundwater flor or additional sources or sinks) are negligible. The water balance simplifies to: 
 
 $$
-\sum P= \sum Q + \Delta S \tag{1.21}
+\sum P= \sum Q + \Delta S \tag{2.21}
 $$
 
 
@@ -524,7 +524,7 @@ In the course Water 1 we introduced the order numbers according to Strahler ([[S
 If we apply this analysis to a natural catchment, we will discover a notable structure in the data: 
 
 $$
-R_B=\frac{N_i}{N_{i+1}} \tag{1.22}
+R_B=\frac{N_i}{N_{i+1}} \tag{3.1}
 $$
 
 With $R_B$ a constant value. 
@@ -539,21 +539,21 @@ We call $R_B$ the **Bifurcation Number** (*bifurcation* means splitting). If we 
 
 Also, other transportation networks have similar bifurcation numbers: trees have an average of 3.2, lightning splits with an average ratio of 3.5 and our blood vessels have an $R_B$ of 3.4. Hence, nature gives us a clear ordering in seemingly chaotic transporting systems
 
-Equation 1.22 is called [[Horton's Law of Stream Numbers]], also called the **Bifurcation Law of Drainage Patterns**. 
+Equation 3.1 is called [[Horton's Law of Stream Numbers]], also called the **Bifurcation Law of Drainage Patterns**. 
 
 Since we have an order for every interior and exterior link of the river system, we can extend our analysis with the average length of channels with a certain order, or even the average slope of channels and the average drainage area of a certain order.
 
 We can calculate the average length of the channel of order $i$ with the arithmetic mean: 
 
 $$
-\bar{L}_i=\frac{1}{N} \sum_{j=1}^N L_{ij} \tag{1.23}
+\bar{L}_i=\frac{1}{N} \sum_{j=1}^N L_{ij} \tag{3.2}
 $$
 
 
 The ratio of the average lengths for increasing orders in a catchment also gives constant values: 
 
 $$
-R_L=\frac{\bar{L}_i}{\bar{L}_{i-1}} \tag{1.24} 
+R_L=\frac{\bar{L}_i}{\bar{L}_{i-1}} \tag{3.3} 
 $$
 
 with $R_L$ the so-called **length ratio number**. The value for $R_L$ is between 1.5 and 3.5 for natural watercourses. The average length ratio number is 2 for catchments
@@ -563,30 +563,30 @@ We call this [[Horton's Law of Stream Length]]. The average length of a channel 
 Even for the average slope of channels in a certain order, we can find a geometrical constant ratio: 
 
 $$
-R_S=\frac{\bar{S}_i}{\bar{S}_{i+1}} \tag{1.25}
+R_S=\frac{\bar{S}_i}{\bar{S}_{i+1}} \tag{3.4}
 $$
 
 with $R_S$ the slope ratio number. The average slope of channels with Strahler order $i$ can be calculated with: 
 
 $$
-\bar{S}_i=\frac1N \sum_{j=1}^N S_{ij} \tag{1.26} 
+\bar{S}_i=\frac1N \sum_{j=1}^N S_{ij} \tag{3.5} 
 $$
 
 If we define the average drainage area for a given Strahler order as: 
 
 $$
-\bar{A}_i=\frac1N \sum_{j=1}^N A_{ij} \tag{1.27} 
+\bar{A}_i=\frac1N \sum_{j=1}^N A_{ij} \tag{3.6} 
 $$
 
 
 then we will be able to formulate the surface ratio number $R_A$ as: 
 
 $$
-R_A=\frac{\bar{A}_ i}{\bar{A}_{i-1}} \tag{1.28}
+R_A=\frac{\bar{A}_ i}{\bar{A}_{i-1}} \tag{3.7}
 $$
 
 >[!Note]
->Note that the denominator in Eqs. 1.22 and 1.25 use $i+1$ and the ones in Eqs. 1.24 and 1.28 use $i-1$, because $N$ and $S$ decrease in the downstream direction, while $L$ and $A$ increase, leading to positive numbers for the ratios
+>Note that the denominator in Eqs. 3.1 and 3.4 use $i+1$ and the ones in Eqs. 3.3 and 3.7 use $i-1$, because $N$ and $S$ decrease in the downstream direction, while $L$ and $A$ increase, leading to positive numbers for the ratios
 
 The fact that bifurcation (splitting), the average length and slope, and even the average drainage area of river systems is not a random development, but rather a system which obeys geomorphological laws, indicates a strong ordering system of natural drainage patterns. The resulting river network determines the way in which water and sediments are transported in the catchment. If we want to understand or simulate these transport systems, we have to take these structures into account. 
 
@@ -601,7 +601,7 @@ Deterministic models as used in hydrology and hydraulics (river mechanics) use m
 Classical mechanics are based on [[Newton's Second Law of Motion]]: 
 
 $$
-\overrightarrow{F}=m\overrightarrow{a} \tag{1.29}
+\overrightarrow{F}=m\overrightarrow{a} \tag{3.8}
 $$
 
 
@@ -610,7 +610,7 @@ In this equation, $\overrightarrow{F}$  is the force in Newton [N], $m$ is the m
 >[!Note]
 >The arrows indicate a vector, which has a quantity and a direction (in contrast to a [[Scalars|Scalar]], such as temperature, which does not have a direction). 
 
-Equation 1.29 forms the basic principle for both statics and dynamics. We will explain both processes with examples of sand particles and water flow in a river.
+Equation 3.8 forms the basic principle for both statics and dynamics. We will explain both processes with examples of sand particles and water flow in a river.
 
 ### 3.3.1 Statics
 When the water flow in the river is not strong enough to move a sand particle on the river bottom, the condition of the sand particle is characterised by a **static equilibrium**. If we use a Cartesian axis-system with coordinates (x, y, z), this means that the sum of forces in all three directions equals 0 (equilibrium of all forces): 
@@ -620,14 +620,14 @@ $$
 & \sum F_x=0 \\
 & \sum F_y=0 \\
 & \sum F_z=0 \\
-\end{align} \tag{1.30}
+\end{align} \tag{3.9}
 $$
 
 
 Or, in vector notation: 
 
 $$
-\sum \overrightarrow{F} = (0,0,0) \tag{1.31} 
+\sum \overrightarrow{F} = (0,0,0) \tag{3.10} 
 $$
 
 
@@ -640,21 +640,21 @@ $$
 & \sum M_x=0 \\
 & \sum M_y=0 \\
 & \sum M_z=0 \\
-\end{align} \tag{1.32}
+\end{align} \tag{3.11}
 $$
 
 
 Or, in vector notation: 
 
 $$
-\sum \overrightarrow{M} = (0,0,0) \tag{1.33} 
+\sum \overrightarrow{M} = (0,0,0) \tag{3.12} 
 $$
 
 
 **Torque** is the product of a force times the arm (distance) of that force, or in vector notation: 
 
 $$
-\overrightarrow{M} = \overrightarrow{r} \times \overrightarrow{F} \tag{1.34} 
+\overrightarrow{M} = \overrightarrow{r} \times \overrightarrow{F} \tag{3.13} 
 $$
 
 
@@ -668,7 +668,7 @@ When the water movement exceeds the threshold for movement of the sand particle,
 Also in dynamics, where we try to quantify water movement and the transport of sediments, the second law of Newton is important. We will have to rewrite Eq. 2.29 in order to use this equation for a liquid: 
 
 $$
-\overrightarrow{F} = m\overrightarrow{a} = \frac{\delta}{\delta t}(m\overrightarrow{v} \,) \tag{1.35}
+\overrightarrow{F} = m\overrightarrow{a} = \frac{\delta}{\delta t}(m\overrightarrow{v} \,) \tag{3.14}
 $$
 
 
@@ -727,7 +727,7 @@ Also between the meander length and the average radius of the curvature (the wid
 If we want to mathematically describe the shape of regular meanders, we have to use an equation which strives for a distribution of changes that is as evenly distributed as possible. Leopold et al. (1995) argued that the best mathematical model for this is a so-called sinusoidal curve: 
 
 $$
-\Theta = \Theta_\text{max} \Bigl( 2 \pi \frac sM \Bigr) \tag{1.36} 
+\Theta = \Theta_\text{max} \Bigl( 2 \pi \frac sM \Bigr) \tag{3.15} 
 $$
 
 With
@@ -763,14 +763,14 @@ The figure above displays 2 cross-sections (one close to the source and one clos
 If we follow the river from source to outlet (so from C top D in the figure above), then we see that the sizes of the cross-sections will gradually increase. This is because the discharge (and also the bankfull discharge) increases with an increasing draining surface area of the river. Based on a long dataset of discharge measurements, Leopold et al. (1995) concluded that there is an almost linear relationship between the average annual discharge and the drainage area: 
 
 $$
-Q_{\text{ave}} \cong A^{1.03} \tag{1.37} 
+Q_{\text{ave}} \cong A^{1.03} \tag{3.16} 
 $$
 
 
 The bankfull discharge $Q_{\text{eff}}$ increases non-linearly with the drainage area: 
 
 $$
-Q_{\text{eff}} \cong A^{0.8} \tag{1.38}  
+Q_{\text{eff}} \cong A^{0.8} \tag{3.17}  
 $$
 
 
