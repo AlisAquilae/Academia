@@ -143,7 +143,7 @@ $$
 
 This equation described the height of the water table $H$ relative to the water level in the ditch as a function of the distance $x$ to the middle of the field and two parameters which are independent of location: the [[Conductance|Transmissivity]] $kD$ and a stationary groundwater recharge rate $R$.
 
-Farmers are particularly concerned with keeping the maximum [[Centerfield Head Difference]] ($m_0$, in the middle between the ditches, sufficiently small. In order to do that the ditches need to be separated by a certain distance $L$. Substituting $\langle x=0, \, H=m_0 \rangle$ in 3.10 gives: 
+Farmers are particularly concerned with keeping the maximum [[Centerfield Head Difference]] ($m_0$), in the middle between the ditches, sufficiently small. In order to do that the ditches need to be separated by a certain distance $L$. Substituting $\langle x=0, \, H=m_0 \rangle$ in 3.10 gives: 
 
 $$
 L^2 = \frac{8kDm_0}{R} \tag{2.11} 
@@ -287,7 +287,8 @@ $$
 When $H$ is defined with respect to the bottom of the bog, we can place an imaginary cylinder in the bog at distance $r$ with an area size of $2 \pi r H$. Multiplying this area with the apparent velocity in [[Darcy's Law]] gives a second expression for the volume flow rate: 
 
 $$
-Q=2 \pi rHk \frac{\text{d}H}{\text{d}r} \tag{2.21} $$
+Q=2 \pi rHk \frac{\text{d}H}{\text{d}r} \tag{2.21} 
+$$
 
 
 Setting both equations equal yields after some rewriting: 
@@ -430,6 +431,6 @@ This procedure is extremely simple. However, it needs to be repeated many times 
 ### 2.1.6 Conclusion
 An hydrologist conceptualised reality in order to describe it with formulas. We should always test  a formula against reality using measurement data. A hydrologist should also be able to judge whether a specific flow problem fits the concepts used to derive the formula - do the assumptions hold?
 
-In step 2 of the procedure to derive equations for groundwater flow the [[Continuity Principle]] was combined with [[Darcy's Law]]. So the principle to derive stationary solutions is: multiplication of the [[Flux Density|Apparent Velocity]] according to Darcy ($v=-k\text{d}H/Dx$) with an area (e.g. $D$, $H$ or $A$ in sections 3.1.2 and 3.1.3 respectively); calculation of the amount of water flowing through that area by looking at the water balance ([[Continuity Principle]]); equation of both expressions for the volume flow rate, and solving the resulting differential equation
+In step 2 of the procedure to derive equations for groundwater flow the [[Continuity Principle]] was combined with [[Darcy's Law]]. So the principle to derive stationary solutions is: multiplication of the [[Flux Density|Apparent Velocity]] according to Darcy ($v=-k\text{d}H/Dx$) with an area (e.g. $D$, $H$ or $A$ in sections 4.2 and 4.3 respectively); calculation of the amount of water flowing through that area by looking at the water balance ([[Continuity Principle]]); equation of both expressions for the volume flow rate, and solving the resulting differential equation
 
 The differential equations that we have presented could be solved. However, in more complex cases a hydrologist conceptualised the situation, discusses the possibility of a solution and when this is not possible, switches to modelling
