@@ -160,3 +160,104 @@ The oxygen concentration is a result of different biotic and abiotic processes; 
 ---
 ## 8.2 Oxygen Binding Substances, BOD Decomposition
 
+In surface water organic substances are present that can be decomposed by micro-organisms. Mostly this is an aerobic oxidation for which oxygen is extracted. 
+
+The amount of degradable organic matter in water is usually expressed as **Biological Oxygen Demand (BOD)**. This is the total amount of oxygen needed to fully decompose the organic matter, regardless of the type of material.
+
+>[!Info]
+>To measure BOD a water sample is placed for a certain time in the dark in a closed bottle with a constant temperature. Mostly the temperature is $20 \degree C$ and the incubation period is 5 days, so this is called $\text{BOD}^{20}_5$. 
+
+When the concentration of BOD is not too high, the influx of oxygen from the atmosphere and consumption of oxygen will be in balance. Problems occur when due to external influences the amount of decomposable substances is too high. This can be caused by: 
+- Discharge of treated waste water (which often still contains 1-5% of the original amount of BOD)
+- Sewage overflows (in case of extreme rainfall the capacity of the sewer system is exceeded and waste water is discharged without treatment)
+- Accidental spills
+- Dying algae and water plants, after extensive growth
+
+Decomposition of a BOD is often described as a 1st-order process:
+
+$$
+\frac{d\text{BOD}}{dt}=-k_r \, \text{BOD} \tag{8.1}
+$$
+
+Where:
+- BOD is the remaining BOD concentration [mg l$^{-1}$]
+- $k_r$ is the decay rate for BOD [time$^{-1}$] 
+
+Integration of this equation results in:
+
+$$
+\text{BOD}_t = \text{BOD}_0 \cdot e^{-k_r \, t} \tag{8.2}
+$$
+
+Where:
+- BOD$_0$ is the BOD-concentration at time 0
+- BOD$_t$ is the BOD-concentration at time $t$
+
+>[!Note]
+>The rate of oxygen depletion in surface water does not necessarily have to be equal to BOD decay rate $k_r$. Part of the BOD can disappear due to other processes like sedimentation or adsorption. In that case the oxygen consumption is lower than the decrease of the BOD
+
+BOD-decomposition is a biological process and therefore temperature dependent. Decomposition processes are generally faster with higher temperatures. Therefore, in tropical areas and in summer the oxygen concentration will be lower with a similar amount of organic substances
+
+In addition, at higher temperatures, oxygen is less soluble in water. Due to this combined effect of temperature discharges of for instance cooling water have an indirect effect on the oxygen balance. 
+
+---
+## 8.3 Reaeration
+In water of $16 \degree$C around 10 mg l$^{-1}$ of oxygen dissolves. At higher temperatures that is less and at lower temperatures this is more. This amount is called the equilibrium or **saturation concentration**
+
+A shortage of oxygen in surface waters compared to the saturation concentration for a certain temperature is called the **oxygen deficit**. In this case oxygen will diffuse from the atmosphere into the water. The same occurs the other way around when there is an over-saturation of oxygen due to water plants or algae growth
+
+The rate of oxygen exchange with the atmosphere is proportionate to the oxygen deficit. In addition, oxygen transport is dependent on the **mass transfer coefficient**, which is determined by the flow conditions at the boundary layer between air and water. Important factors are flow velocity, water depth, bank roughness and especially for standing waters the wind speed. 
+
+Mass transfer coefficient $k_L$ has an order of magnitude of 1 to 5 m d$^{-1}$, so it has a dimension of speed.
+
+Per unit of watersurface the oxygenflux $\phi(\ce{O2})$ [g m$^{-2}$ hour$^{-1}$] can be described as:
+
+$$
+\phi(\ce{O2})=k_L (C_s - \ce{O2}) \tag{8.3}
+$$
+
+With:
+- $k_L$ the mass transfer coefficient
+- $C_s$ the saturation concentration of $\ce{O2}$ in water [g m$^{-3}$]
+- $\ce{O2}$ the actual oxygen concentration in the water column [g m$^{-3}$]
+
+For a water system with a surface area $A$ m$^2$ and a water volume $V$ m$^3$ the change in oxygen concentration is described as:
+
+$$
+V \frac{d \ce{O2}}{dt} = k_L (C_s - \ce{O2}) \tag{8.4}
+$$
+
+Resulting in a change in oxygen concentration of
+
+$$
+\begin{aligned}
+\frac{d \ce{O2}}{dt} &= k_L \frac{A}{V}(C_s - \ce{O2}) \\
+&= \frac{k_L}{H}(C_s - \ce{O2})
+\end{aligned} \tag{8.5}
+$$
+
+The ratio between volume $V$ and area $A$ is the average depth $H$
+
+The "constant" $k_L / H$ is also indicated with the **reaeration constant** $K_a$ with the unit [time^{-1}$]. A flux of oxygen over the air-water boundary layer will have a large impact on oxygen concentration in shallow waters compared to deep waters.
+
+---
+## 8.4 The Oxygen Balance of Rivers
+To explain the change in oxygen balance in a river, we will first picture a completely mixed system (reactor or vessel). In this system with volume $V$ m$^3$ an amount $M$ g of BOD is loaded. If we neglect the time of mixing the starting concentration of BOD [g m$^{-3}$] will be:
+
+$$
+\text{BOD}_0 = \frac{M}{V} \tag{3.11}
+$$
+
+As a result of biological oxidation this BOD concentration will decrease with a velocity $k_r \cdot \text{BOD}_t$  (see equation 3.7). For the oxygen balance this means that oxygen is extracted with a velocity $k_r \cdot \text{BOD}_t$. The use of oxygen for BOD decomposition generates in a deficit $D$, that increases with the same speed as $k_r \cdot \text{BOD}_t$. At the same time reaeration starts and the oxygen concentration increases with the velocity ${k_L}/{H} \cdot (C_s - \ce{O2})$ and the oxygen balance can be written as:
+
+$$
+\frac{d \ce{O2}}{dt}=\frac{k_L}{H}(C_s - \ce{O2}) - k_r \cdot \text{BOD}_t \tag{3.12}
+$$
+
+The maximum deficit and thus the minimum oxygen concentration occurs when reaeration and oxygen consumption compensate each other or, mathematically, when ${d \ce{O2}}/{dt}=0$. In this minimum oxygen concentration we see (based on equation 3.12)
+
+$$
+\frac{k_L}{H}(C_s - \ce{O2})=k_r \cdot \text{BOD}_t \tag{3.13}
+$$
+
+The same pattern as described for an ideal reactor occurs in a river with constant BOD loading of $M$ [g s$^{-1}$]. Physically one can see the analogy by thinking that with a discharge $Q$ per second a package of water with volume $Q$ passes the discharge point and receiving $M$ BOD. After mixing, the BOD concentration in the package is thus $M/Q$. This package of water flows downstream with oxygen consumption and reaeration takes place as described above. When we assume no mixing between individual packages the change in deficit will occur exactly in this way. So we can use equation 3.9. Instead of time, we can use the flow distance $x$ as a variable because with constant flow velocity $u$: $u \cdot t = x$. 
