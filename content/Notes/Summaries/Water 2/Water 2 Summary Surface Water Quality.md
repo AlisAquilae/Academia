@@ -245,19 +245,80 @@ The "constant" $k_L / H$ is also indicated with the **reaeration constant** $K_a
 To explain the change in oxygen balance in a river, we will first picture a completely mixed system (reactor or vessel). In this system with volume $V$ m$^3$ an amount $M$ g of BOD is loaded. If we neglect the time of mixing the starting concentration of BOD [g m$^{-3}$] will be:
 
 $$
-\text{BOD}_0 = \frac{M}{V} \tag{3.11}
+\text{BOD}_0 = \frac{M}{V} \tag{8.6}
 $$
 
-As a result of biological oxidation this BOD concentration will decrease with a velocity $k_r \cdot \text{BOD}_t$  (see equation 3.7). For the oxygen balance this means that oxygen is extracted with a velocity $k_r \cdot \text{BOD}_t$. The use of oxygen for BOD decomposition generates in a deficit $D$, that increases with the same speed as $k_r \cdot \text{BOD}_t$. At the same time reaeration starts and the oxygen concentration increases with the velocity ${k_L}/{H} \cdot (C_s - \ce{O2})$ and the oxygen balance can be written as:
+As a result of biological oxidation this BOD concentration will decrease with a velocity $k_r \cdot \text{BOD}_t$  (see equation 8.2). For the oxygen balance this means that oxygen is extracted with a velocity $k_r \cdot \text{BOD}_t$. The use of oxygen for BOD decomposition generates in a deficit $D$, that increases with the same speed as $k_r \cdot \text{BOD}_t$. At the same time reaeration starts and the oxygen concentration increases with the velocity ${k_L}/{H} \cdot (C_s - \ce{O2})$ and the oxygen balance can be written as:
 
 $$
-\frac{d \ce{O2}}{dt}=\frac{k_L}{H}(C_s - \ce{O2}) - k_r \cdot \text{BOD}_t \tag{3.12}
+\frac{d \ce{O2}}{dt}=\frac{k_L}{H}(C_s - \ce{O2}) - k_r \cdot \text{BOD}_t \tag{8.7}
 $$
 
-The maximum deficit and thus the minimum oxygen concentration occurs when reaeration and oxygen consumption compensate each other or, mathematically, when ${d \ce{O2}}/{dt}=0$. In this minimum oxygen concentration we see (based on equation 3.12)
+The maximum deficit and thus the minimum oxygen concentration occurs when reaeration and oxygen consumption compensate each other or, mathematically, when ${d \ce{O2}}/{dt}=0$. In this minimum oxygen concentration we see (based on equation 8.7)
 
 $$
-\frac{k_L}{H}(C_s - \ce{O2})=k_r \cdot \text{BOD}_t \tag{3.13}
+\frac{k_L}{H}(C_s - \ce{O2})=k_r \cdot \text{BOD}_t \tag{8.8}
 $$
 
-The same pattern as described for an ideal reactor occurs in a river with constant BOD loading of $M$ [g s$^{-1}$]. Physically one can see the analogy by thinking that with a discharge $Q$ per second a package of water with volume $Q$ passes the discharge point and receiving $M$ BOD. After mixing, the BOD concentration in the package is thus $M/Q$. This package of water flows downstream with oxygen consumption and reaeration takes place as described above. When we assume no mixing between individual packages the change in deficit will occur exactly in this way. So we can use equation 3.9. Instead of time, we can use the flow distance $x$ as a variable because with constant flow velocity $u$: $u \cdot t = x$. 
+The same pattern as described for an ideal reactor occurs in a river with constant BOD loading of $M$ [g s$^{-1}$]. Physically one can see the analogy by thinking that with a discharge $Q$ per second a package of water with volume $Q$ passes the discharge point and receiving $M$ BOD. After mixing, the BOD concentration in the package is thus $M/Q$. This package of water flows downstream with oxygen consumption and reaeration takes place as described above. When we assume no mixing between individual packages the change in deficit will occur exactly in this way. So we can use equation 8.4. Instead of time, we can use the flow distance $x$ as a variable because with constant flow velocity $u$: $u \cdot t = x$. 
+
+---
+## 8.5 The Effect of the Sediment
+In the previous paragraph we considered the oxygen balance only with 2 terms. However, also the sediment uses oxygen and the production of oxygen by plants and algae is also of great importance. In the sediment settling organic matter accumulates: dead plant material and faeces of fish and zooplankton, leaves, etc. The microbiological oxidation processes in the sediment will result in a **Sediment Oxygen Demand**. 
+
+>[!Info]
+>This oxygen demand is more or less a $0^e$-order process, which means that the oxygen demand is independent of the oxygen concentration in the water.
+
+Often only a very thin layer of the sediment is aerobic (a few mm). In the anaerobic layers underneath nitrate reduction takes place while in the aerobic layer oxidation of $\ce{NH4+}$ occurs. This combination of nitrification and denitrification can be an important removal process (sink) of nitrogen because it will be released as $\ce{N2}$ gas into the atmosphere.
+
+>[!Info]
+>Complex processes occur in the sediment, leading to an oxygen consumption. A normal value of SOD is 0.5 - 1 [g $\ce{O2}$ m$^{-2}$ time$^{-1}$], however. in very polluted sediments this value can be much higher. Also flow conditions and temperature will affect this rate. 
+
+Like the reaeration processes the sediment oxygen demand is a flux over a boundary layer (sediment-water). To determine the effect of SOD on the oxygen concentration in the water we divide SOD by the height of the water column $H$. With a high water column the effect of the sediment is relatively small, whereas in a low water column the oxygen will be depleted fast. 
+
+---
+## 8.6 Primary Production
+Primary production is the development of organic material from inorganic substances (mainly $\ce{CO2}$, ammonium or nitrate, phosphorus and other micro-nutrients) with light energy. Light energy is captured by chlorophyll and other pigments and via photosynthesis this is stored in chemical energy (organic matter). Therefore, primary production is the basis of the food web. 
+
+This process is important for the oxygen balance because with primary production by water plants or algae oxygen is released. 
+
+>[!Info.
+>Algae have a different chemical composition depending on for instance the species, the age and the availability of nutrients and light energy during growth. 
+
+Algae production and decay can be quantified with a 1st order equation: 
+
+$$
+\frac{dA}{dt}=(\mu - R)A \tag{8.9}
+$$
+Where
+- A is algae biomass concentration [M L$^{-3}$]
+- $\mu$ is the specific growth rate
+- $R$ is the loss rate due to respiration
+
+The term $\mu - R$ indicated the "net" or actual growth rate. The growth rate can be limited by the light availability and/or nutrients, and the maximum growth rate is a function of temperature. This leads to:
+
+$$
+\mu = \mu_{\text{max}}(T) \cdot f_c(\text{light}) \cdot f_c(\text{nutrients}) \tag{8.10}
+$$
+
+The maximum growth rate increases around 3-8% per grade Celsius temperature rise until a maximum temperature. Every algae species has its own optimal temperature. 
+
+The nutrient factor $f_c$ is often described as a Monod-function: 
+
+$$
+f_c(N) = \frac{N}{k_s + N} \tag{8.11}
+$$
+
+With
+- $N$ the nutrient concentration [mg l$^{-1}$]
+- $k_s$ the half saturation concentration (or Monod constant) [mg l$^{-1}$]
+
+When $N$ is equal to $k_s$ the result of equation 8.11 is 0.5. This explains the term half saturation concentration. Equation 8.11 shows that with low values of $N$ growth is proportional to $N$; at high nutrient concentrations the limiting factor slowly tends to 1
+
+Including primary production in the oxygen balance could lead to the equation:
+
+$$
+\frac{d \ce{O2}}{dt} = co(\mu - R)A + \frac{k_L}{H}(C_s - \ce{O2})-k_r \, \text{BOD}_t - \frac{\text{SOD}}{H} \tag{8.12}
+$$
+
+In which the last term is the sediment oxygen demand that is divided by depth. The constant $co$ is the production of $\ce{O2}$ per mg produced cell material. 
