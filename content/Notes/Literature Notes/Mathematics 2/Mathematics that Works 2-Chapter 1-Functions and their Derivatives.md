@@ -97,6 +97,14 @@ For the quadratic polynomial $f(\text{x}) = a \text{x}^2 + b \text{x} + c$ (with
 - If $a \lt 0$, then the graph is a parabola opening downwards, with maximum at $\text{x}=-b/(2a)$ and $f(\text{x}) \rightarrow -\infty$
 - If the **discriminant** $D=b^2 - 4ac$ is positive, then $f(\text{x})$ has zeros at :
   $$
-  \text{x}_{1,2}=\frac{-b}{}
+  \text{x}_{1,2}=\frac{-b \, \pm \, \sqrt{D}}{2a} = \frac{-b \, \pm \, \sqrt{b^2 - 4ac}}{2a}
   $$
+  
 
+#### Rational Functions
+A characteristic of all polynomials $f(\text{x})$ is that $f(\text{x}) \to \pm \, \infty$ as $\text{x} \to \pm \, \infty$ . This trait puts an important restriction on the phenomena that we can model with polynomials. This restriction does not apply to [[Rational Functions]], which are quotients of two polynomials: 
+
+$$
+f(\text{x}) = \frac{p(\text{x})}{q(\text{x})}
+$$
+#### The Inverse Function
