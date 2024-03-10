@@ -108,3 +108,6 @@ $$
 f(\text{x}) = \frac{p(\text{x})}{q(\text{x})}
 $$
 #### The Inverse Function
+Often, a function is used to describe a causal relationship: a cause x leads to an effect $y$. In other cases, we must proceed the other way around. 
+
+In mathematical terms, the [[Inverse Function]]
