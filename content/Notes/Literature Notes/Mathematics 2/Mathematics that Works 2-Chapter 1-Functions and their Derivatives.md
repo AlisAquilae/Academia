@@ -20,4 +20,25 @@ The third part of this chapter presents a recapitulation of differentiation and 
 ---
 ### 1.2 The Standard Functions
 #### 1.2.1 Functions as a Model
-A mathematical model is a ma
+A mathematical model is a mathematical description (by means of functions or equations) of an observable phenomenon, The goal of modelling is to gain insight in the phenomenon and to allow for predictions about its behaviour, which is the quintessence of science.
+
+A model can never give a complete representation of reality; it is always a simplification. A good model tries to find a balance between simplicity and accuracy; it must be simple enough to enable calculations and relevant conclusions, and it should be accurate enough to make these conclusions reliable. If a simple model gives a description of the observations that is equally as good as that of a more complicated model, the simple model is to be preferred. 
+
+#### 1.2.2 Linear Functions
+A function $f$(x) can be depicted in a graph by drawing points (x, $f$(x)) in the (x, y)-plane. The result is a curve in the (x, y)-plane with equation $y=f$(x).
+
+The simplest type of functions are the [[Linear Functions]]: 
+
+$$
+y=f(\text{x})=a \text{x}+b
+$$
+
+The graph of a linear function is a straight line.
+
+A special case arises where $b=0$. In this case, the graph is a traight line through the origin (0, 0). Another special case arises when $a=0$. Then, $f$(x) does not depend on x at all; we call it a **constant function**. The graph of a constant function is the horizontal straight line $y=b$. 
+
+>[!Note]
+>If $a=0$ and $b=0$, this line coincides with the x-axis
+
+The numbers $a$ and $b$ are **parameters**: they determine the behaviour of the function. 
+- The point of intersection with the y-axis (at $\text{x}=0$ )
