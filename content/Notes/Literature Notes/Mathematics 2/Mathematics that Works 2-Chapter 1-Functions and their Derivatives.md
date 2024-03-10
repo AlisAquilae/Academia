@@ -41,4 +41,22 @@ A special case arises where $b=0$. In this case, the graph is a traight line thr
 >If $a=0$ and $b=0$, this line coincides with the x-axis
 
 The numbers $a$ and $b$ are **parameters**: they determine the behaviour of the function. 
-- The point of intersection with the y-axis (at $\text{x}=0$ )
+- The point of intersection with the y-axis (at $\text{x}=0$) is located at $y=b$, so $b$ is the **vertical intercept**
+- $a$ is called the **slope** of the line. The larger $a$ the steeper the line; when we add 1 unit to x, then $y$ increases by $a$ units. If $a$ is negative, then the line is decreasing
+
+>[!Info]
+>If the graph of $y$ as a function of $\text{x}$ is a straight line, the graph of $\text{x}$ as a function of $y$ is a straight line too. 
+
+#### Powers and Functions
+In many applications, the relation between 2 quantities is modelled with a linear function, often merely because there is no better information available. If such information is present, however, relations that are more complex can be taken into consideration. In this section, we present functions that can model such a more complex relation
+
+A first group of functions are the [[Power Functions]]: 
+
+$$
+f(\text{x})=c\text{x}^p
+$$
+
+in which $c$ and $p$ are the parameters. These functions can model very different types of behaviour. If $c$ and $p$ are positive, $f(\text{x})$ is increasing and $f(0)=0$. If $c$ is positive and $p$ is negative, $f(\text{x})$ is decreasing for $\text{x} \gt 0$ and $f(\text{x})$ is decreasing for $\text{x} \lt 0$. 
+
+>[!Note]
+>**Roots** are powers too. For example $\sqrt{\text{x}}=
