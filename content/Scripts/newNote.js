@@ -15,7 +15,7 @@ async function newNote () {
         (await tp.file.move("/Media/" + tp.file.title));
     } else {
         // Suggester for course selection
-        course = await tp.system.suggester(["Water 1", "Water 2", "General Chemistry", "General Physics"], ["Water 1", "Water 2", "General Chemistry", "General Physics"], true);
+        course = await tp.system.suggester(["Water 1", "Water 2", "Mathematics 2", "Mathematics 3"], ["Water 1", "Water 2", "Mathematics 2", "Mathematics 3"], true);
 
         // Find note type base
         noteType = await tp.system.suggester(["Courses", "Notes", "Terminology", "Questions"], ["Courses", "Notes", "Terminology", "Questions"], true);
