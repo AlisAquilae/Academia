@@ -219,4 +219,11 @@ Below we give a table of derivatives of a number of standard functions
 | $f(x)=\sin(x)$    | $f'(x)=\cos(x)$             |
 | $f(x)=cos(x)$     | $f'(x)=-sin(x)$             |
 | $f(x)=\tan(x)$    | $f'(x)=\frac{1}{\cos(x)^2}$ |
-Combining these standard functions by taking sums, products, or quotients, we can build up more complicated functions
+Combining these standard functions by taking sums, products, or quotients, we can build up more complicated functions. Here the following rules apply
+
+- Constant factor rule: $[cf(x)]'=cf'(x)$
+- Sum rule: $[f(x)+g(x)]'=f'(x)+g'(x)$
+- Product rule: $[f(x)g(x)]'=f'(x)g(x)+f(x)g'(x)$
+- Quotient rule: $[\frac{f(x)}{g(x)}]'=\frac{f'(x)g(x)-f(x)g'(x)}{g(x)^2}$
+- Chain rule: $h'(x)=f'(u(x))u'(x)$
+
