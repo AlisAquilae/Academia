@@ -152,7 +152,7 @@ The [[Natural Logarithm]] $\ln(x)$ is $^e \log(x)$, the logarithm to base $e$
 For logarithms, the following rules apply:
 - Inverse: $^a\log(x) \iff x=a^y$ and $a^{^a\log(x)}=x$
 - Product rule: $^a \log(xy) = ^a\log(x) + ^a\log(y)$
-- Quotient rule: $^a\log \left(\frac{x}{y}\right)=^a\log(x)-\,^a\log(y)$
+- Quotient rule: $^a\log \left(\frac{x}{y}\right)=^a\log(x)-^a\log(y)$
 - Power rule: $^a\log(x^p)=p \cdot ^a\log(x)$
 - Change the base: $^a\log(x)=\frac{^b\log(x)}{^b\log(a)}$
 
@@ -185,3 +185,8 @@ Often we measure the angle $\Theta$ in radians, abbreviated rad. A full revoluti
 | $\sqrt12\pi$    | 90                 | 1                 | 0                 | $\pm \infty$      |
 
 There are many formulas and relations between trigonometric functions which are known, for example $\sin(\Theta)^2 + \cos(\Theta)^2=1$
+
+---
+### 1.4 The Derivative
+#### 1.4.1 Differentiation
+The points $A$ and $B$ are on the (non-linear) graph of $f(x)$. Between $A$ and $B$
