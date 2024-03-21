@@ -227,3 +227,25 @@ Combining these standard functions by taking sums, products, or quotients, we ca
 - Quotient rule: $[\frac{f(x)}{g(x)}]'=\frac{f'(x)g(x)-f(x)g'(x)}{g(x)^2}$
 - Chain rule: $h'(x)=f'(u(x))u'(x)$
 
+#### 1.4.3 The Equation for the Tangent Line
+At the beginning of this section, we introduced the derivative $f'(a)$ of $f(x)$ at $x=a$ as the slope of the tangent line to $f(x)$ at $x=a$. Conversely, we may set up a formula for the tangent line using the derivative.
+
+The tangent line to $f(x)$ at $x=a$ has equation:
+
+$$
+y=f(a)+f'(a)(x-a)
+$$
+
+#### 1.4.4 Increasing and Decreasing; Local Extremes
+The derivative $f'(a)$ of $f(x)$ at $x=a$ is the slope of the graph of $f(x)$ at $x=a$. Hence,
+- $f'(a) \gt 0 \Rightarrow f(x) \text{ is increasing at }x=a$
+- $f'(a) \lt 0 \Rightarrow f(x) \text{ is decreasing at }x=a$
+
+These relations can be used in finding **local extremes** (i.e. local maxima and local minima). Indeed, for a smooth function $f(x)$ a point $x=a$ can be a local extreme only if $f'(a)=0$. Such a point is called a **stationary point**
+
+>[!Important]
+>If $f'(a)=0$ and $f'(x)$ turns from positive to negative at $x=a$, then $f(x)$ has a local maximum at $x=a$
+>
+>If $f'(a)=0$ and $f'(x)$ turns from negative to positive at $x=a$, then $f(x)$ has a local minimum at $x=a$
+
+To apply the first derivative test, we must first determine whether $f'(x)
