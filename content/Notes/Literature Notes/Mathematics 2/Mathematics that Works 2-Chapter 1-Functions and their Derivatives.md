@@ -133,4 +133,11 @@ The exponential function $f(x)=e^x$ is used so frequently that it is often calle
 Below are some rules for powers and exponents:
 - For any integer numbers $m$ and $n$, $a^{m/n} = \sqrt[n]{a^m}=\bigl(\sqrt[n]{a}\bigr)^m$ 
 - For any real number $p$, $a^{-p} = \frac{1}{a^p}$ and $(ab)^p = a^pb^p$
-- For any real numbers $p$ and $q$, $(a)
+- For any real numbers $p$ and $q$, $(a^p)^q=a^{pq}$
+- For any real numbers $p$ and $q$, $a^p \cdot a^q=a^{p+q}$
+
+#### 1.3.2 Logarithms
+The [[Logarithmic Function]] $^a \log(x)$ is the [[Inverse Functions|Inverse Function]] of the exponential function $a^x$. We call $^a \log(x)$ the logarithm of $x$ to base $a$. 
+
+In a formula, $^a \log(x)=y \to a^y=x
+
