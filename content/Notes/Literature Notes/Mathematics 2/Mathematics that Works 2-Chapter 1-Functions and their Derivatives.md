@@ -151,8 +151,14 @@ The [[Natural Logarithm]] $\ln(x)$ is $^e \log(x)$, the logarithm to base $e$
 
 For logarithms, the following rules apply:
 - Inverse: $^a\log(x) \iff x=a^y$ and $a^{^a\log(x)}=x$
-- Product rule: $^a \log(xy) = \, ^a\log(x) + ^a\log(y)$
-- Quotient rule: $^a\log \left(\frac{x}{y}\right)=\,^a\log(x)-\,^a\log(y)$
-- Power rule: $^a\log(x^p)=p \, ^a\log(x)$
+- Product rule: $^a \log(xy) = ^a\log(x) + ^a\log(y)$
+- Quotient rule: $^a\log \left(\frac{x}{y}\right)=^a\log(x)-\,^a\log(y)$
+- Power rule: $^a\log(x^p)=p \cdot ^a\log(x)$
 - Change the base: $^a\log(x)=\frac{^b\log(x)}{^b\log(a)}$
 
+We often put logarithms in a graph with a **logarithmic scale**. A scale is logarithmic if the distance to the origin is proportional to the logarithm of the value on the scale of this point
+
+Equal distances between points on the logarithmic scale imply equal ratios of the values on the scale. The distance between points P and Q, with Q being larger, is found through $\log(\frac{q}{p})$
+
+>[!Example]
+>On a logari
