@@ -161,4 +161,21 @@ We often put logarithms in a graph with a **logarithmic scale**. A scale is loga
 Equal distances between points on the logarithmic scale imply equal ratios of the values on the scale. The distance between points P and Q, with Q being larger, is found through $\log(\frac{q}{p})$
 
 >[!Example]
->On a logari
+>On a logarithmic scale, the distance between the points $x_1=1$ and $x_2=10$ is equal to the distance between $x_3=1000$ and $x_4=10000$, since $\log(10)-\log(1)=1$ and $\log(10000)-\log(1000)=1$
+
+>[!Important]
+>What is noteworthy is that the graph of a power function is a straight line when there are logarithmic scales on both axes. The graph of an exponential function is a straight line as well when a logarithmic scale is used on the y-axis and a linear scale is used on the x-axis
+
+#### 1.3.3 Trigonometric Functions
+Some functions are periodic because they repeat themselves. The most important periodic functions are the [[Trigonometric Functions]] $\sin(\Theta)$, $\cos(\Theta)$ and $\tan(\Theta)$.
+
+Take a point $P=(x, y)$ on a circle about the origin with radius $r$. If $\Theta$ is the angle of $OP$ with respect to the positive x-axis, then:
+- $\sin(\Theta)=\frac{y}{r}$
+- $\cos(\Theta)=\frac{x}{r}$
+- $\tan(\Theta)=\frac{y}{x}$
+
+Often we measure the angle $\Theta$ in radians, abbreviated rad. A full revolution is $2\pi$ rad.
+
+| $\Theta$ in rad | $\Theta$ in $\deg$ |
+| --------------- | ------------------ |
+|                 |                    |
