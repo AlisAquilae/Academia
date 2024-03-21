@@ -47,7 +47,7 @@ The numbers $a$ and $b$ are **parameters**: they determine the behaviour of the 
 >[!Info]
 >If the graph of $y$ as a function of $\text{x}$ is a straight line, the graph of $\text{x}$ as a function of $y$ is a straight line too. 
 
-#### Powers and Functions
+#### 1.2.3 Powers and Functions
 In many applications, the relation between 2 quantities is modelled with a linear function, often merely because there is no better information available. If such information is present, however, relations that are more complex can be taken into consideration. In this section, we present functions that can model such a more complex relation
 
 A first group of functions are the [[Power Functions]]: 
@@ -68,7 +68,7 @@ The formulas below help to deal with power functions
 - For any real numbers $p$ and $q$, $(a^p)^q = a^{pq}$ 
 - For any real numbers $p$ and $q$, $a^p \cdot a^q = a^{p+q}$
 
-#### Polynomials
+#### 1.2.4 Polynomials
 A second important group of functions are the [[Polynomials]]. This group contains the linear functions (also called **linear polynomials**): 
 
 $$
@@ -101,13 +101,13 @@ For the quadratic polynomial $f(\text{x}) = a \text{x}^2 + b \text{x} + c$ (with
   $$
   
 
-#### Rational Functions
+#### 1.2.5 Rational Functions
 A characteristic of all polynomials $f(\text{x})$ is that $f(\text{x}) \to \pm \, \infty$ as $\text{x} \to \pm \, \infty$ . This trait puts an important restriction on the phenomena that we can model with polynomials. This restriction does not apply to [[Rational Functions]], which are quotients of two polynomials: 
 
 $$
 f(\text{x}) = \frac{p(\text{x})}{q(\text{x})}
 $$
-#### The Inverse Function
+#### 1.2.6 The Inverse Function
 Often, a function is used to describe a causal relationship: a cause x leads to an effect $y$. In other cases, we must proceed the other way around. 
 
 In mathematical terms, the [[Inverse Functions|Inverse Function]] of a function $y= f(\text{x})$  with input x and output $y$ is the function $g(y)$ that returns the input x for a given output $y$. The inverse function of $f(\text{x})$ thus gives the solution x of the equation $y=f(\text{x})$ 
@@ -118,3 +118,7 @@ In mathematical terms, the [[Inverse Functions|Inverse Function]] of a function 
 >[!Note]
 >Sometimes the inverse function of $f(\text{x})$ is denoted by $f^{-1} (\text{x})$
 
+---
+### 1.3 Transcendental Functions
+#### 1.3.1 Exponential Functions
+An [[Exponential Function]] is a function of the form $f(x)=ca^x$, where $c$ and $a$ are constants, with $a \gt 0$. The parameter $a$ is calle
