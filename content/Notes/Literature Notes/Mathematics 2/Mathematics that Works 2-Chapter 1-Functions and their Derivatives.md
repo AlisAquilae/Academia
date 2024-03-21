@@ -139,5 +139,20 @@ Below are some rules for powers and exponents:
 #### 1.3.2 Logarithms
 The [[Logarithmic Function]] $^a \log(x)$ is the [[Inverse Functions|Inverse Function]] of the exponential function $a^x$. We call $^a \log(x)$ the logarithm of $x$ to base $a$. 
 
-In a formula, $^a \log(x)=y \to a^y=x
+In a formula, $^a \log(x)=y \to a^y=x$
+
+>[!Note]
+>The logarithm $^a \log(x)$ is defined only if:
+>- $a \gt 0$
+>- $a \neq 1$
+>- $x \gt 0$
+
+The [[Natural Logarithm]] $\ln(x)$ is $^e \log(x)$, the logarithm to base $e$
+
+For logarithms, the following rules apply:
+- Inverse: $^a\log(x) \iff x=a^y$ and $a^{^a\log(x)}=x$
+- Product rule: $^a \log(xy) = \, ^a\log(x) + ^a\log(y)$
+- Quotient rule: $^a\log \left(\frac{x}{y}\right)=\,^a\log(x)-\,^a\log(y)$
+- Power rule: $^a\log(x^p)=p \, ^a\log(x)$
+- Change the base: $^a\log(x)=\frac{^b\log(x)}{^b\log(a)}$
 
