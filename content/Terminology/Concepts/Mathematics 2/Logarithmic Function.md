@@ -1,13 +1,13 @@
 ---
 fileClass: Base, Concepts
 title: 
-Parents: 
+Parents: ["[[Mathematics that Works 2-Chapter 1-Functions and their Derivatives]]"]
 Draft: 
-Status: 
+Status: Done
 aliases: 
-Related Notes: 
-Related Terminology: 
-Related Courses: 
+Related Notes: ["[[Mathematics that Works 2-Chapter 1-Functions and their Derivatives]]"]
+Related Terminology: ["[[Natural Logarithm]]"]
+Related Courses: ["[[Mathematics 2]]"]
 ---
 The **Logarithmic Function** $^a \log(x)$ is the [[Inverse Functions|Inverse Function]] of the [[Exponential Function]] $a^x$. We call $^a \log(x)$ the logarithm of $x$ to base $a$. 
 
