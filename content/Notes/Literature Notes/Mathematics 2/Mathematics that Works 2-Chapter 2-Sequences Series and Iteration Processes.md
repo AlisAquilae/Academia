@@ -126,6 +126,26 @@ $$
 For any other value of $r$, the geometric series is divergent
 
 >[!Example]
->$1+2+4+8+16+\dots$ is divergent, since $r=2$, and
->$1+\frac12+\frac14+\frac18+\frac{1}{16}+\dots$ is convergent, since $r=\frac12$. Its sum is
+>$1+2+4+8+16+\dots$ is divergent, since $r=2$
+>
+>$1+\frac12+\frac14+\frac18+\frac{1}{16}+\dots$ is convergent, since $r=\frac12$. Its sum is $\frac{1}{1-\frac12}=2$
+
+>[!Note]
+>If we have to add many consecutive numbers, we use ellipsis $\dots$ as above, or we use the symbol $\Sigma$ (pronounced as *sigma*). The $\Sigma$-sign stands for the summation (addition) of a number of terms. For example,
+>
+>$$
+>\sum_{12}^{n=6}t_n=t_6+t_7+t_8+\dots+t_{12}
+>$$
+>
+>The number below the $\Sigma$-sign indicates where we start, the number above where we end. If there is no end term, we use the $\infty$ sign. For the sum of the series we thus have 
+>
+>$$
+>\sum_{n=1}^{\infty}t_n=t_1+t_2+t_3+\dots
+>$$
+
+#### 2.1.3 The Binomial Expansion
+
+
+
+
 
