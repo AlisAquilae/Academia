@@ -6,7 +6,7 @@ Draft:
 Status: Done
 aliases: 
 Related Notes: ["[[Mathematics that Works 2-Chapter 1-Functions and their Derivatives]]"]
-Related Terminology: ["[[Linear Functions]]"]
+Related Terminology: ["[[Linear Functions]]", "[[Rational Functions]]"]
 Related Courses: ["[[Mathematics 2]]"]
 ---
 **Polynomials** are a type of mathematical functions. This group contains the [[Linear Functions]] (also called linear polynomials): 
