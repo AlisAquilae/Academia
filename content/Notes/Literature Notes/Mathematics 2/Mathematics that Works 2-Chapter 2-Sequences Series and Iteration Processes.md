@@ -249,4 +249,13 @@ In the graph, steady states are the intersection points of the model curve $y=f(
 >We compute the steady state of the linear iteration process used previously: $t_{n+1}=1.5t_n-1$. 
 >
 >$$
->\underline{t}=1.5\underline{t}-1 
+>\underline{t}=1.5\underline{t}-1 \Rightarrow 0=0.5\underline{t}-1 \Rightarrow \underline{t}=2
+>$$
+>
+>This result agrees with the value we found previously
+
+A steady state to which sequences converge is called **stable** or **attracting**; a steady state from which sequences diverge is called **unstable** or **repelling** (as discussed above).
+
+Whether a steady state is stable or unstable depends on the derivative of $f(x)$. A steady state $\underline{t}$ of the iteration process $t_{n+1}=f(t_n)$ is
+- stable if $-1 \lt f'(t) \lt 1$
+- unstable if $-1 \gt f'(t) \gt 1$
