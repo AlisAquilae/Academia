@@ -144,7 +144,25 @@ For any other value of $r$, the geometric series is divergent
 >$$
 
 #### 2.1.3 The Binomial Expansion
+Using the well-known formula $(a+b)^2=a^2+2ab+b^2$ we expand the square of $a+b$ into powers of $a$ and $b$. When we expand $(a+b)^n$ into powers of $a$ and $b$ for any integer $n$, we obtain coefficients that can also be found in **Pascal's Triangle**. In this triangle, each number is the sum of its left and right upper neighbours. 
 
+To derive the coefficients of the nth row, it is not necessary to form the whole triangle; they can be found by a simple formula. First, we introduce the following notations
+
+The [[Factorial]] $n!$ (read "n factorial") of a positive integer $n$ is the number 
+
+$$
+n!=1 \cdot 2 \cdot 3 \cdot ... \cdot n \text{ for } n \neq 0 \text{ and } 0!=1
+$$
+
+>[!Example]
+>$3!=1\cdot 2\cdot 3=6$
+>$6!=1\cdot2\cdot3\cdot4\cdot5\cdot6=720$
+
+The [[Binomial Coefficient]] of two numbers $n$ and $k$ (read "n choose k") is 
+
+$$
+\binom{n}{k}=\frac{n}{1} \cdot \frac{n-1}{2} \cdot \frac{n-2}{3}
+$$
 
 
 
