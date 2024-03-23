@@ -56,5 +56,23 @@ f(x)&=f(a)+f'(a)(x-a)+\frac{f''(a)}{2!}(x-a)^2 + \frac{f'''(a)}{3!}(x-a)^3 + \do
 \end{aligned}
 $$
 
+This series is called the [[Taylor Series]] for the function $f(x)$ at $x=a$
+
 >[!Tip]
->Algorithm for setting up the 
+>Algorithm for setting up the Taylor Series of $f(x)$ at $x=a$
+>1. Determine the derivatives $f'(x), f''(x), f'''(x), \dots$ as far as necessary. Put these derivatives in a column, starting with $f(x)$
+>2. In the next column, put the function values $f(a), f'(a), f''(a), f'''(a), \dots$
+>3. Compose the series
+
+The number of terms necessary for a good approximation depends on the distance $x-a$. 
+
+#### 3.1.4 Limits with Taylor Series
+Taylor series can be used in calculating limits
+
+>[!Example]
+>We may write the number $e$ as $e^1$. With the Taylor series for $e^x$ it follows that 
+>
+>$$
+>e^1=1+1+\frac{1}{2!}+\frac{1}{3!}+ \dots = \sum_{k=0}^\infty \frac{1}{k!}
+>$$
+
