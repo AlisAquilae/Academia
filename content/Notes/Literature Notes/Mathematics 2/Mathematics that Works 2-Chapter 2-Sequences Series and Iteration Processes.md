@@ -259,3 +259,20 @@ A steady state to which sequences converge is called **stable** or **attracting*
 Whether a steady state is stable or unstable depends on the derivative of $f(x)$. A steady state $\underline{t}$ of the iteration process $t_{n+1}=f(t_n)$ is
 - stable if $-1 \lt f'(t) \lt 1$
 - unstable if $-1 \gt f'(t) \gt 1$
+
+#### 2.2.3 The Logistic Iteration Process
+A logistic iteration process has the form of 
+
+$$
+t_{n+1}=k(a-t_n)t_n
+$$
+
+with positive parameters $k$ and $a$. The (constant) factor $r$ in the linear iteration process is replaced by the factor $k(a-t_n)$, which depends on $t_n$. For $t \approx 0$, we have $k(a-t_n) \approx ka$, and the iteration process strongly resembles a linear process. As $t_n$ increases, the factor $k(a-t_n)$ decreases, and for $t_n \gt a$ it even becomes negative
+
+By scaling the process, we may restrict outselves to the case $a=1$:
+
+$$
+t_{n+1}=k(1-t_n)t_n
+$$
+
+Like for the linear iteration process, the consecutive states can be calculated 
