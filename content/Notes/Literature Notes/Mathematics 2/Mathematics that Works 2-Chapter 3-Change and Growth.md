@@ -76,3 +76,14 @@ Taylor series can be used in calculating limits
 >e^1=1+1+\frac{1}{2!}+\frac{1}{3!}+ \dots = \sum_{k=0}^\infty \frac{1}{k!}
 >$$
 
+
+---
+### 3.2 Models for Continuous Growth
+In this section we look at three models of continuous growth: exponential growth, bounded exponential growth, and logistic growth. With these models, we can describe the size of a population, but also the weight or the length of an individual. 
+
+>[!Important]
+>The difference between these models and those described in chapter 2 is that here the independent variable (usually time $t$) is continuous
+
+#### 3.2.1 Growth Rate and Relative Growth Rate
+A quantity $y$ is described as a function of time by the function $y(t)$. The **growth rate (rate of change)** of $y$ is the derivative, $y'(t)$. The **relative growth rate** is the growth rate divided by $y$; in a formula: the relative growth rate is $y'(t)/y(t)$. 
+
