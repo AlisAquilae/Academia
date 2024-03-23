@@ -161,9 +161,34 @@ $$
 The [[Binomial Coefficient]] of two numbers $n$ and $k$ (read "n choose k") is 
 
 $$
-\binom{n}{k}=\frac{n}{1} \cdot \frac{n-1}{2} \cdot \frac{n-2}{3}
+\binom{n}{k}=\frac{n}{1} \cdot \frac{n-1}{2} \cdot \frac{n-2}{3} \cdot \frac{n-k+1}{k}
 $$
 
+>[!Example]
+>$\binom{5}{2}=\frac51 \cdot \frac42=10$
+>$\binom{7}{4}=\frac71 \cdot \frac62 \cdot \frac53 \cdot \frac44 = 35$
 
+A way to quickly calculate an entire binomial coefficient, without calculating its parts first, is as follows
 
+$$
+\binom{n}{k}=\frac{n!}{n!\cdot (n-k)!}
+$$
+
+>[!Example]
+>$\binom{6}{0}=\frac{6!}{0!\cdot (6-0)!}=1$
+
+We can compute for example $(a+b)^4$ using the binomial theorem
+
+$$
+(a+b)^4=\binom{4}{0}a^4+\binom{4}{1}a^3b+\binom{4}{2}a^2b^2+\binom{4}{3}ab^3+\binom{4}{4}b^4
+$$
+Hence
+$$
+(a+b)^4=a^4+4a^3b+6a^2b^2+4ab^3+b^4
+$$
+
+Factorials and binomial coefficients have prominent roles in probability and statistics. 
+
+>[!Important]
+>The number of possible orderings of $n$ objects is $n!$
 
