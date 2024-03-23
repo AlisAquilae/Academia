@@ -214,5 +214,25 @@ $$
 t_{n+1}=rt_n
 $$
 
-This is a simple iteration process (iteration meaning repetition), in which each term arises by multiplying its predecessor with a fixed number $r$. 
+This is a simple [[Iteration Processes|Iteration Process]] (iteration meaning repetition), in which each term arises by multiplying its predecessor with a fixed number $r$. 
 
+More general iteration processes are obtained by 
+
+$$
+t_{n+1}=f(t_n)
+$$
+
+where the function $f(t)$ describes how a **state** $t_{n+1}$ is derived from its predecessor $t_n$. 
+
+In particular, we consider the linear iteration process and the logistic iteration process
+
+#### 2.2.1 Linear Iteration Process
+A linear iteration process is a process in the form of 
+
+$$
+t_{n+1}=at_n+b
+$$
+
+There is a linear relation between $t_n$ and $t_{n+1}$
+
+The behaviour of an iteration process is strongly dependent on its initial state. 
