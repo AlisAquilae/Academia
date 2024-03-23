@@ -269,10 +269,10 @@ $$
 
 with positive parameters $k$ and $a$. The (constant) factor $r$ in the linear iteration process is replaced by the factor $k(a-t_n)$, which depends on $t_n$. For $t \approx 0$, we have $k(a-t_n) \approx ka$, and the iteration process strongly resembles a linear process. As $t_n$ increases, the factor $k(a-t_n)$ decreases, and for $t_n \gt a$ it even becomes negative
 
-By scaling the process, we may restrict outselves to the case $a=1$:
+By scaling the process, we may restrict ourselves to the case $a=1$:
 
 $$
 t_{n+1}=k(1-t_n)t_n
 $$
 
-Like for the linear iteration process, the consecutive states can be calculated 
+Like for the linear iteration process, the consecutive states can be calculated easily. The same goes for the steady states
