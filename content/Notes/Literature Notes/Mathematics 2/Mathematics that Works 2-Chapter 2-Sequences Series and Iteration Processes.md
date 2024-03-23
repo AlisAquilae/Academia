@@ -192,3 +192,18 @@ Factorials and binomial coefficients have prominent roles in probability and sta
 >[!Important]
 >The number of possible orderings of $n$ objects is $n!$
 
+>[!Example]
+>Find the probability that a family with 7 children counts 4 sons and 3 daughters
+>
+>The number of compositions with 4 sons and 3 daughters is found by dividing the total number of orderings of the children (which is $7!$) by the number of orderings of the sons (this is $4!$) and that of the daughters (which is $3!$). So
+>
+>$$
+>\frac{7!}{4!\cdot 3!}=\binom{7!}{4!}
+>$$
+>
+>The probability of 4 sons and 3 daughters is then $\binom{7}{4}p^4(1-p)^{7-4}$
+>
+>We say that the probability of $k$ sons out of $n$ follows a binomial distribution $B(n, p)$
+
+
+
