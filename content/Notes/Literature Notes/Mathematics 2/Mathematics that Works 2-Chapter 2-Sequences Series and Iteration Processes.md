@@ -1,9 +1,9 @@
 ---
 fileClass: Base, Literature Notes
 title: 
-Parents: 
+Parents: ["[[Mathematics 2]]"]
 Draft: 
-Status: 
+Status: Done
 Authors: 
 Year of Publication: 
 Related Notes: 
