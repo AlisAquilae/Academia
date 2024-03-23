@@ -6,8 +6,8 @@ Draft:
 Status: Done
 aliases: 
 Related Notes: ["[[Mathematics that Works 2-Chapter 2-Sequences Series and Iteration Processes]]"]
-Related Terminology: 
-Related Courses: 
+Related Terminology: ["[[Sequences]]", "[[Geometric Series]]"]
+Related Courses: ["[[Mathematics 2]]"]
 ---
 A [[Sequences|Sequence]] that has many applications is the **Geometric Sequence**. It has the form 
 

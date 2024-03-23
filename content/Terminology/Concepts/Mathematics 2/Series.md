@@ -1,13 +1,13 @@
 ---
 fileClass: Base, Concepts
 title: 
-Parents: 
+Parents: ["[[Sequences]]"]
 Draft: 
-Status: 
+Status: Done
 aliases: 
-Related Notes: 
-Related Terminology: 
-Related Courses: 
+Related Notes: ["[[Mathematics that Works 2-Chapter 2-Sequences Series and Iteration Processes]]"]
+Related Terminology: ["[[Geometric Series]]", "[[Sequences]]"]
+Related Courses: ["[[Mathematics 2]]"]
 ---
 The most frequently used operation on a [[Sequences|Sequence]] of numbers is addition. Think for example of the addition of monthly incomes to an annual income, or of a bank balance to which interest is added.
 

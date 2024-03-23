@@ -6,8 +6,8 @@ Draft:
 Status: Done
 aliases: 
 Related Notes: ["[[Mathematics that Works 2-Chapter 2-Sequences Series and Iteration Processes]]"]
-Related Terminology: 
-Related Courses: 
+Related Terminology: ["[[Series]]", "[[Geometric Sequence]]"]
+Related Courses: ["[[Mathematics 2]]"]
 ---
 By summation of a [[Geometric Sequence]] we obtain a **Geometric Series**: a type of [[Series]] with many of the same characteristics as a geometric sequence
 

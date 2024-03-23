@@ -1,13 +1,13 @@
 ---
 fileClass: Base, Concepts
 title: 
-Parents: 
+Parents: ["[[Mathematics that Works 2-Chapter 2-Sequences Series and Iteration Processes]]"]
 Draft: 
-Status: 
+Status: Done
 aliases: 
-Related Notes: 
-Related Terminology: 
-Related Courses: 
+Related Notes: ["[[Mathematics that Works 2-Chapter 2-Sequences Series and Iteration Processes]]"]
+Related Terminology: ["[[Geometric Sequence]]", "[[Series]]"]
+Related Courses: ["[[Mathematics 2]]"]
 ---
 In many areas of science, **Sequences** of numbers are used. The individual numbers in the sequence are called **terms**; the first term is denoted by $t_1$, the second by $t_2$, and the nth by $t_n$. An (infinite) sequence thus consists of the terms: 
 
