@@ -236,3 +236,17 @@ $$
 There is a linear relation between $t_n$ and $t_{n+1}$
 
 The behaviour of an iteration process is strongly dependent on its initial state. 
+
+>[!Example]
+>Take the iteration process $t_{n+1}=1.5t_n-1$. For $t_0=4$, the sequence $t_0, t_1, t_2, t_3, \dots$ goes to $\infty$ and for $t_0=1$ it decreases to $-\infty$.
+
+For the iteration process above, the division between decreasing and increasing sequences lies at $t_0=2$. For this initial state we find $t_1=2, t_2=2, t_3=3$ and so on. If we start at this point the state remains the same. Therefore, the state $\underline{t}=2$ is called the **steady state** of this iteration process. Because the sequences $t_0, t_1, t_2, t_3, \dots$ move away from the steady state for any initial state $t_0 \neq \underline{t}$, the steady state is called **unstable**. When the sequences $t_0, t_1, t_2, t_3, \dots$ converge towards the steady state $\underline{t}$ we call this steady state **stable**
+
+#### 2.2.2 General Iteration Processes: Steady States and their Stability
+In the graph, steady states are the intersection points of the model curve $y=f(x)$ with the auxiliary line $y=x$. $\underline{t}$, then, is a steady state for $f(\underline{t})=\underline{t}$. 
+
+>[!Example]
+>We compute the steady state of the linear iteration process used previously: $t_{n+1}=1.5t_n-1$. 
+>
+>$$
+>\underline{t}=1.5\underline{t}-1 
