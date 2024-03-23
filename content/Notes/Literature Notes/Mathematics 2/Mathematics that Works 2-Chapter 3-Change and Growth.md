@@ -31,4 +31,30 @@ We call $g_1(x)$ the **First Order Approximation** (linear approximation) of $f(
 #### 3.1.2 The Second Order Approximation
 In many cases, a first order approximation is good enough to analyse the behaviour of a function in a small neighbourhood. However, in some cases we may need a more accurate approximation. 
 
-This can be achieved through the second order approximation of $f(x)$. 
+This can be achieved through the second order approximation of $f(x)$ about $x=a$:
+
+$$
+f(x) \cong f(a)+f'(a)(x-a)+\frac12f''(a)(x-a)^2
+$$
+
+The second order approximation of $f(x)$ about $x=a$ is a quadratic function of which the function value and the values of the first and second derivatives at $x=a$ are equal to those of $f(x)$.
+
+#### 3.1.3 Taylor Series
+We may continue to add new terms in the same way. This yields a sequence of [[Polynomials]] $g_k(x)$ that about $x=0$ more and more resemble $f(x)$; the sequence converges to $f(x)$. Thus
+
+$$
+f(x)=\alpha_0+\alpha_1x + \alpha_2x^2 + \alpha_3x^3 + \dots = \sum^\infty_{k=0}\alpha_kx^k
+$$
+We say that we develop the function into a [[Series]]. 
+
+If all derivatives of $f(x)$ at $x=a$ exist, then $f(x)$ can be developed into a series at $x=a$
+
+$$
+\begin{aligned}
+f(x)&=f(a)+f'(a)(x-a)+\frac{f''(a)}{2!}(x-a)^2 + \frac{f'''(a)}{3!}(x-a)^3 + \dots \\
+&= \sum_{k=0}^\infty \frac{f^{(k)}(a)}{k!}(x-a)^k
+\end{aligned}
+$$
+
+>[!Tip]
+>Algorithm for setting up the 
