@@ -206,4 +206,13 @@ Factorials and binomial coefficients have prominent roles in probability and sta
 >We say that the probability of $k$ sons out of $n$ follows a binomial distribution $B(n, p)$
 
 
+---
+### 2.2 Iteration Processes
+In the previous section we considered sequences for which the term $t_{n+1}$ directly follows from its predecessor $t_n$. Specifically the terms $t_n=ar^{n-1}$ of a geometric sequence satisfy
+
+$$
+t_{n+1}=rt_n
+$$
+
+This is a simple iteration process (iteration meaning repetition), in which each term arises by multiplying its predecessor with a fixed number $r$. 
 
