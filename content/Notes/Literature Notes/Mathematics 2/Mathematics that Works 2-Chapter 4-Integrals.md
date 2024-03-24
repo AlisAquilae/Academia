@@ -84,4 +84,37 @@ $$
 $$
 
 >[!Example]
->An antiderivative of the function $f(x)=e^x$ is $F(x)
+>An antiderivative of the function $f(x)=e^x$ is $F(x)=e^x$. We use this to calculate the area of the region below the graph of $f(x)$ between$x=0$ and $x=1$
+>
+>$$
+>\int_0^1 e^x dx = \left[e^x \right]^{x=1}_{x=0}=e^1 - e^0 = e-1
+>$$
+
+#### 4.2.3 Rules for Definite Integrals
+The rules for indefinite integrals also apply to definite integrals. In addition, there are specific rules regarding limits
+
+- A constant factor in the integrand can be moved outside the integral:
+
+$$
+\int_a^b \alpha f(x)dx = \alpha \int_a^bf(x)dx
+$$
+
+>[!Note]
+>This also works for a negative integrand
+
+>[!Info]
+>In integration, the area of the region below the horizontal axis is counted negatively. 
+
+- Sum rule: if the integrand is the sum of two functions, we can split the integral into the sum of two integrals with the same limits
+
+$$
+\int_a^b f(x)+g(x)dx = \int_a^b f(x)dx + \int^b_a g(x)dx
+$$
+
+- Cut and Paste: The sum of two definite integrals over consecutive intervals can be written as a single integral over the jointed interval:
+
+$$
+\int_a^b f(x)dx + \int_b^c f(x)dx = \int_a^c f(x)dx
+$$
+
+
