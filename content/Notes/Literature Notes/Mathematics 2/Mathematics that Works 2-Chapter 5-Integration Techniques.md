@@ -161,3 +161,29 @@ $$
 >\end{aligned}
 >$$
 
+
+---
+### 5.2 Integration by Parts
+#### 5.2.1 The Product Rule and Integration by Parts
+The derivative of the product of two functions $f(x)$ and $g(x)$ is
+
+$$
+[f(x)g(x)]'=f'(x)g(x) + f(x)g'(x)
+$$
+
+Integrating both sides of this equation, we find
+
+$$
+f(x)g(x)= \int [f(x)g(x)]' dx = \int f'(x)g(x) dx + \int f(x)g'(x) dx
+$$
+
+If we can easily find one of the integrals at the right side, we can also find the other one, which may be the more difficult one:
+
+$$
+\int f(x)g'(x) dx = f(x)g(x) + f'(x)g(x)dx
+$$
+
+In this way, we may try to simplify our problem
+
+>[!Example]
+>We look for an antiderivative of $x \cos(x)$. We recognise this integrand as the product of two functions $f(x)=
