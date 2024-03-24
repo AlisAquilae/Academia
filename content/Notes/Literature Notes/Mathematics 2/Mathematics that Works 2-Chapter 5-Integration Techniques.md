@@ -53,5 +53,46 @@ To deal with this, we can use the **method of substitution**. Here, we substitut
 >\begin{aligned}
 >\int \cos(x)e^{\sin(x)}dx &= \int e^{\sin(x)} \cos(x)dx \\
 >&= \int e^{u(x)}u'(x)dx \\
->&= \int e^u du  
+>&= \int e^u du \\
+>&= e^u + C \\
+>&= e^{\sin(x)} \\
+>\end{aligned} 
 >$$
+
+>[!Note]
+>A mnemonic to memorise the substitution method is writing the derivative of $u'(x)$ as
+>
+>$$
+>u'(x)=\frac{du}{dx} \Rightarrow u'(x)dx = du
+>$$
+>
+>In this way, the substitution carries $u'(x)dx$ over into $du$. 
+
+It may be useful to multiple the integrand by a constant factor to make the derivative $u'(x)$ better visible. Of course, we must compensate by dividing the integral by the same factor. In this way, the method of substitution is also effective for linear functions like $u(x)$, the guessing technique used in direct integration.
+
+>[!Example]
+>At first sight, the integrand in 
+>
+>$$
+>\int e^{-5x}dx
+>$$
+>
+>is no clear candidate for substitution; for effective substitution of $u(x)=-5x$, the required derivative of $u'(x)=-5$ is missing. We may solve this issue by multiplying the integrand with the missing factor, while dividing the integral by this same factor
+>
+>>[!Info]
+>>This is allowed because of the constant factor rule discussed previously
+>
+>Using $u=u(x)$ we obtain
+>
+>$$
+>\begin{aligned}
+>\int e^{-5x}dx &= -\frac{1}{5} \int e^{-5x} \cdot -5 dx \\
+>&= -\frac{1}{5} e^{u(x)}u'(x)dx \\
+>&= -\frac{1}{5} e^u du \\
+>&= -\frac{1}{5} e^u + C \\
+>&= -\frac{1}{5} e^{-5x}+C \\
+>\end{aligned}
+>$$
+
+#### 5.1.2 Special Case
+Functions of the type $f
