@@ -95,4 +95,41 @@ It may be useful to multiple the integrand by a constant factor to make the deri
 >$$
 
 #### 5.1.2 Special Case
-Functions of the type $f
+Functions of the type $f(x)=u'(x)/u(x)$ can always be integrated using the method of substitution.
+
+The general rule for this type of integrals is
+
+$$
+\int \frac{u'(x)}{u(x)}dx = \ln(|u(x)|) + C
+$$
+
+>[!Example]
+>In the integral 
+>
+>$$
+>\int \frac{2x+1}{x^2 + x + 1}dx
+>$$
+>
+>the integrand has the form $u'(x) / u(x)$, since the numerator is exactly the derivative of the denominator. With the substitution $u(x)=x^2 + x + 1$ we find
+>
+>$$
+>\begin{aligned}
+>\int \frac{2x+1}{x^2 + x + 1}dx &= \int \frac{(x^2 + x + 1)'}{x^2 + x + 1}dx \\
+>&= \int \frac{u'(x)}{u(x)}dx \\
+>&= \int \frac{1}{u(x)}u'(x)dx \\
+>&= \int \frac{1}{u}du \\
+>&= \ln(|u|)+C \\
+>&= \ln (x^2 + x + 1) + C \\
+>\end{aligned}
+>$$
+
+#### 5.1.3 The Substitution Method for Definite Integrals
+When applying a substitution in a definite integral, not only the integration variable itself is involved, but also the limits of integration. They must be made to comply with the new integration variable $u$; if $x$ rund from $a$ to $b$, then $u(x)$ runs from $u(a)$ to $u(b)$
+
+The substitution method for definite integrals reads
+
+$$
+\int_a^b f(u(x))u'(x)dx = \int_{u(a)}^{u(b)} f(u)du
+$$
+
+When using substit
