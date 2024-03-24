@@ -3,7 +3,7 @@ fileClass: Base, Literature Notes
 title: 
 Parents: ["[[Mathematics 2]]"]
 Draft: 
-Status: In Progress
+Status: Done
 Authors: 
 Year of Publication: 
 Related Notes: 
@@ -184,6 +184,24 @@ $$
 and for $r \gt 0$:
 
 $$
-\begin{al}
-\lim_{t \to -\infty}y(t)=\frac{a}{1+\infty}=0 \
+\begin{aligned}
+\lim_{t \to -\infty}y(t)=\frac{a}{1+\infty}=0 \\
+\lim_{t\to\infty}y(t)=\frac{a}{1+0}=a \\
+\end{aligned}
 $$
+
+for $r \lt 0$
+
+$$
+\begin{aligned}
+\lim_{t\to -\infty}y(t)=\frac{a}{1+0}=a \\
+\lim_{t \to\infty}y(t)=\frac{a}{1+\infty}=0 \\
+\end{aligned}
+$$
+
+The growth rate of the logistic function satisfies the relation
+
+$$
+y'(t)=\frac{r}{a}y(t)(a-y(t))
+$$
+
