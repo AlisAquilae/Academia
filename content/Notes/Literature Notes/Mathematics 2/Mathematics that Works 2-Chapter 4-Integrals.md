@@ -50,4 +50,23 @@ In **Direct integration**, we find an antiderivative if a function in a table or
 #### 4.1.3 Rules for Indefinite Integration
 There are numeral rules which we can uses for antidifferentiation or integration
 - Constant factor rule: a constant factor can be moved outside the integral
-  $\int
+  $\int cf(x)dx=c\int f(x)dx$
+
+>[!Example]
+>$\int f(x)dx=\int \frac{1}{2x}dx=\frac12 \int \frac{1}{x}dx=\frac{1}{2}\ln(|x|)+C$
+
+- Sum rule: The integral of the sum (or difference) of two functions is the sum (or the difference) of the integral of those functions
+  $\int f(x) + g(x) dx = \int f(x) dx + \int g(x)dx$
+
+>[!Example]
+>The function $h(x)=2x+1$ is the sum of the functions $f(x)=2x$ and $g(x)=1$. An antiderivative of $f(x)$ is $F(x)=x^2$, and an antiderivative of $g(x)$ is $G(x)=x$. We find $H(x)=F(x)+G(x)=x^2 + x$
+
+---
+### 4.2 Integral and Area
+The area of the region below a graph is approximated by the **definite integral**.
+
+The definite integral of a function $f(x)$ between $a$ and $b$ is
+
+$$
+\lim_{N \to \infty}
+$$
