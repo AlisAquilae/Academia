@@ -1,9 +1,9 @@
 ---
 fileClass: Base, Literature Notes
 title: 
-Parents: 
+Parents: ["[[Mathematics 2]]"]
 Draft: 
-Status: 
+Status: Done
 Authors: 
 Year of Publication: 
 Related Notes: 
@@ -186,4 +186,27 @@ $$
 In this way, we may try to simplify our problem
 
 >[!Example]
->We look for an antiderivative of $x \cos(x)$. We recognise this integrand as the product of two functions $f(x)=
+>We look for an antiderivative of $x \cos(x)$. We recognise this integrand as the product of two functions $f(x)=x$ and $g'(x)=\cos(x)$
+>
+>$$
+>\int x \cos(x) dx = \int f(x) g'(x)dx
+>$$
+>
+>and consequently
+>
+>$$
+>\int f(x)g'(x) dx= f(x)g(x)-\int f'(x)g(x)dx
+>$$
+>
+>$$
+>\int x \cos(x) dx = x \sin(x) - \int 1\sin(x) dx
+>$$
+>
+>The integra; at the right hand side is straightforward, an antiderivative of $\sin(x)$ is $-\cos(x)$. This yields
+>
+>$$
+>\int x cos(x) dx = x \sin(x) - (-\cos(x)) +C = x \sin(x) + \cos(x)
+>$$
+>
+>With integration constant C.
+
