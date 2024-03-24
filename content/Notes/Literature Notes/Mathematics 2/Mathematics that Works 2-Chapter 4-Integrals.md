@@ -63,10 +63,25 @@ There are numeral rules which we can uses for antidifferentiation or integration
 
 ---
 ### 4.2 Integral and Area
+#### 4.2.1 The Definite Integral
 The area of the region below a graph is approximated by the **definite integral**.
 
 The definite integral of a function $f(x)$ between $a$ and $b$ is
 
 $$
-\lim_{N \to \infty}
+\lim_{N \to \infty} \sum_{n=1}^{N} f(x_n) \Delta x = \int_{a}^{b}f(x)dx
 $$
+
+We say that the function $f(x)$ is integrated with respect to $x$. The numbers $a$ and $b$ are the integration limits: $x$ varies between $a$ and $b$
+
+#### 4.2.2 Definite Integral and Antiderivative
+Integrals with limits are often called definite integrals, and those without limits are called indefinite integrals. An indefinite integral indicates the antiderivative of a function. A definite integral represents the area below the graph of a function on a certain interval. 
+
+The definite integral of $f(x)$ from $a$ to $b$ can be found using the antiderivative $F(x)$ of $f(x)$, as $F(b)-F(a)$. This difference of the values of the antiderivative in the limits $x=b$ and $x=a$ is commonly denoted by placing the antiderivative $F(x)$ between square brackets, with the limits as super- and subscript. 
+
+$$
+\int_a^bf(x)dx=\left[ F(x)\right]^{x=b}_{x=a}=F(b)-F(a)
+$$
+
+>[!Example]
+>An antiderivative of the function $f(x)=e^x$ is $F(x)
