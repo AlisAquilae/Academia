@@ -1,14 +1,14 @@
 ---
 fileClass: Base, Literature Notes
 title: 
-Parents: 
+Parents: ["[[Mathematics 2]]"]
 Draft: 
-Status: 
+Status: Done
 Authors: 
 Year of Publication: 
 Related Notes: 
 Related Terminology: 
-Related Courses: 
+Related Courses: ["[[Mathematics 2]]"]
 ---
 ### 4.1 Derivative and Antiderivative
 The **derivative** of the function $f(x)=x^3$ is found by [[Differentiation]] of $f(x)$ with respect to $x$. The result is $f'(x)=3x^2$. If reversely a function $f(x)$ is sought for which $f'(x)=3x^2$, then $f(x)=x^3$ is the solution
