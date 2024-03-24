@@ -108,6 +108,51 @@ The paramaters $c$ and $r$ fulfil different roles.
 - $c$ described the initial situation
 
 #### 3.2.3 Doubling Time and Half-Life of Exponential Functions
-For an exponential function $y(t)=ce^{rt}$ the relative growth rate $r$ is a measure for the speed of the growth process. An alternative measure for the growth speed of the process is the doubling time, which is the time span in which $y$ doubles
+For an exponential function $y(t)=ce^{rt}$ the relative growth rate $r$ is a measure for the speed of the growth process. An alternative measure for the growth speed of the process is the **doubling time**, which is the time span in which $y$ doubles
 
-If the quantity $y(t)=ce^{rt}$ is doubled after time $T$
+If the quantity $y(t)=ce^{rt}$ is doubled after time $T$, we have
+
+$$
+y(t+T)=2y(t) \Rightarrow ce^{r(t+T)}=2ce^{rt}
+$$
+
+$$
+ce^{rt}e^{rT}=2ce^{rt}
+$$
+
+$$
+e^{rT}=2 \Rightarrow rT=\ln(2) \Rightarrow T=\ln(2)/r
+$$
+
+The doubling time for exponential growth is therefore $t=\ln(2)/r$. 
+
+>[!Note]
+>Note that $T$ depends only on $r$, not on $t$ or $c$. Thus, the doubling time is equal for all initial times and all initial values
+
+For a process with exponential decay, the natural counterpart of the doubling time is the **half-life**. The half-life $T$ is the time span in which the quantity decreases to half its value, $y(t+T)=\frac12y(t)$
+
+#### 3.2.4 Bounded Exponential Growth
+Populations of plants or animals usually do not continue to grow indefinitely. Similarly, the length or weight of an individual are bounded. In these cases, the relative growth rate is not constant but decreases; the exponential growth model does not apply.
+
+The function that described bounded exponential growth is
+
+$$
+y(t)=a-ce^{-rt}
+$$
+
+With
+- $a \gt 0$
+- $r \gt 0$
+
+The graph of this function displays a linear growth at first; next, the growth is decreased, to vanish in the end. We have
+
+$$
+y(0)=a-c
+$$
+
+and
+
+$$
+\lim_{t\to \infty}y(t)=a
+$$
+
