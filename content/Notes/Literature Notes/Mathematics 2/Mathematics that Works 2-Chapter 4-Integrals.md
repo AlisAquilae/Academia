@@ -117,4 +117,18 @@ $$
 \int_a^b f(x)dx + \int_b^c f(x)dx = \int_a^c f(x)dx
 $$
 
+- Switching Limits
 
+$$
+\int_a^b f(x)dx = -\int_b^a f(x)dx
+$$
+
+
+#### 4.2.4 The Average
+The average of a function $f(x)$ for $a \le x \le b$ is 
+
+$$
+\bar{f_{[a,b]}}=\frac{1}{b-a} \int_a^b f(x)dx
+$$
+
+Or in words: the average of a function over an interval is the integral of the function divided by the length of the interval. 

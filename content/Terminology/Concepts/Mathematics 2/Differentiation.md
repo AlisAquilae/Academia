@@ -6,7 +6,7 @@ Draft:
 Status: Done
 aliases: 
 Related Notes: ["[[Mathematics that Works 2-Chapter 1-Functions and their Derivatives]]"]
-Related Terminology: 
+Related Terminology: ["[[Antidifferentiation]]"]
 Related Courses: ["[[Mathematics 2]]"]
 ---
 ### The Derivative
