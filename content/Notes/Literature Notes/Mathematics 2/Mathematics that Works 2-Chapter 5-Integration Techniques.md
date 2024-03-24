@@ -132,4 +132,32 @@ $$
 \int_a^b f(u(x))u'(x)dx = \int_{u(a)}^{u(b)} f(u)du
 $$
 
-When using substit
+>[!Note]
+>When using substitution for an indefinite integral, we must substitute the original variable back after integration. This is not necessary for substitution in a definite integral
+
+>[!Example]
+>We calculate the definite integral 
+>
+>$$
+>\int_0^{\sqrt{\pi}} x \sin(x^2)dx
+>$$
+>
+>We try the substitution $u=x^2$. For clarity, we use the following scheme:
+>- Substitution: $u(x) = x^2$
+>- Derivative: $u'(x) = 2x \Rightarrow 2xdx = du$
+>- Lower limit: $x=0 \Rightarrow u(0)=0$
+>- Upper limit: $x=\sqrt{\pi} \Rightarrow u(\sqrt{\pi})=(\sqrt{\pi})^2 = \pi$
+>
+>With this substitution we find 
+>
+>$$
+>\begin{aligned}
+>\int_0^{\sqrt{\pi}} x \sin(x^2)dx &= \frac12 \int_0^{\sqrt{\pi}} \sin(x^2) 2xdx \\
+>&= \frac12 \int_{x=0}^{x=\sqrt{\pi}} \sin(u(x))u'(x)dx \\
+>&= \frac12 \int_{u=0}^{u=\pi} \sin(u)du \\
+>&= \frac12 [-\cos(u)]^{u=\pi}_{u=0} \\
+>&= \frac12 (-\cos(\pi))+\cos(0)) \\
+>&= 1 \\
+>\end{aligned}
+>$$
+
