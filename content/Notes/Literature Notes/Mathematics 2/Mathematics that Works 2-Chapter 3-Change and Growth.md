@@ -1,9 +1,9 @@
 ---
 fileClass: Base, Literature Notes
 title: 
-Parents: 
+Parents: ["[[Mathematics 2]]"]
 Draft: 
-Status: 
+Status: In Progress
 Authors: 
 Year of Publication: 
 Related Notes: 
@@ -87,3 +87,27 @@ In this section we look at three models of continuous growth: exponential growth
 #### 3.2.1 Growth Rate and Relative Growth Rate
 A quantity $y$ is described as a function of time by the function $y(t)$. The **growth rate (rate of change)** of $y$ is the derivative, $y'(t)$. The **relative growth rate** is the growth rate divided by $y$; in a formula: the relative growth rate is $y'(t)/y(t)$. 
 
+#### 3.2.2 Exponential Growth and Decay
+The simplest growth function discussed here is the [[Exponential Function]]. 
+
+$$
+y(t)=ce^{rt}=c\exp(rt)
+$$
+
+This function describes a process with a constant relative growth rate $r$. 
+
+>[!Info]
+>For the exponential function $y(t)=ce^{rt}$, we have $y'(t)=cre^{rt}$, so $y'(t)=ry(t)$
+
+With the exponential function, we thus may describe a quantity $y$ for which the growth rate $y'(t)$ is proportional to $y(t)$ itself; the relative growth rate is constant
+
+In most applications, we have $c \gt 0$. For $r \gt 0$, indeed exponential growth occurs; $y(t)$ is increasing for all $t$. For $r \lt 0$, $y(t)$ is decreasing
+
+The paramaters $c$ and $r$ fulfil different roles. 
+- $r$ gives the relation between $y'(t)$ and $y(t)$, and is therefore characteristic for the process at hand. 
+- $c$ described the initial situation
+
+#### 3.2.3 Doubling Time and Half-Life of Exponential Functions
+For an exponential function $y(t)=ce^{rt}$ the relative growth rate $r$ is a measure for the speed of the growth process. An alternative measure for the growth speed of the process is the doubling time, which is the time span in which $y$ doubles
+
+If the quantity $y(t)=ce^{rt}$ is doubled after time $T$
