@@ -156,3 +156,34 @@ $$
 \lim_{t\to \infty}y(t)=a
 $$
 
+as well as
+
+$$
+y'(t)=r(a-y(t))
+$$
+
+The relation $y'(t)=r(a-y(t))$ for a function describing bounded exponential growth shows that the parameters $a$ and $r$ determine the relation between $y'(t)$ and $y(t)$; they are characteristic for the process being modelled. This process does not depend on $c$. The parameter $c$ described the initial situation
+
+#### 3.2.5 Logistic Growth: The Sigmoid Curve
+Often a growth process starts with an exponential phase, then the growth slows down, and finally comes to a full stop. This behaviour cannot be described by the functions previously studied. The graph of such a functioon has the form of a dilated letter $S$. One function with an S-shaped graph is
+
+$$
+y(t)=\frac{a}{1+ce^{-rt}}
+$$
+
+With
+- $a \gt 0$
+- $r \gt 0$
+
+This function is called a **logistic function** and its graph is a **sigmoid curve**. We have
+
+$$
+y(0)=\frac{a}{1+c}
+$$
+
+and for $r \gt 0$:
+
+$$
+\begin{al}
+\lim_{t \to -\infty}y(t)=\frac{a}{1+\infty}=0 \
+$$
