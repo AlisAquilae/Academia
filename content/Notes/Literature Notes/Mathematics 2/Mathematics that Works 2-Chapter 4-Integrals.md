@@ -33,11 +33,21 @@ Where $F(x)$ is an antiderivative of $x$
 
 The integral is defined except for an additive constant; hence, we use the term **indefinite integral**. The constant $C$ is called the constant of integration. The function $f(x)$ behind the integral sign is called the **integrand**: this is the function for which we need the antiderivative. Behind that function is the symbol dx, indicating that x is the variable with respect to which we integrate. In this context, this variable $x$ is called the **variable of integration**
 
-#### 4.1.2 Direct Integration
 Just as we know standard derivatives, so do we know standard antiderivatives
 
+| Function                   | Antiderivative                             |
+| -------------------------- | ------------------------------------------ |
+| $f(x)=x^a$                 | $F(x)=\frac{1}{a+1}x^{a+1}$ for $a \neq 1$ |
+| $f(x)=e^x$                 | $F(x)=e^x$                                 |
+| $f(x)=\frac{1}{x}$         | $F(x)=\ln(\|{x}\|)$                        |
+| $f(x)=\sin(x)$             | $F(x)=-\cos(x)$                            |
+| $f(x)=\cos(x)$             | $F(x)=\sin(x)$                             |
+| $f(x)=\frac{1}{\cos(x)^2}$ | $F(x)=\tan(x)$                             |
 
-| Function   | Antiderivative      |
-| ---------- | ------------------- |
-| $f(x)=x^a$ | $F(x)=\frac{1}(a+1) |
+#### 4.1.2 Direct Integration
+In **Direct integration**, we find an antiderivative if a function in a table or by making an educated guess. We verify our guess by differentiating and, if necessary, we adapt it. If we fail to find an antiderivative this way, we must resort to more advanced techniques. These will be discussed in a different chapter
 
+#### 4.1.3 Rules for Indefinite Integration
+There are numeral rules which we can uses for antidifferentiation or integration
+- Constant factor rule: a constant factor can be moved outside the integral
+  $\int
