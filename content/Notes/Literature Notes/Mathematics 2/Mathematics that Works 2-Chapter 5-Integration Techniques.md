@@ -29,4 +29,29 @@ The above method seems to be a convenient technique to substantially extend our 
 >F'(x)=\cos(x^2)-\frac{\sin(x^2)}{2x^2}
 >$$
 >
->Apart from the required $f(x)=\cos(x^2)$ we get an extra term, which we did not want at all. The method cle
+>Apart from the required $f(x)=\cos(x^2)$ we get an extra term, which we did not want at all. The method clearly fails in this case
+
+The method turns out to be effective only when the independent variable $x$ is replaced by a linear function of $x$. Here, we replaced $x$ by $x^2$, producing an unwanted extra term in the derivative.
+
+To deal with this, we can use the **method of substitution**. Here, we substitute part of the function $f(x)$ with $u(x)$: an arbitrarily chosen function. The steps are as follows:
+1. Look for a composite function $f(u(x))$ as a part of the integrand. Initially, focus at the identification of the inner function $u(x)$; the outer function $f(u)$ is dealt with later
+2. Choose $u=u(x)$ as the new variable
+3. Determine the derivative $u'(x)$. Check whether this is a factor of the integrand
+4. If necessary, rewrite the integrand, and substitute for the new variable $u$ with $du=u'(x)dx$
+5. Find the antiderivative of $f(u)$ and substitute $u(x)=u$ back into the result
+
+>[!Example]
+>We determine the integral
+>
+>$$
+>\int \cos(x)e^{\sin(x)}dx
+>$$
+>
+>The trick is to find the substitution. We try $u=u(x)=sin(x)$. Indeed, $u'(x)=\cos(x)$, so
+>
+>$$
+>\begin{aligned}
+>\int \cos(x)e^{\sin(x)}dx &= \int e^{\sin(x)} \cos(x)dx \\
+>&= \int e^{u(x)}u'(x)dx \\
+>&= \int e^u du  
+>$$
