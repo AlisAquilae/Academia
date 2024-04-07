@@ -66,8 +66,51 @@ Consider the following two systems of equations with **unknowns** $\alpha, \beta
 $$
 \left\{
 \begin{array}{ll}
-1\alpha + 1\beta -1\gamma = 1 \\
-
+1\alpha + 1\beta -1\gamma &= 1 \\
+1 \alpha + 2 \beta + 2 \gamma &= 6 \\
+2\alpha +1\beta-3\gamma &=1
 \end{array}
 \right.
 $$
+
+and
+
+$$
+\left\{
+\begin{array}{ll}
+1\alpha + 1\beta -1\gamma &= 1 \\
+0\alpha + 1\beta +3\gamma &= 5\\
+0\alpha + 0\beta +2\gamma &= 4
+\end{array}
+\right.
+$$
+
+The system on the right is easier to solve than the one on the left, because in the right system we can solve $\gamma$ directly from the third equation. Using the value for $\gamma$, we can solve $\beta$ from the second equation, and finally, using the values for $\beta$ and $\gamma$ we can find $\alpha$ from the first equation. 
+
+This process is called **substitution**. This approach fails for the first system, because there the unknowns $\alpha, \beta, \gamma$ appear in each of the equations. Yet the solutions of these two systems are the same: the systems are equivalent. In order to solve the system above we will transform it into the system below, by means of elimination. This elimination is followed by substitution. 
+
+>[!Example]
+>We want to find systematically all solutions (i.e. pairs of $\alpha$ and $\beta$) of the system of three linear equations with two unknowns
+>
+>$$
+>\left\{
+\begin{array}{ll}
+2\alpha + 1\beta &= 1 \\
+1\alpha + 1\beta &= 0 \\
+3\alpha + 1\beta &= 2
+\end{array}
+\right.
+>$$
+>
+>Now we use the first equation to eliminate the first variable, $\alpha$, from the second equation. The first equuation begins with $2\alpha$ and the second with $1\alpha$; so we can eliminate the variabale $\alpha$ from the second equation by multiplying the second equation by $2$ and by subsequently subtracting the first equation from the second. We then have
+>
+>$$
+>\left\{
+\begin{array}{ll}
+2\alpha + 1\beta &= 1 \\
+0\alpha + 1\beta &= -1 \\
+3\alpha + 1\beta &= 2 \\
+\end{array}
+\right.
+>$$
+
