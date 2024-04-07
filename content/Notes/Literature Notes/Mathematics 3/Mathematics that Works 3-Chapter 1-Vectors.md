@@ -17,7 +17,7 @@ Assume the following linear equation with two unknowns, $x$ and $y$
 
 $$
 \left\{
-\begin{array}{ll}
+\begin{array}{l}
 0.80x + 0.10y &= 30 \\
 0.10x + 0.70y &= 45 \\
 \end{array}
@@ -113,4 +113,38 @@ This process is called **substitution**. This approach fails for the first syste
 \end{array}
 \right.
 >$$
+>
+>Likewise, we eliminate $\alpha$ from the third equation. The first equation starts with $2\alpha$ and the third with $3\alpha$, so the variable $\alpha$ disappears from the third equation by multiplying the third equation by 2 and subtracting 3 times the first equation from it
+>
+>$$
+>\left\{
+\begin{array}{ll}
+2\alpha + 1\beta &= 1 \\
+0\alpha + 1\beta &= -1 \\
+0\alpha + -1\beta &= 1
+\end{array}
+\right.
+>$$
+>
+>Again, the solutions of this system of linear equations are exactly the same as those of the previous sustem, and therefore they are exactly the same as the solutions of the original system.
+>
+>Now, the first variable has been removed from all equations but the first one. We proceed by eliminating the second variable, $\beta$, from the third equation using the second equation. The second equation begins with $1\beta$ and the third equation with $-1\beta$, so $\beta$ disappears from the third equation by adding the second equation to it
+>
+>$$
+>\left\{
+\begin{array}{ll}
+2\alpha + 1 \beta &= 1 \\
+0\alpha + 1\beta &= -1 \\
+0\alpha + 0\beta &= 0
+\end{array}
+\right.
+>$$
+>
+>Again, this system of linear equations is equivalent to the original system. 
+>
+>The last equation of the system above is satisfied for all $\alpha$ and $\beta$. The second equation resolves $\beta$: $\beta = -1$. By substituting this into the first equation, we get $2\alpha -1=1$, so $\alpha = 1$. 
+>
+>The solution $alpha=1, \beta=-1$ is the only solution; we say the solution is unique
+
+Using elimination, any system of linear equations can be brought to what is called **Echelon Form**. A system of linear equations is in echelon form if each equation either has only zero coefficients, or begins with more zero coefficients than the equation proceeding it. In other words, a system of linear equations is in echelon form if the first variable (with non-zero coefficient) in an equation comes after the first variable (with non-zero coefficient) in the equation preceding it. 
 
