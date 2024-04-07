@@ -338,3 +338,61 @@ Both operations are performed on the coordinates separately.
 > \end{pmatrix} 
 >$$ 
 
+So far we have seen only vectors with 2 coordinates; in other words, we have considered the **vector space** $R^2$. However, we can also consider vectors with more coordinates. 
+
+$$
+a=
+\begin{pmatrix}
+2 \\ -1 \\ 1
+\end{pmatrix}
+$$
+>[!Note]
+>Again, such vectors can be added and multiplied with a number by applying these operations to the individual coordinates
+
+The vectors with three coordinates together constitute the vector space $R^3$. 
+
+#### 1.2.1 Vectors in $R^n$
+The sum of two vectors and the product of a vector with a number can be generalised to an arbitrary number of coordinates. Thus we write
+
+$$
+a=\begin{pmatrix}
+a_1 \\ a_2 \\ \vdots \\ a_n
+\end{pmatrix}
+,
+b=
+\begin{pmatrix}
+b_1 \\ b_2 \\ \vdots \\ b_n
+\end{pmatrix}
+$$
+
+#### 1.2.2 Lines
+
+>[!Example]
+>The point $A=(3,1)$ in the plane has a position vector 
+>
+>$$
+>a=\begin{pmatrix}
+>3 \\ 1
+>\end{pmatrix}
+>$$
+>
+>The endpoints of the multiples of $a$ constitute a line $l$. Conversely, the vectors $x$ with endpoint on $l$ satisfy 
+>
+>$$
+>x = \lambda a
+>$$
+
+The vector $a$ is called a **direction vector** of line $l$. The line $l$ is said to be **spanned by** $a$. The arbitrary number $\lambda$ is a parameter. After expansion into coordinates we find
+
+$$
+x= \begin{pmatrix}
+x_1 \\ x_2
+\end{pmatrix}
+= \lambda 
+\begin{pmatrix}
+3 \\ 1
+\end{pmatrix}
+$$
+
+>[!Example]
+>The points $A=(3,1)
