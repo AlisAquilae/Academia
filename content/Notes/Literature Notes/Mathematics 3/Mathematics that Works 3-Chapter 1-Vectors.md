@@ -302,4 +302,39 @@ $$
 
 A vector in the place is a column with two numbers; these numbers are the **coordinates** of the vector. A vector $x$ with the same coordinates as a point $X$ is the **position vector** of $X$. 
 
-To each vector in the plane corresponds an arrow with a certain length and direction. If this arrow starts at the origin $O$, it ends at the 
+To each vector $x=\begin{pmatrix} x_1 \\ x_2 \end{pmatrix}$ in the plane corresponds an arrow with a certain length and direction. If this arrow starts at the origin $O$, it ends at the point $X=(x_1, x_2)$
+
+There are two elementary vector operations, the sum of two vectors and the product of a vector with a number
+
+Both operations are performed on the coordinates separately.
+
+>[!Example]
+>The sum of the vectors $a= \begin{pmatrix} 3 \\ 1 \end{pmatrix}$ and $b= \begin{pmatrix} -1 \\ 2 \end{pmatrix}$ is 
+>
+>$$
+>\begin{pmatrix}
+>3 + -1 \\ 1 + 2
+>\end{pmatrix}
+> = 
+> \begin{pmatrix}
+> 2 \\ 3
+> \end{pmatrix}
+>$$
+
+>[!Example]
+>$$
+>2a = 2
+>\begin{pmatrix}
+>3 \\ 1
+>\end{pmatrix}
+> = 
+> \begin{pmatrix}
+> 2 \cdot 3 \\
+> 2 \cdot 1
+> \end{pmatrix}
+> =
+> \begin{pmatrix}
+> 6 \\ 2
+> \end{pmatrix} 
+>$$ 
+
