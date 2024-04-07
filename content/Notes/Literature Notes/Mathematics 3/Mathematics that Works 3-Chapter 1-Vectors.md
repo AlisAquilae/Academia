@@ -94,12 +94,12 @@ This process is called **substitution**. This approach fails for the first syste
 >
 >$$
 >\left\{
-\begin{array}{ll}
-2\alpha + 1\beta &= 1 \\
-1\alpha + 1\beta &= 0 \\
-3\alpha + 1\beta &= 2
-\end{array}
-\right.
+>\begin{array}{ll}
+>2\alpha + 1\beta &= 1 \\
+>1\alpha + 1\beta &= 0 \\
+>3\alpha + 1\beta &= 2
+>\end{array}
+>\right.
 >$$
 >
 >Now we use the first equation to eliminate the first variable, $\alpha$, from the second equation. The first equuation begins with $2\alpha$ and the second with $1\alpha$; so we can eliminate the variabale $\alpha$ from the second equation by multiplying the second equation by $2$ and by subsequently subtracting the first equation from the second. We then have
@@ -148,3 +148,4 @@ This process is called **substitution**. This approach fails for the first syste
 
 Using elimination, any system of linear equations can be brought to what is called **Echelon Form**. A system of linear equations is in echelon form if each equation either has only zero coefficients, or begins with more zero coefficients than the equation proceeding it. In other words, a system of linear equations is in echelon form if the first variable (with non-zero coefficient) in an equation comes after the first variable (with non-zero coefficient) in the equation preceding it. 
 
+${\textstyle\unicode{x2460}}$
