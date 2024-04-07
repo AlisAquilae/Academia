@@ -395,4 +395,45 @@ x_1 \\ x_2
 $$
 
 >[!Example]
->The points $A=(3,1)
+>The points $A=(3,1)$ and $B=(-1,2)$ have position vectors
+>
+>$$
+>a=\begin{pmatrix}
+>3 \\ 1
+>\end{pmatrix}
+>, b= \begin{pmatrix}
+>-1 \\ 2
+>\end{pmatrix}
+>$$
+>
+>The line $l$ passes through the point $B$ and has the direction of ("is parallel to") the vector $a$. We can reach any point $X$ on $l$ from $B$ by moving far enough in the direction of $a$
+>
+>In other words, the position vector $x$ of $X$ is the sum of the vector $b$ and a multiple of $a$,
+>
+>$$
+>x=b+\lambda a
+>$$
+
+This is a vector representation of the line $l$ through $B$. The vector $b$ is called a **position vector** of the line and $a$ is the **direction vector**. 
+
+Expanded into coordinates, this reads
+
+$$
+x=\begin{pmatrix}
+x_1 \\ x_2
+\end{pmatrix}
+=
+\begin{pmatrix}
+-1 \\ 2
+\end{pmatrix}
++ \lambda 
+\begin{pmatrix}
+3 \\ 1
+\end{pmatrix}
+$$
+
+In order to determine whether e.g. $P = (5,3)$ lies on $l$, we solve a system of linear equations. 
+
+$$
+\begin{pmatrix}
+$$
