@@ -1,9 +1,9 @@
 ---
 fileClass: Base, Literature Notes
 title: 
-Parents: 
+Parents: ["[[Mathematics 3]]"]
 Draft: 
-Status: 
+Status: In Progress
 Authors: 
 Year of Publication: 
 Related Notes: 
@@ -266,8 +266,23 @@ We have seen an example of a linear system having a single solution, and an exam
 >\left\{
 >\begin{array}{ll}
 >2\alpha + 1\beta + 1\gamma &= 1 \\
->0\alpha + 1\beta + 3\gamma &= 3 \\
->3\alpha + 1\beta + 2\gamma &= 2
+>0\alpha + 1\beta - 1\gamma &= 3 \\
+>0\alpha + 0\beta + 0\gamma &= 0
 >\end{array}
 >\right.
 >$$
+>
+>The third equation of the system is always satisfied, for any $\alpha, \beta$ and $\gamma$, so it does not yield information on their values. The second equation in the echelon form starts with $\beta$; thus, it assigns a value to $\beta$. The first equation starts with $\alpha$, so it assigns a value to $\alpha$. In these equations, however, the third variable $\gamma$ appears. Apparently, there is no equation to assign a value to $\gamma$, so $\gamma$ can be chosen at will: $\gamma$ is free. The seccond equation connects $\beta$ to $\gamma$: 
+>
+>$$
+>\beta - \gamma = 2
+>$$ 
+>
+>So $\beta=2+\gamma$. Hence, the first equation $2\alpha + \beta + \gamma = 0$ simplifies to 
+>
+>$$
+>2\alpha + (2+\gamma)+\gamma = 0
+>$$
+>
+>So $\alpha=-1-\gamma$. These constitute the set of solutions of the linear system. 
+
