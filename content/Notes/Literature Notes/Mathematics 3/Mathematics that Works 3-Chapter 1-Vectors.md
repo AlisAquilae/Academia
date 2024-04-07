@@ -436,4 +436,30 @@ In order to determine whether e.g. $P = (5,3)$ lies on $l$, we solve a system of
 
 $$
 \begin{pmatrix}
+5 \\ 3
+\end{pmatrix}
+=
+\begin{pmatrix}
+-1 \\ 2
+\end{pmatrix}
++ \lambda
+\begin{pmatrix}
+3 \\ 1
+\end{pmatrix}
+\Rightarrow
+\left\{
+\begin{array}{ll}
+-1+3\lambda &= 5 \\
+2 + 1\lambda &= 3
+\end{array}
+\right.
+\Rightarrow
+\left\{
+\begin{array}{ll}
+3\lambda &= 6 \\
+1 \lambda &= 1
+\end{array}
+\right.
 $$
+
+We see that these equations are inconsistent. Therefore, $P=(5,3)$ does not lie on $l$. 
