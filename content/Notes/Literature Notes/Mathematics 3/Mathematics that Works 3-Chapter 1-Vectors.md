@@ -210,6 +210,64 @@ When the equation that is used for elimination does not contain the variable tha
 >\end{array}
 >\right.
 >$$
+>
+>The system is now in echelon form. Its solution(s) can be found as usual with substitution
+
+#### 1.4 Inconsistent Systems of Equations
+The process of elimination (with, if necessary, row exchange) always results in finding the complete set of solutions. If it does not yield a solution, this is because the system of equations has no solution
+
+>[!Example]
+>We determine systematically all solutions of the system of linear equations
+>
+>$$
+>\left\{
+>\begin{array}{ll}
+>2\alpha + 1\beta &= 1 \\
+>1\alpha + 1\beta &= 0 \\
+>3\alpha + 1\beta &= 1
+>\end{array}
+>\right.
+>$$
+>
+>By following the usual procedure towards the echelon form, we reach the following system of equations
+>
+>$$
+>\left\{
+>\begin{array}{ll}
+>2\alpha + 1\beta &= 1 \\
+>0\alpha + 1\beta &= -1 \\
+>0\alpha + 0\beta &= -2
+>\end{array}
+>\right.
+>$$
+>
+>It turns out that the last equation of this system cannot be satisfied for any $\alpha$ and $\beta$; therefore, the system of equations is **inconsistent**, which is to say, the system has no solution. 
 
 
+#### 1.5 Systems of Equations Having Multiple Solutions
+We have seen an example of a linear system having a single solution, and an example of a linear system with no solution. Systems having more than one solution also occur.
 
+>[!Example]
+>We compute $\alpha, \beta$ and $\gamma$ by solving the system of equations
+>
+>$$
+>\left\{
+>\begin{array}{ll}
+>2\alpha + 1\beta + 1\gamma &= 0 \\
+>1\alpha + 1\beta + 0\gamma &= 1 \\
+>3\alpha + 1\beta + 2\gamma &= -1
+>\end{array}
+>\right.
+>$$
+>
+>Using elimination we bring the system in echelon form
+>
+>$$
+>\left\{
+>\begin{array}{ll}
+>2\alpha + 1\beta + 1\gamma &= 1 \\
+>0\alpha + 1\beta + 3\gamma &= 3 \\
+>3\alpha + 1\beta + 2\gamma &= 2
+>\end{array}
+>\right.
+>$$
