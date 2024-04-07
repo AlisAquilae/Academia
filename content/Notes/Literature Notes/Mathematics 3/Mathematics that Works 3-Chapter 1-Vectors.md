@@ -288,3 +288,18 @@ We have seen an example of a linear system having a single solution, and an exam
 
 ---
 ## 1.2 Vectors, Lines and Planes
+The position of point X in the plane can be identified by two coordinates $x_1$ and $x_2$, so $X=(x_1, x_2)$. In order to facilitate computations with these coordinates, we mostly do not use the point $X$ itself, but a **Vector** $x$.
+
+$$
+x=
+\begin{pmatrix}
+x_1 \\ x_2
+\end{pmatrix}
+$$
+
+>[!Info]
+>Geometrically, we can represent such a vector as an arrow
+
+A vector in the place is a column with two numbers; these numbers are the **coordinates** of the vector. A vector $x$ with the same coordinates as a point $X$ is the **position vector** of $X$. 
+
+To each vector in the plane corresponds an arrow with a certain length and direction. If this arrow starts at the origin $O$, it ends at the 
