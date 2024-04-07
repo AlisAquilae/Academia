@@ -152,5 +152,64 @@ Using elimination, any system of linear equations can be brought to what is call
 >We usually use an abbreviated notation, where the first two steps in the example above are shortened into 1, and we describe the steps taken before the equations. 
 
 #### 1.3 Row Exchange
-When the equation that is used for elimination does not contain the variable that is in line to be eliminated, the elimination process as described above fails. In such a case, we use a trick to bring the system to echelon form.
+When the equation that is used for elimination does not contain the variable that is in line to be eliminated, the elimination process as described above fails. In such a case, we use a trick to bring the system to echelon form. We can exchange the equations with each other (switch places between them). Since the equations can be seen as the rows of a system, the common term for this procedure is **row exchange**
+
+>[!Example]
+>We determine the solution of the system
+>
+>$$
+>\left\{
+>\begin{array}{ll}
+>2\alpha + 1\beta + 2\gamma &= 1 \\
+>4\alpha + 2\beta + 3\gamma &= 3 \\
+>3\alpha + 1\beta + 2\gamma &= 2
+>\end{array}
+>\right.
+>$$
+>
+>First, we eliminate $\alpha$ from the second and third equation. To do so, we subtract two times the first equation from the second; we them multiply the third equation by two, after which we subtract three times the first equation from it
+>
+>$$
+>\left\{
+>\begin{array}{ll}
+>2\alpha + 1\beta + 2\gamma &= 1 \\
+>4\alpha + 2\beta + 3\gamma &= 3 \\
+>3\alpha + 1\beta + 2\gamma &= 2
+>\end{array}
+>\right.
+>
+>\Rightarrow
+>
+>\left\{
+>\begin{array}{ll}
+>2\alpha + 1\beta + 2\gamma &= 1 \\
+>0\alpha + 0\beta - 1\gamma &= 1 \\
+>0\alpha - 1\beta - 2\gamma &= 1
+>\end{array}
+>\right.
+>$$
+>
+>When trying to eliminate $\beta$ from the third equation using the second equation, we face a problem: $\beta$ does not occur in the second equation! Here we can use row exchange
+>
+>$$
+>\left\{
+>\begin{array}{ll}
+>2\alpha + 1\beta + 2\gamma &= 1 \\
+>0\alpha + 0\beta - 1\gamma &= 1 \\
+>0\alpha - 1\beta - 2\gamma &= 1
+>\end{array}
+>\right.
+>
+>\Rightarrow
+>
+>\left\{
+>\begin{array}{ll}
+>2\alpha + 1\beta + 2\gamma &= 1 \\
+>0\alpha -1\beta -2\gamma &= 1 \\
+>0\alpha +0 \beta -1 \gamma &= 1
+>\end{array}
+>\right.
+>$$
+
+
 
