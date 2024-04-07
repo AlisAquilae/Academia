@@ -248,7 +248,7 @@ These relations can be used in finding **local extremes** (i.e. local maxima and
 >
 >If $f'(a)=0$ and $f'(x)$ turns from negative to positive at $x=a$, then $f(x)$ has a local minimum at $x=a$
 
-To apply the first derivative test, we must first determine whether $f'(x)$ is increasing or decreasing at this point $x=a$ where $f'(x)=0$. Just as we can use the derivative $f'(x)$ to decide whether $f(x) is increasing or decreasing, we can use the second derivative $f''(x)$ to decide whether $f'(x)$ is increasing or decreasing
+To apply the first derivative test, we must first determine whether $f'(x)$ is increasing or decreasing at this point $x=a$ where $f'(x)=0$. Just as we can use the derivative $f'(x)$ to decide whether $f(x)$ is increasing or decreasing, we can use the second derivative $f''(x)$ to decide whether $f'(x)$ is increasing or decreasing
 
 >[!Important]
 >If $f'(a)=0$ and $f''(a) \lt 0$, then $f(x)$ has a local maximum at $x=a$
