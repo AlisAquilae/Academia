@@ -286,3 +286,5 @@ We have seen an example of a linear system having a single solution, and an exam
 >
 >So $\alpha=-1-\gamma$. These constitute the set of solutions of the linear system. 
 
+---
+## 1.2 Vectors, Lines and Planes
