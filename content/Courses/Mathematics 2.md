@@ -20,7 +20,7 @@ physical and economic) applications are treated. The course aims at acquiring ma
 The literature for this course consists of *Mathematics that Works Volume 2* (2020, 2nd Ed.) by Maarten de Gee. The ISBN is 978-90-5041-168-4
 
 >[!Warning]
->This course only engages with part of the book. The notes therefore jump through chapters here and there. In addition, only chapters 1 through 6 are included
+>This course only engages with part of the book. The notes therefore jump through chapters here and there. In addition, only chapters 1 through 6 are included. Later parts of the book are included in the course [[Mathematics 3]]
 
 - [[Mathematics that Works 2-Chapter 1-Functions and their Derivatives]]
 - [[Mathematics that Works 2-Chapter 2-Sequences Series and Iteration Processes]]
