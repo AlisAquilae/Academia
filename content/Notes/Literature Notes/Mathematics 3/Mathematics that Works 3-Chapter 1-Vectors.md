@@ -613,5 +613,15 @@ Vectors are frequently used to present the solution of a system of equations in 
 >The solutions to this system are 
 >
 >$$
->x_3=-2, 
+>x_3=-2, x_2=7, x_1=6
 >$$
+>
+>Thus, the solution is the vector
+>
+>$$
+>x=\begin{pmatrix}
+>6 \\ 7 \\ -2
+>\end{pmatrix}
+>$$
+
+
