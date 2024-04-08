@@ -464,4 +464,49 @@ $$
 
 We see that these equations are inconsistent. Therefore, $P=(5,3)$ does not lie on $l$. 
 
-p. 27
+Often, a line is determined by two points, instead of one point and a direction. 
+
+>[!Important]
+>In general, a line can be described by a vector representation:
+>- $x=\lambda a$ represents a line through $O$ and $A$
+>- $x=b+\lambda a$ represents a line through $B$ and parallel to $a$
+>- $x=b+\lambda (a-b)$ represents a line through $A$ and $B$
+
+#### 1.2.3 Planes
+Consider 2 points, A and B, with their position vectors
+
+$$
+a=
+\begin{pmatrix}
+1 \\ 2 \\ 0
+\end{pmatrix}
+, b=
+\begin{pmatrix}
+-4 \\ 0 \\ 1
+\end{pmatrix}
+$$
+
+Because $A$, $B$ and the origin $O$ do not lie on one line there is exactly one plane $V$ through $O$, $A$ and $B$. Any position vector of a point in this plane can be written as
+
+$$
+x=\lambda a + \mu b
+$$
+
+This is a vector representation of the plane $V$. Here $a$ and $b$ are the (two!) direction vectors of $V$. In coordinates:
+
+$$
+x=
+\begin{pmatrix}
+x_1 \\ x_2 \\ x_3
+\end{pmatrix}
+= \lambda
+\begin{pmatrix}
+1 \\ 3 \\ 0
+\end{pmatrix}
++ \mu
+\begin{pmatrix}
+-4 \\ 0 \\ 1
+\end{pmatrix}
+$$
+
+In order to f
