@@ -463,3 +463,5 @@ $$
 $$
 
 We see that these equations are inconsistent. Therefore, $P=(5,3)$ does not lie on $l$. 
+
+p. 27
