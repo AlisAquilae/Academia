@@ -509,4 +509,54 @@ x_1 \\ x_2 \\ x_3
 \end{pmatrix}
 $$
 
-In order to f
+In order to find whether e.g. $P=(5,3,1)$ lies in $V$ we have to solve a system of linear equations
+
+$$
+p=
+\begin{pmatrix}
+p_1 \\ p_2 \\ p_3
+\end{pmatrix}
+= 
+\begin{pmatrix}
+5 \\ 3 \\ 1
+\end{pmatrix}
+= \lambda
+\begin{pmatrix}
+1 \\ 3 \\ 0
+\end{pmatrix}
++ \mu
+\begin{pmatrix}
+-4 \\ 0 \\ 1
+\end{pmatrix}
+\Rightarrow
+\left\{
+\begin{array}{ll}
+1\lambda -4\mu &= 5 \\
+3\lambda + 0 \mu &= 3 \\
+0\lambda + 1\mu &= 1
+\end{array}
+\right.
+$$
+
+This system can be solved with elimination and substitution. 
+
+>[!Important]
+>If a solution exists, then $P$ lies in $V$. If the system is inconsistent, $P$ does not lie in $V$
+
+>[!Note]
+>We sometimes encounter a plane parallel to another plane. When one is known, we can find the other by 'shifting' the plane. In this way, each point on the one plane shifts to a point in the second plane.
+>
+>>[!Example]
+>>We can shift the plane $x'=\lambda a + \mu b$ towards the second plane by adding a vector which represents the shift: $x=x'+c = \lambda a + \mu b + c$
+
+Often a plane is determined by three points $A$, $B$ and $C$, instead of one point and two directions
+
+Consider points $A$, $B$ and $C$ with position vectors $a$, $b$, and $c$
+
+$$
+a=\begin{pmatrix}
+1 \\ 3 \\ 0
+\end{pmatrix}
+,b=\begin{pmatrix}
+-4 \\ 0
+$$
