@@ -558,5 +558,60 @@ a=\begin{pmatrix}
 1 \\ 3 \\ 0
 \end{pmatrix}
 ,b=\begin{pmatrix}
--4 \\ 0
+-4 \\ 0 \\ 1
+\end{pmatrix}
+, c=
+\begin{pmatrix}
+0 \\ -1 \\ 6
+\end{pmatrix}
 $$
+
+We look for a vector representation for the plane $V$ through $A$, $B$ and $C$. As the plane passes through $C$, we can use $c$ as a position vector of $V$. For direction vectors, we then take the vectors corresponding to the segments $CA$ and $CB$, i.e. $a-c$ and $b-c$. This yields the vector representation
+
+$$
+x=c+\lambda(a-c)+\mu(b-c)
+$$
+
+In coordinates, this is
+
+$$
+x=\begin{pmatrix}
+0 \\ -1 \\ 6
+\end{pmatrix}
++ \lambda
+\begin{pmatrix}
+1 \\ 4 \\ -6
+\end{pmatrix}
++ \mu
+\begin{pmatrix}
+-4 \\ 1 \\ -5
+\end{pmatrix}
+$$
+
+>[!Important]
+>In general, a plane can be described by a vector representation
+>- $x=\lambda a + \mu b$ represents a plane through $O$, $A$ and $B$
+>- $x=c+\lambda a + \mu b$ represents a plane through $C$ and parallel to $a$ and $b$
+>- $x=c+\lambda (a-c) + \mu (b-c)$ represents a plane through $A$, $B$ and $C$
+
+#### 1.2.4 Vectors as Solutions of Systems of Equations
+Vectors are frequently used to present the solution of a system of equations in a well-structured manner. This yields a nice geometric interpretation of the solution(s)
+
+>[!Example]
+>We look for the vector $x$ solving the system of equations
+>
+>$$
+>\left\{
+>\begin{array}{ll}
+>1_x1 + 0x_2 + 2x_3 &= 2 \\
+>2x_1 - 1x_2 + 1x_3 &= 3 \\
+>-1x_1 + 1x_2 + 0x_3 &= 1
+>\end{array}
+>\right.
+>$$
+>
+>The solutions to this system are 
+>
+>$$
+>x_3=-2, 
+>$$
