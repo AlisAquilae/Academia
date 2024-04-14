@@ -652,4 +652,47 @@ a=
 $$
 
 Furthermore, we have two lines, $l$ and $m$, given in vector representation as 
-- $l$: 
+- $l$: $x=\lambda a$
+- $m$: $x=b+\lambda a$
+
+The line $l$ passes through the origin $O$. and $m$ does not pass through the origin. First, we take two vectors $x$ and $y$ with endpoints on $l$; for example $\lambda=2$ and $\lambda = -3$:
+
+$$
+x=
+\begin{pmatrix}
+4 \\ 2
+\end{pmatrix}
+, y=
+\begin{pmatrix}
+-6 \\ -3
+\end{pmatrix}
+$$
+
+Now the sum of $x+y$ lies on $l$ too,
+
+$$
+x+y=
+\begin{pmatrix}
+-2 \\ -1
+\end{pmatrix}
+(\text{ take }\lambda=-1 )
+$$
+
+All multiples of $x$ lie on $l$ too, for example $7x$:
+
+$$
+7x=
+\begin{pmatrix}
+28 \\ 14
+\end{pmatrix}
+(\text{ take } \lambda = 14)
+$$
+
+This applies on all vectors on $l$. If we add two vectors on $l$ or multiply one with a number, the sum or the product lies on $l$ as well.
+
+However, this does not hold for the same operations on line $m$. In these cases, the answers are inconsistent. 
+
+>[!Summary]
+>If line $l$ is a line (in the plane or in space) through the origin, the sum of two vectors on $l$ lies also on $l$, and the product of a vector on $l$ with a number lies on $l$ again. The vectors on a line $m$ that does not pass through the origin do not have these properties
+
+The same applies to the planes in space. If $V$ is a lane through the origin, the
