@@ -695,4 +695,74 @@ However, this does not hold for the same operations on line $m$. In these cases,
 >[!Summary]
 >If line $l$ is a line (in the plane or in space) through the origin, the sum of two vectors on $l$ lies also on $l$, and the product of a vector on $l$ with a number lies on $l$ again. The vectors on a line $m$ that does not pass through the origin do not have these properties
 
-The same applies to the planes in space. If $V$ is a lane through the origin, the
+The same applies to the planes in space. If $V$ is a lane through the origin, then the sum of any two vectors in $V$ lies also in $V$, and the product of a vector in $V$ with a number lies in $V$ too. The vectors in a plane that does not pass through the origin do not have these properties.
+
+>[!Important]
+>This concept is called the concept of **linear subspaces**
+
+#### 1.3.2 Linear Combinations
+In Paragraph 1.2 we have seen vector representations for a line $l$ through the origin
+
+$$
+l: x=\lambda a
+$$
+
+or a plane $V$ through the origin
+
+$$
+V: x=\lambda a + \mu b
+$$
+
+In this section, we extend this to any number of vectors with any number of coordinates
+
+We consider the vectors
+
+$$
+a=
+\begin{pmatrix}
+1 \\ 0 \\ 0 \\ 1
+\end{pmatrix}
+, b=
+\begin{pmatrix}
+2 \\ 1 \\ 0 \\ 0
+\end{pmatrix}
+, c=
+\begin{pmatrix}
+0 \\ 0 \\ 1 \\ 1
+\end{pmatrix}
+$$
+
+The multiples of $a$ form a line $l$ in $R^4$ through the origin:
+
+$$
+l: x=\alpha a \text{ with } \alpha \text{ any number in R}
+$$
+
+Likewise,
+
+$$
+V: x=\alpha a + \beta b \text{ with } \alpha \text{ and } \beta \text{ any numbers in R}
+$$
+in a plane through the origin in $R^4$. We say that $V$ consists of all possible linear combinations of $a$ and $b$.
+
+To determine whether a vector $x$ is a linear combination of a line $l$ or plane $v$, we must solve a system of linear equations.
+
+>[!Example]
+>We consider the vectors $a$, $b$ and $v$
+>
+>$$
+>a=
+>\begin{pmatrix}
+>2 \\ 1 \\ 3
+>\end{pmatrix}
+>, b=
+>\begin{pmatrix}
+>1 \\1\\1
+>\end{pmatrix}
+>, c=
+>\begin{pmatrix}
+>1\\0\\2
+>\end{pmatrix}
+>$$
+>
+>and investigate if $v$ is a linear combination of $a$ and $b$. To this end we must find out if there are coefficients $\alpha$ and $\beta$
