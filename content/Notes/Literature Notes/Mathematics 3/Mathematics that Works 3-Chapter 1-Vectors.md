@@ -10,9 +10,9 @@ Related Notes:
 Related Terminology: 
 Related Courses: 
 ---
-### 2.1 Solving Systems of Linear Equations Systematically
+### 1.1 Solving Systems of Linear Equations Systematically
 
-#### 2.1.1 Systems of Linear Equations
+#### 1.1.1 Systems of Linear Equations
 Assume the following linear equation with two unknowns, $x$ and $y$
 
 $$
@@ -58,7 +58,7 @@ $$
 
 is a linear equation in the $n$ variables $x_1, x_2, \dots, x_n$. The numbers $a_1, a_2, \dots, a_n$ are called the **coefficients** of the equation, and the number $b$ is the **inhomogeoneous term**
 
-#### 1.2 Elimination and Substitution
+#### 1.1.2 Elimination and Substitution
 The solution process of many mathematical problems and applications involves solving a system of linear equations. To guarantee that one finds all solution, it is essential to proceed in a systematic way.
 
 Consider the following two systems of equations with **unknowns** $\alpha, \beta, \gamma$
@@ -151,7 +151,7 @@ Using elimination, any system of linear equations can be brought to what is call
 >[!Note]
 >We usually use an abbreviated notation, where the first two steps in the example above are shortened into 1, and we describe the steps taken before the equations. 
 
-#### 1.3 Row Exchange
+#### 1.1.3 Row Exchange
 When the equation that is used for elimination does not contain the variable that is in line to be eliminated, the elimination process as described above fails. In such a case, we use a trick to bring the system to echelon form. We can exchange the equations with each other (switch places between them). Since the equations can be seen as the rows of a system, the common term for this procedure is **row exchange**
 
 >[!Example]
@@ -213,7 +213,7 @@ When the equation that is used for elimination does not contain the variable tha
 >
 >The system is now in echelon form. Its solution(s) can be found as usual with substitution
 
-#### 1.4 Inconsistent Systems of Equations
+#### 1.1.4 Inconsistent Systems of Equations
 The process of elimination (with, if necessary, row exchange) always results in finding the complete set of solutions. If it does not yield a solution, this is because the system of equations has no solution
 
 >[!Example]
@@ -244,7 +244,7 @@ The process of elimination (with, if necessary, row exchange) always results in 
 >It turns out that the last equation of this system cannot be satisfied for any $\alpha$ and $\beta$; therefore, the system of equations is **inconsistent**, which is to say, the system has no solution. 
 
 
-#### 1.5 Systems of Equations Having Multiple Solutions
+#### 1.1.5 Systems of Equations Having Multiple Solutions
 We have seen an example of a linear system having a single solution, and an example of a linear system with no solution. Systems having more than one solution also occur.
 
 >[!Example]
@@ -287,7 +287,7 @@ We have seen an example of a linear system having a single solution, and an exam
 >So $\alpha=-1-\gamma$. These constitute the set of solutions of the linear system. 
 
 ---
-## 1.2 Vectors, Lines and Planes
+### 1.2 Vectors, Lines and Planes
 The position of point X in the plane can be identified by two coordinates $x_1$ and $x_2$, so $X=(x_1, x_2)$. In order to facilitate computations with these coordinates, we mostly do not use the point $X$ itself, but a **Vector** $x$.
 
 $$
@@ -547,7 +547,17 @@ This system can be solved with elimination and substitution.
 >We sometimes encounter a plane parallel to another plane. When one is known, we can find the other by 'shifting' the plane. In this way, each point on the one plane shifts to a point in the second plane.
 >
 >>[!Example]
->>We can shift the plane $x'=\lambda a + \mu b$ towards the second plane by adding a vector which represents the shift: $x=x'+c = \lambda a + \mu b + c$
+>>We can shift the plane 
+>>
+>>$$
+>> x'=\lambda a + \mu b
+>> $$ 
+>> 
+>> towards the second plane by adding a vector which represents the shift: 
+>>
+>>$$
+>>x=x'+c = \lambda a + \mu b + c
+>>$$
 
 Often a plane is determined by three points $A$, $B$ and $C$, instead of one point and two directions
 
@@ -625,3 +635,21 @@ Vectors are frequently used to present the solution of a system of equations in 
 >$$
 
 
+---
+### 1.3 Linear Combinations
+#### 1.3.1 Subspaces
+We consider two vectors $a$ and $b$ in the plane 
+
+$$
+a=
+\begin{pmatrix}
+2 \\ 1
+\end{pmatrix}
+, b=
+\begin{pmatrix}
+0 \\ 2
+\end{pmatrix}
+$$
+
+Furthermore, we have two lines, $l$ and $m$, given in vector representation as 
+- $l$: 
