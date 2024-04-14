@@ -765,4 +765,45 @@ To determine whether a vector $x$ is a linear combination of a line $l$ or plane
 >\end{pmatrix}
 >$$
 >
->and investigate if $v$ is a linear combination of $a$ and $b$. To this end we must find out if there are coefficients $\alpha$ and $\beta$
+>and investigate if $v$ is a linear combination of $a$ and $b$. To this end we must find out if there are coefficients $\alpha$ and $\beta$ for which $\alpha a + \beta b = v$:
+>
+>$$
+>\alpha
+>\begin{pmatrix}
+>2\\1\\3
+>\end{pmatrix}
+>+ \beta
+>\begin{pmatrix}
+>1\\1\\1
+>\end{pmatrix} =
+>\begin{pmatrix}
+>1\\0\\2
+>\end{pmatrix}
+>$$
+>
+>We expand this equation into a system of three linear equations with two unknowns $\alpha$ and $\beta$. Next, we reduce this system to echelon form using elimination
+>
+>$$
+>\left\{
+>\begin{array}{ll}
+>2\alpha + 1\beta &= 1 \\
+>1 \alpha + 1 \beta &= 0 \\
+>3\alpha + 1\beta &= 2
+>\end{array}
+>\right.
+>\Rightarrow
+>\left\{
+>\begin{array}{ll}
+>2\alpha + 1\beta &= 1 \\
+>0\alpha + 1\beta &= -1 \\
+>0\alpha + 0\beta &= 0
+>\end{array}
+>\right.
+>$$
+>
+>The third equation of the last system is satisfied for any $\alpha$ and $\beta$. The second equation assigns a value to $\beta$: $\beta=-1$. Hence, the first equation reduces to $2\alpha -1=1$, so $\alpha=1$. We conclude that the linear system has a solution, and hence, that $v$ can be written as a linear combination of $a$ and $b$
+
+
+#### 1.3.3 Dependence and Independence
+We consider 
+
