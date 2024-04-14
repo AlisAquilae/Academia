@@ -805,5 +805,48 @@ To determine whether a vector $x$ is a linear combination of a line $l$ or plane
 
 
 #### 1.3.3 Dependence and Independence
-We consider 
+We consider five vectors $a$, $b$, $c$, $d$, and $e$ om $R^3$.
+
+$$
+a=
+\begin{pmatrix}
+2\\-1\\1
+\end{pmatrix}
+, b=
+\begin{pmatrix}
+-4\\2\\-2
+\end{pmatrix}
+, c=
+\begin{pmatrix}
+0\\1\\3
+\end{pmatrix}
+, d=
+\begin{pmatrix}
+-4\\3\\1
+\end{pmatrix}
+, e=
+\begin{pmatrix}
+1\\0\\1
+\end{pmatrix}
+$$
+
+First, we note that $b=-2a$. Therefore, any vector $v$ that is a linear combination of $a$ and $b$ is a multiple of $a$. It turns out that in making linear combinations we can do without $b$. The vectors $a$ and $b$ are called **(linearly) dependent**
+
+The vectors $a$ and $c$ are not multiples of each other. Therefore, in the linear combinations of $a$ and $c$ we need both $a$ and $c$; the vectors $a$ and $c$ are **independent**.
+
+Now consider the linear combinations of $a$, $c$ and $d$. As $d=-2a + c$, any linear combination of $a$, $c$ and $d$ can also be written as a linear combination of $a$ and $c$. In making linear combinations, not all three vectors are necessary; they are dependent
+
+>[!Important]
+>Vectors are **linearly independent** if the system of linear equations equalised to 0 has all $\alpha$ equal to 0 as a unique solution, and **linearly dependent** if this system of linear equations has a solution for which not all $\alpha$ have equal 0
+
+>[!Example]
+>We test the vectors
+>
+>$$
+>a=
+>\begin{pmatrix}
+>
+>$$
+
+
 
