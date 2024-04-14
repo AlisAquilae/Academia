@@ -845,8 +845,45 @@ Now consider the linear combinations of $a$, $c$ and $d$. As $d=-2a + c$, any li
 >$$
 >a=
 >\begin{pmatrix}
+>2\\-1\\1
+>\end{pmatrix}
+>, c=
+>\begin{pmatrix}
+>0\\1\\3
+>\end{pmatrix}
+>, e=
+>\begin{pmatrix}
+>1\\0\\1
+>\end{pmatrix}
+>$$
+>
+>for dependency. We do this by solving the equation $\alpha a+ \gamma c + \epsilon e = 0$. We expand this equation into coordinates, and bring the resulting system to echelon form by elimination
 >
 >$$
+>\left\{
+>\begin{array}{ll}
+>2\alpha + 0\gamma + 1\epsilon &= 0 \\
+>-1\alpha + 1\gamma + 0\epsilon &= 0 \\
+>1\alpha + 3\gamma + 1\epsilon &= 0
+>\end{array}
+>\right.
+>\Rightarrow
+>\left\{
+>\begin{array}{ll}
+>2\alpha + 0\gamma + 1\epsilon &= 0 \\
+>0\alpha + 2\gamma + 1\epsilon &= 0 \\
+>0\alpha + 0\gamma -2\epsilon &= 0
+>\end{array}
+>\right.
+>$$
+>
+>With substitution we find that $\alpha = \gamma = \epsilon = 0$ is the unique solution. Hence, the vectors $a$, $c$ and $e$ are independent
+
+
+
+
+
+
 
 
 
