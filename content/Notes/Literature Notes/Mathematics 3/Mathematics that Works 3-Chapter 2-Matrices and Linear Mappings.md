@@ -107,5 +107,14 @@ Just like vectors, we can add matrices by adding corresponding entries and multi
 >
 >$$
 >A+B=\begin{pmatrix}
->5+4 & 10 
+>5+4 & 10 + 10 & 0+3 & 1+0 \\
+>10+10 & 200+80 & 10+40 & 20+50 \\
+>20+10 & 10+30 & 2+2&1+0 
+>\end{pmatrix} =
+>\begin{pmatrix}
+>9 & 20 & 3 & 1 \\
+>20 & 280 & 50 & 70 \\
+>30 & 40 & 4 & 1
+>\end{pmatrix}
 >$$
+
