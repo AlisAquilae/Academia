@@ -3,7 +3,7 @@ fileClass: Base, Literature Notes
 title: 
 Parents: ["[[Mathematics 3]]"]
 Draft: 
-Status: In Progress
+Status: To Revisit
 Authors: 
 Year of Publication: 
 Related Notes: 
