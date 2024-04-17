@@ -890,15 +890,48 @@ If a subspace $V$ in $R^n$ consists of the linear combinations of the vectors $v
 >[!Example]
 >Again, consider the vectors $a$, $c$ and $d$ in $R^3$,
 >
+>$$
 >a=
-\begin{pmatrix}
-2\\-1\\1
-\end{pmatrix}
-, c=
-\begin{pmatrix}
-0\\1\\3
-\end{pmatrix}
-, d=
-\begin{pmatrix}
--4\\3\\1
-\end{pmatrix}
+>\begin{pmatrix}
+>2\\-1\\1
+>\end{pmatrix}
+>, c=
+>\begin{pmatrix}
+>0\\1\\3
+>\end{pmatrix}
+>, d=
+>\begin{pmatrix}
+>-4\\3\\1
+>\end{pmatrix}
+>$$
+>
+>The linear combinations of $a$, $c$ and $d$ constitute a subspace $V$. 
+>
+>$$
+>V: v=\alpha a + \gamma c + \delta d
+>$$
+>
+>However, above we already found that $a$, $c$ and $d$ are dependent; for example, we can express $d$ into $a$ and $c$
+>
+>$$
+>d=-2a+c
+>$$
+>
+>Although the vectors $a$, $c$ and $d$ do span $V$, they do not form a basis of $V$. When we omit $d$ we are left with $a$ and $c$, and they do form a basis of $V$. 
+
+Using a basis, any vector in a (sub)space can be represented in a unique manner. If vectors $v_1, v_2, \dots, v_k$ form a basis for a subspace $V$, then any vector $v$ in $V$ can uniquely be written as a linear combination of $v_1, v_2, \dots, v_k$. 
+
+Any basis of a linear (sub)space $V$ contains the same number of vectors; if both $v_1, v_2, \dots, v_k$ and $w_1, w_2, \dots, w_m$ form a basis of $V$, then $k=m$. This number is the **dimension** of $V$. 
+
+>[!Important]
+>The dimension of a subspace $V$ of $R^n$ is the number of vectors in a basis of $V$. This number is denoted with $\dim(V)$
+
+>[!Example]
+>In the example above we saw that $a$ and $c$ form a basis of $V$, but also $a$ and $d$. Both these bases consist of two vectors, so $\dim(V)=2$
+
+
+
+
+
+
+
