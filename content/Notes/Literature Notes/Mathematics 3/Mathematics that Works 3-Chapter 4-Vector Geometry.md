@@ -107,4 +107,50 @@ This also works for $R^n$
 
 The **length**, also called *Euclidian Length*, of a vector is the number $\sqrt{(x,x)}$
 
+If $x$ and $y$ are the position vectors of $X$ and $Y$ respectively, the segment $XY$ has the same length and the same direction as the vector $y-x$. Therefore, the distance between the points $X$ and $Y$ is
+
+$$
+|y-x|
+$$
+
+#### 4.1.3 Angle
+Just as the length of a vector, the angle between two vectors is closely related to the inner product. 
+
+For any two vectors $x$ and $y$ in $R^n$, the angle $\alpha$ between $x$ and $y$ satisfies
+
+$$
+(x,y)=|x||y|\cos(\alpha)
+$$
+Be extension, the angle $\alpha$ between the vectors $x$ and $y$ satisfies
+
+$$
+\cos(\alpha)=\frac{(x,y)}{|x||y|}
+$$
+
+>[!Example]
+>The angle $\alpha$ between vectors
+>
+>$$
+>x=
+>\begin{pmatrix}
+>1\\2
+>\end{pmatrix}
+>, y=
+>\begin{pmatrix}
+>3\\1
+>\end{pmatrix}
+>$$
+>
+>satisfies
+>
+>$$
+>\cos(\alpha)=\frac{5}{\sqrt{5}\sqrt{10}}=\frac12 \sqrt{2}
+>$$
+>
+>So $\alpha$ is 45$\degree$
+
+An important special situation is when two vectors are **orthogonal (perpendicular)**. Again, we use the inner product. Two vectors are orthogonal if $(x,y)=0$
+
+
+
 
