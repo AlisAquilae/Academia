@@ -59,4 +59,52 @@ The same goes for vectors in $R^n$.
 >- $(x,y)=(y,x)$
 >- $(x+y,z)=(x,z)+(y,z)$
 
-An inner product can also be written using a transpose vector. For any two vectors $x$ and $y$ in $R^n$, $x^Ty=(x,y)$
+An inner product can also be written using a transpose vector. For any two vectors $x$ and $y$ in $R^n$ 
+
+$$
+x^Ty=(x,y)
+$$
+
+For any $n \times k$ matrix $A$ and any vectors $x$ in $R^k$ and $y$ in $R^n$,
+
+$$
+(Ax, y) = x, (A^Ty)
+$$
+
+#### 4.1.2 Length and Distance
+The length $|x|$ of a vector $x$ in $R^2$,
+
+$$
+x=\begin{pmatrix}
+x_1 \\ x_2
+\end{pmatrix},
+$$
+
+can be computed using the Pythagorean Theorem
+
+$$
+\begin{aligned}
+|x|^2 &= x_1^2 + x_2^2 \\
+&= (x,x) \\
+|x| &= \sqrt{x_1^2+x_2^2} \\
+&= \sqrt{(x,x)}
+\end{aligned}
+$$
+
+>[!Example]
+>The length of the vector 
+>
+>$$
+>x=
+>\begin{pmatrix}
+>1 \\ 4
+>\end{pmatrix}
+>$$
+>
+>is $|x|=\sqrt{1^2 + 4^2}=\sqrt{17}$
+
+This also works for $R^n$
+
+The **length**, also called *Euclidian Length*, of a vector is the number $\sqrt{(x,x)}$
+
+
