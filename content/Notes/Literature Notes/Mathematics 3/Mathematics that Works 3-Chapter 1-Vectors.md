@@ -879,11 +879,26 @@ Now consider the linear combinations of $a$, $c$ and $d$. As $d=-2a + c$, any li
 >
 >With substitution we find that $\alpha = \gamma = \epsilon = 0$ is the unique solution. Hence, the vectors $a$, $c$ and $e$ are independent
 
+#### 1.3.4 Basis and Dimension
+If a subspace $V$ in $R^n$ consists of the linear combinations of the vectors $v_1, v_2, \dots, v_k$, we say these vectors **span** $V$. If, moreover, $v_1, v_2, \dots, v_k$ are linearly independent, then they form a **basis** of $V$. Thus, a basis of $V$ is a smallest possible set of vectors such that any vector $w$ in $V$ is a linear combination of these basis vectors.
 
+>[!Important]
+>In general, the vectors $v_1, v_2, \dots, v_k$ form a basis of a subspace $V$ if
+>- $w=\alpha_1v_1 + \alpha_2v_2 + \dots + \alpha_kv_k$ for any $w$ in $V$, and
+>- The vectors $v_1, v_2, \dots, v_k$ are independent
 
-
-
-
-
-
-
+>[!Example]
+>Again, consider the vectors $a$, $c$ and $d$ in $R^3$,
+>
+>a=
+\begin{pmatrix}
+2\\-1\\1
+\end{pmatrix}
+, c=
+\begin{pmatrix}
+0\\1\\3
+\end{pmatrix}
+, d=
+\begin{pmatrix}
+-4\\3\\1
+\end{pmatrix}
