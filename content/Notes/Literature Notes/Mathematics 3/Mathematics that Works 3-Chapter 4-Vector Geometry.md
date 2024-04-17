@@ -22,5 +22,41 @@ x=
 x_1 \\ x_2
 \end{pmatrix}
 , y=
-\begin{pmatrti}
+\begin{pmatrix}
+y_1 \\ y_2
+\end{pmatrix}
 $$
+
+the inner product of $x$ and $y$ is the number
+
+$$
+(x,y)=x_1y_1+x_2y_2
+$$
+
+>[!Example]
+>The inner product $(x,y)$ of
+>
+>$$
+>x=
+>\begin{pmatrix}
+>1 \\ 4
+>\end{pmatrix}
+>, y=\begin{pmatrix}
+>3 \\ -2
+>\end{pmatrix}
+>$$
+>
+>is $1\cdot 3 + 4 \cdot -2 = 3-8=-5$
+
+The same goes for vectors in $R^n$. 
+
+>[!Warning]
+>If $x$ is a vector in $R^n$ and $y$ is a vector in $R^m$ with $m \neq n$, then the inner product of $x$ and $y$ is undefined!
+
+>[!Info]
+>The inner product satisfies some useful rules. These are (for vectors $x$, $y$ and $z$ in $R^n$ and for numbers $\lambda$ in $R$)
+>- $(\lambda x,y)=\lambda (x,y)$
+>- $(x,y)=(y,x)$
+>- $(x+y,z)=(x,z)+(y,z)$
+
+An inner product can also be written using a transpose vector. For any two vectors $x$ and $y$ in $R^n$, $x^Ty=(x,y)$
