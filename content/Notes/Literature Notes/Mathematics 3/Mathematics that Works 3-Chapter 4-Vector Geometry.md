@@ -151,6 +151,11 @@ $$
 
 An important special situation is when two vectors are **orthogonal (perpendicular)**. Again, we use the inner product. Two vectors are orthogonal if $(x,y)=0$
 
+#### 4.1.4 The Distance Between a Vector and a Subspace
+Imagine a subspace $V$ as well as a vector $y$ not belonging to $V$. Now, we set out to find the vector $y_v$ in $V$ that is the closest to $y$ among all vectors in $V$. This is called the **projection** of $y$ onto $V$.
+- The projection $y_v$ of $y$ onto $V$ is such that $y-y_v$ is orthogonal to any vector $v$ in $V$. 
+- The distance of $y$ to $V$ is $|y-y_v|$, where $y_v$ is the projection of $y$ onto $V$
+
 
 
 
