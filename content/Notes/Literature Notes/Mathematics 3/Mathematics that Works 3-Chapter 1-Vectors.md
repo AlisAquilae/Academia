@@ -3,7 +3,7 @@ fileClass: Base, Literature Notes
 title: 
 Parents: ["[[Mathematics 3]]"]
 Draft: 
-Status: In Progress
+Status: Done
 Authors: 
 Year of Publication: 
 Related Notes: 
@@ -929,7 +929,20 @@ Any basis of a linear (sub)space $V$ contains the same number of vectors; if bot
 >[!Example]
 >In the example above we saw that $a$ and $c$ form a basis of $V$, but also $a$ and $d$. Both these bases consist of two vectors, so $\dim(V)=2$
 
+#### 1.3.5 Homogeneous Systems of Linear Equations
+The system of linear equations
 
+$$
+\left\{
+\begin{array}{ll}
+2x_1+1x_2+1x_3 &= 0 \\
+2x_1 + 1x_2 + 0x_3 &= 0 \\
+3x_1 + 1x_2 + 2x_3 &= 0
+\end{array}
+\right.
+$$
+
+is special because the right hand side of all equations is $0$. Such a system is called **homogeneous**. A system like this is never inconsistent, for it always has $x_1=x_2=x_3=0$ as a solution. This solution is called the **trivial solution**. Often this solution is not very interesting, hence its name. Then, the question is whether there are other solutions. 
 
 
 
