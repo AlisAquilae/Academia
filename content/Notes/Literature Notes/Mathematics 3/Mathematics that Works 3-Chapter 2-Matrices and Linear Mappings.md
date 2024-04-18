@@ -342,3 +342,57 @@ A matrix-vector equation is a compact form for a system of linear equations. Oft
 >
 >In both cases, the substitution is the same. 
 
+>[!Warning]
+>???
+
+
+#### 2.2.3 The Inverse Matrix
+For a square matrix $A$, the solution $x$ of $Ax=y$ can often be written as a natrix-vector product of $Bx=y$. In this case, the matrix $B$ is called the **inverse (matrix)** of $A$ and is denotes as $B=A^{-1}$. The solution of the equation $Ax=y$ then is $x=A^{-1}y$
+
+A matrix $A$ is called **invertible** if it has an inverse
+
+If an $n \times n$ matrix $A$ has an inverse matrix $A^{-1}$, then
+
+$$
+A^{-1}A = I \text{ and } AA^{-1} = I
+$$
+
+>[!Note]
+>Remember that $I$ is the identity matrix described above
+
+In order to find $A^{-1}$ from $A$ we solve $A^{-1}$ from the equation $AA^{-1} = I$. This solution process closely resembles the solution of a matrix-vector equation $Ax=y$. However, instead of the unknown vector $x$ we now compute the unknown matrix $A^{-1}$. 
+
+#### 2.2.4 Computing the Inverse Matrix
+We calculate the inverse $A^{-1}$ of the $2\times 2$ matrix $A$
+
+$$
+A=\begin{pmatrix}
+3 & 4 \\
+4 & 3
+\end{pmatrix}
+$$
+
+The equation for $A^{-1}$ reads
+
+$$
+AA^{-1}=I \Rightarrow 
+\begin{pmatrix}
+3 & 2 \\
+4 & 4
+\end{pmatrix}A^{-1}=
+\begin{pmatrix}
+1 & 0 \\ 0 & 1
+\end{pmatrix}
+$$
+
+First we reduce the matrix on the left side (up to now, this is $A$) to echelon form using elimination. We apply the same operations to the rows of the matrix on the right hand side. 
+
+$$
+\begin{pmatrix}
+3 & 2 \\
+4 & 4
+\end{pmatrix}A^{-1}=
+\begin{pmatrix}
+1 & 0 \\ 0 & 1
+\end{pmatrix} \Rightarrow
+$$
