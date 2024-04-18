@@ -252,7 +252,8 @@ The important properties of the matrix $I$ are
 
 ---
 ### 2.2 Matrices and Systems of Linear Equations
-With the knowledge of vectors that we have acquired in the meantine, we can nor write systems of linear equations as a vector equation
+#### 2.2.1 Matrix-Vector Equations
+With the knowledge of vectors that we have acquired in the meantime, we can nor write systems of linear equations as a vector equation
 
 >[!Example]
 >Consider the following system of linear equations:
@@ -299,4 +300,45 @@ In a next step, also the unknowns $x$ and $y$ can be put into a vector, say $v$.
 >\end{pmatrix}
 >$$
 
-The coefficients of the system of equations return as the entrie
+The coefficients of the system of equations return as the entries of the matrix $A$. The original system of equations, the vector equation and the matrix-vector equation are three different ways to write down the same problem. 
+
+#### 2.2.2 The Solution of Systems of Linear Equations in Matrix-Vector Form
+A matrix-vector equation is a compact form for a system of linear equations. Often we solve such a matrix-vector equation directly, without first rewriting it as a system. The computation remains exactly the same
+
+>[!Example]
+>Consider the matrix-vector equation $Ax=b$ with 
+>
+>$$
+>A=\begin{pmatrix}
+>2 & -1 & 0 \\
+>1 & -1 & 2
+>\end{pmatrix}, b=
+>\begin{pmatrix}
+>2 \\ -1
+>\end{pmatrix}
+>$$
+>
+>We could solve this as a system of linear equations by multiplying each individual entry with $x$, and then rewriting to echelon form. However, we can also write the matrix itself into echelon form, without having to multiply by $x$ first. 
+>
+>$$
+>\begin{pmatrix}
+>2 & -1 & 0 \\
+>1 & -1 & 2
+>\end{pmatrix} x = 
+>\begin{pmatrix}
+>2 \\ -1
+>\end{pmatrix}
+>\Rightarrow
+>\begin{pmatrix}
+>2 & -1 & 0 \\
+>0 & -1 & 4
+>\end{pmatrix} x =
+>\begin{pmatrix}
+>2 \\ -4
+>\end{pmatrix}
+>$$
+>
+>This is a matrix-equation in echelon form. 
+>
+>In both cases, the substitution is the same. 
+
