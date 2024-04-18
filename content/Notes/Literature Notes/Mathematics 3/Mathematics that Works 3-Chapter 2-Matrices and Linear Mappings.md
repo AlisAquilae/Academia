@@ -250,3 +250,53 @@ The important properties of the matrix $I$ are
 - $Ix=x$ for any vector $x$
 - $IA=A$ and $AI=A$ for any matrix $A$
 
+---
+### 2.2 Matrices and Systems of Linear Equations
+With the knowledge of vectors that we have acquired in the meantine, we can nor write systems of linear equations as a vector equation
+
+>[!Example]
+>Consider the following system of linear equations:
+>
+>$$
+>\left\{
+>\begin{array}{ll}
+>0.80x + 0.10y &= 30 \\
+>0.10x + 0.70y &= 45
+>\end{array}
+>\right.
+>$$
+>
+>This can also be written using vectors, namely as
+>
+>$$
+>\begin{pmatrix}
+>0.80 \\
+>0.10
+>\end{pmatrix} x + 
+>\begin{pmatrix}
+>0.10 \\
+>0.70
+>\end{pmatrix} y =
+>\begin{pmatrix}
+>30 \\ 45
+>\end{pmatrix}
+>$$
+
+In a next step, also the unknowns $x$ and $y$ can be put into a vector, say $v$. Then we obtain a matrix-vector equation of the form $Av=b$
+
+>[!Example]
+>
+>$$
+>\begin{pmatrix}
+>0.80 & 0.10 \\
+>0.10 & 0.70
+>\end{pmatrix}
+>\begin{pmatrix}
+>x \\ y
+>\end{pmatrix} = 
+>\begin{pmatrix}
+>30 \\ 45
+>\end{pmatrix}
+>$$
+
+The coefficients of the system of equations return as the entrie
