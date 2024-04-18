@@ -172,5 +172,52 @@ x_1 & . & . & . & x_ n
 \end{pmatrix}
 $$
 #### 2.1.4 The Matrix Product
+When multiplying matrices with each other, we follow a specific order of operations
 
+Consider matrices $A$ and $B$
 
+$$
+A = \begin{pmatrix}
+2 & 9 & 0 \\
+-4 & 1 & 5
+\end{pmatrix}, B=
+\begin{pmatrix}
+7 & 5 \\
+0 & -1 \\
+4 & 6
+\end{pmatrix}
+$$
+
+We build up matrix $C = AB$. It follows that each entry in $C$ arises as the product of the corresponding row in $A$ with the corresponding column in $B$. 
+
+$$
+\begin{aligned}
+C=AB &= \begin{pmatrix}
+2 & 9 & 0 \\
+-4 & 1 & 5
+\end{pmatrix}
+\begin{pmatrix}
+7 & 5 \\
+0 & -1 \\
+4 & 6
+\end{pmatrix} \\
+&= \begin{pmatrix}
+2 \cdot 7 + 9 \cdot 0 + 0 \cdot 4 & 2 \cdot 5 + 9 \cdot -1 + 0\cdot 6 \\
+-4 \cdot 7 + 1 \cdot 0 + 5 \cdot 4 & -4 \cdot 5 + 1 \cdot -1 + 5 \cdot 6
+\end{pmatrix}  \\
+&= \begin{pmatrix}
+14 & 1 \\
+-8 & 9
+\end{pmatrix}
+\end{aligned}
+$$
+
+Thus the $i,j$-entry of the product matrix $C$ is the product of the $i^{\text{th}}$ row of $A$ and the  $j^{\text{th}}$ column of $B$. In other words, matrices are applied as rows times columns. 
+
+The most important property satisfies $(AB)x = A(Bx)$
+
+>[!Warning]
+>The product $AB$ only exists if the number of columns $A$ is equal to the number of rows $B$!
+
+>[!Warning]
+>If both $A$ and $B$ are $n\times n$ matrices, then $AB$ exists as wel
