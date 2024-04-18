@@ -3,7 +3,7 @@ fileClass: Base, Literature Notes
 title: 
 Parents: ["[[Mathematics 3]]"]
 Draft: 
-Status: In Progress
+Status: Done
 Authors: 
 Year of Publication: 
 Related Notes: 
@@ -406,8 +406,8 @@ $$
 
 >[!Note]
 >Steps:
->1
->3x2 - 4x1
+>- 1
+>- 3x2 - 4x1
 
 A matrix-vector equation is reduced to echelon form in the same way. However, here we continue the elimination process in the upper part of the matrix, until all entries outside the diagonal in the left matrix are zero. Now we eliminate from bottom upwards
 
@@ -429,8 +429,8 @@ $$
 
 >[!Note]
 >Steps:
->1-2x2
->2
+>- 1-2x2
+>- 2
 
 Finally we divide the rows by the diagonal entries in the matrix on the left hand side. 
 
@@ -452,8 +452,8 @@ $$
 
 >[!Note]
 >Steps
->1/3
->2
+>- 1/3
+>- 2
 
 On the left hand side we now have the identity matrix $I$, for which $IA^{-1}=A$, so
 

@@ -1,9 +1,9 @@
 ---
 fileClass: Base, Courses
 title: 
-Parents: 
+Parents: ["[[index]]"]
 Draft: 
-Status: 
+Status: In Progress
 Course Code: 
 Period: 
 Duration: 
