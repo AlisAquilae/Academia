@@ -62,5 +62,32 @@ We introduce the determinant $\det(A)$ by the following rule
 $$
 \det(A) = a_{11}\det
 \begin{pmatrix}
-a_{22} &
+a_{22} & a_{23} \\
+a_{32} & a_{33}
+\end{pmatrix} - a_{21}\det 
+\begin{pmatrix}
+a_{12} & a_{13} \\
+a_{32} & a_{33}
+\end{pmatrix} + a_{31} \det
+\begin{pmatrix}
+a_{12} & a_{13} \\
+a_{22} & a_{23}
+\end{pmatrix}
 $$
+
+The determinant $\det(A)$ of the $3\times 3$ matrix $A$ is the number
+
+$$
+\det(A) = a_{11}a_{22}a_{33} - a_{11}a_{32}a_{23} - a_{21}a_{12}a_{33} + a_{21}a_{32}a_{13} + a_{31}a_{12}a_{23} - a_{31}a_{22}a_{13}
+$$
+
+The volume $V$ of the parallelepiped spanned by the columns of a $3\times 3$ matrix $A$ satisfies $V=|\det(A)|$. The columns of $A$ are dependent exactly if $\det(A)=0$
+
+In practice, we usually carry out the expansion as follows
+- Select a column or row to expand from and follow the procedures below in the order moving along the row or column
+- The $2\times 2$ matrix $A_{11}$ associated with $a_{11}$ arises by deleting from $A$ the row and column that contain $a_{11}$ (these are the first row and the first column); compute $a_{11}\det(A_{11})$
+- Follow the same procedure along the row or column you chose to expand upon
+- Compute the formula
+
+>[!Tip]
+>The plusses and mi
