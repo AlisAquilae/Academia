@@ -152,5 +152,25 @@ A new operation is **transposition**, which is interchanging the columns with th
 >[!Info]
 >The matrix operations satisy the following algebraic rules
 >- $(A+B)x = Ax + Bx$
->- $(\gamma A)x = \gamma(Ax) = A(\gamma x$
+>- $(\gamma A)x = \gamma(Ax) = A(\gamma x)$
+>- $(A+B)^T = A^T + B^T$
+>- $(\gamma A^T) = \gamma A^T$
+>- $(A^T)^T=A$
+
+A vector $x$ can be seen as a matrix as well, specifically as a matrix with a single column. Thus if $x$ is a vector in $R^n$, then $x$ is also an $n\times 1$ matrix. Consequently, $x^T$ exists, too, and is a $1\times n$ matrix
+
+$$
+x=\begin{pmatrix}
+x_1 \\
+. \\
+. \\
+. \\
+x_ n
+\end{pmatrix} \Rightarrow
+x^T = \begin{pmatrix}
+x_1 & . & . & . & x_ n
+\end{pmatrix}
+$$
+#### 2.1.4 The Matrix Product
+
 
