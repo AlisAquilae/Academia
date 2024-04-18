@@ -118,3 +118,39 @@ Just like vectors, we can add matrices by adding corresponding entries and multi
 >\end{pmatrix}
 >$$
 
+>[!Example]
+>Similarly, we compute a multiple such as $3A$
+>
+>$$
+>3A=
+>\begin{pmatrix}
+>3\times 5 & 3\times10 & 3\times0 & 3\times1 \\
+>3\times10 & 3\times200 & 3\times10 & 3\times20 \\
+>3\times20 & 3\times10 & 3\times2 & 3\times1 
+>\end{pmatrix}=
+>\begin{pmatrix}
+>15 & 30 & 0 & 3 \\
+>30 & 600 & 30 & 60 \\
+>60 & 30 & 6 & 3
+>\end{pmatrix}
+>$$
+
+A new operation is **transposition**, which is interchanging the columns with the rows. Thus, if we denote the entries of $A$ with $A_{ij}$, then $A_{ji}$ are the entries of its transpose $A^T$
+
+>[!Example]
+>For the $3\times 4$ matrix $A$ above, the transpose $A^T$ is a $4\times 3$ matrix
+>
+>$$
+>A^T=\begin{pmatrix}
+>5 & 10 & 20 \\
+>10 & 200 & 10 \\
+>0 & 10 & 2 \\
+>1 & 20 & 1
+>\end{pmatrix}
+>$$
+
+>[!Info]
+>The matrix operations satisy the following algebraic rules
+>- $(A+B)x = Ax + Bx$
+>- $(\gamma A)x = \gamma(Ax) = A(\gamma x$
+
