@@ -214,10 +214,39 @@ $$
 
 Thus the $i,j$-entry of the product matrix $C$ is the product of the $i^{\text{th}}$ row of $A$ and the  $j^{\text{th}}$ column of $B$. In other words, matrices are applied as rows times columns. 
 
-The most important property satisfies $(AB)x = A(Bx)$
-
 >[!Warning]
 >The product $AB$ only exists if the number of columns $A$ is equal to the number of rows $B$!
 
 >[!Warning]
->If both $A$ and $B$ are $n\times n$ matrices, then $AB$ exists as wel
+>If both $A$ and $B$ are $n\times n$ matrices, then $AB$ exists as well as $BA$, and they are both $n\times n$ matrices. These product matrices are often not equal!
+
+The following algebraic rules apply to the matrix product (as long as $A$, $B$, and $C$ are matrices for which the products are well defined)
+- $(AB)x  = A(Bx)$
+- $(AB)C = A(BC)$
+- $A(B+C) = AB + AC$
+- $(A+B)C = AC + AB$
+- $(AB)^T = B^T A^T$
+
+#### 2.1.5 Special Matrices
+
+>[!Warning]
+>More special matrices are discussed in the book, but since we later on only seem to engage with one of them, I will only explain that one here
+
+The matrix $I$ is the **identity matrix** or **unit matrix**, which is a square diagonal matrix for which all diagonal entries have value 1. So
+
+$$
+I=
+\begin{pmatrix}
+1 & 0 & \dots & 0 \\
+0 & 1 & \dots & 0 \\
+\vdots & \vdots &  & \vdots \\
+0 & 0 & \dots & 1
+\end{pmatrix}
+$$
+
+$I$ can be of any size, but it is always square. 
+
+The important properties of the matrix $I$ are
+- $Ix=x$ for any vector $x$
+- $IA=A$ and $AI=A$ for any matrix $A$
+
