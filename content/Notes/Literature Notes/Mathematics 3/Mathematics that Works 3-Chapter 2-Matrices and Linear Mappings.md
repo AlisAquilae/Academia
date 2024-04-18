@@ -1,9 +1,9 @@
 ---
 fileClass: Base, Literature Notes
 title: 
-Parents: 
+Parents: ["[[Mathematics 3]]"]
 Draft: 
-Status: 
+Status: In Progress
 Authors: 
 Year of Publication: 
 Related Notes: 
