@@ -395,4 +395,82 @@ $$
 \begin{pmatrix}
 1 & 0 \\ 0 & 1
 \end{pmatrix} \Rightarrow
+\begin{pmatrix}
+3 & 2 \\
+0 & 1
+\end{pmatrix} A^{-1} = 
+\begin{pmatrix}
+1 & 0 \\ -4 & 3
+\end{pmatrix}
 $$
+
+>[!Note]
+>Steps:
+>1
+>3x2 - 4x1
+
+A matrix-vector equation is reduced to echelon form in the same way. However, here we continue the elimination process in the upper part of the matrix, until all entries outside the diagonal in the left matrix are zero. Now we eliminate from bottom upwards
+
+$$
+\begin{pmatrix}
+3 & 2 \\
+0 & 1
+\end{pmatrix} A^{-1} = 
+\begin{pmatrix}
+1 & 0 \\ -4 & 3
+\end{pmatrix} \Rightarrow
+\begin{pmatrix}
+3 & 0 \\ 0 & 1
+\end{pmatrix} A^{-1} = 
+\begin{pmatrix}
+9 & -6 \\ -4 & 3
+\end{pmatrix}
+$$
+
+>[!Note]
+>Steps:
+>1-2x2
+>2
+
+Finally we divide the rows by the diagonal entries in the matrix on the left hand side. 
+
+$$
+\begin{pmatrix}
+3 & 0 \\ 0 & 1
+\end{pmatrix} A^{-1} = 
+\begin{pmatrix}
+9 & -6 \\ -4 & 3
+\end{pmatrix} \Rightarrow
+\begin{pmatrix}
+1 & 0 \\ 0 & 1
+\end{pmatrix} A^{-1} = 
+\begin{pmatrix}
+3 & -2 \\
+-4 & 3
+\end{pmatrix}
+$$
+
+>[!Note]
+>Steps
+>1/3
+>2
+
+On the left hand side we now have the identity matrix $I$, for which $IA^{-1}=A$, so
+
+$$
+\begin{pmatrix}
+1 & 0 \\ 0 & 1
+\end{pmatrix} A^{-1} = IA^{-1}=
+\begin{pmatrix}
+3 & -2 \\
+-4 & 3
+\end{pmatrix} \Rightarrow
+A^{-1} = \begin{pmatrix}
+3 & -2 \\
+-4 & 3
+\end{pmatrix}
+$$
+
+>[!Note]
+>For verification purposes you can now do $AA^{-1}$, which should result in $I$
+
