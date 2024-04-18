@@ -90,4 +90,20 @@ In practice, we usually carry out the expansion as follows
 - Compute the formula
 
 >[!Tip]
->The plusses and mi
+>The plusses and minuses in the expansion of a determinant are distributed over the matrix according to the chessboard pattern below:
+>
+>$$
+>\begin{pmatrix}
+>+ & - & + \\
+>- & + & - \\
+>+ & - & +
+>\end{pmatrix}
+>$$
+
+Here we list some properties of the determinant
+- If one column of $A$ is multiplied by a number $\lambda$, $\det(A)$ is multiplied by $\lambda$ as well
+- If to one column of $A$ a multiple of another column $A$ is added, $\det(A)$ remains unchanged
+- If two columns of the matrix $A$ are interchanges, $\det(A)$ changes sign
+- $\det(A^T)=\det(A)$
+- For any two $n\times n$ matrices $A$ and $B$, $\det(AB) = \det(A) \det(B)$
+
