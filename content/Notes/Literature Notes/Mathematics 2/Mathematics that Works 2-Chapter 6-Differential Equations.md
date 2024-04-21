@@ -274,3 +274,22 @@ y(1)&=3
 2C=3 \Rightarrow
 C=\frac32
 $$
+
+Hence, the solution of the initial value problem is $y(t)=\frac{3}{2}(t+1)$
+
+>[!Note]
+>The above method applies to any differential equation of the form
+>
+>$$
+>y'(t)=p(y(t))q(t)
+>$$
+
+>[!Important]
+>Separation of variables for $y'(t)=p(y(t))q(t)$
+>1. Divide both sides by $p(y)$
+>2. Integrate both sides with respect to $t$
+>3. On the left, change to $y$ as integration variable
+>4. Solve the integrals; here only one integration constant is needed
+>5. Solve the resulting equation for $y(t)$
+>6. If an initial condition is specified, use it to find the integration constant
+
