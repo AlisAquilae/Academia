@@ -210,4 +210,67 @@ In [[Mathematics that Works 2-Chapter 3-Change and Growth#3.2 Models for Continu
 
 ---
 ### 6.3 Time-Dependent Differential Equations
-#### 6.3.1 Separation of Variabk
+#### 6.3.1 Separation of Variables
+In the previous section, we applies the method of separation of variables to time-invariant differential equations. Here, we extend the method to a class of time-dependent differential equations
+
+Consider the following situation. We are looking for the solution $y(t)$ of the initial value problem
+
+$$
+y'(t)=\frac1{t+1}y(t),\text{ with }y(1)=3
+$$
+
+First, we take the factor $y(t)$ to the left hand side of the equation. 
+
+$$
+\frac{y'(t)}{y(t)} = \frac{1}{t+1}
+$$
+
+Now the variables are separated; the left hand side depends on $y$ only, while the right hand side depends on $t$ only. Next, we integrate left and right hand side with respect to $t$
+
+$$
+\int \frac{y'(t)}{y(t)}dt = \int \frac{1}{t+1} dt
+$$
+
+In the integral to the left, we change the integration variable to $t$ by using substitution
+
+$$
+\int \frac{1}{y} dy = \int \frac{1}{t+1} dt
+$$
+
+Elaborating these integrals, we obtain
+
+$$
+\ln(|y|)=\ln(t+1)+K 
+$$
+
+Where $K$ is an arbitrary constant. This equation is solved for $y$. To remove the natural logarithm we take exponentials
+
+$$
+e^{\ln(|y|)} = e^{\ln(t+1)+K} = e^{K}e^{\ln(t+1)}
+$$
+
+so
+
+$$
+|y(t)|=C |t+1|
+$$
+Where $C=e^K$
+
+We can drop the absolute values by admitting negative values for $C$
+
+$$
+y(t)=C(t+1)
+$$
+
+For the solution with $y(1)=3$ we find
+
+$$
+\left.
+\begin{array}{ll}
+y(1)&=2C \\
+y(1)&=3
+\end{array}
+\right\} \Rightarrow
+2C=3 \Rightarrow
+C=\frac32
+$$
