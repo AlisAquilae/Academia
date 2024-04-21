@@ -118,6 +118,72 @@ In this section, we restrict ourselves to **time-invariant differential equation
 
 #### 6.2.1 Separation of Variables
 
-Consider the following situation. We look for the solution $y(t)$ of the initial l
+Consider the following situation. We look for the solution $y(t)$ of the initial value problem
 
+$$
+y'(t)=ky(t)
+$$
+
+$$
+y(0)=2
+$$
+
+First, we move the factor $y(t)$ to the left hand side. This is realised by dividing the differential equation left and right by $y(t)$, giving
+
+$$
+\frac{1}{y(t)}y'(t)=k
+$$
+
+Next, we integrate left and right with respect to $t$
+
+$$
+\int \frac{1}{y(t)}y'(t)dt = \int k dt
+$$
+
+In the integral on the left, we change the integration variable to $y$ by using substitution. With $dy=y'(t)dt$ we find
+
+$$
+\int \frac1{y}dy = \int k dt
+$$
+
+Elaborating these integrals, we obtain
+
+$$
+\ln(|y|) = kt + K
+$$
+
+where $K$ is an arbitrary constant. To find $y(t)$ we remove the natural logarithm by taking the ecponential, both on the left and on the right hand side
+
+$$
+e^{\ln(|y|)} = e^{kt+K} = e^K e^kt
+$$
+
+so
+
+$$
+|y(t)| = Ce^{kt} \text{ where } C=e^K
+$$
+
+We can now drop the absolute value by admitting negative values for $C$
+
+We now have obtained the general solution of the differential equation,
+
+$$
+y(t)=Ce^{kt}
+$$
+
+The constant $C$ is used to make $y(t)$ satisfy the initial condition. Here $y(0)=2$, which gives
+
+$$
+\left.
+\begin{array}{ll}
+y(0) &= Ce^{k0}0 = C \\
+y(0) &= 2
+\end{array}
+\right\}
+\Rightarrow
+C=2
+$$
+
+Hence, the solution of the initial value problem is $y(t)=2e
 
