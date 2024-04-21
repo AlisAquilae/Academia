@@ -99,5 +99,25 @@ A steady state $\underline{y}$ of the differential equation $y'(t)=f(y(t))$ is *
 >[!Warning]
 >Do not mix up the stability criterion for a steady state of a differential equation and that of an iteration process (see [[Mathematics that Works 2-Chapter 2-Sequences Series and Iteration Processes#2.2 Iteration Processes|Chapter 2.2]]). A steady state $\underline{y}$ of an iteration process $y_{n+1}=f(y_n)$ satisfies $\underline{y}=f(\underline{y})$, and it is stable if $-1 \lt f'(\underline{y}) \lt 1$
 
+---
+### 6.2 Time-Invariant Differential Equations
+A differential equation $y'(t)=f(t, y(t))$ describes the growth of a quantity $y(t)$. Above, we have seen that the direction field of the differential equation allows many solutions: one for every starting point. An expression that represents all these solutions together is called the **general solution** of the differential equation. In order to determine $y(t)$ for $t \gt 0$ we should know, next to the differential equation, also the initial state $y(0)$
+
+An **initial value problem** is a differential equation with an initial condition
+
+$$
+\left\{
+\begin{array}{ll}
+y'(t) &= f(t,y(t)) \\
+y(t_0) &= y_0 
+\end{array}
+\right.
+$$
+
+In this section, we restrict ourselves to **time-invariant differential equations** for which $y'(t)=f(y(t))$; the right hand side does not depend explicitly on time
+
+#### 6.2.1 Separation of Variables
+
+Consider the following situation. We look for the solution $y(t)$ of the initial l
 
 
