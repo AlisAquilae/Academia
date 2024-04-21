@@ -202,11 +202,22 @@ In this way, we may try to simplify our problem
 >\int x \cos(x) dx = x \sin(x) - \int 1\sin(x) dx
 >$$
 >
->The integra; at the right hand side is straightforward, an antiderivative of $\sin(x)$ is $-\cos(x)$. This yields
+>The integral at the right hand side is straightforward, an antiderivative of $\sin(x)$ is $-\cos(x)$. This yields
 >
 >$$
 >\int x cos(x) dx = x \sin(x) - (-\cos(x)) +C = x \sin(x) + \cos(x)
 >$$
 >
->With integration constant C.
+>With integration constant C. Now we have found an antiderivative of $x \cos(x)$, namely $x\sin(x)+\cos(x)$
+
+>[!Important]
+>Algorithm for Integration by Parts:
+>1. The integrand can be decomposed as the product of two functions
+>2. Identify one of the factors as a derivative by writing the integrand in the form of $f(x)g'(x)$
+>3. Set up a scheme: $\left\{\begin{array}f(x) = \dots \Rightarrow f'(x) = \dots \\ g'(x)=\dots \Rightarrow g(x)=\dots \end{array}\right.$
+>4. Apply the rule $\int f(x)g'(x) dx = f(x)g(x) + f'(x)g(x)dx$
+
+
+>[!Warning]
+>Integration by parts can be performed in two directions. If we make the correct choice, the new integral will be simpler than the original one. If we make the wrong choice, it becomes more difficult!
 
