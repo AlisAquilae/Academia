@@ -88,5 +88,16 @@ A steady state of a time-invariant differential equation is **stable** (or **att
 
 The stability of a steady state can readily be observed in the direction field. But we don't need the direction field, the stability is directly found by investigating the graph of the function $f(y)$. 
 
-A steady state $\underline{y}$ of the differential equation $y'(t)=f(y(t))$ is **stable** if $f'(\underline{y})\lt 0$ and **unstable** if $f'()
+A steady state $\underline{y}$ of the differential equation $y'(t)=f(y(t))$ is **stable** if $f'(\underline{y})\lt 0$ and **unstable** if $f'(\underline{y}) \gt 0$
+
+>[!Important]
+>Algorithm for steady states of time-invariant differential equations
+>1. Write the differential equation in the form $y'(t)=f(y(t))$, and identify the function $f(y)$
+>2. Find the steady states $\underline{y}$ by solving the equation $f(\underline{y})=0$
+>3. Determine the stability of a steady state $\underline{y}$ by checking whether $f'(\underline{y}) \lt 0$
+
+>[!Warning]
+>Do not mix up the stability criterion for a steady state of a differential equation and that of an iteration process (see [[Mathematics that Works 2-Chapter 2-Sequences Series and Iteration Processes#2.2 Iteration Processes|Chapter 2.2]]). A steady state $\underline{y}$ of an iteration process $y_{n+1}=f(y_n)$ satisfies $\underline{y}=f(\underline{y})$, and it is stable if $-1 \lt f'(\underline{y}) \lt 1$
+
+
 
