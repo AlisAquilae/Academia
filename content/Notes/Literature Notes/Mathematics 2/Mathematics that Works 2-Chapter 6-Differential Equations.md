@@ -47,3 +47,30 @@ When looking at different examples, we see that a solution $y(t)$ is not fully d
 
 #### 6.1.2 Time-Invariant Differential Equations and Steady States
 Often, differential equations model physical, economic, or biological processes that depend on time. In the equation $y'(t)=f(t, y(t))$, the independent variable $t$ represents time; the dependent variable $y(t)$ represents the **state** of the process we are modelling. 
+
+Here we restrict ourselved to processes of which the external conditions are constant. The change $y'(t)$ then only depends on the state $y(t)$, and not upon $t$ (in a way different from through $y(t)$). Such a process is modelled by a differential equation of the type
+
+$$
+y'(t)=f(y(t))
+$$
+
+in which the right hand side is a function of $y(t)$ only. Such a differential equation is called **time-invariant** or **autonomous**. The direction fields of such equations depend on $y$ only, and not on $t$. In other words, if we shift the picture horizontally, nothing changes. 
+
+A time invariant differential equation describes a system that does not explicitly depend on time $t$. In such a case, there may exist solutions $y(t)$ that do not depend on time either. Clearly these are constant solutions, $y(t)=\underline{y}$ for all $t$. In that case, $y'(t)=0$, so
+
+$$
+f(y(t))=0 \text{ for all }t
+$$
+
+This is the case if 
+
+$$
+f(\underline{y})=0
+$$
+
+ A steady state $\underline{y}$ that satisfies this condition is called a **steady state** of the differential equation. 
+
+$\underline{y}$ is a steady state of $y'(t)=f(y(t))$ if $f(\underline{y})=0$
+
+>[!Example]
+>We give for the following differential equations the steady states, if they exist. 
