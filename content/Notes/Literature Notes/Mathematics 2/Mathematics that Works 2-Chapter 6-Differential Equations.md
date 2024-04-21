@@ -185,5 +185,29 @@ y(0) &= 2
 C=2
 $$
 
-Hence, the solution of the initial value problem is $y(t)=2e
+Hence, the solution of the initial value problem is $y(t)=2e^{kt}$ 
 
+>[!Note]
+>The method that we used above to solve the differential equation $y'(t)=ky(t)$ can in principle be applied to any time-invariant differential equation
+
+>[!Important]
+>Algorithm for solving $y'(t)=f(y(t))$
+>1. Carry $f(y)$ to the left hand side by division
+>2. Take antiderivatives with respect to $t$
+>3. At the left hand side, switch to $y$ as an integration variable
+>4. Find the integral at the left hand side, no integration constant is required here
+>5. Solve the resulting equation for $y(t)$
+>6. If an initial condition is specified, use this to find the integration constant
+
+#### 6.2.2 Special Cases: The Growth Functions
+In [[Mathematics that Works 2-Chapter 3-Change and Growth#3.2 Models for Continuous Growth|Chapter 3.2]] we discussed several growth functions, and we found relations between these functions and their derivatives
+
+|                     | Growth Function             |                                 | Differential Equation |
+| ------------------- | --------------------------- | ------------------------------- | --------------------- |
+| Exponential         | $y(t)=ce^{rt}$              | $y'(t)=ry(t)$                   | Linear                |
+| Bounded Exponential | $y(t)=a-ce^{rt}$            | $y'(t)=r(a-y(t))$               | Linear                |
+| Logistic            | $y(t)=\frac{a}{1+ce^{-rt}}$ | $y'(t)=\frac{r}{a}y(t)(a-y(t))$ | Logistic              |
+
+---
+### 6.3 Time-Dependent Differential Equations
+#### 6.3.1 Separation of Variabk
