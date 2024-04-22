@@ -335,3 +335,72 @@ At the beginning of this section, we have seen that we can easily find the eigen
 >v=2\begin{pmatrix} \frac12 \\ 1 \end{pmatrix} = \begin{pmatrix} 1 \\ 2 \end{pmatrix}
 >$$
 
+
+>[!Example]
+>We determine the eigenvectors of the $3\times 3$ matrix $B$
+>
+>$$
+>\begin{pmatrix}
+>2 & -2 & 3 \\
+>1 & 1 & 1 \\
+>1 & 3 & -1
+>\end{pmatrix}
+>$$
+>
+>By solving the characteristic equation $\det(A-\lambda I)=0$ we previously calculated the eigenvalues $\lambda_1=1$, $\lambda_2=-2$ and $\lambda_3=3$. Any eigenvector $v$ corresponding to $\lambda_3=3$ satisfies the equation $Bv=3v$. In coordinates
+>
+>$$
+>\left\{
+>\begin{array}{ll}
+>2v_1 - 2v_2 + 3v_3 &= 3v_1 \\
+>1v_1 + 1v_2 + 1v_3 &= 3v_2 \\
+>1v_1 + 3v_2 -1v_3 &= 3v_3
+>\end{array}
+>\right. \Rightarrow
+>\left\{
+>\begin{array}{ll}
+>-1v_1 -2v_2 + 3v_3 &= 0 \\
+>1v_1 - 2v_2 + 1v_3 &= 0 \\
+>1v_1 + 3v_2 -4v_3 &= 0
+>\end{array}
+>\right.
+>$$
+>
+>Elimination yields
+>
+>$$
+>\left\{
+>\begin{array}{ll}
+>-1v_1 -2v_2 + 3v_3 &= 0 \\
+>1v_1 - 2v_2 + 1v_3 &= 0 \\
+>1v_1 + 3v_2 -4v_3 &= 0
+>\end{array}
+>\right. \Rightarrow
+>\left\{
+>\begin{array}{ll}
+>-1v_1 - 2v_2 + 3v_3 = 0 \\
+>0v_1 -4v_2 +4v_3 = 0 \\
+>0v_1 +0v_2 +0v_3 = 0
+>\end{array}
+>\right.
+>$$
+>
+>The coordinate $v_3$ can be chosen freely. We find $v_2=v_3$ and $v_1 = v_3$ so
+>
+>$$
+>v= \begin{pmatrix}
+>v_1 \\ v_2 \\ v_3
+>\end{pmatrix} = 
+>\begin{pmatrix}
+>v_3 \\ v_3 \\ v_3
+>\end{pmatrix}
+>$$
+>
+>With $v_3=1$ we find in particular 
+>
+>$$
+>v=\begin{pmatrix} 1\\1\\1 \end{pmatrix}
+>$$
+
+
+
