@@ -221,3 +221,35 @@ In this way, we may try to simplify our problem
 >[!Warning]
 >Integration by parts can be performed in two directions. If we make the correct choice, the new integral will be simpler than the original one. If we make the wrong choice, it becomes more difficult!
 
+
+#### 5.2.2 Integration By Parts for Definite Integrals
+Integration by parts for antiderivatives has a natural extention to definite integrals. The procedure is
+
+$$
+\begin{aligned}
+\int_a^b f(x)g'(x)dx &= \int_a^b (f(x)g(x))' dx - \int_a^b f'(x)g(x)dx \\
+&= \left[f(x)g(x)\right]^{x=b}_{x=a} - \int_a^b f'(x)g(x)dx
+\end{aligned}
+$$
+
+Removing the intermediate step, we find
+
+$$
+\int_a^b f(x)g'(x)dx = \left[f(x)g(x) \right]^{x=b}_{x=a} - \int_a^b f'(x)g(x)dx
+$$
+
+>[!Example]
+>We evaluate the definite integral
+>
+>$$
+>I=\int_0^{\pi} x \cos(x) dx
+>$$
+>
+>We choose $g'(x)=\cos(x)$, with antiderivative $g(x)=\sin(x)$. This leaves $f(x)=x$, with derivative $f'(x)=1$. So we obtain
+>
+>$$
+>\begin{aligned}
+>I &= \int_0^{\pi} x \cos(x) \\
+>&= \left[ x \sin(x) \right]^{x=\pi}_{x=0} - \int_0^{\pi} \sin(x)dx \\
+>&= 
+>$$
