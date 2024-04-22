@@ -330,3 +330,49 @@ $$
 It appears we can determine the integral using the sum rule. 
 
 Reducing two simple fractions to a common denominator results in a fraction with a compound denominator. In order to integrate a fraction with a compound denominator we must write this fraction as the sum of fractions with simple denominators. This reversed process is called **partial fraction decomposition**
+
+>[!Example]
+>We continue with the example above, with the function
+>
+>$$
+>f(x)=\frac{1}{x(x+1)}
+>$$
+>
+>The denominator of this fraction is a product of the factors $x$ and $x+1$. A fraction with such a denominator, a product of factors, can always be written as the sum of two more simple fractions, with simple factors in the denominator. 
+>
+>$$
+>f(x)=\frac{1}{x(x+1)}=\frac{a}{x} + \frac{b}{x+1}
+>$$
+>
+>The right hand side of this equation can be reduced to a common denominator
+>
+>$$
+>\begin{aligned}
+>f(x)&=\frac{a}{x} + \frac{b}{x+1} \\
+>&= \frac{a(x+1)}{x(x+1)} + \frac{bx}{x(x+1)} \\
+>&= \frac{a(x+1)+bx}{x(x+1)} \\
+>&= \frac{(a+b)x+a}{x(x+1)}
+>\end{aligned}
+>$$
+>
+>The numerator of the fraction is a function of $x$ with yet unknown constants $a$ and $b$. This function must be equal to the numerator of $f(x)$ for all $x$, so
+>
+>$$
+>(a+b)x+a = 1 \Rightarrow (a+b)x+a = 0x+1
+>$$
+>
+>for all $x$. This is the case if $(a+b)=0$ and $a=1$, so $a=1$ and $b=-1$. We conclude
+>
+>$$
+>f(x)=\frac{a}{x}+\frac{b}{x+1}=\frac{1}{x}-\frac{1}{x+1}
+>$$
+>
+>Note that we have recovered the sum we started with in the previous example
+
+#### 5.3.1 Factorisation
+In the above examples and exercises, the denominator was already factorised. If this is not the case, we must first find the factors of the denominator
+
+Consider the fraction
+
+$
+
