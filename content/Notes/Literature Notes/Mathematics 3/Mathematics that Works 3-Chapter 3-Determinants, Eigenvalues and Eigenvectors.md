@@ -216,3 +216,45 @@ The eigenvalues of an $n\times n$ matrix $A$ are the solutions of the equation $
 >$$
 >
 >The characteristic equation $\det(B-\lambda I)=0$ is
+>
+>$$
+>\begin{aligned}
+>\det(B-\lambda I) &= \det \left( 
+>\begin{pmatrix} 
+>2 & -2 & 3 \\
+>1 & 1 & 1 \\
+>1 & 3 & -1
+>\end{pmatrix} - \lambda 
+>\begin{pmatrix}
+>1 & 0 & 0 \\
+>0 & 1 & 0 \\
+>0 & 0 & 1
+>\end{pmatrix}
+>\right) \\
+>&= \det \begin{pmatrix}
+>2-\lambda & -2 & 3 \\
+>1 & 1-\lambda & 1 \\
+>1 & 3 & -1-\lambda
+>\end{pmatrix}\\
+>&= (2-\lambda)\det \begin{pmatrix}
+>1-\lambda & 1 \\
+>3 & -1-\lambda
+>\end{pmatrix} -1 \det \begin{pmatrix}
+>-2 & 3 \\
+>3 & -1-\lambda
+>\end{pmatrix} + 1 \det \begin{pmatrix}
+>-2 & 3 \\
+>1-\lambda & 1
+>\end{pmatrix} \\
+>&= (2-\lambda)(\lambda^2-4)-(2\lambda-7)+(3\lambda - 5) \\
+>&= -\lambda^3 + 2\lambda^2 +4\lambda -8 -2\lambda +7+3\lambda-5 \\
+>&= -\lambda^3 + 2\lambda^2 +5\lambda-6=0
+>\end{aligned}
+>$$
+>>[!Note]
+>>We expanded along the first column
+>
+>with solutions $\lambda_1=1, \lambda_2=-2, \lambda_3=3$. Therefore, these are the eigenvalues of $B$
+
+#### 3.2.3
+
