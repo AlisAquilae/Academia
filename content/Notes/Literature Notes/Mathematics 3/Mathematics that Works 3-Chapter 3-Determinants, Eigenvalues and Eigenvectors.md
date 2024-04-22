@@ -463,5 +463,18 @@ A=\begin{pmatrix}
 \end{pmatrix}, v=\begin{pmatrix} 1 \\ 1 \end{pmatrix}
 $$
 
-We find a range of values belonging to $Av$, $A^2v$, $A^3v$, et cetera. It appears that $v$ is an eigenvector of $A$ with eigenvalue $\lambda = 1.1$, and also of $A^2$ with eigenvalue $\lambda^2 = 1.21$, and also of $A^3$ with eigenvalue $\lambda^3=1.331$, e
+We find a range of values belonging to $Av$, $A^2v$, $A^3v$, et cetera. It appears that $v$ is an eigenvector of $A$ with eigenvalue $\lambda = 1.1$, and also of $A^2$ with eigenvalue $\lambda^2 = 1.21$, and also of $A^3$ with eigenvalue $\lambda^3=1.331$, et cetera
 
+If $v$ is an eigenvector of an $n\times n$ matrix $A$ corresponding to an eigenvalue $\lambda$, then $v$ is also an eigenvector of $A^k$ corresponding to eigenvalue $\lambda^k$
+
+Because of this property the outcome of an iteration process $p(k+1)=Ap(k)$ is easy to find if the initial vector $p(0)$ is an eigenvector of $A$. In this case,
+
+$$
+p(k)=A^kp(0)=\lambda^k p(0)
+$$
+
+so all $p(k)$ are multiples of $p(0)$ and in each consecutive iteration a factor of $\lambda$ is gained. 
+
+We generalise the above method for iteration processes $p(k+1)=Ap(k)$, for any $n\times n$ matrix $A$ that has $n$ linearly independent eigenvectors
+
+If the $n\times n$ matrix $A$ had $n$ independent eigenvectors $v_1, v_2, \dots, v_n$ corresponding to the eigenvalues $\lambda_i, 
