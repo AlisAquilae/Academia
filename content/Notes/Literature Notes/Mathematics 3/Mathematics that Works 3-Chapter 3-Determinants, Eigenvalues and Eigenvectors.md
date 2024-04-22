@@ -107,3 +107,52 @@ Here we list some properties of the determinant
 - $\det(A^T)=\det(A)$
 - For any two $n\times n$ matrices $A$ and $B$, $\det(AB) = \det(A) \det(B)$
 
+---
+### 3.2 Eigenvalues and Eigenvectors
+#### 3.2.1 Eigenvalues and Eigenvectors
+Given the $2\times 2$ matrix $A$ and the vector $U$, 
+
+$$
+A=\begin{pmatrix}
+-2 & 2 \\
+2 & 1
+\end{pmatrix}, u=\begin{pmatrix} 1 \\ 2 \end{pmatrix}
+$$
+
+we find
+
+$$
+Au=\begin{pmatrix}
+-2 & 2 \\
+2 & 1
+\end{pmatrix}\begin{pmatrix} 1 \\ 2 \end{pmatrix} = 
+\begin{pmatrix}
+-2+4 \\ 2 + 2 
+\end{pmatrix}
+= \begin{pmatrix}2 \\ 4
+\end{pmatrix}
+=2u
+$$
+
+We observe that the image $Au$ of $u$ has the same direction as $u$ itself; however, $Au$ is twice as long as $u$. The image vector is a multiple of the original
+
+With the same matrix $A$ and the vector
+
+$$
+v=\begin{pmatrix} 2 \\ -1 \end{pmatrix}
+$$
+
+we find
+
+$$
+Av=\begin{pmatrix}
+-2 & 2 \\
+2 & 1
+\end{pmatrix}\begin{pmatrix} 2 \\ -1 \end{pmatrix} = 
+\begin{pmatrix}
+-4-2 \\ 4-1 
+\end{pmatrix}
+= \begin{pmatrix}-6 \\ 3
+\end{pmatrix}
+=2u
+$$
