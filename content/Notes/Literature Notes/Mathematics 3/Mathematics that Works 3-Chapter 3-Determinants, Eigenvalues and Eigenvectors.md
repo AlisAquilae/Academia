@@ -154,5 +154,41 @@ Av=\begin{pmatrix}
 \end{pmatrix}
 = \begin{pmatrix}-6 \\ 3
 \end{pmatrix}
-=2u
+=-3v
 $$
+
+The image $Av$ of $v$ has the opposite direction to that of $v$; the length of $Av$ is 3 times that of $v$. Here the image vector is a negative multiple of the original. 
+
+We have found that $Au=2u$ and $Av=-3v$. The image vector of both $u$ and $v$ is a multiple of the original. This is a special property. A vector with this property is called an [[Eigenvector]] of the matrix $A$, and the multiplication factor is called the corresponding [[Eigenvalue]]. Thus, the vector $u$ is an eigenvector of $A$ corresponding to the eigenvalue 2. 
+
+>[!Note]
+>The same applies to larger matrices and vectors
+
+The vector $v$ in $R^n$ is an eigenvector of the $n\times n$ matrix $A$ if $v \ne 0$ and $Av=\lambda v$ for a number $\lambda$. Similarly, the number $\lambda$ is an eigenvalue of the $n\times n$ matrix $A$ if $Av=\lambda v$ for a vector $v \ne 0$
+
+>[!Warning]
+>Only a square matrix has eigenvalues and eigenvectors. 
+
+An eigenvector $v$ of $A$ can correspond only to a single eigenvalue $\lambda$ of $A$. However, if $v$ is an eigenvector of $A$ corresponding to the eigenvalue $\lambda$, any multiply of $v$ (with the exception of $0$) is also an eigenvector of $A$ corresponding to the eigenvalue $\lambda$
+
+>[!Example]
+>For the $2\times 2$ matrix $A$ and the vector $u$,
+>
+>$$
+>A=\begin{pmatrix}
+>-2 & 2 \\
+>2 & 1
+>\end{pmatrix}, u=\begin{pmatrix} 1 \\ 2 \end{pmatrix}
+>$$
+>
+>we saw above that $u$ is an eigenvector of $A$ corresponding to the eigenvalue $\lambda =2$. The same applies to the vector $s=3u$. 
+>
+>$$
+>As=\begin{pmatrix}
+>-2 & 2 \\
+>2 & 1
+>\end{pmatrix}\begin{pmatrix} 3 \\ 6 \end{pmatrix} = 
+>\begin{pmatrix}-6 \\ 3
+\end{pmatrix}
+=-3v
+>$$
