@@ -256,5 +256,62 @@ The eigenvalues of an $n\times n$ matrix $A$ are the solutions of the equation $
 >
 >with solutions $\lambda_1=1, \lambda_2=-2, \lambda_3=3$. Therefore, these are the eigenvalues of $B$
 
-#### 3.2.3
+#### 3.2.3 The Computation of Eigenvectors
+At the beginning of this section, we have seen that we can easily find the eigenvalues of a matrix $A$ corresponding to a known eigenvector. Now we pose the reverse question: if we have an eigenvalue of matrix $A$, how do we find the corresponding eigenvectors?
 
+>[!Example]
+>We determine the eigenvectors of the $2\times 2$ matrix $A$
+>
+>$$
+>A=\begin{pmatrix} -2 & 2 \\ 2 & 1 \end{pmatrix}
+>$$
+>
+>By solving the characteristic equation $\det(A-\lambda I)=0$ we have earlier calculated the eigenvalues $\lambda_1=2$ and $\lambda_2=-3$
+>
+>If $v$ is an eigenvector of $A$ corresponding to the eigenvalue $\lambda_1=2$, then $Av=2v$, that is,
+>
+>$$
+>\begin{pmatrix}
+>-2 & 2 \\
+>2 & 1
+>\end{pmatrix} \begin{pmatrix}
+>v_1 \\ v_2 \end{pmatrix} =2\begin{pmatrix}
+>v_1 \\ v_2 \end{pmatrix}
+>$$
+>
+>We expand this into coordinates, and we collect the corresponding terms
+>
+>$$
+>\left\{
+>\begin{array}{ll}
+>-2v_1 + 2v_2 &= 2v_1 \\
+>2v_1 + 1v_2 &= 2v_2
+>\end{array}
+>\right.
+>\Rightarrow
+>\left\{
+>\begin{array}{ll}
+>-4v_1 + 2v_2 &= 0\\
+>2v_1 1 1v_2 &= 0
+>\end{array}
+>\right.
+>$$
+>
+>Using elimination, we reduce the system to echelon form
+>
+>$$
+>\left\{
+>\begin{array}{ll}
+>-4v_1 + 2v_2 &= 0\\
+>2v_1 - 1v_2 &= 0
+>\end{array}
+>\right. \Rightarrow
+>\left\{
+>\begin{array}{ll}
+>-4v_1 + 2v_2 &= 0\\
+>0v_1 + 0v_2 &= 0
+>\end{array}
+>\right.
+>$$
+>
+>The coor
