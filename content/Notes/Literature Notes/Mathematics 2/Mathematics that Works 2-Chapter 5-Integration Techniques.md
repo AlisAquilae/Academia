@@ -279,4 +279,21 @@ So far, integration by parts has always resulted in an integral that could be in
 
 
 #### 5.2.4 Special Case: $g'(x)=1$
-Consider the following situation. We want an antiderivative of $f(x)=\ln(x)$. This standard function does not appear in the list of standard integrals. We do know the derivative $f'(x)=1
+Consider the following situation. We want an antiderivative of $f(x)=\ln(x)$. This standard function does not appear in the list of standard integrals. We do know the derivative $f'(x)=\frac1{x}$, but for integration by parts we need a product of the form $f(x)g'(x)$. To this end we can take $g'(x)=1$, and then indeed we do obtain $f(x)g'(x)$. Integration by parts (with $g(x)=x)$ gives
+
+$$
+\begin{aligned}
+\int \ln(x)dx &= \int \ln(x) \cdot 1 \\
+&= \ln(x) \cdot 1 - \int \frac1{x} \cdot x dx \\
+&= x\ln(x) - \int 1 dx \\
+&= x\ln(x)-x+C
+\end{aligned}
+$$
+
+---
+### 5.3 Partial Fraction Decomposition
+In [[Mathematics that Works 2-Chapter 4-Integrals#4.1.3 Rules for Indefinite Integration|Chapter 4.1]] we have written the integral of a sum of functions as the sum of the integral of those functions
+
+$$
+\int (f(x) + g(x)) dx = \int
+$$
