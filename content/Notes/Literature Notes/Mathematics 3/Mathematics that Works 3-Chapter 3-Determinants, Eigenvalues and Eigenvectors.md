@@ -477,4 +477,15 @@ so all $p(k)$ are multiples of $p(0)$ and in each consecutive iteration a factor
 
 We generalise the above method for iteration processes $p(k+1)=Ap(k)$, for any $n\times n$ matrix $A$ that has $n$ linearly independent eigenvectors
 
-If the $n\times n$ matrix $A$ had $n$ independent eigenvectors $v_1, v_2, \dots, v_n$ corresponding to the eigenvalues $\lambda_i, 
+If the $n\times n$ matrix $A$ had $n$ independent eigenvectors $v_1, v_2, \dots, v_n$ corresponding to the eigenvalues $\lambda_i, \lambda_2, \dots, \lambda_n$, the solution $p(k)$ of the iteration process $p(k+1)=Ap(k)$ satisfies
+
+$$
+p(k)=\alpha_1 \lambda_1^kv_1 + \alpha_2 \lambda_2^kv_2 + \dots + \alpha_n\lambda_n^k v_n
+$$
+
+The coefficients $\alpha_i$ can be found from the initial condition
+
+$$
+p(0)=\alpha_iv_1 + \alpha_2v_2+\dots+a_nv_n
+$$
+
