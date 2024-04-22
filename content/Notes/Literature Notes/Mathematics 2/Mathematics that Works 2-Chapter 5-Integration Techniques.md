@@ -418,8 +418,11 @@ with solutions $a=-2$ and $b=4$. As antiderivatives we obtain
 $$
 \begin{aligned}
 \int \frac{2x}{x^2 + 3x + 2} dx &= \int \frac{-2}{x+1} + \frac{4}{x+2}dx \\
-&= \int \frac{2}{x+1}dx + \int \frac{4}{x+2}
+&= \int \frac{2}{x+1}dx + \int \frac{4}{x+2}dx \\
+&= -2 \ln(|x+1|) + 4 \ln(|x+2|) + C
 \end{aligned}
 $$
+
+
 
 
