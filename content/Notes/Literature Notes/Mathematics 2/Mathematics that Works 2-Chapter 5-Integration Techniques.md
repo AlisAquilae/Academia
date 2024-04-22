@@ -374,5 +374,52 @@ In the above examples and exercises, the denominator was already factorised. If 
 
 Consider the fraction
 
-$
+$$
+f(x)\frac{2x}{x^2 + 3x + 2}
+$$
+
+The denominator is a quadratic function of $x$. We can factorise it by finding its zeros $p$ and $q$, for instance with the quadratic root formula. 
+
+We find $p=-1$ and $q=-2$, which leads to the factorisation
+
+$$
+x^2 +3x+2 = (x-p)(x-q)=(x+1)(x+2)
+$$
+
+The factors that we find are the denominators of the simple fractions into which we decompose,
+
+$$
+f(x)=\frac{2x}{(x+1)(x+2)}=\frac{a}{x+1} + \frac{b}{x+2}
+$$
+
+We reduce the sum to a common denominator and rearrange terms according to powers of $x$
+
+$$
+\begin{aligned}
+\frac{2x}{(x+1)(x+2)} &= \frac{a}{x+1} + \frac{b}{x+2} \\
+&= \frac{a(x+2)+b(x+1)}{(x+1)(x+2)} \\
+&= \frac{(a+b)x + (2a+b)}{(x+1)(x+2)}
+\end{aligned}
+$$
+
+Equating coefficients in the numerator results in the system of linear equations
+
+$$
+\left\{
+\begin{array}{ll}
+a+b &= 2 \\
+2a+b &= 0
+\end{array}
+\right.
+$$
+
+with solutions $a=-2$ and $b=4$. As antiderivatives we obtain
+
+$$
+\begin{aligned}
+\int \frac{2x}{x^2 + 3x + 2} dx &= \int \frac{-2}{x+1} + \frac{4}{x+2}dx \\
+&= \int \frac{2}{x+1}dx + \int \frac{4}{x+2}
+\end{aligned}
+$$
+
 
