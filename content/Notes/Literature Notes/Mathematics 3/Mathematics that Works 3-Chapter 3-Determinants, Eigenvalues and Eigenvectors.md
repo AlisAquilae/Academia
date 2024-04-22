@@ -188,7 +188,31 @@ An eigenvector $v$ of $A$ can correspond only to a single eigenvalue $\lambda$ o
 >-2 & 2 \\
 >2 & 1
 >\end{pmatrix}\begin{pmatrix} 3 \\ 6 \end{pmatrix} = 
->\begin{pmatrix}-6 \\ 3
-\end{pmatrix}
-=-3v
+>\begin{pmatrix}6 \\ 12
+>\end{pmatrix}
+>=2s
 >$$
+>
+
+Thus, if $v$ is an eigenvector of $A$ corresponding to the eigenvalue $\lambda$, any multiple $u=\alpha v$ (with the exception of 0) is also an eigenvector of $A$ corresponding to $\lambda$. 
+
+#### 3.2.2 The Computation of Eigenvalues
+At the outset of this section, we first presented a vector, which subsequently was shown to be an eigenvector of a matrix; incidentally, we computed the corresponding eigenvalue. This is not what happens in practice; the problem is to find among all possible vectors the eigenvectors of a given matrix. Here we do this first by looking for the eigenvalues, and next finding the corresponding eigenvectors
+
+>[!Warning]
+>The book contains more explanation on what is about to follow and how they reach the conclusion presented after this block. I will not go into depth on the justification presented, but skip to the conclusion instead
+
+The eigenvalues of an $n\times n$ matrix $A$ are the solutions of the equation $\det(A-\lambda I)=0$
+
+>[!Example]
+>We determine the eigenvalues of the $3\times 3$ matrix $B$,
+>
+>$$
+>B=\begin{pmatrix}
+>2 & -2 & 3 \\
+>1 & 1 & 1 \\
+>1 & 3 & -1 
+>\end{pmatrix}
+>$$
+>
+>The characteristic equation $\det(B-\lambda I)=0$ is
