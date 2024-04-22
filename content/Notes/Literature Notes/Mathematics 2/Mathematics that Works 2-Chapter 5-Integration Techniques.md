@@ -251,5 +251,32 @@ $$
 >\begin{aligned}
 >I &= \int_0^{\pi} x \cos(x) \\
 >&= \left[ x \sin(x) \right]^{x=\pi}_{x=0} - \int_0^{\pi} \sin(x)dx \\
->&= 
+>&= 0 + \left[ \cos(x)\right]^{x=\pi}_{x=0} \\
+>&= -2
+>\end{aligned}
 >$$
+
+#### 5.2.3 Repeated Integration by Parts
+So far, integration by parts has always resulted in an integral that could be integrated directly. Unfortunately, this is not always the case. If the remaining integral cannot be evaluated by direct integration, we can try to integrate by parts again, or to apply a substitution
+
+>[!Example]
+>We want an antiderivative of $p(x)=x^2e^x$. If we consider $p(x)$ to be the product of $f(x)=x^2$ and $g'(x)=e^x$ (with antiderivative $g(x)=e^x$) we can use integration by parts
+>
+>$$
+>\int x^2 e^x dx = x^2 e^x - 2 \int xe^x dx
+>$$
+>
+>This latter integral has already been determined in a previous example, also using integration by parts. We now use this result, to find the antiderivative
+>
+>$$
+>\begin{aligned}
+>\int x^2 e^x dx &= x^2 e^x - 2(x-1)e^x + C \\
+>&= (x^2 -2x +2)e^2 + C
+>\end{aligned}
+>$$
+>
+>Substitution by parts leaves us with an integral that needs further elaboration, and here repeated integration by parts may be necessary. For example, we find an antiderivative of $x^5 \cos(x)$ after integrating by parts five times consecutively. Here the risk of calculation error is high
+
+
+#### 5.2.4 Special Case: $g'(x)=1$
+Consider the following situation. We want an antiderivative of $f(x)=\ln(x)$. This standard function does not appear in the list of standard integrals. We do know the derivative $f'(x)=1
