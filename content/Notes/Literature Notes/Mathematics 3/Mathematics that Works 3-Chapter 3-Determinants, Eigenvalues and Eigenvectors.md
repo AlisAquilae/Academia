@@ -403,4 +403,37 @@ At the beginning of this section, we have seen that we can easily find the eigen
 >$$
 
 
+---
+### 3.3 Linear Iteration Processes
+Consider the following coordinates
 
+$$
+\begin{aligned}
+p_1 (k+1)&=0.9p_1(k) + 0.2p_2(k) \\
+p_2 (k+1)&=0.1p_1(k) + 0.8p_2(k)
+\end{aligned}
+$$
+
+Formulated as a matrix-vector product,
+
+$$
+\begin{pmatrix}
+p_1(k+1) \\
+p_2(k+1)
+\end{pmatrix} = \begin{pmatrix}
+0.9 & 0.2 \\ 0.1 & 0.8
+\end{pmatrix}
+\begin{pmatrix}
+p_1(k) \\p_2(k)
+\end{pmatrix}
+$$
+
+Or $p(k+1)=Mp(k)$ where 
+
+$$
+M=\begin{pmatrix}
+0.9 & 0.2 \\ 0.1 & 0.8
+\end{pmatrix}
+$$
+
+The formula $p(k+1)=Mp(k)$ can be applied 
