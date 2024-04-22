@@ -76,12 +76,12 @@ $\underline{y}$ is a steady state of $y'(t)=f(y(t))$ if $f(\underline{y})=0$
 >We give for the following differential equations the steady states, if they exist. 
 >
 >
-| Diff. Equation          | Steady State (if appliccable)                                                   |
-| ----------------------- | ------------------------------------------------------------------------------- |
-| $y'(t)=-3y(t)$          | $y(t)=\underline{y}=0$                                                          |
-| $y'(t)=2y(t)-4$         | $y(t)=\underline{y}= 2$                                                         |
-| $y'(t)=y(t)^2 + 2$      | No steady state                                                                 |
-| $y'(t)=y(t)^2 -5y(t)+6$ | $y(t)=\underline{y}_{1,2}$ with $\underline{y}_1 = 2$ and $\underline{y}_2 = 3$ |
+>| Diff. Equation          | Steady State (if appliccable)                                                   |
+>| ----------------------- | ------------------------------------------------------------------------------- |
+>| $y'(t)=-3y(t)$          | $y(t)=\underline{y}=0$                                                          |
+>| $y'(t)=2y(t)-4$         | $y(t)=\underline{y}= 2$                                                         |
+>| $y'(t)=y(t)^2 + 2$      | No steady state                                                                 |
+>| $y'(t)=y(t)^2 -5y(t)+6$ | $y(t)=\underline{y}_{1,2}$ with $\underline{y}_1 = 2$ and $\underline{y}_2 = 3$ |
 
 #### 6.1.3 Stability of Steady States
 A steady state of a time-invariant differential equation is **stable** (or **attracting**) if any solution that starts near this steady state moves to this steady state. The steady state is **unstable** (or **repelling**) if solutions, starting near this steady state, tend to run away from this steady state. 
@@ -177,7 +177,7 @@ The constant $C$ is used to make $y(t)$ satisfy the initial condition. Here $y(0
 $$
 \left.
 \begin{array}{ll}
-y(0) &= Ce^{k0}0 = C \\
+y(0) &= Ce^{k0} = C \\
 y(0) &= 2
 \end{array}
 \right\}
