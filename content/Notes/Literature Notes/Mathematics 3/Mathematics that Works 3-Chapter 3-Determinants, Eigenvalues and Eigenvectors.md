@@ -314,4 +314,24 @@ At the beginning of this section, we have seen that we can easily find the eigen
 >\right.
 >$$
 >
->The coor
+>The coordinate $v_2$ can be chosen freely. Furtherm,re, we find $v_1=\frac12v_2$, leading to
+>
+>$$
+>v=
+>\begin{pmatrix}
+>v_1 \\ v_2
+>\end{pmatrix} = 
+>\begin{pmatrix} 
+> \frac12 v_2 \\ v_2
+>\end{pmatrix} = v_2
+>\begin{pmatrix}
+>\frac12 \\ 1
+>\end{pmatrix}
+>$$
+>
+>All these eigenvectors are multiples of one another. In the applications, we usually need only one eigenvector corresponding to each eigenvalue. Here the choice $v_2=2$ results in a simple eigenvector corresponding to $\lambda_1 = 2$
+>
+>$$
+>v=2\begin{pmatrix} \frac12 \\ 1 \end{pmatrix} = \begin{pmatrix} 1 \\ 2 \end{pmatrix}
+>$$
+
