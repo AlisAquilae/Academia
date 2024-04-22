@@ -405,6 +405,7 @@ At the beginning of this section, we have seen that we can easily find the eigen
 
 ---
 ### 3.3 Linear Iteration Processes
+#### 3.3.1 Linear Iteration Processes
 Consider the following coordinates
 
 $$
@@ -436,4 +437,31 @@ M=\begin{pmatrix}
 \end{pmatrix}
 $$
 
-The formula $p(k+1)=Mp(k)$ can be applied 
+The formula $p(k+1)=Mp(k)$ can be applied iteratively. Thus we obtain $p(1)=Mp(0), p(2)=Mp(1)=M^2p(0), p(3)=M^3p(0)$, et cetera
+
+$$
+p(k)=M^k p(0)
+$$
+
+This process is called a [[Linear Iteration Process]]
+
+A linear iteration process consists of a sequence of vectors $p(k)$ in $R^n$ satisfying
+
+$$
+p(k+1)=Ap(k)
+$$
+
+The matrix $A$ is called the **transition matrix** or **iteration matrix**
+
+#### 3.3.2 Decomposition along Eigenvectors
+For the matrix $A$ and the vector $v$ with
+
+$$
+A=\begin{pmatrix}
+1 & \frac{1}{10} \\
+\frac{1}{10} & 1
+\end{pmatrix}, v=\begin{pmatrix} 1 \\ 1 \end{pmatrix}
+$$
+
+We find a range of values belonging to $Av$, $A^2v$, $A^3v$, et cetera. It appears that $v$ is an eigenvector of $A$ with eigenvalue $\lambda = 1.1$, and also of $A^2$ with eigenvalue $\lambda^2 = 1.21$, and also of $A^3$ with eigenvalue $\lambda^3=1.331$, e
+
