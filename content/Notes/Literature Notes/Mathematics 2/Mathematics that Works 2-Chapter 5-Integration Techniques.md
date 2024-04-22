@@ -295,5 +295,38 @@ $$
 In [[Mathematics that Works 2-Chapter 4-Integrals#4.1.3 Rules for Indefinite Integration|Chapter 4.1]] we have written the integral of a sum of functions as the sum of the integral of those functions
 
 $$
-\int (f(x) + g(x)) dx = \int
+\int (f(x) + g(x)) dx = \int f(x) dx + \int g(x)dx
 $$
+
+Sometimes it takes some modification to write an integrand as a sum. This is particularly so in this section.
+
+>[!Example]
+>A sum (or the difference) of two fractions with different denominators, such as 
+>
+>$$
+>f(x)=\frac{1}{x} + \frac{-1}{x+1} = \frac{1}{x} - \frac{1}{x+1}
+>$$
+>
+>can be written as a single function, by reducing both fractions to a common denominator
+>
+>$$
+>\begin{aligned}
+>f(x)&=\frac{1}{x}\frac{x+1}{x+1} + \frac{x}{x} \frac{-1}{x+1} \\
+>&= \frac{(x+1)-x}{x(x+1)} \\
+>&= \frac{1}{x(x+1)}
+>\end{aligned}
+>$$
+
+The advantage of the latter notation is that it is more compact; the advantage of the first is that it is suited for direct integration. Now suppose we want an antiderivative of this latter fraction. Because the two notations denote the same function, we may write it as the sum of two simpeler fractions. We find
+
+$$
+\begin{aligned}
+\int \frac{1}{x(x+1)} dx &= \int \frac{1}{x}-\frac{1}{x+1}dx \\
+&= \frac{1}{x}dx - \int \frac{1}{x+1} dx \\
+&= \ln(|x|)-\ln(|x+1|) + C
+\end{aligned}
+$$
+
+It appears we can determine the integral using the sum rule. 
+
+Reducing two simple fractions to a common denominator results in a fraction with a compound denominator. In order to integrate a fraction with a compound denominator we must write this fraction as the sum of fractions with simple denominators. This reversed process is called **partial fraction decomposition**
