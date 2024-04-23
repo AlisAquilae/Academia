@@ -118,4 +118,27 @@ $$
 >Now we have found all stationary points: $(0,0)$, $(2,0)$, $(0,6)$, and $(\frac32,2)$. Substitute these points into the functions $f_x(x,y)$ and $f_y(x,y)$ to check that both are zero
 
 
+#### 8.1.3 Maximum and Minimum Values in a Graph
+If the graph $f(x,y)$ lies above $f(a,b)$ for all $(x,y)$ close to $(a,b)$, then $f(x,y)$ has a **local minimum value** at $(a,b)$.
 
+If the graph $f(x,y)$ lies below $f(a,b)$ for all $(x,y)$ close to $(a,b)$, then $f(x,y)$ has a **local maximum value** at $(a,b)$.
+
+A **saddle point** is a stationary point $(a,b)$ in which in one direction from $(a,b)$, $f(x,y)$ is above $f(a,b)$ and in another direction, $f(x,y)$ is below $f(a,b)$. 
+
+Together, the minimum values and maximum values constitute the extreme values of a function. To find the extreme values, we first find the stationary points, and next we classify them in having a minimum value, a maximum value or a saddle point
+
+#### 8.1.4 The Second Order Derivative Test
+
+>[!Warning]
+>I skipped the justification here and went straight for the conclusion. 
+
+We take
+
+$$
+h(a,b)=f_{xx}(a,b)f_{yy}(a,b) -f_{xy}(a,b)^2
+$$
+
+If $(a,b)$ is a stationary point of the function $f(x,y)$, then
+- if $h(a,b) \gt 0$ and $f_{xx} \gt 0$, then $f(x,y)$ has a minimum value in $(a,b)$
+- if $h(a,b) \gt 0$ and $f_{xx} \lt 0$, then $f(x,y)$ has a maximum value in $(a,b)$
+- if $h(a,b) \gt 0$ and $f_{xx} \gt 0$, then $f(x,y)$ has a minimum value in $(a,b)$
