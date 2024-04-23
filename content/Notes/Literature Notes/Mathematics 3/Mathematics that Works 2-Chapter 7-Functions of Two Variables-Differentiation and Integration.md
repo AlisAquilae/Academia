@@ -38,4 +38,8 @@ A function $f(x,y)$ of two variables determines for every set of two real number
 
 Together, the points $(x,y,f(x,y))$ in the $(x,y,z)$-space form the graph of $f(x,y)$. This graph is a (curved) surface with equation $z=f(x,y)$. To every point $(x,y)$ in the base plane belongs exactly one point $(x,y,f(x,y))$ on the graph; the variables $x$ and $y$ are the independent variables and $z$ is the dependent variable. 
 
-The point $P=(a,b,f(a,b))$ lies on the graph, above the point $Q=(a,b)$ in the base plane. Two tangent lines of $f(x,y)$ through $P$ are $RS$, parallel to the $(x,z)$-plane, and $TU$, parallel to the $(y,z)$-plane. The plane $XYZ$ spanned by these lines contains al
+The point $P=(a,b,f(a,b))$ lies on the graph, above the point $Q=(a,b)$ in the base plane. Two tangent lines of $f(x,y)$ through $P$ are $RS$, parallel to the $(x,z)$-plane, and $TU$, parallel to the $(y,z)$-plane. The plane $XYZ$ spanned by these lines contains all tangent lines to the surface through $P$. This is the **tangent plane** of $f(x,y)$ through $P$
+
+Below we will set up an equation for this tangent plane. 
+
+First we fix the value for $y$, to $y=b$.

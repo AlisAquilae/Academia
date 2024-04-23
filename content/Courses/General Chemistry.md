@@ -2,7 +2,7 @@
 fileClass: Base, Courses
 title: 
 Parents: ["[[index]]"]
-Draft: true
+draft: true
 Status: In Progress
 Course Code: 
 Period: 
