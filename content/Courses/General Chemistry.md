@@ -2,7 +2,7 @@
 fileClass: Base, Courses
 title: 
 Parents: ["[[index]]"]
-Draft: false
+Draft: true
 Status: In Progress
 Course Code: 
 Period: 
@@ -20,4 +20,4 @@ Though this is classified as a 'course', all notes categorised under 'General Ch
 
 ---
 # 📖 Course Material
-Test 1
+Test
