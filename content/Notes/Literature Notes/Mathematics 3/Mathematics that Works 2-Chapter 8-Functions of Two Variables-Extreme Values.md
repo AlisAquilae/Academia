@@ -74,56 +74,48 @@ $$
 >$$
 >\begin{aligned}
 >a&: \left\{
->\begin{array}[ll]
+>\begin{array}{ll}
 >y&=0 \\
 >x&=0
 >\end{array}
->\right.
+>\right. &\Rightarrow \text{ Stationary Point: }(0,0) \\
+>b&: \left\{
+>\begin{array}{ll}
+>y &= 0 \\
+>3x +2y -6 &=0
+>\end{array}
+>\right. \Rightarrow \left\{
+>\begin{array}{ll}
+>y&=0 \\
+>x&=2
+>\end{array}
+>\right. &\Rightarrow \text{ Stationary Point: }(2,0) \\
+>c&: \left\{
+>\begin{array}{ll}
+>6x+y-6 &= 0 \\
+>x &= 0
+>\end{array}
+>\right. \Rightarrow \left\{
+>\begin{array}{ll}
+>y&=6 \\
+>x&=0
+>\end{array}
+>\right. &\Rightarrow \text{ Stationary Point: }(0,6) \\
+>d&: \left\{
+>\begin{array}{ll}
+>6x+y-6&=0 \\
+>3x +2y -6 &=0
+>\end{array}
+>\right. \Rightarrow \left\{
+>\begin{array}{ll}
+>x&=\frac23 \\
+>y&=2
+>\end{array}
+>\right. &\Rightarrow \text{ Stationary Point: }(\frac23,2) \\
 >\end{aligned}
 >$$
+>
+>Now we have found all stationary points: $(0,0)$, $(2,0)$, $(0,6)$, and $(\frac32,2)$. Substitute these points into the functions $f_x(x,y)$ and $f_y(x,y)$ to check that both are zero
 
 
 
-$$
-\begin{aligned}
-a&: \left\{
-\begin{array}{ll}
-y&=0 \\
-x&=0
-\end{array}
-\right. &\Rightarrow \text{ Stationary Point: }(0,0) \\
-b&: \left\{
-\begin{array}{ll}
-y &= 0 \\
-3x +2y -6 &=0
-\end{array}
-\right. \Rightarrow \left\{
-\begin{array}{ll}
-y&=0 \\
-x&=2
-\end{array}
-\right. &\Rightarrow \text{ Stationary Point: }(2,0) \\
-c&: \left\{
-\begin{array}{ll}
-6x+y-6 &= 0 \\
-x &= 0
-\end{array}
-\right. \Rightarrow \left\{
-\begin{array}{ll}
-y&=6 \\
-x&=0
-\end{array}
-\right. &\Rightarrow \text{ Stationary Point: }(0,6) \\
-d&: \left\{
-\begin{array}{ll}
-6x+y-6&=0 \\
-3x +2y -6 &=0
-\end{array}
-\right. \Rightarrow \left\{
-\begin{array}{ll}
-y&=0 \\
-x&=2
-\end{array}
-\right. &\Rightarrow \text{ Stationary Point: }(2,0) \\
-\end{aligned}
-$$
