@@ -173,4 +173,4 @@ This procedure may be continues, leading to third and higher order partial deriv
 >\end{aligned}
 >$$
 
-In this example, $f_{xy}(x,y)$ appears to be e
+In this example, $f_{xy}(x,y)$ appears to be equal to $f_{yx}(x,y)$. This property holds in general for smooth functions. Thus, the order in which partial derivatives are taken does not matter. 
