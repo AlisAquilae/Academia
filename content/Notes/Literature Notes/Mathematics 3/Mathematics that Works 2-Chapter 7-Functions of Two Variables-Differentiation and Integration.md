@@ -42,4 +42,21 @@ The point $P=(a,b,f(a,b))$ lies on the graph, above the point $Q=(a,b)$ in the b
 
 Below we will set up an equation for this tangent plane. 
 
-First we fix the value for $y$, to $y=b$.
+First we fix the value for $y$, to $y=b$. We define an auxiliary function $g(x)$ of one variable as 
+
+$$
+g(x)=f(x,b)
+$$
+
+The graph of this function is found as the cross section of the plane $y=b$ with the graph $z=f(x,y)$. Furthermore, we recognise the tangent line $RS$ of $f(x,y)$ in $P$ as the tangent line of $g(x)$ in $P$. The equation of this tangent line is
+
+$$
+z=g(a)+g'(a)(x-a)
+$$
+
+Thus, the slope of the tangent line $RS$ (with $y=b$ fixed) is $g'(a)$. Hence, a first order approximation of the displacment along the graph of $f(x,y)$ in the x-direction, at a fixed value $y=b$ is
+
+$$
+f(x,y) \cong f(a,b) + g'(a)(x-a)
+$$
+
