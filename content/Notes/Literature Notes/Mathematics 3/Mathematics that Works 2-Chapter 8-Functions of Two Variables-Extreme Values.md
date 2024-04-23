@@ -141,4 +141,42 @@ $$
 If $(a,b)$ is a stationary point of the function $f(x,y)$, then
 - if $h(a,b) \gt 0$ and $f_{xx} \gt 0$, then $f(x,y)$ has a minimum value in $(a,b)$
 - if $h(a,b) \gt 0$ and $f_{xx} \lt 0$, then $f(x,y)$ has a maximum value in $(a,b)$
-- if $h(a,b) \gt 0$ and $f_{xx} \gt 0$, then $f(x,y)$ has a minimum value in $(a,b)$
+- if $h(a,b) \lt 0$, then $f(x,y)$ has a saddle point in $(a,b)$
+
+>[!Example]
+>We examine the nature of the stationary points of the function
+>
+>$$
+>f(x,y)=3x^2 +xy^2 -6xy
+>$$
+>
+>We already checked the stationary points before: $(0,0)$, $(2,0)$, $(0,6)$, and $(\frac32,2)$. 
+>
+>We find the following (partial) derivatives
+>- $f_{x}(x,y)=6xy+y^2 -6y$
+>- $f_{xx}(x,y)=6y$
+>- $f_{yx}(x,y)=6x+2y-6$
+>- $f_y(x,y)=3x^2 +2xy -6x$
+>- $f_{xy}(x,y)=6x + 2y -6$
+>- $f_{yy}(x,y)=2x$
+>
+>The following scheme helps to find the nature of the stationary points
+>
+>
+>| $(a,b)$       | $f_{xx}(a,b)$ | $f_{yy}(a,b)$ | $f_{xy}(a,b)$ | $h(a,b)$ | Conclusion   | $f(a,b)$   |
+>| ------------- | ------------- | ------------- | ------------- | -------- | ------------ | ---------- |
+>| $(0,0)$       | 0             | 0             | -6            | -36      | Saddle Point | 0          |
+>| $(2,0)$       | 0             | 4             | 6             | -26      | Saddle Point | 0          |
+>| $(0,6)$       | 36            | 0             | 6             | -36      | Saddle Point | 0          |
+>| $(\frac23,2)$ | 12            | $\frac43$     | 2             | 12       | Minimum      | $-\frac83$ |
+>
+>We find three saddle points and one minimum. The minimum value is at the point $(\frac32,2)$ and the function value there is $-\frac83$
+
+
+
+
+
+
+
+
+
