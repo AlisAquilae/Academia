@@ -489,3 +489,36 @@ $$
 p(0)=\alpha_iv_1 + \alpha_2v_2+\dots+a_nv_n
 $$
 
+It is often unnecessary to verify explicitly whether the matrix $A$ has $n$ independent eigenvectors. In most cases, this can be seen by inspection of the eigenvalues. If an $n \times n$ matrix $A$ has $n$ distinct eigenvalues $\lambda_1, \lambda_2, \dots, \lambda_n$, the corresponding eigenvectors $v_1, v_2, \dots, v_n$ are linearly independent
+
+>[!Important]
+>Algorithm for the iteration process $p(k+1)=Ap(k)$
+>1. Find the eigenvalues $\lambda_i$ of $A$
+>2. Find the corresponding eigenvectors $v_i$ of $A$
+>
+>If $A$ has $n$ linearly independent eigenvectors $v_1, v_2, \dots, v_n$, then
+>
+>3. Write the general solution as $p(k)=\alpha_1 \lambda_1^k v_1 + \dots + \alpha_n \lambda_n^k v_n$
+>4. Compute the coefficients $\alpha$ from the initial condition $p(0)=\alpha_1 v_1 + \dots + \alpha_n v_n$
+
+
+#### 3.3.3 Stationary and Stable Distributions
+
+>[!Warning]
+>I skipped the justification and went straight for the conclusion
+
+>[!Important]
+>The eigenvalue $\lambda$ of the iteration matrix having the highest absolute value is called the **dominant eigenvalue**, and the corresponding eigenvector is called the **stable distribution**
+
+#### 3.3.4 The Probability Matrix
+The iteration process
+
+$$
+p(k+1)=Mp(k)
+$$
+
+with 
+
+$$
+M=\begin{pmatrix} 0.9 & 0.2 \\ 0.1 & 0.8
+$$
