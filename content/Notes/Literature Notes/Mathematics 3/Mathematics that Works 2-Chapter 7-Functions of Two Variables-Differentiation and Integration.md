@@ -54,9 +54,36 @@ $$
 z=g(a)+g'(a)(x-a)
 $$
 
-Thus, the slope of the tangent line $RS$ (with $y=b$ fixed) is $g'(a)$. Hence, a first order approximation of the displacment along the graph of $f(x,y)$ in the x-direction, at a fixed value $y=b$ is
+Thus, the slope of the tangent line $RS$ (with $y=b$ fixed) is $g'(a)$. Hence, a first order approximation of the displacement along the graph of $f(x,y)$ in the x-direction, at a fixed value $y=b$ is
 
 $$
 f(x,y) \cong f(a,b) + g'(a)(x-a)
 $$
 
+Likewise, we intersect the graph of $f(x,y)$ with the vertical plane $x=a$, by taking $x$ fixed. The curve we obtain as a cross-section of the plane $x=a$ with $z=f(x,y)$ is again  the graph of the auxiliary function of one variable, now $y$:
+
+$$
+h(y)=f(a,y)
+$$
+
+The tangent line $TU$ of $f(x,y)$ in $P$ corresponds to the tangent line of $h(y)$ in $P$. It satisfies the equation
+
+$$
+z=h(b)+h'(b)(y-b)
+$$
+
+Now $h'(b)$ is the slope of the tangent line $TU$ at $x=a$ fixed. For a displacement along the graph of $f(x,y)$ in the y-direction, with a fixed value $x=a$, we find
+
+$$
+f(x,y) \cong f(a,b)+h'(b)(y-b)
+$$
+
+#### 7.1.3 Partial Derivatives
+The derivatives $g'(a)$ and $h'(b)$ that we used above can also be derived directly from the function $f(x,y)$. To find $g'(a)$, we differentiate $g(x)=f(x,b)$ with respect to $x$, and then we substitute the value $a$ for $x$. We obtain the same result by differentiating $f(x,y)$ with respect to $x$, treating $y$ as constant, followed by substitution of $a$ and $b$ for $x$ and $y$ respectively. 
+
+In a similar way we can find $h'(b)$, by differentiating $h(y)=f(a,y)$ with respect to $y$ and substituting $y=b$. This is also realised by differentiating $f(x,y)$ with respect to $y$ and treating $x$ as constant, after which we substitute the values $a$ and $b$ for $x$ and $y$ into the result. 
+
+The procedure of differentiating a function $f(x,y)$ with respect to $x$ while holding $y$ fixed is called [[Partial Differentiation]] with respect to $x$. The result is the **partial derivative** of $f(x,y)$ with respect to $x$. It is denoted by $f_x(x,y)$ or by $\frac{\partial}{\partial x}f(x,y)$
+
+>[!Example]
+>The partial derivatives of the functio
