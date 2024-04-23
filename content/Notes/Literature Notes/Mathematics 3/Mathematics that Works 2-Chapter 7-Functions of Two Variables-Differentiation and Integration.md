@@ -139,6 +139,38 @@ $$
 >We substitute the values calculated to find the equation for the tangent plane
 >
 >$$
->
+>\begin{aligned}
+>z &= 2 + 1\cdot (x-2) + -2 \cdot (y-1) \\
+>&= x-2y + 2
+>\end{aligned}
 >$$
 
+
+#### 7.1.5 Higher Order Partial Derivatives
+The partial derivatives $f_x(x,y)$ and $f_y(x,y)$ themselves are again functions of two variables. We may differentiate them again, with respect to $x$ or $y$. The result is one of the following four so-called **second order partial derivatives**
+- $f_{xx}(x,y)$
+- $f_{xy}(x,y)$
+- $f_{yy}(x,y)$
+- $f_{yx}(x,y)$
+
+This procedure may be continues, leading to third and higher order partial derivatives
+
+>[!Example]
+>The function $f(x,y)=x^n \ln(y)+ye^{2x}$ has two partial derivatives
+>
+>$$
+>\begin{aligned}
+>f_x(x,y)&=2x \ln(y) + 2ye^{2x} &\text{ and } f_y(x,y) &= \frac{x^2}{y}+e^{2x} \\
+>\end{aligned}
+>$$
+>
+>Differentiating once more yields four second order partial derivatives
+>
+>$$
+>\begin{aligned}
+>f_{xx}(x,y)&= 2\ln(y)+4ye^{2x} &\text{ and } f_{yx}(x,y)&= \frac{2x}{y}+2e^{2x} \\
+>f_{xy}(x,y)&= \frac{2x}{y}+2e^{2x} & \text{ and } f_{yy}(x,y) &= -\frac{x^2}{y^2}
+>\end{aligned}
+>$$
+
+In this example, $f_{xy}(x,y)$ appears to be e
