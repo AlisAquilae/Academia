@@ -86,4 +86,59 @@ In a similar way we can find $h'(b)$, by differentiating $h(y)=f(a,y)$ with resp
 The procedure of differentiating a function $f(x,y)$ with respect to $x$ while holding $y$ fixed is called [[Partial Differentiation]] with respect to $x$. The result is the **partial derivative** of $f(x,y)$ with respect to $x$. It is denoted by $f_x(x,y)$ or by $\frac{\partial}{\partial x}f(x,y)$
 
 >[!Example]
->The partial derivatives of the functio
+>The partial derivatives of the function $f(x,y)=xy^2 + y$ are
+>
+>$$
+>f_x(x,y)=y^2
+>$$
+>
+>and
+>
+>$$
+>f_y(x,y)=2xy+1
+>$$
+
+
+#### 7.1.4 The Equation for the Tangent Plane
+Substituting the partial derivative into the above expression for a displacement in the x-directiono with $y=b$ fixed, we obtain
+
+$$
+f(x,y) \cong f(a,b) + f_x(a,b)(x-a)
+$$
+
+Similarly, the expression for a displacement in the y-direction with $x=a$ fixed becomes
+
+$$
+f(x,y) \cong f(a,b)+f_y(a,b)(y-b)
+$$
+
+The first order approximation of the function $f(x,y)$ of two variables is found by varying both $x$ and $y$ simultaneously, starting in the point $(a,b)$. It turns out that in a first order approximation we can simply add the effect of the variation of $x$ and that of the variation of $y$
+
+The first order approximation of $f(x,y)$ about the point $(a,b,f(a,b))$ becomes
+
+$$
+f(x,y) \cong f(a,b)+f_x(a,b)(x-a) + f_y(a,b)(y-b)
+$$
+
+The graph of the function at the right hand side is the **tangent plane** of $f(x,y)$ through the point $(a,b,f(a,b))$. An equation of the tangent plane is
+
+$$
+z = f(a,b)+f_x(a,b)(x-a) + f_y(a,b)(y-b)
+$$
+
+>[!Example]
+>We set up an equation for the tangent plane of $f(x,y)=x/y$ at the point $(2,1)$. First we compute the function value, $z=f(2,1)=2$. Next, the partial derivatives
+>
+>$$
+>\begin{aligned}
+>f_x(x,y) &= 1/y &\Rightarrow f_x(2,1)&=1\\
+>f_y(x,y) &= -x/y^2 &\Rightarrow f_y(2,1) &= -2
+>\end{aligned}
+>$$
+>
+>We substitute the values calculated to find the equation for the tangent plane
+>
+>$$
+>
+>$$
+
