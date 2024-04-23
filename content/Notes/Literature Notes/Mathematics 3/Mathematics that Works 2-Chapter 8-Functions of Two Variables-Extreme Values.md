@@ -54,7 +54,32 @@ $$
 >
 >$$
 >\left\{
->\begin{array}
->y()
+>\begin{array}{ll}
+>y(6x+y-6)&=0 \\
+>x(3x+2y-6) &= 0
+>\end{array}
+>\right. \Rightarrow
+>\left\{
+>\begin{array}{ll}
+>y &=0 \\
+>6x + y -6 &= 0 \\
+>x &= 0 \\
+>3x + 2y -6 &= 0
+>\end{array}
+>\right.
 >$$
+>
+>Both $f_x(x,y)$ and $f_y(x,y)$ are zero if one of the factors is zero. Combining the two possibilities for $f_x(x,y)=0$ and the two possibilities for $f_y(x,y)=0$ gives rise to four different possibilities for a stationary point
+>
+>$$
+>\begin{aligned}
+>a&: \left\{
+>\begin{array}[ll]
+>y=0 \\
+>x=0
+>\end{array}
+>\right. 
+>$$
+
+
 
