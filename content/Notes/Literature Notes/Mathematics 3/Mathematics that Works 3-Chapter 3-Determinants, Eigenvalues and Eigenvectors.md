@@ -520,5 +520,19 @@ $$
 with 
 
 $$
-M=\begin{pmatrix} 0.9 & 0.2 \\ 0.1 & 0.8
+M=\begin{pmatrix} 0.9 & 0.2 \\ 0.1 & 0.8 \end{pmatrix}
 $$
+
+describes the distribution of a population over "city" and "countryside"
+
+We can read the number 0.9 in the matrix $M$ as the probability that a city dweller stays in the city for another year; then the number 0.1 is the probability that he moves to the country in this year. The other entries of $M$ have a similar interpretation. 
+
+We can also interpret the coordinates of the vector $p$ as probabilities. If $p(0)$ contains the probabilities that a person initially lives in the town or the countryside, then the coordinates of $p(k)$ give the probabilities that he lives in the city or in the countryside in year $k$. Of course, these probabilities add up to 1. Furthermore, the probabilities in the year $k+1$ depend only on the probabilities in the year $k$. 
+
+>[!Note]
+>Notice that the columns of $M$ add up to 1 as well. This causes the probabilities in $p(k)$ to keep adding up to 1, for any $k$ (as probabilities should). Moreover, the entries of $M$ are always greater than (or equal to) 0
+
+This can easily be generalised to iteration processes having $n$ instead of 2 outcomes; then $p(k)$ is a vector in $R^n$. Such a process is called a [[Markov Process]] and the transition matrix (an $n\times n$ matrix) is called the **probability matrix**. The entries of a probability matrix represent transition probabilities, with values $0$ and $1$. Moreover, all columns add up to $1$, because the sum of the transition probabilities in a column is always $1$. 
+
+Any probability matrix has an eigenvalue $1$, and this eigenvalue is dominant. To this eigenvalue, an eigenvector corresponds having non-negative coordinates. 
+
