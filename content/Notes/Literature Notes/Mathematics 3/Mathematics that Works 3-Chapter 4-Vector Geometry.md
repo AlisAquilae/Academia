@@ -272,6 +272,20 @@ The matrix $A^TA$ is called the [[Gram Matrix]] of $A$, and the system $A^TAu=A^
 >$$
 >\begin{aligned}
 >y_v&=\alpha a + \beta b \\
->&= 2 \begin{pmatrix} 2 \\ 1 \\ 0 \end{pmatrix} + 3 \begin{pmatrix} -1 \\ 1 \\ 0 \end{pmatrix}
+>&= 2 \begin{pmatrix} 2 \\ 1 \\ 0 \end{pmatrix} + 3 \begin{pmatrix} -1 \\ 1 \\ 0 \end{pmatrix} \\
+>&= \begin{pmatrix} 1 \\ 5 \\ 0 \end{pmatrix} \\
+>y_v &= \begin{pmatrix} 2 & -1 \\ 1 & 1 \\ 0 & 0 \end{pmatrix} \begin{pmatrix} 2 \\ 3 \end{pmatrix} \\
 >&= \begin{pmatrix} 1 \\ 5 \\ 0 \end{pmatrix}
+>\end{aligned}
 >$$
+>
+>For verification we check that $y-y_v$ is orthogonal to $a$ and $b$.
+>
+>$$
+>y-y_v = \begin{pmatrix}1\\5\\3\end{pmatrix} - \begin{pmatrix} 1\\5\\0 \end{pmatrix} = \begin{pmatrix} 0\\0\\3 \end{pmatrix}
+>$$
+>
+>so $(y-y_v,a) = 0$ (that is right) and $(y-y_v, b)=0$ (and that is right again)
+
+#### 4.2.2 Overdetermined Systems of Equations
+A system of linear equations is **overdetermined** if the number of its equations is larger than the number of unknowns. Such a system is often inconsistent
