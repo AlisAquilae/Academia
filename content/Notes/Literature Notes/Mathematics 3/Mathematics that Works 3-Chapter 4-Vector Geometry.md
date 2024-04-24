@@ -236,3 +236,42 @@ The matrix $A^TA$ is called the [[Gram Matrix]] of $A$, and the system $A^TAu=A^
 >1 & 1 \\ 0 & 0
 >\end{pmatrix}, u= \begin{pmatrix}\alpha \\ \beta \end{pmatrix}, y =\begin{pmatrix} 1\\5\\3 \end{pmatrix}
 >$$
+>
+>>[!Note]
+>>Note that the first column of $A$ is $a$, and the second column of $A$ is $b$
+>
+>First we compute $A^TA$ and $A^Ty$
+>
+>$$
+>\begin{aligned}
+>A^TA &= \begin{pmatrix} 2 & 1 & 0 \\ -1 & 1 & 0 \end{pmatrix}
+>\begin{pmatrix} 2 & -1 \\ 1 & 1 \\ 0 & 0 \end{pmatrix} \\
+>&= \begin{pmatrix} 5 & -1 \\ -1 & 2 \end{pmatrix} \\
+>A^Ty &= \begin{pmatrix} 2 & 1 & 0 \\ -1 & 1 & 0 \end{pmatrix}
+>\begin{pmatrix} 1 \\ 5 \\ 3 \end{pmatrix} \\
+>&= \begin{pmatrix} 7 \\ 4 \end{pmatrix}
+>\end{aligned}
+>$$
+>
+>The coefficients $\alpha$ and $\beta$ are found by solving the normal equations $A^TA=A^Ty$. These are 2 equations with 3 unknowns
+>
+>$$
+>\begin{pmatrix} 5 & -1 \\ -1 & 2 \end{pmatrix}
+>\begin{pmatrix} \alpha \\ \beta \end{pmatrix}=
+>\begin{pmatrix} 7 \\ 4 \end{pmatrix} \Rightarrow
+>\left\{
+>\begin{array}{ll}
+>5\alpha -1\beta &= 7 \\
+>-1\alpha +2\beta &= 4
+>\end{array}
+>\right.
+>$$
+>
+>With substitution, we first find $\beta=3$ and next $\alpha=2$. The projection vector $y_v$ can now be found either as a linear combination of $a$ and $b$ or as a matrix-vector product $Au$
+>
+>$$
+>\begin{aligned}
+>y_v&=\alpha a + \beta b \\
+>&= 2 \begin{pmatrix} 2 \\ 1 \\ 0 \end{pmatrix} + 3 \begin{pmatrix} -1 \\ 1 \\ 0 \end{pmatrix}
+>&= \begin{pmatrix} 1 \\ 5 \\ 0 \end{pmatrix}
+>$$
