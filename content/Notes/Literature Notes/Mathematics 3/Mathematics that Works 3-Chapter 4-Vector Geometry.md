@@ -158,4 +158,32 @@ Imagine a subspace $V$ as well as a vector $y$ not belonging to $V$. Now, we set
 
 ---
 ### 4.2 Projection and Regression
-Many mathematical problems can be reduced to finding the vector $y_v$ in a subspace $V$ that gas the smallest distance to a given vector $y$. This vector $y_v$ is called the **projection** of $y$ onto subspace $V$, and it is the best approximation of $y$ with a vector $V$. 
+Many mathematical problems can be reduced to finding the vector $y_v$ in a subspace $V$ that gas the smallest distance to a given vector $y$. This vector $y_v$ is called the **projection** of $y$ onto subspace $V$, and it is the best approximation of $y$ with a vector $V$. We already found that $y_v$ is such that $y-y_v$ is orthogonal to any vector $v$ in $V$. Now we will use this property to compute $y_v$. 
+
+>[!Warning]
+>I skipped the justification and went straight for the conclusion
+
+The projection $y_l$ of a vector $y$ in $R^n$ onto the line $l$ spanned by the vector $a$ in $R^n$ is $y_l=\alpha a$, where $(a,a)\alpha = (a,y)$
+
+>[!Example]
+>We consider two vectors $y$ and $a$ in $R^3$
+>
+>$$
+>y= \begin{pmatrix}
+>3 \\ 1 \\ 2
+>\end{pmatrix} \text{ and } a=\begin{pmatrix}
+>1\\1\\0
+>\end{pmatrix}
+>$$
+>
+>and we look for the projection $y_l$ onto the line $l$ spanned by $a$
+>
+>$$
+>l: x=\lambda a
+>$$
+>
+>This projection $y_l$ is a multiple of $a$, say $y_l=\alpha a$. Now we have to choose $\alpha$ such that the difference vector $y-y_l$ is orthogonal to $l$, that is to say, such that $y-y_l$ is orthogonal to $a$
+>
+>We now use the formula mentioned above: $(a,a)\alpha = (a,y)$. With $(a,a)=2$ and $(a,y)=4$ we find that $\alpg
+
+
