@@ -205,8 +205,34 @@ $$
 #### 4.2.1 Projection Onto a Subspace
 The projection of the vector $y$ in $R^n$ onto the subspace $V$ spanned by $v_1, v_2, \dots, v_k$ is determined in the same way as the projection onto a line. We now look for the coefficients $\alpha_1, \alpha_2, \dots, \alpha_k$ for which the linear combination $y_v=\alpha_1v_1 + \alpha_2v_2 +\dots+\alpha_kv_k$ is as close to $y$ as possible. By regarding the vectors $v_1, v_2, \dots, v_k$ as columns of a matrix $A$ we can view $y_v$ as a matrix-vector product. 
 
-The projection $y_v$ of the vector $y$ onto the subspace $V$ is
+The projection $y_v$ of the vector $y$ onto the subspace $V$ is $y_v=Au$, where $u$ is the solution of 
 
+$$
+A^TAu=A^Ty
+$$
 
+and $A$ is the matrix of which the columns are the vectors that span $V$
 
+The matrix $A^TA$ is called the [[Gram Matrix]] of $A$, and the system $A^TAu=A^Ty$ is the system of **normal equations**
 
+>[!Example]
+>We consider the vectors $a$, $b$, and $y$ in $R^3$ with
+>
+>$$
+>a=\begin{pmatrix}
+>2\\1\\0 
+>\end{pmatrix}, b= \begin{pmatrix}
+>-1\\1\\0 
+>\end{pmatrix}, y=\begin{pmatrix}
+>1\\5\\3 
+>\end{pmatrix}
+>$$
+>
+>For the projection $y_v=\alpha a + \beta b$ of $y$ onto the plane $V$ through $a$ and $b$ we use 
+>
+>$$
+>A=\begin{pmatrix}
+>2 & -1 \\
+>1 & 1 \\ 0 & 0
+>\end{pmatrix}, u= \begin{pmatrix}\alpha \\ \beta \end{pmatrix}, y =\begin{pmatrix} 1\\5\\3 \end{pmatrix}
+>$$
