@@ -184,6 +184,29 @@ The projection $y_l$ of a vector $y$ in $R^n$ onto the line $l$ spanned by the v
 >
 >This projection $y_l$ is a multiple of $a$, say $y_l=\alpha a$. Now we have to choose $\alpha$ such that the difference vector $y-y_l$ is orthogonal to $l$, that is to say, such that $y-y_l$ is orthogonal to $a$
 >
->We now use the formula mentioned above: $(a,a)\alpha = (a,y)$. With $(a,a)=2$ and $(a,y)=4$ we find that $\alpg
+>We now use the formula mentioned above: $(a,a)\alpha = (a,y)$. With $(a,a)=2$ and $(a,y)=4$ we find that $\alpha = 2$. Thus,
+>
+>$$
+>y_l = \alpha a = 2 \begin{pmatrix} 1 \\ 1\\ 0\end{pmatrix} = \begin{pmatrix}2\\2\\0 \end{pmatrix}
+>$$
+>
+>and
+>
+>$$
+>y-y_l = \begin{pmatrix}3 \\ 1 \\ 2 \end{pmatrix} - \begin{pmatrix} 2\\2\\0 \end{pmatrix}=\begin{pmatrix} 1\\-1\\2 \end{pmatrix}
+>$$
+
+By replacing inner products with multiplications with the transpose vectors we obtain: the projection $y_l$ of a vector $y$ onto the line $l$ spanned by $a$ is
+
+$$
+y_l=\alpha a \text{ where }a^T a\alpha = a^T y
+$$
+
+#### 4.2.1 Projection Onto a Subspace
+The projection of the vector $y$ in $R^n$ onto the subspace $V$ spanned by $v_1, v_2, \dots, v_k$ is determined in the same way as the projection onto a line. We now look for the coefficients $\alpha_1, \alpha_2, \dots, \alpha_k$ for which the linear combination $y_v=\alpha_1v_1 + \alpha_2v_2 +\dots+\alpha_kv_k$ is as close to $y$ as possible. By regarding the vectors $v_1, v_2, \dots, v_k$ as columns of a matrix $A$ we can view $y_v$ as a matrix-vector product. 
+
+The projection $y_v$ of the vector $y$ onto the subspace $V$ is
+
+
 
 
