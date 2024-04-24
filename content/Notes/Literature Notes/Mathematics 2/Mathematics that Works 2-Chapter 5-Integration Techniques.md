@@ -214,7 +214,12 @@ In this way, we may try to simplify our problem
 >Algorithm for Integration by Parts:
 >1. The integrand can be decomposed as the product of two functions
 >2. Identify one of the factors as a derivative by writing the integrand in the form of $f(x)g'(x)$
->3. Set up a scheme: $\left\{\begin{array}f(x) = \dots \Rightarrow f'(x) = \dots \\ g'(x)=\dots \Rightarrow g(x)=\dots \end{array}\right.$
+>3. Set up a scheme: 
+>   
+>   $$
+>   \left\{\begin{array}f(x) = \dots \Rightarrow f'(x) = \dots \\ g'(x)=\dots \Rightarrow g(x)=\dots \end{array}\right.
+>   $$
+>   
 >4. Apply the rule $\int f(x)g'(x) dx = f(x)g(x) + f'(x)g(x)dx$
 >5. Finally, find $\int f'(x)g(x)dx$ 
 
