@@ -238,7 +238,7 @@ The matrix $A^TA$ is called the [[Gram Matrix]] of $A$, and the system $A^TAu=A^
 >$$
 >
 >>[!Note]
->>Note that the first column of $A$ is $a$, and the second column of $A$ is $b$
+>>Note that the first column of A is a, and the second column of A is b
 >
 >First we compute $A^TA$ and $A^Ty$
 >
