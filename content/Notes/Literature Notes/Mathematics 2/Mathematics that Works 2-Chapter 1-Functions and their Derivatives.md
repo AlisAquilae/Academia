@@ -236,7 +236,7 @@ $$
 y=f(a)+f'(a)(x-a)
 $$
 
-#### 1.4.4 Increasing and Decreasing; Local Extremes
+#### 1.4.4 Increasing and Decreasing: Local Extremes
 The derivative $f'(a)$ of $f(x)$ at $x=a$ is the slope of the graph of $f(x)$ at $x=a$. Hence,
 - $f'(a) \gt 0 \Rightarrow f(x) \text{ is increasing at }x=a$
 - $f'(a) \lt 0 \Rightarrow f(x) \text{ is decreasing at }x=a$
