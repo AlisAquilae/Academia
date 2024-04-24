@@ -209,16 +209,16 @@ Finding the derivative directly from the definition is a laborious task. Differe
 
 Below we give a table of derivatives of a number of standard functions
 
-| Function          | Derivative                  |
-| ----------------- | --------------------------- |
-| $f(x)=a$          | $f'(x)=0$                   |
-| $f(x)=x^a$        | $f'(x)=ax^{n-1}$            |
-| $f(x)=\ln(x)$     | $f'(x)=\frac{1}{x}$         |
-| $f(x)=e^x=exp(x)$ | $f'(x)=e^x$                 |
-| $f(x)=a^x$        | $f'(x)=a^x \ln(a)$          |
-| $f(x)=\sin(x)$    | $f'(x)=\cos(x)$             |
-| $f(x)=cos(x)$     | $f'(x)=-sin(x)$             |
-| $f(x)=\tan(x)$    | $f'(x)=\frac{1}{\cos(x)^2}$ |
+| Function           | Derivative                  |
+| ------------------ | --------------------------- |
+| $f(x)=a$           | $f'(x)=0$                   |
+| $f(x)=x^a$         | $f'(x)=ax^{n-1}$            |
+| $f(x)=\ln(x)$      | $f'(x)=\frac{1}{x}$         |
+| $f(x)=e^x=\exp(x)$ | $f'(x)=e^x$                 |
+| $f(x)=a^x$         | $f'(x)=a^x \ln(a)$          |
+| $f(x)=\sin(x)$     | $f'(x)=\cos(x)$             |
+| $f(x)=\cos(x)$     | $f'(x)=-\sin(x)$            |
+| $f(x)=\tan(x)$     | $f'(x)=\frac{1}{\cos(x)^2}$ |
 Combining these standard functions by taking sums, products, or quotients, we can build up more complicated functions. Here the following rules apply
 
 - Constant factor rule: $[cf(x)]'=cf'(x)$
