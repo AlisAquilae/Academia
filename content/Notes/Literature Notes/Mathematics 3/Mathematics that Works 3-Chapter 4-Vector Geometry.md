@@ -200,6 +200,12 @@ A measure of the spread of the data around the mean is the **standard deviation*
 >s_v = \sqrt{s_v^2} = \sqrt{28.7}=5.357
 >$$
 
+The **correlation** between two vectors, then, is the angle between the deviations of these vectors to their means. In other words (and based on the formula for the angle between vectors described above),
+
+$$
+\rho_{xy}=\frac{(x-\bar{x}q, y-\bar{y}q)}{|x-\bar{x}q||y-\bar{y}q|}
+$$
+
 
 ---
 ### 4.2 Projection and Regression
