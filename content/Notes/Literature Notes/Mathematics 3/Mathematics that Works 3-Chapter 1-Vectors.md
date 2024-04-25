@@ -288,6 +288,7 @@ We have seen an example of a linear system having a single solution, and an exam
 
 ---
 ### 1.2 Vectors, Lines and Planes
+#### 1.2.1 Vectors and Vector Operations
 The position of point X in the plane can be identified by two coordinates $x_1$ and $x_2$, so $X=(x_1, x_2)$. In order to facilitate computations with these coordinates, we mostly do not use the point $X$ itself, but a [[Vector]] $x$.
 
 $$
@@ -351,7 +352,7 @@ $$
 
 The vectors with three coordinates together constitute the vector space $R^3$. 
 
-#### 1.2.1 Vectors in $R^n$
+#### 1.2.2 Vectors in $R^n$
 The sum of two vectors and the product of a vector with a number can be generalised to an arbitrary number of coordinates. Thus we write
 
 $$
@@ -365,7 +366,7 @@ b_1 \\ b_2 \\ \vdots \\ b_n
 \end{pmatrix}
 $$
 
-#### 1.2.2 Lines
+#### 1.2.3 Lines
 
 >[!Example]
 >The point $A=(3,1)$ in the plane has a position vector 
@@ -472,7 +473,7 @@ Often, a line is determined by two points, instead of one point and a direction.
 >- $x=b+\lambda a$ represents a line through $B$ and parallel to $a$
 >- $x=b+\lambda (a-b)$ represents a line through $A$ and $B$
 
-#### 1.2.3 Planes
+#### 1.2.4 Planes
 Consider 2 points, A and B, with their position vectors
 
 $$
@@ -604,7 +605,7 @@ $$
 >- $x=c+\lambda a + \mu b$ represents a plane through $C$ and parallel to $a$ and $b$
 >- $x=c+\lambda (a-c) + \mu (b-c)$ represents a plane through $A$, $B$ and $C$
 
-#### 1.2.4 Vectors as Solutions of Systems of Equations
+#### 1.2.5 Vectors as Solutions of Systems of Equations
 Vectors are frequently used to present the solution of a system of equations in a well-structured manner. This yields a nice geometric interpretation of the solution(s)
 
 >[!Example]
