@@ -760,7 +760,7 @@ To determine whether a vector $x$ is a linear combination of a line $l$ or plane
 >\begin{pmatrix}
 >1 \\1\\1
 >\end{pmatrix}
->, c=
+>, v=
 >\begin{pmatrix}
 >1\\0\\2
 >\end{pmatrix}
