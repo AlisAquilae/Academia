@@ -266,7 +266,7 @@ We have seen an example of a linear system having a single solution, and an exam
 >\left\{
 >\begin{array}{ll}
 >2\alpha + 1\beta + 1\gamma &= 1 \\
->0\alpha + 1\beta - 1\gamma &= 3 \\
+>0\alpha + 1\beta - 1\gamma &= 2 \\
 >0\alpha + 0\beta + 0\gamma &= 0
 >\end{array}
 >\right.
@@ -288,7 +288,7 @@ We have seen an example of a linear system having a single solution, and an exam
 
 ---
 ### 1.2 Vectors, Lines and Planes
-The position of point X in the plane can be identified by two coordinates $x_1$ and $x_2$, so $X=(x_1, x_2)$. In order to facilitate computations with these coordinates, we mostly do not use the point $X$ itself, but a **Vector** $x$.
+The position of point X in the plane can be identified by two coordinates $x_1$ and $x_2$, so $X=(x_1, x_2)$. In order to facilitate computations with these coordinates, we mostly do not use the point $X$ itself, but a [[Vector]] $x$.
 
 $$
 x=
@@ -300,7 +300,7 @@ $$
 >[!Info]
 >Geometrically, we can represent such a vector as an arrow
 
-A vector in the place is a column with two numbers; these numbers are the **coordinates** of the vector. A vector $x$ with the same coordinates as a point $X$ is the **position vector** of $X$. 
+A vector in the place is a column with two numbers; these numbers are the **coordinates** of the vector. A vector $x$ with the same coordinates as a point $X$ is the [[Position Vector]] of $X$. 
 
 To each vector $x=\begin{pmatrix} x_1 \\ x_2 \end{pmatrix}$ in the plane corresponds an arrow with a certain length and direction. If this arrow starts at the origin $O$, it ends at the point $X=(x_1, x_2)$
 
