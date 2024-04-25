@@ -167,7 +167,38 @@ $$
 \bar{x}=\frac{1}{n}(x_1+x_2+\dots+x_n)
 $$
 
-The **deviation** of the data to the mean is found by subtracting the mean from each observed value. In vector notation, we use the vector $q$ having 1 for all coordinated, multiply it by the mean, and substract the result from the sample vector
+The **deviation** of the data to the mean is found by subtracting the mean from each observed value. In vector notation, we use the vector $q$ having 1 for all coordinated, multiply it by the mean, and subtract the result from the sample vector
+
+>[!Example]
+>
+>$$
+>v-\bar{v}q=\begin{pmatrix}4\\16\\2\\12\\5\\6 \end{pmatrix}-7.5\begin{pmatrix}1\\1\\1\\1\\1\\1 \end{pmatrix} = 
+>\begin{pmatrix}-3.5\\8.5\\-5.5\\4.5\\-2.5\\-1.5 \end{pmatrix}
+>$$
+
+>[!Note]
+>Notice that these vectors of deviations always have mean 0
+
+From the length of the vector of deviations, we obtain the **sample variance** $s^2$. This is found by squaring the length of the vector of deviations, and dividing the result by the number of observations minus 1
+
+>[!Example]
+>
+>$$
+>\begin{aligned}
+>|v-\bar{v}q|^2&=(-3.5)^2 +(8.5)^2 + (-5.5)^2 +(4.5)^2 +(-2.5)^2 + (-1.5)^2 \\
+> &=143.5 \\
+> s^2_v &= \frac{143.5}{6-1} \\
+> &= 28.7
+> \end{aligned}
+>$$
+
+A measure of the spread of the data around the mean is the **standard deviation**, which is the square root of the variance. 
+
+>[!Example]
+>
+>$$
+>s_v = \sqrt{s_v^2} = \sqrt{28.7}=5.357
+>$$
 
 
 ---
