@@ -68,7 +68,7 @@ $$
 For any $n \times k$ matrix $A$ and any vectors $x$ in $R^k$ and $y$ in $R^n$,
 
 $$
-(Ax, y) = x, (A^Ty)
+(Ax, y) = (x, A^Ty)
 $$
 
 #### 4.1.2 Length and Distance
