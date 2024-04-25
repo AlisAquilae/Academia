@@ -156,6 +156,20 @@ Imagine a subspace $V$ as well as a vector $y$ not belonging to $V$. Now, we set
 - The projection $y_v$ of $y$ onto $V$ is such that $y-y_v$ is orthogonal to any vector $v$ in $V$. 
 - The distance of $y$ to $V$ is $|y-y_v|$, where $y_v$ is the projection of $y$ onto $V$
 
+#### 4.1.5 Sample Vectors and Correlation
+
+>[!Warning]
+>I skipped through this end went straight for the formulas
+
+The **mean** of a sample vector is 
+
+$$
+\bar{x}=\frac{1}{n}(x_1+x_2+\dots+x_n)
+$$
+
+The **deviation** of the data to the mean is found by subtracting the mean from each observed value. In vector notation, we use the vector $q$ having 1 for all coordinated, multiply it by the mean, and substract the result from the sample vector
+
+
 ---
 ### 4.2 Projection and Regression
 Many mathematical problems can be reduced to finding the vector $y_v$ in a subspace $V$ that gas the smallest distance to a given vector $y$. This vector $y_v$ is called the **projection** of $y$ onto subspace $V$, and it is the best approximation of $y$ with a vector $V$. We already found that $y_v$ is such that $y-y_v$ is orthogonal to any vector $v$ in $V$. Now we will use this property to compute $y_v$. 
