@@ -614,7 +614,7 @@ Vectors are frequently used to present the solution of a system of equations in 
 >$$
 >\left\{
 >\begin{array}{ll}
->1_x1 + 0x_2 + 2x_3 &= 2 \\
+>1x_1 + 0x_2 + 2x_3 &= 2 \\
 >2x_1 - 1x_2 + 1x_3 &= 3 \\
 >-1x_1 + 1x_2 + 0x_3 &= 1
 >\end{array}
