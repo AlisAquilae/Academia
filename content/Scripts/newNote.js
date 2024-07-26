@@ -1,4 +1,4 @@
-async function newNote () {
+async function newNote() {
     // Load Templater API
     const templater = app.plugins.plugins["templater-obsidian"].templater;
     const tp = templater.current_functions_object;
@@ -6,16 +6,16 @@ async function newNote () {
     let course;
     let noteType;
     let noteSubType;
-    
+
     // Clear file path
     await tp.file.move("/" + tp.file.title);
-    
+
     // Filter out media files and send them to their own folder
     if (tp.file.path(true).includes(".jpg") || tp.file.path(true).includes(".png")) {
         (await tp.file.move("/Media/" + tp.file.title));
     } else {
         // Suggester for course selection
-        course = await tp.system.suggester(["Water 1", "Water 2", "Mathematics 2", "Mathematics 3"], ["Water 1", "Water 2", "Mathematics 2", "Mathematics 3"], true);
+        course = await tp.system.suggester(["Water 1", "Water 2", "Mathematics 2", "Mathematics 3", "General Physics"], ["Water 1", "Water 2", "Mathematics 2", "Mathematics 3", "General Physics"], true);
 
         // Find note type base
         noteType = await tp.system.suggester(["Courses", "Notes", "Terminology", "Questions"], ["Courses", "Notes", "Terminology", "Questions"], true);
@@ -32,13 +32,13 @@ async function newNote () {
         } else if (noteType == 'Notes') {
             noteSubType = await tp.system.suggester(["Lecture Notes", "Literature Notes", "Summaries", "Project Notes", "Meeting Notes", "Writing Notes"], ["Lecture Notes", "Literature Notes", "Summaries", "Project Notes", "Meeting Notes", "Writing Notes"], true);
             await tp.file.move("/" + noteType + "/" + noteSubType + "/" + course + "/" + tp.file.title);
-        } else { window.alert("Error: Something went wrong in the note type selection");};
+        } else { window.alert("Error: Something went wrong in the note type selection"); };
     };
 
     // Update noteType based on whether noteSubType was defined
     if (noteSubType != undefined && noteSubType !== null) {
         noteType = noteSubType;
-    }; 
+    };
 
     // Define frontmatter based on noteType
     switch (noteType) {
