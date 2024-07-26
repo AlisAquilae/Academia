@@ -35,7 +35,7 @@ $$
 
 The graph of a linear function is a straight line.
 
-A special case arises where $b=0$. In this case, the graph is a traight line through the origin (0, 0). Another special case arises when $a=0$. Then, $f$(x) does not depend on x at all; we call it a **constant function**. The graph of a constant function is the horizontal straight line $y=b$. 
+A special case arises where $b=0$. In this case, the graph is a straight line through the origin (0, 0). Another special case arises when $a=0$. Then, $f$(x) does not depend on x at all; we call it a **constant function**. The graph of a constant function is the horizontal straight line $y=b$. 
 
 >[!Note]
 >If $a=0$ and $b=0$, this line coincides with the x-axis
