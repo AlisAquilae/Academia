@@ -1,12 +1,12 @@
 ---
 fileClass: Base, Summaries
 title: 
-Parents: 
+Parents: ["[[Mathematics 2]]"]
 Draft: 
-Status: 
+Status: Done
 Related Notes: 
 Related Terminology: 
-Related Courses: 
+Related Courses: ["[[Mathematics 2]]"]
 ---
 # 1. Functions and their Derivatives
 ## 1.1 Introduction
