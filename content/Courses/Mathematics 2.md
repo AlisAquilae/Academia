@@ -30,4 +30,6 @@ The literature for this course consists of *Mathematics that Works Volume 2* (20
 - [[Mathematics that Works 2-Chapter 6-Differential Equations]]
 
 # 🔗 Summaries
-Since the literature which the summaries are based on are divided into 3, the summaries have been divided as well.
+There is no sub-dividing the course content into smaller parts. There is therefore only one summary for the entire course.
+
+- [[Mathematics 2 Summary]]

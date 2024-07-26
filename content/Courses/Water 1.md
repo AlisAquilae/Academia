@@ -52,7 +52,8 @@ An ecosystem is composed of biotic communities that are structured by biological
 
 This chapter explains the basics of aquatic ecology and water quality. First, the most important aquatic organisms are introduced (Sec. 3.1), followed by abiotic environmental factors: chemical compounds (Sec. 3.2) and light (Sec. 3.3). Next, we discuss the effect of abiotic conditions on flora (Secs. 3.4 and 3.5) and the interactions between abiotic conditions, flora and fauna (Secs 3.6 and 3.7), using shallow lakes as an example. Finally, some concepts for running waters are explained (Sec. 3.8). 
 
->[!No]
+>[!Note]
+>Water quality is not my strong suit, and I had a lot of difficulty keeping up with this part. I therefore did not manage to take a lot of notes, since I mostly just skipped it
 
 - [[Reader Water 1-Chapter 3.1-The Aquatic Ecosystem]]
 - [[Reader Water 1-Chapter 3.2-Chemical Compounds]]
