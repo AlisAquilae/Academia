@@ -6,10 +6,16 @@ import { QuartzTransformerPlugin } from "../types"
 
 interface Options {
   renderEngine: "katex" | "mathjax"
+  customMacros: MacroType
 }
 
-export const Latex: QuartzTransformerPlugin<Options> = (opts?: Options) => {
+interface MacroType {
+  [key: string]: string
+}
+
+export const Latex: QuartzTransformerPlugin<Partial<Options>> = (opts) => {
   const engine = opts?.renderEngine ?? "katex"
+  const macros = opts?.customMacros ?? {}
   return {
     name: "Latex",
     markdownPlugins() {
@@ -17,9 +23,9 @@ export const Latex: QuartzTransformerPlugin<Options> = (opts?: Options) => {
     },
     htmlPlugins() {
       if (engine === "katex") {
-        return [[rehypeKatex, { output: "html" }]]
+        return [[rehypeKatex, { output: "html", macros }]]
       } else {
-        return [rehypeMathjax]
+        return [[rehypeMathjax, { macros }]]
       }
     },
     externalResources() {
