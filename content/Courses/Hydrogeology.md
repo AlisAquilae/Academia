@@ -12,7 +12,7 @@ Year: 2024
 ---
 
 # 🔎 Introduction
-The course presents an overview of the role of soil and water in the landscape. Central topic is the diversity and coherence in space and time, especially the factors that determine the role of water for human use and nature.
+This course consists of three main parts 1) an exploration of the field of hydrogeology, and an explanation and application of its main principles; 2) an introduction to the numerical modeling of groundwater flow with examples from a variety of geological settings; 3) a course demonstrating hydrogeological field data collection and interpretation.
 
 # 📖 Course Material
 The literature for this course consists of a reader which has been divided into 3 parts
