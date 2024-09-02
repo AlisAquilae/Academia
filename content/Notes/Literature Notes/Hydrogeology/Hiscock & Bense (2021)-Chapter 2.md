@@ -1,0 +1,24 @@
+---
+fileClass: Base, Literature Notes
+title: 
+Parents: ["[[Hiscock & Bense (2021)-Hydrogeology-Principles and Practice]]"]
+Draft: 
+Status: In Progress
+Authors: Hiscock & Bense
+Year of Publication: 2021
+Related Notes: 
+Related Terminology: 
+Related Courses: ["[[Hydrogeology]]"]
+---
+
+>[!Note]
+>Before I engage with the content of this chapter, it is important to note that only specific sections of the chapter were relevant for the purposes of the course in which this book was used. Specifically:
+>- Sections 2.2, 2.3, 2.4 and 2.5 discuss the material covered in class on porosity and hydraulic conductivity
+>- Section 2.6 only the first paragraph was covered in class. The rest of this section is beyond the scope of the course
+>- Section 2.7 provides a more extensive discussion of the concept of hydraulic head than was presented in class.
+>- The same goes for Section 2.8. This was similarly discussed in class, but not as extensively
+>- Storage and release of storage from unconfined and confined aquifers as discussed in Section 2.9.1 goes beyond what was discussed in class
+>- The sets of equations presented in Section 2.11 serve as the basis for numerical modelling that is worked on during the practicals. These do not need to be reproduced in an exam. 
+>- Section 2.13 builds further on the concept of groundwater glow systems on various scales (local, intermediate, regional) introduced in class
+>- Other sections in chapter 2 and boxes are, of course, of interest but were not discussed in class and are not part of what is assumed knowledge for the exam of the course. 
+
