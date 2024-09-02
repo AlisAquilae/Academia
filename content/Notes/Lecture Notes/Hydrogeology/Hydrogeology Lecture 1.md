@@ -38,4 +38,27 @@ Meanwhile, groundwater supplied around 65% of all of Europe's drinking water
 
 Sustainable yield relates to the water balance concept. Say a system has an upper and lower aquifer. We have inpyut as snowfall and precipitation, This evaporates, is transpired by crops, or goes as overland flow to the surface water. Part is recharged to the surface water. Part of the recharge, again, goes to surface water through baseflow. This is called environmental demands. Then, we have social-economic demand, such as water supply and irrigation
 
-If the socio-economic demand is highier than the recharge minus the environmental demand, we have unsustainable yield. 
+If the socio-economic demand is highier than the recharge minus the environmental demand, we have unsustainable yield / development. 
+
+Consequences of groundwater depletion
+- Agriculture increasingly deends irrigation waters as a result of dropping water tables
+- Land-subsidence in unconsolidated aquifers due to reducing water pressure
+- Increasing energy costs to ligt eater from deep aquifers
+- Quality of pumped water deteriorates as deeper water is often saline
+- Effluent water (baseflow) contributes to sea-level rise
+- Adversely impact ecological sustainability, as it would decrease groundwater discharge to wetlands, rivers and drainage networks
+
+Sustainable groundwater development needs to informed by sound hydrological understand. 
+- Artificial recharge (irrigation losses, water returns)
+- Natural recharge (excess rainfall, surface water seepage), Indirect recharge (aquitard leakage, cross-formational flow)
+
+Artificial recharge / Managed aquifer recharge means saving water in rainy seasons, to let this recharge in dryer seasons. This is another
+
+Outputs:
+- Environmental benefits (e.g. groundwater discharge through baseflow, springs, wetlands, etc.)
+- Social benefits (groundwater supply schemes such as drinking water supplies)
+- Economic benefits (groundwater abstractions for agriculture and industry)
+
+Again, these outputs are social-economic demands and ecological demands
+
+Again, if social-economic demands are equal to recharge minus ecological demands, we have sustainab
