@@ -86,4 +86,8 @@ If you dig a well in an unconfined aquifer, the water level will be the same as 
 
 When water pressure is so high that water rises till above the surface, we speak of Artesian wells. 
 
-We also have semi-confined, or leaky aquifers. A semi-confined aquifer is bounded by an aquitard that does transmit water when hydraulic head above and below the leaky boundary are in dis-equilibrium. For example, if the hydraulic head in the unconfined aquifer is higher than the confined aquifer, this confined aquifer becomes semi-confined, because the aquitard above it becomes able to transmit water more easily, and the confined-aquif
+We also have semi-confined, or leaky aquifers. A semi-confined aquifer is bounded by an aquitard that does transmit water when hydraulic head above and below the leaky boundary are in dis-equilibrium. For example, if the hydraulic head in the unconfined aquifer is higher than the confined aquifer, this confined aquifer becomes semi-confined, because the aquitard above it becomes able to transmit water more easily, and the confined-aquifer is therefore less restricted by the aquitard.
+
+A perched aquifer is a small aquifer which is created by a discontinuous aquitard, i.e. a short aquitard, which blocks only a bit of water flow above it. 
+
+A karstic aquifer is an aquifer which is controlled by rock dissolution (i.e. holes in rock layers which are created by dissolution)
