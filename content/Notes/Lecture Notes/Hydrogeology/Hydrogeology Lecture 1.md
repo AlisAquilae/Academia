@@ -91,3 +91,44 @@ We also have semi-confined, or leaky aquifers. A semi-confined aquifer is bounde
 A perched aquifer is a small aquifer which is created by a discontinuous aquitard, i.e. a short aquitard, which blocks only a bit of water flow above it. 
 
 A karstic aquifer is an aquifer which is controlled by rock dissolution (i.e. holes in rock layers which are created by dissolution)
+
+---
+# Forms of energy that groundwater possess
+Energy is the capacity to work. Water flows from high to low energy.
+
+The 3 forms of energy associated with the flow of fluid
+- Kinetic energy (velocity head)
+- Potential / elevation energy / datum head
+- Pressure energy / pressure head
+
+## Kinetic energy / Velocity head
+A liquid particle possesses this energy by virtue of its motion or velicty.
+
+If a loiquid particle: Mass = m, and velocity = v, kinetic energy is 1/2 m v^2 
+
+m = y / g
+
+or rewritten
+
+V^2 / 2g meters of liquid is the kinetic energy
+
+## Potential / Elevation energy
+This energy is possessed by virtue of its position
+
+Is measured with respect to a reference line (a datum), for which we most often take the mean sea level
+
+If a liquid particle is Z meter above the horizontal datum, potential head of the liquid, at that point, will be Z meters of the liquid
+
+## Pressure energy / Pressure head
+This energy is possessed by virtue of its existing pressure. This is measured using a piezometer tube. It is measured in terms of head of the liquid and called pressure head
+
+P = unit weight divided y by height h = y / h
+
+or 
+
+h = p / y meters of the liquid
+
+## Total head
+Sum of all three forms of head, called hydraulic head
+
+H = Z + v^2 / 2g + p / y
