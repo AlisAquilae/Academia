@@ -26,4 +26,16 @@ Groundwater is vital for
 - food production. Irrigated aquaculture is the major user and consumer of groundwater.
 - drinking water, both in rural and urban areas
 
-We are overabstracting groundwater, which causes groundwater to decline. Mainly used for agriculture, and in Europe for domestic use
+We are overabstracting groundwater, which causes groundwater to decline. Mainly used for agriculture, and in Europe for domestic use. India is by far the country with the highest groundwater consumption in the world .
+
+Groundwater resources in Europe are threatened
+- Overabstraction
+- Pollution
+
+This leads to wetlands having an endangered status.
+
+Meanwhile, groundwater supplied around 65% of all of Europe's drinking water
+
+Sustainable yield relates to the water balance concept. Say a system has an upper and lower aquifer. We have inpyut as snowfall and precipitation, This evaporates, is transpired by crops, or goes as overland flow to the surface water. Part is recharged to the surface water. Part of the recharge, again, goes to surface water through baseflow. This is called environmental demands. Then, we have social-economic demand, such as water supply and irrigation
+
+If the socio-economic demand is highier than the recharge minus the environmental demand, we have unsustainable yield. 
