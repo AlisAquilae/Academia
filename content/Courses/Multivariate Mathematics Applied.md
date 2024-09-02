@@ -35,7 +35,13 @@ These books are fairly self-contained, and can be studied separately from one an
 - [[Mathematics that Works 5-Chapter 5-Vector Fields Gradient and Divergence]]
 - [[Mathematics that Works 5-Chapter 7-Partial Differential Equations-Fourier Series]]
 
+# 📢 Lectures
+- [[MMA Lecture 1]]
+- 
+
 # 🔗 Summaries
 Placeholder
 
 Test
+
+
