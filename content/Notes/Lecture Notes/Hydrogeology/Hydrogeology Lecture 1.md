@@ -22,6 +22,7 @@ What is groundwater?
 
 We also have soil water. This is.... And capillary fringe. 
 
+---
 Groundwater is vital for 
 - food production. Irrigated aquaculture is the major user and consumer of groundwater.
 - drinking water, both in rural and urban areas
@@ -61,4 +62,20 @@ Outputs:
 
 Again, these outputs are social-economic demands and ecological demands
 
-Again, if social-economic demands are equal to recharge minus ecological demands, we have sustainab
+Again, if social-economic demands are equal to recharge minus ecological demands, we have sustainable yield
+
+---
+Groundwater is held in aquifers, which consists of porous medium with properties favourable for the storage and flow of appreciable quantities of water. Or, an aquifer is a subsurface formation that contains and transmits water (i.e. groundwater) - it is a groundwater reservoir. This required 3 things
+- It is porous
+- It can store water
+- It can transmit water
+
+When hydrocarbons (gas or oil) are concerned, the term reservoir is commonly used instead of aquifer. 
+
+An aquitard can store water and transmit it, but at a very low rate. It is a formation that retards but does not prevent flow of water to or from an adjacent aquifer. 
+
+An aquiclude is a formation that does not transmit groundwater at all. It can store a tiny bit of water, but does not transmit it at all. 
+
+All of these are subsurface formations
+
+A confined aquifer is an aquifer between two aquitards or an aquitard and an aquiclude
