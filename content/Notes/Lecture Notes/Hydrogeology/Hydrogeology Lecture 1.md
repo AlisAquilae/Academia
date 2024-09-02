@@ -132,3 +132,14 @@ h = p / y meters of the liquid
 Sum of all three forms of head, called hydraulic head
 
 H = Z + v^2 / 2g + p / y
+
+# Bernoulli's equation
+For a completely incompressible liquid, when flowing from one point to another, the total energy of point one will always be equal to the total energy of point two, and therefore be constant. 
+
+As the speed of a moving fluid increases, the pressure within the fluid decreases. Therefore, because velocity is very low in groundwater, pressure increases
+
+The velocity is so low, we can ignore it. Then, total head becomes Z + p/y, which we use as the hydraulic head. 
+
+Recorded?
+Literature
+bikes?
