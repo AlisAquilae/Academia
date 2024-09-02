@@ -78,4 +78,12 @@ An aquiclude is a formation that does not transmit groundwater at all. It can st
 
 All of these are subsurface formations
 
-A confined aquifer is an aquifer between two aquitards or an aquitard and an aquiclude
+A confined aquifer is an aquifer between two aquitards or an aquitard and an aquiclude. It is restricted by a confining layer above it
+
+An unconfined aquifer, or water table aquifer, is directly tied to the water table. It is also known as a phreatic aquifer. It is not restricted by a confining layer above it. It is free to rise and fall freely, due to fluctuations in the water table. 
+
+If you dig a well in an unconfined aquifer, the water level will be the same as the water table. If you dig a well in a confined aquifer, the water table will be higher, because the water is under pressure. 
+
+When water pressure is so high that water rises till above the surface, we speak of Artesian wells. 
+
+We also have semi-confined, or leaky aquifers. A semi-confined aquifer is bounded by an aquitard that does transmit water when hydraulic head above and below the leaky boundary are in dis-equilibrium. For example, if the hydraulic head in the unconfined aquifer is higher than the confined aquifer, this confined aquifer becomes semi-confined, because the aquitard above it becomes able to transmit water more easily, and the confined-aquif
