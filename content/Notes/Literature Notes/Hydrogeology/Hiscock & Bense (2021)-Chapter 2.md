@@ -72,4 +72,5 @@ Not all the water contained in the pore space of a soil or rock can be viewed as
 yield, $S_y$. The fraction of water that is retained in the soil or rock against the force of
 gravity is termed the specific retention, $S_r$. 
 
-The sum of the specific yield $S_y$ and the specific retention $S_r$, that is, $S_y + S_r$,, is equal to the total porosity
+The sum of the specific yield $S_y$ and the specific retention $S_r$, that is, $S_y + S_r$,, is equal to the total porosity, $n$. It is useful to distinguish the total porosity from the [[Effective Porosity]], $n_e$, of a porous material. The total porosity relates to the storage capability of the
+material whereas the effective porosity relates to the transmissive capability of the material.

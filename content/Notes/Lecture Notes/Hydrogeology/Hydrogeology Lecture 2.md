@@ -42,3 +42,11 @@ In a rock layer, in principle, there is a possibility of both primary and second
 The secondary porosity is generally low compared to primary porosity, but the influence on the water flow is large. 
 
 Effective porosity implies that not all pore spaces in a rock layer to actually contribute to groundwater flow. Some pores are not connected to other pores. The effective porosity $n_e$ is equal to the volume of connected voids $V_{cv}$ to the total volume $V_t$. 
+
+In unconsolidated sedimentary rocks, the smaller the grain size, the higher the total porosity, but the lower the effective porosity. This is because of the chemical bonding between clay and water
+
+Specific yield, or drainage porosity, is the ratio or percentage of the total volume which can be drained by gravity. This is a property of the unconfined aquifer. For confined aquifer, the equivalent is called specific storage. We will first discuss specific yield
+
+Sepcific yield is the volume of water drained by gravity divided by the total volume.
+
+The part of water that remains in the soil after draining all water with gravity, is called the specific retention. 
