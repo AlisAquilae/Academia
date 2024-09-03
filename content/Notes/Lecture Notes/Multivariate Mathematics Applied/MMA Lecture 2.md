@@ -27,5 +27,8 @@ Ordinary differential equations (ODE): Only one independent variable involved, u
 
 First order differential equation. First order derivative as highest order derivative involved. We are mostly going to see these
 
-Time-invariant first order differential equations: of the form $x'(t)
-So
+Time-invariant first order differential equations: of the form $x'(t) = f(x(t))$; so $x'(t)$ depends on x(t) only, and not on $t$ other than via $x(t)$. So if the $t$ is not written directly somewhere, which would be time-dependent
+
+Linear first order ODE: Of the form $x'(t)=a(t)x(t) + b(t)$. So the equation is linear on $x(t)$. Not $x^2$ or $e^x$  os $\frac{1}{x(t)}$
+
+If $b(t) = 0$ its homogeneous, else it is inhomogeneous
