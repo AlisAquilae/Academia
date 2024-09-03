@@ -170,4 +170,19 @@ $$
 where $\bar{v}$ is the average linear velocity
 
 ---
-#
+# 2.9 Transmissivity and Storativity of Confined Aquifers
+For a confined aquifer of thickness $b$, [[Conductance|Transmissivity]], $T$, is defined as 
+
+$$
+T = Kb \tag{2.23}
+$$
+
+and represents the rate at which water of a given density and viscosity is transmitted through a unit with of aquifer or aquitard under a unit hydraulic gradient. Transmissivity has the units of $L^2 \, T^{-1}$ 
+
+The [[Storativity]], or storage coefficient, $S$, of a confined aquifer is defines as 
+
+$$
+S = S_s b \tag{2.24}
+$$
+
+where $S_s$ is rhe specific storage term, and represents the volume of water that an aquifer releases from storage per unit surface area of aquifer per unit decline in the comp
