@@ -62,15 +62,11 @@ In general, unconsolidated sediments such as gravels, sands, silts and clays, wh
 >[!Missing]
 >Missing image 2.1
 
-As illustrated in Fig. 2.1, porosity is controlled by the shape and arrangement of constituent grains, the degree of sorting, compaction, cementation, fracturing and solutional weathering. Porosity values range from negligibly small (0%) for unfractured
-to 0.1 (10%) for weathered crystalline rocks to 0.4–0.7 (40%–70%) for unconsolidated clay deposits.
+As illustrated in Fig. 2.1, porosity is controlled by the shape and arrangement of constituent grains, the degree of sorting, compaction, cementation, fracturing and solutional weathering. Porosity values range from negligibly small (0%) for unfractured to 0.1 (10%) for weathered crystalline rocks to 0.4–0.7 (40%–70%) for unconsolidated clay deposits.
 
-There is a distinction between primary porosity, which is the inherent character of a soil or rock matrix that developed during its formation, and secondary porosity. Secondary porosity may develop as a result of secondary physical and chemical weathering along the bedding planes and joints of indurated sediments such as limestones and sandstones, or as a result of structurally controlled regional fracturing and near-surface weathering in
-hard rocks such as igneous and metamorphic rocks. Where both primary and secondary porosities are present, a dual-porosity system is recognized, for example as a result of fracturing and fissuring in porous sandstone or limestone.
+There is a distinction between primary porosity, which is the inherent character of a soil or rock matrix that developed during its formation, and secondary porosity. Secondary porosity may develop as a result of secondary physical and chemical weathering along the bedding planes and joints of indurated sediments such as limestones and sandstones, or as a result of structurally controlled regional fracturing and near-surface weathering in hard rocks such as igneous and metamorphic rocks. Where both primary and secondary porosities are present, a dual-porosity system is recognized, for example as a result of fracturing and fissuring in porous sandstone or limestone.
 
-Not all the water contained in the pore space of a soil or rock can be viewed as being available to groundwater flow, particularly in fine grained or fractured aquifers. In an aquifer with a water table, the volume of water released from groundwater storage per unit surface area of aquifer per unit decline in the water table is known as the specific
-yield, $S_y$. The fraction of water that is retained in the soil or rock against the force of
-gravity is termed the specific retention, $S_r$. 
+Not all the water contained in the pore space of a soil or rock can be viewed as being available to groundwater flow, particularly in fine grained or fractured aquifers. In an aquifer with a water table, the volume of water released from groundwater storage per unit surface area of aquifer per unit decline in the water table is known as the specific yield, $S_y$. The fraction of water that is retained in the soil or rock against the force of gravity is termed the specific retention, $S_r$. 
 
 The sum of the specific yield $S_y$ and the specific retention $S_r$, that is, $S_y + S_r$,, is equal to the total porosity, $n$. 
 
@@ -107,3 +103,34 @@ $$
 where
 - $d$ is equal to the mean pore diameter, and
 - $C$ represents a dimensionless ‘shape factor’ assessing the contribution made by the shape of the pore openings, as influenced by the relationship between the pore and grain sizes and their effect on the tortuosity of fluid flow.
+
+---
+## 2.4 Isotropy and Homogeneity
+Aquifer properties, such as hydraulic conductivity, are unlikely to conform to the idealized, uniform porous material whether viewed at the microscopic or regional scales. The terms isotropy, anisotropy, homogeneity and heterogeneity are used to describe the spatial variation and directional trends in aquifer property values.
+
+If the hydraulic conductivity, $K$, is independent of position within a geological formation, the formation is homogeneous. If the hydraulic conductivity varies from place to place, then the formation is heterogeneous. 
+
+The type of heterogeneity will depend on the geological environment that gave rise to the deposit or rock type.
+- **Layered heterogeneity** is common in sedimentary rocks, where each bed comprising the formation has its own hydraulic conductivity value. Strong, layered heterogeneity will be present in interbedded deposits of clay and sand. 
+- Similarly, large contrasts can arise in cases of **discontinuous heterogeneity** caused by the presence of faults or large-scale stratigraphic features. 
+- **Trending heterogeneity** exists in formations such as deltas, alluvial fans and glacial outwash plains where there is sorting and grading of the material deposits. 
+
+
+Vertical trends in hydraulic conductivity are also present in consolidated rocks where permeability is dependent on joint and fracture density.
+
+An isotropic geological formation is one where the hydraulic conductivity is independent of the direction of measurement at a point in the formation. If the hydraulic conductivity varies with the direction of measurement at a point, the formation is anisotropic at that point. The principal directions of anisotropy correspond to the maximum and minimum values of hydraulic conductivity and are usually at right angles to each other. The primary cause of anisotropy on a small scale is the orientation of clay minerals in sedimentary rocks and unconsolidated sediments.
+In consolidated rocks, the direction of jointing or fracturing can impart strong anisotropy at various
+scales, from the local to regional. Combining the previous definitions, and as shown in the figure below, it is possible to recognise four possible combinations of heterogeneity and anisotropy when describing the nature of the hydraulic conductivity of a formation.
+
+---
+## 2.5 Aquifers, Aquitards and Aquicludes
+Natural variations in the permeability and ease of transmission of groundwater in different geological materials lead to the recognition of aquifers, aquitards and aquicludes. An [[Aquifer]] is a layer or layered sequence of rock or sediment comprising one or more geological formations that contains water and is able to transmit significant quantities of water under an ordinary hydraulic gradient. Aquifers therefore have sufficient permeability to transmit groundwater that can be exploited economically from wells or springs. Good aquifers are usually developed in sands, gravels, solutionally-weathered limestones and fractured sandstones
+
+The term [[Aquitard]] is used to describe a formation of lower permeability that may transmit quantities of water that are significant in terms of regional groundwater flow, but from which negligible supplies of groundwater can be obtained. Examples of aquitards include fluvial and glacio-fluvial silts and sandy clays, sedimentary rocks with few fractures and fractured crystalline rock.
+
+An [[aquicl]] is a saturated geological unit of such
+low permeability that is incapable of transmitting
+significant quantities of water under ordinary
+hydraulic gradients and can act as a barrier to
+regional groundwater flow. Aquiclude rocks include
+clays, shales and metamorphic rocks.
