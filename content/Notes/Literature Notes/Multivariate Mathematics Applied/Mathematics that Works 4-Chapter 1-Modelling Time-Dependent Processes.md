@@ -51,5 +51,19 @@ $$
 ---
 # 1.5 Modelling with Differential Equations
 ## 1.5.1 Linear Growth or Decay
+Consider the formula below again
 
+
+$$
+n'(t) = \alpha n(t)
+$$
+
+This is a differential equation, which is proportional (due to the $\alpha$) to itself. The constant $\alpha$ is called the relative growth rate
+
+## 1.5.2 The Logistic Model
+We might run into the case where growth is not infinitely possible. Growth might start competing with itself. This can be modelled by letting the relative growth rate $\alpha$ depend on n(t), instead of keeping it constant. This gives us the logistic differential equation, which has the form of 
+
+$$
+n'(t) = \frac{r}{K}(K-n(t))n(t)
+$$
 
