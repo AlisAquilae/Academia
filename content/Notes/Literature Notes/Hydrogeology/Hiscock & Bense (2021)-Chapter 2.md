@@ -22,7 +22,7 @@ Related Courses: ["[[Hydrogeology]]"]
 >- Section 2.13 builds further on the concept of groundwater glow systems on various scales (local, intermediate, regional) introduced in class
 >- Other sections in chapter 2 and boxes are, of course, of interest but were not discussed in class and are not part of what is assumed knowledge for the exam of the course. 
 
-# Porosity
+# 2.2 Porosity
 The [[Porosity]] of a soil or rock is that fraction of a given volume of material that is occupied by void space, or interstices. Porosity, indicated by the symbol $n$, is usually expressed as the ratio of the volume of voids, $V_v$, to the total unit volume, $V_t$. of a soil or rock, such that 
 
 $$
@@ -75,3 +75,7 @@ gravity is termed the specific retention, $S_r$.
 The sum of the specific yield $S_y$ and the specific retention $S_r$, that is, $S_y + S_r$,, is equal to the total porosity, $n$. 
 
 It is useful to distinguish the total porosity from the [[Effective Porosity]], $n_e$, of a porous material. The total porosity relates to the storage capability of the material whereas the effective porosity relates to the transmissive capability of the material. 
+
+---
+## 2.3 Hydraulic Conductivity
+The [[Permeability|Hydraulic Conductivity]] or, as it is occasionally referred to in older publications, the coefficient of permeability, has dimensions of [L T$^{−1}$] and is a measure of the ease of movement of a water through a porous material. 
