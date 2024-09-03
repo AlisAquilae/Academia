@@ -57,3 +57,13 @@ $$
 e = \frac{n}{(1-n)} \tag{2.3b}
 $$
 
+In general, unconsolidated sediments such as gravels, sands, silts and clays, which are composed of angular and rounded particles, have larger porosities than indurated, consolidated sediments such as sandstone and limestone. Crystalline igneous and metamorphic rocks have especially low porosities because the pores are merely within the inter-crystal surfaces. Conversely, formations rich in platy clay minerals with very fine grain size can achieve high porosity values.
+
+>[!Missing]
+>Missing image 2.1
+
+As illustrated in Fig. 2.1, porosity is controlled by the shape and arrangement of constituent grains, the degree of sorting, compaction, cementation, fracturing and solutional weathering. Porosity values range from negligibly small (0%) for unfractured
+to 0.1 (10%) for weathered crystalline rocks to 0.4–0.7 (40%–70%) for unconsolidated clay deposits.
+
+There is a distinction between primary porosity, which is the inherent character of a soil or rock matrix that developed during its formation, and secondary porosity. Secondary porosity may develop as a result of secondary physical and chemical weathering along the bedding planes and joints of indurated sediments such as limestones and sandstones, or as a result of structurally controlled regional fracturing and near-surface weathering in
+hard rocks such as igneous and metamorphic rocks. Where both primary and secondary porosities are present, a dual-porosity system is recognized, for
