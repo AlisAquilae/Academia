@@ -98,4 +98,9 @@ For both: connectivity of pores is important, as well as the tortuosity of the p
 
 When fluid properties are taken into account do flow velocity calculations, we use hydraulic conductivity, which can be derived from permeability, fluid viscosity and density
 
-The real subsurface is complex, in other words, heterogeneous. 
+The real subsurface is complex, in other words, heterogeneous. Heterogeneous material means conductivity varies spatially. We also have homogeneous material, in which conductivity is equal for all locations. 
+
+We also have anisotropy. This implies that the value of conductivity at a location depends on the direction. If it does not, i.e. the value is the same for all directions, we call this isotropic. 
+
+3 types of heterogeneity
+- Leyered heterogeneity: each layer has homogeneous and isotropic K, but differences between layers. Common in sedimentary types of rocks
