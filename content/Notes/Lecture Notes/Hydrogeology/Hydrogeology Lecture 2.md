@@ -114,4 +114,4 @@ The equivalend vertical hydraulic conductivity can be computed using a thickness
 - Trending heterogeneity: ecists in formations like deltas and glacial outwas plains where there is a sorting and grading of the material deposits. This implies a trend in the geological fromation
 
 # Transmissivity
-When describing the transmission capacity of a small representative volume of porous media the hydraulic conductivity is used. However, the capacity of an unconfined or confined aquifer to transmit water is described as transmissivity. This is simply the hydraulic conductivity times the saturated thickness of the aquifer (i.e. the thickness of the saturated zone). Transmissivity is T
+When describing the transmission capacity of a small representative volume of porous media the hydraulic conductivity is used. However, the capacity of an unconfined or confined aquifer to transmit water is described as transmissivity. This is simply the hydraulic conductivity times the saturated thickness of the aquifer (i.e. the thickness of the saturated zone). Transmissivity is T 
