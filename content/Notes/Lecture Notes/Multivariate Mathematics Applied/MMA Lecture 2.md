@@ -53,5 +53,3 @@ Initial value $x(0) = \frac{K}{1+c}$
 Steady state x = 0 and x = K
 
 A steady state is a value of the variable x where the value does not change anymore. 
-
-## Mixing Tank
