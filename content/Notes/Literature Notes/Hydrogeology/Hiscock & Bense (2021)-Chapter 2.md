@@ -95,4 +95,15 @@ $$
 
 where the constant of proportionality, $k_i$, is termed the intrinsic permeability because it is a physical property intrinsic to the porous material alone. 
 
-The density and viscosity of water are functions 
+>[!Info]
+>The density and viscosity of water are functions of temperature and pressure but these effects are not great for the ranges of temperature and pressure encountered in most groundwater situations
+
+The intrinsic permeability is representative of the properties of the porous material alone and is related to the size of the openings through which the fluid moves. The intrinsic permeability is more generally expressed as 
+
+$$
+k_i = Cd^2
+$$
+
+where
+- $d$ is equal to the mean pore diameter, and
+- $C$ represents a dimensionless ‘shape factor’ assessing the contribution made by the shape of the pore openings, as influenced by the relationship between the pore and grain sizes and their effect on the tortuosity of fluid flow.
