@@ -122,15 +122,43 @@ An isotropic geological formation is one where the hydraulic conductivity is ind
 In consolidated rocks, the direction of jointing or fracturing can impart strong anisotropy at various
 scales, from the local to regional. Combining the previous definitions, and as shown in the figure below, it is possible to recognise four possible combinations of heterogeneity and anisotropy when describing the nature of the hydraulic conductivity of a formation.
 
+>[!Missing]
+>Missing figure 2.4
+
 ---
 ## 2.5 Aquifers, Aquitards and Aquicludes
 Natural variations in the permeability and ease of transmission of groundwater in different geological materials lead to the recognition of aquifers, aquitards and aquicludes. An [[Aquifer]] is a layer or layered sequence of rock or sediment comprising one or more geological formations that contains water and is able to transmit significant quantities of water under an ordinary hydraulic gradient. Aquifers therefore have sufficient permeability to transmit groundwater that can be exploited economically from wells or springs. Good aquifers are usually developed in sands, gravels, solutionally-weathered limestones and fractured sandstones
 
 The term [[Aquitard]] is used to describe a formation of lower permeability that may transmit quantities of water that are significant in terms of regional groundwater flow, but from which negligible supplies of groundwater can be obtained. Examples of aquitards include fluvial and glacio-fluvial silts and sandy clays, sedimentary rocks with few fractures and fractured crystalline rock.
 
-An [[aquicl]] is a saturated geological unit of such
-low permeability that is incapable of transmitting
-significant quantities of water under ordinary
-hydraulic gradients and can act as a barrier to
-regional groundwater flow. Aquiclude rocks include
-clays, shales and metamorphic rocks.
+An [[Aquiclude]] is a saturated geological unit of such low permeability that is incapable of transmitting significant quantities of water under ordinary hydraulic gradients and can act as a barrier to regional groundwater flow. Aquiclude rocks include clays, shales and metamorphic rocks.
+
+---
+## 2.6 Darcy's Law
+Water contained within the interconnected voids of soils and rocks is capable of moving, and the ability of a rock to store and transmit water constitutes its hydraulic properties. At the centre of the laws that govern the behaviour of groundwater flow in saturated material is that formulated empirically by the French municipal engineer for Dijon, Henry Darcy, in 1856. 
+
+Darcy studied the flow of water through porous material contained in a column and found that the total flow, $Q$, is proportional to both the difference in water level, $h_1 - h_2$, measured in manometer tubes at either end of the column and the cross-sectional area of flow, $A$, and inversely proportional to the column length, $L$. When combined with the constant of proportionality, $K$, Darcy obtained:
+
+$$
+Q = KA \frac{h_1 - h_1}{L} \tag{2.6}
+$$
+
+In general terms, [[Darcy's Law]] can be written as 
+
+$$
+Q = -KA \frac{dh}{dl} \tag{2.7}
+$$
+
+where $dh/dl$ represents the hydraulic gradient, with the negative sign indicating flow in the direction of high to low hydraulic head. $K$ is the hydraulic conductivity of the porous material. Adopting the shorthand of $dh/dl = i$, equation 2.7 can be written as
+
+$$
+Q = -AiK \tag{2.8}
+$$
+
+Now, combining equations 2.4, 2.5 and 2.7 gives a full expression of the flow through a porous material as
+
+$$
+\frac{Q}{A} = q = -K \frac{dh}{dl} = \frac{Cd^2 \rho g}{\mu} \frac{dh}{dl} \tag{2.9}
+$$
+
+The quotient $Q/A$, or $q$, indicates the discharge per unit cross-sectional area of saturated porous ma
