@@ -85,4 +85,17 @@ Q = -K A \delta h / \delta L
 
 Darcy's law is valid for laminar fluid flow only. It does not apply to turbulent flow. We can consider slow flow more easily as laminar flow
 
-Hydraulic conductivity depends on the size of the sediment. Fine sediment (e.g. clay) is low conductivity. 
+Hydraulic conductivity depends on the size of the sediment. Fine sediment (e.g. clay) is low conductivity. high permeability is high hydraulic conductivity
+
+Darcy's experiment is 1-dimensional. We can also show it in 3 dimensions. For every direction, darcy's law in that direction. 
+
+Hydraulic conductivity vs intrinsic permeability
+- Dependent on fluid properties (such as density or viscosity) versus independent of fluid properties
+- Dependent on medium properties vs only dependent on medium properties
+- L/T versus L^2 
+
+For both: connectivity of pores is important, as well as the tortuosity of the pore network (i.e. whether pores are connected linearly)
+
+When fluid properties are taken into account do flow velocity calculations, we use hydraulic conductivity, which can be derived from permeability, fluid viscosity and density
+
+The real subsurface is complex, in other words, heterogeneous. 
