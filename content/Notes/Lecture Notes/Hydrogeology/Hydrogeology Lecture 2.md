@@ -32,7 +32,13 @@ In unconsolidated rocks, the primary porosity is defined by
 - Arrangement / piling / packing (spatial): More efficient packing leads to a lower porosity for the same grain size
 - Shape
 
-In consolidated material rocks the promaru porosity is determined by
+In consolidated material rocks the primary porosity is determined by
 - The 4 factors above
 - The compaction
-- The ceme
+- The cementation
+
+In a rock layer, in principle, there is a possibility of both primary and secondary porosity being present. This is called dual porosity. Usually, in unconsolidated rocks, the total porosity is only due to primary porosity; secondary porosity is almost never present. In consolidated rocks primary as well as secondary porosity can occur.
+
+The secondary porosity is generally low compared to primary porosity, but the influence on the water flow is large. 
+
+Effective porosity implies that not all pore spaces in a rock layer to actually contribute to groundwater flow. Some pores are not connected to other pores. The effective porosity $n_e$ is equal to the volume of connected voids $V_{cv}$ to the total volume $V_t$. 

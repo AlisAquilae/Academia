@@ -69,4 +69,7 @@ There is a distinction between primary porosity, which is the inherent character
 hard rocks such as igneous and metamorphic rocks. Where both primary and secondary porosities are present, a dual-porosity system is recognized, for example as a result of fracturing and fissuring in porous sandstone or limestone.
 
 Not all the water contained in the pore space of a soil or rock can be viewed as being available to groundwater flow, particularly in fine grained or fractured aquifers. In an aquifer with a water table, the volume of water released from groundwater storage per unit surface area of aquifer per unit decline in the water table is known as the specific
-yield
+yield, $S_y$. The fraction of water that is retained in the soil or rock against the force of
+gravity is termed the specific retention, $S_r$. 
+
+The sum of the specific yield $S_y$ and the specific retention $S_r$, that is, $S_y + S_r$,, is equal to the total porosity
