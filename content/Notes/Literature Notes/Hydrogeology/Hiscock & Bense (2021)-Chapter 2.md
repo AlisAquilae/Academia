@@ -66,4 +66,7 @@ As illustrated in Fig. 2.1, porosity is controlled by the shape and arrangement 
 to 0.1 (10%) for weathered crystalline rocks to 0.4–0.7 (40%–70%) for unconsolidated clay deposits.
 
 There is a distinction between primary porosity, which is the inherent character of a soil or rock matrix that developed during its formation, and secondary porosity. Secondary porosity may develop as a result of secondary physical and chemical weathering along the bedding planes and joints of indurated sediments such as limestones and sandstones, or as a result of structurally controlled regional fracturing and near-surface weathering in
-hard rocks such as igneous and metamorphic rocks. Where both primary and secondary porosities are present, a dual-porosity system is recognized, for
+hard rocks such as igneous and metamorphic rocks. Where both primary and secondary porosities are present, a dual-porosity system is recognized, for example as a result of fracturing and fissuring in porous sandstone or limestone.
+
+Not all the water contained in the pore space of a soil or rock can be viewed as being available to groundwater flow, particularly in fine grained or fractured aquifers. In an aquifer with a water table, the volume of water released from groundwater storage per unit surface area of aquifer per unit decline in the water table is known as the specific
+yield

@@ -25,3 +25,14 @@ There are 2 types of porosity
 - Secondary porosity is void spaces such as fractures which develop due to movement of the earth crust. These fractures can be widened even further by the dissolving processes (called karstic conduits). The volume of fractures and cavities is called secondary porosity. Crystalline rock such as igneous and metamorphic rocks have hardly any primary porosity
 
 Sometimes the primary porosity is called matrix porosity and secondary porosity is sometimes called fracture porosity
+
+In unconsolidated rocks, the primary porosity is defined by
+- The size of the grains or rock fragments: same packing but smaller grain size does not affect total porosity
+- Sorting of the grains or rock fragments. Well sorted material is high and low grain sizes separated, having higher porosity than when high and low grain size are mixed (which is called poorly sorted material)
+- Arrangement / piling / packing (spatial): More efficient packing leads to a lower porosity for the same grain size
+- Shape
+
+In consolidated material rocks the promaru porosity is determined by
+- The 4 factors above
+- The compaction
+- The ceme
