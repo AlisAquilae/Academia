@@ -161,4 +161,13 @@ $$
 \frac{Q}{A} = q = -K \frac{dh}{dl} = \frac{Cd^2 \rho g}{\mu} \frac{dh}{dl} \tag{2.9}
 $$
 
-The quotient $Q/A$, or $q$, indicates the discharge per unit cross-sectional area of saturated porous ma
+The quotient $Q/A$, or $q$, indicates the discharge per unit cross-sectional area of saturated porous material. The term $q$, referred to as the [[Flux Density|Specific Discharge]], has the dimension of velocity [L T$^{-1}$] and is also known as the Darcy velocity or Darcy flux. It is important to remember that the darcy velocity is not the true, microscopic velocity of the water moving along winding flowpaths within the soil or rock. Instead, by dividing the specific discharge by the fraction of open space (in other words, [[Effective Porosity]], $n_e$) through which groundwater flows across a given sectional area, this provides an average measure of groundwater velocity such that 
+
+$$
+\frac{Q}{An_e} = \frac{q}{n_e} = \bar{v} \tag{2.10}
+$$
+
+where $\bar{v}$ is the average linear velocity
+
+---
+#
