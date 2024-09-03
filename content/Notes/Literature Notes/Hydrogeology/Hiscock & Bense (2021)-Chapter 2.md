@@ -19,7 +19,7 @@ Related Courses: ["[[Hydrogeology]]"]
 >- The same goes for Section 2.8. This was similarly discussed in class, but not as extensively
 >- Storage and release of storage from unconfined and confined aquifers as discussed in Section 2.9.1 goes beyond what was discussed in class
 >- The sets of equations presented in Section 2.11 serve as the basis for numerical modelling that is worked on during the practicals. These do not need to be reproduced in an exam. 
->- Section 2.13 builds further on the concept of groundwater glow systems on various scales (local, intermediate, regional) introduced in class
+>- Section 2.13 builds further on the concept of groundwater flow systems on various scales (local, intermediate, regional) introduced in class
 >- Other sections in chapter 2 and boxes are, of course, of interest but were not discussed in class and are not part of what is assumed knowledge for the exam of the course. 
 
 # 2.2 Porosity
@@ -185,4 +185,4 @@ $$
 S = S_s b \tag{2.24}
 $$
 
-where $S_s$ is rhe specific storage term, and represents the volume of water that an aquifer releases from storage per unit surface area of aquifer per unit decline in the comp
+where $S_s$ is rhe specific storage term, and represents the volume of water that an aquifer releases from storage per unit surface area of aquifer per unit decline in the component of hydraulic head normal to that surface. Storativity values are dimensionless and range in value from 0.005 to 0.00005 such that large head changes over extensive areas are required to produce significant yields from confined aquifers.
