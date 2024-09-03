@@ -54,4 +54,20 @@ The part of water that remains in the soil after draining all water with gravity
 # Groundwater Flow
 The hydraulic gradient is the slope of the water table. This is the change in head over a distance. This can be measured in a piezometer with respect to a certain datum. 
 
-i
+gradient i = delta h / delta l
+
+Permeability is the ability of rocks or sediments to transmit the fluid. High permeability means much water is transmitted. 
+
+If gradient increases, discharge increases linearly. 
+
+Discharge = k x hydraulic gradient
+
+k = proportionality constant = permeability
+
+Discharge is a flow rate. This is a volume of water. It has L^3 / T, e.g. m^3 / day
+
+Hydraulic flux is discharge divided by cross-sectional area (m^2). q = Q/A
+
+This hydraulic flux is also known as Darcy flux and specific discharge
+
+Groundwater velocity. If 
