@@ -32,3 +32,26 @@ Time-invariant first order differential equations: of the form $x'(t) = f(x(t))$
 Linear first order ODE: Of the form $x'(t)=a(t)x(t) + b(t)$. So the equation is linear on $x(t)$. Not $x^2$ or $e^x$  os $\frac{1}{x(t)}$
 
 If $b(t) = 0$ its homogeneous, else it is inhomogeneous
+
+DE's are difficult to solve. To choose the right approach, you need to know the type of differential equation we are dealing with. 
+
+## Two basic models (still ODEs)
+Exponential growth: $x'(t) = \alpha x(t)$. This one is linear as well as homogeneous
+
+Solution function: $x(t) = ce^{\alpha t}$
+
+initial value $x(0) = c$
+
+Steady state: x = 0
+
+Logistic growth: $x'(t) = \frac{r}{K}(K - x(t))x(t)$
+
+Solution function: $x(t) = \frac{K}{1+ce^{-rt}}$
+
+Initial value $x(0) = \frac{K}{1+c}$
+
+Steady state x = 0 and x = K
+
+A steady state is a value of the variable x where the value does not change anymore. 
+
+## Mixing Tank
