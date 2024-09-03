@@ -104,3 +104,14 @@ We also have anisotropy. This implies that the value of conductivity at a locati
 
 3 types of heterogeneity
 - Leyered heterogeneity: each layer has homogeneous and isotropic K, but differences between layers. Common in sedimentary types of rocks
+
+
+The equivalent horizontal hydraulic conductivity can be computed using a thickness-weightesd arithmetic average. : Sum k_i b_i / b
+
+The equivalend vertical hydraulic conductivity can be computed using a thickness-weoghed harmonic average. Check slides
+
+- Discontinuous heterogeneity: caused by presence of faults or large stratigraphic features (i.e. cracks in the earth's crust. This causes heterogeneity because layers shift
+- Trending heterogeneity: ecists in formations like deltas and glacial outwas plains where there is a sorting and grading of the material deposits. This implies a trend in the geological fromation
+
+# Transmissivity
+When describing the transmission capacity of a small representative volume of porous media the hydraulic conductivity is used. However, the capacity of an unconfined or confined aquifer to transmit water is described as transmissivity. This is simply the hydraulic conductivity times the saturated thickness of the aquifer (i.e. the thickness of the saturated zone). Transmissivity is T
