@@ -93,4 +93,6 @@ $$
 K = k_i \frac{\gamma}{\mu} \tag{2.4}
 $$
 
-where the constant of proportionality, $k_i$, is termed the intrinsic permeability because it is a physical property intrinsic to the porous material alone. The density and viscosity of water are functions 
+where the constant of proportionality, $k_i$, is termed the intrinsic permeability because it is a physical property intrinsic to the porous material alone. 
+
+The density and viscosity of water are functions 

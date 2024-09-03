@@ -50,3 +50,8 @@ Specific yield, or drainage porosity, is the ratio or percentage of the total vo
 Sepcific yield is the volume of water drained by gravity divided by the total volume.
 
 The part of water that remains in the soil after draining all water with gravity, is called the specific retention. If effective porosity is equal to total porosity, the same sum of specific yield and specific retention also gives the effective porosity. 
+
+# Groundwater Flow
+The hydraulic gradient is the slope of the water table. This is the change in head over a distance. This can be measured in a piezometer with respect to a certain datum. 
+
+i
