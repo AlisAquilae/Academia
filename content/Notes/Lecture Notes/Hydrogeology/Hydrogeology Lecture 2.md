@@ -66,8 +66,23 @@ k = proportionality constant = permeability
 
 Discharge is a flow rate. This is a volume of water. It has L^3 / T, e.g. m^3 / day
 
-Hydraulic flux is discharge divided by cross-sectional area (m^2). q = Q/A
+Hydraulic flux is discharge divided by cross-sectional area (m^2). q = Q/A. 
 
 This hydraulic flux is also known as Darcy flux and specific discharge
 
-Groundwater velocity. If 
+Groundwater velocity. If pipe is filled with only water, the hydraulic flux would be he same as the velocity of water flowing along the pipe. However, it is mostly filled with soil. Thus, we do groundwater velocity as hydraulic flux q divided by effective porosity n_e. This is known as average linear velocity. Max velocity is 2 x average linear velocity
+
+The hydraulic flux similarly has a linear relation with hydraulic gradient. The slope of this line is known as K, namely the hydraulic conductivity
+
+Hydraulic flux = -K + hydraulic gradient
+
+= -K + i
+
+Q/A = -K i
+
+Q = -K i A
+Q = -K A \delta h / \delta L
+
+Darcy's law is valid for laminar fluid flow only. It does not apply to turbulent flow. We can consider slow flow more easily as laminar flow
+
+Hydraulic conductivity depends on the size of the sediment. Fine sediment (e.g. clay) is low conductivity. 
