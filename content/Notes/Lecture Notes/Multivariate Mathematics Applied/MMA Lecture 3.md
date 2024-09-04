@@ -54,4 +54,4 @@ $$
 \Delta f \cong f_x(a,b)\Delta x + f_y(a,b)\Delta y
 $$
 
-For small deviations in multiple directions, add the effects (rather than multiply)
+For small deviations in multiple directions, add the effects (rather than multiply, which is the case in 1 route)
