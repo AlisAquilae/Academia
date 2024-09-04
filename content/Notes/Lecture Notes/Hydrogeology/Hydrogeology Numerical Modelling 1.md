@@ -1,12 +1,12 @@
 ---
 fileClass: Base, Lecture Notes
 title: 
-Parents: 
+Parents: ["[[Hydrogeology]]"]
 Draft: 
-Status: 
+Status: To Revisit
 Related Notes: 
 Related Terminology: 
-Related Courses: 
+Related Courses: ["[[Hydrogeology]]"]
 ---
 Which data is required:
 - We are going to use hydraulic properties: k, C (S for storage coefficient)

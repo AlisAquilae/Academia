@@ -56,5 +56,9 @@ The points $(x, y, f(x, y))$ in the $(x, y, z)$-space form together the graph of
 >Figure 1.2
 
 
+The point $P = (a,b,f(a,b))$ lies on the graph above the point $Q = (a,b)$ in the base plane. Two tangent lines of $f(x,y)$ through $P$ and $RS$, parallel to the $(x,z)$-plane, and $TU$, parallel in the $(y,z)$-plane. The plane $XYZ$ spanned by these lines contains all tangent lines to the surface through $P$; this plane is the [[Tangent Plane]] of $f(x,y)$ through $P$. 
 
+## 1.2.3 Partial Derivatives
+The essential tool in setting up an equation for the tangent line of a function $f(x)$ of one variable is the derivative, $f'(x)$. Likewise, for setting up an equation for the tangent plane of a function $f(x,y)$ of two variables one needs derivatives. The only technical complication is that we now take derivatives with respect to two distinct variables.
 
+The key in differentiating $F(x,y)$ with respect to $x$ is to keep $y$ fixed, as a constant. This is called [[Partial Differentiation]] with respect to $x$. The result is the partial derivative of $f(x,y)$ with respect to $x$. It is denoted by $f_x(x,y)$ or by $\frac{\partial}{\partial x} f(x,y)$
