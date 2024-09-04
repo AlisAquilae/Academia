@@ -51,4 +51,8 @@ $$
 
 Ly is the distance from the center of one cube to the other
 
-If the head at the side Hw is greater than the head at the center, Hc, we have Qin
+It is always Hx - Hc
+
+If the head at the side Hw is greater than the head at the center, Hc, we have Qin. Vice verse as well
+
+Qin - Qout = Qwest(x) + Qeast(x + delta x), 
