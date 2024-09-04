@@ -62,3 +62,23 @@ The point $P = (a,b,f(a,b))$ lies on the graph above the point $Q = (a,b)$ in th
 The essential tool in setting up an equation for the tangent line of a function $f(x)$ of one variable is the derivative, $f'(x)$. Likewise, for setting up an equation for the tangent plane of a function $f(x,y)$ of two variables one needs derivatives. The only technical complication is that we now take derivatives with respect to two distinct variables.
 
 The key in differentiating $F(x,y)$ with respect to $x$ is to keep $y$ fixed, as a constant. This is called [[Partial Differentiation]] with respect to $x$. The result is the partial derivative of $f(x,y)$ with respect to $x$. It is denoted by $f_x(x,y)$ or by $\frac{\partial}{\partial x} f(x,y)$
+
+Likewise, we partially differentiate $f(x,y)$ with respect to $y$ by differentiating $f(x,y)$ with respect to $y$ and treating $x$ as a constant. 
+
+>[!Example]
+>The partial derivatives of the function $f(x,y) = xy^2 + y$ are (check!)
+>
+>$$
+>f_x(x,y) = y^2 
+>$$
+>
+>$$
+>f_y(x,y) = 2xy+1
+>$$
+
+The partial derivative at $x=a$ and $y=b$ is the slope of the tangent line to the graph of $f(x,y)$
+
+## 1.2.4 The Equation for the Tangent Line
+When we restrict the function $f(x,y)$ to the plane $y=b$, the linear approximation about $x=a$ becomes $f(x,b) \cong f(a,b) + f_x(a,b)(x-a)$
+
+Similarly, when varying only $y$ and keeping $x$ fixed at $x=a$ we find $f(a,y) \cong f(a,b) + f_y(a,b)(y-b)$
