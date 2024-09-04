@@ -88,3 +88,6 @@ The first order approximation of the function $f(x,y)$ of two variables is found
 The first order approximation of $f(x,y)$ through $a,b,f(a,b))$ is $f(x,y) \cong f(a,b) + f_x(a,b)(x-a) + f_y(a,b)(y-b)$
 
 The graph of the function at the right hand side is the tangent plane of $f(x,y)$.
+
+>[!Example]
+>We set up an equation for the tangent plane of $f(x,y)$ at the point
