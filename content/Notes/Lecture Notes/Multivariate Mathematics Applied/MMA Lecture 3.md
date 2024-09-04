@@ -55,3 +55,7 @@ $$
 $$
 
 For small deviations in multiple directions, add the effects (rather than multiply, which is the case in 1 route)
+
+## Why tangent planes or linear approximation?
+Tangent lines (or planes) and linear approximations are key tools
+- Linear approximations shows the effect of uncertainty in the variables on the fu
