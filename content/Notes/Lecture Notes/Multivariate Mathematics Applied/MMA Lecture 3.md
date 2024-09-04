@@ -33,4 +33,8 @@ $$
 \Delta f \cong f'(a)\Delta x
 $$
 
-This tells us that for a small d
+This tells us that for a small deviation in x, we can approximate the function value by the derivative of the function value. 
+
+Dividing by Delta x and taking the limit yields the definition of the derivative: the difference of the derivative quotient. This completes the circle
+
+You can make a 
