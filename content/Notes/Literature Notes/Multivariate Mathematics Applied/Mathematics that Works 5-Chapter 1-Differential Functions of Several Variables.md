@@ -121,5 +121,20 @@ $$
 
 And with $\Delta f = f(a + \Delta x, b + \Delta y) - f(a,b)$ we find
 
+$$
+\Delta f \cong f_x(a,b)\Delta x+ f_y(a,b)\Delta y
+$$
+
+>[!Example]
+>Following from the previous example:
+>
+>The partial derivatives of the function $f(x,y) = x/y$ in $(x,y) = (2,1)$ are $f_x(2,1) = 1$ and $f_y(2,1) = -2$. Thus, the effect of small deviations $\Delta x$ and $\Delta y$ in the independent variable is
+>
+>$$
+>\Delta f \cong \Delta x + -2 \Delta y
+>$$
+
+
+
 
 
