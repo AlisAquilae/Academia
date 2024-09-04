@@ -37,5 +37,9 @@ Finally, the course engages with some papers
 - [[Hydrogeology Lecture 2]]
 
 
+# 🔬 Practicals
+- [[Hydrogeology Numerical Modelling 1]]
+
+
 # 🔗 Summaries
 Placeholder
