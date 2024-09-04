@@ -90,4 +90,36 @@ The first order approximation of $f(x,y)$ through $a,b,f(a,b))$ is $f(x,y) \cong
 The graph of the function at the right hand side is the tangent plane of $f(x,y)$.
 
 >[!Example]
->We set up an equation for the tangent plane of $f(x,y)$ at the point
+>We set up an equation for the tangent plane of $f(x,y)$ at the point $(x,y) = (2,1)$. First we compute the function value $z = f(2,1) = 2$. Next, the partial derivatives
+>
+>$f_x(x,y) = 1 / y$
+>$f_x(2,1)=1$
+>$f_y(x,y) = -x/y^2$
+>$f_y(2,1) = -2$
+>
+>These results give the following equation for the tangent plane
+>
+>$$
+>z = 2 + 1(x-2) + -2(y-2) \Rightarrow z = x -2y + 2
+>$$
+
+
+## 1.2.5 Displacements and Perturbations
+A linear approximation $f(x)$ about $x=a$ shows the effect of a small deviation $\Delta x$ on the function value. With $f(x) \cong f(a) + f'(a)(x-a)$ we arrive $\Delta x = x-a$ and $\Delta f = f(x) - f(a)$ to find
+
+$$
+\Delta f = f(a+\Delta x) - f(a) \cong f'(a)\Delta x
+$$
+
+so a small deviation $\Delta x$ in the independent variable is multiplied by a propagation factor $f'(a)$ to bring about a deviation $\Delta f$ in the dependent variable
+
+Likewise, the linear approximation of a function $f(x,y)$ of two variables $(a,b)$ is 
+
+$$
+f(x,y) \cong f(a,b)+f_x(a,b)(x-a) + f_y(a,b)(y-b)
+$$
+
+And with $\Delta f = f(a + \Delta x, b + \Delta y) - f(a,b)$ we find
+
+
+
