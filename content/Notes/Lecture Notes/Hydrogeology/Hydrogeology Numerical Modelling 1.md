@@ -31,8 +31,24 @@ We can derive the equations using a mathematical approach and a physical approac
 Mathematical: Using partial derivatives, Taylor series, etc.
 
 We are going to use physical approach
-- We look at Qnorth, Qeast, Qsouth, Qwest
+- We look at Qnorth, Qeast, Qsouth, Qwest. This added together is Qinternal
 
 Qwest = areaFaceWest x Darcy = Area face west x k x delta h / delta x
 
-The 
+The gradient is head at the side versus head at the center
+
+Now it comes to down to rearranging
+
+Qnorth = delta x D x Darcy
+
+$$
+\Delta x D \times k \times \frac{\Delta h}{\Delta x}
+$$
+
+$$
+\Delta x D \times k \times \frac{Hn = Hc}{Ly}
+$$
+
+Ly is the distance from the center of one cube to the other
+
+If the head at the side Hw is greater than the head at the center, Hc, we have Qin
