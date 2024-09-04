@@ -12,3 +12,6 @@ Related Courses:
 Models on monday and tuesday depend on time. This is a single variable, usually $t$. Thus, also differential equations of variables with 1 variable
 
 Here, they still depend on time but also on other variable, such as place. 
+
+Thus, we deal with Partial differential equations. 
+
