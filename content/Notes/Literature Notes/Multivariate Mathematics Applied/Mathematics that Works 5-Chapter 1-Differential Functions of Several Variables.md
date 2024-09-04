@@ -82,3 +82,9 @@ The partial derivative at $x=a$ and $y=b$ is the slope of the tangent line to th
 When we restrict the function $f(x,y)$ to the plane $y=b$, the linear approximation about $x=a$ becomes $f(x,b) \cong f(a,b) + f_x(a,b)(x-a)$
 
 Similarly, when varying only $y$ and keeping $x$ fixed at $x=a$ we find $f(a,y) \cong f(a,b) + f_y(a,b)(y-b)$
+
+The first order approximation of the function $f(x,y)$ of two variables is found by varying both $x$ and $y$ simultaneously, starting in the point $(a,b)$. It turns out that we can simply add the effects of the variation of $x$ and the variation of $y$ together
+
+The first order approximation of $f(x,y)$ through $a,b,f(a,b))$ is $f(x,y) \cong f(a,b) + f_x(a,b)(x-a) + f_y(a,b)(y-b)$
+
+The graph of the function at the right hand side is the tangent plane of $f(x,y)$.
