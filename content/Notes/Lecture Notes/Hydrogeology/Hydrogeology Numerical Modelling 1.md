@@ -58,4 +58,7 @@ If the head at the side Hw is greater than the head at the center, Hc, we have Q
 Qin - Qout = Qwest(x) + Qeast(x + delta x)
 
 Boundary conditions:
-- Dupuit assumption: no vertical flow, only horizontal 
+- Dupuit assumption: no vertical flow, only horizontal
+
+---
+## Setting up the model formulas
