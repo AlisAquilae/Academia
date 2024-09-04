@@ -1,12 +1,12 @@
 ---
 fileClass: Base, Lecture Notes
 title: 
-Parents: 
+Parents: ["[[Multivariate Mathematics Applied]]"]
 Draft: 
-Status: 
+Status: To Revisit
 Related Notes: 
 Related Terminology: 
-Related Courses: 
+Related Courses: ["[[Multivariate Mathematics Applied]]"]
 ---
 # Introduction
 Models on monday and tuesday depend on time. This is a single variable, usually $t$. Thus, also differential equations of variables with 1 variable

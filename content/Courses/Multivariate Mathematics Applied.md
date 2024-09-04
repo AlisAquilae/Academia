@@ -39,7 +39,7 @@ These books are fairly self-contained, and can be studied separately from one an
 - [[MMA Lecture 1]]
 - [[MMA Lecture 2]]
 - [[MMA Lecture 3]]
-- 
+- [[MMA Lecture 4]]
 
 # 🔗 Summaries
 Placeholder
