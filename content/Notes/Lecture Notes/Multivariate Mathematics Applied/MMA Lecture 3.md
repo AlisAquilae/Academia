@@ -38,3 +38,20 @@ This tells us that for a small deviation in x, we can approximate the function v
 Dividing by Delta x and taking the limit yields the definition of the derivative: the difference of the derivative quotient. This completes the circle
 
 You can make a 
+
+## Linear approximation 3D (tangent plane)
+The graph of a function of two variables $f(x,y)$ is a surface in 3D-space. 
+
+The standard formula for the tangent plane is
+
+$$
+z(x,y) = f(a,b) + f_x(a,b)(x-a) + f_y(a,b)(y-b)
+$$
+
+Writing back to a Delta F, we reach an approximation again
+
+$$
+\Delta f \cong f_x(a,b)\Delta x + f_y(a,b)\Delta y
+$$
+
+For small deviations in multiple directions, add the effects (rather than multiply)
