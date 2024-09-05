@@ -1,14 +1,14 @@
 ---
 fileClass: Base, Literature Notes
 title: 
-Parents: 
+Parents: ["[[Multivariate Mathematics Applied]]"]
 Draft: 
 Status: 
 Authors: 
 Year of Publication: 
 Related Notes: 
 Related Terminology: 
-Related Courses: 
+Related Courses: ["[[Multivariate Mathematics Applied]]"]
 ---
 # 1.1 Introduction
 Often, a quantity depends on more than one variable. In this chapter, we consider functions of two variables but most results also apply to functions of more than two variables. 
