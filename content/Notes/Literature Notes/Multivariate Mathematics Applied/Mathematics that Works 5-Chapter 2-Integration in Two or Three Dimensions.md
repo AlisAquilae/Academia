@@ -35,4 +35,27 @@ The method of substitution is useful when the integrand contains a composite fun
 >\int_0^1 xe^{-x^2}dx
 >$$
 >
->we recognize a composite function of
+>we recognize a composite function of $f(u)=e^u$ and $u(x)=-x^2$. The derivative of the inner function $u'(x) = -2x$, also appears in the integrand up to a factor of $-2$. Therefore
+>
+>$$
+>\begin{aligned}
+>\int_0^1 xe^{-x^2} &= -\frac{1}{2} \int_0^1 e^{-x^2 } \cdot -2x \, dx \\
+>&= -\frac12 \int_0^{-1} e^u \, du \\
+>&= -\frac12 \left[ e^u \right]_{u=0}^{u=-1} \\
+>&= -\frac12(e^{-1} - e^0) \\
+>&= \frac12(1-e^{-1})
+>\end{aligned}
+>$$
+>
+
+Integration by parts is useful when integrating a product of functions
+
+>[!Tip]
+>Algorithm for the method of integration by parts
+>1. Identify the integrand as the product of two functions
+>2. Identify one of the factors as a derivative; that is, write the integrand in the form $f(x)g'(x)$
+>3. Set up a scheme containing $f(x), f'(x), g(x), g'(x)$
+>4. Apply the rule $\int_a^b f(x)g'(x)dx = \left[ f(x)g(x) \right]^{x=b}_{x=a} - \int_a^b
+
+
+
