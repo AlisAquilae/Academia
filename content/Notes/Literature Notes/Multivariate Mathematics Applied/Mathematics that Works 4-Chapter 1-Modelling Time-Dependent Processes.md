@@ -83,3 +83,18 @@ $$
 Here, the constant $c$ depends on the initial value $n(0)$. 
 
 ## 1.5.3 Ordinary Differential Equations: Basic Concepts
+In modelling a physical or biological problem, a first step is to distinguish the state variable $x$. When we know the state variable, we may try to describe its future behaviour. 
+
+>[!Example]
+>When studying the orbit of a projectile, its position and velocity are the state variables
+
+
+When we try to predict the future development of state variable $x$, we recognise that it depends on time $t$, so $x=x(t)$. If the rate of change $x'(t)$ depends on $x(t)$, the evolution of $x$ in time can be modelled with a differential equation. 
+
+A differential equation of the first order is an equation that expresses $x'(t)$ in terms of $x(t)$ and, optionally, $t$. Usually we write such a differential equation as 
+
+$$
+x'(t) = f(t(x,t))
+$$
+
+Because $x$ depends only on one independent variable $t$, the above equation is called an [[Ordinary Differential Equation]]. A function $x(t)$ satisfying the differential equation is called a **solution** of the differential equation. The differential equation alone does not determine the solution uniquely: we must also know the initial state. So we need an **initial condition**, for example that 
