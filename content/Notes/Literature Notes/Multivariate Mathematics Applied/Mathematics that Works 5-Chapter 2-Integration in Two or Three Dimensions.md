@@ -55,7 +55,32 @@ Integration by parts is useful when integrating a product of functions
 >1. Identify the integrand as the product of two functions
 >2. Identify one of the factors as a derivative; that is, write the integrand in the form $f(x)g'(x)$
 >3. Set up a scheme containing $f(x), f'(x), g(x), g'(x)$
->4. Apply the rule $\int_a^b f(x)g'(x)dx = \left[ f(x)g(x) \right]^{x=b}_{x=a} - \int_a^b
+>4. Apply the rule $\int_a^b f(x)g'(x)dx = \left[ f(x)g(x) \right]^{x=b}_{x=a} - \int_a^b f'(x)g(x)dx$
+>5. Finally, find $\int_a^b f'(x)g(x)dx$
+
+>[!Example]
+>In the integral
+>
+>$$
+>\int_0^\infty xe^{-x} dx
+>$$
+>
+>we recognise an integrand as a product of $x$ and $e^{-x}$. Although we can identify both factors as the derivative of a known function, only the choice $f(x) = x$ and $g'(x) = e^{-x}$ leads to a useful result
+>
+>$$
+>\begin{aligned}
+>\int_0^\infty xe^{-x}dx &= \left[ x \cdot -e^{-x} \right]_{x=0}^{x=\infty} - \int_0^\infty 1 \cdot -e^{-x} dx \\
+>&= (0-0) + \int_0^\infty e^{-x}dx \\
+>&= \left[ -e^{-x} \right]_{x=0}^{x=\infty} \\
+>&= 0 - -1 \\
+>&= 1
+>\end{aligned}
+>$$
+>
+
+
+
+
 
 
 
