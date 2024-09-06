@@ -114,7 +114,7 @@ $$
 ## 1.5.4 Time-Invariant Differential Equations and Steady States
 Again, we model physical chemical or biological processes that depend on time. Thus, in the equation $x'(t) = f(t,x(t))$ the independent variable $t$ represents time; the dependent variable $x(t)$ is the state variable, describing the process we are modelling. 
 
-Now we restrict outselves to processes of which the external conditions are constant. Then the rate of change $x'(t)$ only depends on $x(t)$ itself and not upon $t$. To such a process for all $t$ a differential equation may belong of the type
+Now we restrict ourselves to processes of which the external conditions are constant. Then the rate of change $x'(t)$ only depends on $x(t)$ itself and not upon $t$. To such a process a differential equation may belong of the type
 
 $$
 x'(t) = f(x(t))
@@ -122,4 +122,61 @@ $$
 
 Here, the right hand side is a function is a function of $x(t)$ only. Such a differential equation is called **time-invariant** or **autonomous**
 
-It is a well-established fact that many time-invariant systems in nature tend to a final state in which nothing changes anymore. Then the system comes at a resi
+It is a well-established fact that many time-invariant systems in nature tend to a final state in which nothing changes anymore. Then the system comes at a rest in a stationary state. Therefore, we first look for constant solutions: $x(t) = x^*$ for all $t$. In this case, $x'(t) = 0$ and for all $t$
+
+$$
+f(x(t)) = 0
+$$
+
+which is the case if 
+
+$$
+f(x^*) = 0
+$$
+
+A value $x$ satisfying this condition is called a [[Steady State]]
+
+Thus, $x^*$ is a steady state of the differential equation $x'(t)=f(x(t))$ if the constant function $x(t)=x^*$ solves the differential equation. In other words, $x^*$ is a steady state of $x'(t)=f(x(t))$ if $f(x^*) = 0$
+
+>[!Example]
+>The salt concentration in a CSTR is modelled with the equation 
+>
+>$$
+>c'(t) = D(f(t) - c(t))
+>$$
+>
+>If the input concentration is constant, this differential equation is time-invariant
+>
+>$$
+>c'(t) = D(f - c(t))
+>$$
+>
+>Its steady states satisfies a simple algebraic equation
+>
+>$$
+>c'(t) = D(f-c(t)) = 0
+>$$
+>
+>$$
+>c^* = f
+>$$
+>
+>The result is intuitively clear. In the long run, the concentration in the vessel becomes equal to the constant input concentration
+
+
+>[!Example]
+>The steady states $x^*$ of the logistic differential equation
+>
+>$$
+>x'(t) = \frac{r}{K}(K-x(t))x(t)
+>$$
+>
+>satisfy the algebraic equation
+>
+>$$
+>\frac{r}{K}(K-x^*)x^* = 0
+>$$
+>
+>The equation has two solutions, $x^* = 0$ and $x^* = K$
+
+
