@@ -1,14 +1,14 @@
 ---
 fileClass: Base, Literature Notes
 title: 
-Parents: 
+Parents: ["[[Multivariate Mathematics Applied]]"]
 Draft: 
-Status: 
+Status: To Revisit
 Authors: 
 Year of Publication: 
 Related Notes: 
 Related Terminology: 
-Related Courses: 
+Related Courses: ["[[Multivariate Mathematics Applied]]"]
 ---
 # 1.1 Introduction
 When modelling, we sometimes want to capture the speed at which certain events occur. We know, for example in chemistry, that a reaction may be faster of the concentration of the reactants increase, but we cannot predict how fast. Thus, we are not able to identify possible bottlenecks in the reaction scheme.
