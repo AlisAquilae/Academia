@@ -97,4 +97,29 @@ $$
 x'(t) = f(t(x,t))
 $$
 
-Because $x$ depends only on one independent variable $t$, the above equation is called an [[Ordinary Differential Equation]]. A function $x(t)$ satisfying the differential equation is called a **solution** of the differential equation. The differential equation alone does not determine the solution uniquely: we must also know the initial state. So we need an **initial condition**, for example that 
+Because $x$ depends only on one independent variable $t$, the above equation is called an [[Ordinary Differential Equation]]. A function $x(t)$ satisfying the differential equation is called a **solution** of the differential equation. The differential equation alone does not determine the solution uniquely: we must also know the initial state. So we need an **initial condition**, for example that the solution has the value $x(0)$ at time $t(0)$: $x(t_0)=x_0$. Differential equation and initial condition together are called an **initial value problem**
+
+An ordinary differential equation $x'(t) = f(t.x(t))$ is **linear** if $f(t,x)$ is a linear function of $x$. Then the differential equation has the form
+
+$$
+x'(t) = a(t)x(t)+b(t)
+$$
+
+In this linear differential equation, the function $b(t)$ is the **inhomogeneous term**. If $b(t) = 0$ for all $t$, the linear differential equation is called **homogeneous**; otherwise, it is **inhomogeneous**. Every inhomogeneous linear differential equation has a corresponding homogeneous linear differential equation, which is obtained by omitting the inhomogeneous term $b(t)$
+
+$$
+x'(t) = a(t)x(t)
+$$
+
+## 1.5.4 Time-Invariant Differential Equations and Steady States
+Again, we model physical chemical or biological processes that depend on time. Thus, in the equation $x'(t) = f(t,x(t))$ the independent variable $t$ represents time; the dependent variable $x(t)$ is the state variable, describing the process we are modelling. 
+
+Now we restrict outselves to processes of which the external conditions are constant. Then the rate of change $x'(t)$ only depends on $x(t)$ itself and not upon $t$. To such a process for all $t$ a differential equation may belong of the type
+
+$$
+x'(t) = f(x(t))
+$$
+
+Here, the right hand side is a function is a function of $x(t)$ only. Such a differential equation is called **time-invariant** or **autonomous**
+
+It is a well-established fact that many time-invariant systems in nature tend to a final state in which nothing changes anymore. Then the system comes at a resi
