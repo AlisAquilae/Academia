@@ -79,8 +79,16 @@ Integration by parts is useful when integrating a product of functions
 >
 
 
+## 2.2.3 Integration Over a Rectangle (Skipped)
 
+## 2.2.4 Double Integrals ad Iterative Integrals
+For a rectangular domain bounded by the lines  $x=a, x=b, y=c$ and $y=d$ 
 
+$$
+\int \int f(x,y)dA = \int_c^d \int_a^b f(x,y)dxdy
+$$
 
+Note that the limits in outer integral correspond to the outer integration variable, $y$, and that the inner integral corresponds to the inner integration variable, $x$. 
 
-
+>[!Tip]
+>You can swap whether you first differentiate X and Y, as long as you then also swap the integrals and the integration variables in the notation
