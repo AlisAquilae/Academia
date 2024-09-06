@@ -58,12 +58,28 @@ $$
 n'(t) = \alpha n(t)
 $$
 
-This is a differential equation, which is proportional (due to the $\alpha$) to itself. The constant $\alpha$ is called the relative growth rate
+This is a differential equation, which is proportional (due to the $\alpha$) to itself. The constant $\alpha$ is called the relative growth rate. 
+
+When deriving the solutions to this equation, these turn out to be **exponential functions**
 
 ## 1.5.2 The Logistic Model
-We might run into the case where growth is not infinitely possible. Growth might start competing with itself. This can be modelled by letting the relative growth rate $\alpha$ depend on n(t), instead of keeping it constant. This gives us the logistic differential equation, which has the form of 
+We might run into the case where growth is not infinitely possible. Growth might start competing with itself. This can be modelled by letting the relative growth rate $\alpha$ depend on n(t), instead of keeping it constant. 
 
+$$
+\alpha = \frac{r}{K}(K-n(t))
+$$
+
+Now the proportionality constant is a linear function of $n$. The constant $K$ is called the **carrying capacity** of the environment; as $n \to K$, $\alpha$ tends to 0 and the growth vanishes. If $n \gt K$ then $\alpha$ becomes negative, and growth turns into decay. The constant $r$ denotes the relative growth rate under favourable conditions, i.e. if $n$ is small in comparison to $K$. For this choice for $\alpha$, and plugging this into the linear growth equation, we obtain the so-called [[Logistic Differential Equation]] 
 $$
 n'(t) = \frac{r}{K}(K-n(t))n(t)
 $$
 
+The logistic differential equation can also be solved analytically. Its solutions will turn out to be 
+
+$$
+n(t) = \frac{K}{1+ce^{-rt}}
+$$
+
+Here, the constant $c$ depends on the initial value $n(0)$. 
+
+## 1.5.3 Ordinary Differential Equations: Basic Concepts
