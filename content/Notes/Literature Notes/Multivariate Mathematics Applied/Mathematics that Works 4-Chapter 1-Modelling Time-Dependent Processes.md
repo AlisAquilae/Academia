@@ -180,3 +180,11 @@ Thus, $x^*$ is a steady state of the differential equation $x'(t)=f(x(t))$ if th
 >The equation has two solutions, $x^* = 0$ and $x^* = K$
 
 
+## 1.5.5 Compartmental Models (Skipped)
+
+## 1.5.6 Chemical Reactions: Mass Action (Skipped)
+
+## 1.5.7 Ecological Models Containing Several Species (Skipped)
+
+## 1.5.8 Systems of Differential Equations: Basic Concepts (Skipped)
+
