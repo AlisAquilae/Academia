@@ -317,4 +317,36 @@ The factors that determine whether a complex of basalt formations is a good aqui
 6. Loose interbedded layer at interface between flows;
 7. Absence of tuff layers
 
-With increasing age, the porosity and conductivity decrease as a result of compaction and cementation. Quaternary basalts can have a porosity up to 40%, where this porosity in Tertiary basalts often is reduced to <5%. A good aquifer system in a basalt
+With increasing age, the porosity and conductivity decrease as a result of compaction and cementation. Quaternary basalts can have a porosity up to 40%, where this porosity in Tertiary basalts often is reduced to <5%. A good aquifer system in a basalt consists therefore of a large area with a thick layer of young, thin lava flows, without disturbing layers (like palaeosols and tuff layers). Also the precipitation excess should be sufficient.
+
+In general in the basalt complexes, which consist of series of lava flows, the horizontal conductivity considerably larger than the vertical conductivity. This implies that also often separate aquifers exist. In thicker layers of volcanic rock, not only impermeable or poorly permeable soil layers, but also embedded pyroclastic rocks (tuff) will occur (pyros: fire). Young tuff-layers (volcanic bombs, lapilli and ashes) are layered and poorly sorted. They are in general porous, but not permeable. They are therefore in most cases not good aquifers (often aquitards or even aquicludes). Exceptions are the very coarse grained layers with pyroclastic rocks close to the eruption centre.
+
+Groundwater abstraction in basalt complexes is commonly done by using drainage tunnels. These are preferably constructed in a way that as much as possible permeable zones are penetrated.
+
+---
+# 9. Areas with Metamorphic Rocks
+Similar to areas with magmatic rocks (exception: basalt) is the groundwater flow in areas with metamorphic rocks (exception karstified marble) relatively shallow. When these areas have a profound topography (hilly), a characteristic groundwater flow will develop.
+
+![[Pasted image 20240907153643.png]]
+
+The groundwater flow is limited to the weathered cover, the stony weathered cover and bedrock with fractures. In general the conductivity decreases with increasing depth. The weathered cover, when sandy, has a higher conductivity than the underlying rocks with fractures (this of course depends on the properties of the fracture system). In areas with a clayey weathered cover the opposite can occur. When the groundwater recharge is sufficient over a certain period, like in a humid climate, under wet conditions (for instance during winter) the phreatic level will be in the weathered cover ($H_n$). The phreatic level then more or less follows the upper boundary of the bedrock without fractures. The flux $Q_n$ will be large because:
+1. The groundwater flows through the weathered cover as well as through the bedrock with fractures ($kD_n$ is large);
+2. Gradient in $H_n$ in the direction of the brook is high
+
+Under wet conditions the brook (Fig. 3.32) will show a high inflow of groundwater and therefore a high surface water discharge. The flux density in the sandy weathered cover will in general be much higher than in the bedrock with fractures. In these hilly areas with highly consolidated rocks, the overland flow (Ned: oppervlakte afvoer) will be very small as long as the catchments are covered with grassland or forest. This even holds for areas with a clay (weathering) cover (with the presence of biopores in the topsoil). During dry periods (no or hardly any groundwater recharge), the phreatic level under the sloping part will drop considerably ($H_d$). At the top of the hill $D_d$ will become very small. The groundwater discharge to the brook will reduce considerably during dry periods ($Q_d$) because:
+1. The groundwater of this hill will only flow through the bedrock with fractures ($kD_d$ is small);
+2. Gradient in $H_d$ in the direction of the brook is small
+
+The streamflow hydrograph for the brook in a hilly area with magmatic and metamorphic rocks will therefore show steep discharge peaks during wet periods and very little discharge during long-lasting dry periods.
+
+>[!Note]
+>The groundwater flow, as described for magmatic and metamorphic rocks, is also applicable to hilly areas with highly consolidated sedimentary rocks (exception: karstified limestone).
+
+The possibilities for groundwater abstraction in areas with metamorphic rocks are in general low. Well yields from metamorphic rocks are almost always low. A thick, sandy weathering cover or the presence of fractures can increase the well yield.
+
+The highest well yields in metamorphic rocks are found in metamorphic limestones: marbles. The secondary conductivity through solution is causing these high well yields. The lowest well yields occur in phylites and similar soft, schistous rocks, where fractures and possible faults can be closed by clay-rich weathering products.
+
+In areas with metamorphic rocks groundwater can be found in:
+- Sandy weathering cover (sometimes 10-15 m thick);
+- Fracture systems (some tens of meters deep with exception of fault systems);
+- Erosion terraces / river
