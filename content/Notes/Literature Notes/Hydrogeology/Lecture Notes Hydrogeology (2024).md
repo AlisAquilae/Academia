@@ -91,4 +91,50 @@ The slope, the stream velocity and the sediment load of the river determine whet
 The location where erosion terraces and accumulation terraces meet is called terrace crossing.
 
 Well-developed erosion terraces can be found in the Netherlands along the river Meuse and in Central- and South-Limburg. In the Netherlands erosion terraces are hardly suitable for groundwater flow and groundwater abstraction, since they are mostly unsaturated and are situated on top of well permeable rock formations. In areas with hard rock such erosion terraces can be of major importance. This is depending on:
-1. Thickness of the satu
+1. Thickness of the saturated layer;
+2. Fragmentation of the terrace;
+3. Interaction of the terrace with the river
+
+When the terraces are more mature, it can be expected that due to erosion such terraces are more fragmented. This implies that the aquifer will be smaller in size.
+
+Fluviatile sediment complexes, like accumulation and erosion terraces, are layered and can, because of significant variations in grain size, show preferential flow within the formation.
+
+## 1.3 Glacially Influenced Areas
+
+>[!Note]
+>In this section only the glacially influenced lowland areas are described, because in areas at higher altitude glaciation predominantly leads to erosion. Under these conditions no sediments (possibly some glacial till) remain which can be of interest for groundwater flow and groundwater abstraction
+
+In glacially influenced areas a number of morphological units can be found, some of which are shown in the table below
+
+
+| Morphological Unit      | Description                                                       |
+| ----------------------- | ----------------------------------------------------------------- |
+| Glacial tongue basin    | System of aquifers and aquitards (multiple aquifer system)        |
+| Ice pushed ridge        | Phreatic aquifer                                                  |
+| Sandr or Sandur         | Phreatic aquifer                                                  |
+| Refilled erosion gulley | Phreatic / semi-confined aquifer, sometimes aquitard or aquiclude |
+| Esker                   | Phreatic aquifer                                                  |
+| Kame terrace            | Phreatic aquifer                                                  |
+| Ground moraine          | Usually aquitard                                                  |
+
+### 1.3.1 Glacial Tounge Basins
+
+>[!Note]
+>E.g. Gelderse Vallei, IJssel-vallei
+
+Glacial tounge basins were, after the retreat of the glacial body, partly filled with melting water deposits. These fluvioglacial deposits are often coarse grained. Because of the low position in the landscape often less permeable fluviatile or marine sediments occur in between these coarse fluvioglacial deposits. Also lake deposits can be poorly permeable. The stratified clays are an example of such poorly permeable layers (fine layered clays which originate from season layering; during winter less and finer sediments than during summer conditions).
+
+The aquifers below the aquitards often show confined groundwater (sometimes artesian conditions). The aquifers in a tongue basin are very suitable for groundwater abstraction because of the high conductivity and low vulnerability to pollution because of the overlying aquitard(s).
+
+### 1.3.2 Ice Pushed Ridges
+
+>[!Note]
+>E.g. Wageningse Berg, Utrechtse Heuvelrug, Oost Veluwe
+
+Ice pushed ridges consist of ice pushed pre-glacial deposits. In the Netherlands such deposits predominantly consist of Pleistocene fluviatile deposits, which implies that these ridges are predominantly poorly sorted and coarse grained. The ice pushed ridges are of high hydrogeological importance as infiltration areas for the recharge of lower lying aquifers (for instance in the tongue basins and aquifers of braided river systems) on a large spatial scale. The infiltration capacity of the coarse grained soils is high, so no overland flow can be expected (under not too extreme conditions).
+
+Result of the ice pushing are thicker layers with coarse grained material in the ice pushed ridges are good phreatic aquifers. The vulnerability of groundwater abstraction locations is nevertheless high because of the absence of covering poorly permeable layers. 
+
+>[!Info]
+>Buried ice pushed ridges (Ned: begraven stuwwallen) can be covered by poorly permeable layers (for example: the buried ice pushed ridge of the Betuwe is covered by the Holocene deposits of the meandering Meuse and Rhine system).
+
