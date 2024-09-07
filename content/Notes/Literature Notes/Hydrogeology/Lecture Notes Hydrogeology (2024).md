@@ -349,4 +349,9 @@ The highest well yields in metamorphic rocks are found in metamorphic limestones
 In areas with metamorphic rocks groundwater can be found in:
 - Sandy weathering cover (sometimes 10-15 m thick);
 - Fracture systems (some tens of meters deep with exception of fault systems);
-- Erosion terraces / river
+- Erosion terraces / river valley deposits;
+- Melt water deposits;
+- Buried gullies filled with coarse material;
+- Karstified marble
+
+The groundwater in the weathered layer and the fractured system is only suitable for small scale water abstractions. In Northern Europe and North America the crystalline rocks are commonly covered by an in thickness variable layer of glacial and peri-glacial deposits. From these layers most groundwater is abstracted, predominantly from melt water deposits (sandrs) and buried channels. Above-mentioned sources for groundwater also hold for the intrusive rocks and most extrusive rocks. However, the most important source for water supply in an area with metamorphic rocks and magmatic rocks (exception: basalt) is surface water (reservoirs).
