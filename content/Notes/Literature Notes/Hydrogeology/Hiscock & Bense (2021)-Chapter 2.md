@@ -3,7 +3,7 @@ fileClass: Base, Literature Notes
 title: 
 Parents: ["[[Hiscock & Bense (2021)-Hydrogeology-Principles and Practice]]"]
 Draft: 
-Status: In Progress
+Status: Done
 Authors: Hiscock & Bense
 Year of Publication: 2021
 Related Notes: 
