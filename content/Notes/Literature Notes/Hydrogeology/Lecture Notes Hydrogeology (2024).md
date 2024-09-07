@@ -245,3 +245,14 @@ Faults in consolidated rocks, on the other hand can lead to an increased hydraul
 >[!Info]
 >Large, graben systems (”riftvalleys”), which can be found all over the world, are often related to deep fault systems. Along these fault zones often volcanism occurs (Limagne graben (France), Nederrijnse laagvlakte (Germany)). Related to this also many mineral springs occur, sometimes even with a thermal character. Often this water is meteoric water , which is heated and extra enriched with minerals and gasses (TDS >1000 mg l$^{−1}$ ) at large depth.
 
+
+---
+# 6. Alluvial Fans
+In regions with large elevation differences, alluvial fans can develop, because a river will flow from a narrow valley in the higher-elevated areas into a wide plain. Such a difference in elevation can also exist in a plateau and valley landscape or in an area with horsts and grabens. 
+
+Alluvial fans are accumulation forms which can have a very different size. They are often very extensively present in arid and semi-arid areas, but can also be found in humid regions (Costa Rica, Alps, Himalaya). The distance between the apex and the distal end can be tens of km.
+
+![[Pasted image 20240907151308.png]]
+
+An alluvial fan consists at the apex of poorly sorted coarse and fine material and at the distal end of fine grained deposits. Halfway between the apex and distal end, well sorted rather coarse sediments can be found. The stratification in the alluvial fan is often complex because of the large variations in discharge and sediment load of the river. As a result, the thickness and distribution of the coarse grained sandy layers can be highly variable. In the direction of the distal end, these sandy layers can end in lens shaped and wedge shaped forms. Especially in arid regions, it is likely that the coarser grained layers are inter-bedded with mudflow deposits, which form rather continuous poorly permeable layers.
+
