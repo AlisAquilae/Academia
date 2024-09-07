@@ -77,3 +77,5 @@ Deposits from meandering rivers are in general not very suitable for water abstr
 The poorly sorted, coarse grained deposits have a relatively high total porosity and a high total conductivity. When these deposits reach a significant thickness, the [[Conductance|Transmissivity]] will be high. As a result these formations can be very suitable for groundwater abstractions. Not only water, but also pollutions can be transported relatively fast over large distances.
 
 In areas with lowland rivers large amounts of groundwater can be abstracted. The upper limit of these abstractions is determined by the negative effects of the abstractions, like drought in nature reserves and reduced yield of agricultural crops. In areas close to the coast, like West-Utrecht, also irregular setting of the Holocene deposits and the possible lateral attraction of salt groundwater in the Pleistocene aquifer play a role.
+
+Plains of (braided) rivers are often dissected as a result of uplift (epirogenese) and/or sea level fluctuations and climate variability, which results in the development of terraces. A terrace is thus a remain of a former valley:
