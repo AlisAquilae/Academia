@@ -287,4 +287,34 @@ Intensive groundwater flow increases the karstification process. Under natural c
 
 Two types of limestone can be distinguished: slightly cemented chalk and the dense compact (highly) consolidated limestone.
 
-The slightly cemented chalk or friable limestone from Cretaceous or younger (<60-90 Ma) has a relatively high primary total porosity (30 tot 40%)
+The slightly cemented chalk or friable limestone from Cretaceous or younger (<60-90 Ma) has a relatively high primary total porosity (30 tot 40%). This type of chalk (friable limestone) can be found in Southern-Limburg, SouthEngland and Normandy. It has a moderate primary conductivity, but this is related to the grain size of the chalk layer. A poorly to moderately cemented chalk, of which the grain size is equal to clay (lat. calcilutite), will have a very low conductivity. But when the grain size of the chalk is equal to the grain size of sand (lat. calcarenite), it can have reasonable conductivity. 
+
+>[!Note]
+>The karst is often limited because of the limited time elapsed since the development of the chalk layer(s). However, fracture flow can be considerable under certain conditions.
+
+
+The dense, compact, highly consolidated and often older limestones (Palaeozoic, Triassic and Jurassic; >¿144 m.a.) have a primary porosity of maximally a few percent. This type of limestone can be found in for instance the Belgian Ardennes, Slovakia (low Tatra) and Slovenia (plateaus in the neighbourhood of Postonja). For these formations the magnitude of the secondary porosity and conductivity as a result of karst is important. Limestone with relatively little karstification will have a secondary conductivity of approximately 0.1–1 m day$^{−1}$ ; in highly karstified limestone (with major fractures, widened by solution) the conductivity can increase up to 750-2000 m day$^{−1}$. 
+
+The groundwater in limestone areas is, especially with strong karstification (short residence times), very sensitive for pollution. The quality aspect is in such areas, even more so when phreatic groundwater is considered, a matter of continuous attention.
+
+---
+# 8. Areas with Magmatic Rocks
+In areas where intrusive (=plutonic) rocks (i.e. granite) are close to or at surface (for instance the old shields of Africa and America), no groundwater flow of any importance occurs and are the possibilities for groundwater abstraction are in general limited (porosity unweathered rocks often $\lt 1\%$). The porosity and conductivity can increase as a result of the formation of fracture systems and by weathering of the rock. The thickness of the regolith (weathered cover) can vary from a few meters up to sometimes tens of meters. The number of fractures decreases to depth and is negligible below 50 – 75 m. 
+
+>[!Note]
+>Exceptions are the areas with deep faults where fractures up to considerably larger depths can be found.
+
+Well yields from intrusive rock formations are almost always low (3 to 6 m$^3$ hr$^{−1}$). Higher yields are possible as a result of deep weathering or the presence of fractures/joints. Also in extrusive (=volcanic) rocks, from rhyolitic and andesitic volcanism, no groundwater flow of any importance occurs. The viscosity of the magma of rhyolitic and andesitic (intermediate) volcanoes is high (highly viscous magma). This results in explosive eruptions. The rocks are in general poorly sorted, distributed over a large area and they therefore form no thick layers. In these extrusive rocks, the groundwater flow and the well yields do not differ from intrusive rocks. 
+
+In the category extrusive rocks the basalts have hydrogeologically a remarkable position. The conductivity of basalt can be equal to that of limestone. Also the chemical composition of the groundwater, in terms of dominance of calcium and bicarbonate, shows resemblance.
+
+The factors that determine whether a complex of basalt formations is a good aquifer are:
+1. Lateral extension of the flow;
+2. Precipitation and evapotranspiration;
+3. Well developed basalt columns and vertical contraction joints;
+4. No palaeosols;
+5. Age;
+6. Loose interbedded layer at interface between flows;
+7. Absence of tuff layers
+
+With increasing age, the porosity and conductivity decrease as a result of compaction and cementation. Quaternary basalts can have a porosity up to 40%, where this porosity in Tertiary basalts often is reduced to <5%. A good aquifer system in a basalt
