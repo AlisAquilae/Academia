@@ -16,4 +16,6 @@ Related Courses: ["[[Hydrogeology]]"]
 
 # 1. Lowlands
 ## 1.1 Accumulation and Coastal Areas
-Accumulation or coastal areas are commonly subsiding sedimentary basins where thick unconsolidated sediment piles have accumulated. Examples are: the Netherlands, Northern Germany and the Ganges delta in Bangladesh. The Netherlands has been a subsiding sedimentary basin for millions of years. The result is that the older formations are located at large depth
+Accumulation or coastal areas are commonly subsiding sedimentary basins where thick unconsolidated sediment piles have accumulated. Examples are: the Netherlands, Northern Germany and the Ganges delta in Bangladesh. The Netherlands has been a subsiding sedimentary basin for millions of years. The result is that the older formations are located at large depth.
+
+The sedimentary basin is predominantly filled with marine deposits (clay, silt and fine sand). The coast-near deposits are characterized by a large volume of fine-grained sediments (clay and silt) and a small volume of coarse grained sediments
