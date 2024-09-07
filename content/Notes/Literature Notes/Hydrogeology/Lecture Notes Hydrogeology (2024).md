@@ -79,3 +79,16 @@ The poorly sorted, coarse grained deposits have a relatively high total porosity
 In areas with lowland rivers large amounts of groundwater can be abstracted. The upper limit of these abstractions is determined by the negative effects of the abstractions, like drought in nature reserves and reduced yield of agricultural crops. In areas close to the coast, like West-Utrecht, also irregular setting of the Holocene deposits and the possible lateral attraction of salt groundwater in the Pleistocene aquifer play a role.
 
 Plains of (braided) rivers are often dissected as a result of uplift (epirogenese) and/or sea level fluctuations and climate variability, which results in the development of terraces. A terrace is thus a remain of a former valley:
+
+[[Accumulation Terrace|Accumulation Terraces]] are located in the downstream part of a river. The younger terraces cover the older terraces. The younger terraces therefore are topographically higher than the older terraces. The deposits form a complex of accumulation terraces. Accumulation terraces are often very prosperous for water abstractions and are at least several meters thick. On the other hand pollutions can be transported quickly through these layers.
+
+[[Erosion Terrace|Erosion Terraces]] are located upstream of the accumulation terraces in the middle part and especially in the upper part of the river system. The erosion of sediments is higher than the sedimentation. As a result the river cuts into its own sediments. The younger terraces then are located topographically lower than the older terraces. The thickness of the terraces can vary from several meters to one stone layer (in the upper part of the river system). During the formation of erosion terraces, two phases can be distinguished:
+1. Development of a wide stream bed (width-erosion (outer boundaries) and sedimentation);
+2. Dissection and fragmentation as a result of for example climate change or tectonics. 
+
+The slope, the stream velocity and the sediment load of the river determine whether at a certain location accumulation terraces or erosion terraces are formed. 
+
+The location where erosion terraces and accumulation terraces meet is called terrace crossing.
+
+Well-developed erosion terraces can be found in the Netherlands along the river Meuse and in Central- and South-Limburg. In the Netherlands erosion terraces are hardly suitable for groundwater flow and groundwater abstraction, since they are mostly unsaturated and are situated on top of well permeable rock formations. In areas with hard rock such erosion terraces can be of major importance. This is depending on:
+1. Thickness of the satu
