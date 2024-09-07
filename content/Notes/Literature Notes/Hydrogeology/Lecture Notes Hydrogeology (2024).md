@@ -256,3 +256,35 @@ Alluvial fans are accumulation forms which can have a very different size. They 
 
 An alluvial fan consists at the apex of poorly sorted coarse and fine material and at the distal end of fine grained deposits. Halfway between the apex and distal end, well sorted rather coarse sediments can be found. The stratification in the alluvial fan is often complex because of the large variations in discharge and sediment load of the river. As a result, the thickness and distribution of the coarse grained sandy layers can be highly variable. In the direction of the distal end, these sandy layers can end in lens shaped and wedge shaped forms. Especially in arid regions, it is likely that the coarser grained layers are inter-bedded with mudflow deposits, which form rather continuous poorly permeable layers.
 
+The zone of maximum hydraulic conductivity in the alluvial fan is not found in the apex but, because of the better sorting of the sediments, halfway in the alluvial fan. The hydraulic conductivity of the sediments at the distal end is low. Resulting from the stratification of the alluvial fan and the associated conductivity distribution, a recharge area, a transmission zone and a discharge area can be distinguished. The aquifer at the apex is phreatic and will change into semi confined and confined conditions in the direction of the distal end. At this distal end therefore also artesian conditions can exist. 
+
+At the distal end the quality of the deeper confined groundwater is better than that of the shallow phreatic water. The deeper groundwater comes from infiltrated river water from the mountains, whereas the phreatic water at the distal end already can get quite a high saltiness because of the high evapotranspiration in arid regions.
+
+In areas with low amounts of precipitation, a system of wadis or oueds can develop in the alluvial fan. These dry valleys only sporadically discharge rainwater, which often comes from surrounding and upstream hills. With sufficient thickness of the sandy layers in the alluvial fan below the valleys, there is possibility for the storage of subsurface water. Often under these valleys a temporary convexity of the local groundwater level (groundwater mound) will occur (Fig. 3.20) as a result of the temporary water bearing influent river in the wadi. The natural and regular replenishment of water in the groundwater mound causes a better quality (lower TDS) than in the vicinity.
+
+---
+# 7. Limestone Areas
+The most permeable aquifers in hard rock can be found in karstic limestone complexes. In areas where consolidated rocks can be found over an extensive area, limestone complexes are the most promising in terms of the magnitude of the groundwater resource. Spectacular large springs, disappearing surface water and precipitation and the predominant absence of surface drainage patterns are characteristic for limestone areas.
+
+The special character of the hydrogeology of limestone areas is the result of the dissolvability of carbonate rocks in water. The widening of the fractures by dissolving the surrounding limestone and the accompanying characteristics (i.e. special topography and predominantly subsurface water flow) is called karst. The following factors are important for the development of karst:
+1. Precipitation and evapotranspiration;
+2. $\ce{CO2}$ production;
+3. De-calcified cover layer (Ned: ontkalkte deklaag);
+4. Soluble rock;
+5. Fractured / joints (Ned: diaklazen);
+6. No thick layer beds (Ned: geen dikke laagbanken);
+7. Well-developed bedding planes (Ned: goed ontwikkelde laagvlakken);
+8. Intensive groundwater flow;
+9. Time
+
+In order to have karstification there should, of course, be a precipitation excess, otherwise there will not be any downward water movement. In areas with an arid climate the karstification therefore will be limited. The CO2 production takes place in the root zone, so a vegetation cover is needed. The cover layer should be decalcified since otherwise the CO2 would be neutralized before it can reach the dissolvable rocks. Dissolvable rocks are for instance limestone, dolomite and gypsum. The structure of the limestone (presence of fractures/joints, beddings and bedding planes has a large influence on the area of contact and contact time, which is important for the rate of dissolution.
+
+Intensive groundwater flow increases the karstification process. Under natural conditions a more intensive groundwater flow (larger flux density) occurs near the valleys slopes (Ned: dalwanden) or plateau slopes where the groundwater comes to surface and in areas with higher tectonic activity at faults and fold axes. A more intensive groundwater flow can also be created by human activity when groundwater is abstracted from the limestone aquifer. This type of karstification is called induced karst. Finally the factor time of course plays a role in the karstification process. The older the rock, the more can already be dissolved.
+
+>[!Info]
+>The depth of the karstification is mostly limited to approximately 50-75 m. At greater depth hardly any fractures occurs, so there will hardly be any groundwater flow. The amount of groundwater that can be abstracted from the limestone per unit of thickness clearly decreases to depth. At depths larger than 50-75 m hardly any groundwater can be abstracted from the limestone. Exceptions on the mentioned depths where the fracturing stops, are the areas with deep faults. In such areas, fractures up to hundreds meters of depth can occur and therefore the karstification can also develop up to much greater depth.
+
+
+Two types of limestone can be distinguished: slightly cemented chalk and the dense compact (highly) consolidated limestone.
+
+The slightly cemented chalk or friable limestone from Cretaceous or younger (<60-90 Ma) has a relatively high primary total porosity (30 tot 40%)
