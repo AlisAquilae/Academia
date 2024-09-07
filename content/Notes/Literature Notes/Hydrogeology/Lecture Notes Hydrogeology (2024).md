@@ -39,3 +39,26 @@ In a large part of the deposits the pores are filled with salt water. That water
 In the dunes during Holocene a fresh water-lens on top of the salt water was formed. Two main causes can be given:
 1. The dunes show topography: they are higher than their surroundings. It is therefore possible to generate a convexity that reaches higher than the sea level. The groundwater recharge can then be discharged as groundwater. When the dune area would not have a surface level higher than the sea level, the groundwater table would have reached surface level and therefore the precipitation excess would have been discharged via a shallow drainage pattern.
 2. The dune sands have a fairly high conductivity. As a result no overland flow occurs, and groundwater recharge can take place. The dunes are an important groundwater body in lowland coastal areas as a result of this fresh water lens.
+
+The depth of the fresh water lens (z in m) below sea level is according to the [[Ghyben-Herzberg Principle]] equal to:
+
+$$
+z = \frac{\rho_f}{\rho_s - \rho_f}hf
+$$
+
+where:
+- $\rho_f$ is the fresh water density in [kg m$^{-3}$]
+- $\rho_s$ is the sea water density in [kg m$^{-3}$]
+- $h_f$ is the convexity
+
+Assuming a density of the salt and fresh groundwater of respectively 1025 and 1000 kg m$^{-3}$ the thickness of the fresh water lens ($z$ in m) can be calculated as 
+
+$$
+\begin{aligned}
+z &= \frac{\rho_f}{\rho_s - \rho_f}hf \\
+&= \frac{1000}{1025-1000}h_f \\
+&= 40h_f
+\end{aligned}
+$$
+
+This shows that with a convexity of only a few meters freshwater lenses underneath coastal areas can possibly be several hundr
