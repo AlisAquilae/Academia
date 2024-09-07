@@ -22,6 +22,8 @@ The literature for this course consists of 3 readers
 
 In addition, large part of the lectures covers content from the book [[Hiscock & Bense (2021)-Hydrogeology-Principles and Practice|Hydrogeology: Principles and Practice 2nd edition]] by Kevin M. Hiscock and Victor F. Bense. 
 
+Moreover, some additional material is provided for the various [[Hydrogeology Practicals|Practicals]]
+
 Finally, the course engages with some papers
 - Gleeson et al. (2012)
 - Gleeson et al. (2014)
