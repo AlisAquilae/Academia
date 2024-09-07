@@ -176,3 +176,38 @@ Plateaus are wide-stretched areas, more or less flat, clearly higher than their 
 
 Plateaus are commonly dissected, or bordered by deeply incised valleys, which can cause steep piezometric head gradients in the vicinity of the valleys. The volume flux density is then high, also because the groundwater abstractions are located at the borders of the valleys.
 
+A strongly dissected plateau leads to a situation that a possible aquifer is divided in smaller isolated aquifers. As a result, larger scale groundwater abstractions are impossible. The intensity and depth of the dissection is determined by the conductivity of the upper deposit, the age, the magnitude of uplift and the erosive force of the developing streams. Also the climatic history of the area should be taken into account (i.e. glaciations). A frozen topsoil over a longer period (Pleistocene) can result in deep incisions and strong dissection.
+
+![[Pasted image 20240907141253.png]]
+
+Apart from aquifers with phreatic groundwater (layer 1) at plateaus, also aquifers with (semi-)confined conditions can exist (layers 2 and 3). Local, intermediate and regional groundwater systems can occur. Knowledge of the intake areas (groundwater recharge) is important for the prediction of groundwater flow and the chemical composition of water in the respective aquifers. An aquifer will only be of importance for the base flow of an adjacent river, when this aquifer is incised (for instance the small valley does not cut into layer 3)
+
+---
+# 3. Fold Mountains
+Rocks in folded areas (mountainous areas) are characterized by a specific lithology and structural composition.
+- **Lithology**: the rock layers are as a result of the geological history consolidated (lithified, cemented). As a result the primary porosity is low. For groundwater flow of any importance, a secondary porosity and conductivity from fractures and widening of these fractures through karst are necessary.
+- **Structural framework**: the size of the aquifers in folded areas will be smaller than in non-folded areas. The aquifers are long-stretched and relatively narrow. The width of the aquifers is related to the intensity of the folding. The smaller the folds are, the smaller the size of the possible aquifers will be
+
+Young fold mountains (Alps, Karpathian system, Andes, Himalaya) had not not sufficient time for the development of substantial secondary porosity and conductivity. When there is sufficient precipitation, there will be - because of the very strong topography and the little storage capacity of the rock material - many small springs with a low discharge volume. The springs will dry up soon after the start of a dry period. Large scale water supply in such areas is mainly from surface water reservoirs.
+
+Old fold mountains (middle mountains, like Eifel, Ardennes, Harz, Kruˆsn´e Hory mountains) have experienced at least two phases of orogeny (Variscan orogeny during Upper-Carboniferous and the Alpine orogeny/uplift during Late Tertiary). Some of these systems are of an age that they also were influenced by a third, earlier orogeny in Upper-Silurian (Caledonian orogeny).
+
+>[!Info]
+>During the orogeny (Variscan phase) fractures are formed. After that, weathering (including chemical weathering) has led to widening of the fractures in soluble rock material, subsequently erosion induced incision, developing a drainage pattern and eventually to levelling, developing a peneplain. During or after the uplift (Alpine phase) these processes repeated (formation and eventually widening of fractures, development of a weathering cover) and by incision of the drainage pattern the peneplain is rejuvenated (dissected peneplain, formation of erosion terraces).
+
+From these processes the following groundwater bodies can be distinguished in the old folding mountains:
+- Weathered cover, when sandy
+- Fractures (Ned: Diaklazen)
+- Karstic limestone
+- River valleys (eroison terraces)
+- Refilled (glacial) erosion gullies
+
+The sandy weathered cover and the fractures are only suitable for small scale water abstractions. The number of fractures quickly decreases to depth.
+
+# 4. Basins
+Basins, especially epicontinental basins, are subsidence areas with a diameter of 100 to 500 km in which, as a result of slow subsidence, sediment layers up to hundreds of meters have been deposited. 
+
+>[!Example]
+>Examples in Europe are the Paris basin, the London Basin and the Münster basin. The Central basin in Australia is another well-known example.
+
+The sedimentary environment and accompanying lithology are characterized by sedimentation in a mostly shallow sea, where several types of sediment can be deposited, like sand, clay and chalk (Fig. 3.12). In general can be stated that the sands are deposited close to the coast, the clays at larger depth and therefore at larger distance to the coast and finally the chalk the furthest from the coast.
