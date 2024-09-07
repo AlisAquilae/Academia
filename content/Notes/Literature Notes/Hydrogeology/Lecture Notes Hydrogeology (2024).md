@@ -119,7 +119,7 @@ In glacially influenced areas a number of morphological units can be found, some
 
 ### 1.3.1 Glacial Tounge Basins
 
->[!Note]
+>[!Example]
 >E.g. Gelderse Vallei, IJssel-vallei
 
 Glacial tounge basins were, after the retreat of the glacial body, partly filled with melting water deposits. These fluvioglacial deposits are often coarse grained. Because of the low position in the landscape often less permeable fluviatile or marine sediments occur in between these coarse fluvioglacial deposits. Also lake deposits can be poorly permeable. The stratified clays are an example of such poorly permeable layers (fine layered clays which originate from season layering; during winter less and finer sediments than during summer conditions).
@@ -128,7 +128,7 @@ The aquifers below the aquitards often show confined groundwater (sometimes arte
 
 ### 1.3.2 Ice Pushed Ridges
 
->[!Note]
+>[!Example]
 >E.g. Wageningse Berg, Utrechtse Heuvelrug, Oost Veluwe
 
 Ice pushed ridges consist of ice pushed pre-glacial deposits. In the Netherlands such deposits predominantly consist of Pleistocene fluviatile deposits, which implies that these ridges are predominantly poorly sorted and coarse grained. The ice pushed ridges are of high hydrogeological importance as infiltration areas for the recharge of lower lying aquifers (for instance in the tongue basins and aquifers of braided river systems) on a large spatial scale. The infiltration capacity of the coarse grained soils is high, so no overland flow can be expected (under not too extreme conditions).
@@ -137,4 +137,42 @@ Result of the ice pushing are thicker layers with coarse grained material in the
 
 >[!Info]
 >Buried ice pushed ridges (Ned: begraven stuwwallen) can be covered by poorly permeable layers (for example: the buried ice pushed ridge of the Betuwe is covered by the Holocene deposits of the meandering Meuse and Rhine system).
+
+In the ice pushed ridges often dipping (Ned: scheefgestelde) loam layers occur, which can result in hydrologically isolated compartments. The recharge area of an abstraction location or an artificial spring (Ned. spreng) and the possible interaction between the groundwater abstraction and the spring discharge is therefore difficult to determine.
+
+### 1.3.3 Sandrs or Sandurs
+
+>[!Example]
+>E.g. Heelumse Veld and Teutoberger Wald
+
+Sandrs or Sandurs are outwash plains. The melting water deposits are at surface and have a small dip (Ned: geringe laaghelling). They have a limited thickness, are coarse grained (braided river system) and have a distinct layering, which is related to the temperature fluctuations during Saalian. At relative high temperatures the melting of the glacier was more profound than during the colder periods, inducing an increased transport of coarse sediments from the glacier and the ice pushed ridge to the outwash plain. The colder periods resulted in (thin) layers of finer sediment (but still sand). Sandr deposits thus clearly show hydraulic [[Anisotropy]].
+
+The conductivity of the sandr is high, which implies that they are good phreatic aquifers, provided that they are of a sufficient thickness. On the other hand, polluting substances can be transported relatively quickly through the sandr deposits. So groundwater abstractions can be, also because of the absence of overlying poorly permeable layers, very vulnerable. In general the vulnerability of water abstractions is even a little higher than these on an ice pushed ridge because the groundwater levels in the sandr are closer to surface.
+
+### 1.3.4 Refilled Erosion Gullies
+Refilled erosion gullies originate in rock formations dissected by erosion (melting water streams), where these erosion gullies in a later stage are refilled with melting water deposits. When these gullies are cut into relatively impermeable rock material and the melting water deposits are coarse grained, they can be considered as very long-shaped, narrow aquifers. The melting water gullies in the eastern part of the Netherlands and Northern Germany, which are cut into the poorly permeable Tertiary deposits, are a good example.
+
+The draw-down of the piezometric head of the groundwater in the channel aquifers as a result of groundwater abstraction (for instance in abstraction location Winterswijk) has, just as on the ice pushed ridge, an elliptical shape. Sometimes clay layers occur in between the sandy deposits, which induces a system of aquifers and aquitards. Groundwater abstractions in refilled erosion gullies are vulnerable when the aquitards are absent.
+
+>[!Info]
+>Sometimes the erosion gullies are filled with fine grained deposits. When these gullies exist in well permeable rock material, they form vertical barriers in the aquifer. The with heavy clay (Ned: potklei) filled erosion gullies in Noord-Nederland are an example of such gullies.
+
+
+### 1.3.5 Eskers
+Eskers are with meltwater deposits filled tunnels in the glacier. After the melting of the ice a long shaped ridge in the landscape remains (Fig. 3.8), which consists of poorly sorted coarse grained material. Eskers have many properties in common with the ice pushed ridges (recharge area, good aquifer, vulnerable). Welldeveloped eskers can be found in the Irish Midlands and in Canada.
+
+### 1.3.6 Kame Terraces
+Kame terraces are long-stretched elements, which can develop between the glacier and a high ridge (i.e. ice pushed ridge or hard rock). They develop when such quantities of melting water get in between the valley wall and the glacier body that streams will discharge this melting water. The rock debris and other material of the glacier and from the slopes will be transported and deposited by these streams (fluvioglacial deposits) they will form a layer of poorly sorted coarse grained deposits (braided river system), tilted parallel to the valley wall. The conductivity is thus high. When they are saturated, these terraces can act as long-stretched narrow aquifers. Especially in areas with hard rock these kame terraces can be interesting hydrogeological units for groundwater abstraction (comparable to erosion terraces). Since overlying poorly permeable layers are absent, pollutions can be transported quickly and the groundwater abstractions are therefore vulnerable to pollution.
+
+### 1.3.7 Ground Moraine Deposits (Glacial Till)
+Ground moraine deposits originate from underneath the ice cover (glacier). The deposits are very poorly sorted as a result of the absence of a sorting mechanism. Because of their poorly sorted character, combined with presence of particles smaller than 50$\mu$m, these deposits are poorly permeable. However, as overlying covering layer for underlying geological formations these ground moraine deposits are not very reliable as aquifers because:
+1. the grain size distribution varies strongly and with that also the hydraulic resistance;
+2. the thickness of the till layer is highly variable because of the irregular shape and because of erosion afterwards. Locally the layer can be completely removed, and
+3. the fine fraction can be washed out, which leads to an increased conductivity
+
+---
+# 2. Plateau and Valley Landscapes
+Plateaus are wide-stretched areas, more or less flat, clearly higher than their surroundings and at least at one side bordered by a steep slope (for instance a river valley). Often such a plateau consists of horizontally or sub-horizontally oriented geological formations.
+
+Plateaus are commonly dissected, or bordered by deeply incised valleys, which can cause steep piezometric head gradients in the vicinity of the valleys. The volume flux density is then high, also because the groundwater abstractions are located at the borders of the valleys.
 
