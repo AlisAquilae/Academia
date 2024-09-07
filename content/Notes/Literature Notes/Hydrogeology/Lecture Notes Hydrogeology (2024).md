@@ -211,3 +211,37 @@ Basins, especially epicontinental basins, are subsidence areas with a diameter o
 >Examples in Europe are the Paris basin, the London Basin and the Münster basin. The Central basin in Australia is another well-known example.
 
 The sedimentary environment and accompanying lithology are characterized by sedimentation in a mostly shallow sea, where several types of sediment can be deposited, like sand, clay and chalk (Fig. 3.12). In general can be stated that the sands are deposited close to the coast, the clays at larger depth and therefore at larger distance to the coast and finally the chalk the furthest from the coast.
+
+![[Pasted image 20240907142301.png]]
+
+In contrast to the folded areas the dip of the layers is in general modest (1-2%), what results in a clearly different lithological structure. Because of the modest dip of the layers the width of the outcrops of these layers are relatively large, which has a positive effect on the groundwater recharge. As a result of the bowl-shaped structure (compare it with a soup plate) and the topographically higher elevation of the basin margins, the recharge areas of possible aquifers can be found at these basin margins.
+
+As a result of the dip of the formations, the higher altitude of the basin margins and the alternation between permeable and less permeable layers, the piezometric head of the groundwater in the subsequent geological formations will not be the same. In the aquifers often confined groundwater and sometimes artesian water occurs.
+
+When water is abstracted from these confined aquifers the piezometric head will drop rapidly, because of the low eslastic storage coefficient. Because of the poorly permeable layers the chemical composition in the adjacent aquifers can differ strongly. Especially in the deeper parts of the basin salt water may occur, because of the marine character of the sediments.
+
+---
+# 5. Horst- and Graben Systems
+Horst- and graben areas are the result of block tectonics. Long-stretched zones are typical for such areas. Some blocks are subsided (grabens) relative to the blocks on both sides, which are lifted relative to their surroundings (horsts). The zones are bordered by a system of faults, which are oriented parallel to the length-axis of the horst and graben.
+
+![[Pasted image 20240907142546.png]]
+
+>[!Example]
+>Well known examples are the Peelhorst and Roerdalslenk (Peel Horst and Roer Valley graben), the Rhine Valley between the Vosges and the Black Forest, the Rhône Valley, the Limagne Graben (Central France) and the Central Rift Valley (e.g. Kenia, Ethiopia).
+
+In graben areas thick sedimentary layers can develop as a result of the accumulation of erosion products. Because of the high kD, often on a large scale good conditions for water abstraction can be found, especially since often also poorly permeable clay layers are present above the semi-confined aquifers, which are beneficial for the protection. When the horsts consist of layered sediments, the thickness of the layers (D), as a result of the dominant erosion, will be thinner than in the adjacent graben, which limits possibilities for groundwater abstraction. When the horsts consist of consolidated rocks, the possibilities for groundwater abstraction are limited to the weathered cover (regolith). Mostly no poorly permeable layers are covering these systems, which makes the abstractions vulnerable to pollution. In horst and graben systems fault zones are prominent features. 
+
+Fault zones have an important hydrogeological role because along fault zones the permeability of the rocks can be significantly different from that away from the fault zone. However, whether permeability is reduced or enhanced strongly depends on the mechanical properties of the rocks in which the fault occurs. 
+
+**Faults in unconsolidated rocks**: 
+Hydrogeologically it is important that the systems in unconsolidated rocks can act as zones of lowered hydraulic conductivity. Lowering of the hydraulic conductivity can occur when geological formations with a higher hydraulic conductivity are at the fault bordered by layers with a lower hydraulic conductivity. Furthermore, clogging of the fault surface can occur because fine grained deposits are pulled upward or downward along the fault (flexure). Groundwater that flows perpendicular to the fault then experiences hydraulic resistance, which can lead to a higher groundwater level in the fault area (occurrence of swamp areas or springs). 
+
+>[!Info]
+>Due to the alternation between dry and wet conditions (oxidation and reduction) in the fault area, the hydraulic conductivity of the fault zone can even be further decreased through precipitation of chemical compounds (cementing by i.e. F e and Mn).
+
+**Faults in consolidated rocks**
+Faults in consolidated rocks, on the other hand can lead to an increased hydraulic conductivity. Due to the movement of the consolidated rock material relative to each other, in the fault area, extra and deeper fractures develop, which leads to preferential flow in such a fault region. Fault zones in limestone areas can, as a result of the larger number of fractures and the therefore increased water circulation (and dissolving), show an extra high hydraulic conductivity. 
+
+>[!Info]
+>Large, graben systems (”riftvalleys”), which can be found all over the world, are often related to deep fault systems. Along these fault zones often volcanism occurs (Limagne graben (France), Nederrijnse laagvlakte (Germany)). Related to this also many mineral springs occur, sometimes even with a thermal character. Often this water is meteoric water , which is heated and extra enriched with minerals and gasses (TDS >1000 mg l$^{−1}$ ) at large depth.
+
