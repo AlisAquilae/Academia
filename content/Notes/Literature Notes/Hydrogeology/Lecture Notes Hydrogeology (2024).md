@@ -61,4 +61,15 @@ z &= \frac{\rho_f}{\rho_s - \rho_f}hf \\
 \end{aligned}
 $$
 
-This shows that with a convexity of only a few meters freshwater lenses underneath coastal areas can possibly be several hundr
+This shows that with a convexity of only a few meters freshwater lenses underneath coastal areas can possibly be several hundreds of meters thick. 
+
+## 1.2 River Plains
+The lowlands are located in the accumulation areas. The rocks are unconsolidated and deposited by rivers ([[Fluviatile Sediments]]). In the subsurface of almost the whole country of the Netherlands thick layers (several hundreds of meters) of these fluviatile sediments occur, on top of the Tertiary deposits. The thick layer of fluviatile sediments consists of an alteration of coarse grained aquifers and fine grained aquitards. The alteration is partly the result of the climate variations during Pleistocene. Together these aquifers and aquitards can be considered as a multi-aquifer groundwater system.
+
+The fluviatile deposits originate from two principally different river systems, namely the meandering system and the braided river system. Both systems develop under different conditions, which has large effect on the sedimentation environment and therefore on the rocks, which are deposited in such systems.
+
+![[Pasted image 20240907123741.png]]
+
+The large volume of fine-grained sediments in a meandering river system results in a high total porosity, but a low hydraulic conductivity. Only the actual deposits in the riverbed and the point bars contain such coarse material, that groundwater flow of any importance can occur. The volume of these coarse grained sediments in terms of thickness and spatial extension is nevertheless small, compared to the total volume of the sediments. The natural levee and backswamp are too fine grained to have substantial groundwater flow.
+
+Deposits from meandering rivers are in general not very suitable for water abstraction. Only from the river bed and point bar deposits, locally some groundwater can be abstracted. Back swamp deposits, which can be thick and extensive, can act as an aquitard for possibly underlying aquifers. In the Netherlands this situation can be found in the riverarea. There the deposits from the large rivers from Holocene act as poorly permeable top layer for the underlying Pleistocene aquifer. When the hydraulic resistance of such a poorly permeable layer from a meandering river system is evaluated, the fact that such a river regularly changed its course should be taken into account. As a result some buried channels (coarse sediments) can exist between the poorly permeable finegrained sediments (back swamp). The groundwater in the Pleistocene aquifer is, since the hydraulic resistance of the covering layer is lower, at such a location more vulnerable than at locations where over the total thickness fine-grained sediments occur.
