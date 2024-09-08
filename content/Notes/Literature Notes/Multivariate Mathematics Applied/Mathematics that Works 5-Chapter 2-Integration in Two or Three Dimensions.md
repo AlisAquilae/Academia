@@ -206,4 +206,15 @@ $\theta$ and $\varphi$ are angles: $\theta$ is the angle between $OP$ and the po
 
 The angles $\theta$ and $\varphi$ are closely related with the longitude and latitude degrees that are used in positions on earth. By fixing $r$ and varying $\theta$ and $\varphi$ we obtain a spherical surface. By fixing $r$ and $\theta$ and varying $\varphi$ we find a parallel latitude; by fixing $r$ and $\varphi$ and varying $\theta$ we find a meridian (half circle in a vertical plane)
 
-The usage of different coordinate systems has far-reaching consequences in differentiation and integration. For functions of one variable, we have the chain rule and the substitution rule. Below we study the higher dimens
+The usage of different coordinate systems has far-reaching consequences in differentiation and integration. For functions of one variable, we have the chain rule and the substitution rule. Below we study the higher dimensional variant of the substitution rule. 
+
+## 2.8.2 Integration in R$^2$: Polar Coordinates
+We examine the effect of new coordinates on the computation of a double integral. In calculating an integral we have to weigh points differently. More precisely:
+
+An integral over a circular region $R$ can be computed as
+
+$$
+\iint\limits_G f(x,y) dx\,dy = \iint\limits_H g(r, \varphi)
+$$
+
+
