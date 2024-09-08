@@ -126,3 +126,42 @@ If we can find the remaining integral, we obtain an equation for $x(t)$
 >$$
 >-\frac12 \ln(|1-2x|) = t + K
 >$$
+>
+>>[!Note]
+>>Notice the factor $\frac12$ before the ln!
+>
+>We need only one integration constant, here $K$.
+>
+>**Step 5**: In order to solve this for $x$, we first remove the factor $-\frac12$ be multiplying with $-2$. Next, we take exponentials on the left and right hand side
+>
+>$$
+>e^{\ln(|1-2x)|} = e^{-2t-2K} = e^{-2t}e^{-2K}
+>$$
+>
+>$$
+>|1-2x(t)| = Ce^{-2t+}
+>$$
+>
+>where $C = e^{-2K}$
+>
+>We can drop the absolute values by allowing $C$ to take negative values
+>
+>$$
+>1-2x(t) = Ce^{-2t} \Rightarrow x(t) = \frac12(1-Ce^{-2t})
+>$$
+>
+>Thus we have found the general solution of the differential equation
+>
+>**Step 6**: The constant $C$ is used to find the solution that satisfies the initial condition. For the solution of the above differential equation with $x(0)=1$ we find
+>
+>$$
+>1=x(0)=\frac12(1-C) \Rightarrow C=-1
+>$$
+>
+>Thus, the solution of the initial value problem is
+>
+>$$
+>x(t)=\frac12(1+e^{-2t})
+>$$
+
+
