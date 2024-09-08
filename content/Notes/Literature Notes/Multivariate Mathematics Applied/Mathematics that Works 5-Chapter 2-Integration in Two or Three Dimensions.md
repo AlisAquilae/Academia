@@ -166,7 +166,7 @@ $$
 
 and $\varphi$ is the angle between $OP$ and the positive x-axis. By fixing $r$ and varying $\varphi$, we find (a piece of) a circle about the origin. If we fix $\varphi$ and vary $r$, we obtain a half line originating in the origin. 
 
-### 2.8.1.2
+### 2.8.1.2 Cylindrical Coordinates
 The cylindrical coordinates $r$, $\phi$, and $z$ in **R**$^3$ are linked to the ordinary coordinates $x, y$ and $z$ by
 
 $$
@@ -177,3 +177,33 @@ z &= z
 \end{aligned}
 $$
 
+where $0 \le \varphi \le 2 \pi$, $r$ and $\varphi$ coincide with polar coordinates in the (x,y)-plane (the  "base plane"):
+
+$$
+r = \sqrt{x^2 + y^2}
+$$
+
+Thus, $r$ is the distance of $P = (x,y,z)$ to the $z$-axis. By fixing $r$ and varying $\varphi$ and $z$ we find a cylindrical surface. Cylindrical coordinates are well-suited to describe solids of rotation
+
+### 2.8.1.3 Spherical Coordinates
+The spherical coordinates $r, \theta$ and $\varphi$ in **R**$^3$ satisfy
+
+$$
+\begin{aligned}
+x &= r \sin(\theta)\cos(\theta) \\
+y &= r \sin(\theta)\sin(\theta) \\
+z &= r \cos(\theta)
+\end{aligned}
+$$
+
+where $0 \le \theta \le \pi$ and $0 \le \varphi \le 2\pi$. Here $r$ is the distance of $P=(x,y,z)$ to the origin $O$:
+
+$$
+r = \sqrt{x^2 + y^2 + z^2}
+$$
+
+$\theta$ and $\varphi$ are angles: $\theta$ is the angle between $OP$ and the positive $z$-axis, and $\varphi$ is the angle in the $(x,y)$-plane (the "base plane") of the line through $(x,y,0)$ with the positive $x$-axis. Spherical coordinates are especially suited for integration over spherical constants. 
+
+The angles $\theta$ and $\varphi$ are closely related with the longitude and latitude degrees that are used in positions on earth. By fixing $r$ and varying $\theta$ and $\varphi$ we obtain a spherical surface. By fixing $r$ and $\theta$ and varying $\varphi$ we find a parallel latitude; by fixing $r$ and $\varphi$ and varying $\theta$ we find a meridian (half circle in a vertical plane)
+
+The usage of different coordinate systems has far-reaching consequences in differentiation and integration. For functions of one variable, we have the chain rule and the substitution rule. Below we study the higher dimens
