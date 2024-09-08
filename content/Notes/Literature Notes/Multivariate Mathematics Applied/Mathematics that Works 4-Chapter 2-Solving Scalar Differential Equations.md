@@ -165,3 +165,24 @@ If we can find the remaining integral, we obtain an equation for $x(t)$
 >$$
 
 
+## 2.2.2 Special Case: The Logistic Differential Equation
+The [[Logistic Differential Equation]] is the basis equation for population models.
+
+The solutions of the logistic differential equation
+
+$$
+x'(t)=\frac{r}{K}(K-x(t))x(t)
+$$
+
+satisfy
+
+$$
+x(t)=\frac{K}{1+ce^{-rt}}
+$$
+
+>[!Note]
+>For an explanation of how this solution was derived, see p.73 of the book. 
+
+
+
+
