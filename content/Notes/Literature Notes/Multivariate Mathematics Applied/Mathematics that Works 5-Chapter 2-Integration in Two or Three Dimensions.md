@@ -111,7 +111,24 @@ Note that the limits in outer integral correspond to the outer integration varia
 >$$
 >\begin{aligned}
 >V &= \int_{y=-1}^{y=1} \left[ \int_{x=0}^{x=1} xy+y^2 dx \right] dy \\
->&= \int
+>&= \int_{y=-1}^{y=1} \left[ \frac12 x^2 y +xy^2 \right]_{x=0}^{x=1}dy \\
+>&= \int_{y=-1}^{y=1} \frac12y + y^2 dy
+>\end{aligned}
+>$$
+>
+>Here, we mentioned explicitly the integration variable in the limits, although this is not strictly necessary. We will further omit this explicit notation
+>
+>Next, we integrate with respect to $y$. By integration and evaluation of the limits, the variable $x$ has dissapeared, so an ordinary integral with respect to $y$ remains. 
+>
+>$$
+>\begin{aligned}
+>V &= \int_{-1}^1 \frac12 y + y^2 dy \\
+>&= \left[ \frac14 y^2 +\frac13 y^3 \right]_{y=-1}^{y=1} \\
+>&= (\frac14 + \frac13) - (\frac14 - \frac13) \\
+>&= \frac23
 >\end{aligned}
 >$$
 
+The steps above can be done in reversed order as well; in other words, first integrating with respect to $y$ and then integrating with respect to $x$. In addition, we now integrated along 3 unknowns, $x$ and $y$. Adding more unknowns follows the same principle.
+
+Finally, we note that the physical dimension of the integral is the product of the integration variable and that of thr 
