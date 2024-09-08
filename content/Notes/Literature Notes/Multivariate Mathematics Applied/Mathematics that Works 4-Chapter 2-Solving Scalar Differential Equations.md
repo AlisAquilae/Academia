@@ -309,7 +309,7 @@ can be solved with separation of variables only if $b(t)=ka(t)$ for some constan
 >We set out to solve the initial value problem
 >
 >$$
->x'(t)=-2x(t)+3t, x(0)=1
+>x'(t)=-2x(t)+3t, \, x(0)=1
 >$$
 >
 >**Step 1**: The corresponding homogeneous differential equation
@@ -347,6 +347,48 @@ can be solved with separation of variables only if $b(t)=ka(t)$ for some constan
 >The second term at the left hand side cancels the first term at the right. Hence,
 >
 >$$
->u'(t)e^{-2t} = 3t \Rightarrow u'(t) = \frac{3t}{e^{-2t}} = 3te^{2}
+>u'(t)e^{-2t} = 3t \Rightarrow u'(t) = \frac{3t}{e^{-2t}} = 3te^{2t}
 >$$
+>
+>and we find $u(t)$ as the antiderivative of $u'(t)$
+>
+>$$
+>u(t) = \int u'(t)dt = \int 3te^{2t}dt = \frac32 (t-\frac12)e^{2t} + C
+>$$
+>
+>Thus, the general solution is
+>
+>$$
+>x(t)=u(t)e^{-2t} = [\frac32(t-\frac12)e^{2t} + C]e^{2t} = \frac32t - \frac34 + Ce^{-2t}
+>$$
+>
+>We select the solution that satisfies the initial condition $x(0)=1$
+>
+>$$
+>x(t)=\frac32 t -\frac34 + Ce^{-2t}
+>$$
+>
+>**Step 3**: We select the solution that satisfied the initial condition $x(0)=1$
+>
+>$$
+>x(t)=\frac32t - \frac34 + Ce^{-2t}
+>$$
+>
+>$$
+>x(0)=0-\frac34 + C \, \text{ and } \, x(0)=1
+>$$
+>
+>$$
+>-\frac34 + C = 1 \Rightarrow C = \frac74
+>$$
+>
+>Hence, the solution of our initial value problem is
+>
+>$$
+>x(t)=\frac32t - \frac34 + \frac74 e^{-2t}
+>$$
+
+
+
+
 
