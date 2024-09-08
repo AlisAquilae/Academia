@@ -399,5 +399,31 @@ Thus, we find the following algorithm for linear inhomogeneous differential equa
 3. If an initial condition is specified, use it to find the integration constant
 
 
+## 2.5.4 Cascade Models
+In [[Mathematics that Works 4-Chapter 1-Modelling Time-Dependent Processes#1.5 Modelling with Differential Equations|Chapter 1.5]] we saw examples of models in which the rates of change of the state variables mutually depend on each other. We obtained a system of differential equations, to be solved simultaneously. For instance, in a Lotka-Volterra predator-prey model, we cannot solve for the prey without solving for the predator, nor the other way around. 
 
+In other cases, we may find that the rate of change of the first variable $x_1(t)$ does not depend on the other state variables $x_2(t), x_3(t), \dots$. In this case we may try to solve for $x_1(t)$ independently, that is, without knowing $x_2(t), x_3(t), \dots$. If we succeed, we are left with a system of differential equations for $x_2(t), x_3(t), \dots$. This system is simpler than the original one, because it contains one variable less. 
 
+It may happen that we can continue in the same way. In this case, the system
+
+$$
+\begin{aligned}
+x_1'(t)&= f_1(t, x_1(t), x_2(t), \dots, x_n(t)) \\
+x_2'(t)&= f_2(t, x_1(t), x_2(t), \dots, x_n(t)) \\
+& \vdots \\
+x_n'(t)&= f_n(t, x_1(t), x_2(t), \dots, x_n(t))
+\end{aligned}
+$$
+
+can also be described by
+
+$$
+\begin{aligned}
+x_1'(t) &= f_1(t, x_1(t)) \\
+x_2'(t)&= f_2(t, x_1(t), x_2(t)) \\
+& \vdots \\
+x_n'(t)&=f_n(t, x_1(t), x_2(t), \dots, x_n(t))
+\end{aligned}
+$$
+
+The equation for $x_1$ is a scalar differential equation, which we may try to solve. If we succeed, $x_1(t)$ becomes a known function. We thus obtain a scalar differential equation for $x_2$, which we may try to solve, and so on. A system of this kind is called a **cascade model**
