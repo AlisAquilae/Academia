@@ -149,4 +149,31 @@ Apparently, we can apply various scale units or coordinate units to length. As t
 In a plane we often use the coordinates $x$ and $y$, in space the coordinates $x, y$ and $z$. They are called the **Cartesian coordinates**. However, there may be reasons to use different coordinates, for example if we consider a region with a regular geometric structure. After Cartesian coordinates, polar coordinates in **R**$^2$, and cylindrical coordinates and spherical coordinates in **R**$^3$ are the most used coordinate systems
 
 ### 2.8.1.1 Polar Coordinates
-The polar coordinates $r$ and $\u$ 
+The polar coordinates $r$ and $\varphi$ in **R**$^2$ are connected to the ordinary (Cartesian) coordinates $x$ and $y$ via the relations
+
+$$
+\begin{aligned}
+x &= r \cos(\varphi) \\
+y &= r \sin(\varphi)
+\end{aligned}
+$$
+
+where $0 \le \varphi \le 2\pi$. Then $r$ is the distance of the point $P = (x,y)$ to the origin $O$:
+
+$$
+r = \sqrt{x^2 + y^2}
+$$
+
+and $\varphi$ is the angle between $OP$ and the positive x-axis. By fixing $r$ and varying $\varphi$, we find (a piece of) a circle about the origin. If we fix $\varphi$ and vary $r$, we obtain a half line originating in the origin. 
+
+### 2.8.1.2
+The cylindrical coordinates $r$, $\phi$, and $z$ in **R**$^3$ are linked to the ordinary coordinates $x, y$ and $z$ by
+
+$$
+\begin{aligned}
+x &= r \cos(\varphi) \\
+y &= r \sin(\varphi) \\
+z &= z
+\end{aligned}
+$$
+
