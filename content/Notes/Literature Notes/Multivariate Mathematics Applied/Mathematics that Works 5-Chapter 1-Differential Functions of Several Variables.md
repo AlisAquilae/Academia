@@ -3,7 +3,7 @@ fileClass: Base, Literature Notes
 title: 
 Parents: ["[[Multivariate Mathematics Applied]]"]
 Draft: 
-Status: 
+Status: To Revisit
 Authors: 
 Year of Publication: 
 Related Notes: 
@@ -135,6 +135,15 @@ $$
 >$$
 
 
+## 1.2.6 Higher Order Partial Derivatives
+The partial derivatives $f_x(x,y)$ and $f_y(x,y)$ themselves are again functions of two variables. We can differentiate them in turn, with respect to $x$ or with respect to $y$. The result is a second order partial derivative. 
 
+>[!Note]
+>This procedure may be continued, leading to third and higher order partial derivatives
 
-
+>[!Example]
+>The function $f(x,y) = x^2 \ln(y) + ye^{2x}$ has as partial derivatives
+>
+>$$
+>f_x(x,y)=2xln(y)+2y
+>$$

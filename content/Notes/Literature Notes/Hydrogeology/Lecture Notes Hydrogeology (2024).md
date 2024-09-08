@@ -3,7 +3,7 @@ fileClass: Base, Literature Notes
 title: Generic Hydrogeological Systems
 Parents: ["[[Hydrogeology]]"]
 Draft: 
-Status: In Progress
+Status: Done
 Authors: Victor Bense, Roel Dijksma, Syed Mustafa
 Year of Publication: 2024
 Related Notes: 
