@@ -214,7 +214,12 @@ We examine the effect of new coordinates on the computation of a double integral
 An integral over a circular region $R$ can be computed as
 
 $$
-\iint\limits_G f(x,y) dx\,dy = \iint\limits_H g(r, \varphi)
+\iint\limits_G f(x,y) \, \mathrm dx \, \mathrm dy = \iint\limits_H g(r, \varphi) r \, \mathrm dr \, \mathrm dp = \int\limits_0^{2\pi} \int\limits_0^R f(r \cos(\varphi), r\sin(\varphi))r \, \mathrm dr \, \mathrm dp
 $$
 
+The symbol $\mathrm dx \, \mathrm dy$ in a double integral is often called an area element, denoted as $\mathrm dA$. When under polar coordinates, we may write
+
+$$
+\mathrm dA = \mathrm dx \, \mathrm dy = r\, \mathrm dr \, \mathrm dp
+$$
 
