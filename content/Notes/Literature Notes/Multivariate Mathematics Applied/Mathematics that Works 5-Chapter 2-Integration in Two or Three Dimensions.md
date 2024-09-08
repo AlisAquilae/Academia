@@ -1,14 +1,14 @@
 ---
 fileClass: Base, Literature Notes
 title: 
-Parents: 
+Parents: ["[[Multivariate Mathematics Applied]]"]
 Draft: 
-Status: 
+Status: In Progress
 Authors: 
 Year of Publication: 
 Related Notes: 
 Related Terminology: 
-Related Courses: 
+Related Courses: ["[[Multivariate Mathematics Applied]]"]
 ---
 
 # 2.2 Rectangular Domains
@@ -131,4 +131,4 @@ Note that the limits in outer integral correspond to the outer integration varia
 
 The steps above can be done in reversed order as well; in other words, first integrating with respect to $y$ and then integrating with respect to $x$. In addition, we now integrated along 3 unknowns, $x$ and $y$. Adding more unknowns follows the same principle.
 
-Finally, we note that the physical dimension of the integral is the product of the integration variable and that of thr 
+Finally, we note that the physical dimension of the integral is the product of the integration variable and that of the integrand
