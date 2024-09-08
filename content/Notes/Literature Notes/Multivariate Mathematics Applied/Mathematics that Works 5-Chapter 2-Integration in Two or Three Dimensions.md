@@ -132,3 +132,21 @@ Note that the limits in outer integral correspond to the outer integration varia
 The steps above can be done in reversed order as well; in other words, first integrating with respect to $y$ and then integrating with respect to $x$. In addition, we now integrated along 3 unknowns, $x$ and $y$. Adding more unknowns follows the same principle.
 
 Finally, we note that the physical dimension of the integral is the product of the integration variable and that of the integrand
+
+---
+# 2.8 Coordinate Transforms
+In measuring quantities, we use a set of measurement units, the coordinate system. Thus, the outcome of measurements is a set of coordinates in that coordinate system. If you change the coordinate system, then the measurement outcomes change accordingly
+
+>[!Example]
+>If your body length is 1.80 m, then you are also 180 cm tall. The new scale unit (centimetre) is one hundredth of the old one (metre). In the transition from one scale to the other, the scale indicator gains an extra factor 100 that compensates exactly for the factor in the scale unit. 
+
+Apparently, we can apply various scale units or coordinate units to length. As the measured object does not change, the choice affects the scale indicaton or coordinate. 
+
+>[!Example]
+>In an atlas, positions on earth are not expressed as distances (in metres) from a certain reference point, but with angles: the longitude (western or eastern longitude, in degrees, with respect to the prime meridian at Greenwich) and the latitude (northern or southern latitude, in degrees, with respect to the equator). This positioning system is closely related to the spherical coordinates that we will introduce now
+
+## 2.8.1 Coordinate Systems
+In a plane we often use the coordinates $x$ and $y$, in space the coordinates $x, y$ and $z$. They are called the **Cartesian coordinates**. However, there may be reasons to use different coordinates, for example if we consider a region with a regular geometric structure. After Cartesian coordinates, polar coordinates in **R**$^2$, and cylindrical coordinates and spherical coordinates in **R**$^3$ are the most used coordinate systems
+
+### 2.8.1.1 Polar Coordinates
+The polar coordinates $r$ and $\u$ 
