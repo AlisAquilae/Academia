@@ -184,5 +184,73 @@ $$
 >For an explanation of how this solution was derived, see p.73 of the book. 
 
 
+---
+# 2.5 Time-Dependent Differential Equations
+## 2.5.1 Separation of Variables
+In the previous section, we applied the method of separation of variables to time-invariant differential equations. Here, we extent this method to a class of time-dependent differential equations. 
 
+>[!Example]
+>We look for the solution $x(t)$ of the initial value problem
+>
+>$$
+>x'(t)=\sin(t)x(t), x(0)=3
+>$$
+>
+>**Step 1**: We move the factor $x(t)$ from the right hand side to the left hand side of the equation by dividing the differential equation on the left and right hand side by $x(t)$, giving
+>
+>$$
+>\frac{1}{x(t)}x'(t) = \sin(t)
+>$$
+>
+>Now the variables are separated; the left hand side depends explicitly on $x$ only, while the right hand side depends on $t$ only. 
+>
+>**Step 2**: We integrate left and right hand side with respect to $t$. Thus,
+>
+>$$
+>\int \frac{1}{x(t)}x'(t)dt = \int \sin(t)dt
+>$$
+>
+>**Step 3**: in the integral on the left, we change the integration variable to $x$ by substitution:
+>
+>$$
+>\int \frac{1}{x(t)}x'(t)dt = \int \frac{1}{x}dx = \int \sin(t)dt
+>$$
+>
+>**Step 4**: Elaborating these integrals, we obtain
+>
+>$$
+>\ln(|x|) = -\cos(t)+K
+>$$
+>
+>where $K$ is an arbitrary constant. This equation is to be solved for $x$.
+>
+>**Step 5**: To remove the natural logarithm we take exponentials (left and right)
+>
+>$$
+>e^{\ln(|x|)} = e^{\cos(t) + K} = e^Ke^{\cos(t)}
+>$$
+>
+>so
+>
+>$$
+>|x(t)| = Ce^{\cos(t)}
+>$$
+>
+>where $C = e^K$
+>
+>We can drop the absolute values by admitting negative values for $C$, and we obtain
+>
+>$$
+>x(t)=Ce^{\cos(t)}
+>$$
+>
+>This is the general solution of the differential equation
+>
+>**Step 6**: The constant $C$ is used to make $x(t)$ satisfy the initial condition. For the solution with $x(0)=3$ we find
+>
+>$$
+>3=x(0)=Ce \Rightarrow C=3e^{-1}
+>$$
+>
+>So the solution of the initial value problem is $x(t)=
 
