@@ -44,7 +44,7 @@ Related Courses: ["[[Multivariate Mathematics Applied]]"]
 >\ln(|x|) = kt + K
 >$$
 >
->where $c$ is an arbitrary integration constant.
+>where $K$ is an arbitrary integration constant.
 >
 >**Step 5:** The resulting equation must be solved for $x$. To remove the natural logarithm we take exponentials (on the left and right hand side), which gives
 >
@@ -68,3 +68,61 @@ Related Courses: ["[[Multivariate Mathematics Applied]]"]
 >
 >Hence, the solution of the initial value problem is $x(t)=2e^{kt}$
 
+The differential equation $x'(t) = kx(t)$ is so common in all fields of science that it is useful to know the solution $x(t)=Ce^{kt}$ by heart
+
+The method used above to solve the differential equation $x'(t) = kx(t)$ can be applied in principle to any time-invariant differential equation
+
+$$
+x'(y)=f(x(t))
+$$
+
+We can solve this differential equation by separation of variables. We divide both sides of the equation by $f(x(t))$ to find
+
+$$
+\frac{1}{f(x(t))}x'(t)=1
+$$
+
+We antidifferentiate the functions at both sides formally with respect to $t$:
+
+$$
+\int \frac{1}{f(x(t))}x'(t)dt = \int 1 dt
+$$
+
+By substitution we change to $x$ as integration variable in the left integral, using that $dx = x'(t)dt$. Thus, we find
+
+$$
+\int \frac{1}{f(x)}dx = t + K
+$$
+
+If we can find the remaining integral, we obtain an equation for $x(t)$
+
+>[!Example]
+>We look for a solution of the initial value problem
+>
+>$$
+>x'(t) = 1-2x(t), x(0)=1
+>$$
+>
+>**Step 1:** Separation of variables gives
+>
+>$$
+>\frac{1}{1-2x(t)}x'(t)=1
+>$$
+>
+>**Step 2**: By integration with respect to $t$ we get
+>
+>$$
+>\int \frac{1}{1-2x(t)}x'(t)dt = \int 1 dt
+>$$
+>
+>**Step 3**: Substituting $x$ for integration variable in the integral on the left yields
+>
+>$$
+>\int \frac{1}{1-2x(t)}x'(t)dt = \int \frac{1}{1-2x}dx = \int 1 dt
+>$$
+>
+>**Step 4**: Evaluation of these integrals gives the equation
+>
+>$$
+>-\frac12 \ln(|1-2x|) = t + K
+>$$
