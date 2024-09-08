@@ -252,5 +252,55 @@ In the previous section, we applied the method of separation of variables to tim
 >3=x(0)=Ce \Rightarrow C=3e^{-1}
 >$$
 >
->So the solution of the initial value problem is $x(t)=
+>So the solution of the initial value problem is $x(t)=Ce^{cos(t)} =3e^{-1}e^{\cos(t)} = 3e^{\cos(t)-1}$
 
+A differential equation is called separable if it has the form 
+
+$$
+x'(t)=p(x(t))q(t)
+$$
+
+On the right hand side there is a product of two functions, the first of which is a function of the dependent variable $x(t)$ only, while the second one is a function of the independent variable $t$ only. This type of variable can be solved using separation of variables. 
+
+## 2.5.2 Homogeneous Linear Differential Equations
+A very important special case for separation of variables arises if $p(x)=x$; that is, if 
+
+$$
+x'(t)=q(t)x(t)
+$$
+
+This is a **linear homogeneous differential equation**. Applying the method above we find
+
+$$
+\int \frac1x dx = \int q(t)dt
+$$
+
+$$
+\ln(|x(t)|) = \int q(t)dt
+$$
+
+$$
+x(t)= \pm e^{\int q(t)dt}
+$$
+
+Even more specifically, for $q(t)$ we retrieve the **time-invariant linear homogeneous differential equation**
+
+$$
+x'(t)=ax(t)
+$$
+
+for which we rediscover the solution
+
+$$
+x(t)=e^{\int a dt} = e^{at + K} = Ce^{at}
+$$
+
+
+## 2.5.3 Inhomogeneous Linear Differential Equations: Variation of Constants
+A linear inhomogeneous differential equation
+
+$$
+x'(t)=a(t)x(t)+b(t)
+$$
+
+can be solved with separa
