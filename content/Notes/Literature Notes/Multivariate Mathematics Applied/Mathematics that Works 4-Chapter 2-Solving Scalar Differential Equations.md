@@ -303,4 +303,50 @@ $$
 x'(t)=a(t)x(t)+b(t)
 $$
 
-can be solved with separa
+can be solved with separation of variables only if $b(t)=ka(t)$ for some constant $k$. This is the case for example if $b(t)=0$ for all $t$ (then the equation is homogeneous) or if $a(t)=0$ and $b(t)=b$, both independent of $t$. In all other cases we use **variation of constants**
+
+>[!Example]
+>We set out to solve the initial value problem
+>
+>$$
+>x'(t)=-2x(t)+3t, x(0)=1
+>$$
+>
+>**Step 1**: The corresponding homogeneous differential equation
+>
+>$$
+>x'(t)=-2xt
+>$$
+>
+>is a standard equation. If necessary, we solve it using separation of variables to find 
+>
+>$$
+>x(t)=Ue^{-2t}
+>$$
+>
+>where $U$ is an integration constant
+>
+>**Step 2**: We construct the solution of the inhomogeneous differential equation using the method of variation of constants. To do so we replace constant $U$ with a function $u(t)$:
+>
+>$$
+>x(t)=u(t)e^{-2t}
+>$$
+>
+>This function we substitute into the complete (inhomogeneous) differential equation:
+>
+>$$
+>(u(t)e^{-2t})' = -2(u(t)e^{-2t})+3t
+>$$
+>
+>We elaborate this to
+>
+>$$
+>u'(t)e^{-2t} + u(t)e^{-2t} \cdot -2 = -2u(t)e^{-2t}+3t
+>$$
+>
+>The second term at the left hand side cancels the first term at the right. Hence,
+>
+>$$
+>u'(t)e^{-2t} = 3t \Rightarrow u'(t) = \frac{3t}{e^{-2t}} = 3te^{2}
+>$$
+
