@@ -3,7 +3,7 @@ fileClass: Base, Literature Notes
 title: 
 Parents: ["[[Multivariate Mathematics Applied]]"]
 Draft: 
-Status: To Revisit
+Status: Done
 Authors: 
 Year of Publication: 
 Related Notes: 
@@ -145,5 +145,32 @@ The partial derivatives $f_x(x,y)$ and $f_y(x,y)$ themselves are again functions
 >The function $f(x,y) = x^2 \ln(y) + ye^{2x}$ has as partial derivatives
 >
 >$$
->f_x(x,y)=2xln(y)+2y
+>f_x(x,y)=2xln(y)+2ye^{2x}
 >$$
+>
+>and
+>
+>$$
+>f_y(x,y) = \frac{x^2}{y}+e^{2x}
+>$$
+>
+>Differentiating once more yields one of four second order partial derivatives
+>
+>$$
+>f_{xx}(x,y)=2\ln(y) + 4ye^{2x}
+>$$
+>
+>$$
+>f_{yx}(x,y)=\frac{2x}{y}+2e^{2x}
+>$$
+>
+>$$
+>f_{xy}(x,y)=\frac{2x}{y}+2e^{2x}
+>$$
+>
+>$$
+>f_{yy}(x,y) = - \frac{x^2}{y^2}
+>$$
+
+
+In this example, $f_{xy}(x,y)$ turns out equal to $f_{yx}(x,y)$. This property holds in general for sufficiently smooth functions. Thus, the order of (partial) differentiation does not matter. 

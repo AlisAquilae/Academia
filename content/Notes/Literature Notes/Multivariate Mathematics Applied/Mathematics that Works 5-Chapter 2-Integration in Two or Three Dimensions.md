@@ -92,3 +92,26 @@ Note that the limits in outer integral correspond to the outer integration varia
 
 >[!Tip]
 >You can swap whether you first differentiate X and Y, as long as you then also swap the integrals and the integration variables in the notation
+
+>[!Example]
+>We want to integrate the function 
+>
+>$$
+>f(x,y)=xy+y^2
+>$$
+>
+>over the rectangular region $R$ given by $0 \le x \le 1$ and $-1 \le y \le 1$. Thus, we evaluate the integral
+>
+>$$
+>V=\int_{-1}^1 \int_0^1 xy+y^2 dx dy
+>$$
+>
+>in which we first integrate with respect to $x$ and next with respect to $y$, as can be seen from the order of the symbols dx and dy. Integrating with respect to $x$, we find
+>
+>$$
+>\begin{aligned}
+>V &= \int_{y=-1}^{y=1} \left[ \int_{x=0}^{x=1} xy+y^2 dx \right] dy \\
+>&= \int
+>\end{aligned}
+>$$
+
