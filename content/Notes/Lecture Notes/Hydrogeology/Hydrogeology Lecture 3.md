@@ -24,3 +24,7 @@ Netherlands 2 areas:
 Dunes consist of sand, which generally has good porosity and good hydraulic conductivity. Thus we would not expect surface water. However, we do see this. This is unexpected, because we would expect the groundwater to flow away given the convexity of the groundwater table. However, they started fresh water extraction there. This causes the water to move towards this area. 
 
 In addition, we see a fresh water bell below the dunes. This is because salt water is heavier than fresh water. 
+
+The fresh water bell is quite large, due to the Ghyben-Herzberg Principle.
+
+They started overextracting water. Thus they used artificial recharge
