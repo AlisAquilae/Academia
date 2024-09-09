@@ -50,3 +50,11 @@ Ground moraine is called bolderclay.
 ---
 # Plateau and Valley landscapes
 We see plateaus in which rivers have cut into, creating river valleys. 
+
+Spring level valleys have more weather-related discharge, whereas infiltrated groundwater fed valleys have more baseflow
+
+---
+# Fold Mountains
+The older the rock, the less conductive it will be. A lot of bedrock. 
+
+For young fold mountains, there is a refgolith layer above the bedrock due to weathering, which has some conductivity
