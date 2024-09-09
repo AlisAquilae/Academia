@@ -81,7 +81,7 @@ Integration by parts is useful when integrating a product of functions
 
 ## 2.2.3 Integration Over a Rectangle (Skipped)
 
-## 2.2.4 Double Integrals ad Iterative Integrals
+## 2.2.4 Double Integrals and Iterative Integrals
 For a rectangular domain bounded by the lines  $x=a, x=b, y=c$ and $y=d$ 
 
 $$
