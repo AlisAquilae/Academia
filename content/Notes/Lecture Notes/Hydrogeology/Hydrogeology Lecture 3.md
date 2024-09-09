@@ -57,4 +57,6 @@ Spring level valleys have more weather-related discharge, whereas infiltrated gr
 # Fold Mountains
 The older the rock, the less conductive it will be. A lot of bedrock. 
 
-For young fold mountains, there is a refgolith layer above the bedrock due to weathering, which has some conductivity
+For young fold mountains, there is a regolith layer above the bedrock due to weathering, which has some conductivity. Here we often find springs at different elevations randomly on the hillslope, due to the phreatic aquifer (regolith) being too thin. 
+
+Old fold mountains create a trellis pattern of rivers
