@@ -32,3 +32,7 @@ They started overextracting water. Thus they used artificial recharge
 ---
 # River Plains
 River plains in lowland areas: braided rivers. In braided rivers, we see different routes being taken by the water due to sedimentation. This creates the braided pattern. This creates a lot of erosion and sedimentation. 
+
+Typical for braided rivers: very coarse materials, poorly sorted, very complex geological formations (heterogeneous), which impacts groundwater flow by causing local differences in the speed of flow. 
+
+As for meandering systems. Relatively fine sediments. Flow velocity is lower, capacity of sediment transport is less. 
