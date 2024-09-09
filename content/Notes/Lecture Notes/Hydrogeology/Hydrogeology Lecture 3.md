@@ -46,3 +46,7 @@ We can get different terraces near the rivers. Erosion terraces. Typical is for 
 Sandr or Sandur means outwash plain
 
 Ground moraine is called bolderclay. 
+
+---
+# Plateau and Valley landscapes
+We see plateaus in which rivers have cut into, creating river valleys. 
