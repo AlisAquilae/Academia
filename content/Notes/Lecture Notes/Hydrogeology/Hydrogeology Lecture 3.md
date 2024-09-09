@@ -43,3 +43,6 @@ We can get different terraces near the rivers. Erosion terraces. Typical is for 
 
 ---
 # Glacially influenced areas
+Sandr or Sandur means outwash plain
+
+Ground moraine is called bolderclay. 
