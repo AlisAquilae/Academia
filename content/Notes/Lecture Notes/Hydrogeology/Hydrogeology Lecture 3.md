@@ -39,4 +39,7 @@ As for meandering systems. Relatively fine sediments. Flow velocity is lower, ca
 
 Meandering rivers: large total porosity, low effective porosity (due to clayey materials), low saturated conductivity
 
-We can get different terraces near the rivers. Erosion terraces. Typical is for thoe whole system land comes up or goes down due to tectonics. The river erodes as well as deposits sediment. This creates a step-wise system. Oldest soils are highest in the system, lowest soils in lower parts of the system. Oldest soils are almost consolidated
+We can get different terraces near the rivers. Erosion terraces. Typical is for thoe whole system land comes up or goes down due to tectonics. The river erodes as well as deposits sediment. This creates a step-wise system. Oldest soils are highest in the system, lowest soils in lower parts of the system. Oldest soils are almost consolidated. Higher in the system is often less saturated. Thickness of saturated layer is important, fragmentation of the terrace is important (older means more weathering and erosion) and the interaction of the terrace with the river
+
+---
+# Glacially influenced areas
