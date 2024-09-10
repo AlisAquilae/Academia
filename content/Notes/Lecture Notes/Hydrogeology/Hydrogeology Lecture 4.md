@@ -48,3 +48,5 @@ Karstification definition: the process where carbonate outcrops to the earth's s
 
 ---
 # Magmatic Rocks
+Can be both an aquifer and an aquitard. When thrown up into the air, and as it lands, it becomes a sediment which is variable in size, and thus act as an aquifer. However, it might also not cool down enough before landing, and become sticky, not being able to transmit water.
+
