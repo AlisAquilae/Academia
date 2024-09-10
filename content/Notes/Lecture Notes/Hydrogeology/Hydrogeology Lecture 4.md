@@ -23,4 +23,17 @@ For consolidated, we see breaks forming due to the faults. This increases fractu
 
 ---
 # Alluvial Fans
-Rivers from mountains, which bring eroded material with them and sediment them outside of the mountains where the flow velocity is lower. We see a layered system which comes to be due to sometimes there being more snow than other times, meaning that sometimes the amount of deposited sand is larger than other times. So it gradually goes from a good aquifer to an aquitard to an aquiclude
+Rivers from mountains, which bring eroded material with them and sediment them outside of the mountains where the flow velocity is lower. We see a layered system which comes to be due to sometimes there being more snow than other times, meaning that sometimes the amount of deposited sand is larger than other times. So it gradually goes from a good aquifer to an aquitard to an aquiclude.
+
+We often see seepage due to the groundwater not being able to continue any further. 
+
+Alluvial fans are often good sources of drinking water
+
+---
+# Limestone Areas
+Chalk for poorly consolidated, limestone for highly consolidated. Chalk is therefore relatively young and limestone relatively old. 
+
+For karstification, we need
+- A rain surplus
+- CO2 (produced by plants in the root zone)
+- De-calcified cover layer (otherwise the chemical reaction occurs in this top layer)
