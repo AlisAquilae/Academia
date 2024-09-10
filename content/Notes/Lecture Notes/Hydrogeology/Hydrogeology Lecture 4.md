@@ -45,3 +45,6 @@ For karstification, we need
 - Time
 
 Karstification definition: the process where carbonate outcrops to the earth's surface is exposed to leeching and dissolution by atmospheric water. 
+
+---
+# Magmatic Rocks
