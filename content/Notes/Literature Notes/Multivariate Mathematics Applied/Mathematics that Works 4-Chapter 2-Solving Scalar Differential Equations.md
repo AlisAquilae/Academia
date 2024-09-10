@@ -289,13 +289,21 @@ $$
 x'(t)=ax(t)
 $$
 
+
 for which we rediscover the solution
 
 $$
 x(t)=e^{\int a dt} = e^{at + K} = Ce^{at}
 $$
 
+>[!Note]
+>Time invariant is autonomous
 
+>[!Note]
+>Linearity is with reference to the unknown variable, not the rest
+
+>[!Note]
+>All autonomous
 ## 2.5.3 Inhomogeneous Linear Differential Equations: Variation of Constants
 A linear inhomogeneous differential equation
 
