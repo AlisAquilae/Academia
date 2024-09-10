@@ -14,3 +14,9 @@ Uplifted part is a Horst, sinking part is a graben. We see a stretch or push of 
 We often see that when the land sinks in it tends to collect new sediments. Thus, we see horsts being mostly erosive, containing old sediments, and the grabens containing newer sediments due to sedimentation. 
 
 For groundwater movement, the Horst is old and therefore not very conductive. The Graben contains younger sediments, and therefore probably do have porosity and hydraulic conductivity. 
+
+You often see layers with different conductivity next to each other (e.g. high next to low), reducing the flow. Moreover, you often see fine grained material which is more flexible. This is 'smeared' across the faults, resisting the water flow. Finally, we see iron and manganese in these rocks, which through oxidation form a film on the fault, limiting water flow.
+
+This is all for unconsolidated H&G
+
+For consolidated, we see breaks forming due to the faults. This increases fractures, increases weathering and, in the case of limestone, increases karstification. This increases conductivity relatively. 
