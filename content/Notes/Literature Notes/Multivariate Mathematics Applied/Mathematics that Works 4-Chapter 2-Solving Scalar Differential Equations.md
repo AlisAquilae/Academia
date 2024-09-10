@@ -427,3 +427,4 @@ x_n'(t)&=f_n(t, x_1(t), x_2(t), \dots, x_n(t))
 $$
 
 The equation for $x_1$ is a scalar differential equation, which we may try to solve. If we succeed, $x_1(t)$ becomes a known function. We thus obtain a scalar differential equation for $x_2$, which we may try to solve, and so on. A system of this kind is called a **cascade model**
+
