@@ -20,3 +20,7 @@ You often see layers with different conductivity next to each other (e.g. high n
 This is all for unconsolidated H&G
 
 For consolidated, we see breaks forming due to the faults. This increases fractures, increases weathering and, in the case of limestone, increases karstification. This increases conductivity relatively. 
+
+---
+# Alluvial Fans
+Rivers from mountains, which bring eroded material with them and sediment them outside of the mountains where the flow velocity is lower. We see a layered system which comes to be due to sometimes there being more snow than other times, meaning that sometimes the amount of deposited sand is larger than other times. So it gradually goes from a good aquifer to an aquitard to an aquiclude
