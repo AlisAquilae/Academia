@@ -37,3 +37,11 @@ For karstification, we need
 - A rain surplus
 - CO2 (produced by plants in the root zone)
 - De-calcified cover layer (otherwise the chemical reaction occurs in this top layer)
+- Soluble rock (obviously)
+- Fracures / joints (to move the water)
+- Thin layer beds (the clay between bedding palnes. we want these to be thin to facilitate flow)
+- Well developed bedding planes (nice gaps between and in the bedding planes)
+- Intensive groundwater flow
+- Time
+
+Karstification definition: the process where carbonate outcrops to the earth's surface is exposed to leeching and dissolution by atmospheric water. 
