@@ -303,7 +303,11 @@ $$
 >Linearity is with reference to the unknown variable, not the rest
 
 >[!Note]
->All autonomous
+>All autonomous are automatically separable
+
+>[!Note]
+>If it is linearly homogeneous, it is automatically separable
+
 ## 2.5.3 Inhomogeneous Linear Differential Equations: Variation of Constants
 A linear inhomogeneous differential equation
 
