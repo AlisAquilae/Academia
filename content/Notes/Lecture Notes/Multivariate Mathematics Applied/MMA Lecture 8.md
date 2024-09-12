@@ -31,3 +31,16 @@ Another: $c_x(t,a)$ = 0: where there is no flow at that point. It is simple a bl
 If a BC has a value of 0, it is called homogeneous
 
 So for a full description of the process ,you need a differential equation, an initial condition, and one or more boundary conditions. 
+
+---
+# Linearity, Homogeneity and Superposition
+An ODE is 
+- time-independent if $f(x(t), t)=f(x(t))$
+- Linear if $f(x(t),t) = a(t)x(t)+b(t)$
+- Linear and homogeneous if $f(x(t),t)=a(t)x(t)$
+
+A linear combination of solutions of a linear homogeneous ODE is a solution of that ODE again. This is called **superposition**
+
+A partial differential equation such as $c_t(x,t)=Dc_{xx}(x,t)-vc_x(x,t)$ is also linear and homogeneous
+
+Superposition also applies to homogeneous linear boundary conditions
