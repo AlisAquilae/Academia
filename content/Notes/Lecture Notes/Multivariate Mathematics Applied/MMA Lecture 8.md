@@ -44,3 +44,13 @@ A linear combination of solutions of a linear homogeneous ODE is a solution of t
 A partial differential equation such as $c_t(x,t)=Dc_{xx}(x,t)-vc_x(x,t)$ is also linear and homogeneous
 
 Superposition also applies to homogeneous linear boundary conditions
+
+---
+# Steady State Solutions
+In the book steady state is called $cs(x)$, 
+
+Finding a steady state is finding a function of x only,  since it does not depend on time anymore.
+
+The steady states solve an ordinary differential equation with the time taken out, and set equal to 0. Thus it becomes an ordinary differential equation. 
+
+The steady state must also satisfy the boundary conditions
