@@ -41,7 +41,7 @@ All these silicates are created from lava
 
 Intrusive means solidified inside the earth. Extrusive means solidified outside the earth. Intrusive means slow cooldown. It has the time to create nice metals. Extrusive has contact with atmosphere, and therefore cools down much faster. Does not have time to create minerals. 
 
-Intrusive rocks: coarse minerals. Extrusive rocks: fine mineralss
+Intrusive rocks: coarse minerals. Extrusive rocks: fine minerals
 
 More SIO4 means flowing magma, because it is more viscous due to the weak vanderwaal's bindings. 
 
@@ -50,8 +50,11 @@ More SIO2 means exploding volcanoes, because it is much less viscous. Pressure b
 Granite: lot of visible minerals. More SIO2
 More SIO4 dominated: basalt. Black because negative charge, requiring you to have metals. These metals colour the rock
 
-Granite found a lot inside the earth, because it is solidified inside. Rhyolite, the extrusive variant, found little. Basalt, solidified outside, and very viscous. Thus found a lot. Periodite is introsive equivalent, and given that it is fluid, it is found less. 
+Granite found a lot inside the earth, because it is solidified inside. Rhyolite, the extrusive variant, found little. Basalt, solidified outside, and very viscous. Thus found a lot. Periodite is intrusive equivalent, and given that it is fluid, it is found less. 
 
 SIO4 weathers a lot because of the weaker bindings, SO2 for that reason weathers a lot less. 
 
-Basalt has a much higher density than granite, meaning that when oceanic and continental tectonic plates collide, the oceanic plates which contian mostly basalt tend to dive underneath the continental plates.
+Basalt has a much higher density than granite, meaning that when oceanic and continental tectonic plates collide, the oceanic plates which contain mostly basalt tend to dive underneath the continental plates.
+
+# Water flow
+Basalt: primary porosity is not present. Secondary porosity on the intersections of the polygons. This can form a pretty good aquifer. Some variants of basalt which contain CO2 that is released, you get a basalt rock with a large amount of voids. 
