@@ -46,3 +46,12 @@ Intrusive rocks: coarse minerals. Extrusive rocks: fine mineralss
 More SIO4 means flowing magma, because it is more viscous due to the weak vanderwaal's bindings. 
 
 More SIO2 means exploding volcanoes, because it is much less viscous. Pressure builds up due to the rock formation, cool down and getting stuck. 
+
+Granite: lot of visible minerals. More SIO2
+More SIO4 dominated: basalt. Black because negative charge, requiring you to have metals. These metals colour the rock
+
+Granite found a lot inside the earth, because it is solidified inside. Rhyolite, the extrusive variant, found little. Basalt, solidified outside, and very viscous. Thus found a lot. Periodite is introsive equivalent, and given that it is fluid, it is found less. 
+
+SIO4 weathers a lot because of the weaker bindings, SO2 for that reason weathers a lot less. 
+
+Basalt has a much higher density than granite, meaning that when oceanic and continental tectonic plates collide, the oceanic plates which contian mostly basalt tend to dive underneath the continental plates.
