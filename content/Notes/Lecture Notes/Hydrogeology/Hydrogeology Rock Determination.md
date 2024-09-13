@@ -118,3 +118,14 @@ Consolidated sediment: Cretaceous Chalk
 Highly consolidated sediment: Carboniferous Limestone
 
 # Limestone to Marble
+Consolidated rock: Limestone
+Metamorphic rock: Marble
+
+# Granitic Region
+- Alluvium: Deposits made by rivers or streams
+- Colluvium: Unconsolidated material at the bottom of cliff or slope, moved by gravity alone
+- Joint: Surface fracture (vertical or horizontal) in a rock without displacement)
+- Regolith: Unconcsolidated rock material resting on bedrock
+- Talus: Coarse debris at foot of cliff
+- Tor: Core of unweathered rock in a matrix of weathering products
+- Spheroidal Weathering: Concentrical shells of weathering products along joint surfaces
