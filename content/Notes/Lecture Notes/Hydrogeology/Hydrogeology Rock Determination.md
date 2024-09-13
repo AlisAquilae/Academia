@@ -62,7 +62,28 @@ Felsic volcano is explosive, mavic volcano is flowing volcano
 Basalt: primary porosity is not present. Secondary porosity on the intersections of the polygons. This can form a pretty good aquifer. Some variants of basalt which contain CO2 that is released, you get a basalt rock with a large amount of voids. If these voids are connected, we have large primary porosity
 
 # Unconcolidated sedimentary rocks: grain sizes
-Clay: $\lt 2 \mu m$ (porosity highest, lower conductivity because too small pores)
-Silt: $2 - 50 \mu m$ (powdery, hardly visible grain sizes, primary porosity and primary hydraulic conductivity)
-Gravel: $2 - 50 mm$ ()
-Sand: 
+Clay: $\lt 2 \mu m$ (porosity highest, lower conductivity because too small pores. HC .001 m/d)
+Silt: $2 - 50 \mu m$ (powdery, hardly visible grain sizes, primary porosity and primary hydraulic conductivity. HC .01 m/d)
+Gravel: $2 - 50 mm$ (quite coarse. HC 100 m/d)
+Sand: $50 \mu m - 2 mm$ (bit coarser. HC 1 m/d)
+
+# Weathering, erosion transport and deposition 1: From granite to sand
+Forcing:
+- Weathering: mechanical and chemical force
+- Erosion: weathering conditions
+
+
+Monocyclic sand: Lot of dark minerals due to there being minerals in the original rock. Colorful sand. One cycle of weathering and deposition
+Polyciclyc sand: Second cycle of weathering. All colors gone, mostly consists of silica. 
+
+This also influences the dissolved minerals in your water. Monocuclic sand: more minerals, more weathered dissolved minerals, higher electric conductivity
+
+## From sand to sandstone
+Forcing:
+- Burial: new sediments over old sediments
+- Lithification: increased pressure and relatively low temperature
+- Time
+
+Unconcolidated sand: polyciclic sand => 
+consolidated sediment: sandstone. Can have HC, but lower porosity and therefore lower flow => highly consolidated sediment => sandstone. Even 
+
