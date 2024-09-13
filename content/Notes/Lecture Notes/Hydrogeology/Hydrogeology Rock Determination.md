@@ -85,5 +85,31 @@ Forcing:
 - Time
 
 Unconcolidated sand: polyciclic sand => 
-consolidated sediment: sandstone. Can have HC, but lower porosity and therefore lower flow => highly consolidated sediment => sandstone. Even 
+consolidated sediment: sandstone. Can have HC, but lower porosity and therefore lower flow => highly consolidated sediment => sandstone. Even less porosity, barely any flow
 
+Melt: from quartzite to magma
+
+# Burial and Lithification 2: From Silt to Siltstone
+Forcing: 
+
+
+Unconcolidated sediment:  Silt
+Siltstone
+
+Quartzite
+
+When you have silica dominated material, all of it turns into quartzite under heat
+
+# From Clay to Shale
+Still has clay fragments, but becomes even more platey
+
+# Shale to Phyllite
+Phyllite to slate. Only with little minerals
+
+# Shale to Schist
+After metamorphism: Schist. Only happens with colorful / mineral shale
+
+# Granite to Gneiss
+Igneous rock of granite to metamorphic rock of Gneiss. Looks almost the same. Gneiss, however, contains layering of minerals. Porosity and conductivity non-existent, with the exception of some weathered cover. 
+
+# From fragmented chalk fragments to limestone
