@@ -11,7 +11,7 @@ Related Courses:
 # Rock Cycle
 It is called sediment when it has transported. If it is just weathered but not moved, it is called rigolith
 
-Magma becomes igneous rock, magmatic rock, volcanic rock, when it cools down. If this is weathered or eroded, it becomes rigolith. These can be transformed into sedimentary rocks through lithification. When it becomes hotter, the sedimentary rock becomes a metamorphic rock. There are different grades of metamorphic rock, depending on the temperature. 
+Magma becomes igneous rock, magmatic rock, volcanic rock, when it cools down. If this is weathered or eroded, it becomes rigolith. These can be transformed into sedimentary rocks through lithification (solidification). When it becomes hotter, the sedimentary rock becomes a metamorphic rock. There are different grades of metamorphic rock, depending on the temperature. 
 
 Igneous rock does not turn into magma directly when heated, but first becomes metamorphic rock. Similarly, metamorphic rock when cooled does not become a sedimentary rock, but rather a sediment. 
 
@@ -56,5 +56,13 @@ SIO4 weathers a lot because of the weaker bindings, SO2 for that reason weathers
 
 Basalt has a much higher density than granite, meaning that when oceanic and continental tectonic plates collide, the oceanic plates which contain mostly basalt tend to dive underneath the continental plates.
 
+Felsic volcano is explosive, mavic volcano is flowing volcano
+
 # Water flow
-Basalt: primary porosity is not present. Secondary porosity on the intersections of the polygons. This can form a pretty good aquifer. Some variants of basalt which contain CO2 that is released, you get a basalt rock with a large amount of voids. 
+Basalt: primary porosity is not present. Secondary porosity on the intersections of the polygons. This can form a pretty good aquifer. Some variants of basalt which contain CO2 that is released, you get a basalt rock with a large amount of voids. If these voids are connected, we have large primary porosity
+
+# Unconcolidated sedimentary rocks: grain sizes
+Clay: $\lt 2 \mu m$ (porosity highest, lower conductivity because too small pores)
+Silt: $2 - 50 \mu m$ (powdery, hardly visible grain sizes, primary porosity and primary hydraulic conductivity)
+Gravel: $2 - 50 mm$ ()
+Sand: 
