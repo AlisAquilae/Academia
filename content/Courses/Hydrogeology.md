@@ -44,6 +44,7 @@ Finally, the course engages with some papers
 # 🔬 Practicals
 - [[Hydrogeology Numerical Modelling 1]]
 - [[Hydrogeology Numerical Modelling 2]]
+- [[Hydrogeology Rock Determination]]
 
 
 # 🔗 Summaries
