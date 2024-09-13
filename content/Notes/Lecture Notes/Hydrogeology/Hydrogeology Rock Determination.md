@@ -113,3 +113,8 @@ After metamorphism: Schist. Only happens with colorful / mineral shale
 Igneous rock of granite to metamorphic rock of Gneiss. Looks almost the same. Gneiss, however, contains layering of minerals. Porosity and conductivity non-existent, with the exception of some weathered cover. 
 
 # From fragmented chalk fragments to limestone
+Unconcolidated: calciumcarbonate
+Consolidated sediment: Cretaceous Chalk
+Highly consolidated sediment: Carboniferous Limestone
+
+# Limestone to Marble
