@@ -16,7 +16,7 @@ $$
 $$
 
 
-This refers to the fact that the effect of addition or removal of water on the groundwater level ($h$ in mm) is much larger. For example, 1mm of rainfall often causes groundwater rise in the order of 1 cm. 
+This refers to the fact that the effect of addition or removal of water on the groundwater level ($h$ in mm) is much larger. For example, 1mm of rainfall often causes groundwater rise in the order of 1 cm. Thus, the storativity
 
 >[!Question]
 >It rains 5 mm on a soil with a storativity of 8%. How much does the groundwater table rise?
