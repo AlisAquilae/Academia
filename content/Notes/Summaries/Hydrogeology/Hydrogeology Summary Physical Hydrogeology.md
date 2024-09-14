@@ -12,7 +12,7 @@ Related Courses:
 The [[Porosity]] of a soil or rock is that fraction of a given volume of material that is occupied by void space, or interstices. Porosity, indicated by the symbol $n$, is usually expressed as the ratio of the volume of voids, $V_v$, to the total unit volume, $V_t$. of a soil or rock, such that 
 
 $$
-n = \frac{V_v}{V_t} \tag{2.1}
+n = \frac{V_v}{V_t} \tag{1.1}
 $$
 
 >[!Info]
@@ -27,18 +27,18 @@ $$
 Porosity is closely associated with the [[Void Ratio]], $e$, the ratio of the volume of voids to the volume of the solid material, $V_s$, such that
 
 $$
-n = \frac{V_v}{V_t} \tag{1.1}
+e = \frac{V_v}{V_s} \tag{1.2}
 $$
 
 The relation between porosity and the void ratio can be expressed as 
 
 $$
-n = \frac{e}{(1+e)} \tag{2.3a}
+n = \frac{e}{(1+e)} \tag{1.3a}
 $$
 
 or
 
 $$
-e = \frac{n}{(1-n)} \tag{2.3b}
+e = \frac{n}{(1-n)} \tag{1.3b}
 $$
 
