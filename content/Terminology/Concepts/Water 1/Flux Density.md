@@ -10,6 +10,8 @@ Status: Done
 aliases:
   - Specific Discharge
   - Apparent Velocity
+  - Darcy Flux
+  - Darcy Velocity
 Related Notes:
   - "[[Water 1 Summary Groundwater]]"
 Related Terminology:

@@ -23,17 +23,17 @@ The volume of water flowing out of the aquifer at the front in a certain amount 
 The discharge is computed as 
 
 $$
-Q=kDB \, \frac{\Delta H}{\Delta x}
+Q=KDB \, \frac{\Delta H}{\Delta x}
 $$
 
 Where
-- $k$ is the [[Permeability|Conductivity]]
+- $K$ is the [[Permeability|Conductivity]]
 - $D$ is soil layer depth
 - $B$ is soil layer width
 - $H$ is the [[Hydraulic Head]]
 - $x$ is the distance in the flow direction
 
-The formula reads as follows. If the conductivity ($k$) is high, water can flow through the ground easily, leading to a higher discharge. A thicker aquifer ($D$)  or wider strip of land considered ($B$, perpendicular to the flow direction) leads to a larger cross-section through which water can flow, leading to a higher discharge. Finally, $\frac{\Delta H}{\Delta x}$ is the **Hydraulic Head Gradient** and gives the decrease in hydraulic head ($H$) over a certain distance in the flow direction ($x$). Since hydraulic head differences are the cause of flow, a large gradient leads to a large discharge.
+The formula reads as follows. If the conductivity ($K$) is high, water can flow through the ground easily, leading to a higher discharge. A thicker aquifer ($D$)  or wider strip of land considered ($B$, perpendicular to the flow direction) leads to a larger cross-section through which water can flow, leading to a higher discharge. Finally, $\frac{\Delta H}{\Delta x}$ is the **Hydraulic Head Gradient** and gives the decrease in hydraulic head ($H$) over a certain distance in the flow direction ($x$). Since hydraulic head differences are the cause of flow, a large gradient leads to a large discharge.
 
 >[!Note]
 >
