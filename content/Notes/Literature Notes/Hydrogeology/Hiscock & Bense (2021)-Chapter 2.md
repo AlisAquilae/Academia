@@ -113,15 +113,11 @@ The type of heterogeneity will depend on the geological environment that gave ri
 - Similarly, large contrasts can arise in cases of **discontinuous heterogeneity** caused by the presence of faults or large-scale stratigraphic features. 
 - **Trending heterogeneity** exists in formations such as deltas, alluvial fans and glacial outwash plains where there is sorting and grading of the material deposits. 
 
-
 Vertical trends in hydraulic conductivity are also present in consolidated rocks where permeability is dependent on joint and fracture density.
 
-An isotropic geological formation is one where the hydraulic conductivity is independent of the direction of measurement at a point in the formation. If the hydraulic conductivity varies with the direction of measurement at a point, the formation is anisotropic at that point. The principal directions of anisotropy correspond to the maximum and minimum values of hydraulic conductivity and are usually at right angles to each other. The primary cause of anisotropy on a small scale is the orientation of clay minerals in sedimentary rocks and unconsolidated sediments.
-In consolidated rocks, the direction of jointing or fracturing can impart strong anisotropy at various
-scales, from the local to regional. Combining the previous definitions, and as shown in the figure below, it is possible to recognise four possible combinations of heterogeneity and anisotropy when describing the nature of the hydraulic conductivity of a formation.
+An isotropic geological formation is one where the hydraulic conductivity is independent of the direction of measurement at a point in the formation. If the hydraulic conductivity varies with the direction of measurement at a point, the formation is anisotropic at that point. The principal directions of anisotropy correspond to the maximum and minimum values of hydraulic conductivity and are usually at right angles to each other. The primary cause of anisotropy on a small scale is the orientation of clay minerals in sedimentary rocks and unconsolidated sediments. In consolidated rocks, the direction of jointing or fracturing can impart strong anisotropy at various scales, from the local to regional. Combining the previous definitions, and as shown in the figure below, it is possible to recognise four possible combinations of heterogeneity and anisotropy when describing the nature of the hydraulic conductivity of a formation.
 
->[!Missing]
->Missing figure 2.4
+![[Pasted image 20240914134846.png]]
 
 ---
 ## 2.5 Aquifers, Aquitards and Aquicludes

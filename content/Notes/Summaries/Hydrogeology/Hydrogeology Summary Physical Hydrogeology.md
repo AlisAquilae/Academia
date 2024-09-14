@@ -73,13 +73,13 @@ In general, coarse-grained and fractured materials have high values of hydraulic
 >[!Note]
 >The properties of the geological material will significantly influence the [[Isotropy]] and homogeneity of the hydraulic conductivity distribution. 
 
-The hydraulic conductivity of geological materials is not only a function of the physical properties of the porous material, but also the properties of the migrating fluid, including specific weight, $\gamma$ ( = $\rho g$, where $\rho$ is he density of the fluid and $g$ is the gravitational acceleration), and viscosity, $\mu$, such that 
+The hydraulic conductivity of geological materials is not only a function of the physical properties of the porous material, but also the properties of the migrating fluid, including specific weight, $\gamma$ ( = $\rho g$, where $\rho$ is the density of the fluid and $g$ is the gravitational acceleration), and viscosity, $\mu$, such that 
 
 $$
 K = k_i \frac{\gamma}{\mu} \tag{2.4}
 $$
 
-where the constant of proportionality, $k_i$, is termed the intrinsic permeability because it is a physical property intrinsic to the porous material alone. 
+where the constant of proportionality, $k_i$, is termed the [[Intrinsic Permeability]] because it is a physical property intrinsic to the porous material alone. 
 
 >[!Info]
 >The density and viscosity of water are functions of temperature and pressure but these effects are not great for the ranges of temperature and pressure encountered in most groundwater situations
@@ -93,3 +93,39 @@ $$
 where
 - $d$ is equal to the mean pore diameter, and
 - $C$ represents a dimensionless ‘shape factor’ assessing the contribution made by the shape of the pore openings, as influenced by the relationship between the pore and grain sizes and their effect on the tortuosity of fluid flow.
+
+---
+# 3. Isotropy and Homogeneity
+Aquifer properties, such as hydraulic conductivity, are unlikely to conform to the idealized, uniform porous material whether viewed at the microscopic or regional scales. The terms isotropy, anisotropy, homogeneity and heterogeneity are used to describe the spatial variation and directional trends in aquifer property values.
+
+>[!Important]
+>If the hydraulic conductivity, $K$, is independent of position within a geological formation, the formation is **homogeneous**. If the hydraulic conductivity varies from place to place, then the formation is **heterogeneous**. 
+
+The type of heterogeneity will depend on the geological environment that gave rise to the deposit or rock type.
+- **Layered heterogeneity** is common in sedimentary rocks, where each bed comprising the formation has its own hydraulic conductivity value. Strong, layered heterogeneity will be present in interbedded deposits of clay and sand. 
+- Similarly, large contrasts can arise in cases of **discontinuous heterogeneity** caused by the presence of faults or large-scale stratigraphic features. 
+- **Trending heterogeneity** exists in formations such as deltas, alluvial fans and glacial outwash plains where there is sorting and grading of the material deposits. 
+
+>[!Important]
+>An **isotropic** geological formation is one where the hydraulic conductivity is independent of the direction of measurement at a point in the formation. If the hydraulic conductivity varies with the direction of measurement at a point, the formation is **anisotropic** at that point. 
+
+>[!Info]
+>The principal directions of anisotropy correspond to the maximum and minimum values of hydraulic conductivity and are usually at right angles to each other. 
+
+>[!Note]
+>The primary cause of anisotropy on a small scale is the orientation of clay minerals in sedimentary rocks and unconsolidated sediments. In consolidated rocks, the direction of jointing or fracturing can impart strong anisotropy at various scales, from the local to regional. 
+
+Combining the previous definitions, and as shown in the figure below, it is possible to recognise four possible combinations of heterogeneity and anisotropy when describing the nature of the hydraulic conductivity of a formation.
+
+![[Pasted image 20240914134846.png]]
+
+---
+# 4. Aquifers, Aquitards and Aquicludes
+Natural variations in the permeability and ease of transmission of groundwater in different geological materials lead to the recognition of aquifers, aquitards and aquicludes. An [[Aquifer]] is a layer or layered sequence of rock or sediment comprising one or more geological formations that contains water and is able to transmit significant quantities of water under an ordinary hydraulic gradient. Aquifers therefore have sufficient permeability to transmit groundwater that can be exploited economically from wells or springs. Good aquifers are usually developed in sands, gravels, solutionally-weathered limestones and fractured sandstones
+
+The term [[Aquitard]] is used to describe a formation of lower permeability that may transmit quantities of water that are significant in terms of regional groundwater flow, but from which negligible supplies of groundwater can be obtained. Examples of aquitards include fluvial and glacio-fluvial silts and sandy clays, sedimentary rocks with few fractures and fractured crystalline rock.
+
+An [[Aquiclude]] is a saturated geological unit of such low permeability that is incapable of transmitting significant quantities of water under ordinary hydraulic gradients and can act as a barrier to regional groundwater flow. Aquiclude rocks include clays, shales and metamorphic rocks.
+
+---
+# 5. Darcy's Law
