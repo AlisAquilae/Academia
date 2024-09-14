@@ -129,3 +129,41 @@ An [[Aquiclude]] is a saturated geological unit of such low permeability that is
 
 ---
 # 5. Darcy's Law
+Water contained within the interconnected voids of soils and rocks is capable of moving, and the ability of a rock to store and transmit water constitutes its hydraulic properties. At the centre of the laws that govern the behaviour of groundwater flow in saturated material is that formulated empirically by the French municipal engineer for Dijon, Henry Darcy, in 1856. 
+
+Darcy studied the flow of water through porous material contained in a column and found that the total flow, $Q$, is proportional to both the difference in water level, $h_1 - h_2$, measured in manometer tubes at either end of the column and the cross-sectional area of flow, $A$, and inversely proportional to the column length, $L$. When combined with the constant of proportionality, $K$, Darcy obtained:
+
+$$
+Q = KA \frac{h_1 - h_1}{L}
+$$
+
+In general terms, [[Darcy's Law]] can be written as 
+
+$$
+Q = -KA \frac{dh}{dl}
+$$
+
+where $dh/dl$ represents the hydraulic gradient.
+
+>[!Important]
+>The negative sign indicates flow in the direction of high to low hydraulic head. 
+
+$K$ is the hydraulic conductivity of the porous material. Adopting the shorthand of $dh/dl = i$, the equation above can be written as
+
+$$
+Q = -AiK
+$$
+
+Now, combining equations these equations gives a full expression of the flow through a porous material as
+
+$$
+\frac{Q}{A} = q = -K \frac{dh}{dl} = \frac{Cd^2 \rho g}{\mu} \frac{dh}{dl}
+$$
+
+The quotient $Q/A$, or $q$, indicates the discharge per unit cross-sectional area of saturated porous material. The term $q$, referred to as the [[Flux Density|Specific Discharge]], has the dimension of velocity [L T$^{-1}$] and is also known as the Darcy velocity or Darcy flux. It is important to remember that the darcy velocity is not the true, microscopic velocity of the water moving along winding flowpaths within the soil or rock. Instead, by dividing the specific discharge by the fraction of open space (in other words, [[Effective Porosity]], $n_e$) through which groundwater flows across a given sectional area, this provides an average measure of groundwater velocity such that 
+
+$$
+\frac{Q}{An_e} = \frac{q}{n_e} = \bar{v}
+$$
+
+where $\bar{v}$ is the average linear velocity
