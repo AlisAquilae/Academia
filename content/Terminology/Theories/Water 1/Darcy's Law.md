@@ -23,7 +23,7 @@ The volume of water flowing out of the aquifer at the front in a certain amount 
 The discharge is computed as 
 
 $$
-Q=KDB \, \frac{\Delta H}{\Delta x}
+Q=KDB \, \frac{\Delta H}{L}
 $$
 
 Where
@@ -31,9 +31,9 @@ Where
 - $D$ is soil layer depth
 - $B$ is soil layer width
 - $H$ is the [[Hydraulic Head]]
-- $x$ is the distance in the flow direction
+- $L$ is the distance in the flow direction
 
-The formula reads as follows. If the conductivity ($K$) is high, water can flow through the ground easily, leading to a higher discharge. A thicker aquifer ($D$)  or wider strip of land considered ($B$, perpendicular to the flow direction) leads to a larger cross-section through which water can flow, leading to a higher discharge. Finally, $\frac{\Delta H}{\Delta x}$ is the **Hydraulic Head Gradient** and gives the decrease in hydraulic head ($H$) over a certain distance in the flow direction ($x$). Since hydraulic head differences are the cause of flow, a large gradient leads to a large discharge.
+The formula reads as follows. If the conductivity ($K$) is high, water can flow through the ground easily, leading to a higher discharge. A thicker aquifer ($D$)  or wider strip of land considered ($B$, perpendicular to the flow direction) leads to a larger cross-section through which water can flow, leading to a higher discharge. 
 
 >[!Note]
 >
@@ -49,6 +49,20 @@ The formula reads as follows. If the conductivity ($K$) is high, water can flow 
 >>Q=kDB \, \frac{\Delta H}{\Delta x}=500 \times 40 \times \frac{125-123}{90}=444 \, \text{m}^3 \, \text{d}^{-1}  
 >>$$
 >>
+
+Because $B \cdot D$ is the same as the area $A$, the formula can be rewritten as 
+
+$$
+Q = KA \frac{h_1 - h_1}{L}
+$$
+
+In addition, to indicate that water flows from high to low hydraulic head, we add a negative sign in front. Finally, we replace the fixed length with a length interval $\Delta L$. This leads to
+
+$$
+Q = -KA \frac{dh}{dl}
+$$
+
+Here, $\frac{\Delta H}{\Delta L}$ is the **Hydraulic Head Gradient** and gives the decrease in hydraulic head ($H$) over a certain distance in the flow direction ($L$). Since hydraulic head differences are the cause of flow, a large gradient leads to a large discharge.
 
 The flow can also be considered per unit of width. Then the discharge $Q$ is divided by $B$ and reduced from three dimensions (discharge is in m$^3$/d) to two, and called the [[Two-Dimensional Discharge]] ($q$, in m$^2$/d). This quantity is useful when the vertical cross-section is similar for a longer distance (for example flow under a long dam) or when the water balance approach is used to compute flow magnitude (this will be explained later). It is computed as 
 

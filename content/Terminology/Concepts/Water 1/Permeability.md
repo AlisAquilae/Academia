@@ -9,7 +9,7 @@ title:
 Draft: 
 Status: Done
 ---
-The **permeability** ($k$) refers to how well a liquid can flow through a material. In the context of catchment hydrology, it refers to how well the empty spaces between soil particles are connected. The [[Porosity]] is therefore another important value to determine water movement through a soil.
+The **permeability** ($K$) refers to how well a liquid can flow through a material. In the context of catchment hydrology, it refers to how well the empty spaces between soil particles are connected. The [[Porosity]] is therefore another important value to determine water movement through a soil.
 
 The hydraulic conductivity of geological materials is not only a function of the physical properties of the porous material, but also the properties of the migrating fluid, including specific weight, $\gamma$ ( = $\rho g$, where $\rho$ is the density of the fluid and $g$ is the gravitational acceleration), and viscosity, $\mu$, such that 
 
@@ -22,7 +22,7 @@ where the constant of proportionality, $k_i$, is termed the [[Intrinsic Permeabi
 >[!Info]
 >Typical values of conductivity and porosity of some soil types
 >
-| Soil material | Subtype | Conductivity $k$ (m/d) | Porosity $n$ (%) |
+| Soil material | Subtype | Conductivity $K$ (m/d) | Porosity $n$ (%) |
 | ---- | ---- | ---- | ---- |
 | Gravel |  | > 250 | 25 - 40 |
 | Sand | Coarse | 5 - 100 | 30 - 50 |
