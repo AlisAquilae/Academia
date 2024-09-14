@@ -47,3 +47,34 @@ Auger drilling is suitable for rapid formation sampling at shallow depths, or ev
 ### 7.2.2.2 Percussion Drilling
 Compared to auger drilling, percussion drilling is suited to shale, indurated sandstone and limestone, and even to slate, basalt or granite, although progress is slow in these harder rocks. A heavy, solid-steel chisel-bit is suspended by a steel cable (cable-tool drilling) from a tripod or derrick, and dropped repeatedly. Once a certain amount of rock has been pulverized, a separate bit, known as the bailer, and comprising a length of heavy-duty steel tube with a clack-valve set into its lower end, is lowered down the borehole to remove the debris, usually with the addition of water to loosen and collect the cuttings.
 
+A special tool is used for percussion drilling in soft, unstable formations such as clays and granular material. A steel tube or shell, either plain or with windows cut in the side to help sample removal, is employed with a cutting shoe at the bottom. The top end of the shell is open and is very similar in design and appearance to a normal bailer (Fig. 7.2d).
+
+Another difference between percussion drilling in unstable formations and hard rocks is that the former need support during drilling, and this means that temporary casing of sufficient diameter is needed to allow the string of permanent casing/screen to pass inside it on completion of the borehole.
+
+### 7.2.2.3 Rotary Drilling
+Rotary drilling overcomes the problem of having to use temporary casing by using the hydrostatic pressure of circulating fluids to support the borehole wall. The use of drilling fluids enables boreholes to be drilled to much greater depths than with percussion rigs. 
+
+Rotary rigs are divided into two types: direct circulation and reverse circulation, depending on the method used to circulate the drilling fluid. The drill string comprises lengths of heavy-duty steel tubing or drill pipe, with the drill bit assembly attached at the bottom. The design of the drill bit depends on the formation to be drilled. In soft formations, a simple drag bit equipped with hardened blades can use used. The commonest rotary bit is the tricone bit which has three hardened steel, toothed conical cutters which can rotate on bearings. The drilling fluid passes through ports which are placed to clean and cool the teeth as well as carry away the cuttings. The teeth on the cutters vary in size and number to suit the formation being drilled, with small, numerous teeth for hard formations and larger teeth for softer formations. The drilling fluid used can be clean water, if the formations are hard and competent, but the most common general-purpose drilling fluid for sediments is mud based on natural bentonite clay. 
+
+>[!Info]
+>A good bentonite mud will have a specific gravity of 1.2.
+
+In direct circulation rotary drilling, the mud, which is a suspension of clay in water, is under the hydrostatic pressure of the column of mud in the borehole and is forced from suspension into the adjacent formations. The water leaves the clay behind as a layer or cake attached to the borehole wall. Bentonite-based mud has some important disadvantages for drilling water wells. The mud-cake can be securely keyed to the porous formation such that it is difficult to remove during well development. Alternatives to bentonite include organic polymers, foam and compressed air.
+
+In reverse circulation rotary drilling, the drilling fluid is usually water which is pulled up the drill pipe by a centrifugal pump commonly aided by airlift. The reverse circulation system enables the drilling of large-diameter boreholes in loose formations and is based on the ability of the borehole walls to be supported by the hydrostatic pressure exerted by the water column and the positive flow of water from the borehole to the formations
+
+## 7.2.3 Borehole Hydrographs and Barometric Efficiency
+
+Well or borehole hydrographs typically display data collected at monthly intervals, or at shorter (say 30-min) intervals if collected with a pressure transducer, and provide a record of fluctuations in groundwater levels.
+
+As shown in Fig. 7.3, additional data can be shown on a hydrograph to indicate the position of measured monthly groundwater levels relative to the long-term average and to historic minima and maxima.
+
+![[Pasted image 20240914122626.png]]
+
+Long-term records are invaluable. Climatic effects such as the frequency of wet and dry years can be identified as well as artificial effects, for example the over-exploitation of groundwater resources leading to a gradual decline in groundwater level (see Fig. 7.3b).
+
+>[!Warning]
+>Skipped the rest on barometric efficiency
+
+
+## 7.2.4 Construction of Groundwater Level Contour Maps
