@@ -78,3 +78,14 @@ Long-term records are invaluable. Climatic effects such as the frequency of wet 
 
 
 ## 7.2.4 Construction of Groundwater Level Contour Maps
+To be able to construct a map of the groundwater level and therefore depict the potentiometric surface and determine the direction of groundwater flow, a minimum of three observation points is required as shown in Fig. 7.7. The procedure is first to relate the field groundwater levels to a common datum (map datum or sea level for convenience) and then plot the positions of the observation points on a scale plan. Next, lines are drawn between three groundwater level measurements and divided into a number of short, equal lengths in proportion to the difference in elevation at each end of the line (in the example shown, each division on line AB and BC is 0.2m, while on line AC each division is 0.1m). The next step is to join points of equal elevation on each of the lines and then to select a contour interval which is appropriate to the overall variation in water levels in the mapped area (here 0.5m). The same procedure is followed for other pairs of field observation points until one or two key contour lines can be mapped. At this point, the remaining contour lines can be drawn by interpolating between the field values.
+
+![[Pasted image 20240914123129.png]]
+
+Additional information that can be used in completing a potentiometric surface map is knowledge of the general topography of a region, and records of the elevations of springs known to discharge from an aquifer as well as the elevations of gaining streams and rivers that flow over the aquifer outcrop since these points represent ground surface interception of the water table. For unconfined aquifers bordering the sea it is usual to represent the coastline as a groundwater contour with an elevation equal to sea level (0m). Similar assumptions can be made in respect of large surface water bodies at inland locations.
+
+The direction of groundwater flow in an isotropic aquifer can be drawn at right angles to the contour lines on the potentiometric surface in the direction of decreasing hydraulic head. This assumes that the aquifer is an isotropic material. In anisotropic material, for example fissured or fractured aquifers, the flow lines will be at an angle to the potentiometric contour lines.
+
+---
+# 7.3 Field Estimation of Aquifer Properties
+## 7.3.1 Piezometer Tests
