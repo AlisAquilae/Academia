@@ -36,7 +36,7 @@ $$
 >n = 1 - \frac{\rho_b}{\rho_s} \tag{2.1b}
 >$$
 >
->More on this in [[Hiscock & Bense (2021)-Chapter 5]]
+>More on this in [[Hiscock & Bense (2021)-Chapter 7]]
 
 Porosity is closely associated with the [[Void Ratio]], $e$, the ratio of the volume of voids to the volume
 of the solid material, $V_s$, such that
