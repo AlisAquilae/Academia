@@ -102,7 +102,19 @@ $$
 >>$$
 >>
 
+Now, combining the equation above with the formulas for [[Permeability|Conductivity]] (and its components), we get
 
+$$
+\frac{Q}{A} = q = -K \frac{dh}{dl} = \frac{Cd^2 \rho g}{\mu} \frac{dh}{dl}
+$$
+
+It is important to remember that the [[Flux Density]] is not the true, microscopic velocity of the water moving along winding flowpaths within the soil or rock. Instead, by dividing the specific discharge by the fraction of open space (in other words, [[Effective Porosity]], $n_e$) through which groundwater flows across a given sectional area, this provides an average measure of groundwater velocity such that 
+
+$$
+\frac{Q}{An_e} = \frac{q}{n_e} = \bar{v}
+$$
+
+where $\bar{v}$ is the average linear velocity
 
 
 ---

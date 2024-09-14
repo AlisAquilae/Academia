@@ -9,10 +9,10 @@ Related Notes: ["[[Water 1 Summary Groundwater]]"]
 Related Terminology: ["[[Resistance]]", "[[Permeability]]"]
 Related Courses: ["[[Water 1]]"]
 ---
-The horizontal transportation capacity of a soil layer is expressed by the **Conductance** or Transmissivity ($kD$, in m$^2$ / d). It is simply the product of [[Permeability|Conductivity]] $k$ and layer thickness $D$: 
+The horizontal transportation capacity of a soil layer is expressed by the **Conductance** or Transmissivity ($KD$, in m$^2$ / d). It is simply the product of [[Permeability|Conductivity]] $K$ and layer thickness $D$: 
 
 $$
-kD = k \cdot D
+KD = K \cdot D
 $$
 
 This equation shows that a large volume of water can flow horizontally through a thick layer of permeable material. 

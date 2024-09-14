@@ -140,7 +140,7 @@ $$
 In general terms, [[Darcy's Law]] can be written as 
 
 $$
-Q = -KA \frac{dh}{dl}
+Q = -KA \frac{\mathrm dh}{\mathrm dl}
 $$
 
 where $dh/dl$ represents the hydraulic gradient.
@@ -157,7 +157,7 @@ $$
 Now, combining equations these equations gives a full expression of the flow through a porous material as
 
 $$
-\frac{Q}{A} = q = -K \frac{dh}{dl} = \frac{Cd^2 \rho g}{\mu} \frac{dh}{dl}
+\frac{Q}{A} = q = -K \frac{\mathrm dh}{\mathrm dl} = \frac{Cd^2 \rho g}{\mu} \frac{\mathrm dh}{\mathrm dl}
 $$
 
 The quotient $Q/A$, or $q$, indicates the discharge per unit cross-sectional area of saturated porous material. The term $q$, referred to as the [[Flux Density|Specific Discharge]], has the dimension of velocity [L T$^{-1}$] and is also known as the Darcy velocity or Darcy flux. 
@@ -171,3 +171,25 @@ The quotient $Q/A$, or $q$, indicates the discharge per unit cross-sectional are
 >
 >where $\bar{v}$ is the average linear velocity
 
+
+---
+# 6. Transmissivity and Storativity of Confined Aquifers
+
+For a confined aquifer of thickness $b$, [[Conductance|Transmissivity]] (also called **Conductance**), $T$, is defined as 
+
+$$
+T = Kb
+$$
+
+and represents the rate at which water of a given density and viscosity is transmitted through a unit with of aquifer or aquitard under a unit hydraulic gradient. Transmissivity has the units of $L^2 \, T^{-1}$ 
+
+>[!Missing]
+>Find out how storativity relates to specific storage, specific discharge, etc.
+
+The [[Storativity]], or storage coefficient, $S$, of a confined aquifer is defined as 
+
+$$
+S = S_s b \tag{2.24}
+$$
+
+where $S_s$ is the specific storage term, and represents the volume of water that an aquifer releases from storage per unit surface area of aquifer per unit decline in the component of hydraulic head normal to that surface. Storativity values are dimensionless and range in value from 0.005 to 0.00005 such that large head changes over extensive areas are required to produce significant yields from confined aquifers.
