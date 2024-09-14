@@ -3,7 +3,7 @@ fileClass: Base, Concepts
 Parents: ["[[Reader Water 1-Chapter 1.1-Catchment Characteristics]]", "[[Effective Porosity]]", "[[Hiscock & Bense (2021)-Chapter 2]]", "[[Hydrogeology Summary Physical Hydrogeology]]", "[[Lecture Notes Hydrogeology (2024)]]", "[[Permeability]]", "[[Void Ratio]]"]
 title: 
 Draft: 
-Status: To Revisit
+Status: Done
 aliases: "Pore Fraction"
 Related Terminology: ["[[Permeability]]", "[[Void Ratio]]", "[[Effective Porosity]]"]
 Related Notes: ["[[Reader Water 1-Chapter 1.1-Catchment Characteristics]]"]
@@ -41,6 +41,8 @@ Together with [[Permeability]], it determines how well water flows through a soi
 
 In general, unconsolidated sediments such as gravels, sands, silts and clays, which are composed of angular and rounded particles, have larger porosities than indurated, consolidated sediments such as sandstone and limestone. Crystalline igneous and metamorphic rocks have especially low porosities because the pores are merely within the inter-crystal surfaces. Conversely, formations rich in platy clay minerals with very fine grain size can achieve high porosity values.
 
+There is a distinction between primary porosity, which is the inherent character of a soil or rock matrix that developed during its formation, and secondary porosity. Secondary porosity may develop as a result of secondary physical and chemical weathering along the bedding planes and joints of indurated sediments such as limestones and sandstones, or as a result of structurally controlled regional fracturing and near-surface weathering in hard rocks such as igneous and metamorphic rocks. Where both primary and secondary porosities are present, a dual-porosity system is recognized, for example as a result of fracturing and fissuring in porous sandstone or limestone.
+
 A special variant of the porosity is the [[Effective Porosity]]
 
 Porosity is closely associated with the [[Void Ratio]]. The relation between the two can be expressed as 
@@ -54,3 +56,7 @@ or
 $$
 e = \frac{n}{(1-n)}
 $$
+
+The sum of the specific yield $S_y$ and the specific retention $S_r$, that is, $S_y + S_r$,, is equal to the total porosity, $n$. 
+
+The total porosity is equal to the sum of the [[Specific Yield]] and the [[Specific Retention]], that is, $S_y + S_r$. 

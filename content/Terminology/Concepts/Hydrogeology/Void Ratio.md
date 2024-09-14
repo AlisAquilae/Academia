@@ -1,12 +1,12 @@
 ---
 fileClass: Base, Concepts
 title: 
-Parents: ["[[Hydrogeology Summary Physical Hydrogeology]]", "[[Hiscock & Bense (2021)-Chapter 2]]"]
+Parents: ["[[Hydrogeology Summary Physical Hydrogeology]]", "[[Hiscock & Bense (2021)-Chapter 2]]", "[[Porosity]]"]
 Draft: 
 Status: Done
 aliases: 
-Related Notes: 
-Related Terminology: 
+Related Notes: ["[[Hiscock & Bense (2021)-Chapter 2]]", "[[Hydrogeology Summary Physical Hydrogeology]]"]
+Related Terminology: ["[[Porosity]]"]
 Related Courses: ["[[Hydrogeology]]"]
 ---
 The **void ratio** $e$, of a solid material is the ratio of the volume of voids, $V_v$, to the volume of the solid material, $V_s$, such that
