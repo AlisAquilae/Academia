@@ -3,7 +3,7 @@ fileClass: Base, Theories
 title: 
 Parents: ["[[Water 1 Summary Groundwater]]", "[[Discharge]]", "[[Hydraulic Head]]", "[[Two-Dimensional Discharge]]"]
 Draft: 
-Status: Done
+Status: To Revisit
 aliases: 
 Authors: Darcy
 Related Notes: ["[[Water 1 Summary Groundwater]]"]
@@ -64,10 +64,10 @@ $$
 
 Here, $\frac{\Delta H}{\Delta L}$ is the **Hydraulic Head Gradient** and gives the decrease in hydraulic head ($H$) over a certain distance in the flow direction ($L$). Since hydraulic head differences are the cause of flow, a large gradient leads to a large discharge.
 
-The flow can also be considered per unit of width. Then the discharge $Q$ is divided by $B$ and reduced from three dimensions (discharge is in m$^3$/d) to two, and called the [[Two-Dimensional Discharge]] ($q$, in m$^2$/d). This quantity is useful when the vertical cross-section is similar for a longer distance (for example flow under a long dam) or when the water balance approach is used to compute flow magnitude (this will be explained later). It is computed as 
+The flow can also be considered per unit of width. Then the discharge $Q$ is divided by $B$ and reduced from three dimensions (discharge is in m$^3$/d) to two, and called the [[Two-Dimensional Discharge]]. This quantity is useful when the vertical cross-section is similar for a longer distance (for example flow under a long dam) or when the water balance approach is used to compute flow magnitude (this will be explained later). It is computed as 
 
 $$
-q=kD \, \frac{\Delta H}{\Delta x}
+\frac{Q}{B} =-KD \, \frac{\Delta H}{\Delta L}
 $$
 
 
@@ -77,14 +77,14 @@ $$
 >>[!Check]- Answer
 >>
 >>$$
->>q=kD \, \frac{\Delta H}{\Delta x} =500 \times \frac{125 - 123}{90}=11 \, \text{m}^2 \, \text{d}^{-1}
+>>\frac{q}{B}=-KD \, \frac{\Delta H}{\Delta x} =500 \times \frac{125 - 123}{90}=11 \, \text{m}^2 \, \text{d}^{-1}
 >>$$
 >>
 
-The flow can also be considered per unit of area. Then the discharge $Q$ is divided by both $B$ and $D$ and reduced from 3 dimensions to 1, and called the [[Flux Density]] ($v$, in m/d). The flux density is not the same as the flow velocity since part of the soil is occupied by soil particles (which will be explained later). The flux density is computed as 
+The flow can also be considered per unit of area. Then the discharge $Q$ is divided by both $B$ and $D$( in other words, $A$), thereby being reduced from 3 dimensions to 1, and is called the [[Flux Density]] ($q$, in m/d). The flux density is not the same as the flow velocity since part of the soil is occupied by soil particles (which will be explained later). The flux density is computed as 
 
 $$
-v=k \, \frac{\Delta H}{\Delta x}
+\frac{Q}{A}= q=-K \, \frac{\Delta H}{\Delta L}
 $$
 
 
@@ -94,13 +94,15 @@ $$
 >>[!Check]- Answer
 >>
 >>$$
->>kD = k \cdot D \to k = \frac{kD}{D} = \frac{500}{12} = 42 \, \text{m} \, \text{d}^{-1} 
+>>KD = K \cdot D \to K = \frac{KD}{D} = \frac{500}{12} = 42 \, \text{m} \, \text{d}^{-1} 
 >>$$
 >>
 >>$$
->>v=k \, \frac{\Delta H}{\Delta x} =42 \times \frac{125-123}{90}=0.93 \, \text{m} \, \text{d}^{-1} 
+>>q=-K \, \frac{\Delta H}{\Delta L} =42 \times \frac{125-123}{90}=0.93 \, \text{m} \, \text{d}^{-1} 
 >>$$
 >>
+
+
 
 
 ---
