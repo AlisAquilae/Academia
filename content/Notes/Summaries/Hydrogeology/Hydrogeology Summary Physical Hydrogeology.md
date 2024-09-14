@@ -56,3 +56,40 @@ Not all the water contained in the pore space of a soil or rock can be viewed as
 The sum of the specific yield $S_y$ and the specific retention $S_r$, that is, $S_y + S_r$,, is equal to the total porosity, $n$. 
 
 It is useful to distinguish the total porosity from the [[Effective Porosity]], $n_e$, of a porous material. The total porosity relates to the storage capability of the material whereas the effective porosity relates to the transmissive capability of the material. 
+
+>[!Missing]
+>Find out the difference between specific storage, specific yield, specific retention and storativity
+
+
+---
+# 2. Hydraulic Conductivity
+The [[Permeability|Hydraulic Conductivity]] or, as it is occasionally referred to in older publications, the coefficient of [[Permeability]], $K$, has dimensions of [L T$^{−1}$] and is a measure of the ease of movement of a water through a porous material. 
+
+>[!Info]
+>Values of hydraulic conductivity display a wide range in nature, spanning 13 orders of magnitude
+
+In general, coarse-grained and fractured materials have high values of hydraulic conductivity, while fine-grained silts and clays have low values.
+
+>[!Note]
+>The properties of the geological material will significantly influence the [[Isotropy]] and homogeneity of the hydraulic conductivity distribution. 
+
+The hydraulic conductivity of geological materials is not only a function of the physical properties of the porous material, but also the properties of the migrating fluid, including specific weight, $\gamma$ ( = $\rho g$, where $\rho$ is he density of the fluid and $g$ is the gravitational acceleration), and viscosity, $\mu$, such that 
+
+$$
+K = k_i \frac{\gamma}{\mu} \tag{2.4}
+$$
+
+where the constant of proportionality, $k_i$, is termed the intrinsic permeability because it is a physical property intrinsic to the porous material alone. 
+
+>[!Info]
+>The density and viscosity of water are functions of temperature and pressure but these effects are not great for the ranges of temperature and pressure encountered in most groundwater situations
+
+The intrinsic permeability is representative of the properties of the porous material alone and is related to the size of the openings through which the fluid moves. The intrinsic permeability is more generally expressed as 
+
+$$
+k_i = Cd^2
+$$
+
+where
+- $d$ is equal to the mean pore diameter, and
+- $C$ represents a dimensionless ‘shape factor’ assessing the contribution made by the shape of the pore openings, as influenced by the relationship between the pore and grain sizes and their effect on the tortuosity of fluid flow.
