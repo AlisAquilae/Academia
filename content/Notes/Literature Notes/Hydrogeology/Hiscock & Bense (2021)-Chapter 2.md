@@ -38,8 +38,7 @@ $$
 >
 >More on this in [[Hiscock & Bense (2021)-Chapter 7]]
 
-Porosity is closely associated with the [[Void Ratio]], $e$, the ratio of the volume of voids to the volume
-of the solid material, $V_s$, such that
+Porosity is closely associated with the [[Void Ratio]], $e$, the ratio of the volume of voids to the volume of the solid material, $V_s$, such that
 
 $$
 e = \frac{V_v}{V_s} \tag{2.2}

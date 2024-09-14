@@ -89,3 +89,6 @@ The direction of groundwater flow in an isotropic aquifer can be drawn at right 
 ---
 # 7.3 Field Estimation of Aquifer Properties
 ## 7.3.1 Piezometer Tests
+Piezometer tests are small in scale and relatively cheap and easy to execute and provide useful site information, but are limited to providing values of hydraulic conductivity representative of only a small volume of ground in the immediate vicinity of the piezometer.
+
+It is possible to determine the hydraulic conductivity of an aquifer by tests carried out in a single piezometer. Tests are carried out by causing a sudden change in the water level in a piezometer through the rapid introduction (slug test) or removal (bail test) of a known volume of water or, to create the same effect, by the sudden introduction or removal of a solid cylinder of known volume. Either way, the recovery of the water level with time subsequent to the sudden disturbance is monitored and the results interpreted
