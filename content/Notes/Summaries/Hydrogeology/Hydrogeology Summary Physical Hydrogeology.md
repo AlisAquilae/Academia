@@ -182,7 +182,7 @@ A liquid possesses this energy by virtue of its position. This position is measu
 If a liquid particle is Z meters above the horizontal datum, the potential head of the liquid at that point will be Z meters of the liquid
 
 ## 5.3 Pressure Head
-A liquid possesses this energy by virtue of its existing pressure. This is measured using a piezometer tube. It is measured in terms of head of the liquid and called pressure head. The formula is 
+A liquid possesses [[Pressure Head]] by virtue of its existing pressure. This is measured using a piezometer tube. It is measured in terms of head of the liquid and called pressure head. The formula is 
 
 $$
 h = \frac{p}{\gamma}
@@ -196,7 +196,7 @@ where
 Given that the pressure head is measured with reference to atmospheric pressure, the pressure head is precisely 0 at the water table
 
 ## 5.4 Total Head
-The sum of all three forms of head above is called the hydraulic head. This is measured as 
+The sum of all three forms of head above is called the [[Hydraulic Head]]. This is measured as 
 
 $$
 H = Z + \frac{v^2}{2g} + \frac{p}{\gamma}
@@ -209,6 +209,10 @@ H = Z + \frac{p}{\gamma}
 $$
 
 In addition, given that the pressure head is 0 at the water table, the total head at the water table is equal to the elevation head. 
+
+$$
+H = Z
+$$
 
 
 # 5. Darcy's Law
