@@ -168,7 +168,7 @@ We consider a liquid particle. Here, mass $= m$, and velocity $= v$.
 
 Kinetic energy $= \frac12 m v^2$
 
-mass, in turn, can be seen as $\frac{\}{g}$ 
+mass, in turn, can be seen as $\frac{\text{unit weight}}{gravity}$ 
 
 
 
