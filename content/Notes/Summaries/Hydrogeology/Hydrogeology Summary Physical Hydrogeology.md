@@ -189,7 +189,11 @@ and represents the rate at which water of a given density and viscosity is trans
 The [[Storativity]], or storage coefficient, $S$, of a confined aquifer is defined as 
 
 $$
-S = S_s b \tag{2.24}
+S = S_s b
 $$
 
-where $S_s$ is the specific storage term, and represents the volume of water that an aquifer releases from storage per unit surface area of aquifer per unit decline in the component of hydraulic head normal to that surface. Storativity values are dimensionless and range in value from 0.005 to 0.00005 such that large head changes over extensive areas are required to produce significant yields from confined aquifers.
+where $S_s$ is the [[Specific Storage]] term, and represents the volume of water that an aquifer releases from storage per unit surface area of aquifer per unit decline in the component of hydraulic head normal to that surface. 
+
+>[!Info]
+>Storativity values are dimensionless and range in value from 0.005 to 0.00005 such that large head changes over extensive areas are required to produce significant yields from confined aquifers.
+

@@ -140,6 +140,3 @@ As the speed of a moving fluid increases, the pressure within the fluid decrease
 
 The velocity is so low, we can ignore it. Then, total head becomes Z + p/y, which we use as the hydraulic head. 
 
-Recorded?
-Literature
-bikes?
