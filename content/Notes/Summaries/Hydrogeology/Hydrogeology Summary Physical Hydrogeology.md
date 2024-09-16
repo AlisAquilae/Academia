@@ -168,8 +168,18 @@ We consider a liquid particle. Here, mass $= m$, and velocity $= v$.
 
 Kinetic energy $= \frac12 m v^2$
 
-mass, in turn, can be seen as $\frac{\text{unit weight}}{gravity}$ 
+mass per unit volume, in turn, can be seen as $\frac{\text{specific weight}}{gravity} = \frac{\gamma}{g}$ 
 
+Combining both equations, and setting the specific weight to 1 (which is approximately true for water), we get
+
+$$
+KE = \frac{v^2}{2g}
+$$
+
+## 5.2 Elevation Head
+A liquid possesses this energy by virtue of its position. This position is measured relative to a datum (that is, an arbitrarily chosen reference line). For this, we often take mean sea level
+
+If a liquid particle is Z meters above the horizontal datum, potential
 
 
 # 5. Darcy's Law
