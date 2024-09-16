@@ -150,7 +150,26 @@ An [[Aquiclude]] is a saturated geological unit of such low permeability that is
 >When water pressure is so high that water rises till above the surface, we speak of Artesian wells. 
 
 ---
-# The E
+# 5. The Energy of Groundwater
+Energy is the capacity to work. Water is lazy, and therefore flows from high to low energy.
+
+There are 3 forms of energy associated with the flow of fluid:
+- Kinetic energy (velocity head)
+- Potential / elevation energy / datum head
+- Pressure energy / Pressure head
+
+>[!Note]
+>In the field of hydrogeology, we often use the term 'head' to indicate energy
+
+## 5.1 Velocity Head
+A liquid particle possesses this energy by virtue of its motion or velocity
+
+We consider a liquid particle. Here, mass $= m$, and velocity $= v$. 
+
+Kinetic energy $= \frac12 m v^2$
+
+mass, in turn, can be seen as $\frac{\}{g}$ 
+
 
 
 # 5. Darcy's Law
