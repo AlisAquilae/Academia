@@ -179,7 +179,30 @@ $$
 ## 5.2 Elevation Head
 A liquid possesses this energy by virtue of its position. This position is measured relative to a datum (that is, an arbitrarily chosen reference line). For this, we often take mean sea level
 
-If a liquid particle is Z meters above the horizontal datum, potential
+If a liquid particle is Z meters above the horizontal datum, the potential head of the liquid at that point will be Z meters of the liquid
+
+## 5.3 Pressure Head
+A liquid possesses this energy by virtue of its existing pressure. This is measured using a piezometer tube. It is measured in terms of head of the liquid and called pressure head. The formula is 
+
+$$
+h = \frac{\rho}{\gamma}
+$$
+
+where
+- $h$ is the pressure head
+- $\rho$ is the density
+- $\gamma$ is the specific weight
+
+## 5.4 Total Head
+The sum of all three forms of head above is called the hydraulic head. This is measured as 
+
+$$
+H = Z + \frac{v^2}{2g} + \frac{\rho}{\gamma}
+$$
+
+The velocity of groundwater is incredibly slow. Therefore, the velocity head is very low. Thus, we often ignore the velocity head. 
+
+In addition, 
 
 
 # 5. Darcy's Law
