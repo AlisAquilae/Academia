@@ -35,3 +35,7 @@ North Sea rather shallow due to collection of sediment as a result of its basin 
 Approx 2.5mm decline per 100 years. 
 
 Oceanic currents transport sediments from south-west to north-east
+
+3000 years ago, rivers were blocked due to dunes. Therefore, very wet conditions and peat formation
+
+6000 years ago, less blockage. Some peat, but also clay intrusion from the seas. Less sediment transport from the rivers, and therefore less sand deposited on the dunes. 
