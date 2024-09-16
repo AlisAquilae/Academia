@@ -162,7 +162,7 @@ There are 3 forms of energy associated with the flow of fluid:
 >In the field of hydrogeology, we often use the term 'head' to indicate energy
 
 ## 5.1 Velocity Head
-A liquid particle possesses this energy by virtue of its motion or velocity
+A liquid particle possesses velocity head by virtue of its motion or velocity
 
 We consider a liquid particle. Here, mass $= m$, and velocity $= v$. 
 
@@ -185,24 +185,30 @@ If a liquid particle is Z meters above the horizontal datum, the potential head 
 A liquid possesses this energy by virtue of its existing pressure. This is measured using a piezometer tube. It is measured in terms of head of the liquid and called pressure head. The formula is 
 
 $$
-h = \frac{\rho}{\gamma}
+h = \frac{p}{\gamma}
 $$
 
 where
 - $h$ is the pressure head
-- $\rho$ is the density
+- $p$ is the fluid pressure
 - $\gamma$ is the specific weight
+
+Given that the pressure head is measured with reference to atmospheric pressure, the pressure head is precisely 0 at the water table
 
 ## 5.4 Total Head
 The sum of all three forms of head above is called the hydraulic head. This is measured as 
 
 $$
-H = Z + \frac{v^2}{2g} + \frac{\rho}{\gamma}
+H = Z + \frac{v^2}{2g} + \frac{p}{\gamma}
 $$
 
 The velocity of groundwater is incredibly slow. Therefore, the velocity head is very low. Thus, we often ignore the velocity head. 
 
-In addition, 
+$$
+H = Z + \frac{p}{\gamma}
+$$
+
+In addition, given that the pressure head is 0 at the water table, the total head at the water table is equal to the elevation head. 
 
 
 # 5. Darcy's Law
