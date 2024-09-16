@@ -127,13 +127,32 @@ Natural variations in the permeability and ease of transmission of groundwater i
 >For a soil layer to be considered an aquifer, three conditions are required
 >1. The soil is porous
 >2. It can store water
->3. It can transmit wate
+>3. It can transmit water
 
-The term [[Aquitard]] is used to describe a formation of lower permeability that may transmit quantities of water that are significant in terms of regional groundwater flow, but from which negligible supplies of groundwater can be obtained. Examples of aquitards include fluvial and glacio-fluvial silts and sandy clays, sedimentary rocks with few fractures and fractured crystalline rock.
+>[!Info]
+>When hydrocarbons (gas or oil) are concerned, the term reservoir is commonly used instead of aquifer
 
-An [[Aquiclude]] is a saturated geological unit of such low permeability that is incapable of transmitting significant quantities of water under ordinary hydraulic gradients and can act as a barrier to regional groundwater flow. Aquiclude rocks include clays, shales and metamorphic rocks.
+Aquifers can be subdivided into at least 5 categories:
+1. [[Phreatic Aquifer]], or unconfined aquifer, is an aquifer which is directly connected to the water table, and has no confining layer above it. 
+2. [[Confined Aquifer]] is an aquifer between two aquitards, or an aquitard and an aquiclude. Its flow is restricted by a confining layer above it. 
+3. [[Semi-Confined Aquifer]], or leaky aquifer, is an aquifer bounded by an aquitard that does transmit water when hydraulic head above and below the leaky boundary are in dis-equilibrium. For example, if the hydraulic head in the unconfined aquifer is higher than the confined aquifer, this confined aquifer becomes semi-confined, because the aquitard above it becomes able to transmit water more easily, and the confined-aquifer is therefore less restricted by the aquitard.
+4. [[Perched Aquifer]] is a small aquifer which is created by a discontinuous aquitard, i.e. a short aquitard, which blocks only a but if the water flow, just above it
+5. [[Karstic Aquifer]] is an aquifer which is controlled by rock dissolution (i.e. holes in rock layers which are created by dissolution)
+
+The term [[Aquitard]] is used to describe a formation of lower permeability that may transmit quantities of water that are significant in terms of regional groundwater flow, but from which negligible supplies of groundwater can be obtained. Examples of aquitards include fluvial and glacio-fluvial silts and sandy clays, sedimentary rocks with few fractures and fractured crystalline rock. An aquitard can store water and transmit it but at a very low rate. Thus, it does not prevent flow but hinders it
+
+An [[Aquiclude]] is a saturated geological unit of such low permeability that is incapable of transmitting significant quantities of water under ordinary hydraulic gradients and can act as a barrier to regional groundwater flow. Aquiclude rocks include clays, shales and metamorphic rocks. An aquiclude does not transmit groundwater at all.
+
+>[!Note]
+>If you dig a well in an unconfined aquifer, the water level will be the same as the water table. If you dig a well in a confined aquifer, the water table will be higher, because the water is under pressure. 
+
+>[!Info]
+>When water pressure is so high that water rises till above the surface, we speak of Artesian wells. 
 
 ---
+# The E
+
+
 # 5. Darcy's Law
 Water contained within the interconnected voids of soils and rocks is capable of moving, and the ability of a rock to store and transmit water constitutes its hydraulic properties. At the centre of the laws that govern the behaviour of groundwater flow in saturated material is that formulated empirically by the French municipal engineer for Dijon, Henry Darcy, in 1856. 
 
