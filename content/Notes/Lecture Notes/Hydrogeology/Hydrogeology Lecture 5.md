@@ -1,12 +1,12 @@
 ---
 fileClass: Base, Lecture Notes
 title: 
-Parents: 
+Parents: ["[[Hydrogeology]]"]
 Draft: 
-Status: 
+Status: To Revisit
 Related Notes: 
 Related Terminology: 
-Related Courses: 
+Related Courses: ["[[Hydrogeology]]"]
 ---
 # Answers Rock Practical
 Does granite when weathered cause a rise in dissolved solids? Yes, dark coloured parts relatively easy to weather. Thus rise
@@ -27,3 +27,11 @@ Basalt CO2 bubbles: Causes increased porosity. Effective porosity depends on wea
 
 ![[Pasted image 20240916091449.png]]
 
+# Hydrogeology of the Netherlands
+North Sea Basin: started later than Paris and London Basin, but still very old. 
+
+North Sea rather shallow due to collection of sediment as a result of its basin status. 
+
+Approx 2.5mm decline per 100 years. 
+
+Oceanic currents transport sediments from south-west to north-east
