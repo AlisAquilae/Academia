@@ -1,12 +1,12 @@
 ---
 fileClass: Base, Summaries
 title: 
-Parents: 
+Parents: ["[[Hydrogeology]]"]
 Draft: 
-Status: 
+Status: In Progress
 Related Notes: 
 Related Terminology: 
-Related Courses: 
+Related Courses: ["[[Hydrogeology]]"]
 ---
 # 1. Porosity
 The [[Porosity]] of a soil or rock is that fraction of a given volume of material that is occupied by void space, or interstices. Porosity, indicated by the symbol $n$, is usually expressed as the ratio of the volume of voids, $V_v$, to the total unit volume, $V_t$. of a soil or rock, such that 
@@ -121,7 +121,13 @@ Combining the previous definitions, and as shown in the figure below, it is poss
 
 ---
 # 4. Aquifers, Aquitards and Aquicludes
-Natural variations in the permeability and ease of transmission of groundwater in different geological materials lead to the recognition of aquifers, aquitards and aquicludes. An [[Aquifer]] is a layer or layered sequence of rock or sediment comprising one or more geological formations that contains water and is able to transmit significant quantities of water under an ordinary hydraulic gradient. Aquifers therefore have sufficient permeability to transmit groundwater that can be exploited economically from wells or springs. Good aquifers are usually developed in sands, gravels, solutionally-weathered limestones and fractured sandstones
+Natural variations in the permeability and ease of transmission of groundwater in different geological materials lead to the recognition of aquifers, aquitards and aquicludes. An [[Aquifer]] is a layer or layered sequence of rock or sediment comprising one or more geological formations that contains water and is able to transmit significant quantities of water under an ordinary hydraulic gradient. Aquifers therefore have sufficient permeability to transmit groundwater that can be exploited economically from wells or springs. Good aquifers are usually developed in sands, gravels, solutionally-weathered limestones and fractured sandstones. 
+
+>[!Important]
+>For a soil layer to be considered an aquifer, three conditions are required
+>1. The soil is porous
+>2. It can store water
+>3. It can transmit wate
 
 The term [[Aquitard]] is used to describe a formation of lower permeability that may transmit quantities of water that are significant in terms of regional groundwater flow, but from which negligible supplies of groundwater can be obtained. Examples of aquitards include fluvial and glacio-fluvial silts and sandy clays, sedimentary rocks with few fractures and fractured crystalline rock.
 

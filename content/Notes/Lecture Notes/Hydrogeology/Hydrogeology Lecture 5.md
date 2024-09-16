@@ -39,3 +39,11 @@ Oceanic currents transport sediments from south-west to north-east
 3000 years ago, rivers were blocked due to dunes. Therefore, very wet conditions and peat formation
 
 6000 years ago, less blockage. Some peat, but also clay intrusion from the seas. Less sediment transport from the rivers, and therefore less sand deposited on the dunes. 
+
+10.000 years ago: north sea mostly dry, rivers trying to deposit sediments southwards. 
+
+20.000 years ago: weichselian ice age, which did not quite touch the Netherlands but caused our climate to be more like a tundra. 
+
+90.000 years ago: Eemian interglacial: higher north sea level, intruding much further inland. 
+
+140.000 years ago: Saalian ice age: large part of the Netherlands covered, somewhere halfway across. 
