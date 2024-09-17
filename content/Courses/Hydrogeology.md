@@ -40,6 +40,7 @@ Finally, the course engages with some papers
 - [[Hydrogeology Lecture 3]]
 - [[Hydrogeology Lecture 4]]
 - [[Hydrogeology Lecture 5]]
+- [[Hydrogeology Lecture 6]]
 
 
 # 🔬 Practicals

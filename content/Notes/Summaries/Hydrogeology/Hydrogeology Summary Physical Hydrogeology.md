@@ -3,8 +3,8 @@ fileClass: Base, Summaries
 title: 
 Parents: ["[[Hydrogeology]]"]
 Draft: 
-Status: In Progress
-Related Notes: 
+Status: Done
+Related Notes: ["[[Hydrogeology Lecture 1]]", "[[Hydrogeology Lecture 2]]", "[[Hiscock & Bense (2021)-Chapter 2]]"]
 Related Terminology: 
 Related Courses: ["[[Hydrogeology]]"]
 ---
