@@ -177,7 +177,7 @@ KE = \frac{v^2}{2g}
 $$
 
 ## 5.2 Elevation Head
-A liquid possesses this energy by virtue of its position. This position is measured relative to a datum (that is, an arbitrarily chosen reference line). For this, we often take mean sea level
+A liquid possesses [[Elevation Head]] by virtue of its position. This position is measured relative to a datum (that is, an arbitrarily chosen reference line). For this, we often take mean sea level
 
 If a liquid particle is Z meters above the horizontal datum, the potential head of the liquid at that point will be Z meters of the liquid
 
@@ -214,6 +214,8 @@ $$
 H = Z
 $$
 
+
+For a completely incompressible liquid, when flowing from one point to another, the total energy of point one (that is, total head) will be equal to the total energy of point two, and therefore be constant. This means that as the speed of a moving fluid increases, the pressure within the fluid decreases. Based on this principle, we can state that the low velocity of groundwater causes a high amount of pressure within the fluid. 
 
 # 5. Darcy's Law
 Water contained within the interconnected voids of soils and rocks is capable of moving, and the ability of a rock to store and transmit water constitutes its hydraulic properties. At the centre of the laws that govern the behaviour of groundwater flow in saturated material is that formulated empirically by the French municipal engineer for Dijon, Henry Darcy, in 1856. 
@@ -257,6 +259,9 @@ The quotient $Q/A$, or $q$, indicates the discharge per unit cross-sectional are
 >$$
 >
 >where $\bar{v}$ is the average linear velocity
+
+>[!Info]
+>Darcy's Law is valid for laminar fluid flow only. It does not apply to turbulent flow
 
 
 ---
