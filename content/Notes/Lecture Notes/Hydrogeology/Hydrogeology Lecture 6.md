@@ -23,3 +23,5 @@ Scales
 
 The larger the scale, the larger the reliance on geophysical methods. 
 
+Local scale:
+- Piezometer tests (slug test = quick addition of water, bail test = quick removal of water, see results)
