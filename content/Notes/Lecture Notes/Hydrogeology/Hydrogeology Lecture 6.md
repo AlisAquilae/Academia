@@ -28,3 +28,7 @@ Local scale:
 
 Fractured rock setting:
 - Single, open borehole (simply a hole drilled). Can intersect various fracture zones that can be hydraulically short-circuited via the borehole (flow from one fracture to another). As a result fluid flow in borehole can occur and be variable with depth. Various techniques are available to measure in-well fluid flow. Borehole impeller logging. Temperature techniques using Distributed Temperature Sensing (geophysical, measurement of temperatutre along a fibre-optic cable using light; temperature distribution os obtained by 'time of flight' of light to and from parts of the cable)
+- Double, open borehole: input warm water, measure temperature in other borehole. 
+
+---
+# Aquifer testing
