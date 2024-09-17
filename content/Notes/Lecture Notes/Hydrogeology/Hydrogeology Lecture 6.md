@@ -27,8 +27,16 @@ Local scale:
 - Piezometer tests (slug test = quick addition of water, bail test = quick removal of water, see time of recovery)
 
 Fractured rock setting:
-- Single, open borehole (simply a hole drilled). Can intersect various fracture zones that can be hydraulically short-circuited via the borehole (flow from one fracture to another). As a result fluid flow in borehole can occur and be variable with depth. Various techniques are available to measure in-well fluid flow. Borehole impeller logging. Temperature techniques using Distributed Temperature Sensing (geophysical, measurement of temperatutre along a fibre-optic cable using light; temperature distribution os obtained by 'time of flight' of light to and from parts of the cable)
+- Single, open borehole (simply a hole drilled). Can intersect various fracture zones that can be hydraulically short-circuited via the borehole (flow from one fracture to another). As a result fluid flow in borehole can occur and be variable with depth. Various techniques are available to measure in-well fluid flow. Borehole impeller logging. Temperature techniques using Distributed Temperature Sensing (geophysical, measurement of temperature along a fibre-optic cable using light; temperature distribution os obtained by 'time of flight' of light to and from parts of the cable)
 - Double, open borehole: input warm water, measure temperature in other borehole. 
 
 ---
 # Aquifer testing
+Extract water, and study the influence of this on the groundwater (specifically the depth of the depression and resulting shape of the groundwater table) using nearby piezometers. 
+
+---
+# Hydrogeophysical Methods
+Geophysical methods aim to establish subsurface physical properties through measurements taken at the surface, from the sky, or within boreholes, to look at the invisible
+
+Examples include seismic refraction, seismic reflection, electrical resistivity
+Electromagnetoic resistivity, ground-penetrating radar
