@@ -39,4 +39,6 @@ Extract water, and study the influence of this on the groundwater (specifically 
 Geophysical methods aim to establish subsurface physical properties through measurements taken at the surface, from the sky, or within boreholes, to look at the invisible
 
 Examples include seismic refraction, seismic reflection, electrical resistivity
-Electromagnetoic resistivity, ground-penetrating radar
+Electromagnetic resistivity, ground-penetrating radar
+
+Electrical resistivity very good to differentiate between sedimentary soils, as well as to detect saline water (e.g. salt intrusion)
