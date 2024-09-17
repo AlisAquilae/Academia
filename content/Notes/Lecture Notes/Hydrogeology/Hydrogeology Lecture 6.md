@@ -24,4 +24,7 @@ Scales
 The larger the scale, the larger the reliance on geophysical methods. 
 
 Local scale:
-- Piezometer tests (slug test = quick addition of water, bail test = quick removal of water, see results)
+- Piezometer tests (slug test = quick addition of water, bail test = quick removal of water, see time of recovery)
+
+Fractured rock setting:
+- Single, open borehole (simply a hole drilled). Can intersect various fracture zones that can be hydraulically short-circuited via the borehole (flow from one fracture to another). As a result fluid flow in borehole can occur and be variable with depth. Various techniques are available to measure in-well fluid flow. Borehole impeller logging. Temperature techniques using Distributed Temperature Sensing (geophysical, measurement of temperatutre along a fibre-optic cable using light; temperature distribution os obtained by 'time of flight' of light to and from parts of the cable)
