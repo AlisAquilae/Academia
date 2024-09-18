@@ -21,3 +21,7 @@ Lakes and rivers contain sediment at the bottom, whichi has a different conducti
 
 Flux exchange between groundwater and open water (ON TOP OF AQUIFER)
 Darcy = q = delta H over C
+
+Qn + Qe + Qs + Qw + Qext + Qtop = 0
+
+Qtop = Area (or length) = (Htop - Hc) / C
