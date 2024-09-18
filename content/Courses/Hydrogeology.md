@@ -47,6 +47,7 @@ Finally, the course engages with some papers
 - [[Hydrogeology Numerical Modelling 1]]
 - [[Hydrogeology Numerical Modelling 2]]
 - [[Hydrogeology Rock Determination]]
+- [[Hydrogeology Numerical Modelling 5]]
 
 
 # 🔗 Summaries
