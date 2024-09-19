@@ -107,6 +107,30 @@ At the outset of this section, we first presented a vector and then showed that 
 >
 >$$
 >\begin{aligned}
->(-2-\lambda)(1-\lambda) -4 = (-2+2\lambda -\lambda + \lambda^2)-4 = \lambda^2 +\lambda - 6 = 0
+>\det \begin{pmatrix}(-2-\lambda)v_1 + 2v_2 \\ 2v_1 + (1-\lambda)v_2 \end{pmatrix} &=
+>(-2-\lambda)(1-\lambda) -4 \\
+>&= (-2+2\lambda -\lambda + \lambda^2)-4 \\
+>&= \lambda^2 +\lambda - 6 = 0
+>\end{aligned}
 >$$
+>
+>With solutions $\lambda = 2$ and $\mu = -3$. Therefore, the eigenvalues of $A$ are $\lambda = 2$ and $\mu = -3$
+
+>[!Tip]
+>Once all eigenvalues have been found, it is wise to check that they are zeros of the original characteristic equation.
+
+Using matrix notations we can write the calculations above in a more compact form. For an $n\times n$ matrix $A$, $\det(A-\lambda I)$ is the characteristic polynomial of $A$, and the equation
+
+$$
+\det(A-\lambda I) = 0
+$$
+
+is the characteristic equation of $A$. 
+
+>[!Important]
+>The eigenvalues of an $n\times n$ matrix $A$ are the solutions of the characteristic equation $\det(A-\lambda I)=0$
+
+
+
+
 
