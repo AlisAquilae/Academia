@@ -75,5 +75,38 @@ As we can see, some vectors have an image vector which is a multiple of the orig
 
 The eigenvalues and eigenvectors of a matrix are closely interconnected, which is also apparent from the twin definition below
 - The vector $v$ is an eigenvector of the $n\times n$ matrix $A$ if $v \neq 0$ and $Av = \lambda v$ for a number $\lambda$
-- The number $\lambda$ is an eigenvalue of the $n\times n$ matrix
+- The number $\lambda$ is an eigenvalue of the $n\times n$ matrix $A$ is $Av = \lambda v$ for a vector $v \neq 0$
+
+## 3.2.3 The Computation of Eigenvalues
+At the outset of this section, we first presented a vector and then showed that it was an eigenvector of a matrix, and calculated the eigenvalue corresponding to this vector. Of course, this is not what happens in practice; there the problem is to find among all possible vectors the eigenvector of a given matrix. For small matrices, we may do this by first looking for the eigenvalues, and afterwards finding the corresponding eigenvalues. 
+
+>[!Example]
+>We determine the eigenvalues and eigenvectors of the $2\times 2$ matrix $A$,
+>
+>$$
+>A=\begin{pmatrix}-2 & 2 \\ 2 & 1 \end{pmatrix}
+>$$
+>
+>If $v$ is an eigenvector of $A$ that corresponds to an eigenvalue $\lambda$, then $Av = \lambda v$, that is, 
+>
+>$$
+>\begin{aligned}
+>\begin{pmatrix}-2 & 2 \\ 2 & 1 \end{pmatrix}\begin{pmatrix}v_1 \\ v_2 \end{pmatrix} = \begin{pmatrix}\lambda v_1 \\ \lambda v_2 \end{pmatrix} &= \begin{pmatrix}-2v_1 + 2v_2 \\ 2v_1 + 1v_2 \end{pmatrix} = \begin{pmatrix}\lambda v_1 \\ \lambda v_2 \end{pmatrix} \\
+>&= \begin{pmatrix}(-2-\lambda)v_1 + 2v_2 \\ 2v_1 + (1-\lambda)v_2 \end{pmatrix} \\
+>&= \begin{pmatrix} 0\\0 \end{pmatrix}
+>\end{aligned}
+>$$
+>
+>Since $v$ may not be the null vector according to common convention, there must be a linear combination of the columns that yields 0, so the columns are linearly dependent. It follows that
+>
+>$$
+>\det \begin{pmatrix}(-2-\lambda)v_1 + 2v_2 \\ 2v_1 + (1-\lambda)v_2 \end{pmatrix} = 0
+>$$
+>
+>With elaboration of the determinant, we get
+>
+>$$
+>\begin{aligned}
+>(-2-\lambda)(1-\lambda) -4 = (-2+2\lambda -\lambda + \lambda^2)-4 = \lambda^2 +\lambda - 6 = 0
+>$$
 
