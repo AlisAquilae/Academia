@@ -159,3 +159,32 @@ Once we have found an eigenvalue we can factor it out, which results in an equat
 
 >[!Example]
 >We determine the eigenvalues of the matrix 
+>
+>$$
+>C=\begin{pmatrix}2 & 2 & 1 \\ 1 & 3 & 1 \\ 1 & 2 & 2 \end{pmatrix}
+>$$
+>
+>First we formulate the characteristic equation
+>
+>$$
+>\begin{aligned}
+>\det\begin{pmatrix}2-\lambda & 2 & 1 \\ 1 & 3-\lambda & 1 \\ 1 & 2 & 2-\lambda \end{pmatrix} &= \\
+> (2-\lambda)\det\begin{pmatrix} 3-\lambda & 1 \\ 2 & 2-\lambda \end{pmatrix} -1\det \begin{pmatrix}2 & 1 \\ 2 & 2-\lambda \end{pmatrix} + 1\det\begin{pmatrix}2 & 1 \\ 3-\lambda & 1 \end{pmatrix} &= \\
+> (2-\lambda)(\lambda^2 -5\lambda +4)-1(-2\lambda + 2) + 1(\lambda -1) &= \\
+> (-\lambda^3 +7\lambda^2 -14\lambda +8)+(2\lambda - 2) + (\lambda - 1) &= \\
+> -\lambda^3 + 7\lambda^2 - 11\lambda + 5 &= 0 
+>\end{aligned}
+>$$
+>
+>By trial and error we find the solution $\lambda = 1$. This enables us to factorize the characteristic polynomial by $(\lambda-1)$
+>
+>$$
+>\begin{aligned}
+>-\lambda^3 +7\lambda^2 -11\lambda+5 &= (\lambda-1)(a\lambda^2 + b\lambda + c) \\
+>
+>\end{aligned}
+>$$
+
+
+
+
