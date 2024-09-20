@@ -238,5 +238,16 @@ It is possible two independent eigenvectors correspond to one eigenvalue. Then a
 >
 >$$
 >\begin{aligned}
->C = \begin{pmatrix}2
+>C &= \begin{pmatrix}2 & 2 & 1 \\ 1 & 3 & 1 \\ 1 & 2 & 2 \end{pmatrix}, \\
+>x &= \begin{pmatrix}1 \\ 0 \\ -1 \end{pmatrix}, \\
+>y &= \begin{pmatrix}0 \\ 1 \\ -2 \end{pmatrix}
+>\end{aligned}
+>$$
+>
+>We find 
+>
+>$$
+>\begin{aligned}
+>Cx 
+>\end{aligned}
 >$$
