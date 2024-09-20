@@ -131,6 +131,20 @@ is the characteristic equation of $A$.
 >The eigenvalues of an $n\times n$ matrix $A$ are the solutions of the characteristic equation $\det(A-\lambda I)=0$
 
 
-
-
+>[!Question]
+>Find the eigenvalues of the following matrix
+>
+>$$
+>A=\begin{pmatrix}0 & 2 \\ 3 & 1\end{pmatrix}
+>$$
+>
+>>[!success]- Answer
+>>
+>>$$
+>>\begin{aligned}
+>>\begin{pmatrix} 0 & 2 \\ 3 & 1 \end{pmatrix} \begin{pmatrix}v_1 \\ v_2 \end{pmatrix} &= \begin{pmatrix}\lambda v_1 & \lambda v_2 \end{pmatrix} \\
+>>\begin{pmatrix} (0-\lambda) v_1 + 2v_2 \\ 3v_1 + (1-\lambda)v_2 &= \begin{pmatrix}0\\ 0 \end{pmatrix} \\
+>>\begin{pmatrix} 0
+>>\end{aligned}
+>>$$
 
