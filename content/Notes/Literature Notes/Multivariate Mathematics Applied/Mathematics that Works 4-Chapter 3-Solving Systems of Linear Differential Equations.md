@@ -198,7 +198,45 @@ Once we have found an eigenvalue we can factor it out, which results in an equat
 >The equation $-\lambda^3 + 7\lambda^2 - 11\lambda + 5 = 0$ is now decomposed as $(\lambda-1)(-\lambda^2 +6\lambda -5) = 0$. Beside the known root $(\lambda -1) = 0$ we thus find the roots $\mu = 1$ and $v = 5$ of the quadratic factor $-\lambda^2 +6\lambda -5=0$. Hence, the eigenvalues of $C$ are $\lambda = -1, \mu = 1, v = 5$. 
 
 
+## 2.3.5 The Eigenvector Corresponding to an Eigenvalue
+Any multiple of an eigenvector is again an eigenvector corresponding to the same eigenvalue. 
 
+>[!Example]
+>For the $2\times 2$ matrix $A$, 
+>
+>$$
+>A = \begin{pmatrix} -2 & 2 \\ 2 & 1 \end{pmatrix}
+>$$
+>
+>We found that the vector 
+>
+>$$
+>u = \begin{pmatrix}1 \\ 2 \end{pmatrix}
+>$$
+>
+>is an eigenvector corresponding to the eigenvalue 2. Hence, any multiple $s = \alpha u = 2 s$. If we take for example $a=-2$, then
+>
+>$$
+>s = \begin{pmatrix}-2 \\ -4\end{pmatrix}
+>$$
+>
+>and
+>
+>$$
+>\begin{aligned}
+>As &= \begin{pmatrix}-2 & 2 \\ 2 & 1 \end{pmatrix}\begin{pmatrix}-2 \\ -4 \end{pmatrix} \\
+>&= \begin{pmatrix}4-8 \\ -4-8 \end{pmatrix} \\
+>&= \begin{pmatrix} -4 \\ -8 \end{pmatrix} \\
+>&= 2s
+>\end{aligned}
+>$$
 
+It is possible two independent eigenvectors correspond to one eigenvalue. Then any linear combination of these is again an eigenvector
 
-
+>[!Example]
+>Consider the matrix $C$ and the vectors $x$ and $y$
+>
+>$$
+>\begin{aligned}
+>C = \begin{pmatrix}2
+>$$
