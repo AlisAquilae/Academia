@@ -138,13 +138,24 @@ is the characteristic equation of $A$.
 >A=\begin{pmatrix}0 & 2 \\ 3 & 1\end{pmatrix}
 >$$
 >
->>[!success]- Answer
+>>[!check]- Answer
 >>
 >>$$
 >>\begin{aligned}
 >>\begin{pmatrix} 0 & 2 \\ 3 & 1 \end{pmatrix} \begin{pmatrix}v_1 \\ v_2 \end{pmatrix} &= \begin{pmatrix}\lambda v_1 & \lambda v_2 \end{pmatrix} \\
->>\begin{pmatrix} (0-\lambda) v_1 + 2v_2 \\ 3v_1 + (1-\lambda)v_2 &= \begin{pmatrix}0\\ 0 \end{pmatrix} \\
->>\begin{pmatrix} 0
+>>\begin{pmatrix} (0-\lambda) v_1 + 2v_2 \\ 3v_1 + (1-\lambda)v_2 \end{pmatrix} &= \begin{pmatrix}0\\ 0 \end{pmatrix} \\
+>>\begin{pmatrix} 0-\lambda & 2 \\ 3 & 1-\lambda \end{pmatrix}\begin{pmatrix}v_2 \\ v_2 \end{pmatrix} &= \begin{pmatrix}0\\ 0 \end{pmatrix} \\
+>>\det\begin{pmatrix} 0-\lambda & 2 \\ 3 & 1-\lambda \end{pmatrix} &= 0 \\
+>>(0-\lambda)(1-\lambda)-3\cdot 2 &= 0 \\
+>>\lambda^2 -\lambda -6 &= 0 \\
+>>(\lambda - 3)(\lambda + 2) &= 0 \\
+>>\begin{pmatrix}\lambda_1 = 3 & \lambda_2 = -2 \end{pmatrix}
 >>\end{aligned}
 >>$$
 
+
+## 3.2.4 Factorizing a Known Eigenvalue
+Once we have found an eigenvalue we can factor it out, which results in an equation of lower degree. The remaining eigenvalues satisfy this latter equation
+
+>[!Example]
+>We determine the eigenvalues of the matrix 
