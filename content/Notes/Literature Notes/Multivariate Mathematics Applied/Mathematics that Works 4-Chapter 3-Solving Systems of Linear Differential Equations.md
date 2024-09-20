@@ -181,9 +181,23 @@ Once we have found an eigenvalue we can factor it out, which results in an equat
 >$$
 >\begin{aligned}
 >-\lambda^3 +7\lambda^2 -11\lambda+5 &= (\lambda-1)(a\lambda^2 + b\lambda + c) \\
->
+>-\lambda^3 +7\lambda^2 -11\lambda +5 &= a\lambda^3 +(b-a)\lambda^2 + (c-b)\lambda - c
 >\end{aligned}
 >$$
+>
+>Equating coefficients yields a system of four linear equations that can be solved straightforwardly
+>
+>$$
+>\begin{aligned}a &= -1 \\
+>b-a = 7 \Rightarrow b &= 6 \\
+>c-b = -11 \Rightarrow c &= -5
+>-c = 5 \Rightarrow c &= -5 
+>\end{aligned}
+>$$
+>
+>The equation $-\lambda^3 + 7\lambda^2 - 11\lambda + 5 = 0$ is now decomposed as $(\lambda-1)(-\lambda^2 +6\lambda -5) = 0$. Beside the known root $(\lambda -1) = 0$ we thus find the roots $\mu = 1$ and $v = 5$ of the quadratic factor $-\lambda^2 +6\lambda -5=0$. Hence, the eigenvalues of $C$ are $\lambda = -1, \mu = 1, v = 5$. 
+
+
 
 
 
