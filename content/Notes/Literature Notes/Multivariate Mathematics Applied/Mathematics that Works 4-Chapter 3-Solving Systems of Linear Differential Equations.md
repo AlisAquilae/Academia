@@ -248,6 +248,37 @@ It is possible two independent eigenvectors correspond to one eigenvalue. Then a
 >
 >$$
 >\begin{aligned}
->Cx 
+>Cx &= \begin{pmatrix}2 & 2 & 1 \\ 1 & 3 & 1 \\ 1 & 2 & 2 \end{pmatrix}\begin{pmatrix}1 \\ 0 \\ -1 \end{pmatrix} \\
+>&= \begin{pmatrix}1 \\ 0 \\ -1 \end{pmatrix} \\
+>&= x
 >\end{aligned}
 >$$
+>
+>Similarly,
+>
+>$$
+>\begin{aligned}
+>Cy &= \begin{pmatrix}2 & 2 & 1 \\ 1 & 3 & 1 \\ 1 & 2 & 2 \end{pmatrix}\begin{pmatrix}0 \\ 1 \\ -2 \end{pmatrix} \\
+>&= \begin{pmatrix}0 \\ 1 \\ -2 \end{pmatrix} \\
+>&= y
+>\end{aligned}
+>$$
+>
+>Therefore, the vectors $x$ and $y$ are two independent eigenvectors of $C$ to the eigenvalue $\lambda = 1$. Now, any linear combination of $x$ and $y$ is also an eigenvector corresponding to $\lambda = 1$. For example, when $z=2x-3y$, we have
+>
+>$$
+>\begin{aligned}
+>Cz &= \begin{pmatrix}2 & 2 & 1 \\ 1 & 3 & 1 \\ 1 & 2 & 2 \end{pmatrix}\begin{pmatrix} 2 \\ -3 \\ 4 \end{pmatrix} \\
+>&= \begin{pmatrix}2 \\ -3 \\ 4 \end{pmatrix} \\
+>&= z
+>\end{aligned}
+>$$
+
+The results found above have general validity
+
+>[!Important]
+>If $\lambda$ is an eigenvalue of an $n \times n$ matrix, then the vectors $v$ with $Av = \lambda v$ form the eigenspace $E_\lambda$ of $A$ corresponding to $\lambda$. 
+
+
+## 2.3.6 The Computation of Eigenvectors
+Earlier in this section we saw that once we have found an eigenvector of a matrix $A$, the eigenvalue can be determined easily. We now pose the reverse question: 
