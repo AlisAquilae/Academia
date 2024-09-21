@@ -281,4 +281,58 @@ The results found above have general validity
 
 
 ## 2.3.6 The Computation of Eigenvectors
-Earlier in this section we saw that once we have found an eigenvector of a matrix $A$, the eigenvalue can be determined easily. We now pose the reverse question: 
+Earlier in this section we saw that once we have found an eigenvector of a matrix $A$, the eigenvalue can be determined easily. We now pose the reverse question: if we have an eigenvalue of a matrix $A$, how can we find the corresponding eigenvectors?
+
+>[!Example]
+>We determine the eigenvectors of the $2\times2$ matrix $A$,
+>
+>$$
+>A=\begin{pmatrix} -2 & 2 \\ 2 & 1 \end{pmatrix}
+>$$
+>
+>By solving the characteristic equation $\det(A-\lambda I) = 0$ we already calculated the eigenvalues $\lambda = 2$ and $\mu = -3$. 
+>
+>If $v$ is an eigenvector corresponding to these eigenvalues, then $Av = 2v$, that is,
+>
+>$$
+>\left\{
+>\begin{array}{ll}
+>-2v_1 + 2v_2 &= 2v_1 \\
+>2v_1 + 1 v_2 &= 2v_2
+>\end{array}
+>\right.
+>$$
+>
+>We collect related terms and reduce the resulting system to echelon form by elimination
+>
+>$$
+>\left\{
+>\begin{array}{ll}
+>-4v_1 + 2v_2 &= 0 \\
+>2v_1 -1v_2 &= 0
+>\end{array}
+>\right. 
+>\Rightarrow 
+>\left\{
+>\begin{array}{ll}
+>-4v_1 + 2v_2 &= 0 \\
+>0v_1 + 0v_2 &= 0
+>\end{array} 
+>\right.
+>$$
+>
+>The coordinate $v_2$ can be chosen freely. Choosing $v_2 = 1$ we find 
+>
+>$$
+>v = \begin{pmatrix}
+>\frac12 \\
+>1 \end{pmatrix}
+>$$
+>
+>To check this result we verify the relation $Av = 2v$
+>
+>$$
+>\begin{aligned}
+>Av &= 
+>$$
+
