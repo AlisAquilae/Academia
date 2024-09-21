@@ -333,6 +333,27 @@ Earlier in this section we saw that once we have found an eigenvector of a matri
 >
 >$$
 >\begin{aligned}
->Av &= 
+>Av &= \begin{pmatrix}-2 & 2 \\ 2 & 1 \end{pmatrix}\begin{pmatrix}\frac12 \\ 1 \end{pmatrix} \\
+>&= \begin{pmatrix}1+2 \\ 1 + 1 \end{pmatrix}\\
+>&= \begin{pmatrix}1\\2\end{pmatrix}\\
+>&= 2v
+>\end{aligned}
 >$$
+>
+>which confirms the correctness of both the eigenvalue and the eigenvector that we found
+
+In general, the eigenvectors can be found in the same manner as in the above example. If $v$ is an eigenvector of an $n\times n$ matrix $A$ corresponding to the eigenvalue $\lambda$, then
+
+$$
+Av = \lambda v \Rightarrow Av-\lambda I v = 0 \Rightarrow (A-\lambda I)v = 0
+$$
+
+Therefore, the eigenvectors $v$ are the non-zero solutions of the system of linear equations $(A - \lambda I)v = 0$. These solutions can be found using elimination and substitution. 
+
+>[!Tip]
+>For any eigenvalue $\lambda$ of $A$, the system $(A - \lambda I)v = 0$ is dependent. Therefore the elimination process yields a row of zeros. If this row of zeros does not appear, either the eigenvalue is wrong or the elimination process has not been carried out correctly. 
+
+
+
+
 
