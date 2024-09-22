@@ -475,6 +475,43 @@ We then use the eigenvalue-eigenvector pair to form a (basis) solution $x(t)=v e
 >$$
 >\begin{aligned}
 >x(t)&=\alpha v e^{\lambda t} + \beta w e^{\mu t} \\
->&= \alpha \begin{pmatrix}1\\2\end{pmat}
+>&= \alpha \begin{pmatrix}1\\2\end{pmatrix} e^{\lambda t} + \beta \begin{pmatrix}1\\1 \end{pmatrix}e^{\mu t}
+>\end{aligned}
 >$$
+>
+>In particular, the solution satisfying the initial condition $x(0)=x_0$ may be written in this form. For $t=0$ we then find
+>
+>$$
+>x(0)=\alpha \begin{pmatrix}1\\2 \end{pmatrix} + \beta \begin{pmatrix}1\\1 \end{pmatrix} = \begin{pmatrix}3\\1\end{pmatrix}
+>$$
+>
+>This vector equation yields a system of equations for the coefficients $\alpha$ and $\beta$. Working this out, it follows that $\beta = 5$ and $\alpha = -2$. The solution of the initial value problem is therefore 
+>
+>$$
+>\begin{aligned}
+>x(t)&=\alpha \begin{pmatrix}1\\2\end{pmatrix} e^{\lambda t} + \beta \begin{pmatrix}1\\1 \end{pmatrix}e^{\mu t} \\
+>&= \begin{pmatrix}-2\\-4\end{pmatrix} e^{3t} + \begin{pmatrix}5\\5 \end{pmatrix}e^{2t}
+>\end{aligned}
+>$$
+
+>[!Summary]
+>**Algorithm for homogeneous systems of $n$ linear differential equations $x'(t)=Ax(t)$**
+>
+>1. Compute the eigenvalues $\lambda_1$ of $A$
+>2. Compute the corresponding eigenvectors $v_i$ of $A$
+>
+>If there are $n$ independent eigenvectors $v_1, \dots, v_n$, then the functions $v_i e^{\lambda_i t}$ are basis solutions. In that case
+>
+>3. Set up the general solution of the differential equation as
+> 
+>$$
+>x(t)=\alpha_1 v_1 e^{\lambda_1 t} + \alpha_2 v_2 e^{\lambda_2 t} + \dots + \alpha_n v_n e^{\lambda_n t}
+>$$
+>
+>4. Expand the initial vector $x(0)$ as a linear combination of the eigenvectors
+>   
+>$$
+>
+>$$
+
 
