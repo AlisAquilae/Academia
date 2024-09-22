@@ -198,7 +198,7 @@ Once we have found an eigenvalue we can factor it out, which results in an equat
 >The equation $-\lambda^3 + 7\lambda^2 - 11\lambda + 5 = 0$ is now decomposed as $(\lambda-1)(-\lambda^2 +6\lambda -5) = 0$. Beside the known root $(\lambda -1) = 0$ we thus find the roots $\mu = 1$ and $v = 5$ of the quadratic factor $-\lambda^2 +6\lambda -5=0$. Hence, the eigenvalues of $C$ are $\lambda = -1, \mu = 1, v = 5$. 
 
 
-## 2.3.5 The Eigenvector Corresponding to an Eigenvalue
+## 3.2.5 The Eigenvector Corresponding to an Eigenvalue
 Any multiple of an eigenvector is again an eigenvector corresponding to the same eigenvalue. 
 
 >[!Example]
@@ -280,7 +280,7 @@ The results found above have general validity
 >If $\lambda$ is an eigenvalue of an $n \times n$ matrix, then the vectors $v$ with $Av = \lambda v$ form the eigenspace $E_\lambda$ of $A$ corresponding to $\lambda$. 
 
 
-## 2.3.6 The Computation of Eigenvectors
+## 3.2.6 The Computation of Eigenvectors
 Earlier in this section we saw that once we have found an eigenvector of a matrix $A$, the eigenvalue can be determined easily. We now pose the reverse question: if we have an eigenvalue of a matrix $A$, how can we find the corresponding eigenvectors?
 
 >[!Example]
@@ -354,6 +354,25 @@ Therefore, the eigenvectors $v$ are the non-zero solutions of the system of line
 >For any eigenvalue $\lambda$ of $A$, the system $(A - \lambda I)v = 0$ is dependent. Therefore the elimination process yields a row of zeros. If this row of zeros does not appear, either the eigenvalue is wrong or the elimination process has not been carried out correctly. 
 
 
+---
+# 3.5 Systems of Linear Differential Equations (1)
+A one-dimensional first order differential equation $x'(t)=\alpha x(t)$ can be generalised to a system of linear differential equations. This system is often written in matrix-vector form
 
-
+>[!Example]
+>The state variables $x_1(t)$ and $x_2(t)$ in the system of differential equations
+>
+>$$
+>\left\{
+>\begin{array}[ll] 
+>\, x'_1(t) &= 2x_1(t)-3x_2(t) \\ x'_2(t) &= -2x_1(t) - x_2(t) \end{array}
+>\right.
+>$$
+>
+>can be put together into a vector $x(t)$. Then $x(t)$ is a function of $t$. By differentiating its coordinates, we also get its derivative $x'(t)$. Thus
+>
+>$$
+>x(t) = \begin{pmatrix}x_1(t) \\ x_2(t) \end{pmatrix}, x'(t)=\begin{pmatrix}x'_1(t) \\ x'_2(t) \end{pmatrix}
+>$$
+>
+>In the vector form $x'(t) = Ax(t)$, the above system can 
 
