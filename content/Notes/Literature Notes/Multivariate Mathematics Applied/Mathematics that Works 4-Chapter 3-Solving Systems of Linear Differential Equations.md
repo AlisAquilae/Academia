@@ -374,5 +374,55 @@ A one-dimensional first order differential equation $x'(t)=\alpha x(t)$ can be g
 >x(t) = \begin{pmatrix}x_1(t) \\ x_2(t) \end{pmatrix}, x'(t)=\begin{pmatrix}x'_1(t) \\ x'_2(t) \end{pmatrix}
 >$$
 >
->In the vector form $x'(t) = Ax(t)$, the above system can 
+>In the vector form $x'(t) = Ax(t)$, the above system now takes the form
+>
+>$$
+>\begin{pmatrix}x'_1(t) \\ x'_2(t) \end{pmatrix} = \begin{pmatrix}2 & -3 \\ -2 & -1 \end{pmatrix} \begin{pmatrix}x_1(t) \\ x_2(t)\end{pmatrix}
+>$$
 
+
+## 3.5.1 Eigenvalues, Eigenvectors and the Basis Solution
+The matrix-vector equation
+
+$$
+x'(t) = Ax(t)
+$$
+
+is a homogeneous system of linear differential equations. As in the one-dimensional case, we find that the sum of two solutions is a solution again. Moreover, any multiple of a solution is a solution again. Hence, from the solutions found we can make new ones by forming linear combinations. Therefore, we first set out to find basis solutions, in which we can express other solutions. 
+
+We examine when an exponential (vector) function 
+
+$$
+x(t)=ve^{\lambda t}
+$$
+
+solves the differential equation, for some constant vector $v$. From $x(t)=ve^{\lambda t}$ we see that $x'(t)=v\lambda e^{\lambda t}$, and by substituting these functions into the differential equation we find
+
+$$
+\begin{aligned}
+x'(t)&=Ax(t) \\
+v \lambda e^{\lambda t} &= Av e^{\lambda t} \\
+v \lambda &= Av
+\end{aligned}
+$$
+
+The last equation is preciesely the defining relation for the eigenvalues and eigenvectors of the matrix $A$. For small matrices, the eigenvalues can be found by solving the **characteristic equation**
+
+$$
+\det(A-\lambda I)=0
+$$
+
+Once an eigenalue of $\lambda$ of $A$ has been found, we can compute the corresponding eigenvector(s) by solving the system of linear equations
+
+$$
+(A-\lambda I)v = 0
+$$
+
+We then use the eigenvalue-eigenvector pair to form a (basis) solution $x(t)=v e^{\lambda t}$
+
+>[!Example]
+>Consider the initial value problem
+>
+>$$
+>x'(t)=Ax(t), x(0)=x_0 \, \text{ with } \, A=\begin{pmatrix}1 & 1 \\ -2 & 4 \end{pmatrix} \, \text{ and } \, x_0 = \begin{pmatrix| 3 \\ 1 \end{pmatrix}
+>$$
