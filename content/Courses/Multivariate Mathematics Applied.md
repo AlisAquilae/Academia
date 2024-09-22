@@ -50,4 +50,3 @@ Placeholder
 
 Test
 
-[[MMA Concept Relations.canvas|MMA Concept Relations]]
