@@ -508,10 +508,13 @@ We then use the eigenvalue-eigenvector pair to form a (basis) solution $x(t)=v e
 >x(t)=\alpha_1 v_1 e^{\lambda_1 t} + \alpha_2 v_2 e^{\lambda_2 t} + \dots + \alpha_n v_n e^{\lambda_n t}
 >$$
 >
->4. Expand the initial vector $x(0)$ as a linear combination of the eigenvectors
+>4. Expand the initial vector $x(0)$ as a linear combination of the eigenvectors to solve for the coefficients $\alpha_i$
 >   
 >$$
->
+>x(0)=\alpha_1 v_1 + \alpha_2 v_2 + \dots + \alpha_n v_n
 >$$
+
+
+
 
 
