@@ -424,5 +424,57 @@ We then use the eigenvalue-eigenvector pair to form a (basis) solution $x(t)=v e
 >Consider the initial value problem
 >
 >$$
->x'(t)=Ax(t), x(0)=x_0 \, \text{ with } \, A=\begin{pmatrix}1 & 1 \\ -2 & 4 \end{pmatrix} \, \text{ and } \, x_0 = \begin{pmatrix| 3 \\ 1 \end{pmatrix}
+>x'(t)=Ax(t), x(0)=x_0 \, \text{ with } \, A=\begin{pmatrix}1 & 1 \\ -2 & 4 \end{pmatrix} \, \text{ and } \, x_0 = \begin{pmatrix} 3 \\ 1 \end{pmatrix}
 >$$
+>
+>The characteristic equation is 
+>
+>$$
+>\begin{aligned}
+>\det(a-\lambda I) &= \det\begin{pmatrix} 1-\lambda & 1 \\ -2 & 4-\lambda \end{pmatrix} \\
+>&= (1-\lambda)(4-\lambda) + 2 \\
+>&= \lambda^2 -5\lambda +6 = 0
+>\end{aligned}
+>$$
+>
+>with solutions $\lambda = 3$ and $\mu = 2$. An eigenvector $v$ of $A$ corresponding to the eigenvalue $\lambda = 3$ satisfies $Av=3v$. We collect corresponding terms and reduce the system to echelon form using elimination
+>
+>$$
+>\left\{
+>\begin{array}{ll}
+>1v_1 + 1v_2 &= 3v_1 \\ -2v_1 + 4v_2 &= 3v_2 \end{array}
+>\right.\Rightarrow
+>\left\{
+>\begin{array}{ll}
+>-2v_1 + 1v_2 &= 0 \\
+>-2v_1 + 1v_2 &= 0
+>\end{array}
+>\right. \Rightarrow
+>\left\{
+>\begin{array}{ll}
+>-2v_1 + 1v_2 &= 0 \\
+>0v_1 + 0v_2 &= 0
+>\end{array}
+>\right.
+>$$
+>
+>The coordinate $v_2$ can be chosen freely. Furthermore, $v_1 = \frac12 v_2$, so we take 
+>
+>$$
+>v = \begin{pmatrix}1\\2\end{pmatrix}
+>$$
+>
+>In the same way we ffind an eigenvector $w$ of $A$ corresponding to the eigenvalue $\,mu = 2$.
+>
+>$$
+>w = \begin{pmatrix}1\\1\end{pmatrix}
+>$$
+>
+>With the eigenvalues and eigenvectors, we have found two basis solutions for the system of differential equations to be $v e^{\lambda t}$ and $w e^{\lambda t}$. The general solution of the differential equation consists of all linear combinations of these solutions; here,
+>
+>$$
+>\begin{aligned}
+>x(t)&=\alpha v e^{\lambda t} + \beta w e^{\mu t} \\
+>&= \alpha \begin{pmatrix}1\\2\end{pmat}
+>$$
+
