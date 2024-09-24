@@ -26,3 +26,5 @@ At top of ice sheet, very cold temperatures. Deeper in the earth, temperature of
 Permafrost is a temporary phase of the step from glacial to interglacial. 
 
 In summer, we get thawing form the top, creating an 'active' layer (active hydrogeologically)
+
+The assumption is that permafrost acts as a lid, preventing recharge, and therefore flow, and therefore discharge
