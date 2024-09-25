@@ -177,7 +177,7 @@ z &= z
 \end{aligned}
 $$
 
-where $0 \le \varphi \le 2 \pi$, $r$ and $\varphi$ coincide with polar coordinates in the (x,y)-plane (the  "base plane"):
+where $0 \le \varphi \le 2 \pi$, $r$ and $\varphi$ coincide with polar coordinates in the $(x,y)$-plane (the "base plane"):
 
 $$
 r = \sqrt{x^2 + y^2}
@@ -229,7 +229,10 @@ $$
 >>[!Check]- Answer
 >>$$
 >>\begin{aligned}
->>\iint\limits_G \cos(x^2 + y^2) \, \mathrm dx \, \mathrm dy &= \int_0^{2\pi} \int_0^R \cos(r \cos(\varphi)^2 + r \sin(\varphi)^2) \\
+>>r = \sqrt{x^2 +y^2} \Rightarrow x^2 + y^2 &= r^2 \\
+>>\iint\limits_G \cos(x^2 + y^2) \, \mathrm dx \, \mathrm dy &= \int_0^{2\pi} \int_0^R \cos(r^2) \, r \, \mathrm dr \, \mathrm d\varphi \\
+>>u = r^2 \Rightarrow \frac{\mathrm du}{\mathrm dr} = 2r \Rightarrow \frac{\mathrm du}{2r} &= dr \\
+>>\int_0^{\frac12 \pi}
 >>\end{aligned}
 >>$$
 
