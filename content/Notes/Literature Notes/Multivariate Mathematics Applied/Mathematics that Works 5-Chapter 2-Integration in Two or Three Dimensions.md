@@ -224,6 +224,12 @@ $$
 $$
 
 >[!Question]
->**2.42**: $G$ is a quarter of a disc with radius $R$ and centre in the origin, such that $x \gt 0$ and $y \gt 0$. Find the integral $\iint\limits_G \cos(X^2 + y^2) \, \mathrm dx \, \mathrm dy$
-
+>**2.42**: $G$ is a quarter of a disc with radius $R$ and centre in the origin, such that $x \gt 0$ and $y \gt 0$. Find the integral $\iint\limits_G \cos(x^2 + y^2) \, \mathrm dx \, \mathrm dy$
+>
+>>[!Check]- Answer
+>>$$
+>>\begin{aligned}
+>>\iint\limits_G \cos(x^2 + y^2) \, \mathrm dx \, \mathrm dy &= \int_0^{2\pi} \int_0^R \cos(r \cos(\varphi)^2 + r \sin(\varphi)^2) \\
+>>\end{aligned}
+>>$$
 
