@@ -223,3 +223,7 @@ $$
 \mathrm dA = \mathrm dx \, \mathrm dy = r\, \mathrm dr \, \mathrm dp
 $$
 
+>[!Question]
+>**2.42**: $G$ is a quarter of a disc with radius $R$ and centre in the origin, such that $x \gt 0$ and $y \gt 0$. Find the integral $\iint\limits_G \cos(X^2 + y^2) \, \mathrm dx \, \mathrm dy$
+
+
