@@ -239,4 +239,3 @@ $$
 >>&= \frac14 \pi \sin(R^2)
 >>\end{aligned}
 >>$$
-
