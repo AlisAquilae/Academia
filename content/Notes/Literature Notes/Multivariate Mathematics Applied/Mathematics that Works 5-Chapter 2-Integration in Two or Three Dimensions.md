@@ -232,8 +232,11 @@ $$
 >>r = \sqrt{x^2 +y^2} \Rightarrow x^2 + y^2 &= r^2 \\
 >>\iint\limits_G \cos(x^2 + y^2) \, \mathrm dx \, \mathrm dy &= \int_0^{\frac12\pi} \int_0^R \cos(r^2) \, r \, \mathrm dr \, \mathrm d\varphi \\
 >>u = r^2 \Rightarrow \frac{\mathrm du}{\mathrm dr} = 2r \Rightarrow \frac{\mathrm du}{2r} &= dr \\
->>&= \int_0^{\frac12 \pi} \left[ \cos(u) \, r\cdot \frac{1}{2r} \, \right]_0^R \mathrm d\varphi \\
->>&= \int_0^{\frac12 \pi} \frac12 \left[ \cos(u) \, r\cdot \frac{1}{2r} \, \right]_0^R \mathrm d\varphi \\
+>>&= \int_0^{\frac12 \pi} \left[ \sin(u) \, r\cdot \frac{1}{2r} \right]_0^R \mathrm d\varphi \\
+>>&= \int_0^{\frac12 \pi} \frac12 \left[ \sin(u) \right]_0^R \mathrm d\varphi \\
+>>&= \int_0^{\frac12 \pi} \frac12 \sin(R^2) \mathrm d\varphi \\
+>>&= \left[ \frac12 \sin(R^2)\varphi \right]_0^{\frac12 \pi} \\
+>>&= \frac14 \pi \sin(R^2)
 >>\end{aligned}
 >>$$
 
