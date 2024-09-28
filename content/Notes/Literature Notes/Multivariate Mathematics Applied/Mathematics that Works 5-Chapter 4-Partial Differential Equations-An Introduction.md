@@ -325,4 +325,17 @@ $$
 \right.
 $$
 
+The initial condition of this solution contains a jump discontinuity at $x=0$. This initial jump disappears immediately for $t \gt 0$, exemplifying the smoothing effect of diffusion. 
 
+## 4.5.3 Stretching and Shifting
+The error function solution of the diffusion equation can easily be adapted to accommodate related initial conditions. Indeed, the function 
+
+$$
+c(x,t) = A \, \mathit{erf} \left( \frac{x-a}{2 \sqrt{D \, t}} \right) + B
+$$
+is a solution of the diffusion equation for which 
+
+$$
+c(x,0) = \left\{ \begin{array}{ll} B-A \, & \text{ for }\, x \lt a \\
+B+A \, & \text{ for } \, x \gt a \end{array}\right.
+$$
