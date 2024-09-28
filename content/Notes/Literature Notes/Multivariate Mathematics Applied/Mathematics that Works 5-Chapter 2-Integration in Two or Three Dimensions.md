@@ -349,4 +349,21 @@ where $g(r,\varphi,z) = f (r \cos(\varphi), r \sin(\varphi), z)$
 >\end{aligned}
 >$$
 
-## 2.8.4 Integration in
+## 2.8.4 Integration in R$^3$: Spherical Coordinates
+For a region that is (partially) spherical, we may consider using spherical coordinates $r$, $\theta$ and $\varphi$. These coordinates satisfy
+
+$$
+\begin{aligned}
+x &= r\sin(\theta)\cos(\varphi) \\
+y &= r \sin (\theta)\sin(\varphi) \\
+z &= r \cos (\theta)
+\end{aligned}
+$$
+
+where $0 \le \theta \lt \pi$  and $0 \le \varphi \lt 2\pi$. Then we use the following property: the volume element of spherical coordinates is
+
+$$
+\mathrm dV = \mathrm dx\, \mathrm dy \, \mathrm dz = r^2 \sin(\theta) \, \mathrm dr \,  \mathrm d\theta \, \mathrm d\varphi
+$$
+
+This results in the following property for integrals expressed in spherical coordinates
