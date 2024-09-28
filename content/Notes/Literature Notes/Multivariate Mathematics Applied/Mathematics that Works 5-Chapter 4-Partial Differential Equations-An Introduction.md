@@ -437,9 +437,39 @@ $$
 \text{PDE} &: \frac{\partial}{\partial t}c(x,t) = D \frac{\partial^2}{\partial x^2}c(x,t) \, \text{ with } \, -\infty \lt x \lt \infty \\
 \text{BC}_1 &: c(-\infty, t) = 0 \\
 \text{BC}_2 &: c(\infty, t) = 0 \\
-\begin{aligned}
-\text{IC} &: c(x,0) = \frac1{2h} \, \text{ for } \, -h \lt x \lt h
+\text{IC} &: \, \begin{aligned}  c(x,0)&= \frac1{2h} \, \text{ for } \, -h \lt x \lt h \\
+&= 0 \, \text{ for } \, x \lt -h \, \text{ or } \, x \gt h
 \end{aligned}
 \end{array}
 \right.
 $$
+
+The initial condition is a so-called block function. Note that for any $h$, the total area below the graph of $c(x,0)$ is
+
+$$
+\int_{-\infty}^{\infty} c(x,0) \, \mathrm dx = 1
+$$
+
+For example, if $c$ denotes a concentration, then this integral gives the total amount of substance. The function $c(x,0)$ vanishes outside the interval $-h \le x \le h$. Now we make this interval smaller by decreasing $h$ while preserving the area below the graph of $c(x,0)$. Then in the limit, as $h \to 0$, the initial function approaches the Dirac delta function $\delta(x)$ for which 
+
+$$
+\begin{aligned}
+\delta(x)&=0 \, \text{ for } \, x \neq 0 \\
+\int_{-\infty}^{\infty} \delta(x) \, \mathrm dx &= 1
+\end{aligned}
+$$
+
+The function $c(x,t) = \frac1{2\sqrt{\pi \, D \, t}} e^{-\frac{x^2}{4D\, t}}$ is the solution of the homogeneous initial value problem
+
+$$
+\left\{
+\begin{array}{ll}
+\text{PDE} &: \frac{\partial}{\partial t}c(x,t) = D \frac{\partial^2}{\partial x^2}c(x,t) \, \text{ with } \, -\infty \lt x \lt \infty \\
+\text{BC}_1 &: c(-\infty, t) = 0 \\
+\text{BC}_2 &: c(\infty, t) = 0 \\
+\text{IC} &: c(x,0)=\delta(x)
+\end{array}
+\right.
+$$
+
+T
