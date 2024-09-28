@@ -1,5 +1,5 @@
 ---
-fileClass: Base
+fileClass: Base, Courses
 title: 
 Parents: ["[[index]]"]
 Draft: 
