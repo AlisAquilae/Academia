@@ -3,7 +3,7 @@ fileClass: Base, Literature Notes
 title: 
 Parents: ["[[Multivariate Mathematics Applied]]"]
 Draft: 
-Status: In Progress
+Status: Done
 Authors: 
 Year of Publication: 
 Related Notes: 
@@ -367,3 +367,16 @@ $$
 $$
 
 This results in the following property for integrals expressed in spherical coordinates
+
+$$
+\iiint\limits_G f(x,y,z) \, \mathrm dx \, \mathrm dy \, \mathrm dz = \iiint\limits_H g(r, \varphi, z) \, r^2 \sin(\theta) \, \mathrm dr \,  \mathrm d\theta \, \mathrm d\varphi
+$$
+
+where $g(r, \varphi, z) = f(r\sin(\theta)\cos(\varphi), r\sin(\theta)\sin(\varphi), r\cos(\theta))$
+
+>[!Example]
+>If $S$ is a sphere with centre in the origin and radius $R$, then 
+>
+>$$
+>\iiint\limits_S f(x,y,z) \, \mathrm dx \, \mathrm dy \, \mathrm dz = \int_0^{2\pi} \int_0^\pi \int_0^R f(r\sin(\theta)\cos(\varphi), r\sin(\theta)\sin(\varphi), r\cos(\theta)) \, r^2 \sin(\theta) \, \mathrm dr \,  \mathrm d\theta \, \mathrm d\varphi
+>$$
