@@ -210,3 +210,29 @@ If two functions satisfy the same homogeneous boundary condition, then any linea
 
 
 ## 4.2.6 Steady States
+If a process can be modelled with a time-invariant differential equation with time-invariant boundary conditions, its state often has a limit as $t \to \infty$. This final state is a special solution of the differential equation (with boundary conditions) that does not depend on time. Such a solution is called a steady state solution of the differential equation. As it does not change in time, it is relatively easy to compute. 
+
+>[!Example]
+>In a column infiltration experiment, we inject water with a solute concentration $C$ into a clean soil sample. If $v$ denotes the water velocity in the soil sample, then the concentration $c(z,t)$ satisfies the advection-disperion equation
+>
+>$$
+>\frac{\partial}{\partial t} c(x,t) =D \frac{\partial^2}{\partial x^2}c(x,t) -v \frac{\partial}{\partial x} c(x,t)
+>$$
+>
+>with the initial boundary conditions
+>- $c(z,0)=0 \, \text{ initial condition}$
+>- $c(0,t)=C \, \text{ boundary condition top}$
+>- $c_z(h,t) = 0 \, \text{ boundary condition bottom}$
+>
+>After some time, the concentration approaches a final state.
+>
+>$$
+>\lim\limits_{t \to \infty} c(z,t) = cs(z)
+>$$
+>
+>This final state $cs(z)$ does not vary with time; yet it is a solution of the differential equation. Therefore,
+>
+>$$
+>\frac{\partial}{\partial t}cs(z)=0=\frac{\partial}{\partial t} c(x,t) =D \frac{\partial^2}{\partial x^2}c(x,t) -v \frac{\partial}{\partial x} c(x,t)
+>$$
+
