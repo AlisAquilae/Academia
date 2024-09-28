@@ -339,3 +339,57 @@ $$
 c(x,0) = \left\{ \begin{array}{ll} B-A \, & \text{ for }\, x \lt a \\
 B+A \, & \text{ for } \, x \gt a \end{array}\right.
 $$
+
+So its jump shifted horizontally to $x=a$; its equilibrium value is lifted vertically to $c=B$, and its jump height is multiplied by $A$
+
+>[!Example]
+>The boundary condition and initial conditions of the initial value problem 
+>
+>$$
+>\left\{
+>\begin{array}{ll}
+>\text{PDE} &: \frac{\partial}{\partial t}c(x,t) = D \frac{\partial^2}{\partial x^2}c(x,t) \, \text{ with } \, -\infty \lt x \lt \infty \\
+>\text{BC}_1 &: c(-\infty, t) = 0 \\
+>\text{BC}_2 &: c(\infty, t) = 1 \\
+>\text{IC} &: c(x,0) = \left\{
+>\begin{array}{ll}
+>0 & \text{ for } \, x \lt 3 \\
+>1 & \text{ for } \, x \gt 3
+>\end{array}
+>\right.
+>\end{array}
+>\right.
+>$$
+>
+>are compatible, that is to say, the initial value satisfies $\text{BC}_1$ as $x \to -\infty$ and $\text{BC}_2$ as $x \to \infty$. Such an initial value problem has a solution of the form
+>
+>$$
+>c(x,t) = A \, \mathit{erf} \left( \frac{x-a}{2 \sqrt{D \, t}} \right) + B
+>$$
+>
+>The value of $a$ is the position of the jump: $a=3$. The values of $A$ and $B$ follow from the boundary conditions
+>
+>$$
+>c(-\infty, t) = -A + B = 0, \, \text{ and } \, c(\infty, t) = A+B=1
+>$$
+>
+>so $A = \frac12$ and $B=\frac12$
+
+
+## 4.5.4 Half-Infinite Domains
+By restricting the values for $x$ we obtain a solution for the diffusion equation on the quadrant, $t \gt 0$ and $0 \lt x \lt \infty$. In this case, the boundary condition prescribes $c(0,t)$.
+
+The function $c(x,t) = \mathit{erf} \left( \frac{x}{2\sqrt{D \, t}} \right)$ is the solution of 
+
+$$
+\left\{
+\begin{array}{ll}
+\text{PDE} &: \frac{\partial}{\partial t}c(x,t) = D \frac{\partial^2}{\partial x^2}c(x,t) \, \text{ with } \, 0 \lt x \lt \infty \\
+\text{BC}_1 &: c(0, t) = 0 \\
+\text{BC}_2 &: c(\infty, t) = 1 \\
+\text{IC} &: c(x,0) = 1 \, \text{ for } \, x \gt 0
+\end{array}
+\right.
+$$
+
+Note that the jump discontinuity in the initial condition is gone; instead, there is an incompatibility between boundary condition at 
