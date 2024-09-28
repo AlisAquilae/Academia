@@ -195,5 +195,18 @@ In the process of finding a solution of a partial differential equation, the lin
 Linear combinations of solutions of a linear homogeneous equation such as 
 
 $$
-\frac{\partial}{\partial t} c(x,t) = -v \frac{\partial}{\partial x} c(x,t)
+\frac{\partial}{\partial t} c(x,t) =D \frac{\partial^2}{\partial x^2}c(x,t) -v \frac{\partial}{\partial x} c(x,t)
 $$
+
+are in turn solutions of the same equation: if $c_1(x,t)$ and $c_2(x,t)$ are solutions, then any linear combination $\alpha c_1(x,t) + \beta c_2(x,t)$ with arbitrary coefficients $\alpha$ and $\beta$ is a solution as well. This is known as the superposition principle; $c(x,t)$ is called a superposition of the solutions $c_1(x,t)$ and $c_2(x,t)$. 
+
+The superposition principles does not only apply to the differential equation, but also to the boundary conditions. For example, for a homogeneous boundary condition of the first kind at the boundary $x=a$ we have
+
+$$
+\text{ if } \, u_1(a,t) = 0 \, \text{ and } \, u_2(a,t)=0 \, \text{ then also } \, u(a,t) = \alpha u_1(a,t) + \beta u_2(a,t) = 0
+$$
+
+If two functions satisfy the same homogeneous boundary condition, then any linear combination of these functions satisfies this boundary condition too. Hence, the superposition principle is also valid for a homogeneous linear differential equation with homogeneous linear boundary conditions
+
+
+## 4.2.6 Steady States
