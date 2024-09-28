@@ -306,4 +306,41 @@ z &= z
 \end{aligned}
 $$
 
-where $0 \le \varphi \le 2\pi$. For these coordinates we find
+where $0 \le \varphi \le 2\pi$. For these coordinates we find the volume element to be 
+
+$$
+\mathrm dV = \mathrm dx \, \mathrm dy \, \mathrm dz = r \, \mathrm dr \, \mathrm d\varphi \, \mathrm dz
+$$
+Hence, integrals can be expressed in terms of cylindrical coordinates by 
+
+$$
+\iiint\limits_G f(x,y,z) \, \mathrm dx \, \mathrm dy \, \mathrm dz = \iiint\limits_H g(r, \varphi, z) \, r \, \mathrm dr \, \mathrm d\varphi \, \mathrm dz 
+$$
+
+where $g(r,\varphi,z) = f (r \cos(\varphi), r \sin(\varphi), z)$
+
+>[!Info]
+>Cylindrical coordinates are especially suited for functions that are rotationally symmetrix about the $z$-axis, i.e. functions depending only on $r=\sqrt{x^2 + y^2}$ and $z$
+
+>[!Example]
+>A trough for algae cultivation is shaped as a half cylinder with an excavation for a TL-tube at the top. It has a length of 1 m, an outer radius of 10cm and an inner radius of 5 cm. We calculate the volume of this trough. 
+>
+>The volume $V$ of an object $R$ is 
+>
+>$$
+>V= \iiint\limits_R \mathrm dV
+>$$
+>
+>For the integration we choose cylindrical coordinates, taking the $z$-axis along the axis of the trough. One end is put at $z=0$, the other at $z=100$ (so we use cm as a unit of length). Now we set up the integral, expressing the integrand, here $1$, into the new coordinates (after which, of course, it is still $1$) and incorporating the Jacobian
+>
+>$$
+>V=\iiint\limits_R r\, \mathrm dr \, \mathrm d\varphi \, \mathrm dz 
+>$$
+>
+>The integration limits for $z$ are above; the limits in the radial direction are $r=5$ and $r=10$; and the limits for the angle $\varphi$ we choose $\varphi = 0$ and $varphi = \pi$. This results in 
+>
+>$$
+>V = \int_0^{100} \int_0^\pi \int_5^{10}
+>$$
+
+
