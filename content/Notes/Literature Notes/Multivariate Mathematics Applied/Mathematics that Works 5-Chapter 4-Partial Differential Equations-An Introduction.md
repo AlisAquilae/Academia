@@ -472,4 +472,5 @@ $$
 \right.
 $$
 
-T
+The above function $c(x,t)$ is the fundamental solution of the diffusion equation. An initial condition of the form $c(x,0)=\delta(x)$ is called a unit impulse.
+
