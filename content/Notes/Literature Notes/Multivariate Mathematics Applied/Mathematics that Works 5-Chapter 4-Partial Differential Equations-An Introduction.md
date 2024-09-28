@@ -297,7 +297,26 @@ $$
 \erf(y) \underset{\text{D}}{=} \frac{2}{\sqrt{\pi}} \int_0^y e^{-x^2} \mathrm dz
 $$
 
+The function 
 
+$$
+c(x,t) = \erf \left(\frac{x}{2 \sqrt{D\,t}} \right)
+$$
 
+is a solution of the diffusion equation $c(x,t)=Dc_{xx}(x,t)$
 
+>[!Note]
+>You do not have to understand how the error function works or why it works
 
+The error function gives us a solution of the diffusion equation that is valid for $t \gt 0$ and all $x$. The corresponding initial and boundary conditions are stated in the next property
+
+The function $c(x,t) = \erf \left(\frac{x}{2 \sqrt{D\,t}} \right)$ is the solution of the initial value problem
+
+$$
+\left\{
+\begin{array}{ll}
+\text{PDE} &: \frac{\partial}{\partial t}c(x,t) = D \frac{\partial^2}{\partial x^2}c(x,t) \, \text{ with } \, -\infty \lt x \lt \infty \\
+\text{BC}_1 &
+\end{array}
+\right.
+$$
