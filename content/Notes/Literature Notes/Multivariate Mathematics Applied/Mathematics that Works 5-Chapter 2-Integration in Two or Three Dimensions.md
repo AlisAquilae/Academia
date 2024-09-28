@@ -242,7 +242,7 @@ $$
 
 
 ## 2.8.3 Coordinate Transforms, Jacobi Matrix and Jacobian
-Now we consider a general coodinate transform of the form
+Now we consider a general coordinate transform of the form
 
 $$
 x=x(u,v), y=y(u,v)
@@ -266,5 +266,44 @@ $$
 This enables us to formulate integrals in the new coordinates:
 
 $$
-\iint\limits_G f(x,y) \, \mathrm dx \mathrm dy = \iint\limits_H 
+\iint\limits_G f(x,y) \, \mathrm dx \mathrm dy = \iint\limits_H f(x(u,v), y(u,v)) |\det(J(u,v))| \, \mathrm du \, \mathrm dv
 $$
+
+>[!Example]
+>For the transform to polar coordinates $r$ and $\varphi$ with 
+>
+>$$
+>x = r\cos(\varphi), \, y = r\sin(\varphi)
+>$$
+>
+>We have the Jacobian
+>
+>$$
+>\begin{aligned}
+>\det J(r, \varphi) &= \det 
+>\begin{pmatrix} 
+>x_r(r,\varphi) & x_{\varphi}(r, \varphi) \\ y_r(r, \varphi) & y_{\varphi}(r, \varphi) \end{pmatrix} \\
+>&= \det \begin{pmatrix} \cos(\varphi) & -r\sin(\varphi) \\ \sin(\varphi) & r\cos(\varphi) \end{pmatrix} \\
+>&= r
+>\end{aligned}
+>$$
+>
+>Hence, we find for the area element
+>
+>$$
+>\mathrm dx \, \mathrm dy = r \, \mathrm dr \,  \mathrm d\varphi 
+>$$
+
+
+## 2.8.3 Integration in R$^3$: Cylindrical Coordinates
+For integration over solids of rotation, we often use cylindrical coordinates $r$, $\varphi$ and $z$:
+
+$$
+\begin{aligned}
+x &= r \cos(\varphi) \\
+y &= r \sin (\varphi) \\
+z &= z
+\end{aligned}
+$$
+
+where $0 \le \varphi \le 2\pi$. For these coordinates we find
