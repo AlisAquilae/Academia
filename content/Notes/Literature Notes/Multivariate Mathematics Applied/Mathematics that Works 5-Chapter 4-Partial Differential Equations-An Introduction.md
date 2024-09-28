@@ -139,7 +139,7 @@ $$
 At an upstream boundary of the domain, we usually need a boundary condition. Mostly, it has the form
 
 $$
-c(\alpha, t)=f(t)
+c(a, t)=f(t)
 $$
 
 At a downstream boundary, imposing a boundary condition is not allowed
@@ -150,3 +150,50 @@ $$
 \frac{\partial}{\partial t}c(x,t)= D \frac{\partial^2}{\partial x^2}c(x,t)
 $$
 
+a finite spatial domain, $a \lt x \lt b$, is used most often. As $t \gt 0$, one speaks of a strip in the $(x,t)$-plane.
+
+Now we need an initial condition,
+
+$$
+c(x,t_0)=\varphi(x)
+$$
+
+and at both boundaries a boundary condition
+
+The boundary conditions can attain various forms; the simplest are the linear boundary conditions. The mostly used linear boundary conditions (for the boundary $x=a$) are listed below
+
+>[!Important]
+>At a boundary $x=a$,
+>- A boundary condition of the first kind (or Dirichlet boundary condition) prescribes the state variable,
+>  
+>$$
+>c(a,t)=f(t)
+>$$
+>
+>- A boundary condition of the second kind (or Neumann boundary condition) prescribed the spatial derivative of the state variable,
+>  
+>$$
+>\frac{\partial}{\partial x}c(x,t)=f(t)
+>$$
+>
+>- A boundary condition of the third kind (or Robin boundary condition), which prescribes a linear relation between the state variable and its spatial derivative,
+>  
+>$$
+>\alpha c(a,t) + \beta \frac{\partial}{\partial x}c(a,t) = f(t)
+>$$
+
+Similar conditions may apply at the boundary in $x=b$. 
+
+>[!Note]
+>The boundary conditions on both boundaries need not be the same. For example, on one boundary we may prescribe the state variable, while we prescribe its spatial derivative on the other boundary
+
+The above linear boundary conditions are called homogeneous if the right hand side is 0. In other words, a linear boundary condition $\alpha c(a,t) + \beta \frac{\partial}{\partial x}c(a,t) = f(t)$ at $x=a$ is called homogeneous of $f(t)=0$ for all $t\gt 0$. Otherwise, it is called inhomogeneous
+
+## 4.2.5 The Superposition Principle
+In the process of finding a solution of a partial differential equation, the linearity plays an important role; all results in this chapter apply only to linear equations. Fortunately, many processes in space and time, among which diffusion and convection, can be modelled adequately with linear equations.
+
+Linear combinations of solutions of a linear homogeneous equation such as 
+
+$$
+\frac{\partial}{\partial t} c(x,t) = -v \frac{\partial}{\partial x} c(x,t)
+$$
