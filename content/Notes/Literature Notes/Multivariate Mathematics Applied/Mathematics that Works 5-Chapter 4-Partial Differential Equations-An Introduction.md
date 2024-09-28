@@ -279,7 +279,7 @@ The boundary $x=0$ has an ordinary boundary condition. The point $x = \infty$ is
 In some cases, we are only interested in events somewhere in the middle of the domain, far away from any boundary. Then it is convenient to model the domain as unbounded. Thus, we get the diffusion equation on a half-plane
 
 $$
--\infty \lt x \lt infty, t \gt 0
+-\infty \lt x \lt \infty, t \gt 0
 $$
 
 Now, for $x = -\infty$ as well as for $x=\infty$ we have an improper boundary condition
@@ -287,20 +287,16 @@ Now, for $x = -\infty$ as well as for $x=\infty$ we have an improper boundary co
 ## 4.5.2 The Boltzmann Transform and the Error Function
 In this section, we consider solutions of the diffusion equation and of the convection-diffusion equation on an infinite or half-infinite spatial domain. We given special solutions for some diffusion problems that often occur in practice. 
 
-
-$\DeclareMathOperator{\erf}{erf}$
-
-
-The error function $\erf(y)$ is defined as
+The error function $\mathit{erf}(y)$is defined as
 
 $$
-\erf(y) \underset{\text{D}}{=} \frac{2}{\sqrt{\pi}} \int_0^y e^{-x^2} \mathrm dz
+\mathit{erf}(y) \underset{\text{D}}{=} \frac{2}{\sqrt{\pi}} \int_0^y e^{-x^2} \mathrm dz
 $$
 
 The function 
 
 $$
-c(x,t) = \erf \left(\frac{x}{2 \sqrt{D\,t}} \right)
+c(x,t) = \mathit{erf} \left(\frac{x}{2 \sqrt{D\,t}} \right)
 $$
 
 is a solution of the diffusion equation $c(x,t)=Dc_{xx}(x,t)$
@@ -310,13 +306,23 @@ is a solution of the diffusion equation $c(x,t)=Dc_{xx}(x,t)$
 
 The error function gives us a solution of the diffusion equation that is valid for $t \gt 0$ and all $x$. The corresponding initial and boundary conditions are stated in the next property
 
-The function $c(x,t) = \erf \left(\frac{x}{2 \sqrt{D\,t}} \right)$ is the solution of the initial value problem
+The function $c(x,t) = \mathit{erf} \left(\frac{x}{2 \sqrt{D\,t}} \right)$ is the solution of the initial value problem
 
 $$
 \left\{
 \begin{array}{ll}
 \text{PDE} &: \frac{\partial}{\partial t}c(x,t) = D \frac{\partial^2}{\partial x^2}c(x,t) \, \text{ with } \, -\infty \lt x \lt \infty \\
-\text{BC}_1 &
+\text{BC}_1 &: c(-\infty, t) = -1 \\
+\text{BC}_2 &: c(\infty, t) = 1 \\
+\text{IC} &: c(x,0) = \left\{
+\begin{array}{ll}
+-1  & \text{ for } \, x \lt 0 \\
+0  & \text{ for } \, x = 0 \\
+1 & \text{ for } \, x \gt 0
+\end{array}
+\right.
 \end{array}
 \right.
 $$
+
+
