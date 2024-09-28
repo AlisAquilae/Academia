@@ -233,6 +233,38 @@ If a process can be modelled with a time-invariant differential equation with ti
 >This final state $cs(z)$ does not vary with time; yet it is a solution of the differential equation. Therefore,
 >
 >$$
->\frac{\partial}{\partial t}cs(z)=0=\frac{\partial}{\partial t} c(x,t) =D \frac{\partial^2}{\partial x^2}c(x,t) -v \frac{\partial}{\partial x} c(x,t)
+>\frac{\partial}{\partial t}cs(z)=0=D \frac{\partial^2}{\partial z^2}cs(z) -v \frac{\partial}{\partial z} cs(z)
 >$$
+>
+>Thus, the final state $cs(z)$ can be found by solving an ordinary differential equation!
+>
+>The general solution of the equation
+>
+>$$
+>D\, cs''(z)-v\, cs'(z) = 0
+>$$
+>
+>Is solved by first taking the antiderivative
+>
+>$$
+>D \, cs'(z) - v\,cs(z)=A
+>$$
+>
+>where $A$ is an arbitrary real constant. Next, the resulting ordinary differential equation is either solved by separation of variables, or by variation of constants. The result is
+>
+>$$
+>cs(z)=-\frac{A}{v} + Be^{vz/D}
+>$$
+>
+>Where $B$ is a second constant. As $cs(z)$ must also satisfy both boundary conditions, $-\frac{A}{v} = C$ and $B=0$. Therefore, 
+>
+>$$
+>cs(z)=C
+>$$
+>
+>This result agrees with our physical intuition; if we infiltrate water with concentration $C$ into the column long enough, then the whole column will have concentration $C$ in the end
+
+
+# 4.5 Unbounded Domains
+## Different Domains, Different Boundary Conditions
 
