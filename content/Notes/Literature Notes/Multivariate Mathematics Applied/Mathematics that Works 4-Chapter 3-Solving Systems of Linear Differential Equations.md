@@ -464,7 +464,7 @@ We then use the eigenvalue-eigenvector pair to form a (basis) solution $x(t)=v e
 >v = \begin{pmatrix}1\\2\end{pmatrix}
 >$$
 >
->In the same way we ffind an eigenvector $w$ of $A$ corresponding to the eigenvalue $\,mu = 2$.
+>In the same way we find an eigenvector $w$ of $A$ corresponding to the eigenvalue $\mu = 2$.
 >
 >$$
 >w = \begin{pmatrix}1\\1\end{pmatrix}
