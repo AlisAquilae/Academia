@@ -340,7 +340,13 @@ where $g(r,\varphi,z) = f (r \cos(\varphi), r \sin(\varphi), z)$
 >The integration limits for $z$ are above; the limits in the radial direction are $r=5$ and $r=10$; and the limits for the angle $\varphi$ we choose $\varphi = 0$ and $varphi = \pi$. This results in 
 >
 >$$
->V = \int_0^{100} \int_0^\pi \int_5^{10}
+>\begin{aligned}
+>V &= \int_0^{100} \int_0^\pi \int_5^{10} r \, \mathrm dr \, \mathrm d\varphi \, \mathrm dz \\
+>&= \int_0^{100} \int_0^\pi \left[ \frac12 r^2 \right]_{r=5}^{r=10} \, \mathrm d\varphi \, \mathrm dz \\
+>&= 37.5 \int_0^{100} \int_0^\pi \mathrm d\varphi \, \mathrm dz \\
+>&= 3750 \pi \\
+>&= 11781 \, \text{cm}^3
+>\end{aligned}
 >$$
 
-
+## 2.8.4 Integration in
