@@ -392,4 +392,54 @@ $$
 \right.
 $$
 
-Note that the jump discontinuity in the initial condition is gone; instead, there is an incompatibility between boundary condition at 
+Note that the jump discontinuity in the initial condition is gone; instead, there is an incompatibility between boundary condition at $x=0$ and the initial condition at this point.
+
+>[!Example]
+>The boundary and initial conditions of the initial value problem
+>
+>$$
+>\left\{
+>\begin{array}{ll}
+>\text{PDE} &: \frac{\partial}{\partial t}c(x,t) = D \frac{\partial^2}{\partial x^2}c(x,t) \, \text{ with } \, 0 \lt x \lt \infty \\
+>\text{BC}_1 &: c(0, t) = 1 \\
+>\text{BC}_2 &: c(\infty, t) = 3 \\
+>\text{IC} &: c(x,0) = 3 \, \text{ for } \, x \gt 0
+>\end{array}
+>\right.
+>$$
+>
+>are compatible at $x = \infty$, since the initial value satisfies $\text{BC}_2$ as $x \to \infty$. Therefore, this initial value problem has a solution of the form
+>
+>$$
+>c(x,t)=A \, \mathit{erf}\left( \frac{x}{2\sqrt{D \, t}} \right) + B
+>$$
+>
+>The values of $A$ and $B$ follow from the boundary conditions
+>
+>$$
+>c(0,t)= B = 1, \, \text{ and } \, c(\infty, t) = A+B=3
+>$$
+>
+>So $A=2$ and $B=1$
+
+## 4.5.5 The Fundamental Solution of the Diffusion Equation
+Using the error function, we can construct related solutions of the diffusion equation. For example, it is not difficult to verify that the function 
+
+$$
+c(x,t)= \frac{1}{4h} \cdot \left( \mathit{erf}\left( \frac{x+h}{2 \sqrt{D \, t}} \right) - \mathit{erf} \left( \frac{x-h}{2 \sqrt{D \, t}} \right) \right)
+$$
+
+is the solution of the linear homogeneous initial value problem
+
+$$
+\left\{
+\begin{array}{ll}
+\text{PDE} &: \frac{\partial}{\partial t}c(x,t) = D \frac{\partial^2}{\partial x^2}c(x,t) \, \text{ with } \, -\infty \lt x \lt \infty \\
+\text{BC}_1 &: c(-\infty, t) = 0 \\
+\text{BC}_2 &: c(\infty, t) = 0 \\
+\begin{aligned}
+\text{IC} &: c(x,0) = \frac1{2h} \, \text{ for } \, -h \lt x \lt h
+\end{aligned}
+\end{array}
+\right.
+$$
