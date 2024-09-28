@@ -29,7 +29,48 @@ The conservation law in all its various forms is the fundamental rule for the ch
 
 
 ## 4.2.3 Transport Laws: Convection, Diffusion and Dispersion
-The balance equation derived above connects the rate of change of a concentration $c(x,t)$ to the flow density $J(x,t)$. Below we consider transport laws that state how the flow density $J(x,t)$ depends on the concentration $c(x,t)$. Contrary to the balance equation, which formulates a general bookkeeping principle based on mass conservation, the transport law depends on the nature of physical processes. Neglecting 
+The balance equation derived above connects the rate of change of a concentration $c(x,t)$ to the flow density $J(x,t)$. Below we consider transport laws that state how the flow density $J(x,t)$ depends on the concentration $c(x,t)$. Contrary to the balance equation, which formulates a general bookkeeping principle based on mass conservation, the transport law depends on the nature of physical processes. Neglecting possible source terms, we consider three important cases
+
+### 4.2.3.1 Convection
+The particles are carried along by a flow (e.g. a liquid or gas flow). This process is called convection. If $v(x,t)$ is the flow velocity, then
+
+$$
+J(x,t) = v(x,t)c(x,t)
+$$
+
+Substitution in the balance equation gives
+
+$$
+\frac{\partial}{\partial t} c(x,t) = \frac{\partial}{\partial x} (v(x,t)c(x,t))
+$$
+
+This is the (one-dimensional) convection equation or transport equation. If the flow velocity $v$ does not depend on position $x$ or time $t$, then it reduces to
+
+$$
+\frac{\partial}{\partial t} c(x,t) = -v \frac{\partial}{\partial x} c(x,t)
+$$
 
 
+### 4.2.3.2 Diffusion
+The particles move because of continuous random movements of individual molecules. This motion of individual particles is often called a random walk. The collective motion of all particles together is denoted with the term diffusion. It leads to a flow that is proportional to the differences in concentration
 
+$$
+J(x,t) = -D \frac{\partial}{\partial x}c(x,t)
+$$
+
+This relation is called Fick's Law; the proportionality constant $D$ is called the diffusion coefficient. 
+
+Substitution of Fick's Law into the balance equation gives
+
+$$
+\frac{\partial}{\partial t}c(x,t)= \frac{\partial}{\partial x}\left(D \frac{\partial}{\partial x}c(x,t) \right)
+$$
+
+This is the (one-dimensional) diffusion equation. Often we assume that $D$ does not depend on $x$, and then it reduces to
+
+$$
+\frac{\partial}{\partial t}c(x,t)= D \frac{\partial^2}{\partial x^2}c(x,t)
+$$
+
+### 4.2.3.3 Dispersion
+The particles move because of mutual 
