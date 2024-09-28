@@ -266,5 +266,38 @@ If a process can be modelled with a time-invariant differential equation with ti
 
 
 # 4.5 Unbounded Domains
-## Different Domains, Different Boundary Conditions
+## 4.5.1 Different Domains, Different Boundary Conditions
+
+Usually we are interested in processes on a bounded spatial domain. However, if we are not interested in events close to a boundary of this domain, then we may neglect the effect of this boundary. In this case, we can model the spatial domain as half-infinite; thus, we obtain a diffusion equation on a quadrant of the $(x,t)$-plane,
+
+$$
+x \gt 0, t \gt 0
+$$
+
+The boundary $x=0$ has an ordinary boundary condition. The point $x = \infty$ is called an improper boundary. There an improper boundary condition applies, for example $c(x,t)$ is bounded for large values of $x$, or $c_x(x,t) \to 0$ as $x \to \infty$. 
+
+In some cases, we are only interested in events somewhere in the middle of the domain, far away from any boundary. Then it is convenient to model the domain as unbounded. Thus, we get the diffusion equation on a half-plane
+
+$$
+-\infty \lt x \lt infty, t \gt 0
+$$
+
+Now, for $x = -\infty$ as well as for $x=\infty$ we have an improper boundary condition
+
+## 4.5.2 The Boltzmann Transform and the Error Function
+In this section, we consider solutions of the diffusion equation and of the convection-diffusion equation on an infinite or half-infinite spatial domain. We given special solutions for some diffusion problems that often occur in practice. 
+
+
+$\DeclareMathOperator{\erf}{erf}$
+
+
+The error function $\erf(y)$ is defined as
+
+$$
+\erf(y)
+$$
+
+
+
+
 
