@@ -242,9 +242,29 @@ $$
 
 
 ## 2.8.3 Coordinate Transforms, Jacobi Matrix and Jacobian
-Now we consider a general coodinatr transform of the form
+Now we consider a general coodinate transform of the form
 
 $$
 x=x(u,v), y=y(u,v)
 $$
-The region $R$ in the $(x,y)$-plane is transformed to the region $H$ in the $(u,v)$-plane. To this coordinate transform belongs a Jacobi Matrix
+The region $R$ in the $(x,y)$-plane is transformed to the region $H$ in the $(u,v)$-plane. To this coordinate transform belongs a Jacobi Matrix $J(u,v)$,
+
+$$
+J(u,v) = \begin{pmatrix}x_u(u,v) & x_v(u,v) \\ y_u(u,v) & y_v(u,v) \end{pmatrix}
+$$
+
+The determinant of the Jacobi matrix is called the Jacobian. Using the Jacobian, the area element can be expressed in terms of the new coordinates of $u$ and $v$
+
+$$
+\begin{aligned}
+\mathrm dA &= \mathrm dx \, \mathrm dy \\
+&= |\det(J(u,v))| \mathrm du \, \mathrm dv \\
+&= \left| \det \begin{pmatrix}x_u(u,v) & x_v(u,v) \\ y_u(u,v) & y_v(u,v) \end{pmatrix} \right| \mathrm du \, \mathrm dv
+\end{aligned}
+$$
+
+This enables us to formulate integrals in the new coordinates:
+
+$$
+\iint\limits_G f(x,y) \, \mathrm dx \mathrm dy = \iint\limits_H 
+$$
