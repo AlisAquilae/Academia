@@ -294,7 +294,7 @@ $\DeclareMathOperator{\erf}{erf}$
 The error function $\erf(y)$ is defined as
 
 $$
-\erf(y)
+\erf(y) \underset{\text{D}}{=} \frac{2}{\sqrt{\pi}} \int_0^y e^{-x^2} \mathrm dz
 $$
 
 
