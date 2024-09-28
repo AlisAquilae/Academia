@@ -25,8 +25,16 @@ The conservation law in all its various forms is the fundamental rule for the ch
 - Compute the change of the amount of substance in the domain: the amount of substance flowing in minus the amount flowing out, plus the amount of substance originating within the domain minus the amount that disappears
 
 >[!Warning]
->The book gives a detailed derivation of the balance equation of concentration. I have skipped this part, since it serves as an example which we do not engage further with
+>The book gives a detailed derivation of the balance equation of concentration. I have skipped this part, since it serves as an example which we do not engage further with. I will only show the final balance equation which was derived
 
+$$
+\frac{\partial}{\partial t}c(x,t) = -\frac{\partial J(x,t)}{\partial x} + \sigma (c(x,t),x,t)
+$$
+
+where
+- $\frac{\partial}{\partial t}c(x,t)$ is the total rate of change
+-  $-\frac{\partial J(x,t)}{\partial x}$ is the net transport rate
+- $\sigma (c(x,t),x,t)$ is the source density
 
 ## 4.2.3 Transport Laws: Convection, Diffusion and Dispersion
 The balance equation derived above connects the rate of change of a concentration $c(x,t)$ to the flow density $J(x,t)$. Below we consider transport laws that state how the flow density $J(x,t)$ depends on the concentration $c(x,t)$. Contrary to the balance equation, which formulates a general bookkeeping principle based on mass conservation, the transport law depends on the nature of physical processes. Neglecting possible source terms, we consider three important cases
@@ -108,3 +116,37 @@ $$
 $$
 
 An equation of this form is called a convection-diffusion equation or an advection-dispersion equation, depending on the field of application. 
+
+## 4.2.4 Initial Conditions and Boundary Conditions
+Time-dependent processes are often described by a function $c(t)$. The value of $c(t)$ at time $t$ is called the state of the process. When the rate of change $c'(t)$ is modelled with an ordinary differential, we need an initial value $c(0)$ for a full description of the process. 
+
+For processes depending on space and time, the situation is more complicated. Here, the value of $c(x,t)$ for all positions $x$ is called the state of the process at a given time $t$. When we model the process with a partial differential equation, not only do we need an initial condition (for example, $c(x,0)=\varphi(x))$, but we must also describe what happens at the boundaries of the spatial domain. We do this by formulating boundary conditions.
+
+For the convection equation
+
+$$
+\frac{\partial}{\partial t} c(x,t) = -v \frac{\partial}{\partial x} c(x,t)
+$$
+
+(with $v \gt 0$) we distinguish between bounded and unbounded spatial domains.
+
+On an unbounded domain (that is. $-\infty \lt x \lt \infty$) we only need an initial condition,
+
+$$
+c(x, t_0) = \varphi(x)
+$$
+
+At an upstream boundary of the domain, we usually need a boundary condition. Mostly, it has the form
+
+$$
+c(\alpha, t)=f(t)
+$$
+
+At a downstream boundary, imposing a boundary condition is not allowed
+
+For the diffusion equation
+
+$$
+\frac{\partial}{\partial t}c(x,t)= D \frac{\partial^2}{\partial x^2}c(x,t)
+$$
+
