@@ -50,6 +50,7 @@ $$
 \frac{\partial}{\partial t} c(x,t) = -v \frac{\partial}{\partial x} c(x,t)
 $$
 
+Since the transport equation contains only first order partial derivatives of $c(x,t)$ with respect to $t$ and with respect to $x$, the transport equation is called a first order partial differential equation. 
 
 ### 4.2.3.2 Diffusion
 The particles move because of continuous random movements of individual molecules. This motion of individual particles is often called a random walk. The collective motion of all particles together is denoted with the term diffusion. It leads to a flow that is proportional to the differences in concentration
@@ -71,6 +72,39 @@ This is the (one-dimensional) diffusion equation. Often we assume that $D$ does 
 $$
 \frac{\partial}{\partial t}c(x,t)= D \frac{\partial^2}{\partial x^2}c(x,t)
 $$
-
+As the diffusion equation has a second order partial derivative with respect to $x$, this is a second order partial differential equation
 ### 4.2.3.3 Dispersion
-The particles move because of mutual 
+The particles move because of mutual repulsion. This mechanism is obvious in electrical charges, but it also occurs in population dynamics, if individuals compete for resources such as food. Again, there is a levelling flow from high density to low density, and this flow is proportional to the differences in the concentration. 
+
+$$
+J(x,t)=-D \frac{\partial}{\partial x}c(x,t)
+$$
+
+This relation has exactly the same form as Fick's Law, although the underlying mechanism is quite different. Substitution in the balance equation gives
+
+$$
+\frac{\partial}{\partial t}c(x,t)= \frac{\partial}{\partial x}\left(D \frac{\partial}{\partial x}c(x,t) \right)
+$$
+
+When $D$ is constant in space, this reduces to
+
+$$
+\frac{\partial}{\partial t}c(x,t)= D \frac{\partial^2}{\partial x^2}c(x,t)
+$$
+
+The potential equation has the same form as the diffusion equation. Also in chemistry and hydrology, one speaks of a (chemical or hydrostatic) potential. In population biology, one speaks of a dispersion equation. 
+
+As the dispersion equation has a second order partial derivative with respect to $x$, this is a second order partial differential equation
+
+### 4.2.3.4 Convection-Diffusion Equation
+The transport equation described the transport of particles in a flow. On second thought, it is not very likely that the particle motion is fully determined by the flow, since particles move also within the flow. This motion may have various causes, for example (molecular) diffusion or an (electrical or chemical) potential
+
+A liquid flow through a porous medium (such as sand or clay) follows winding tracks. Then the flow $v$ is a spatial average; local deviations occur with respect to this value. This can induce dispersion of the particles, an additional scattering resembling molecular diffusion, but to a larger extent. A comparable effect can be caused by turbulence in a liquid- or gas flow at high speed.
+
+In all these cases, the transport is not by convection only, but also diffusional effects play a role; hence, we obtain a mixture of the convection equation with the diffusion equation
+
+$$
+\frac{\partial}{\partial t}c(x,y)= \frac{\partial}{\partial x}\left(D \frac{\partial}{\partial x}c(x,t) \right) - \frac{\partial}{\partial x} (v(x,t)c(x,t))
+$$
+
+An equation of this form is called a convection-diffusion equation or an advection-dispersion equation, depending on the field of application. 
