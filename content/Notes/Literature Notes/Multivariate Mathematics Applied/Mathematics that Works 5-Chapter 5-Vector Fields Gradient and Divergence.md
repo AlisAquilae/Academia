@@ -288,5 +288,49 @@ $$
 
 In other words, flow is the product of the flow density and the length of the cross-section
 
-We see that only the transversal flow density $w^\perp$ contributes to the flow through $K$. Hence, we have to compute this transversal component $w^\perp$ of $w$. A general discussion on how this is calculated is not within the scope of this course. For now, we may confine ourselves to the simple case that the segment $K$ is parallel
+We see that only the transversal flow density $w^\perp$ contributes to the flow through $K$. Hence, we have to compute this transversal component $w^\perp$ of $w$. A general discussion on how this is calculated is postponed to paragraph 5.8.
+
+>[!Note]
+>Paragraph 5.8 is not part of this course, meaning that this general calculation is out of scope
+
+For now, we may confine ourselves to the simple case that the segment $K$ is parallel to one of the coordinate axes. 
+
+>[!Example]
+>A two-dimensional mass flow with flow density
+>
+>$$
+>w = \begin{pmatrix}2\\1 \end{pmatrix}
+>$$
+>
+>passes the segment $K$ between the points $A=(1,2)$ and $B=(3,2)$. As the second coordinates of $a$ and $b$ are equal, the segment $K$ is parallel to the $x$-axis. Hence, the tangential component $w^{//}$ is also parallel to the $x$-axis, and therefore the orthogonal component $w^\perp$ is parallel to the $y$-axis
+>
+>$$
+>w^{//} = \begin{pmatrix}2\\0 \end{pmatrix} \, , \, w^\perp = \begin{pmatrix} 0 \\ -1 \end{pmatrix}
+>$$
+>
+>Thus, the flow of $w$ through $K$ is 
+>
+>$$
+>\begin{aligned}
+>F &= |w^\perp | \, l  \\
+>&= \left| \begin{pmatrix} 0\\-1 \end{pmatrix} \right| \cdot (3-1) \\
+>&= |-2| \\
+>&= 2
+>\end{aligned} 
+>$$
+>
+>Because of the minus-sign in $w^\perp$, the flow passes through $K$ downwards
+
+
+Similar considerations apply to three-dimensional flows. Whereas a two-dimensional flow may cross a segment, which is a one-dimensional object, a three-dimensional flow $w(x,y,z) = w$ must cross a two-dimensional surface $R$, for example a triangle, rectangle or parallelogram. Again, we can decompose the flow density $w$ into a component $w^{//}$ along $R$ and a component $w^\perp$ orthogonal to $R$
+
+$$
+w = w^{//} + w^\perp
+$$
+
+The flow density $F$ through $R$ is now the product of the transversal component $w^\perp$ with the area $A$ of $R$
+
+$$
+F = \left| w^\perp \right|
+$$
 
