@@ -370,4 +370,28 @@ $$
 w(x,y)= \sigma (x,y) v(x,y)
 $$
 
-As the flow density is spatially varying, the outflow may not be balanced exactly by the inflow, so the amount of mass in the rectangle chang
+As the flow density is spatially varying, the outflow may not be balanced exactly by the inflow, so the amount of mass in the rectangle changes in time. Therefore, we will compute the net outflow $F$ of $w(x,y)$ from the rectangle
+
+The divergence of the vector field $w(x,y)$ in $(x,y)$ is
+
+$$
+\text{div } \, w(x,y) = \frac{\partial}{\partial x}w_1(x,y) + \frac{\partial}{\partial y} w_2(x,y)
+$$
+
+A vector field $w(x,y)$ for which $\text{div } \, w(x,y) = 0$ for any $x$ and $y$ is called divergence free
+
+Instead of $\text{div } \, w(x,y) = 0$, the symbolic notation $\nabla \cdot w(x,y)$ is also used. Here the divergence of a vector field $w(x,y)$ is considered as the inner product of the gradient $\nabla$ with the vector field
+
+$$
+\text{div } \, w(x,y) = \frac{\partial}{\partial x}w_1(x,y) + \frac{\partial}{\partial y} w_2(x,y) = \left( \begin{pmatrix}\frac{\partial}{\partial x} \\ \frac{\partial}{\partial y} \end{pmatrix}, \begin{pmatrix}w_1(x,y) \\ w_2(x,y) \end{pmatrix} \right)
+$$
+
+The net outflow rate $F$ of $w(x,y)$ from a small rectangular domain with sides $\Delta x$ and $\Delta y$ and centre $(x,y)$ is in first-order approximation
+
+$$
+F \cong \nabla \cdot w(x,y) \Delta x \Delta y
+$$
+
+The divergence $\nabla \cdot w(x,y)$ of a vector field $w(x,y)$ denotes the local outflow rate at position $(x,y)$ per unit area
+
+The gradient introduced in paragraph [[#5.2 Gradient and Potential|5.3]]  
