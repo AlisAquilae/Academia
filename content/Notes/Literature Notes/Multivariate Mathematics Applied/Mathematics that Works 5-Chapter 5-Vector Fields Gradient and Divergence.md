@@ -161,4 +161,48 @@ Similarly, for vector fields in R$^3$ we find that a vector field $v(x,y,z)$ has
 >Test whether the following vector field is a gradient field
 >
 >$$
+>v(x,y,z)=\begin{pmatrix}2xy+z \\ x^2 +4y \\ x+2 \end{pmatrix}
+>$$
 >
+>>[!Check]- Answer
+>>$$
+>>\begin{aligned}
+>>\frac{\partial}{\partial y}v_1(x,y) &= 2x \\
+>>\frac{\partial}{\partial x}v_2(x,y) &= 2x \\
+>>\frac{\partial}{\partial z}v_1(x,y) &= 1 \\
+>>\frac{\partial}{\partial x}v_3(x,y) &= 1 \\
+>>\frac{\partial}{\partial z}v_2(x,y) &= 0 \\
+>>\frac{\partial}{\partial y}v_3(x,y) &= 0 \\   
+>>\end{aligned}
+>>$$
+>>
+>>$2x = 2x$ and $1 = 1$ and $0 = 0$, so this vector field is a gradient field
+
+
+## 5.2.4 Finding a Potential Function
+If a vector field given in a formula has a potential function, then we can constrict this potential by taking antiderivatives. The problem is that a potential function must be a *common* antiderivative of all coordinates of the vector field. If such a common antiderivative does not exist, there is no potential function, and the vector field is not a gradient field. If a potential function does exist, then there are infinitely many, since a potential function is determined up to an arbitrary constant
+
+>[!Example]
+>According to the criterion, the vector field
+>
+>>$$
+>v(x,y,z)=\begin{pmatrix}2xy+z \\ x^2 +4y \\ x+2 \end{pmatrix}
+>$$
+>
+>has a potential function (see the question above). Such a function must satisfy
+>
+>$$
+>\nabla f(x,y,z) = \begin{pmatrix}f_x(x,y,z) \\ f_y(x,y,z) \\ f_z(x,y,z) \end{pmatrix} = \begin{pmatrix} 2xy+z \\ x^2 + 4y \\ x + 2
+>$$
+>
+>First we integrate $f_x(x,y,z) = 2xy+z$ with respect to $x$
+>
+>$$
+>\begin{aligned}
+>f(x,y,z) &= \int f_x(x,y,z) \, \mathrm dx \\
+>&= \int 2xy+z \, \mathrm dx \\
+>&= x^2 y + xz + g(y,z)
+>\end{aligned}
+>$$
+>
+>where $g(y,z)$ is the integration constant (constant only with respect to the integration variable x!). For any function $g(y,z)$ we now have a candidate potential $f(x,y,z)$ for wgic
