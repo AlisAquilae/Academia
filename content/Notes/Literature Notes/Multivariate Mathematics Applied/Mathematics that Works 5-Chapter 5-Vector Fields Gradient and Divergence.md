@@ -54,4 +54,26 @@ $$
 >>$$
 
 
-A useful tool in the analysis of functions of several (spatial) variables is the gradient. The vector of partial derivatives of the function $f(x,y)$ is called the gradient of $f(x,y)$
+A useful tool in the analysis of functions of several (spatial) variables is the gradient. The vector of partial derivatives of the function $f(x,y)$ is called the gradient of $f(x,y)$. The gradient in $(a,b)$ is denoted as $\mathit{grad}f(a,b)$ or as $\nabla f(a,b)$ 
+
+$$
+\nabla f(a,b) = \begin{pmatrix}f_x(a,b) \\ f_y(a,b) \end{pmatrix}
+$$
+
+>[!Question]
+>Find the gradient of $f(x,y) = y \cos(xy)$ in the point $(1,0)$
+>
+>>[!Check]- Answer
+>>$$
+>>\begin{aligned}
+>>f_x(x,y) &= -y^2 \sin(xy) \\
+>>f_y(x,y) &= 1 \cdot \cos(xy) + -xy\sin(xy) \\
+>>&= \cos(xy) - xy\sin(xy) \\
+>>\nabla f(x,y) &= \begin{pmatrix} -y^2 \sin(xy) \\ \cos(xy) - xy\sin(xy) \end{pmatrix} \\
+>>\nabla f(1,0) &= \begin{pmatrix} -0^2 \sin(1\cdot 0) \\ \cos(1\cdot 0) - 1\cdot 0\sin(1\cdot 0) \end{pmatrix} \\
+>>&= \begin{pmatrix} 0 \\ 1 \end{pmatrix}
+>>\end{aligned}
+>>$$
+
+
+
