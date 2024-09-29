@@ -213,7 +213,7 @@ If a vector field given in a formula has a potential function, then we can const
 >f_y(x,y,z) &= \frac{\partial}{\partial y}\Bigl(x^2 y + xz + g(y,z)\Bigr) = x^2 +g_y(y,z) \\
 >v_2(x,y) &= x^2 +4y
 >\end{array}
->\right\} \Rightarrow g_y(y,z)=4y
+>\right\} \, \Rightarrow \, g_y(y,z)=4y
 >$$
 >
 >Taking the antiderivative of $g_y(y,z) = 4y$ with respect to $y$ we find
@@ -239,5 +239,7 @@ If a vector field given in a formula has a potential function, then we can const
 >f(x,y,z)=x^2y + xz + 2y^2 + 2z + C
 >$$
 >
->The vector 
+>The vector field $v(x,y,z)$ is the gradient of $f(x,y,z)$ and $f(x,y,z)$ is a potential function of $v(x,y,z)$. Note that the potential function contains an undetermined constant, $C$.
+
+
 
