@@ -394,4 +394,48 @@ $$
 
 The divergence $\nabla \cdot w(x,y)$ of a vector field $w(x,y)$ denotes the local outflow rate at position $(x,y)$ per unit area
 
-The gradient introduced in [[#5.2 Gradient and Potential|Paragraph 5.2]] is a differentiation operator that takes a scalar field $f(x,y)$ as an argument and returns the vector field $\nabla f(x,y)$. The divergence introduced here is also a differential operator, but this one takes a vector field $v(x,y)$ as an argument, and returns the scalar field $\nabla \cdot v(x,y)$.   
+The gradient introduced in [[#5.2 Gradient and Potential|Paragraph 5.2]] is a differentiation operator that takes a scalar field $f(x,y)$ as an argument and returns the vector field $\nabla f(x,y)$. The divergence introduced here is also a differential operator, but this one takes a vector field $v(x,y)$ as an argument, and returns the scalar field $\nabla \cdot v(x,y)$. 
+
+>[!Question]
+>A two-dimensional matter flow is given by the flow density field
+>
+>$$
+>w(x,y)=\begin{pmatrix}xy-3 \\ y/x \end{pmatrix}
+>$$
+>
+>Compute the outflow rate from a small rectangle about the point $(1,3)$ with sides (parallel to the coordinate axes) with lengths $\Delta x$ and $\Delta y$
+>
+>>[!Check]- Answer
+>>$$
+>>\begin{aligned}
+>>w_x(x,y) &= y \\
+>>w_x(1,3) &= 3 \\ 
+>>w_y(x,y) &= 1/x \\
+>>w_y(1,3) &= 1 \\
+>>\nabla \cdot w(x,y) &= w_x(x,y) + w_y(x,y) \\
+>>&= 3+1 \\
+>>&= 4 \\
+>>F &\approx \nabla \cdot w(x,y) \, A \\
+>>&\approx 4 \Delta x \Delta y 
+>>\end{aligned}
+>>$$
+
+In three dimensions, the divergence $\nabla \cdot w(x,y,z)$ of the vector field $w(x,y,z)$ is defined as 
+
+$$
+\nabla \cdot w(x,y,z) = \frac{\partial}{\partial x}w_1(x,y,z) + \frac{\partial}{\partial y}w_2(x,y,z) + \frac{\partial}{\partial z}w_3(x,y,z)
+$$
+
+Exactly as above, we can calculate the outflow rate of a three-dimensional flow density $w(x,y,z)$ from a rectangular block with dimensions $\Delta x$, $\Delta y$ and $\Delta z$. We then compute the flow through the six rectangles that bound the block. For the outflow, we thus find
+
+$$
+F \cong \nabla \cdot w(x,y,z) \Delta x \Delta y \Delta z
+$$
+
+>[!Warning]
+>As for the gradient $\nabla$, for the divergence we differentiate with respect to the spatial variables only, so for a vector field $w(x,y,t)$ with two spatial variables $x$ and $y$ and a temporal variable $t$, 
+>
+>$$
+>\nabla \cdot w(x,y,t) = \frac{\partial}{\partial x}w_1(x,y) + \frac{\partial}{\partial y} w_2(x,y)
+>$$
+
