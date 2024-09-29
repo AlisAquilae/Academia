@@ -42,9 +42,16 @@ $$
 >>$$
 >>\begin{aligned}
 >>f_x(x,y) &= 4xe^{-y} \\
->>f_y(x,y) &= 
+>>f_x(1,1) &= 4e^{-1} \\
+>>f_y(x,y) &= -2x^2 e^{-y} \\
+>>f_y(1,1) &= -2e^{-1}\\
+>>\Delta x &= -1 \, \text{ and } \, \Delta y = -1 \\
+>>&= \frac{4e^{-1} \cdot -1 + -2e^{-1} \cdot -1}{\sqrt{-1^2 + -1^2}} \\
+>>&= \frac{-4e^{-1} +2e^{-1}}{\sqrt{2}} \\
+>>&= \frac{-2e^{-1}}{\sqrt{2}}\\
+>>&\approx -0.52 
 >>\end{aligned}
 >>$$
 
 
-
+A useful tool in the analysis of functions of several (spatial) variables is the gradient. The vector of partial derivatives of the function $f(x,y)$ is called the gradient of $f(x,y)$
