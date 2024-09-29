@@ -216,7 +216,8 @@ If a vector field given in a formula has a potential function, then we can const
 $$
 \left. 
 \begin{array}{ll}
-f_y(x,y,z) = \frac{\partial}{\partial y}\Bigl(x^2 y + xz + g(y,z)\Bigr) = x^2 +g()
+f_y(x,y,z) = \frac{\partial}{\partial y}\Bigl(x^2 y + xz + g(y,z)\Bigr) = x^2 +g_y(y,z) \\
+
 \end{array}
 \right\}
 $$
