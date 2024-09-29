@@ -394,6 +394,9 @@ $$
 
 The divergence $\nabla \cdot w(x,y)$ of a vector field $w(x,y)$ denotes the local outflow rate at position $(x,y)$ per unit area
 
+>[!Important]
+>Here, we are talking about an outflow rate. If we are looking for an inflow rate, we need to include a negative-sign before our answer
+
 The gradient introduced in [[#5.2 Gradient and Potential|Paragraph 5.2]] is a differentiation operator that takes a scalar field $f(x,y)$ as an argument and returns the vector field $\nabla f(x,y)$. The divergence introduced here is also a differential operator, but this one takes a vector field $v(x,y)$ as an argument, and returns the scalar field $\nabla \cdot v(x,y)$. 
 
 >[!Question]
@@ -456,6 +459,16 @@ $$
 >>\frac{\partial}{\partial x} w_1(1,1,0) &= 1 \\
 >>\frac{\partial}{\partial y} w_2(x,y,z) &= z \\
 >>\frac{\partial}{\partial y} w_2(1,1,0) &= 0 \\
->>\frac{\partial}{\partial z} w_3(x,y,z) &= 
+>>\frac{\partial}{\partial z} w_3(x,y,z) &= x \\
+>>\frac{\partial}{\partial z} w_3(1,1,0) &= 1 \\
+>>\nabla \cdot w(x,y,z) &= 1+0+1 \\
+>>&= 2 \\
+>>F_{\text{in}} & \approx - \nabla \cdot w(x,y,z) \, V \\
+>>&= -2 \Delta x \Delta y \Delta z
 >>\end{aligned}
 >>$$
+>>
+>>>[!Note]
+>>>Note the negative sign. We include this because we are trying to find an inflow, not an outflow
+
+
