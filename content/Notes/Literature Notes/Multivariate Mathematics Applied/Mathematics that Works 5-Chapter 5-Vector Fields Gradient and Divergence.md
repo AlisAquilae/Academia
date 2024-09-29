@@ -439,3 +439,23 @@ $$
 >\nabla \cdot w(x,y,t) = \frac{\partial}{\partial x}w_1(x,y) + \frac{\partial}{\partial y} w_2(x,y)
 >$$
 
+
+>[!Question]
+>A matter flow is given by the flow density field
+>
+>$$
+>w(x,y,z) = \begin{pmatrix}xy \\ yz \\ zx \end{pmatrix}
+>$$
+>
+>Compute the inflow rate of this matter flow in a small rectangular block about the point $(1,1,0)$ with edges (parallel to the coordinate axes) with lengths $\Delta x$, $\Delta y$ and $\Delta z$. 
+>
+>>[!Check]- Answer
+>>$$
+>>\begin{aligned}
+>>\frac{\partial}{\partial x} w_1(x,y,z) &= y \\
+>>\frac{\partial}{\partial x} w_1(1,1,0) &= 1 \\
+>>\frac{\partial}{\partial y} w_2(x,y,z) &= z \\
+>>\frac{\partial}{\partial y} w_2(1,1,0) &= 0 \\
+>>\frac{\partial}{\partial z} w_3(x,y,z) &= 
+>>\end{aligned}
+>>$$
