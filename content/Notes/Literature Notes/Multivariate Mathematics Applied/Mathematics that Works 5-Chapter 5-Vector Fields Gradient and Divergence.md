@@ -122,3 +122,43 @@ The potential function plays the same role to a vector field as the antiderivati
 With its gradient, a function $f(x,y)$ from R$^2$ to R generates a vector field in R$^2$. Thus, the vector field $\nabla f(x,y)$ may be considered as a kind of spatial derivative of $f(x,y)$, and the function $f(x,y)$ is a potential function for its gradient field $v(x,y)=\nabla f(x,y)$. The same holds in R$^3$ for functionos $f(x,y,z)$ and in R$^n$ for functions with $n$ arguments
 
 The question arises whether the reverse is also true: given a vector field $v(x,y)$, can we find a function $f(x,y)$ from R$^2$ to R for which $v(x,y) = \nabla f(x,y)$? In other words, does a vector field have a potential function? If so, the potential function $f(x,y)$ is a kind of spatial antiderivative for $v(x,y)$
+
+If the vector field $v(x,y)$ has a potential function, then $\frac{\partial}{\partial y} v_1 (x,y) = \frac{\partial}{\partial x} v_2(x,y)$
+
+According to this criterion, the vector field
+
+$$
+v(x,y) = \begin{pmatrix} 2xy \\ x^2 y^2 \end{pmatrix}
+$$
+
+has no potential function, since $\frac{\partial}{\partial y} v_1 (x,y) = 2x$ and $\frac{\partial}{\partial x} v_2(x,y) = 2xy^2$
+
+Under mildly restrictive conditions, the reverse also applies. A vector field $v(x,y)$ has a potential function if $\frac{\partial}{\partial y} v_1 (x,y) = \frac{\partial}{\partial x} v_2(x,y)$
+
+Similarly, for vector fields in R$^3$ we find that a vector field $v(x,y,z)$ has a potential function if 
+- $\frac{\partial}{\partial y}v_1(x,y) = \frac{\partial}{\partial x}v_2(x,y)$ 
+- $\frac{\partial}{\partial z}v_1(x,y) = \frac{\partial}{\partial x}v_3(x,y)$
+- $\frac{\partial}{\partial z}v_2(x,y) = \frac{\partial}{\partial y}v_3(x,y)$
+
+>[!Question]
+>Test whether the following vector field is a gradient field
+>
+>$$
+>v(x,y)=\begin{pmatrix}2x+y \\ 1-x \end{pmatrix}
+>$$
+>
+>>[!Check]- Answer
+>>$$
+>>\begin{aligned}
+>>\frac{\partial}{\partial y} v_1 (x,y) &= 1 \\
+>>\frac{\partial}{\partial x} v_2(x,y) &= -1
+>>\end{aligned}
+>>$$
+>>
+>>$1 \neq -1$, so this is not a gradient field
+
+>[!Question]
+>Test whether the following vector field is a gradient field
+>
+>$$
+>
