@@ -76,4 +76,20 @@ $$
 >>$$
 
 
+When we denote a displacement from $(a,b)$ to $(a + \Delta x, b + \Delta y)$ in vector form as $\Delta p$, we find this to be equal to
 
+$$
+|\nabla f(a,b)|\cos(\varphi)
+$$
+
+where $\varphi$ is the angle between $\nabla f(a,b)$ and $\Delta p$
+
+>[!Warning]
+>Usually, a gradient contains only partial derivatives with respect to spatial variables. If $f(x,y,t)$ depends on two spatial variables $x$ and $y$ and a temporal variable $t$, then
+>
+>$$
+>\nabla f(x,y,t) = \begin{pmatrix}f_x(x,y,t) \\ f_y(x,y,t) \end{pmatrix}
+>$$
+
+
+As discussed in [[Mathematics that Works 5-Chapter 1-Differential Functions of Several Variables#1.2 Partial Derivatives and Linear Approximations|Chapter 1.2]], a function $f(x,y)$ of two variables determines for every two real numbers $x$ and $y$ a number $z=f(x,y)$. The gradient of this function at $(x,y)=(a,b)$ is a vector, containing the partial derivatives $f_x(a,b)$ and $f_y(a,b)$ as elements. Since these partial derivatives depend on the location $(a,b)$ where they are evaluated, the gradient also
