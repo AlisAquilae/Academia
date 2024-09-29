@@ -283,7 +283,7 @@ The component $w^{//}$ is called the tangential flow density. It does not contri
 The component $w^{\perp}$ is called the transversal flow density. As it is orthogonal to $K$, it fully contributes to the mass flow, to the effect of
 
 $$
-F = |w^\perp| \, l
+F = \left|w^\perp \right| \, l
 $$
 
 In other words, flow is the product of the flow density and the length of the cross-section
@@ -331,6 +331,43 @@ $$
 The flow density $F$ through $R$ is now the product of the transversal component $w^\perp$ with the area $A$ of $R$
 
 $$
-F = \left| w^\perp \right|
+F = \left| w^\perp \right| \, A
 $$
 
+>[!Note]
+>Note that the matter flow in R$^2$ and R$^3$ have the same dimension, kg / s
+
+For the actual computation of the transversal flow, we again restrict ourselves to the simplest case, which is a rectangle parallel to two of the three coordinate axes
+
+>[!Example]
+>A mass flow with density
+>
+>$$
+>w = \begin{pmatrix}-1\\2\\2 \end{pmatrix}
+>$$
+>
+>passes the rectangle $R$ with vertices $A = (1,3,2)$, $B = (1,3,5)$, $C = 4,3,5$ and $D = (4,3,2)$. All these points have 3 as a second coordinate, so $R$ lies in the plane $y=3$. Therefore, $w^\perp$ is the component of $w$ that is parallel to the $y-axis$, so 
+>
+>$$
+>w^\perp = \begin{pmatrix}0\\2\\0 \end{pmatrix} \, , \, w^{//} = \begin{pmatrix}-1\\0\\2 \end{pmatrix}
+>$$
+>
+>Thus, the flow of $w$ through $K$ is
+>
+>$$
+>\begin{aligned}
+>F &= \left| w^\perp \right| \, A \\
+>&= \left| \begin{pmatrix}0\\2\\0 \end{pmatrix} \right| \cdot (4-1)(5-2) \\
+>&= 18
+>\end{aligned}
+>$$
+
+
+## 5.5.2 The Divergence of a Vector Field
+Picture a rectangle $ABCD$ in R$^2$. Through this domain there is a two-dimensional mass flow, with mass density $\sigma (x,y)$ and velocity $v(x,y)$. Thus, the flow density field is 
+
+$$
+w(x,y)= \sigma (x,y) v(x,y)
+$$
+
+As the flow density is spatially varying, the outflow may not be balanced exactly by the inflow, so the amount of mass in the rectangle chang
