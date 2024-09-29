@@ -241,5 +241,52 @@ If a vector field given in a formula has a potential function, then we can const
 >
 >The vector field $v(x,y,z)$ is the gradient of $f(x,y,z)$ and $f(x,y,z)$ is a potential function of $v(x,y,z)$. Note that the potential function contains an undetermined constant, $C$.
 
+---
+# 5.5 Divergence and Laplace Operator
+In this section, we consider flows in R$^2$ and in R$^3$. Flows in R$^2$ are called two-dimensional flows. We shall discuss them as if they relate to matter transport; however, the results are valid for heat or electrical charge flows and for gravitational and electric fields
 
+A flow is described by the flow density; for two dimensional matter transport, this is
+
+$$
+w(x,y)= \sigma (x,y) v(x,y)
+$$
+
+where
+- $v(x,y)$ is the velocity field [m/s]
+- $\sigma (x,y)$ is the surface mass density [kg/m$^2$]
+
+So the unit of the two-dimensional flow density $w(x,y)$ is kg / m s
+
+In R$^3$ the flow density of matter transport is
+
+$$
+w(x,y,z) = \rho (x,y,z)v(x,y,z)
+$$
+
+where
+- $\rho (x,y,z)$ is the mass density [kg/m$^3$]
+- $v(x,y,z)$ is the velocity field
+
+The unit of the flow density is then kg / m$^2$ s
+
+In this section, we examine how to formulate a balance equation for matter transport using its flow density field
+
+## 5.5.1 Transversal Flow
+We consider a spatially uniform two-dimensional flow-density field $w(x,y)=w$. The flow passes (at least in part) through a segment $K$ between points $A$ and $B$, with length $l$. We want to know how much substance passes through $K$ per unit of time. To this end, we decompose the vector $w$ in a component along $K$ and a component orthogonal to $K$ as 
+
+$$
+w = w^{//} + w^{\perp}
+$$
+
+The component $w^{//}$ is called the tangential flow density. It does not contribute to the mass transport through $K$; after all, it does not pass through $K$. 
+
+The component $w^{\perp}$ is called the transversal flow density. As it is orthogonal to $K$, it fully contributes to the mass flow, to the effect of
+
+$$
+F = |w^\perp| \, l
+$$
+
+In other words, flow is the product of the flow density and the length of the cross-section
+
+We see that only the transversal flow density $w^\perp$ contributes to the flow through $K$. Hence, we have to compute this transversal component $w^\perp$ of $w$. A general discussion on how this is calculated is not within the scope of this course. For now, we may confine ourselves to the simple case that the segment $K$ is parallel
 
