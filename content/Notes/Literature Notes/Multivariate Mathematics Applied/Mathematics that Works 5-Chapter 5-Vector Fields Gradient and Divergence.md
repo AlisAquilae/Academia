@@ -185,14 +185,14 @@ If a vector field given in a formula has a potential function, then we can const
 >[!Example]
 >According to the criterion, the vector field
 >
->>$$
+>$$
 >v(x,y,z)=\begin{pmatrix}2xy+z \\ x^2 +4y \\ x+2 \end{pmatrix}
 >$$
 >
 >has a potential function (see the question above). Such a function must satisfy
 >
 >$$
->\nabla f(x,y,z) = \begin{pmatrix}f_x(x,y,z) \\ f_y(x,y,z) \\ f_z(x,y,z) \end{pmatrix} = \begin{pmatrix} 2xy+z \\ x^2 + 4y \\ x + 2
+>\nabla f(x,y,z) = \begin{pmatrix}f_x(x,y,z) \\ f_y(x,y,z) \\ f_z(x,y,z) \end{pmatrix} = \begin{pmatrix} 2xy+z \\ x^2 + 4y \\ x + 2 \end{pmatrix}
 >$$
 >
 >First we integrate $f_x(x,y,z) = 2xy+z$ with respect to $x$
@@ -205,5 +205,19 @@ If a vector field given in a formula has a potential function, then we can const
 >\end{aligned}
 >$$
 >
->where $g(y,z)$ is the integration constant (constant only with respect to the integration variable x!). For any function $g(y,z)$ we now have a candidate potential $f(x,y,z)$ for which $f_x(x,y,z) = v_1(x,y,z)$.
+>where $g(y,z)$ is the integration constant (constant only with respect to the integration variable x!). For any function $g(y,z)$ we now have a candidate potential $f(x,y,z)$ for which $f_x(x,y,z) = v_1(x,y,z)$.For the second coordinate $f_y(x,y,z)$ of $\nabla f(x,y)$ we find
+>
+>$$
+>
+>$$
+
+
+
+$$
+\left. 
+\begin{array}{ll}
+f_y(x,y,z) = \frac{\partial}{\partial y}\Bigl(x^2 y + xz + g(y,z)\Bigr) = x^2 +g()
+\end{array}
+\right\}
+$$
 
