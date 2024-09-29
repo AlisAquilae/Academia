@@ -208,17 +208,36 @@ If a vector field given in a formula has a potential function, then we can const
 >where $g(y,z)$ is the integration constant (constant only with respect to the integration variable x!). For any function $g(y,z)$ we now have a candidate potential $f(x,y,z)$ for which $f_x(x,y,z) = v_1(x,y,z)$.For the second coordinate $f_y(x,y,z)$ of $\nabla f(x,y)$ we find
 >
 >$$
+>\left. 
+>\begin{array}{ll}
+>f_y(x,y,z) &= \frac{\partial}{\partial y}\Bigl(x^2 y + xz + g(y,z)\Bigr) = x^2 +g_y(y,z) \\
+>v_2(x,y) &= x^2 +4y
+>\end{array}
+>\right\} \Rightarrow g_y(y,z)=4y
+>$$
+>
+>Taking the antiderivative of $g_y(y,z) = 4y$ with respect to $y$ we find
 >
 >$$
-
-
-
-$$
-\left. 
-\begin{array}{ll}
-f_y(x,y,z) = \frac{\partial}{\partial y}\Bigl(x^2 y + xz + g(y,z)\Bigr) = x^2 +g_y(y,z) \\
-
-\end{array}
-\right\}
-$$
+>g(y,z)=2y^2 + h(z) \, \Rightarrow \, f(x,y,z) = x^2 y +xz +2y^2 +h(z)
+>$$
+>
+>Now, $f_y(x,y,z) = v_2(x,y,z)$, for any function $h(z)$. Finally, $f_z(x,y,z)$ gives
+>
+>$$
+>\left.
+>\begin{array}{ll}
+>f_z(x,y,z) &= \frac{\partial}{\partial z} \Bigl( x^2y + xz +2y^2 + h(z) \Bigr) = x + h'(z) \\
+>v_3(x,y,z) &= x+2
+>\end{array}
+>\right\} \, \Rightarrow \, h'(z) = 2
+>$$
+>
+>and $h(z)=2z + C$ with an arbitrary constant $C$, so
+>
+>$$
+>f(x,y,z)=x^2y + xz + 2y^2 + 2z + C
+>$$
+>
+>The vector 
 
