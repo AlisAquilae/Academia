@@ -205,4 +205,5 @@ If a vector field given in a formula has a potential function, then we can const
 >\end{aligned}
 >$$
 >
->where $g(y,z)$ is the integration constant (constant only with respect to the integration variable x!). For any function $g(y,z)$ we now have a candidate potential $f(x,y,z)$ for wgic
+>where $g(y,z)$ is the integration constant (constant only with respect to the integration variable x!). For any function $g(y,z)$ we now have a candidate potential $f(x,y,z)$ for which $f_x(x,y,z) = v_1(x,y,z)$.
+
