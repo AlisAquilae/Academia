@@ -394,4 +394,4 @@ $$
 
 The divergence $\nabla \cdot w(x,y)$ of a vector field $w(x,y)$ denotes the local outflow rate at position $(x,y)$ per unit area
 
-The gradient introduced in paragraph [[#5.2 Gradient and Potential|5.3]]  
+The gradient introduced in [[#5.2 Gradient and Potential|Paragraph 5.2]] is a differentiation operator that takes a scalar field $f(x,y)$ as an argument and returns the vector field $\nabla f(x,y)$. The divergence introduced here is also a differential operator, but this one takes a vector field $v(x,y)$ as an argument, and returns the scalar field $\nabla \cdot v(x,y)$.   
