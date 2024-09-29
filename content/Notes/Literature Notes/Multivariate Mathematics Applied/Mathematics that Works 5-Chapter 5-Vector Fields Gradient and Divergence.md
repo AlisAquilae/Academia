@@ -83,7 +83,7 @@ $$
 |\nabla f(a,b)|\cos(\varphi)
 $$
 
-where $\varphi$ is the angle between $\nabla f(a,b)$ and $\Delta p$
+where $\varphi$ is the angle between $\nabla f(a,b)$ and $\Delta p$.
 
 >[!Warning]
 >Usually, a gradient contains only partial derivatives with respect to spatial variables. If $f(x,y,t)$ depends on two spatial variables $x$ and $y$ and a temporal variable $t$, then
@@ -103,13 +103,22 @@ We call this kind of function a vector field.
 
 A vector field is a function from R$^n$ to R$^n$.
 
-A scalar field is a function from R$^n$ to R
+A scalar field is a function from R$^n$ to R.
 
-Scalar fields and vector fields play a role in many different branches of science. Typical scalar fields are spatially dependent pressure or temperature. Typical vector fields are spatially dependent flows or forces
+Scalar fields and vector fields play a role in many different branches of science. Typical scalar fields are spatially dependent pressure or temperature. Typical vector fields are spatially dependent flows or forces.
 
 We may visualise a vector field that is given by a formula $v(x,y)$ by selecting a number of points $(x,y)$, evaluating the vector field $v(x,y)$ at these points, and drawing the resulting vectors as arrows originating in the point of evaluation. 
 
 ## 5.2.2 The Gradient Operator, Gradient Field and Potential Function
 Just like the function $f(x,y)$ itself, its gradient $\nabla f(x,y)$ depends on the position $(x,y)$. Thus the symbol $\nabla$ (or 'grad') can be considered as an operating acting onto a scalar field $f(x,y)$, yielding a vector field $\nabla f(x,y)$. Therefore, $\nabla$ is called the gradient operator. Where an ordinary function takes a variable (a real number, or a vector) as its arguments and gives a number or vector as result in return, an operator such as the gradient takes a function (here the scalar field $f(x,y)$) as its argument and returns another function (here the vector field $\nabla f(x,y)$). Therefore, an operator is called a "function on functions".
 
-Actually, we have met operators like this before: a smooth function $f(x)$ can be differentiated, and the result is a derivative function
+Actually, we have met operators like this before: a smooth function $f(x)$ can be differentiated, and the result is a derivative function $f'(x)$. Thus, "differentiation" is an operator, taking the function $f(x)$ as argument and returning the function $f'(x)$ as result. Another example is "antidifferentiation".
+
+The terms "differentiation" and "antidifferentiation" strongly suggest that these operators have opposite effect. Indeed, when we differentiate the antiderivative $\int f(x) \mathrm dx$ of $f(x)$, then we retrieve the original function $f(x)$. However, this does not hold when we do it the other way around; the antiderivative of the derivative $f'(x)$ can be any function $g(x)=f(x)+C$, where $f(x)$ is the original function and $C$ is an arbitrary constant.
+
+The potential function plays the same role to a vector field as the antiderivative to an ordinary function, including the undetermined integration constant $C$. Thus, the vector field $\nabla f(x)$ is the gradient field of the function $f(x,y)$. Conversely, if $v(x,y) = \nabla f(x,y)$, then $f(x,y)$ is a potential function of the vector field $v(x,y)$. In addition, if $f(x,y)$ is a potential function of the vector field $v(x,y)$, then also $g(x,y) = f(x,y) + C$ is a potential function of $v(x,y)$ for any constant $C$.
+
+## 5.2.3 The Existence of a Potential Function
+With its gradient, a function $f(x,y)$ from R$^2$ to R generates a vector field in R$^2$. Thus, the vector field $\nabla f(x,y)$ may be considered as a kind of spatial derivative of $f(x,y)$, and the function $f(x,y)$ is a potential function for its gradient field $v(x,y)=\nabla f(x,y)$. The same holds in R$^3$ for functionos $f(x,y,z)$ and in R$^n$ for functions with $n$ arguments
+
+The question arises whether the reverse is also true: given a vector field $v(x,y)$, can we find a function $f(x,y)$ from R$^2$ to R for which $v(x,y) = \nabla f(x,y)$? In other words, does a vector field have a potential function? If so, the potential function $f(x,y)$ is a kind of spatial antiderivative for $v(x,y)$
