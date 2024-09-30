@@ -128,7 +128,8 @@ If we can find the remaining integral, we obtain an equation for $x(t)$
 >$$
 >
 >>[!Note]
->>Notice the factor $\frac12$ before the ln!
+>>
+>>Notice the factor $\frac12$ before the $\ln$!
 >
 >We need only one integration constant, here $K$.
 >

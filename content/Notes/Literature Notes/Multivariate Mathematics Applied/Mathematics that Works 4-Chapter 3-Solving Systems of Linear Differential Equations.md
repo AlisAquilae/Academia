@@ -363,7 +363,7 @@ A one-dimensional first order differential equation $x'(t)=\alpha x(t)$ can be g
 >
 >$$
 >\left\{
->\begin{array}[ll] 
+>\begin{array}{ll} 
 >\, x'_1(t) &= 2x_1(t)-3x_2(t) \\ x'_2(t) &= -2x_1(t) - x_2(t) \end{array}
 >\right.
 >$$
