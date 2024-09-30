@@ -472,3 +472,35 @@ $$
 >>>Note the negative sign. We include this because we are trying to find an inflow, not an outflow
 
 
+##  5.5.3 The Balance Equation
+Now we consider a surface mass density $\sigma$ (superficial 2D concentration) and a two-dimensional mass flow density field $w$ that may depend on space and time
+
+$$
+w(x,y,t)=\sigma(x,y,t)v(x,y,t)
+$$
+
+In the absence of sources and sinks, the mass density $\sigma(x,y,t)$ can be affected only by the mass flow density field $w(x,y,t)$. More precisely, we find that in the absence of sources and sinks, a two-dimensional flow density $w(x,y)$ affects the mass density $\sigma(x,y)$ as 
+
+$$
+\frac{\partial}{\partial t} \sigma(x,y,t) = -\nabla \cdot w(x,y,t)
+$$
+
+In R$^3$, a flow density $w(x,y,z)$ affects the mass density $\rho(x,y,z)$ as
+
+$$
+\frac{\partial}{\partial t} \rho(x,y,z,t) = -\nabla \cdot w(x,y,z,t)
+$$
+
+As a consequence, if the mass flow density is divergence free and there are no sources and sinks, then the mass density ($\sigma$ or $\rho$ is constant in time)
+
+>[!Question]
+>A two-dimensional mass flow density is given by a time-dependent flow density field
+>
+>$$
+>w(x,y,t) = \begin{pmatrix}\sin(x)\cos(t) \\ \cos(y)\sin(t)\end{pmatrix}
+>$$
+>
+>Find the rate of change of the mass density $\sigma(x,y,t)$ at $x=0$, $y=0$
+
+
+
