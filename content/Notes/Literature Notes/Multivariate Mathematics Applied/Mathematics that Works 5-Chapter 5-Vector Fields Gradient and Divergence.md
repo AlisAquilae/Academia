@@ -523,5 +523,38 @@ As a consequence, if the mass flow density is divergence free and there are no s
 >The gradient of the function $f(x,y) = x^2 y + y^2 -2x$ is
 >
 >$$
->\nabla f(x,y) = \begin{pmatrix}f_x(x,y) \\ f_y(x,y) \end{pmatrix}
+>\nabla f(x,y) = \begin{pmatrix}f_x(x,y) \\ f_y(x,y) \end{pmatrix} = \begin{pmatrix} 2xy-2 \\ x^2 +2y \end{pmatrix}
 >$$
+>
+>This is a function from R$^2$ to R$^2$, a vector field. The divergence of this vector field is
+>
+>$$
+>\text{div} \nabla f(x,y) = \frac{\partial}{\partial x}(2xy-2) + \frac{\partial}{\partial y}(x^2 +2y) = 2y+2
+>$$
+>
+>This in turn is a function from R$^2$ to R, a scalar field
+
+Numerous applications involve functions $f(x,y)$ from R$^2$ to R of which we first take the gradient; the result is a vector field $\nabla f(x,y)$. Next we take the divergence of this vector field. We thus compute
+
+$$
+\text{div} \nabla f(x,y) 
+$$
+
+and this is a function from R$^2$ to R (scalar field) again. This combination occurs so often that it has its own symbol: the Laplace operator $\Delta$. 
+
+For any function $f(x,y)$ from R$^2$ to R, $\Delta f(x,y)$ is the function from R$^2$ to R defined as 
+
+$$
+\begin{aligned}
+\Delta f(x,y) &= \text{div}(\nabla f(x,y)) \\
+&= \frac{\partial^2}{\partial x^2} f(x,y) + \frac{\partial^2}{\partial y^2} f(x,y) \\
+&= f_{xx}(x,y) + f_{yy}(x,y)
+\end{aligned}
+$$
+
+
+
+>[!Note]
+>Given that the divergence can, again, be denoted as $\nabla$, the Laplace operator is sometimes denoted as $\nabla \cdot \nabla$ or $\nabla^2$
+
+
