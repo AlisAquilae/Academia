@@ -501,6 +501,27 @@ As a consequence, if the mass flow density is divergence free and there are no s
 >$$
 >
 >Find the rate of change of the mass density $\sigma(x,y,t)$ at $x=0$, $y=0$
+>
+>>[!Check]- Answer
+>>$$
+>>\begin{aligned}
+>>\sigma (x,y,t) &= - \nabla \cdot w(x,y,t) \\
+>>\nabla \cdot w(x,y,t) &= \frac{\partial}{\partial x}w_1(x,y,t) + \frac{\partial}{\partial y}w_2(x,y,t) \\
+>>&= \cos(x)\cos(t) - \sin(y)\sin(t) \\
+>>\sigma (0,0,t) &= - \nabla \cdot w(0,0,t) \\
+>>\nabla \cdot w(0,0,t) &= \cos(0)\cos(t) - \sin(0)\sin(t) \\
+>>&=  1 \cdot \cos(t) - 0 \cdot \sin(t) \\
+>>&= \cos(t) \\
+>>\sigma (0,0,t) &= -\cos(t)
+>>\end{aligned}
+>>$$
 
 
+## 5.5.4 The Laplace Operator
 
+>[!Example]
+>The gradient of the function $f(x,y) = x^2 y + y^2 -2x$ is
+>
+>$$
+>\nabla f(x,y) = \begin{pmatrix}f_x(x,y) \\ f_y(x,y) \end{pmatrix}
+>$$
