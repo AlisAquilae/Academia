@@ -129,11 +129,11 @@ If we can find the remaining integral, we obtain an equation for $x(t)$
 >
 >>[!Note]
 >>
->>Notice the factor $\frac12$ before the $\ln$!
+>>Notice the factor $\frac{1}{2}$ before the $\ln$!
 >
 >We need only one integration constant, here $K$.
 >
->**Step 5**: In order to solve this for $x$, we first remove the factor $-\frac12$ be multiplying with $-2$. Next, we take exponentials on the left and right hand side
+>**Step 5**: In order to solve this for $x$, we first remove the factor $-\frac{1}{2}$ be multiplying with $-2$. Next, we take exponentials on the left and right hand side
 >
 >$$
 >e^{\ln(|1-2x)|} = e^{-2t-2K} = e^{-2t}e^{-2K}
