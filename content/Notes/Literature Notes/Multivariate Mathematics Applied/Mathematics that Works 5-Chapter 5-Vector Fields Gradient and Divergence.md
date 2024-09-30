@@ -583,7 +583,40 @@ $$
 >>f_x(x,y) &= \lambda \cos(\lambda x)\cos(\mu y) \\
 >>f_{xx}(x,y) &= - \lambda^2 \sin(\lambda x)\cos(\mu y) \\
 >>f_y(x,y) &= - \mu \sin(\mu y) \sin(\lambda x) \\
->>f
+>>f_{yy}(x,y) &= - \mu ^2 \cos(\mu y) \sin(\lambda x) \\
+>>\Delta f(x,y) &= f_{xx}(x,y) + f_{yy}(x,y) \\
+>>&= - \lambda^2 \sin(\lambda x)\cos(\mu y) - \mu ^2 \cos(\mu y) \sin(\lambda x) \\
+>>&= -(\lambda ^2 + \mu^2)\sin(\lambda x)\cos(\mu y)
 >>\end{aligned}
 >>$$
 
+
+The Laplace operator in R$^3$ is defined in the same way
+
+For any function $f(x,y,z)$ from R$^3$ to R, $\Delta f(x,y,z)$ is the function from R$^3$ to R defined as 
+
+$$
+\begin{aligned}
+\Delta f(x,y,z) &= \text{div}(\nabla f(x,y,z)) \\
+&= \frac{\partial^2}{\partial x^2} f(x,y,z) + \frac{\partial^2}{\partial y^2} f(x,y,z) + \frac{\partial^2}{\partial z^2} f(x,y,z) \\
+&= f_{xx}(x,y,z) + f_{yy}(x,y,z) + f_{zz} (x,y,z)
+\end{aligned}
+$$
+
+## 5.5.5 The Laplace Operator in Other Coordinate Systems
+A function of two spatial variables is not necessarily expressed in Cartesian coordinates $x$ and $y$. A frequently used alternative are the spatial coordinates $r$ and $\varphi$, introduced in [[Mathematics that Works 5-Chapter 2-Integration in Two or Three Dimensions#2.8 Coordinate Transforms|Paragraph 2.8]]. They are connected to the ordinary (Cartesian) coordinates $x$ and $y$ via the relations
+
+$$
+\begin{aligned}
+x &= r \cos(\varphi) \\
+y &= r \sin (\varphi)
+\end{aligned}
+$$
+
+Of course, we can compute $\Delta f(x,y)$ for a function $f(r, \varphi)$ by changing the variables to $x$ and $y$, then applying the Laplace operator (with repeated use of the chain rule), and finally substituting the polar coordinates $r$ and $\varphi$ back again. This is quite a laborious procedure. Fortunately, there is a formula available for determining $\Delta f(r, \varphi)$ directly. We present it without derivation
+
+$$
+\begin{aligned}
+\Delta f(r, \varphi) &= \frac{1}{r} \frac{\partial}{\partial r} \left( r \frac{\partial}{\partial r} f(r, \varphi) \right)
+\end{aligned}
+$$
