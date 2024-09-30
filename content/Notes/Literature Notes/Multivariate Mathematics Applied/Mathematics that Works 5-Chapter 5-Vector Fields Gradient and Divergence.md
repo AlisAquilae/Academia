@@ -617,6 +617,13 @@ Of course, we can compute $\Delta f(x,y)$ for a function $f(r, \varphi)$ by chan
 
 $$
 \begin{aligned}
-\Delta f(r, \varphi) &= \frac{1}{r} \frac{\partial}{\partial r} \left( r \frac{\partial}{\partial r} f(r, \varphi) \right)
+\Delta f(r, \varphi) &= \frac{1}{r} \frac{\partial}{\partial r} \left( r \frac{\partial}{\partial r} f(r, \varphi) \right) + \frac{1}{r^2} \frac{\partial ^2}{\partial \varphi ^2} f(r, \varphi) \\
+&= \frac{r(r f_r(r, \varphi))_r + f_{\varphi \varphi}(r, \varphi)}{r^2}
 \end{aligned}
 $$
+
+
+>[!Warning]
+>Skipped the Laplace operators for Cylindrical coordinates and Spherical coordinates
+
+
