@@ -557,4 +557,33 @@ $$
 >[!Note]
 >Given that the divergence can, again, be denoted as $\nabla$, the Laplace operator is sometimes denoted as $\nabla \cdot \nabla$ or $\nabla^2$
 
+>[!Example]
+>Continuing with the previous example: for the function $f(x,y)=x^2 y + y^2 -2x$,
+>
+>$$
+>\Delta f(x,y)= \frac{\partial^2}{\partial x^2} (x^2 y + y^2 -2x) + \frac{\partial^2}{\partial y^2} (x^2 y + y^2 -2x) = 2y+2
+>$$
+>
+>This is the same as the result above
+
+>[!Warning]
+>The Laplace operator $\Delta$ must not be confused with differences such as $\Delta x$
+
+
+>[!Question]
+>Find $\Delta f(x,y)$ for 
+>
+>$$
+>f(x,y) = \sin (\lambda x) \cos(\mu y)
+>$$
+>
+>>[!Check]- Answer
+>>$$
+>>\begin{aligned}
+>>f_x(x,y) &= \lambda \cos(\lambda x)\cos(\mu y) \\
+>>f_{xx}(x,y) &= - \lambda^2 \sin(\lambda x)\cos(\mu y) \\
+>>f_y(x,y) &= - \mu \sin(\mu y) \sin(\lambda x) \\
+>>f
+>>\end{aligned}
+>>$$
 
