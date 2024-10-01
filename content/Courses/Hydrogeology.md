@@ -42,7 +42,7 @@ Finally, the course engages with some papers
 - [[Hydrogeology Lecture 5]]
 - [[Hydrogeology Lecture 6]]
 - [[Hydrogeology Lecture 8]]
-
+- [[Hydrogeology Lecture 10]]
 
 # 🔬 Practicals
 - [[Hydrogeology Numerical Modelling 1]]
