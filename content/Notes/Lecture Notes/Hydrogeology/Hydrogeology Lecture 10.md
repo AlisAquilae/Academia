@@ -33,3 +33,9 @@ Sea level rise
 
 Consequences sea level rise
 - Greater potential for ingress of saline groundwater in coastal zones. Encroachment of saline water into coastal fresh water reserves. Increasing hydraulic head differences. 
+
+Mitigation measures
+- Where fresh water availability is reduced in arid areas:
+  - Managed artificial recharge e.g., to store fresh water during the wet season into brackish groundwater, or the injection of treated waste water
+  - Construction of 'sand' dams as an engineering solution creating the opportunity for seasonal river flow to be held back from evaporation and discharge. 
+
