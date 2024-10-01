@@ -39,3 +39,6 @@ Mitigation measures
   - Managed artificial recharge e.g., to store fresh water during the wet season into brackish groundwater, or the injection of treated waste water
   - Construction of 'sand' dams as an engineering solution creating the opportunity for seasonal river flow to be held back from evaporation and discharge. 
 
+---
+## Modelling regional groundwater flow systems driven by climate fluctuations
+
