@@ -17,3 +17,7 @@ Battling or avoiding water shortage
 - Managed Aquifer Recharge (MAR)
 - Soft engineering, e.g. sand dams
 
+Taylor et al.:
+- Direct impacts: declines in recharge (more uncertain than extremes in P and ET), sea level rise
+- Indirect impacts: increased irrigation demands on groundwater because of stronger seasonality in stream flow, longer droughts due to an intensification of hydrological cycle. 
+
