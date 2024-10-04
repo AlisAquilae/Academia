@@ -559,4 +559,45 @@ Obviously, the number $i$ is not real, since the square of a real number is neve
 >\end{aligned}
 >$$
 
-If a quadratic equation has no real roots, the solutions have the form $a+bi$, where $a$ and $b$ are real numbers and $i$ is the imaginary unit. Numbers of this form are called complex numbers. We denote the set of complex numbers by $C$. The real numbers are contained within the complex numbers, since we may take $b=
+If a quadratic equation has no real roots, the solutions have the form $a+bi$, where $a$ and $b$ are real numbers and $i$ is the imaginary unit. Numbers of this form are called complex numbers. We denote the set of complex numbers by $C$. The real numbers are contained within the complex numbers, since we may take $b=0$. The complex numbers of the form $bi$ (that is, with $a=0$) are called purely imaginary
+
+For a complex number
+
+$$
+z=x+yi
+$$
+$x$ is the real part of $z$, and $y$ is the imaginary part of $z$. They are extracted from the complex number $z$ by the functions Re($z$) and Im($z$):
+
+For the complex number $z=x+yi$ ($x$ and $y$ real) the complex number 
+
+$$
+\bar{z} = x-yi
+$$
+
+is called the complex conjugate of $z$, indicated by the bar above it
+
+>[!Example]
+>If $z=1+5i$ then Re$(z)=1$, Im$(z)=5$ and $\bar{z}=1-5i$
+
+
+>[!Warning]
+>The imaginary part is not a real number, the imaginary unit $i$ itself is therefore no part of the imaginary part
+
+
+>[!Info]
+>If $z$ and $w$ are two complex numbers with $w=\bar{z}$, then also $z=\bar{w}$. Hence, the complex numbers $z$ and $\bar{z}$ are referred to as a pair of complex conjugate numbers. In practical applications, complex numbers often occur in such pairs. 
+
+
+If a quadratic function $az^2 +bz + c = 0$ (with real coefficients $a$, $b$ and $c$) has no real roots, then it has the two complex conjugate roots
+
+$$
+z = \frac{-b \pm i \sqrt{-(b^2 -4ac)}}{2a}
+$$
+
+These roots are each other's complex conjugate.
+
+## 2.8.4 Elementary Operations on Complex Numbers
+The algebraic rules for complex numbers are the same as those for real numbers; the only extra rule is $i^2 =-1$. For two complex numbers $z=x+yi$ and $w=u+vi$ we have
+- $z=w$ if $x=u$ and also $y=v$
+- $z+w=x+yi + u + vi= (x+u)+(y+v)i$
+- $z-w=(x+yi)-(u+vi)=(x-u)-()
