@@ -680,4 +680,30 @@ At the beginning of this section we have shown how (real) exponential functions 
 >with complex coefficients $\alpha$ and $\beta$. Since we are only interested in real solutions, a solution in complex form is not attractive. Therefore we preferably use real basis solutions.
 
 
-If the characteristic equation $az^2 +bz + c  = 0$ (with real coefficients $a$, $b$ and $c$) has no real roots $\lambda_1$ and $\lambda_2 = \bar{\lam$
+If the characteristic equation $az^2 +bz + c  = 0$ (with real coefficients $a$, $b$ and $c$) has no real roots $\lambda_1$ and $\lambda_2 = \bar{\lambda_1}$, then $f(t) = \text{Re}(e^{\lambda_1 t})$ and $g(t) = \text{Im}(e^{\lambda_2 t})$ are two real basis solutions of the differential equation $a x''(t) + bx'(t) + cx(t) = 0$
+
+>[!Example]
+>Continuing the previous example: the equation $x''(t)+2x'(t)+10x(t)=0$ has real basis solutions
+>
+>$$
+>\begin{aligned}
+>f(t)&= \text{Re}(e^{-t}(\cos(3t) +i \sin(3t))) &= e^{-t}\cos(3t) \\
+>g(t)&= \text{Im}(e^{-t}(\cos(3t) +i \sin(3t))) &= e^{-t}\sin(3t) \\
+>\end{aligned}
+>$$
+>
+>We express the solution of the differential equation as a linear combination of these real basis solutions,
+>
+>$$
+>x(t)=\alpha f(t) + \beta g(t) = \alpha e^{-t}\cos(3t) + \beta e^{-t}\sin(3t)
+>$$
+>
+>now with real coefficients $\alpha$ and $\beta$. Since one of the initial conditions refers to the derivative, we first differentiate $f(t)$ and $g(t)$, using the product rule and the chain rule. 
+>
+>$$
+>\begin{aligned}
+>f(t)&= e^{-t}\cos(3t) & \Rightarrow f'(t)&= e^{-t} \cdot -1 \cdot \cos(3t) + e^{-t} \cdot -\sin(3t)\cdot 3 \\
+>g(t) &= e^{-t}\sin(3t) & \Rightarrow g'(t)&= e^{-t}
+>\end{aligned}
+>$$
+
