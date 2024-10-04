@@ -500,14 +500,22 @@ A linear homogeneous differential equation with constant coefficients can easily
 >
 >$$
 >\left.
->\begin{array}{ll}x(t)=\alpha u(t) + \beta v(t) = \alpha e^{-t} + \beta e^{-2t} \Rightarrow \underset{t \to 0} \alpha + \beta = 1
+>\begin{array}{ll}x(t)&=\alpha u(t) + \beta v(t) &= \alpha e^{-t} + \beta e^{-2t} & \underset{t \to 0}{\Rightarrow } \alpha + \beta &= 1 \\
+>x'(t) &= \alpha u'(t) + \beta v'(t) &= -\alpha e^{-t} -2\beta e^{-2t} & \underset{t \to 0}{\Rightarrow} -\alpha-2\beta &= 0 
+>\end{array}
+>\right\} \alpha = 2 \, , \, \beta = -1
 >$$
+>
+>Thus $x(t)=2e^{-t} -e^{-2t}$. This is the general solution
 
 
+This method applies to all second order differential equations with constant coefficients
 
+## 2.8.3 Quadratic Functions and Complex Numbers
+The crucial step in the method of characteristic roots is solving the characteristic equation, since not every quadratic function has real roots. 
 
+We solve this problem simply by postulating a solution of the equation $x^2 =-1$
 
+The imaginary unit $i$ is a quantity for which $i^2 = -1$
 
-
-
-
+Obviously, the number $i$ is not real, since the square of a real number is never negative. Because it is not real, we call it imaginary. Using the imaginary number $i$ we can solve all quadratic equations, even if they have no rea;l roots
