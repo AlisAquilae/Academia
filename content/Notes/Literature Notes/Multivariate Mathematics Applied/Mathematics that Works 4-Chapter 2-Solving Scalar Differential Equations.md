@@ -600,4 +600,13 @@ These roots are each other's complex conjugate.
 The algebraic rules for complex numbers are the same as those for real numbers; the only extra rule is $i^2 =-1$. For two complex numbers $z=x+yi$ and $w=u+vi$ we have
 - $z=w$ if $x=u$ and also $y=v$
 - $z+w=x+yi + u + vi= (x+u)+(y+v)i$
-- $z-w=(x+yi)-(u+vi)=(x-u)-()
+- $z-w=(x+yi)-(u+vi)=(x-u)+(y-v)i$
+- $z \cdot w = (x+yi)(u+vi)=(xu+xvi+yiu+yvi^2)=(xu-yv)+(xv+yu)i$
+- $$
+  \frac{z}{w}=\frac{x+yi}{u+vi}=\frac{(x+yi)(u-vi)}{(u+vi)(u-vi)} = \frac{xu-xvi+yiu-yvi^2}{u^2 -uvi + viu -v^2 i^2} = \frac{(xu+yv)+(uv-xv)i}{u^2 + v^2}
+  $$
+>[!Example]
+>$$
+>\frac{z}{w}=\frac{3+4i}{1+2i} = \frac{(3+4i)(1-2i)}{(1+2i)(1-2i)}=\frac{3-6i+4i-8i^2}{5} = \frac{1}{5}(11-2i)
+>$$
+
