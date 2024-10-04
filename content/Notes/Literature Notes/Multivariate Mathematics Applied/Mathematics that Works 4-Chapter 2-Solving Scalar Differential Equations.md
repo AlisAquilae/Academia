@@ -461,4 +461,53 @@ $$
 f(x(t), x'(t), \dots, x^{(n-1)}(t)) = a_0(t)x(t) + a_1(t)x'(t) + \dots + a_{n-1}(t)x^{n-1}t + b(t)
 $$
 
-The functions $a_0(t), a_1(t), \dots, a_{n-1}(t)$ are coefficients of the linear differential equation and $b(t)$ is the inhomogeneous term. If $b(t)=0$ for all
+The functions $a_0(t), a_1(t), \dots, a_{n-1}(t)$ are coefficients of the linear differential equation and $b(t)$ is the inhomogeneous term. If $b(t)=0$ for all $t$, then the linear differential equation is homogeneous. If not, it is inhomogeneous.
+
+## 2.8.2 Constant Coefficients: The Method of Characteristic Roots
+A linear homogeneous differential equation with constant coefficients can easily be solved using the characteristic equation
+
+>[!Example]
+>We solve the second order initial value problem
+>
+>$$
+>x''(t)+3x'(t)+2x(t)=0 \, , \, x(0)=1 \, , \, x'(0)=0
+>$$
+>
+>using trial solutions $u(t)=e^{\lambda t}$ for the differential equation. For such a trial solution, we find $u'(t)=\lambda e^{\lambda t}$ and $u''(t)=\lambda^2 e^{\lambda t}$. So
+>
+>$$
+>\begin{aligned}
+>u''(t)+3u'(t)+2u(t) &= \lambda^2 e^{\lambda t} + 3\lambda e^{\lambda t} + 2e^{\lambda t} \\
+>&= (\lambda^2 + 3\lambda + 2)e^{\lambda t} = 0
+>\end{aligned} 
+>$$
+>
+>Division by $e^{\lambda t}$ gives the characteristic equation
+>
+>$$
+>$\lambda^2 + 3\lambda + 2 =0
+>$$
+>
+>which has solutions
+>
+>$$
+>\lambda_1 = -1 \, \text{ and } \, \lambda_2 = -2
+>$$
+>
+>Hence, the basis solutions are $u(t)=\exp(\lambda_1 t)=e^{-t}$ and $v(t)=\exp(\lambda_2 t) = e^{-2t}$
+>
+>Because the differential equation is linear, any linear combination $x(t)=\alpha u(t) + \beta v(t)$ is also a solution. The coefficients $\alpha$ and $\beta$ follow from the initial conditions
+>
+>$$
+>\left.
+>\begin{array}{ll}x(t)=\alpha u(t) + \beta v(t) = \alpha e^{-t} + \beta e^{-2t} \Rightarrow \underset{t \to 0} \alpha + \beta = 1
+>$$
+
+
+
+
+
+
+
+
+
