@@ -703,7 +703,34 @@ If the characteristic equation $az^2 +bz + c  = 0$ (with real coefficients $a$, 
 >$$
 >\begin{aligned}
 >f(t)&= e^{-t}\cos(3t) & \Rightarrow f'(t)&= e^{-t} \cdot -1 \cdot \cos(3t) + e^{-t} \cdot -\sin(3t)\cdot 3 \\
->g(t) &= e^{-t}\sin(3t) & \Rightarrow g'(t)&= e^{-t}
+>g(t) &= e^{-t}\sin(3t) & \Rightarrow g'(t)&= e^{-t} \cdot -1 \cdot \sin(3t) + e^{-t} \cdot \cos(3t) \cdot 3 \\
 >\end{aligned}
 >$$
+>
+>We now solve the initial conditions for $\alpha$ and $\beta$
+>
+>$$
+>\begin{aligned}
+>x(0)=1 &\Rightarrow \alpha f(0) + \beta g(0) = 1 & \Rightarrow \alpha \cdot 1 + \beta \cdot 0 = 1 \Rightarrow \alpha = 1 \\
+>x'(0)=2 &\Rightarrow \alpha f'(0) + \beta g'(0) = 2 & \Rightarrow \alpha \cdot -1 + \beta \cdot 3 = 2 \\
+>\end{aligned}
+>$$
+>
+>and we find $\alpha = 1$ and $\beta = 1$. The solution is therefore
+>
+>$$
+>x(t)=1\cdot e^{-t} \cos(3t) + 1\cdot e^{-t} \sin(3t) = e^{-t} (\cos(3t) + \sin(3t))
+>$$
+
+>[!Summary]
+>**Algorithm for linear second order differential equations**
+>$\alpha x''(t) + bx'(t) +cx(t)=0$
+>
+>1. Set up the characteristic equation and find its roots $\lambda_1$ and $\lambda_2$
+>2. The basis solutions are $u(t)=e^{\lambda_1 t}$ and $v(t)=e^{\lambda_2 t}$. If the characteristic roots are not real, then replace these complex basis solutions by the real basis solutions $u(t)=\text{Re}(e^{\lambda_1 t})$ and $v(t)=\text{Im}(e^{\lambda_2 t})$
+>3. The general solution is $x(t)=\alpha u(t) + \beta v(t)$
+>4. Find the coefficients $\alpha$ and $\beta$ using the initial conditions
+
+
+
 
