@@ -411,7 +411,6 @@ Thus, we find the following algorithm for linear inhomogeneous differential equa
    d. Use this to find the general solution $x(t)=u(t)x_h(t)$ of the inhomogeneous differential equation
 3. If an initial condition is specified, use it to find the integration constant
 
-
 ## 2.5.4 Cascade Models
 In [[Mathematics that Works 4-Chapter 1-Modelling Time-Dependent Processes#1.5 Modelling with Differential Equations|Chapter 1.5]] we saw examples of models in which the rates of change of the state variables mutually depend on each other. We obtained a system of differential equations, to be solved simultaneously. For instance, in a Lotka-Volterra predator-prey model, we cannot solve for the prey without solving for the predator, nor the other way around. 
 
@@ -441,3 +440,25 @@ $$
 
 The equation for $x_1$ is a scalar differential equation, which we may try to solve. If we succeed, $x_1(t)$ becomes a known function. We thus obtain a scalar differential equation for $x_2$, which we may try to solve, and so on. A system of this kind is called a **cascade model**
 
+---
+# 2.8 Higher Order Differential Equations and Complex Numbers
+## 2.8.1 Differential Equations of Higher Order
+A differential equation of order $n$ is an equation of the form
+
+$$
+x^{n}(t) = f(t, x(t), x'(t), \dots, x^{(n-1)}(t))
+$$
+
+This equation expresses the nth derivative of $x(t)$ as a function $f$ of $t$, $x(t)$ and the first $n-1$ derivatives of $x(t)$. This differential equation is time-invariant (or autonomous) if the function $f$ does not depend explicitly on the independent variable $t$; we then may write
+
+$$
+x^n(t)=f(x(t), x'(t), \dots, x^{(n-1)}(t))
+$$
+
+The differential equation is linear if
+
+$$
+f(x(t), x'(t), \dots, x^{(n-1)}(t)) = a_0(t)x(t) + a_1(t)x'(t) + \dots + a_{n-1}(t)x^{n-1}t + b(t)
+$$
+
+The functions $a_0(t), a_1(t), \dots, a_{n-1}(t)$ are coefficients of the linear differential equation and $b(t)$ is the inhomogeneous term. If $b(t)=0$ for all
