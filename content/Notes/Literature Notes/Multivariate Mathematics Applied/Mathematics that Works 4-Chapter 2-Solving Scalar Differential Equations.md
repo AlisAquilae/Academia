@@ -646,5 +646,38 @@ At the beginning of this section we have shown how (real) exponential functions 
 >With $x'(t)= \lambda e^{\lambda t}$ and $x''(t)=\lambda^2 e^{\lambda t}$ we find
 >
 >$$
->\lambda^2 e^{\lambda t} +2\lambda e^{\lambda t}
+>\lambda^2 e^{\lambda t} +2\lambda e^{\lambda t}+10 e^{\lambda t} = 0 \, \Rightarrow \, (\lambda^2 +2\lambda +10)e^{\lambda t} = 0
 >$$
+>
+>After division by $e^{\lambda t}$ we find that $\lambda$ satisfies the characteristic equation
+>
+>$$
+>\lambda^2 +2\lambda +10 = 0
+>$$
+>
+>This equation has no real roots. However, using complex numbers we now find
+>
+>$$
+>\lambda_{1,2} = \frac{-2 \pm \sqrt{4-40}}{2} = -1 \pm \frac{1}{2}\sqrt{-36} = -1 \pm 3i
+>$$
+>
+>Note that the roots establish a pair of complex conjugates. The functions
+>
+>$$
+>\begin{aligned}
+>u(t)&= \exp(\lambda_1 t)=e^{-t}(\cos(3t) +i \sin(3t)) \\
+>v(t) &= \exp(\lambda_2 t) = e^{-t}(\cos(3t) + i \sin(-3t)) \\
+>&= e^{-t}(\cos(3t) - i \sin(3t))
+>\end{aligned}
+>$$
+>
+>indeed are solutions of the differential equation. These functions are basis solutions of the differential equation. The general solution $x(t)$ is a linear combination of $u(t)$ and $v(t)$:
+>
+>$$
+>x(t)=\alpha u(t) + \beta v(t)
+>$$
+>
+>with complex coefficients $\alpha$ and $\beta$. Since we are only interested in real solutions, a solution in complex form is not attractive. Therefore we preferably use real basis solutions.
+
+
+If the characteristic equation $az^2 +bz + c  = 0$ (with real coefficients $a$, $b$ and $c$) has no real roots $\lambda_1$ and $\lambda_2 = \bar{\lam$
