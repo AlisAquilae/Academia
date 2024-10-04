@@ -518,4 +518,45 @@ We solve this problem simply by postulating a solution of the equation $x^2 =-1$
 
 The imaginary unit $i$ is a quantity for which $i^2 = -1$
 
-Obviously, the number $i$ is not real, since the square of a real number is never negative. Because it is not real, we call it imaginary. Using the imaginary number $i$ we can solve all quadratic equations, even if they have no rea;l roots
+Obviously, the number $i$ is not real, since the square of a real number is never negative. Because it is not real, we call it imaginary. Using the imaginary number $i$ we can solve all quadratic equations, even if they have no real roots
+
+>[!Example]
+>a) 
+>
+>$$
+>\begin{aligned}
+>z^2 +1 &= 0 \\
+>z^2 &=-1 \\ 
+>z^2 &=i^2 \\
+>z &= \pm i \\
+>z_1 &= i \, \text{ and } \, z_2 = -i 
+>\end{aligned}
+>$$
+>
+>b) 
+>
+>$$
+>\begin{aligned}
+>z^2 -2z+2 &= 0 \\
+>(z-1)^2 +1 &= 0 \\
+>(z-1)^2 &= -1 \\
+>(z-1)^2 &= i^2 \\
+>(z-1) &= \pm i \\
+>z &= 1\pm i
+>\end{aligned}
+>$$
+>
+>c) 
+>
+>$$
+>\begin{aligned}
+>z^2 +4z+13 &= 0 \\
+>(z+2)^2 +9 &= 0 \\
+>(z+2)^2 &= -9 \\
+>(z+2)^2 &= 9i^2 \\
+>z+2 &= \pm 3i \\
+>z &= -2 \pm 3i
+>\end{aligned}
+>$$
+
+If a quadratic equation has no real roots, the solutions have the form $a+bi$, where $a$ and $b$ are real numbers and $i$ is the imaginary unit. Numbers of this form are called complex numbers. We denote the set of complex numbers by $C$. The real numbers are contained within the complex numbers, since we may take $b=
