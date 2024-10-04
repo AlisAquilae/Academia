@@ -602,11 +602,49 @@ The algebraic rules for complex numbers are the same as those for real numbers; 
 - $z+w=x+yi + u + vi= (x+u)+(y+v)i$
 - $z-w=(x+yi)-(u+vi)=(x-u)+(y-v)i$
 - $z \cdot w = (x+yi)(u+vi)=(xu+xvi+yiu+yvi^2)=(xu-yv)+(xv+yu)i$
-- $$
-  \frac{z}{w}=\frac{x+yi}{u+vi}=\frac{(x+yi)(u-vi)}{(u+vi)(u-vi)} = \frac{xu-xvi+yiu-yvi^2}{u^2 -uvi + viu -v^2 i^2} = \frac{(xu+yv)+(uv-xv)i}{u^2 + v^2}
-  $$
+- 
+
+$$
+\frac{z}{w}=\frac{x+yi}{u+vi}=\frac{(x+yi)(u-vi)}{(u+vi)(u-vi)} = \frac{xu-xvi+yiu-yvi^2}{u^2 -uvi + viu -v^2 i^2} = \frac{(xu+yv)+(uv-xv)i}{u^2 + v^2}
+$$
+
 >[!Example]
 >$$
 >\frac{z}{w}=\frac{3+4i}{1+2i} = \frac{(3+4i)(1-2i)}{(1+2i)(1-2i)}=\frac{3-6i+4i-8i^2}{5} = \frac{1}{5}(11-2i)
 >$$
 
+
+## 2.8.5 The Complex Exponential Function
+The most important function for complex numbers is the exponential function $\exp(z)=e^z$. For a complex number $z=x+yi$, with  $x$ and $y$ real, the complex exponential function is given by 
+
+$$
+\exp(z)=e^z = e^x (\cos(y)+i \sin(y))
+$$
+
+The complex exponential function has all the properties we expect: the most important ones are listed below
+- For two complex numbers $z$ and $w$ we have $e^{z+w} = e^z e^w$
+- For any complex number $\alpha$, $\frac{\mathrm d}{\mathrm dt} e^{\alpha t} = \alpha e ^{\alpha t}$
+
+>[!Info]
+>The above definition expresses the complex exponential function in terms of the real functions cosine and sine. The converse is also possible
+>
+>$$
+>\cos(x) = \frac{e^{xi}+e^{-xi}}{2} \, , \, \sin(x)=\frac{e^{xi}-e^{-xi}}{2i}
+>$$
+
+
+## 2.8.6 The Method of Characteristic Roots Revisited
+At the beginning of this section we have shown how (real) exponential functions can be used as trial solutions for second order linear differential equations. Here we extend this technique to complex exponential functions
+
+>[!Example]
+>Suppose that the function $x(t)=e^{\lambda t}$ satisfies the differential equation
+>
+>$$
+>x''(t)+2x'(t)+10x(t)=0
+>$$
+>
+>With $x'(t)= \lambda e^{\lambda t}$ and $x''(t)=\lambda^2 e^{\lambda t}$ we find
+>
+>$$
+>\lambda^2 e^{\lambda t} +2\lambda e^{\lambda t}
+>$$
