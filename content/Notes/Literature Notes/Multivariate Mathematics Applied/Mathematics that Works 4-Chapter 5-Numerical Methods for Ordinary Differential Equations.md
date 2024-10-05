@@ -87,5 +87,29 @@ $$
 The difference equation is used to compute approximating solutions for $u(t)$ in the form of a table. This table contains a number of points $t_n$, and the approximation $v(t_n)$ of the solution $u(t_n)$ at these points $t_n$. Because the variable $t$ is often interpreted as time, the $t_n$ are generally referred to as time points. To avoid unnecessary complications, the time points $t_n$ are chosen at regular intervals; thus, we have $t_n = t_0 + nh$, where $h$ is called the stepsize. Then the difference equation reads
 
 $$
-v(t_{n+1}) = 
+v(t_{n+1}) = v(t_n) + h f(t,v(t_n))
 $$
+
+This difference equation enables a direct calculation of $v(t_{n+1})$ given $v(t_n)$. Using this recipe recursively (starting at $v(t_0) = u(t_0)$), we find consecutive approximations $v(t_n)$ for $u(t_n)$ at the discrete time points $t=t_n$. Therefore, we say the differential equation is discretised. To emphasise this discrete character, and to simplify the formula, we often write
+
+$$
+v_{n+1} = v_n + h f(t_n,v_n)
+$$
+
+with $v_n = v(t_n)$. As this formula is to be applied repeatedly for increasing values of $n$, it is also called a recursion. We may hope that the values $v_n$ satisfying this difference equation are good approximations for $u(t_n)$. Later we will see to what extent this is indeed the case. 
+
+>[!Example]
+>Eurler's forward method applied to the initial value problem
+>
+>$$
+>\left\{
+>\begin{array}{ll}
+>u'(t) &= -u(t)^2 \\
+>u(0) &= 1
+>\end{array}
+>\right.
+>$$
+>
+>results in the recursion
+>
+>
