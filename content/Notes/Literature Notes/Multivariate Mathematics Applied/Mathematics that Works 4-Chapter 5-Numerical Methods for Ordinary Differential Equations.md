@@ -52,3 +52,40 @@ We conclude that for a smooth function, the error of the difference quotient is 
 >[!Note]
 >Notice that the proportionality factor $\frac{1}{2} u''(t)$ is usually unknown
 
+
+## 5.2.2 Euler's Forward Method
+A simple method for approximately solving the differential equation
+
+$$
+u'(t)=f(t,u(t))
+$$
+
+is obtained by replacing the derivative (the differential quotient) by a difference quotient
+
+$$
+\frac{u(t+h)-u(t)}{h} \cong f(t,u(t))
+$$
+
+We multiply by $h$ and rearrange terms to obtain
+
+$$
+u(t+h) \cong u(t) +h f(t,u(t))
+$$
+
+We emphasise that the solution $u(t)$ of the differential equation satisfies this difference equation only approximately. In contrast, its exact solutions are denoted by $v(t)$, so
+
+$$
+v(t+h) = v(t) + h f(t,v(t))
+$$
+
+This method to convert a differential equation into a corresponding difference equation is called Euler's Forward Method (EF):
+
+$$
+u'(t) = f(t,u(t)) \underset{\text{Euler forward}}{\rightarrow} v(t+h) = v(t) + h f(t,v(t))
+$$
+
+The difference equation is used to compute approximating solutions for $u(t)$ in the form of a table. This table contains a number of points $t_n$, and the approximation $v(t_n)$ of the solution $u(t_n)$ at these points $t_n$. Because the variable $t$ is often interpreted as time, the $t_n$ are generally referred to as time points. To avoid unnecessary complications, the time points $t_n$ are chosen at regular intervals; thus, we have $t_n = t_0 + nh$, where $h$ is called the stepsize. Then the difference equation reads
+
+$$
+v(t_{n+1}) = 
+$$
