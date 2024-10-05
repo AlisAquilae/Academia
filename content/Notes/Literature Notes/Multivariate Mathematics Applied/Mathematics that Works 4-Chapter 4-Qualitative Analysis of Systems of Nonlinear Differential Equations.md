@@ -231,7 +231,16 @@ is locally stable if linearization about $(x^*, y^*)$ yields a linear system wit
 >$$
 >\left\{
 >\begin{array}{ll}
->x'(t) &= f(x(t),y(t)) &= x(t)(1-x(t)-\frac{1})
+>x'(t) &= f(x(t),y(t)) &= x(t)(1-x(t)-\frac{1}{2}y(t)) \\
+>y'(t) &= g(x(t),y(t)) &= y(t)(-1+2x(t))
 >\end{array}
->\right/
+>\right.
 >$$
+>
+>The Jacobian matrix of this system at an arbitrary point $(x,y)$ is
+>
+>$$
+>J(x,y) = \begin{pmatrix} f_x(x,y) & f_y(x,y) \\ g_x(x,y) & g_y(x,y)
+\end{pmatrix} = \begin{pmatrix}
+>$$
+
