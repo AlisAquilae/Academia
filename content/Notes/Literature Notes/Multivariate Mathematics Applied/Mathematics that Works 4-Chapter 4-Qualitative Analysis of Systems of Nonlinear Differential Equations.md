@@ -283,10 +283,26 @@ is locally stable if linearization about $(x^*, y^*)$ yields a linear system wit
 >so the eigenvalues are $\lambda = -\frac{1}{4} + \frac{1}{4} i \sqrt{7}$ and $\mu = -\frac{1}{4} - \frac{1}{4} i \sqrt{7}$. By taking real and imaginary parts (see [[Mathematics that Works 4-Chapter 2-Solving Scalar Differential Equations#2.8 Higher Order Differential Equations and Complex Numbers|Paragraph 2.8]]), we find the solutions of the linearized system $u'(t)=Ju(t)$ to be
 >
 >$$
->u(t)=u_1 e^{-t/4}\cos(\frac{t}{4}\sqrt{7}) + \m
+>u(t)=u_1 e^{-t/4}\cos\left(\frac{t}{4}\sqrt{7}\right) + u_2 e^{-t/4}\sin\left(\frac{t}{4}\sqrt{7}\right)
 >$$
+>
+>We observe that $u(t) \to 0$ as $t \to \infty$ for any initial value. Therefore, the steady state $\left( \frac{1}{2},1 \right)$ is locally stable
+>
+>>[!Note]
+>>Note that the real part of the complex eigenvalue is negative, which makes the displacement go to zero. If the real part of the complex eigenvalues would be positive, the steady state would be unstable
 
 
+In general, we find the following property:
+- If the Jacobian matrix at a steady state of a non-linear system has a positive eigenvalue, this steady state is unstable
+- If all eigenvalues of the Jacobian matrix are negative, the steady state is stable
+- For complex eigenvalues, only the real parts matter for the stability; a negative real part results in stability and a positive real part results in instability.
 
+## 4.2.4 Classification of Steady States
 
+In the neighbourhood of a steady state, the linearized system gives a good approximation for the system of non-linear differential equations. Therefore we now investigate the solutions of the linearized system $u'(t)=Ju(t)$. Because of the restriction to $2\times 2$ systems, $J$ is a real $2\times 2$ matrix. We assume that $J$ has two different eigenvalues $\lambda$ and $\mu$. Either these eigenvalues are both real, or they form a complex conjugate pair
 
+If the matrix $J$ has two different real eigenvalues, then the solution $u(t)$ has the form
+
+$$
+u(t)=\alpha v e^{\lambda t} + \beta w e^{\mu t}
+$$
