@@ -241,6 +241,30 @@ is locally stable if linearization about $(x^*, y^*)$ yields a linear system wit
 >
 >$$
 >J(x,y) = \begin{pmatrix} f_x(x,y) & f_y(x,y) \\ g_x(x,y) & g_y(x,y)
-\end{pmatrix} = \begin{pmatrix}
+\end{pmatrix} = \begin{pmatrix}1-2x-\frac{1}{2}y & -\frac{1}{2}x \\ 2y & -1+2x \end{pmatrix}
 >$$
+>
+>We have already found the steady states, namely at the points $(0,0)$, $(1,0)$ and $(\frac{1}{2}, 1)$ as steady states $(x^*, y^*)$
+>
+>a) for the steady state $(0,0)$ we find the Jacobian matrix
+> 
+>$$
+>J(0,0) = \begin{pmatrix}-1 & -\frac{1}{2} \\ 0 & 1 \end{pmatrix}
+>$$ 
+>
+>with eigenvalues $\lambda = 1$ and $\mu = -1$. If $v$ and $w$ are the corresponding eigenvectors, the solution of the linearized system $u'(t)=Ju(t)$ is
+>
+>$$
+>u(t)=\alpha v e^t + \beta w e^{-t}
+>$$
+>
+>with coefficients $\alpha$ and $\beta$. Hence, the steady state is unstable; as $\lambda$ is a positive eigenvalue, the solutions run away from the steady state (provided that $\alpha \neq 0$)
+>
+>b) for the steady state $(1,0)$ we find
+>
+>$$
+>J(1,0) = \begin{pmatrix}-1 & -\frac{1}{2} \\ 0& 1 \end{pmatrix}
+>$$
+
+
 
