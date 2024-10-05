@@ -332,5 +332,14 @@ Again, we distinguish three cases
 >
 >The Jacobian matrix at the steady state $(1,0)$ has eigenvalues $\lambda = 1$ and $\mu=-1$, so $(1,0)$ is also a saddle point. The corresponding eigenvectors again show the repelling and attracting directions of the saddle point
 >
->The Jacobian matrix at the steady state $\left(\frac{1}{2} , 1 \right)$ has two complex eigenvalues: $\lambda = -\frac{1}{4} + \frac{1}{4} i \sqrt{7}$ and 
+>The Jacobian matrix at the steady state $\left(\frac{1}{2} , 1 \right)$ has two complex eigenvalues: $\lambda = -\frac{1}{4} + \frac{1}{4} i \sqrt{7}$ and $\mu = -\frac{1}{4} - \frac{1}{4} i \sqrt{7}$. The real part is negative, so $\left(\frac{1}{2} , 1 \right)$ is a stable vortex
+
+>[!Summary]
+>**First analysis of a non-linear system of ordinary differential equations**
+>
+>1. Find the steady states of the system
+>2. At each state, set up the Jacobian matrix
+>3. Use the eigenvalues of the Jacobian matrix to classify the steady states
+
+
 
