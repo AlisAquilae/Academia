@@ -36,5 +36,19 @@ $$
 The numerical approximation is found simply by omitting the limiting process; thus, the differential quotient is approximated with the difference quotient. 
 
 $$
-u(t+h)-u(t)
+\frac{u(t+h)-u(t)}{h} \cong u(t)
 $$
+
+now with $h$ a "fixed" number. 
+
+The approximation error decreases with decreasing $h$. This is underpinned by the following property: for $h$ small enough, the errors in the forward difference quotient is
+
+$$
+u'(t) - \frac{u(t+h)-u(t)}{h} \cong -\frac{1}{2} hu''(t)
+$$
+
+We conclude that for a smooth function, the error of the difference quotient is almost proportional to $h$.
+
+>[!Note]
+>Notice that the proportionality factor $\frac{1}{2} u''(t)$ is usually unknown
+
