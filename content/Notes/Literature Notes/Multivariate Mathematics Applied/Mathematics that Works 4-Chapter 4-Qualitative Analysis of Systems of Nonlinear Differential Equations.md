@@ -312,3 +312,25 @@ In this situation, we can distinguish three cases:
 2. If the eigenvalues are both positive, any solution of the linearized system runs away from the steady state. The steady state is unstable, and we call it an unstable node
 3. If $\lambda \gt 0$ and $\mu \lt 0$, the steady state is a saddle point. For $\alpha \neq 0$ we have $u(t) \cong \alpha v e^{\lambda t}$ as $t \to \infty$. Any solution with $a \neq 0$ will finally approach the eigenspace according to the eigenvalue $\lambda$. and therefore it will run away from the steady state. Hence, the steady state is unstable. A special case occurs for $\alpha = 0$. We then find $u(t)=\beta w e^{\mu t}$. Thus, for a solution $u(t)$ starting in the eigenspace corresponding to the eigenvalue $\mu$, we have $u(t) \to 0$ as $t \to \infty$
 
+If the eigenvalues of the matrix $J$ are complex, they form a pair of complex conjugates, $\lambda = a + bi$ and $\mu = a-bi$. Then solution of the differential equation is
+
+$$
+u(t) = u_1 e^{at}\cos(bt) + u_2e^{at}\sin(bt)
+$$
+
+Again, we distinguish three cases
+4. If $a \lt 0$, then $u(t) \to 0$ as $t \to \infty$. The sine and cosine terms cause a sipiralling movement around the steady state. The result is a vortex directed to the steady state. Such a steady state is called a stable vortex
+5. For $a \gt 0$ the solution curves spiral around the steady state too. In this case, however, the distance to the steady state increases with $t$. A steady state like this is called an unstable vortex
+6. For $a=0$ a special situation arises. In this case, the term $e^{at}$ in the solution equals 1, and we see that solution spiral around the steady state, neither towards it, nor away from it. The solution curves of the linearized system are eclipses. This steady state is called a (neutrally stable) centre
+
+>[!Example]
+>Continuing with the previous example.
+>
+>We previously found three steady states: $(0,0)$, $(1,0)$ and $\left(\frac{1}{2} , 1 \right)$. 
+>
+>The Jacobian matrix at the steady state $(0,0)$ has eigenvalues $\lambda = 1$ and $\mu = -1$, so this point is a saddle point. The corresponding eigenvectors give the repelling and attracting directions of the saddle point
+>
+>The Jacobian matrix at the steady state $(1,0)$ has eigenvalues $\lambda = 1$ and $\mu=-1$, so $(1,0)$ is also a saddle point. The corresponding eigenvectors again show the repelling and attracting directions of the saddle point
+>
+>The Jacobian matrix at the steady state $\left(\frac{1}{2} , 1 \right)$ has two complex eigenvalues: $\lambda = -\frac{1}{4} + \frac{1}{4} i \sqrt{7}$ and 
+
