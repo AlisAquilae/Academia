@@ -306,3 +306,9 @@ If the matrix $J$ has two different real eigenvalues, then the solution $u(t)$ h
 $$
 u(t)=\alpha v e^{\lambda t} + \beta w e^{\mu t}
 $$
+
+In this situation, we can distinguish three cases:
+1. If the eigenvalues are both negative, then $u(t) \to 0$ as $t \to \infty$, independent of the value of $\alpha$ and $\beta$. In this case, the steady state is stable, and it is called a stable node
+2. If the eigenvalues are both positive, any solution of the linearized system runs away from the steady state. The steady state is unstable, and we call it an unstable node
+3. If $\lambda \gt 0$ and $\mu \lt 0$, the steady state is a saddle point. For $\alpha \neq 0$ we have $u(t) \cong \alpha v e^{\lambda t}$ as $t \to \infty$. Any solution with $a \neq 0$ will finally approach the eigenspace according to the eigenvalue $\lambda$. and therefore it will run away from the steady state. Hence, the steady state is unstable. A special case occurs for $\alpha = 0$. We then find $u(t)=\beta w e^{\mu t}$. Thus, for a solution $u(t)$ starting in the eigenspace corresponding to the eigenvalue $\mu$, we have $u(t) \to 0$ as $t \to \infty$
+
