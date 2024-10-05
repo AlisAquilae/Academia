@@ -265,6 +265,28 @@ is locally stable if linearization about $(x^*, y^*)$ yields a linear system wit
 >$$
 >J(1,0) = \begin{pmatrix}-1 & -\frac{1}{2} \\ 0& 1 \end{pmatrix}
 >$$
+>
+>with eigenvalues $\lambda = 1$ and $\mu = -1$. We conclude that this steady state has the same stability characteristics as the steady state $(0,0)$
+>
+>c) for the steady state $(\frac{1}{2},1)$ the Jacobian matrix is
+>
+>$$
+>J\left(\frac{1}{2},1 \right) = \begin{pmatrix}-\frac{1}{2} & -\frac{1}{4} \\ 2 & 0 \end{pmatrix}
+>$$
+>
+>it has the characteristic equation
+>
+>$$
+>\lambda^2 + \frac{1}{2} \lambda + \frac{1}{2} = 0
+>$$
+>
+>so the eigenvalues are $\lambda = -\frac{1}{4} + \frac{1}{4} i \sqrt{7}$ and $\mu = -\frac{1}{4} - \frac{1}{4} i \sqrt{7}$. By taking real and imaginary parts (see [[Mathematics that Works 4-Chapter 2-Solving Scalar Differential Equations#2.8 Higher Order Differential Equations and Complex Numbers|Paragraph 2.8]]), we find the solutions of the linearized system $u'(t)=Ju(t)$ to be
+>
+>$$
+>u(t)=u_1 e^{-t/4}\cos(\frac{t}{4}\sqrt{7}) + \m
+>$$
+
+
 
 
 
