@@ -152,7 +152,60 @@ We assume that ($x^*, y^*$) is a steady state, and we write
 
 $$
 \begin{aligned}
-x(t) &= x^* + \
+x(t) &= x^* + \delta(t) \\
+y(t) &= y^* + \epsilon (t)
 \end{aligned}
 $$
 
+where $\delta (t)$ and $\epsilon (t)$ are the small perturbation form the steady state. Then the steady state is stable if the solution ($x(t),y(t)$ returns to the steady state
+
+Thus, the steady state ($x^*, y^*$) of the system of differential equations
+
+$$
+\left\{
+\begin{array}{ll}
+x'(t) &= f(x(t),y(t)) \\
+y'(t) &= g(x(t),y(t))
+\end{array}
+\right.
+$$
+
+is (locally) stable if, for small values of $\delta (0)$ and $\epsilon (0)$, the solution of
+
+$$
+\left\{
+\begin{array}{ll}
+x'(t) &= f(x(t),y(t)) \, , \, x(0) = x^* + \delta (0) \\
+y'(t) &= g(x(t),y(t)) \, , \, y(0) = y^* + \epsilon (0)
+\end{array}
+\right.
+$$
+
+satisfies $x(t) \to x^*$ and $y(t) \to y^*$ as $t \to \infty$. The steady state is (locally) unstable if it is not locally stable
+
+## 4.2.3 Linearization
+We study the stability of the steady state ($x^*, y^*$) by linearizing the system of differential equations about this steady state. To this end, we consider the deviation of a solution ($x(t),y(t))$ from the steady state ($x^*, y^*$). Here, the Jacobian matrix plays a central role
+
+The Jacobian matrix $J(x,y)$ of the system of differential equations
+
+$$
+\left\{
+\begin{array}{ll}
+x'(t) &= f(x(t),y(t)) \\
+y'(t) &= g(x(t),y(t))
+\end{array}
+\right.
+$$
+
+contains the partial derivatives of the right-hand side functions
+
+$$
+J(x,y) = \begin{pmatrix} f_x(x,y) & f_y(x,y) \\ g_x(x,y) & g_y(x,y)
+\end{pmatrix}
+$$
+
+In a first-order approximation, the deviations $x(t)-x^*$ and $y(t)-y^*$ of a solution ($x(t),y(t)$) from the steady state $(x^*, y^*)$ satisfy the linearized system of differential equations
+
+$$
+u'(t) = J(x^*, y^*)u(t) \, \text{ where } \, u(t) = \begin{pmatrix} x(t)-x^* \\ y(t)
+$$
