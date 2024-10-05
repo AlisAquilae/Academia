@@ -112,4 +112,13 @@ with $v_n = v(t_n)$. As this formula is to be applied repeatedly for increasing 
 >
 >results in the recursion
 >
->
+>$$
+>\left\{
+>\begin{array}{ll}
+>v_{n+1} &= v_n - hv_n^2 \, , \, n = 1,2,3,4,\dots \\
+>v_0 &= 1 
+>\end{array}
+>\right.
+>$$
+
+
