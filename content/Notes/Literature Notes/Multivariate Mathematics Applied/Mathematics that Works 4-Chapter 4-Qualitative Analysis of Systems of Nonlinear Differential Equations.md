@@ -207,5 +207,31 @@ $$
 In a first-order approximation, the deviations $x(t)-x^*$ and $y(t)-y^*$ of a solution ($x(t),y(t)$) from the steady state $(x^*, y^*)$ satisfy the linearized system of differential equations
 
 $$
-u'(t) = J(x^*, y^*)u(t) \, \text{ where } \, u(t) = \begin{pmatrix} x(t)-x^* \\ y(t)
+u'(t) = J(x^*, y^*)u(t) \, \text{ where } \, u(t) = \begin{pmatrix} x(t)-x^* \\ y(t)-y^* \end{pmatrix}
 $$
+
+The stability of the steady state $(x^*, y^*)$ of the non-linear system is closely connected with the stability of the steady state $(0,0)$ of the linearized system.
+
+The steady state $(x^*, y^*)$ of the system of differential equations
+
+$$
+\left\{
+\begin{array}{ll}
+x'(t) &= f(x(t),y(t)) \\
+y'(t) &= g(x(t),y(t))
+\end{array}
+\right.
+$$
+
+is locally stable if linearization about $(x^*, y^*)$ yields a linear system with a stable steady state at $(0,0)$. The steady state is locally unstable if linearization about $(x^*,y^*)$ yields a linear system with an unstable steady state at $(0,0)$
+
+>[!Example]
+>Consider a logistic prey-predator system
+>
+>$$
+>\left\{
+>\begin{array}{ll}
+>x'(t) &= f(x(t),y(t)) &= x(t)(1-x(t)-\frac{1})
+>\end{array}
+>\right/
+>$$
