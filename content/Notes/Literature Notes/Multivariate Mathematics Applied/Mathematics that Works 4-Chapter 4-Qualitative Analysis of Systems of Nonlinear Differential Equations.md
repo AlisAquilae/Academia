@@ -38,4 +38,79 @@ $$
 
 In particular, the steady state of a time-invariant system of linear differential equations can be found by solving a linear system of algebraic equations.
 
-For non-linear systems of differential equations, find
+For non-linear systems of differential equations, finding steady states is less straightforward
+
+>[!Example]
+>In [[Mathematics that Works 4-Chapter 1-Modelling Time-Dependent Processes#1.5 Modelling with Differential Equations|Paragraph 1.5]] we introduced the Lotka-Volterra model for two populations that live in one biotope. The first species, with density $x(t)$, is prey for the second species, the predator, with density $y(t)$. We model prey and predator together with two coupled differential equations
+>
+>$$
+>\left\{
+>\begin{array}{ll}
+>x'(t) &= r \, x(t) - \beta \, x(t) y(t) \\
+>y'(t) &= -\alpha \, y(t) + Y \, \beta \, x(t)y(t)
+>\end{array}
+>\right.
+>$$
+>
+>In a stationary state, the rates of change of both prey and predator are zero
+>
+>$$
+>\left\{
+>\begin{array}{ll}
+>0 &= r \, x(t) - \beta \, x(t) y(t) \\
+>0 &= -\alpha \, y(t) + Y \, \beta \, x(t)y(t)
+>\end{array}
+>\right.
+>$$
+>
+>As the steady state foes not vary with time, we may omit the variable $t$, thus
+>
+>$$
+>\left\{
+>\begin{array}{ll}
+>0 &= r \, x^* - \beta \, x^* y^* \\
+>0 &= -\alpha \, y^* + Y \, \beta \, x^* y^*
+>\end{array}
+>\right.
+>$$
+>
+>Systematically finding all solutions may be facilitated by factorizing the equations
+>
+>$$
+>\left\{
+>\begin{array}{ll}
+>x^*(r - \beta y^*) &= 0 \\
+>y^*(-\alpha + Y \beta x^*) &= 0
+>\end{array}
+>\right.
+>$$
+>
+>We combine the options for the first equation with options for the second equation to find
+>
+>$$
+>\left\{
+>\begin{array}{ll}
+>x^* &= 0 \\
+>y^* &= 0 \\
+>\end{array}
+>\right. \, \text{ or } \, 
+>\left\{
+>\begin{array}{ll}
+>x^* &= 0 \\
+>-\alpha + Y \beta x^* &= 0
+>\end{array}
+>\right. \, \text{ or } \, 
+>\left\{
+>\begin{array}{ll}
+>r - \beta y^* &= 0 \\
+>y^* &= 0
+>\end{array}
+>\right. \, \text{ or } \, 
+>\left\{
+>\begin{array}{ll}
+>r - \beta y^* &= 0 \\
+>-\alpha + Y\beta x^*
+>\end{array}
+>\right.
+>$$
+
