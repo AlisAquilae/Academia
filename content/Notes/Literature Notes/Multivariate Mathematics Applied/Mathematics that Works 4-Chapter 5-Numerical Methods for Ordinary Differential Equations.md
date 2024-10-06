@@ -212,4 +212,27 @@ $$
 v_{n+1} = v_n + hf(t_{n+1},v_{n+1})
 $$
 
+The difference quotient of Euler's Forward method
 
+$$
+v_{n+1}=v_n + hf(t_n,v_n)
+$$
+
+not only gives the definition of the approximation $v_n$, it also proposes a scheme for their calculation. Thus, if we have $v_0$ we can use it to directly calculate $v_{n+1}$. This is not the case for the difference equation of Euler's backward method
+
+$$
+v_{n+1} = v_n + hf(t_{n+1},v_{n+1})
+$$
+
+because in this equation also $f(t_{n+1}, v_{n+1})$ occurs, besides $v_{n+1}$. As long as $v_{n+1}$ is unknown, $f(t_{n+1},v_{n+1})$ cannot be calculated, and consequently $v_{n+1}$ cannot be determined directly. Instead, the above equation must be solved for $v_{n+1}$
+
+In the general case, where $f(t,u)$ is non-linear in $u$, we must determine each new value $v_{n+1}$ as the solution of a non-linear equation. The methods for which this is the case, such as Euler's backward, are called implicit, that is, the new iterate $v_{n+1}$ is defined implicitly. Methods that allow $v_{n+1}$ to be calculated directly, such as Euler forward, are called explicit
+
+For this reason, explicit methods appear to be more attractive than implicit methods. However, this ease of use of the explicit method comes at a price, in that explicit methods often have a less favourable error propagation. 
+
+## 5.2.5 Local Errors
+
+>[!Warning]
+>I skipped the derivation, and went straight for the conclusion
+
+The local error 
