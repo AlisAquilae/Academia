@@ -144,9 +144,37 @@ As stated above, the output of Euler's method is a table containing consecutive 
 >$$
 >v_1 = v_0 + hf(t_0,v_0) = v_0 + (-hv_0^2) = 1-0.1 = 0.9
 >$$
+>
+>Now our table looks as
+>
+> | $n$ | $t_n$ | $v_n$ | $f(t_n,v_n)$ | $hf(t_n,v_n)$ | $v_{n+1}$ |
+> | --- | ----- | ----- | ------------ | ------------- | --------- |
+> | 0   | 0     | 1     | -1           | -0.1          | 0.9       |
+>
+>For the second step, we move to the third row. Into its first two cells we write $1$ (the value of $n$) and $0.1$ (the value of $t_n = n_h$). Into the third cell comes $v_1$, and its value $v_1=0.9$ is copied from the sixth cell in the previous row. Into the fourth and fifth cell we write the values of $f(t_n,v_n)=-v_1^2=-(0.9)^2 = -0.81$ and $hf(t_n,v_n)=-0.081$. Finally, we compute $v_2$
+>
+>$$
+>v_2 = v_1 + hf(t_1,v_1) = 0.9 - 0.081 = 0.819
+>$$
+>
+>Thus, the first three rows of the table become
+>
+>| $n$ | $t_n$ | $v_n$ | $f(t_n,v_n)$ | $hf(t_n,v_n)$ | $v_{n+1}$ |
+>| --- | ----- | ----- | ------------ | ------------- | --------- |
+>| 0   | 0     | 1     | -1           | -0.1          | 0.9       |
+>| 1   | 0.1   | 0.9   | -0.81        | -0.081        | 0.819     |
+>
+>Next, we fill the fourth row. Into the second cell we write $n=2$ and $t_n=nh=0.2$. Into the third cell we copy the value $v_2=0.819$ from the sixth cell in the third row. Into the fourth and fifth cell we now write $f(t_2,v_2)=-v_2^2=-(0.819)^2 = -0.670761$ and $hf(t_2,v_2)=-0.0670761$. Next we write $v_3$ into the sixth cell,
+>
+>$$
+>v_3 = v_2 +hf(t_2,v_2)=0.819-0.0670761 = 0.7519239
+>$$
+>
+>Thus, the fourth rows of the table are
 
 
 
-| $n$ | $t_n$ | $v_n$ | $f(t_n,v_n)$ |     |
-| --- | ----- | ----- | ------------ | --- |
-|     |       |       |              |     |
+| $n$ | $t_n$ | $v_n$ | $f(t_n,v_n)$ | $hf(t_n,v_n)$ | $v_{n+1}$ |
+| --- | ----- | ----- | ------------ | ------------- | --------- |
+| 0   | 0     | 1     | -1           | -0.1          | 0.9       |
+| 1   | 0.1   | 0.9   | -0.81        | -0.081        | 0.819     |
