@@ -12,7 +12,7 @@ Related Courses: ["[[Multivariate Mathematics Applied]]"]
 ---
 # 3.2 Eigenvalues and Eigenvectors
 ## 3.2.1 Determinants
-The area of a parallellogram spanned by the vectors $a$ and $b$ is $|a_1 b_2 - a_2 b_1$. 
+The area of a parallellogram spanned by the vectors $a$ and $b$ is $|a_1 b_2 - a_2 b_1|$. 
 
 Inspired by this property, we now define the determinant of a $2\times 2$ matrix $A_{ij}$. This is the number $\det(A)=a_{11} a_{22} - a_{12} a_{21}$ 
 
