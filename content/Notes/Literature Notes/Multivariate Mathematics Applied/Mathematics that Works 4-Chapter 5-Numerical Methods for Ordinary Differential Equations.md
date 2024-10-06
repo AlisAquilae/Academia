@@ -235,4 +235,17 @@ For this reason, explicit methods appear to be more attractive than implicit met
 >[!Warning]
 >I skipped the derivation, and went straight for the conclusion
 
-The local error 
+The local error of Euler's forward and backward methods satisfy
+
+$$
+\delta_{n+1, \text{EF}} \cong \frac{1}{2} hu''(t_n) \, . \, \text{ and } \, \delta_{n+1,\text{EB}} \cong -\frac{1}{2} hu''(t_n)
+$$
+
+This property states that the local errors of Euler's forward and backward methods are proportional to $h$, for small values of the stepsize $h$. In general, the asymptotic proportionality factors $\frac{1}{2}u''(t)$ and $-\frac{1}{2}u''(t)$ are not known, since $u(t)$ itself is unknown. 
+
+## 5.2.6 The Trapezoidal Rule and the Runge-Kutta Method
+The trapezoidal rule (TR) converts differential equations into difference equations by 
+
+$$
+u'(t)=f(t,u(t))
+$$
