@@ -247,5 +247,13 @@ This property states that the local errors of Euler's forward and backward metho
 The trapezoidal rule (TR) converts differential equations into difference equations by 
 
 $$
-u'(t)=f(t,u(t))
+u'(t)=f(t,u(t)) \underset{\text{Trapezoidal rule}}{\to} v_{n+1} = v_n + \frac{1}{2}h \left[f(t_n,v_n) + f(t_{n+1},v_{n+1}) \right]
 $$
+
+Usually this method is more accurate than both Euler's methods are. This is readily seen by its local error for which we find
+
+$$
+\delta_{n+1, \text{TR}} \cong h^2 \Phi (u,t_n), \, \Phi(u,t_n) = -\frac{1}{12} u '''(t_n)
+$$
+
+The local error is now proportional to $h^2$. We therefore say that the trapezoidal rule has order 2/. Note that again the proportionality factor $-\frac{1}{12} u '''(t_n)$ is usually unknown. The local errors of Euler's methods are proportional to $h$; consequently, these methods have order 1. Therefore, we expect that the trapezoidal rule (which has order 2) has a smaller error and thus gives a more precise approximation. We must be cautious, however; the errors involve various unknown proportionality factors, and the stepsize $h$ must be sufficiently small.
