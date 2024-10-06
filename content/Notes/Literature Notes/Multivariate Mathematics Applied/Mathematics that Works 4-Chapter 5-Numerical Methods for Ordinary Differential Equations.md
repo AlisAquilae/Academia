@@ -257,3 +257,23 @@ $$
 $$
 
 The local error is now proportional to $h^2$. We therefore say that the trapezoidal rule has order 2/. Note that again the proportionality factor $-\frac{1}{12} u '''(t_n)$ is usually unknown. The local errors of Euler's methods are proportional to $h$; consequently, these methods have order 1. Therefore, we expect that the trapezoidal rule (which has order 2) has a smaller error and thus gives a more precise approximation. We must be cautious, however; the errors involve various unknown proportionality factors, and the stepsize $h$ must be sufficiently small.
+
+For an even more precise result we must resort to more complicated methods. The most common of these is the following Runge-Kutta method
+
+$$
+\begin{aligned}
+v(t_{n+1}) &= v(t_n) + \frac{1}{6} \left[ k_1 + 2k_2 + 2k_3 + k_4 \right] \, \text{ where } \, \\
+k_1 &= f(t_n,v(t_n)) \\
+k_2 &= f(t_n + \frac{1}{2}h,v(t_n)+\frac{1}{2}hk_1) \\
+k_3 &= f(t_n + \frac{1}{2}h, v(t_n) + \frac{1}{2}hk_2) \\
+k_4 &= f(t_{n+1},v(t_n)+hk_3)
+\end{aligned}
+$$
+
+For this Runge-Kutta method, the local error has the form of
+
+$$
+\delta_{n, \text{RK}} \cong h^4 \Phi (f,u;t_n)
+$$
+
+
