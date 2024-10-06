@@ -171,10 +171,45 @@ As stated above, the output of Euler's method is a table containing consecutive 
 >$$
 >
 >Thus, the fourth rows of the table are
+>
+> | $n$ | $t_n$ | $v_n$ | $f(t_n,v_n)$ | $hf(t_n,v_n)$ | $v_{n+1}$ |
+> | --- | ----- | ----- | ------------ | ------------- | --------- |
+> | 0   | 0     | 1     | -1           | -0.1          | 0.9       |
+> | 1   | 0.1   | 0.9   | -0.81        | -0.081        | 0.819     |
+> | 2   | 0.2   | 0.819 | -0.670761    | -0.0670761    | 0.7519239 |
+> 
+> For comparison, the real solution $u(t)$ of the differential equation is
+> 
+> $$
+> u(t)=\frac{1}{t+1}
+> $$
+> 
+> so $u(t_1)=0.90909091$, $u(t_2)=0.83333333$ and $u(t_3)=0.76923077$. The approximation contains a slowly increasing error. This was to be expected, since we stack approximation upon approximation, and consequently error upon error
 
 
+## 5.2.4 Euler's Backward Method; Implicit and Explicit Methods
+Instead of using a forward difference quotient (where $h$ is thought to be positive), we can also apply the difference quotient backward to the derivative in the differential equation
 
-| $n$ | $t_n$ | $v_n$ | $f(t_n,v_n)$ | $hf(t_n,v_n)$ | $v_{n+1}$ |
-| --- | ----- | ----- | ------------ | ------------- | --------- |
-| 0   | 0     | 1     | -1           | -0.1          | 0.9       |
-| 1   | 0.1   | 0.9   | -0.81        | -0.081        | 0.819     |
+$$
+u'(t)=f(t,u(t))
+$$
+
+We then get
+
+$$
+\frac{u(t+h)-u(t)}{h} \cong f(t+h,u(t+h)) \,  \Rightarrow \, u(t+h) \cong u(t)+hf(t+h,u(t+h))
+$$
+
+This way to convert a differential equation into a difference equation is called Euler's Backward Method (EB):
+
+$$
+u'(t)=f(t,u(t)) \underset{\text{Euler Backward}}{\to} v(t+h) = v(t) + hf(t+h,v(t+h))
+$$
+
+Writing $t_n=t_0 + nh$ we find a series of approximations $v_n$ for $u(t_n)$ through the formula
+
+$$
+v_{n+1} = v_n + hf(t_{n+1},v_{n+1})
+$$
+
+
