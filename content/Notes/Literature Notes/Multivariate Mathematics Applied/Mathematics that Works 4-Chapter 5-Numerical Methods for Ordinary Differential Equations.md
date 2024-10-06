@@ -283,4 +283,25 @@ The Runge-Kutta method has order 4. For a small stepsize $h$, we expect the resu
 This implementation of the Runge-Kutta method is relatively simple for a such a high order method. This simplicity makes it very popular. 
 
 ## 5.2.7 Systems of Ordinary Differential Equations
-Instead of a function $u(t)$ with real function values, we can also consider functions $U(t)$ which values are vectors in R$^q#$
+Instead of a function $u(t)$ with real function values, we can also consider functions $U(t)$ which values are vectors in R$^q$. In this way, the numerical methods can easily be extended to systems of differential equations. For example, Euler's forward method applied to the system of differential equations
+
+$$
+\left\{
+\begin{aligned}
+x'(t) &= f(t,x(t),y(t)) \\
+y'(t) &= g(t,x(t),y(t))
+\end{aligned}
+\right.
+$$
+
+results in a system of difference equations
+
+$$
+\left\{
+\begin{aligned}
+x_{n+1} &= x_n + hf(t_n,x_n,y_n) \\
+y_{n+1} &= y_n + hg(t_n,x_n,y_n)
+\end{aligned}
+\right.
+$$
+
