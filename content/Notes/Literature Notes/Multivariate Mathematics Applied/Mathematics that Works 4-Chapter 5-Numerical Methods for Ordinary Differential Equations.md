@@ -122,3 +122,31 @@ with $v_n = v(t_n)$. As this formula is to be applied repeatedly for increasing 
 >$$
 
 
+## 5.2.3 Implementation of Euler's Method in a Table
+As stated above, the output of Euler's method is a table containing consecutive approximations $v(t_n)$ for $u(t_n)$ for increasing values of $t_n$. Obviously, for interpreting the results ir is probably much better to present this output in the form of a graph; however, we must first generate numbers, e.g. using Excel or any programming language
+
+>[!Example]
+>We approximate the solution $u(t)$ of the initial value problem
+>
+>$$
+>\left\{
+>\begin{array}{ll}
+>u'(t) &= -u(t)^2 \\
+>u(0) &= 1
+>\end{array}
+>\right.
+>$$
+>
+>with Euler's forward method using a stepsize $h=0.1$. In this case, we have $f(t,u)=-u^2$, $t_0=0$ is the initial time and we take $v_0=u(0)=1$
+>
+>We organise our work in a tabke. Consecutively, its first three columns contain the step number $n$, the corresponding time $t_n$, and the approximate value $v_n$. Next, we use some auxiliary columns to store $f(t_n, v_n)=-v_n^2$ and $hf(t_n,v_n)$. So we start with $0$ (the value of $n$), $0$ (the value of $t_0$) and $1$ (the value of $v_0$). Next, we write $f(t_0,v_0)=-v_0^2 =-1$ and $hf(t_0,v_0)=0.1 \cdot -1 = -0.1$. Finally, we compute $v_1$ and write this into the sixth column
+>
+>$$
+>v_1 = v_0 + hf(t_0,v_0) = v_0 + (-hv_0^2) = 1-0.1 = 0.9
+>$$
+
+
+
+| $n$ | $t_n$ | $v_n$ | $f(t_n,v_n)$ |     |
+| --- | ----- | ----- | ------------ | --- |
+|     |       |       |              |     |
