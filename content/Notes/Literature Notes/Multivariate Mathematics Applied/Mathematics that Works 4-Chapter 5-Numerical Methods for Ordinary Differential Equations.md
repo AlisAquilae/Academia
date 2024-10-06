@@ -276,4 +276,11 @@ $$
 \delta_{n, \text{RK}} \cong h^4 \Phi (f,u;t_n)
 $$
 
+where $\Phi (f,u;t)$ is a function of $t$ that has a rather complicated dependence upon the derivatives of $u(t)$ and $f(t,u)$. 
 
+The Runge-Kutta method has order 4. For a small stepsize $h$, we expect the results of this method to be more accurate than that of Euler's methods and the trapezoidal rule, at the same $h$.
+
+This implementation of the Runge-Kutta method is relatively simple for a such a high order method. This simplicity makes it very popular. 
+
+## 5.2.7 Systems of Ordinary Differential Equations
+Instead of a function $u(t)$ with real function values, we can also consider functions $U(t)$ which values are vectors in R$^q#$
