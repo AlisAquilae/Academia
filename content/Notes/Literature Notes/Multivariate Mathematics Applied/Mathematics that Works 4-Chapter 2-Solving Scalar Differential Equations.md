@@ -403,7 +403,7 @@ can be solved with separation of variables only if $b(t)=ka(t)$ for some constan
 
 
 Thus, we find the following algorithm for linear inhomogeneous differential equations, also known as the variation of constants:
-1. Using separation of variables, find a non-zero solution $x_h(t) of the corresponding homogeneous equation $x'(t) = a(t)x(t)$. Its multiples $C x_h(t)$ constitute the general solution of the homogeneous equation
+1. Using separation of variables, find a non-zero solution $x_h(t)$ of the corresponding homogeneous equation $x'(t) = a(t)x(t)$. Its multiples $C x_h(t)$ constitute the general solution of the homogeneous equation
 2. Construct the general solution of the inhomogeneous differential equation:
    a.  Write the solution of the inhomogeneous equation as $x(t)=u(t)x_h(t)$
    b. Substitute this into the inhomogeneous differential equation, and derive an expression for $u'(t)$
@@ -485,7 +485,7 @@ A linear homogeneous differential equation with constant coefficients can easily
 >Division by $e^{\lambda t}$ gives the characteristic equation
 >
 >$$
->$\lambda^2 + 3\lambda + 2 =0
+>\lambda^2 + 3\lambda + 2 =0
 >$$
 >
 >which has solutions
