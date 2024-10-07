@@ -240,8 +240,15 @@ is locally stable if linearization about $(x^*, y^*)$ yields a linear system wit
 >The Jacobian matrix of this system at an arbitrary point $(x,y)$ is
 >
 >$$
->J(x,y) = \begin{pmatrix} f_x(x,y) & f_y(x,y) \\ g_x(x,y) & g_y(x,y)
-\end{pmatrix} = \begin{pmatrix}1-2x-\frac{1}{2}y & -\frac{1}{2}x \\ 2y & -1+2x \end{pmatrix}
+>J(x,y) = 
+>\begin{pmatrix} 
+>f_x(x,y) & f_y(x,y) \\ 
+>g_x(x,y) & g_y(x,y) 
+>\end{pmatrix} = 
+>\begin{pmatrix}
+>1-2x-\frac{1}{2}y & -\frac{1}{2}x \\ 
+>2y & -1+2x 
+>\end{pmatrix}
 >$$
 >
 >We have already found the steady states, namely at the points $(0,0)$, $(1,0)$ and $(\frac{1}{2}, 1)$ as steady states $(x^*, y^*)$
