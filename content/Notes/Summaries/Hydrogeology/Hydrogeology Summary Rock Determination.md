@@ -29,4 +29,19 @@ Magma is a liquid mixture of silicates and oxides with different melting points.
 
 Most of the magma is produced in the Earth crust, where the most frequent particles present are oxygen and silica. This makes sense, because they are the basis of almost all mineral structures.
 
-The standard configuration of silica and oxygen dominated materials (silicates) is $\ce{SiO4}$, which is a pyramid like structure, with in the centre $\ce{Si}$ and at the four corners $\ce{O}$. This standard configuration is negatively charged, so metal atoms are added to
+The standard configuration of silica and oxygen dominated materials (silicates) is $\ce{SiO4}$, which is a pyramid like structure, with in the centre $\ce{Si}$ and at the four corners $\ce{O}$. This standard configuration is negatively charged, so metal atoms are added to neutralize the mineral. This makes the mineral (in general) dark coloured. At the other end of the spectrum, all oxygen atoms are shared with another silica atom. This brings a pyramid structure with one silica and four shared oxygen atoms which all bring one negative charge to the structure (instead of two). The relative share $\ce{SI}$ and $\ce{O}$ is then $\ce{SiO2}$. This structure is neutral so does not have to be neutralized by metal atoms. This makes the mineral (in general) light coloured
+
+>[!Important]
+>The group of minerals which have $\ce{SiO4}$ as a basis is called the [[Olivine Group]]. When the pyramid structures are linked in a single string they are part of the [[Pyroxene Group]], and when they are linked in a double ring they belong to the [[Amphibole Group]]. 
+
+
+>[!Important]
+>When the oxygen sharing increases, then the strong chemical bindings increase, which make the mineral stronger (more difficult to weather them). The [[Phyllosilicates]] have strong chemical bindings in two dimensions and weak Van der Waals bindings in the third dimension. These are platy materials. When all oxygen atoms are shared it makes the [[Tectosilicates]] with strong bindings in all three dimensions. 
+
+
+## Igneous Rocks
+All these different mineral-compositions can be captured in a single simplified figure. 
+
+![[Pasted image 20241022152301.png]]
+
+On the x-axis you find the percentage of $\ce{SiO2}$ in the melt. At the right hand side of the scale there is about 40% of $\ce{SiO2}$ and thus
