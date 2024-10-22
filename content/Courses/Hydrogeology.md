@@ -52,14 +52,7 @@ Finally, the course engages with some papers
 
 
 # 🔗 Summaries
-## Literature & Lectures
+
 - [[Hydrogeology Summary Physical Hydrogeology]]
 - [[Hydrogeology Summary Generic Hydrogeological Systems]]
-
-## Numerical Modelling
-
-
-## Practicals
-
-
-[[test]]
+- [[Hydrogeology Summary Rock Determination]]

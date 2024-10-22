@@ -1,14 +1,14 @@
 ---
 fileClass: Base, Literature Notes
 title: 
-Parents: 
+Parents: ["[[Multivariate Mathematics Applied]]"]
 Draft: 
-Status: 
+Status: Done
 Authors: 
 Year of Publication: 
 Related Notes: 
 Related Terminology: 
-Related Courses: 
+Related Courses: ["[[Multivariate Mathematics Applied]]"]
 ---
 # 5.1 Introduction
 We have discussed methods to solve ordinary differential equations (ODEs) by means of separation of variables and variation of constants. In practice, the scope of these so-called analytical methods is limited. Therefore it may be necessary to resort to numerical approximation methods. In this chapter we discuss simple methods to approximate the solution $u(t)$ of the initial value problem
