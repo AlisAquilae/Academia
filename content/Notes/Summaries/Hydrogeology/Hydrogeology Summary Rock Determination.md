@@ -49,3 +49,4 @@ On the x-axis you find the percentage of $\ce{SiO2}$ in the melt. At the right h
 As we can see, the olivine, pyroxene, amphibole and biotite groups are considered to be dark coloured minerals and the quartz and felspar groups are considered to be light coloured minerals. 
 
 ### Intrusive Rocks
+We can make a distinction between introduce and extrusive igneous rocks. The difference between the two lies
