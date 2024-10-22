@@ -44,4 +44,8 @@ All these different mineral-compositions can be captured in a single simplified 
 
 ![[Pasted image 20241022152301.png]]
 
-On the x-axis you find the percentage of $\ce{SiO2}$ in the melt. At the right hand side of the scale there is about 40% of $\ce{SiO2}$ and thus
+On the x-axis you find the percentage of $\ce{SiO2}$ in the melt. At the right hand side of the scale there is about 40% of $\ce{SiO2}$ and thus 60% of minerals with a higher share of oxygen (in the direction to or at $\ce{SiO4}$). At the left hand side of the scale there is even 70% of $\ce{SiO2}$ and only 30% with a higher share of oxygen. 
+
+As we can see, the olivine, pyroxene, amphibole and biotite groups are considered to be dark coloured minerals and the quartz and felspar groups are considered to be light coloured minerals. 
+
+### Intrusive Rocks
