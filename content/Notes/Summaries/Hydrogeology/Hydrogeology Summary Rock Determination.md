@@ -49,4 +49,13 @@ On the x-axis you find the percentage of $\ce{SiO2}$ in the melt. At the right h
 As we can see, the olivine, pyroxene, amphibole and biotite groups are considered to be dark coloured minerals and the quartz and felspar groups are considered to be light coloured minerals. 
 
 ### Intrusive Rocks
-We can make a distinction between introduce and extrusive igneous rocks. The difference between the two lies
+We can make a distinction between intrusive (magmatic) and extrusive (volcanic) igneous rocks. The difference between the two lies in the time the rocks have to cool down. Intrusive rocks are stuck inside the earth and will therefore cool down slowly. When it comes to surface it will cool down relatively fast, and is called extrusive. Differences between the two in mineral composition are due to the time-difference the magma has had to cool down. Intrusive rocks cool down slowly, enabling minerals to grow; extrusive rocks cool down fast, resulting in a rock with small minerals.
+
+Examples of intrusive igneous rocks are
+- Granite
+- Diorite
+- Gabbro
+
+### Extrusive Rocks
+As explained above, extrusive (volcanic) rocks were formed by lava coming to the surface and cooling down relatively quickly. 
+
