@@ -99,4 +99,27 @@ Examples of solid (consolidated) sedimentary rocks are:
   - Siltstone (from silt)
   - Schale (from clay)
 
-Consolidated rocks, which are constructed from particles in the size of the sand fraction (63 $\mu$m to 2 mm), will be, independent of the composiution of these particles, 
+Consolidated rocks, which are constructed from particles in the size of the sand fraction (63 $\mu$m to 2 mm), can be described as arenite (psammite), independent of the composition of these particles. A sandstone thus belongs to this group, but also arkose and grauwacke. The rocks with particles smaller than the sand fraction are also called lutite (pelite). 
+
+>[!Info]
+>The names lutite, siltstone and shale are often used for the same material.
+
+For rocks with particles larger than the sand fraction, the conglomerate and breccia, are called rudite (psephite). 
+
+The vast majority (99%) of the sediments in the world consists of the different forms of sand, clay and chalk/limestone
+
+>[!Warning]
+>Skipped the other 2
+
+
+## Metamorphic Rock
+Matter (elements as well as compounds) can develop totally different properties under changing temperature and pressure. The visible characteristics and the physical properties can be very different. 
+
+Rocks can, because of the increase of temperature and pressure, reach the limit of stability. Their specific  form then gets unstable. The in the original mineral abundant atoms will search for a configuration that is stable under the new conditions. It is important to realize that metamorphosis is a process in solid rock. Since the mobility of ions in solid rock is extremely slow, this is a very slow process. This is in contrast to a chemical reaction in a fluid or gas. 
+
+Because of the total recrystallization during the metamorphose also the fossils in the rock will be part of the metamorphose. In metamorphic rocks there are thus never fossils.
+
+Metamorphose is in fact the stadium between diagenesis and the melting of the rocks
+
+>[!Important]
+>When a rock melts completely and cools down again it does not belong to the metamorphic rocks anymore, but to the magmatic rocks. This because only the chemical composition resemble
