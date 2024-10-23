@@ -289,6 +289,3 @@ where $S_s$ is the [[Specific Storage]] term, and represents the volume of water
 >[!Info]
 >Storativity values are dimensionless and range in value from 0.005 to 0.00005 such that large head changes over extensive areas are required to produce significant yields from confined aquifers.
 
-
-
-[[Discharge]]
