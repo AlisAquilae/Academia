@@ -74,6 +74,29 @@ These rocks develop from other rocks, like igneous, metamorphic or even sediment
 >If a material is only weathered, but not (yet) transported and deposited it is not called a sediment but a regolith layer
 
 In sedimentary rocks three groups can be distinguished:
-1. [[Clastic Sediments]]: particles transported by water, ice or wind, or a combination of the three
-2. Chemical Sediments: Precipitated from oversaturated solutions
-3. Organic Sediments: From organic ma
+1. [[Clastic Sediments]]: particles transported by water, ice or wind, or a combination of the three. These are formed by all sediments that originate from transport processes, so from clay to gravel layers
+2. Chemical Sediments: Precipitated from oversaturated solutions. For example iron ore, halite, gypsum (and some limestones)
+3. Organic Sediments: From organic material (flora, fauna). For example some limestones, peat and (brown) coal
+
+The process of diagenesis / lithification / solidification refers to rocks becoming harder and firmer, meaning they can only be broken by a hammer. The mineral composition is often changed in the process as well. Lithification will gradually change, with increasing temperature and pressure, into metamorphose. As the boundary normally a temperature of 200 degrees Celsius is used. 
+
+There are two types of diagenesis:
+1. Reduction of volume: this is reached by the compression / compaction or though solution at large depth
+2. Mineralogical changes: these are the result of chemical processes between pore water and the minerals, often as cementing. The cementing process during diagenesis consists of the removal of water from the pores and the filling of the pores with new formed minerals. 
+
+The fossils in the rock material will not be influenced by the diagenesis. The presence of fossils is therefore a nice difference between diagenesis and metamorphism
+
+### Clastic Sediments
+Examples of solid (consolidated) sedimentary rocks are:
+- Coarse
+  - Conglomerate (rounded rock fragments)
+  - Breccia (angular rock fragments)
+- Moderately coarse
+  - Sandstone (from sand)
+  - Arkose (coarse sandstone with a lot of felspar)
+  - Grauwacke (idem, but less felspar)
+- Fine
+  - Siltstone (from silt)
+  - Schale (from clay)
+
+Consolidated rocks, which are constructed from particles in the size of the sand fraction (63 $\mu$m to 2 mm), will be, independent of the composiution of these particles, 
