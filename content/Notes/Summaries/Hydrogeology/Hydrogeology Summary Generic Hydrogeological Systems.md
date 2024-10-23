@@ -28,5 +28,13 @@ The dunes are an important groundwater body in lowland coastal areas as a result
 The depth of the fresh water lens ($z$ in m) below sea level is according to the [[Ghyben-Herzberg Principle]] equal to:
 
 $$
-z = \frac{\rho_f}{}
+z = \frac{\rho_f}{\rho_s - \rho_f}h_f
 $$
+
+in which
+- $\rho_f$ is the fresh water density
+- $\rho_s$ is the salt water density
+- $h_f$ is the convexity of the groundwater table
+
+Assuming a density of the salt and fresh groundwater of respectively 1025 and 1000 the thickness of the fresh water lens can be calculated as $z=40h_f$. Thus, with a convexity of only a few meters, fresh water lenses underneath coastal areas can possibly be several hundreds of meters thick
+
