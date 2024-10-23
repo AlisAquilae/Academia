@@ -122,4 +122,11 @@ Because of the total recrystallization during the metamorphose also the fossils 
 Metamorphose is in fact the stadium between diagenesis and the melting of the rocks
 
 >[!Important]
->When a rock melts completely and cools down again it does not belong to the metamorphic rocks anymore, but to the magmatic rocks. This because only the chemical composition resemble
+>When a rock melts completely and cools down again it does not belong to the metamorphic rocks anymore, but to the magmatic rocks. This because only the chemical composition resembles the original rock
+
+
+The minerals of metamorphic rock experience during their metamorphose often a high and directed pressure. This results in layered structures. Common examples are:
+- Slate: a fine-grained rock, developed from clay, with a strong cleavage preference in one direction (low-graded metamorphose)
+- Phyllite: Slightly coarser rock than slate with a silvery or greenish lustre.
+- Schist: A rather coarse-grained rock with parallel structures and clearly visible micas
+- Gneiss: Coarse grained with clearly visible parallel structures of micas and felspars, characterized by a coarse layering. High grade metamorphose
