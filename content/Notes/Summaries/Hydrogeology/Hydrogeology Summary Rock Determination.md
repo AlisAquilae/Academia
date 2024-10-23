@@ -57,5 +57,23 @@ Examples of intrusive igneous rocks are
 - Gabbro
 
 ### Extrusive Rocks
-As explained above, extrusive (volcanic) rocks were formed by lava coming to the surface and cooling down relatively quickly. 
+As explained above, extrusive (volcanic) rocks were formed by lava coming to the surface and cooling down relatively quickly. Therefore, it had not much time to form large (visible) minerals. Even though the chemical composition can be identical to the intrusive equivalent, the colour of the rock is duller.
 
+Examples of extrusive rocks are
+- Rhyolite (not very common, because lava with this chemical composition has a high viscosity, and therefore most lava will solidify inside the earth and become granite)
+- Andesite
+- Basalt
+- Tuff
+
+## Sedimentary Rocks
+These rocks develop from other rocks, like igneous, metamorphic or even sedimentary rock under the influence of exogenic processes. These are the processes at the earth surface like weathering, transport and deposition by wind, water, ice and organisms. Some sedimentary rocks are weathered, transported and deposited only once. 
+- When material is weathered, eroded and sedimented only once it is called a monocyclic sediment
+- When there is repetition of weathering, transportation and deposition, the result is called a polycyclic sediment. In these polycyclic sediments often the easily weatherable dark minerals are gone and only the poor quartz and some felspars remain. 
+
+>[!Note]
+>If a material is only weathered, but not (yet) transported and deposited it is not called a sediment but a regolith layer
+
+In sedimentary rocks three groups can be distinguished:
+1. [[Clastic Sediments]]: particles transported by water, ice or wind, or a combination of the three
+2. Chemical Sediments: Precipitated from oversaturated solutions
+3. Organic Sediments: From organic ma
