@@ -62,4 +62,30 @@ The geomorphology of deltas is largely determined by which of the three main del
 
 River-dominated deltas form where large rivers carrying much sediment debouch into a sea with very little wave and tidal activity. These deltas protrude into the sea strongly, with distributaries building narrow, sometimes branching lobes. The birdfoot-shaped Mississippi delta is a classic example of this delta type
 
-Deltas that are subject to high wave energy, while the tidal range is limited, are called wave-dominated deltas
+Deltas that are subject to high wave energy, while the tidal range is limited, are called wave-dominated deltas. These deltas are characterized by a smooth coastline modelled by strong longshore drift of sediment and extend not far into the sea. Beach ridges are very well developed in this type of delta. The Rhone and Senegal deltas are examples of this delta type
+
+Tide-dominated deltas form under influence of strong tidal currents, while wave-energy is limited. These deltas usually have very irregular shorelines with many river mouths and tidal creeks. River mouths of these deltas are wide and funnel-shaped estuaries due to scour by tidal currents. The Irrawaddy and Ganges-Brahmaputra deltas are examples of this delta type
+
+While this tripartite division of deltas provides a useful framework for analysing delta geomorphology, it has been argued that at least one important factor is not included in this approach. The grain size of the sediments supplied to the delta determines the delta morphology in a number of ways:
+1. It influences the gradient of the delta plain and the river channel pattern;
+2. It influences the mixing behaviour of the sediment when it enters the sea;
+3. It influences the type of shoreline and its response to wave and tidal energy, and;
+4. It influences deformation and resedimentation processes on the subaqueous delta front. 
+
+For these reasons, grain size should be added as a fourth axis to the triangle diagram above to enable a more comprehensive classification. 
+
+>[!Missing]
+>Insert Figure 1.6
+
+
+---
+# 1.4 The Sedimentary Architecture of Deltas
+## 1.4.1 General Stratigraphy
+A simple ('ideal') delta sediment body id composed of three types of beds. When viewed in a cross-section perpendicular to the coastline one can distinguish in an upward direction: (1) bottomset or toeset beds, (2) foreset or frontset beds, and (3) topset beds
+
+>[!Missing]
+>Insert Figure 1.7
+
+The bottomset beds are slightly included seaward and consist of fine material (clay and silt) that has been deposited in deep water in front of the larger part of the delta body from suspension during floods. This material has been transported by sediment gravity flows (turbidity currents) along the sea bottom. 
+
+The foreset beds are much steeper inclined s
