@@ -3,12 +3,12 @@ fileClass: Base, Courses
 title: 
 Parents: ["[[index]]"]
 Draft: 
-Status: In Progress
+Status: Done
 Course Code: 
-Period: 
-Duration: 
-Timeslot: 
-Year: 
+Period: 5
+Duration: Second Half
+Timeslot: Morning
+Year: 2024
 ---
 # 🔎 Introduction
 The course is a basic course in applied mathematics relevant to life sciences and environmental sciences and technological programmes at Wageningen University. Subjects from analysis and matrix and vector algebra are treated, including applications. The course aims at acquiring mathematical knowledge, insight and skills that are important for the different programmes. An important theme is the use of simple mathematical models and, in particular, the use of matrices as a model for describing the behaviour of a population as a function of time. 

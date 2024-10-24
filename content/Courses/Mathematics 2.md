@@ -3,7 +3,7 @@ fileClass: Base, Courses
 title: 
 Parents: ["[[index]]"]
 Draft: 
-Status: In Progress
+Status: Done
 Course Code: MAT14903
 Period: "5"
 Duration: First Half
