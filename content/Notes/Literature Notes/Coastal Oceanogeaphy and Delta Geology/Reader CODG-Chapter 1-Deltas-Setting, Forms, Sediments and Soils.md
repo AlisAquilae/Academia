@@ -36,5 +36,30 @@ It is important to realize that deltas are the ultimate product of hydraulic for
 Deltas usually build out on a relatively flat and shallow part of the seafloor, called the **continental shelf**. A wide continental shelf means that deltas can, relatively rapidly, grow seaward for a considerable distance. When approaching the deeper waters near the shelf edge, seaward extension of a delta slows down because the volume of sediments needed for subaerial delta growth then strongly increases.
 
 What is needed for a large delta to form?
-1. *A large river system delivering a lot of sediment*: Such river systems usually have a large catchment and drain major parts of the continent. Obviously, large rivers also require high participation over the catchment, which is especially the case in (monsoonal) tropical climates. Additionally, sediment production in the catchment is strongly enhanced if the catchment has a high relief with strong mechanical weathering in large high altitude areas. Also tectonic activity may contribute to high sediment production. Given these factors, it cannot be a surprise that the largest delta in the world is the Ganges-Brahmaputra delta. This delta is formed by mega-rivers that drain the tectonically active Himalayas. Moreover, the catchment is subjected to very high precipitation in a tropical monsoonal climate
-2. *A shallow sea, i.e. a wide continental shelf*: Deltas form on the margins of continents. These margins can be either geologically active or passive. Active continental margins are characterized by deep-sea troughs where seafloor (oceanic plate) dips under the continent (continental plate) in a process called **subduction**. In this situation the bottom of the sea slopes steeply from the coast to the deep sea and there is no substantial continental shelf that can host a large delta. Passive continental margins, on the other hand, are characterized by a (wide) continental shelf, which actually is the submerged part of the continent, and absence of a subduction zone. Large deltas tend to form in tec
+1. *A large river system delivering a lot of sediment*: Such river systems usually have a large catchment and drain major parts of the continent. Obviously, large rivers also require high precipitation over the catchment, which is especially the case in (monsoonal) tropical climates. Additionally, sediment production in the catchment is strongly enhanced if the catchment has a high relief with strong mechanical weathering in large high altitude areas. Also tectonic activity may contribute to high sediment production. Given these factors, it cannot be a surprise that the largest delta in the world is the Ganges-Brahmaputra delta. This delta is formed by mega-rivers that drain the tectonically active Himalayas. Moreover, the catchment is subjected to very high precipitation in a tropical monsoonal climate
+2. *A shallow sea, i.e. a wide continental shelf*: Deltas form on the margins of continents. These margins can be either geologically active or passive. Active continental margins are characterized by deep-sea troughs where seafloor (oceanic plate) dips under the continent (continental plate) in a process called **subduction**. In this situation the bottom of the sea slopes steeply from the coast to the deep sea and there is no substantial continental shelf that can host a large delta. Passive continental margins, on the other hand, are characterized by a (wide) continental shelf, which actually is the submerged part of the continent, and absence of a subduction zone. Large deltas tend to form in tectonic lows (e.g. graben structures) of the continental shelves along passive continental margins. An example of a large delta formed in such a setting is the Niger delta
+
+>[!Missing]
+>Insert image 1.4
+
+Of course, not all deltas form in the ideal geological setting outlined above. Deltas form in any place where a river carrying sediment enters a standing body of water. Many, often relatively small, deltas fill up bays and drowned valleys, and do not form as a part of a coastal plain. In that case, the typical delta shape is less developed. An example of a small delta in a less typical setting is the Sacramento-San Joaquin delta that has formed in San Francisco Bay on an active continental margin. 
+
+>[!Summary]
+>Factors promoting delta formation
+>1. Much sediment deposition
+>   - Large river with large catchment area
+>   - Much precipitation (especially the case in monsoonal tropical climates)
+>   - Much mechanical weathering due to high elevation
+>   - High tectonic activity
+>2. Shallow sea / wide continental shelf
+
+---
+# 1.3 Delta Types
+The geomorphology of deltas is largely determined by which of the three main delta-forming forces dominates: (1) river input, (2) wave energy, or (3) tidal energy. Deltas can be plotted in a triangle diagram, in which the extreme corners represent strong dominance of one of these three forces. It should be remembered, however, that most deltas take an intermediate position in this diagram, with two or three of the mentioned forces influencing delta morphology
+
+>[!Missing]
+>Insert Figure 1.5
+
+River-dominated deltas form where large rivers carrying much sediment debouch into a sea with very little wave and tidal activity. These deltas protrude into the sea strongly, with distributaries building narrow, sometimes branching lobes. The birdfoot-shaped Mississippi delta is a classic example of this delta type
+
+Deltas that are subject to high wave energy, while the tidal range is limited, are called wave-dominated deltas
