@@ -15,7 +15,7 @@ async function newNote() {
         (await tp.file.move("/Media/" + tp.file.title));
     } else {
         // Suggester for course selection
-        course = await tp.system.suggester(["Multivariate Mathematics Applied", "Hydrogeology", "Water 1", "Water 2", "Mathematics 2", "Mathematics 3", "Water Quantity and Quality"], ["Multivariate Mathematics Applied", "Hydrogeology", "Water 1", "Water 2", "Mathematics 2", "Mathematics 3", "Water Quantity and Quality"], true);
+        course = await tp.system.suggester(["Hydrogeology", "Water 1", "Water 2", "Coastal Oceanogeaphy and Delta Geology"], ["Hydrogeology", "Water 1", "Water 2", "Coastal Oceanogeaphy and Delta Geology"], true);
 
         // Find note type base
         noteType = await tp.system.suggester(["Courses", "Notes", "Terminology", "Questions"], ["Courses", "Notes", "Terminology", "Questions"], true);

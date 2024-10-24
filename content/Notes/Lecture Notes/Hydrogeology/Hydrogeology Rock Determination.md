@@ -9,14 +9,14 @@ Related Terminology:
 Related Courses: 
 ---
 # Rock Cycle
-It is called sediment when it has transported. If it is just weathered but not moved, it is called rigolith
+It is called sediment when it has transported. If it is just weathered but not moved, it is called regolith
 
-Magma becomes igneous rock, magmatic rock, volcanic rock, when it cools down. If this is weathered or eroded, it becomes rigolith. These can be transformed into sedimentary rocks through lithification (solidification). When it becomes hotter, the sedimentary rock becomes a metamorphic rock. There are different grades of metamorphic rock, depending on the temperature. 
+Magma becomes igneous rock, magmatic rock, volcanic rock, when it cools down. If this is weathered or eroded, it becomes regolith. These can be transformed into sedimentary rocks through lithification (solidification). When it becomes hotter, the sedimentary rock becomes a metamorphic rock. There are different grades of metamorphic rock, depending on the temperature. 
 
 Igneous rock does not turn into magma directly when heated, but first becomes metamorphic rock. Similarly, metamorphic rock when cooled does not become a sedimentary rock, but rather a sediment. 
 
 # Silica structures: Olivine group
-Silica is created rfom 4 oxygen and 1 silica. 4 oxygen is -8 charge, and silica is +4. So we have a -4 charge of the rock. The earth compensates for this by including iron, manganese, magnesium, etc. The color of the rock depends on the secondary element added. The group is called the olivine group
+Silica is created from 4 oxygen and 1 silica. 4 oxygen is -8 charge, and silica is +4. So we have a -4 charge of the rock. The earth compensates for this by including iron, manganese, magnesium, etc. The colour of the rock depends on the secondary element added. The group is called the olivine group
 
 SIO4
 
