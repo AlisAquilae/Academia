@@ -16,13 +16,13 @@ This course consists of three main parts 1) an exploration of the field of hydro
 
 # 📖 Course Material
 The literature for this course consists of 3 readers
-1. [[Lecture Notes Hydrogeology (2024)]]
-2. [[Manual Groundwater Modelling (2024)]]
-3. [[Manual Hydrological Field Survey (Ardennes) (2024)]]
+1. [[Reader Lecture Notes Hydrogeology (2024)]]
+2. [[Reader Manual Groundwater Modelling (2024)]]
+3. [[Reader Manual Hydrological Field Survey (Ardennes) (2024)]]
 
 In addition, large part of the lectures covers content from the book [[Hiscock & Bense (2021)-Hydrogeology-Principles and Practice|Hydrogeology: Principles and Practice 2nd edition]] by Kevin M. Hiscock and Victor F. Bense. 
 
-Moreover, some additional material is provided for the various [[Hydrogeology Practicals|Practicals]]
+Moreover, some additional material is provided for the various practicals
 
 Finally, the course engages with some papers
 - Gleeson et al. (2012)

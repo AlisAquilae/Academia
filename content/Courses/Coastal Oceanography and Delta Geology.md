@@ -11,7 +11,9 @@ Timeslot: Morning
 Year: 2024
 ---
 # 🔎 Introduction
-The course presents an overview of the role of soil and water in the landscape. Central topic is the diversity and coherence in space and time, especially the factors that determine the role of water for human use and nature.
+
 
 # 📖 Course Material
-The literature for this course consists of a reader which has been divided into 3 parts
+The literature for this course consists of a reader which has 8 chapters:
+
+- [[Reader CODG-Chapter 1-]]

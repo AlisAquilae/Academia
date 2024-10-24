@@ -1,13 +1,25 @@
 ---
 fileClass: Base, Concepts
-Parents: ["[[Reader Water 1-Chapter 1.1-Catchment Characteristics]]", "[[Effective Porosity]]", "[[Hiscock & Bense (2021)-Chapter 2]]", "[[Hydrogeology Summary Physical Hydrogeology]]", "[[Lecture Notes Hydrogeology (2024)]]", "[[Permeability]]", "[[Void Ratio]]"]
+Parents:
+  - "[[Reader Water 1-Chapter 1.1-Catchment Characteristics]]"
+  - "[[Effective Porosity]]"
+  - "[[Hiscock & Bense (2021)-Chapter 2]]"
+  - "[[Hydrogeology Summary Physical Hydrogeology]]"
+  - "[[Reader Lecture Notes Hydrogeology (2024)]]"
+  - "[[Permeability]]"
+  - "[[Void Ratio]]"
 title: 
 Draft: 
 Status: Done
-aliases: "Pore Fraction"
-Related Terminology: ["[[Permeability]]", "[[Void Ratio]]", "[[Effective Porosity]]"]
-Related Notes: ["[[Reader Water 1-Chapter 1.1-Catchment Characteristics]]"]
-Related Courses: ["[[Water 1]]"]
+aliases: Pore Fraction
+Related Terminology:
+  - "[[Permeability]]"
+  - "[[Void Ratio]]"
+  - "[[Effective Porosity]]"
+Related Notes:
+  - "[[Reader Water 1-Chapter 1.1-Catchment Characteristics]]"
+Related Courses:
+  - "[[Water 1]]"
 ---
 **Porosity** ($n$, in %) is a measure of the empty space, i.e. void space, within a material. In soils or rocks, porosity refers to the empty space between soil particles. Specifically, it is a measure of the fraction of the soil volume that is not taken up by soil particles. Thus, porosity is usually expressed as the ratio of the volume of voids, $V_v$, to the total unit volume, $V_t$. of a soil or rock, such that 
 
