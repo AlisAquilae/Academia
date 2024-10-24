@@ -88,4 +88,7 @@ A simple ('ideal') delta sediment body id composed of three types of beds. When 
 
 The bottomset beds are slightly included seaward and consist of fine material (clay and silt) that has been deposited in deep water in front of the larger part of the delta body from suspension during floods. This material has been transported by sediment gravity flows (turbidity currents) along the sea bottom. 
 
-The foreset beds are much steeper inclined s
+The foreset beds are much steeper inclined seaward and consist of coarser material than the bottomset beds. These parallel beds are typically straight and have very uniform slopes. They mainly consist of sand-sized material that has been transported to the deltafront as bedload. Once reaching the edge of the deltafront the particles will roll down the steeper deltafront, building beds at the angle of repose. From time to time, if beds steepen a little by natural sedimentation processes the deltafront becomes unstable and landslides occur that adjust the overall slope again to the angle of repose. 
+
+The topset beds are near-horizontal beds that cover the foreset beds. The topset beds are essentially deposited by river floods and predominantly consist of rather fine material, because of the low gradient of the rivers on the delta plain. Farther away from the river channels, the topset beds are clayey floodbasin deposits deposited from suspension during floods. The foreset bed may be eroded by river channels that fill up with sandy bedload material. In the upper delta plain topset beds are formed by purely fluvial processes. In the lower delta plain there may be significant tidal influence on the development of topset beds
+
