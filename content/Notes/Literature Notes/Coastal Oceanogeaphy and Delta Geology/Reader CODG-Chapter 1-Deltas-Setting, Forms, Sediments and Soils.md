@@ -118,4 +118,22 @@ Breaches of the natural levee are called [[Crevasse|Crevasses]]. These may form 
 >[!Example]
 >The Schoonrewoerd system is an example of a sub-recent (mid-Holocene) avulsion belt in the Rhine-Meuse delta
 
+>[!Missing]
+>Insert Figure 1.9
+
 Peat forms in the very distal parts of the delta plain that cannot be reached by overbank sediments. Peat beds may alternate with clayey floodplain deposits, but may also form very thick packages. Because of the high groundwater levels in the delta plain, controlled by sea level, decay of organic matter is poor and peat may develop relatively easily. 
+
+###  1.4.2.2 Lower Delta Plain and Coast
+The lower delta plain and coastal area comprises the terrestrial/intertidal part of the delta that forms under significant tidal, or at least marine, influence. As a result, the deposits formed in this area are largely salt to brackish. Near the transition to the upper delta plain, freshwater deposits are formed under tidal influence.
+
+When a river debouches into the sea, bedload, usually sand-sized, will be deposited quite suddenly due to flow expansion. The resulting bar-like form in the river mouth is called a [[Mouth Bar]]. Due to delta progradation, the zone of mouth bar deposits may shift seaward, while on the landward side the river channel scours into the previously formed mouth bar deposits.  
+
+>[!Missing]
+>Insert Figure 1.10
+
+Seaward progradation of mouth bars leads to formation of elongate sand bodies, termed [[Bar-Finger Sands]]. In some cases mouth bars plug river mouths and initiate channel bifurcation. Mouth bars typically have a coarsening upward sedimentary succession and can be recognised as extensive and relatively wide sand bodies in cross-sectional appearance. In the case of strong tidal currents and/or intense wave action, mouth bars will be absent or poorly developed because of erosion.
+
+
+
+
+Longshore drift of sandy sediments along the delta coastline, which is predominantly wave-driven, will lead to the formation of beach ridges. These originate as linear sand bars arranged along the coastline formed by breaking waves that rapidly lose their energy, and hence their sediment-carrying capacity in shallow water. When these bars grow above sea level they develop into beaches that further
