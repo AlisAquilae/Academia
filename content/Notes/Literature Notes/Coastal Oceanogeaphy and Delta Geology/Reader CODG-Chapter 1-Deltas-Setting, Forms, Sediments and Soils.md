@@ -133,7 +133,14 @@ When a river debouches into the sea, bedload, usually sand-sized, will be deposi
 
 Seaward progradation of mouth bars leads to formation of elongate sand bodies, termed [[Bar-Finger Sands]]. In some cases mouth bars plug river mouths and initiate channel bifurcation. Mouth bars typically have a coarsening upward sedimentary succession and can be recognised as extensive and relatively wide sand bodies in cross-sectional appearance. In the case of strong tidal currents and/or intense wave action, mouth bars will be absent or poorly developed because of erosion.
 
+>[!Missing]
+>Insert Figure 1.11
 
+Longshore drift of sandy sediments along the delta coastline, which is predominantly wave-driven, will lead to the formation of **beach ridges**. These originate as linear sand bars arranged along the coastline formed by breaking waves that rapidly lose their energy, and hence their sediment-carrying capacity in shallow water. When these bars grow above sea level they develop into beaches that further grow upward due to wave run up. Above the line of maximum wave run up the wind carries the beach sand further landward and dune formation may further raise the level of beach ridges. In growing deltas, series of parallel beach ridges often form, when new beach ridges continuously develop seaward of existing beach ridges
 
+>[!Missing]
+>Insert Figure 1.12
 
-Longshore drift of sandy sediments along the delta coastline, which is predominantly wave-driven, will lead to the formation of beach ridges. These originate as linear sand bars arranged along the coastline formed by breaking waves that rapidly lose their energy, and hence their sediment-carrying capacity in shallow water. When these bars grow above sea level they develop into beaches that further
+Especially under strong tidal influence, beach ridges that are bordered by a tidal basin on the landward side are broken up into chains of barrier islands, separated by tidal channels. Beach ridges and barrier islands usually entirely consist of sand of a fairly uniform grain size, due to strong selection along the sediment transport route. They do display, however, a rich variety of sedimentary structures reflecting many contributing processes of formation. With a rising sea level and a seaward shifting coastline, complexes of beach ridges and barrier islands may constitute thick and wide sand bodies. In deltas where little sand-sized sediment is supplied to the shoreline and/or where longshore drift is absent beach ridges may be absent. 
+
+Beach ridges and barrier islands may shield low-lying parts of the lower delta plain, creating a low-energy salt to brackish environment, wish is termed a [[Lagoon]]. Not all deltas with beach ridges have lagoons (e.g. the image above)
