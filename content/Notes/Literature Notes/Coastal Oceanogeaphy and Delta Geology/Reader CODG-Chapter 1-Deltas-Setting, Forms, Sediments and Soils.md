@@ -95,3 +95,20 @@ The topset beds are near-horizontal beds that cover the foreset beds. The topset
 The delta grows by advance (progradation) of the steep deltafront. In this process, bottomset beds are buried under foreset beds, which facilitates seaward extension of the delta plain by deposition of topset beds on the foreset beds. The vertical sequence that develops by delta progradation is a coarsening upward sequence in the bottomset and foreset deposits, which may be followed by a fining upward sequence in the fluvial topset deposits. Delta growth (progradation) can be classifies as a regression, i.e. a seaward shift of the shoreline. The delta sequence of bottomset, foreset and topset deposits can therefore also be classified as a regressive sequence.
 
 The delta sequence outlined above can also be recognised in many modern delta sediment bodies as well as in ancient sedimentary basins, where it can be used to reconstruct former coastlines. It is important to remember, however, that this sequence is not always completely developed in delta sediment bodies. Full development of bottomset and foreset deposits needs a sufficient water depth in the marine basin. In the ase of the Holocene Rhine-Meuse delta, for example, only topset beds have been formed upon drowning of a terraced Pleistocene fluvial surface.  
+
+
+## 1.4.2 Sedimentary Environments and Products
+### 1.4.2.1 Upper Delta Plain
+Now we will take a closer look at the delta deposits, particularly at thje topset beds occurring at the delta surface. The larger part of the topset deposits is deposited in the upper delta plain, i.e. in the freshwater zone above the limit of significant tidal or marine influence on fluvial deposition. 
+
+Firstly, the river channels are of importance. In deltas these are usually meandering or (relatively) straight. The channels scour into underlying beds, that may be delta foreset beds, or topset deposits, such as all types of fluvial deposits and peat. Channels transport sandy bedload and upon abandonment are filled with sand, thereby leaving lenticular sand bodies encased in other types of deposits. These sand bodies usually exhibit a fining upward sequence, because with gradual filling of the channel, the water shallows and finer material is deposited. 
+
+>[!Missing]
+>Insert Figure 1.8
+
+>[!Note]
+>A small residual channel filled with clayey deposits and peat may be inset into the upper part of the channel sand body. 
+
+Meandering channels create wider sand bodies, because of lateral channel migration and formation of point bars. Because of low gradients, causing low stream power, and fine cohesive sediments in the subsurface, which are relatively erosion-resistant, delta river channels are often of the straight (laterally stable) type
+
+Natural levees form along delta river channels by overbank deposition of sandy and silty clay. Natural levee deposits may form on top of channel deposits, e.g. after lateral migration of the channel, or form on top of other fluvial deposits, e.g. floodbasin deposits. Natural levee deposits may show
