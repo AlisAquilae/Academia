@@ -12,7 +12,7 @@ Related Courses: ["[[Hydrogeology]]"]
 ---
 
 >[!Note]
->This reader, officially titled "1. Hydrogeology", consists of multiple parts. The first part contains the relevant chapters of the book [[Hiscock & Bense (2021)-Hydrogeology-Principles and Practice|Hydrogeology-Principles and Practice]] for this course. The second part consists of information regarding hydrogeological systems. The third part contains relevant information for the practicals. I decided to split this reader into 3 given this division. The first part is contained in separate notes on the book's page (link above). The information regarding the practicals is given on the [[Hydrogeology Practicals|Practicals]] page. This note contains only the second part, namely the hydrogeological systems
+>This reader, officially titled "1. Hydrogeology", consists of multiple parts. The first part contains the relevant chapters of the book [[Hiscock & Bense (2021)-Hydrogeology-Principles and Practice|Hydrogeology-Principles and Practice]] for this course. The second part consists of information regarding hydrogeological systems. The third part contains relevant information for the practicals. I decided to split this reader into 3 given this division. The first part is contained in separate notes on the book's page (link above). This note contains only the second part, namely the hydrogeological systems
 
 # 1. Lowlands
 ## 1.1 Accumulation and Coastal Areas
