@@ -130,3 +130,5 @@ The minerals of metamorphic rock experience during their metamorphose often a hi
 - Phyllite: Slightly coarser rock than slate with a silvery or greenish lustre.
 - Schist: A rather coarse-grained rock with parallel structures and clearly visible micas
 - Gneiss: Coarse grained with clearly visible parallel structures of micas and felspars, characterized by a coarse layering. High grade metamorphose
+
+![[Pasted image 20241026152336.png]]

@@ -99,7 +99,7 @@ The delta sequence outlined above can also be recognised in many modern delta se
 
 ## 1.4.2 Sedimentary Environments and Products
 ### 1.4.2.1 Upper Delta Plain
-Now we will take a closer look at the delta deposits, particularly at thje topset beds occurring at the delta surface. The larger part of the topset deposits is deposited in the upper delta plain, i.e. in the freshwater zone above the limit of significant tidal or marine influence on fluvial deposition. 
+Now we will take a closer look at the delta deposits, particularly at the topset beds occurring at the delta surface. The larger part of the topset deposits is deposited in the upper delta plain, i.e. in the freshwater zone above the limit of significant tidal or marine influence on fluvial deposition. 
 
 Firstly, the river channels are of importance. In deltas these are usually meandering or (relatively) straight. The channels scour into underlying beds, that may be delta foreset beds, or topset deposits, such as all types of fluvial deposits and peat. Channels transport sandy bedload and upon abandonment are filled with sand, thereby leaving lenticular sand bodies encased in other types of deposits. These sand bodies usually exhibit a fining upward sequence, because with gradual filling of the channel, the water shallows and finer material is deposited. 
 
