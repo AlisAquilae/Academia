@@ -10,3 +10,9 @@ Related Terminology:
 Related Courses: ["[[Coastal Oceanography and Delta Geology]]"]
 ---
 The term **Delta** refers to the roughly triangular shape of the land enclosed by two river branches and the coastline, which resembles the Greek letter $\Delta$. Key to the origin of deltas is the fact that where a river debouches into a sea or lake, the sediments carried by the river are deposited near the mouth, because of the more or less sudden reduction of the ability of the flow to carry sediments. Over time, a particularly submerged, seaward growing sediment body is formed near the river mouth. 
+
+Deltas can be defined geomorphologically to include the radial complex of active and abandoned distributary channels with associated fluvial landforms and the enclosed portions of the coastal plain, which forms where a river meets the sea or a lake. 
+
+>[!Note]
+>Defined as such, neighbouring parts of the coastal plain without landforms created by the delta river are excluded from the delta, as well as offshore areas and uplands that are above present river flood levels. 
+
