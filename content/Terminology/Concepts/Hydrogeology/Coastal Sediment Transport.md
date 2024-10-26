@@ -1,7 +1,7 @@
 ---
 fileClass: Base, Concepts
 title: 
-Parents: ["[[Aeolian Sediment Transport]]", "[[Fluvial Sediment Transport]]"]
+Parents: ["[[Aeolian Sediment Transport]]", "[[Fluvial Sediment Transport]]", "[[Glacial Sediment Transport]]", "[[Hillslope Sediment Transport]]"]
 Draft: 
 Status: Done
 aliases: 
