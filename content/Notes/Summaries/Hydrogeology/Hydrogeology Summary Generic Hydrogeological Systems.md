@@ -57,7 +57,7 @@ $$
 This shows that with a convexity of only a few meters freshwater lenses underneath coastal areas can possibly be several hundreds of meters thick. 
 
 ## 1.2 River Plains
-The lowlands are located in the accumulation areas. The rocks are unconsolidated and deposited by rivers ([[Fluviatile Sediments]]). In the subsurface of almost the whole country of the Netherlands thick layers (several hundreds of meters) of these fluviatile sediments occur, on top of the Tertiary deposits. The thick layer of fluviatile sediments consists of an alteration of coarse grained aquifers and fine grained aquitards. The alteration is partly the result of the climate variations during Pleistocene. Together these aquifers and aquitards can be considered as a multi-aquifer groundwater system.
+The lowlands are located in the accumulation areas. The rocks are unconsolidated and deposited by rivers ([[Fluvial Sediment Transport|Fluviatile]] sediments). In the subsurface of almost the whole country of the Netherlands thick layers (several hundreds of meters) of these fluviatile sediments occur, on top of the Tertiary deposits. The thick layer of fluviatile sediments consists of an alteration of coarse grained aquifers and fine grained aquitards. The alteration is partly the result of the climate variations during Pleistocene. Together these aquifers and aquitards can be considered as a multi-aquifer groundwater system.
 
 The fluviatile deposits originate from two principally different river systems, namely the meandering system and the braided river system. Both systems develop under different conditions, which has large effect on the sedimentation environment and therefore on the rocks, which are deposited in such systems.
 
