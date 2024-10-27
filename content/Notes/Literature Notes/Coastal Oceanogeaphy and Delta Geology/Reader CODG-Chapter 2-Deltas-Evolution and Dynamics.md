@@ -79,3 +79,18 @@ In depositional coastal areas, such as the Rhine-Meuse delta, reconstructions of
 ---
 # 2.3 Delta Construction Through Avulsion and Delta-Lobe Switching
 [[Avulsion]] can be defined as the diversion of flow from an existing river channel onto the floodplain (the delta plain), eventually resulting in a new channel belt. In deltas, avulsion thus causes the characteristic branching pattern of river channels. Subsequent to avulsions, old channels may be abandoned at variables rates. Although examples of rapid shifts exist, it seems that the abandonment of old channels may be a very slow process and in some cases new avulsion channels remain as secondary channels and never take over the entire discharge of the old channels. Eventually, these new secondary channels may be abandoned earlier than the older trunk channels. Formation and subsequent abandonment of such a secondary channel may be referred to as **'failed' avulsion**. 
+
+## 2.3.1 Autogenic, Gradual Avulsion
+An [[Autogenic Avulsion]] is an avulsion that is driven by the internal dynamics (autogenic) of the river system and often happens gradually, for example over decades to centuries
+
+What kind of floodplain facilitates avulsions? Under natural conditions, the deposition rate close to the river channel is generally much higher than it is in the adjacent floodbasin. This causes the formation of natural levees and ultimately alluvial ridges. When the alluvial ridge develops and gradually rises higher and higher above the surrounding floodplain, river floodwaters during high discharge events will more and more 'seek' the lower parts of the floodplain away from active river channel. These floodwaters have erosive potential because of the relatively high gradient across the natural levee away from the existing channel and they may scour a new channel branching off from the existing one. This new channel will then have a gradient advantage over the old channel and may thus attract more and more of the discharge.
+
+>[!Important]
+>A floodplain with an alternative flow path having a gradient advantage over the existing channel is liable to avulsion
+
+Additionally, in deltas a gradient advantage can come about in a different way. Delta growth causes extension of the delta channel, which reduces the average river gradient. Because other parts of the delta coastline remain stable, shorter (and therefore steeper) paths to the coastline gradually develop on the delta plain and constitute potential avulsion routes. 
+
+>[!Note]
+>Research has shown that avulsions in deltas occur frequently when delta plain sedimentation is rapid. Under these conditions formation of alluvial ridges (and often channel extensions by coastline [[Progradation]]) and development of alternative flow paths with gradient advantage is rapid
+
+How is the avulsion process initiated? Usually an avulsion develops from a [[Crevasse]], a small flow diversion across the natural levee. A vast majority of crevasses never develop into avulsions. Usually they become plugged up again after a few decades or a century. The formation of a crevasse occurs during a flood and may be triggered in many ways. Common triggers are obstructions, blocking discharge in the main channel and forcing the water to seek a new course. Channel obstructions may be log and ice jams in cold temperature climates, and dunes in arid climates. In some cases in-channel aggradation, downstream of the avulsion point, may cause loss of channel flow capacity and initiate the formation of a crevasse leading to avulsion. Excessive [[Mouth Bar]] deposition may trigger avulsion farther upstream, and may also cause splitting of the river flow right at the rivcer mnouth and cause tghe 
