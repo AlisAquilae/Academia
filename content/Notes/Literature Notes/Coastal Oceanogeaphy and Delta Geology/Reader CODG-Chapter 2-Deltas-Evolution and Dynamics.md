@@ -43,4 +43,17 @@ Now consider that sea level (base level) rises. Then the river gradient line has
 
 These principles imply that a thick intact delta sediment body can only form under conditions of a rising or stable sea level. If sea level drops the river will continuously erode its own delta deposits. On the other hand one can imagine that if sea level rises very fast the delta surface will drown, because the adjustment of the river gradient line cannot keep pace with the rising base level. In other words, there is insufficient sediment input to fill the accommodation space.
 
-## 2.2.2 Formayt
+## 2.2.2 Formation of Holocene Deltas due to Sea-Level Rise
+During glacial periods sea level may drop more than 100m with respect to interglacial sea level. This means that in general glacial sea level is at or below the edge of the continental shelf. Under these conditions, rivers are incised into the continental shelf, while on the relatively steep continental slope there is very little room for delta formation. 
+
+>[!Missing]
+>Insert Fig. 2.3
+
+With the start of interglacial conditions, rising sea levels rapidly drown the continental shelf as well as any incipient delta that may form on it. Only when approaching full interglacial conditions, the rate of sea-level rise slows down and delta sediment bodies (or coastal prisms) of significant thickness and area can start to form. All [[Geological Time-Scales|Holocene]] deltas started to form between 8500 and 6500 years ago, the exact timing of the start of delta formation depending on the local balance between sediment input and decrease of sea-level rise.
+
+>[!Missing]
+>Insert Fig. 2.4
+
+The base of a typical late [[Geological Time-Scales|Pleistocene]] to Holocene delta sequence is formed by an organic bed. This organic bed formed when groundwater-levels reached the top of the, usually sandy, Pleistocene deposits underlying holocene deltas. This sloping Pleistocene surface most frequently consists of fluvial terraces, testifying to incision of the fluvial system because of low glacial sea level. Especially when sea level was below the edge of the continental shelf a considerable valley may have formed. Rising sea level towards interglacial levels forced a rise of inland groundwater levels. Peat formation could occur when the groundwater level reached the surface. This peat marks the transgression of the sea over the sloping Pleistocene terraces. This peat is formed in a fresh to brackish lagoonal environment near the inland moving shoreline, and is most common in deltas with low [[Clastic Sediments|clastic sediment]] yield (that is, sediment discharge averaged over the delta plain area). In some deltas like the Rhine-Meuse and Mississippi deltas, basal peat is a prevalent and highly studied sea level indicator
+
+A package of nearshore marine sand may cover the lagoonal peat. This testifies to rapid drowning and transgression associated with rapid sea-level rise as occurred in late-Pleistocene and early-Holocene times on low parts of th
