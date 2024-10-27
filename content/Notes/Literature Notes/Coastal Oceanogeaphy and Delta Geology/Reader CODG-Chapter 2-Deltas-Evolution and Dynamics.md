@@ -93,4 +93,15 @@ Additionally, in deltas a gradient advantage can come about in a different way. 
 >[!Note]
 >Research has shown that avulsions in deltas occur frequently when delta plain sedimentation is rapid. Under these conditions formation of alluvial ridges (and often channel extensions by coastline [[Progradation]]) and development of alternative flow paths with gradient advantage is rapid
 
-How is the avulsion process initiated? Usually an avulsion develops from a [[Crevasse]], a small flow diversion across the natural levee. A vast majority of crevasses never develop into avulsions. Usually they become plugged up again after a few decades or a century. The formation of a crevasse occurs during a flood and may be triggered in many ways. Common triggers are obstructions, blocking discharge in the main channel and forcing the water to seek a new course. Channel obstructions may be log and ice jams in cold temperature climates, and dunes in arid climates. In some cases in-channel aggradation, downstream of the avulsion point, may cause loss of channel flow capacity and initiate the formation of a crevasse leading to avulsion. Excessive [[Mouth Bar]] deposition may trigger avulsion farther upstream, and may also cause splitting of the river flow right at the rivcer mnouth and cause tghe 
+How is the avulsion process initiated? Usually an avulsion develops from a [[Crevasse]], a small flow diversion across the natural levee. A vast majority of crevasses never develop into avulsions. Usually they become plugged up again after a few decades or a century. The formation of a crevasse occurs during a flood and may be triggered in many ways. Common triggers are obstructions, blocking discharge in the main channel and forcing the water to seek a new course. Channel obstructions may be log and ice jams in cold temperature climates, and dunes in arid climates. In some cases in-channel aggradation, downstream of the avulsion point, may cause loss of channel flow capacity and initiate the formation of a crevasse leading to avulsion. Excessive [[Mouth Bar]] deposition may trigger avulsion farther upstream, and may also cause splitting of the river flow right at the rivcer mnouth and cause the contemporaneous development of two branches. 
+
+Crevasses and avulsions often develop in outer bends of the river. There are three reasons for this:
+1. Water-surface superelevation and higher velocities in the outer bend lead to higher erosive power at potential avulsion sites
+2. Inertia of flow in the outer bend directs overbank flow at a high angle away from the channel flow towards the floodbasins, and
+3. Levees in the outer bend tend to be narrow due to lateral erosion, and have a steep slope away from the channel. 
+
+Whether a crevasse will grow into an avulsion is most importantly determined by two factors:
+1. The crevasse needs to have sufficient gradient advantage to increasingly attract flow with erosive power from the main channel, and
+2. The crevasse needs to branch off at a favourable angle to the main flow direction so that it will not be plugged by sediment deposition. In general crevasses branching off in an outer bend of the river at a relatively low angle to the main flow direction will have little chance to become plugged by sediment deposition
+
+
