@@ -102,6 +102,18 @@ Crevasses and avulsions often develop in outer bends of the river. There are thr
 
 Whether a crevasse will grow into an avulsion is most importantly determined by two factors:
 1. The crevasse needs to have sufficient gradient advantage to increasingly attract flow with erosive power from the main channel, and
-2. The crevasse needs to branch off at a favourable angle to the main flow direction so that it will not be plugged by sediment deposition. In general crevasses branching off in an outer bend of the river at a relatively low angle to the main flow direction will have little chance to become plugged by sediment deposition
+2. The crevasse needs to branch off at a favourable angle to the main flow direction so that it will not be plugged by sediment deposition. In general crevasses branching off in an outer bend of the river at a relatively low angle to the main flow direction will have little chance to become plugged by sediment deposition. 
 
 
+When a crevasse grows into an avulsion a vast zone of the floodplain is affected by flooding, channel formation and rapid sediment deposition. This zone is called the [[Avulsion Belt]]. The avulsion belt starts as a small lobate crevasse splay that gradually develops into a large elongated crevasse splay complex with a highly irregular planform.
+
+>[!Missing]
+>Insert Fig. 2.8
+
+On the incipient crevasse splay unstable multi-channel patterns exist. Along with splay progradation into the wetlands, the channels on the older part of the splay complex start building natural levees and becoming more stable. During progradation avulsive flow may birufcate around obstructions in the avulsion reoute resulting in the formation of separate splay lobes with their own channels, prograding into the wetlands. Often the developing channels rejoin further downstream surrounding small floodbasin areas and forming an anastomosing pattern. After some time one of the channels becomes dominant and takes over all discharge from the temporary multi-channel system. The final stage is a wide and deep channel that cuts across the extensive crevasse splays that have formed in early stages of avulsion, and that connects with the sea through an existing tidal creek or inlet
+
+>[!Missing]
+>Insert Fig. 2.9
+
+>[!Note]
+>Skipped the part on avulsions in the Rhine-Meuse Delta
