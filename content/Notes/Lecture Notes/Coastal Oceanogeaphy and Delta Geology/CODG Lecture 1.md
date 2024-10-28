@@ -61,3 +61,12 @@ Most large deltas occur on passive continental margins
  - Passive continental margins border oceans with seafloor spreading zones
  - They are relatively wide and host thick accumulation of sediments from the continent
  - In contrast to active continental margins they are not 'eaten up' by subduction
+
+Large part of the Netherlands is part of a sinking graben system
+
+Deltas have sinking sediments, meaning you can drill for kilometres before reaching bedrock. 
+
+Some deltas do not form on the continental shelf, but fill up drowned valleys (e.g. Sacramento-San Joaquin). Still a delta, but not a triangular shape
+
+---
+# Delta Types
