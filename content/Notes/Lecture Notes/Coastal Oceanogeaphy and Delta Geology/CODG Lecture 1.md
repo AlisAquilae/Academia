@@ -70,3 +70,12 @@ Some deltas do not form on the continental shelf, but fill up drowned valleys (e
 
 ---
 # Delta Types
+There are 3 types of delta (in a spectrum triangle)
+ - Wave-dominated delta
+ - Tide-dominated delta
+ - River-dominated delta
+
+## River-Dominated Deltas
+Primary input from the river. They are pointy deltas, portruding into the coastline
+
+Rivers move over time, and where they deposit sediment over time also changes. 
