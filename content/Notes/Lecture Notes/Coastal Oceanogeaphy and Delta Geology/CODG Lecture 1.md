@@ -79,3 +79,9 @@ There are 3 types of delta (in a spectrum triangle)
 Primary input from the river. They are pointy deltas, portruding into the coastline
 
 Rivers move over time, and where they deposit sediment over time also changes. 
+
+## Wave-Dominated Delta
+There is more wave energy at the coast, sediment gets reworked, redeposited, into coastal sand ridges
+
+## Tide-Dominated Deltas
+Tides influence and rework sediments. They are reworked into tidal channels, creating a veiny
