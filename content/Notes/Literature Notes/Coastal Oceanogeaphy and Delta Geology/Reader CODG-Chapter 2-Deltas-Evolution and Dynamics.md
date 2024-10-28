@@ -117,3 +117,27 @@ On the incipient crevasse splay unstable multi-channel patterns exist. Along wit
 
 >[!Note]
 >Skipped the part on avulsions in the Rhine-Meuse Delta
+
+Very often avulsions in deltas preferentially occur in restricted areas, called [[Avulsion Node|Avulsion Nodes]]. A common avulsion node is the apex of the delta, i.e. the most upstream point of the delta, where the river leaves the confined valley and starts to deposit its sediments in a wide plain. In the valley there is no space for alternative flow paths, whereas in the plain many alternative routes may develop over time through spatial differences in sedimentation. 
+
+>[!Note]
+>The location of avulsion nodes may also be determined by faults crossing the delta
+
+>[!Info]
+>In the Rhine-Meuse delta, avulsions have not very much influenced patterns of coastline progradation, because of strong longshore drift and large-scale trapping of sediments in the lagoon behind a series of massive beach ridges. In the much more river-influenced Mississippi delta, avulsion activity has ruled coastal development during the Holocene. 
+
+In general, each delta lobe experiences three phases of growth and abandonment:
+1. Rapid growth when the new avulsive channel increasingly captures the sediment-rich river flow and when discharge through the new channel stabilises. 
+2. Relative stability when the discharge starts to slowly decrease (probably due to new avulsions upstream), but when sediment input still is large enough to prevent drowning through subsidence
+3. Abandonment when discharge and sediment input become insignificant and subsidence gives room to marine processes leading to lobe degradation. 
+
+## 2.3.2 Other Types of Avulsion
+The main drivers of avulsion can vary from delta to delta. Noy all avulsions are autogenic; they can occur rapidly for example in response to extreme flooding or failure of water control infrastructure. Avulsions may also be caused or inhibited by external forces, for example human management choices or tectonics. 
+
+>[!Example]
+>In the Ganghes-Brahmaputra delta of Bangladesh, a c.a. M 8.0 earthquake 2500 years ago was shown to have rerouted the immense Ganges river. 
+
+
+---
+# 2.4 Delta Destruction Through Sea-Level Rise and Land Subsidence
+Degradation of delta follows when, in absence of sufficient sediment supply, the delta surface comes within reach of the marine erosive forces, predominantly wave action. Relative-sea level rise strongly increases the marine erosion potential, while at the same time directly causing drowning of the subaerial delta surface. Sea-level change relative to the delta surface ($\Delta DSL$) is determined by the balance of two factors
