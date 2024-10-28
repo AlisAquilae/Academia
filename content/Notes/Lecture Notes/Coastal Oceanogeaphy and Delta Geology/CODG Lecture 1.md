@@ -38,3 +38,26 @@ What is a delta?
 
 
 Delta apex = top of the delta, near river mouth
+
+Current-day deltas have been formed since the stabilisation of the sea-level, approximately 7000 - 6000 years ago
+
+What is NOT a delta?
+- Alluvial fan (relatively steep sloped and coarse grained, do not form in standing water. Occur at mountain fronts)
+- Inland delta (relatively gentle sloped and fine grained, occur in closed continental basins. there is delta formation, but not all-year due to droughts)
+
+---
+# The geological setting of deltas
+What is needed for a large delta?
+- A large river transporting much sediment
+- A shallow sea
+
+Factors contributing to large sediment-rich rivers
+- Large catchment
+- Tropical monsoonal climate
+- High relief / altitude
+- Tectonic activity
+
+Most large deltas occur on passive continental margins
+ - Passive continental margins border oceans with seafloor spreading zones
+ - They are relatively wide and host thick accumulation of sediments from the continent
+ - In contrast to active continental margins they are not 'eaten up' by subduction
