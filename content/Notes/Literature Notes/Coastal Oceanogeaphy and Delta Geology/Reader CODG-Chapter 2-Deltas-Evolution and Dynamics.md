@@ -140,4 +140,27 @@ The main drivers of avulsion can vary from delta to delta. Noy all avulsions are
 
 ---
 # 2.4 Delta Destruction Through Sea-Level Rise and Land Subsidence
-Degradation of delta follows when, in absence of sufficient sediment supply, the delta surface comes within reach of the marine erosive forces, predominantly wave action. Relative-sea level rise strongly increases the marine erosion potential, while at the same time directly causing drowning of the subaerial delta surface. Sea-level change relative to the delta surface ($\Delta DSL$) is determined by the balance of two factors
+Degradation of delta follows when, in absence of sufficient sediment supply, the delta surface comes within reach of the marine erosive forces, predominantly wave action. Relative-sea level rise strongly increases the marine erosion potential, while at the same time directly causing drowning of the subaerial delta surface. 
+
+Sea-level change relative to the delta surface ($\Delta DSL$) is determined by the balance of two factors:
+- Eustatic sea-level change ($E$) and local gravitational corrections ($G$)
+- Vertical delta surface change ($S$). This, in turn, is determined by
+  - Sediment deposition ($D$)
+  - Sediment compaction ($C$)
+  - Oxidation of organic sediments ($O$)
+  - Isostatic movements ($I$)
+  - Tectonic movements ($T$)
+
+Thus, the change of the delta surface relative to sea level ($\Delta DSL$) can be expressed as
+
+$$
+\Delta DSL = -E(\pm G) +D+C+O+I+T
+$$
+
+Below we will discuss the different variables in this equation
+
+The global component of sea-level change (eustatic sea-level change $E$) relates to changes in the global volume of ocean water. This volume is determined by the amount and the temperature of ocean water. Variations in the amount of ocean water are caused by variations in the volume of alternative water reservoirs, such as glaciers, ice sheets, lakes and groundwater reservoirs. In addition to these volume variations, thermal expansion and contraction of ocean water causes significant volume changes. At present the eustatic sea level is rising due to both melting of glaciers and ice sheets, and global warming of ocean water. The present rate of eustatic sea-level rise is estimated at 2 to 3 mm/year. In our equation, eustatic sea-level rise has a positive sign
+
+Locally, sea-level change may differ from the worldwide average eustatic value, because of gravitational effects. Large ice sheets and glaciers exercise gravitational forces on surrounding ocean waters that cause a higher sea level near the ice mass than farther away. This effect decreases with melting of the ice mass, so that near the former ic mass sea level will actually drop because of ice melting, whereas a bit farther away sea level rises less than the worldwide average. For example, change in gravitational forces associated with melting of the Greenland ice cap suppresses the expected effects of current eustatic sea-level rise for the Rhine-Meuse delta. Depending ont he position relative to changing ice masses gravitational effects necessitate a local correction of global average eustatic sea-level change. Near a shrinking ice mass this correction ($G$) has a negative sign (thus indicating a sea-level fall or a reduced sea-level rise), while far away a slightly positive correction is needed because of the global redistribution of ocean waters no longer attracted by the ice mass.
+
+In natural deltas, the delta surface is aggrading by annual flooding and sediment deposition. This aggradation rate typically ranges between 1 and 3 mm/year, but is strongly variable in space and time. Remote parts of the delta surface may receive no sediment for long periods of time, while natural levees and crevasse splays receive each year centimeters thick of fresh sediment. As explained above, avulsion dynamics rule the sediment distribution on the delta plain. In our equa
