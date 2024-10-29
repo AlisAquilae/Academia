@@ -21,6 +21,7 @@ Management decisions are key to delta sustainability
 ---
 # Forms and Deposits: General deposits
 Sedimentary architecture refers to the geometry and spatial arrangement of sediment bodies within a larger sedimentary sequence
+
 Sediment bodies are distinguished on the basis of their sedimentary facies
 
 Sedimentary facies refers to a certain unit of rock (sediments) with specified characteristics
@@ -31,6 +32,45 @@ Sedimentary facies can be coupled to sedimentary environments, areas ruled by a 
 
 The assemblage of facies characteristics form the (unique) signature of the sedimentary environment. 
 
-The shape (geometry) of seidment bodies (facies units) reflect their origin
+The shape (geometry) of sediment bodies (facies units) reflect their origin
 
 Sedimentary facies units are the small-scale building blocks of the large delta sediment body
+
+---
+# General Delta Architecture
+The 'generic conceptual' delta sediment body consists of bottomset, foreset and topset deposits
+
+Delta building involved progradation of foreset deposits over bottomset deposits and of topset deposits over foreset deposits
+
+Most large deltas are not following this generic formula
+- switching of rive rmouths
+- Sea-level movements
+- Range of sediment size transported
+- Mixing behaviour in freshwater is different from saltwater
+- Waves and tides transport alongshore and inland
+- ???????
+
+---
+# Upper Delta Plain
+
+See slides!!!!!!!!!!!!!!!!
+
+Rivers deliver fresh water and sediment to the coast
+
+Seidment can move as dissolved load, suspended load, bouncing (saltation) roll or slide as bedload
+
+Rivers can have different shapes 
+- Braided (multiple smaller interconnected channels)
+- Meandering (sinuosity)
+
+Delta channels are typically meandering or straight
+
+Often a downstream transition from meandering to straight
+
+Anastomosing patterns are common
+
+Meandering channels produce wide sand bodies
+
+Straight channels produce narrow sand bodies
+
+Vertical accretion causes thick sand bodies
