@@ -86,4 +86,13 @@ Crevasses usually happen during a flood. You need a developed natural levee for 
 The floodbasins tend to be large relative to other environments. They are low-lying and permanently wet. Deposition of clay. ?????????? Lot of peat
 
 >[!Important]
->See slides for dummary
+>See slides for summary
+
+
+---
+# The Coastal Zone and Lower Delta Plain
+Here we DO have influence of waves and tides
+
+Here we have distributary mouth bars. These are deposits that form at the end of the river, where sediments are deposited. Coarsening upward succession. May cause splitting/bifurcation
+
+Progradation of mouth bars leads to elongate sand bodies: bar-finger sands
