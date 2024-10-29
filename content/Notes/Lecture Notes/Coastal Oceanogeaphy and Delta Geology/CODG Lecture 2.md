@@ -74,3 +74,13 @@ Meandering channels produce wide sand bodies
 Straight channels produce narrow sand bodies
 
 Vertical accretion causes thick sand bodies
+
+Natural levees are typically horizontally laminated sandy and silty clay wedges that thin and fine away from the channel (structure may be lost due to bioturbation)
+
+Crevasse splays form when a natural levee is breached by the channel
+
+Sandy clay, sand and silty clay are deposited in the wetlands behind the natural levee. 
+
+Crevasses usually happen during a flood. You need a developed natural levee for this to occur, meaning it does not happen in newly developed
+
+The floodbasins tend to be large relative to other environments. They are low-lying and permanently wet. Deposition of clay. ?????????? Lot of peat
