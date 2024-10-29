@@ -107,4 +107,24 @@ Under conditions of coastal progradation (regression) of wave-dominated deltas w
 
 In muddy deltas cheniers may form: beach ridges that form under low-wave-energy conditions, and that are separated by mud flats. 
 
->[!]
+>[!Important]
+>Again, see a summary in the slides
+
+
+Lagoons are salt-to-brackish sedimentary environments protected against high energy marine forced by beach ridges. The tidal influence in laggons is variable. Lagoons may be absent when beach ridges are absent or poorly developed
+
+We also get tidal channels. 
+
+>[!Important]
+>Summary
+
+
+---
+# Offshore Zone (Subaqueous delta plain)
+
+
+Offshorte zone is below the storm wave base; sediment deposition in this ??????????????????
+
+Slope and deformation processes redistribute sediment on the delta front, depending on slope and sediment texture
+
+Deltas can be connected to large deep sea fans through submarine canyons. These are not part of the delta itself. 
