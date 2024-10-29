@@ -96,3 +96,15 @@ Here we DO have influence of waves and tides
 Here we have distributary mouth bars. These are deposits that form at the end of the river, where sediments are deposited. Coarsening upward succession. May cause splitting/bifurcation
 
 Progradation of mouth bars leads to elongate sand bodies: bar-finger sands
+
+Coarse material falls first, fine material (e.g. clay) further. As progradation continues, we get sand being deposited over the clay. 
+
+Interdistibutary bays develop in river-dominated deltas where mouth bar sands are not transported alongshore. 
+
+In wave-dominated deltas we have beach ridges. These are formed when sand is transported alongshore from the river mouth. Aeolian processes may carry the sand farther onshore, as well as contribute to the building of beach ridges
+
+Under conditions of coastal progradation (regression) of wave-dominated deltas with high sandy swediment supply, wide complexes of beach ridges may form
+
+In muddy deltas cheniers may form: beach ridges that form under low-wave-energy conditions, and that are separated by mud flats. 
+
+>[!]
