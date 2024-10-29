@@ -84,3 +84,6 @@ Sandy clay, sand and silty clay are deposited in the wetlands behind the natural
 Crevasses usually happen during a flood. You need a developed natural levee for this to occur, meaning it does not happen in newly developed
 
 The floodbasins tend to be large relative to other environments. They are low-lying and permanently wet. Deposition of clay. ?????????? Lot of peat
+
+>[!Important]
+>See slides for dummary
