@@ -1,12 +1,12 @@
 ---
 fileClass: Base, Lecture Notes
 title: 
-Parents: 
+Parents: ["[[Coastal Oceanography and Delta Geology]]"]
 Draft: 
-Status: 
+Status: Done
 Related Notes: 
 Related Terminology: 
-Related Courses: 
+Related Courses: ["[[Coastal Oceanography and Delta Geology]]"]
 ---
 # Course Intro
 Delta: where land meets ocean. Many different hazards threaten coasts and deltas. 
