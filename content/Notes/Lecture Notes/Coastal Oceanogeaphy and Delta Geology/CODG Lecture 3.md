@@ -41,3 +41,21 @@ Formation of a holocene delta sequence
 In the Rhine_meuse deltaL
 - Relative stability in the position of the coastline
 - Large-scale peat formation because of limited sediment supply and formation of beach ridges
+
+These basal peat layers are used to date sea-level rise
+
+
+---
+# Delta Construction - Avulsion
+In the delta plain, most sediment is deposited near the river channels
+
+Rivers supply sediment to the coastline enabling delta progradation near the river mouth. The position of delta river channels determines where the delta is actively growing (horizontally or vertically)
+
+????
+
+Avulsion is breaching of natural levee
+
+Different steps
+- Preconditioning (no flow diversion, river in a certain location, building up sediments)
+- Triggering phase (different causes which can trigger avulsion)
+- Post-triggering pha
