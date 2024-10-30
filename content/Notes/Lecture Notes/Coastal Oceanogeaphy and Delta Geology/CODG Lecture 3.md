@@ -109,3 +109,9 @@ $G$ = gravitational correction due to nearby mass, e.g. ice or heavy rock types
 $D$ = deposition of sediments. Ranging from a few mm per year in distal floodplains up ro several cm/year in coastal mangroves. 
 
 $C+O+I+T$ = soil and subsurface processes. When this is negative, we have land subsidence. Land subsidence is a natural process of compaction. More sedimentation means more loading means higher rates of subsidence. You also have tectonic activity affecting things. Land subsidence can be accellerated by human activities that increase physical loading or change the hydrogeological situation by for example draining fluids like groundwater. 
+
+$C$ is natural compaction and anthropogenic compaction. It is the rearrangement of your grains causing decrease in pore space. 
+
+$O$ is oxidation. If you lower water table peat for example starts oxidising because it comes into touch with oxygen. You loose your organics volume, causing subsidence
+
+$I$ is Isostacy. Due to loading of the earth's crust with ice, sedient or water (movement is reversed upon unloading)
