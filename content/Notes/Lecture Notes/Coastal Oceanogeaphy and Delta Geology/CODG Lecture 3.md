@@ -89,3 +89,17 @@ Three stages of delta lobe development (coincides with general delta life, but g
 - Delta initiation
 - Relative stability
 - Delta deterioration
+
+---
+# Destruction of Deltas
+Delta surface level, sea-level rise and land subsidence
+
+For delta growth, we need a bit of sea-level rise (but not too much) because then it can keep on growing vertically as well as laterally
+
+Deltas rely on a certain elevation with respect to sea. All movements up are positive and movements down are negative
+
+$$
+\Delta DSL = - E (\pm G) +D+C+O+I+T
+$$
+
+$-E$ is eustatic sea-level change. Volume of water in the oceans
