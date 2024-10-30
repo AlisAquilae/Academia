@@ -58,4 +58,32 @@ Avulsion is breaching of natural levee
 Different steps
 - Preconditioning (no flow diversion, river in a certain location, building up sediments)
 - Triggering phase (different causes which can trigger avulsion)
-- Post-triggering pha
+- Post-triggering phase (crevasse is created, how can it become an avulsion)
+
+Preconditioning: no channel diversion yet, but the irver is gradually 'prepared' for avulsion by geological processes (setup causes):
+- Differential aggradation
+- Channel extension
+- In-channel aggradation
+
+Triggering phase: the set-up is ready, critical conditions have been reached and the avulsion starts as a small crevasse tapping water from the main cahnnel. Triggered by
+- Floods
+- Channel obstructions (log jams, ice jams, aeolian dunes)
+
+Post-triggering phase: the crevasse grows in size until diverting >50% of the flow fo the main channel, driven by
+- Gradient advantage (setup cause)
+- A favourable angle of birufcation (morphodynamic cause)
+
+The full duration of the avulsion process (until abandonment of the parent channel) in deltas is strongly variable. Long avulsion duration causes multiple channels to be active at the same time
+
+The avulsion goes with rxcrssive sediment deposition in a large area: the avulsion belt. ????????????????
+
+Eventually a single channel develops and builds an alluvial ridge. Avulsion belts constitute a large part of the soil which fills up the delta. 
+
+---
+# Delta constructiono - delta lobe switching
+Lobes are a larger structure than avulsions
+
+Avulsion can be within the delta but also further upstream, creating a different lobe entirely. Lobes can overlap in space and time. 
+
+Three stages of delta lobe development (coincides with general delta life, but goes faster for lobes)
+- 
