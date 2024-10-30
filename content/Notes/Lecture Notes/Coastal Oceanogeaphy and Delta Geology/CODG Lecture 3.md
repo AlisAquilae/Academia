@@ -115,3 +115,9 @@ $C$ is natural compaction and anthropogenic compaction. It is the rearrangement 
 $O$ is oxidation. If you lower water table peat for example starts oxidising because it comes into touch with oxygen. You loose your organics volume, causing subsidence
 
 $I$ is Isostacy. Due to loading of the earth's crust with ice, sedient or water (movement is reversed upon unloading)
+
+$T$ is tectonics. Deltas are usually in subsiding basins
+
+In summary: deltas form under a balance of sediment delivery, (re-)distribution, compaction and erosion. 
+
+Delta growth largely governed from upstream sediment. Decline largely governed from downastream (erosion, drowning) often enforced through exploitation
