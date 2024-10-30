@@ -86,4 +86,6 @@ Lobes are a larger structure than avulsions
 Avulsion can be within the delta but also further upstream, creating a different lobe entirely. Lobes can overlap in space and time. 
 
 Three stages of delta lobe development (coincides with general delta life, but goes faster for lobes)
-- 
+- Delta initiation
+- Relative stability
+- Delta deterioration
