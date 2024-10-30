@@ -102,4 +102,10 @@ $$
 \Delta DSL = - E (\pm G) +D+C+O+I+T
 $$
 
-$-E$ is eustatic sea-level change. Volume of water in the oceans
+$-E$ is eustatic sea-level change. Volume of water in the oceans. Affected by land-ice volume and thermal expansion/shrinkage
+
+$G$ = gravitational correction due to nearby mass, e.g. ice or heavy rock types
+
+$D$ = deposition of sediments. Ranging from a few mm per year in distal floodplains up ro several cm/year in coastal mangroves. 
+
+$C+O+I+T$ = soil and subsurface processes. When this is negative, we have land subsidence. Land subsidence is a natural process of compaction. More sedimentation means more loading means higher rates of subsidence. You also have tectonic activity affecting things. Land subsidence can be accellerated by human activities that increase physical loading or change the hydrogeological situation by for example draining fluids like groundwater. 
