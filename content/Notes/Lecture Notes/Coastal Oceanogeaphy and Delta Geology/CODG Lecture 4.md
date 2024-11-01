@@ -38,3 +38,21 @@ NBS require a systems approach
 - Understand the processes at the delta level
 - Often monodisciplinary solutions create problems elsewhere in the system
 - Create integrated, optimized solutions across disciplines
+
+---
+# Mangroves and Salt Marshes
+Dynamics and wet areas have a function
+
+Dunamics / Flooding
+- Selivery of sediment to low aread, building the delta
+- Lowering flood elevations downstream
+
+Wetlands
+- Peat growth: building the delta
+- Mitigating floods
+
+And also...
+- Carbon sequestration (climate service)
+- Enhancing biodiversity
+
+In these types of environments. different types of plants live in different tidal regimes. How miuch the plants are accustomed to water affects how the system reacts to, for example, sea-level rise. To combat this, we implement nature-based solutions to gain elevation. However, these are often theoretical
