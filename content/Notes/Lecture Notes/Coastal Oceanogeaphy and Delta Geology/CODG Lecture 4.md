@@ -43,8 +43,8 @@ NBS require a systems approach
 # Mangroves and Salt Marshes
 Dynamics and wet areas have a function
 
-Dunamics / Flooding
-- Selivery of sediment to low aread, building the delta
+Dynamics / Flooding
+- Delivery of sediment to low area, building the delta
 - Lowering flood elevations downstream
 
 Wetlands
