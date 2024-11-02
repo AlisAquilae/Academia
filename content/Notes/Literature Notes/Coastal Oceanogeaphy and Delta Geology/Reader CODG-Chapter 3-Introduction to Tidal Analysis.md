@@ -241,3 +241,29 @@ C_1(t) &= \left(\frac{3}{4} \sin(2d_l) \cos(C_p) \right) \\
 C_2(t) &= \left( \frac{3}{4} \cos^2 (d_l) \cos(2C_p) \right)
 \end{aligned}
 $$
+
+$C_0(t)$ represents the long-period tides, since it depends on the monthly variation in lunar declination. $C_1(t)$ represents the diurnal tides and depends on the lunar hour angle. $C_2(t)$ represents the semi-diurnal tides and depends on twice the frequency of the lunar hour angle. 
+
+The amplitudes of the equilibrium tide are much smaller than the tidal amplitudes in reality. For example, the equilibrium amplitude at the equation would be 0.27 m, for a lunar declination of zero. In reality, the tidal amplitude is much larger. However, the observed tides have their maximum and minimum energy at the same frequencies as the equilibrium tide. 
+
+## 3.1.4 Earth Tides
+The solid earth also respond elastically to the tidal forces. The movements have an amplitude of less than one meter and can only be measured by highly sensitive instruments. Earth tides can be interesting, because precise geodatic instruments are influenced by these movements. In turn, ocean tides are affected by the solid earth movements. 
+
+Investigation of the earth tides can be used to obtain knowledge about the elastic properties of the earth. Similar to ocean tides, we can derive an equilibrium level for the amplitude of the solid earth. The amplitude depends on two more factors than the equilibrium water level, namely:
+- The elastic properties of the solid earth. The amplitude of the surface distortion depends on an elastic constant $h$, which influences the equilibrium level as $h\Omega_p / g$. In this equation, $\Omega_p / g$ is the equilibrium level amplitude
+- The potential decrease by redistribution of the earth's mass. The redistribution increased the gravitational potential of the moon, which increases the equilibrium water level. This can be calculated by $k \Omega_p / g$, in which $k$ is another elastic constant.
+
+The combined effect of the elastic response to the earth and the potential increase by the mass redistribution increases the height of the equilibrium level above the solid earth by
+
+$$
+(1+k-h)\frac{\Omega_p}{g} \tag{3.23}
+$$
+
+Herein, $k$ and $h$ are the Love numbers, after the mathematician who invented them. A higher $h$ results in a smaller amplitude, because it represents a stronger resistance of the solid earth against the lunar gravitational attraction. The values of the Love numbers are normally within the following range:
+- $h = [0.604 \to 0.630]$
+- $k = [0.299 \to 0.310]$
+
+Love numbers are hard to determine accurately, because of the following reasons
+- There can be local anomalies in the character of the near-surface geology
+- The measurements are often done in tunnels and mines, because the precise geodetic instruments are very temperature-sensitive. However, the tidal response just below the surface is different from that at surface
+- The loading of the earth 
