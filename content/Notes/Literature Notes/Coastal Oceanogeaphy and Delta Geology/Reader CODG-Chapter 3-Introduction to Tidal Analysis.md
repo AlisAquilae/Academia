@@ -171,5 +171,21 @@ $$
 which gives the exact location of the moon with respect to position on earth. Substitution of the lunar angle in equation 3.11, the equation for the gravitational potential, becomes
 
 $$
+\begin{aligned}
+-\Omega_p(\varphi_p,t) &= \frac{3}{2}rg\frac{m_l}{m_e} \left(\frac{r}{R_l} \right)^3 \left( \frac{3}{2}\sin^2(d_l(t) - \frac{1}{3}) (\sin^2 (\varphi_p) - \frac{1}{3} \right.\\
+&+ \frac{1}{2} \sin(2d_l(t))\sin(2\varphi_p)\cos(C_p(t)) \\ 
+&+ \left. \frac{1}{2}\cos^2(d_l(t)) \cos^2(\varphi_p) \cos(2C_p(t)) \right)
+\end{aligned}
+$$
 
+## 3.1.3 The Equilibrium Tide
+The [[Equilibrium Tide Theory]] described the tide on a spherical earth which is fully covered with water. This theory is developed to get a first grasp upon the tides on earth. The tidal waves can propagate endlessly, because there are no continental boundaries and the oceans have an infinite depth. The propagation of the tidal waves keeps up with the tidal forces. The equilibrium water level is only affected by gravity and the tidal forces. In this theory, the sea surface level, $\varsigma$, is always perpendicular to the resultant of the gravity and the gravitational force
+
+>[!Missing]
+>Insert Fig. 3.4
+
+The tide-generating force is defined as $-m\frac{\partial \Omega_p}{\partial x}$. where $x$ is the direction perpendicular to the direction of gravity. Using the definition of the forces as in the figure above, the slope of the sea surface can be calculated as 
+
+$$
+\tan(\alpha) = -\frac}
 $$
