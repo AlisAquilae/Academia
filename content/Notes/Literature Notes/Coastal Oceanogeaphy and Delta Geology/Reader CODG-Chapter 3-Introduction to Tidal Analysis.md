@@ -187,5 +187,43 @@ The [[Equilibrium Tide Theory]] described the tide on a spherical earth which is
 The tide-generating force is defined as $-m\frac{\partial \Omega_p}{\partial x}$. where $x$ is the direction perpendicular to the direction of gravity. Using the definition of the forces as in the figure above, the slope of the sea surface can be calculated as 
 
 $$
-\tan(\alpha) = -\frac}
+\tan(\alpha) = -\frac{\partial \Omega_p}{\partial x} / g \tag{3.16}
 $$
+
+and
+
+$$
+\tan(\alpha) = \frac{\partial \varsigma}{\partial x} \tag{3.17}
+$$
+
+so that
+
+$$
+g\frac{\partial \varsigma}{\partial x} + \frac{\partial \Omega_p}{\partial x} = 0 \tag{3.18}
+$$
+
+or
+
+$$
+\frac{\partial}{\partial x} (g\varsigma + \Omega_p) = 0 \tag{3.19}
+$$
+
+When this equation is integrated with respect to $x$ over an infinite area, it results in $g\varsigma + \Omega_p = \text{constant}$. When the integration takes place over the whole ocean surface, so that the total volume of water is conserved, this constant equals zero
+
+$$
+g\varsigma + \Omega_p =0
+$$
+
+In other words,
+
+$$
+g \varsigma = -\Omega_p \tag{3.20}
+$$
+
+Therefore, the equilibrium surface height can be calculated by
+
+$$
+\varsigma = -\frac{\Omega_p}{g} \tag{3.21}
+$$
+
+When this is substituted in equation 3.15
