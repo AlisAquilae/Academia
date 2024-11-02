@@ -131,4 +131,45 @@ $$
 \end{aligned} 
 $$
 
-The tidal forces related to these polynomial terms can be calculated by taking the spatial gradient, $
+The tidal forces related to these polynomial terms can be calculated by taking the spatial gradient, $-\text{grad}(\xi_n)$. The first term of equation 3.10 is a constant and produces therefore no force. The second term produces a uniform force parallel to the line OM. The third term is the major tide producing term. The fourth and higher terms are often neglected because $\frac{r}{R_l}$ is approximately $\frac{1}{60}$. The effective tide generating potential is now written as
+
+$$
+\Omega_{p, \text{eff}} (\varphi) = \frac{1}{2} Gm_l \frac{r^2}{R^3}(3 \cos^2 (\varphi)-1) \tag{3.11} 
+$$
+
+This equation can be resolved in the potential gradient vertically upward from the earth surface and the potential gradient perpendicular to the earth surface, in the direction of increasing $\varphi$. The equation vertically upwards reads
+
+$$
+-\frac{\partial \Omega_p}{\partial r} = 2g\Lambda_l (\cos^2 (\varphi) - \frac{1}{3}) \tag{3.12}
+$$
+
+and tangent to the earth surface
+
+$$
+-\frac{\partial \Omega_p}{\partial \varphi} = -g \Lambda_l (\sin(2\varphi)) \tag{3.13}
+$$
+
+where
+
+$$
+\Lambda_l = \frac{3}{2} \frac{m_l}{m_e} \left( \frac{r}{R_l} \right)^3
+$$
+
+Since $\Lambda_l$ is very small, the vertical forces are overcompensated by the earth's gravity and the horizontal forces cause the tidal movements.
+
+In this section, $\varphi$ was considered to be the latitude of the position on the surface of the earth. However, the distance to the moon does not only depend on the observer's location, but also on the moon's location. To compensate for the change in the location of the moon, three new time-dependent variables can be defined:
+- $\varphi_p$, the north latitude of the position P
+- $d_l$, the declination of the moon north of the equator (or the latitude of the sub-lunar point)
+- $C_p$, the hour angle of the moon. The difference between the longitude of the observer and the longitude of the sub-lunar point
+
+We can now define the lunar angle, $\varphi$:
+
+$$
+\cos(\varphi) = \sin(\varphi_p)\sin(d_l) + \cos(\varphi_p)\cos(d_l)\cos(C_p) \tag{3.14}
+$$
+
+which gives the exact location of the moon with respect to position on earth. Substitution of the lunar angle in equation 3.11, the equation for the gravitational potential, becomes
+
+$$
+
+$$
