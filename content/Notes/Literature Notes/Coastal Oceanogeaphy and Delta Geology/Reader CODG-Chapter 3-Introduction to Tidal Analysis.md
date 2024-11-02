@@ -54,7 +54,7 @@ $$
 The force needed for the orbit is given by
 
 $$
-F_{\text{orb}} = G \frac{mm_l}{R^2_l}
+F_{\text{orb}} = G \frac{mm_l}{R^2_l} \tag{3.3}
 $$
 
 Subtracting the force needed for the orbit, $F_{\text{orb}}$, from the force exerted by the moon, $F_{\text{moon}}$, gives the tide generating force, $F_{\text{tide}}$:
@@ -62,6 +62,23 @@ Subtracting the force needed for the orbit, $F_{\text{orb}}$, from the force exe
 $$
 \begin{aligned}
 F_{\text{tide}} &= F_{\text{moon}} - F_{\text{orb}} \\
-&= Gmm_l \left[ \frac{1}{(R_l-r)} \right]
-\end{aligned}
+&= Gmm_l \left[ \frac{1}{(R_l-r)^2} - \frac{1}{R^2_l} \right] \\
+&= \frac{Gmm_l}{R^2_l} \left[ \frac{1}{(1-\frac{r}{R_l})^2} -1 \right]
+\end{aligned} \tag{3.4}
 $$
+
+This equation can be simplified when realizing that the square of the radius of the earth is negligible compared to the square of the total distance to the moon. The earth radius is about 60 times smaller than the total distance to the moon. The equation thus can be simplified to
+
+$$
+F_{\text{tide}} = \frac{2Gmm_l r}{R^3_l} \tag{3.5}
+$$
+
+In a similar way the force on $P_2$ can be calculated. The tide generating forces at $P_1$ and $P_2$ are equal but their direction is opposite. At $P_1$ the attraction force of the moon exceeds the force needed for the orbit (i.e. the centrifugal force), at $P_2$ the centrifugal form exceeds the force of attraction. The net force at $P_2$ is directed away from the moon. Equations 3.1 and 3.5 can be used to calculate the acceleration at $P_1$, realizing that $F_{\text{tide}} = ma$
+
+$$
+a = 2g\frac{m_l}{m_e}\left( \frac{r}{R_l} \right)^3 \tag{3.6}
+$$
+
+Using that $r$ is 6378 km, $R_l$ is 384400km, $m_l$ is $7.35 \cdot 10^{22}$ kg and $m_e$ is $5.97 \cdot 10^{24}$ kg. This results in an acceleration of $11.2 \cdot 10^{-8}$ g. The $g$ is the gravitational acceleration of the earth.
+
+The sungener
