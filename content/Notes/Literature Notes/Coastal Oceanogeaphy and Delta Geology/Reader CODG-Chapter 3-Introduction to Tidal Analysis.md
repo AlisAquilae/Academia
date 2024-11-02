@@ -226,4 +226,18 @@ $$
 \varsigma = -\frac{\Omega_p}{g} \tag{3.21}
 $$
 
-When this is substituted in equation 3.15
+When this is substituted in equation 3.15 for the gravitational potential, a time-dependent equation for the equilibrium surface level is obtained:
+
+$$
+\varsigma(\varphi_p, t) = r \left( \frac{m_l}{m_e} \right) \left( \frac{r}{R_l} \right)^3 \left( C_0(t)(\frac{3}{2} \sin^2 (\varphi_p) - \frac{1}{2}) + C_1 (t) \sin(2\varphi_p) + C_2 (t) \cos^2 (\varphi_p) \right) \tag{3.22}
+$$
+
+The time-dependent coefficients are defined as 
+
+$$
+\begin{aligned}
+C_0(t) &= \left( \frac{3}{2} \sin^2 (d_l) - \frac{1}{2} \right) \\
+C_1(t) &= \left(\frac{3}{4} \sin(2d_l) \cos(C_p) \right) \\
+C_2(t) &= \left( \frac{3}{4} \cos^2 (d_l) \cos(2C_p) \right)
+\end{aligned}
+$$
