@@ -266,4 +266,5 @@ Herein, $k$ and $h$ are the Love numbers, after the mathematician who invented t
 Love numbers are hard to determine accurately, because of the following reasons
 - There can be local anomalies in the character of the near-surface geology
 - The measurements are often done in tunnels and mines, because the precise geodetic instruments are very temperature-sensitive. However, the tidal response just below the surface is different from that at surface
-- The loading of the earth 
+- The loading of the earth crust by ocean tides influences the measurements
+
