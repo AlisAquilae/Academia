@@ -81,4 +81,30 @@ $$
 
 Using that $r$ is 6378 km, $R_l$ is 384400km, $m_l$ is $7.35 \cdot 10^{22}$ kg and $m_e$ is $5.97 \cdot 10^{24}$ kg. This results in an acceleration of $11.2 \cdot 10^{-8}$ g. The $g$ is the gravitational acceleration of the earth.
 
-The sungener
+The sun generates tides on earth as well. Despite the larger mass of the sun, the tide generating force is about half that of the moon. This is due to the larger distance of the sun to the earth. The solar tidal acceleration for $P_1$ is $5.2 \cdot 10^{-8}$ g. Also, the gravitational forces by other planets in our solar system can be calculated, but these have a very limited contribution to the tides on earth. 
+
+The attraction by the moon creates two tidal bulges at the surface of the earth closest to and furthest from the moon (see image above). Each day, $P_1$ and $P_2$ will pass the high tide twice, because of the rotation of the earth around its axis. This is the semi-diurnal tide. In the figure above, the moon is drawn in the equatorial plane. This is only true for special cases. The inclination of the moon with the equator causes also diurnal tides, because the two bulges do not pass the same location. Except when the moon is in the equatorial plane, the minimum and maximum water levels have an unequal amplitude. 
+
+## 3.1.2 Gravitational Potential
+The theory of the gravitational forces is often extended by the gravitational potential, $\Omega_p$. The gravitational potential is defined as the work that needs to be done against the force of attraction to remove a particle of unit mass to an infinite distance from the body. The gravitational potential can be calculated by 
+
+$$
+\Omega_p = -\frac{Gm}{r} \tagP
+$$
+
+in which
+- $G$ is the gravitational constant,
+- $r$ is the distance between the two masses
+- $m$ is the mass of the body of attraction
+
+The definition for the gravitational potential has a minus sign, because energy must be added to move the particle. It has the unit length$^2$time$^2$ and is a [[Scalars|Scalar]] property.
+
+>[!Missing]
+>Insert Fig. 3.3
+
+When calculating the gravitational potential for any point $P$ on the surface of the earth, the distance $MP$ should be known. This can be calculated using the law of cosines:
+
+$$
+MP^2 =r^2 + R^2_l - 2rR\cos(\varphi) \tag{3.8}
+$$
+
