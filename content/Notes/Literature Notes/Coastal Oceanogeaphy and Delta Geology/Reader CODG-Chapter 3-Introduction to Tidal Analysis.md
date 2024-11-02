@@ -35,4 +35,33 @@ In equation 3.1, $G$ is the gravitational constant taking a magnitude of $6.67 \
 
 The common centre of mass of the earth-moon system lies within the earth, because of the large mass of the earth. The period it takes for two bodies to complete an orbit is called a [[Sidereal Period]]. For the earth-moon system the sidereal period is 27.32 days.
 
-Every single element on the earth describes an equal orbit around the common centre of mass. They are only shifted with respect to the common centre of mass. The force that is needed to perform this revolution is the same as the force exerted on the centre of mass. However, a particle on nthe surface of the earth, closest to the moon experiences a larger force of attraction. 
+Every single element on the earth describes an equal orbit around the common centre of mass. They are only shifted with respect to the common centre of mass. The force that is needed to perform this revolution is the same as the force exerted on the centre of mass. However, a particle on the surface of the earth, closest to the moon experiences a larger force of attraction. The accelerations of all particles are equal, but the force of attraction that generates this attraction is not. 
+
+>[!Important]
+>The difference between the force necessary for the orbit and the experienced force, is the tide-generating force
+
+The magnitude of the tide-generating force is determined by the distance to the moon's centre of gravitation. We can easily calculate the tide-generating force for the points on earth which are located on the straight line between the moon's and the earth's centres of mass, since we know the radius of the earth. These points are indicated by $P_1$ and $P_2$ in the figure below
+
+>[!Missing]
+>Insert Fig. 3.2
+
+The attractional force exerted on $P_1$ by the moon can be calculated by subtracting the radius of the earth, $r$, from the total distance to the moon, $R_l$:
+
+$$
+F_{\text{moon}} = G \frac{mm_l}{(R_l-r)^2} \tag{3.2}
+$$
+
+The force needed for the orbit is given by
+
+$$
+F_{\text{orb}} = G \frac{mm_l}{R^2_l}
+$$
+
+Subtracting the force needed for the orbit, $F_{\text{orb}}$, from the force exerted by the moon, $F_{\text{moon}}$, gives the tide generating force, $F_{\text{tide}}$:
+
+$$
+\begin{aligned}
+F_{\text{tide}} &= F_{\text{moon}} - F_{\text{orb}} \\
+&= Gmm_l \left[ \frac{1}{(R_l-r)} \right]
+\end{aligned}
+$$
