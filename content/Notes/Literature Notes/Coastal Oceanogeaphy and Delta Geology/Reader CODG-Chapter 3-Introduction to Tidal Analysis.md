@@ -89,7 +89,7 @@ The attraction by the moon creates two tidal bulges at the surface of the earth 
 The theory of the gravitational forces is often extended by the gravitational potential, $\Omega_p$. The gravitational potential is defined as the work that needs to be done against the force of attraction to remove a particle of unit mass to an infinite distance from the body. The gravitational potential can be calculated by 
 
 $$
-\Omega_p = -\frac{Gm}{r} \tagP
+\Omega_p = -\frac{Gm}{r} \tag{3.7}
 $$
 
 in which
@@ -108,3 +108,27 @@ $$
 MP^2 =r^2 + R^2_l - 2rR\cos(\varphi) \tag{3.8}
 $$
 
+In equation 3.8, $\varphi$ is the angle MOP. For simplicity, $\varphi$ is assumed to be the latitude of $P$ and the moon is positioned in the equatorial plane. When substituting this in the equation for gravitational potential, the result for any location $P$ is
+
+$$
+\Omega_p(\varphi) = -\frac{Gm_l}{R_l}\left[ 1-2\frac{r}{R_l}\cos(\varphi)+\frac{r^2}{R^2_l} \right]^{-\frac{1}{2}} \tag{3.9}
+$$
+
+Since the tides can be described by sinus-like functions, the equation above can be expanded by a series of Legendre-polynomials:
+
+$$
+\Omega_p(\varphi) = -\frac{Gm_l}{R_l}\left[ 1 + \frac{r}{R}\xi_1 \cos(\varphi) + \frac{r^2}{R^2}\xi_2 \cos(\varphi) + \frac{r^3}{R^3}\xi_3 \cos(\varphi) + \dots \right] \tag{3.10}
+$$
+
+The $\xi_n$ terms are the polynomials, which are defined as
+
+$$
+\begin{aligned}
+\xi_1 &= \cos(\varphi) \\
+\xi_2 &= \frac{1}{2} (3\cos^2(\varphi)-1) \\
+\xi_3 & = \frac{1}{2} (5 \cos^3(\varphi) - 3 \cos(\varphi)) \\
+& \vdots
+\end{aligned} 
+$$
+
+The tidal forces related to these polynomial terms can be calculated by taking the spatial gradient, $
