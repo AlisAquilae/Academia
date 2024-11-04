@@ -323,6 +323,27 @@ Where,
 The expansion of the Equilibrium Tide is given by
 
 $$
-
+\zeta(t) = Z_0+ \sum\limits_{n=1}^N H_n \cos(\omega_n t - g_n) \tag{3.25}
 $$
 
+In equation 3.25, $Z_0$ is the mean sea level. The frequencies, $\omega_n$, in equation 3.25 are specified by combinations of 6 fundamental frequencies:
+
+$$
+\omega_n = i_a \omega_1 + i_b \omega_2 + i_c \omega_3 + i_d \omega_4 + i_e \omega_5 + i_f \omega_6 \tag{3.26}
+$$
+
+The values $i_n$ are the Doonson numbers and denote an integer ranging between -5 and +5. This makes various combinations of sums and differences of the fundamental frequencies possible. The fundamental frequencies relate to the rates of change of the astronomical patterns
+
+
+| Symbol     | Frequency (rad h$^{-1}$) | Name                    | Period  | Rate of change of |
+| ---------- | ------------------------ | ----------------------- | ------- | ----------------- |
+| $\omega_0$ | $2.62 \cdot 10^{-1}$     | Mean solar day          | 1.00 d  | $C_s$             |
+| $\omega_1$ | $2.53 \cdot 10^{-1}$     | Mean lunar day          | 1.03 d  | $C_l$             |
+| $\omega_2$ | $60 \cdot 10^{-3}$       | Sideral month           | 27.3 d  | $s$               |
+| $\omega_3$ | $7.71 \cdot 10^{-4}$     | Tropical year           | 365 d   | $h$               |
+| $\omega_4$ | $8.03 \cdot 10^{-5}$     | Moon's perigee          | 8.85 y  | $p$               |
+| $\omega_5$ | $8.84 \cdot 10^{-5}$     | Regression moon's nodes | 18.6 y  | $N$               |
+| $\omega_6$ | $9.95 \cdot 10^{-7}$     | Perhelion               | 20924 y | $p'$              |
+
+
+The Doonson numbers, $i_n$, enhance or suppress the influence of the rate of change of different astronomical parameters. Every harmonic is defined by its own set of 6 $i_n$ values. The $i_a$ suppresses or enhances the $\omega_1$-term, which has a period of 1 day. It defines the tidal species. If $i_a$ is zerothe harmonic is considered as a long term 
