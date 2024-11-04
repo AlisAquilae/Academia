@@ -284,4 +284,13 @@ The [[Equilibrium Tide Theory|Equilibrium Tide]] can be expressed in terms of di
 
 - The solar declination, $d_s$, varies because of tilting of the earth. The maximum solar declination north of the equator occurs in June, during summer on the northern hemisphere. The maximum solar declination south of the equator occurs in December, during summer on the southern hemisphere. The change of the solar declination has a period of one tropical year, which takes 365 days. 
 - The hour angle of the sun, $C_s$, changes due to the rotation of the earth. One cycle of the solar hour angle is the mean solar day, 24 hours.
-- The distance from the earth to the sun is not a constant. During its one-year orbit around the sun, the earth passes each year the per
+- The distance from the earth to the sun is not a constant. During its one-year orbit around the sun, the earth passes each year the [[Perhelion]], the point of the orbit of the earth which lies closest to the sun. However, the longitude of the perhelion, $p'$. is not constant. It revolves with a frequency of 20942 years. 
+
+For the earth-moon system similar parameters are defined
+- The lunar declination, $d_l$, has a cycle of 27 days
+- The hour of the angle moon, $C_l$, has a slightly lower frequency than the cycle of the solar hour angle. A mean lunar day has a period of 1.03 solar day. 
+- The longitude of the moons perigee, $p$, changes with a period of 8.85 years
+
+---
+# 3.2 Harmonic Tidal Analysis
+The aim of this chapter is to describe the tide at a fixed point of observation with a finite set of time-stable significant parameters. The form of the description is suitable for prediction of tides and related to the physical processes of tide generation. Harmonic tidal analysis is a basic method to do this. It describes the tide as the sum of a set of sinusoids at a 
