@@ -247,7 +247,7 @@ $C_0(t)$ represents the long-period tides, since it depends on the monthly varia
 The amplitudes of the equilibrium tide are much smaller than the tidal amplitudes in reality. For example, the equilibrium amplitude at the equation would be 0.27 m, for a lunar declination of zero. In reality, the tidal amplitude is much larger. However, the observed tides have their maximum and minimum energy at the same frequencies as the equilibrium tide. 
 
 ## 3.1.4 Earth Tides
-The solid earth also respond elastically to the tidal forces. The movements have an amplitude of less than one meter and can only be measured by highly sensitive instruments. Earth tides can be interesting, because precise geodatic instruments are influenced by these movements. In turn, ocean tides are affected by the solid earth movements. 
+The solid earth also respond elastically to the tidal forces. The movements have an amplitude of less than one meter and can only be measured by highly sensitive instruments. Earth tides can be interesting, because precise geodetic instruments are influenced by these movements. In turn, ocean tides are affected by the solid earth movements. 
 
 Investigation of the earth tides can be used to obtain knowledge about the elastic properties of the earth. Similar to ocean tides, we can derive an equilibrium level for the amplitude of the solid earth. The amplitude depends on two more factors than the equilibrium water level, namely:
 - The elastic properties of the solid earth. The amplitude of the surface distortion depends on an elastic constant $h$, which influences the equilibrium level as $h\Omega_p / g$. In this equation, $\Omega_p / g$ is the equilibrium level amplitude
@@ -268,3 +268,20 @@ Love numbers are hard to determine accurately, because of the following reasons
 - The measurements are often done in tunnels and mines, because the precise geodetic instruments are very temperature-sensitive. However, the tidal response just below the surface is different from that at surface
 - The loading of the earth crust by ocean tides influences the measurements
 
+## 3.1.5 Coordinate Systems
+In tidal analysis two coordinate systems are often used. They differ in the definition of their reference plane. 
+
+The [[Equatorial Coordinate System]] uses the celestial equator as the reference plane. The celestial equator cuts the earth at the equator. It is a great circle on the imaginary celestial sphere, in the same plane as the Earth's equator. In other words, it is a projection of the terrestrial equator out into space. Declinations of objects are measured with respect to a reference point which is called the [[Vernal Equinox]], $\Upsilon$, or the First Point of Aries. The vernal equinox is the point where the sun crosses the equator from north to south each year. This reference point is a fixed point with respect to the stellar background. The angular distances are measured in degrees east from the vernal equinox and are called the [[Right Ascension]].
+
+The [[Ecliptic Coordinate System]] uses the ecliptic plane as a reference. The ecliptic plane is a plane which cuts the earth by orbit of the earth around the sun. The ecliptic plane is tilted with respect to the equatorial plane, due to the obliquity of the Earth. The angle between the two planes is approximately $23\degree$. The zero reference for angular distances in the ecliptic coordinate system is also the vernal equinox. In the ecliptic system, the angular distance with respect to the vernal equinox is called the Ecliptic longitude
+
+>[!Missing]
+>Insert Fig. 3.5
+
+
+## 3.1.6 Basic Astronomical Frequencies
+The [[Equilibrium Tide Theory|Equilibrium Tide]] can be expressed in terms of distance, declination and the hour angle of the tide-producing body (that is, the moon or the sun). Below a description of these parameters is given. The change in time of these parameters for the earth-sun system are considered in the equatorial coordinate system
+
+- The solar declination, $d_s$, varies because of tilting of the earth. The maximum solar declination north of the equator occurs in June, during summer on the northern hemisphere. The maximum solar declination south of the equator occurs in December, during summer on the southern hemisphere. The change of the solar declination has a period of one tropical year, which takes 365 days. 
+- The hour angle of the sun, $C_s$, changes due to the rotation of the earth. One cycle of the solar hour angle is the mean solar day, 24 hours.
+- The distance from the earth to the sun is not a constant. During its one-year orbit around the sun, the earth passes each year the per
