@@ -367,4 +367,30 @@ $$
 
 If $F$ is smaller than 0.25 the tide is semi-diurnal. If it is between 0.25 and 1.5 the tide is mixed., mainly semi-diurnal. For $F$ between 1.5 and 3 the regime is mixed, mainly diurnal. And if $F$ is higher than 3 the tide is considered to be diurnal. 
 
-The interaction of the tidal constituents leads to spring-neap cycles and other interference phenomena, depending on phase difference. The interactio
+The interaction of the tidal constituents leads to spring-neap cycles and other interference phenomena, depending on phase difference. 
+
+## 3.2.3 Nodal Factors
+A difficulty in harmonic analysis is that time series often have a limited time-span. Some of the constituents that have contributions of astronomical variations with time scales larger than one year. Examples of this are the 8.85 year lunar perigee cycle, the 18.6 year lunar nodal cycle, and the 20942 year perhelion cycle. The perhelion cycle is often considered to be constant during the time-span of a time-series. The other components should be included for proper calculation of the tidal elevation, especially for calculations on the long run. 
+
+The variations of the larger astronomical cycles are often represented by nodal factors, which makes calculation of tidal levels easier than trying to resolve the constituents. Nodal factors are coefficients that are calculated from large tidal datasets and capture the variation over large time scales. They are represented as $f$ (nodal factor, no unit) and $u$ (nodal angle, degree) in a harmonic expansion. The notation for a constituent then becomes
+
+$$
+H_nf_n \cos\bigl( \omega_n t - g_n + (V_n + u_n) \bigr) \tag{3.28}
+$$
+
+Solar constituents do not need compensation for the larger astronomical cycles, since they are solely forced by the sun. For those constituents, $f$ is 1.0 and $u$ is 0.0
+
+An example of a variation throughout a nodal period of 18.6 years can be given for the $M_2$ tide. Throughout this period, this constituent deviates 3.7% from its mean value due to the nodal effects (Pugh, 1996). The following two terms in the complete harmonic expansion can be taken together. 
+
+$$
+H_{M_2} \cos(2\omega_1 t) - 0.0373 H_{M_2} \cos(2\omega_1 t + \omega_5 t) \tag{3.29}
+$$
+
+The second term originates from the rate of change of the longitude of the lunar ascending node, which is denoted by $\omega_5$. From the equation above the nodal factors, $f$ and $u$, can be approximated after elaboration as
+
+$$
+\begin{aligned}
+f &\approx 1-\alpha \cos(\omega_5 t) \\
+&= 1- 0.0373
+\end{aligned}
+$$
