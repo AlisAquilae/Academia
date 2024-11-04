@@ -346,4 +346,25 @@ The values $i_n$ are the Doonson numbers and denote an integer ranging between -
 | $\omega_6$ | $9.95 \cdot 10^{-7}$     | Perhelion               | 20924 y | $p'$              |
 
 
-The Doonson numbers, $i_n$, enhance or suppress the influence of the rate of change of different astronomical parameters. Every harmonic is defined by its own set of 6 $i_n$ values. The $i_a$ suppresses or enhances the $\omega_1$-term, which has a period of 1 day. It defines the tidal species. If $i_a$ is zerothe harmonic is considered as a long term 
+The Doonson numbers, $i_n$, enhance or suppress the influence of the rate of change of different astronomical parameters. Every harmonic is defined by its own set of 6 $i_n$ values. The $i_a$ suppresses or enhances the $\omega_1$-term, which has a period of 1 day. It defines the tidal species. If $i_a$ is zero the harmonic is considered as a long term tidal species. The rate of change of the astronomical variables which describe this constituent have in this case larger time scales than diurnal. If $i_a$ is equal to 1 you are dealing with diurnal species. When $i_a$ is 2 you are dealing with semi-diurnal species. $i_b$ defines the group within the species and $i_c$ is said to define the constituent within that group. The other integers determine tidal species on even larger timescales. These will be discussed in the section about nodal points 
+
+## 3.2.2 Major Harmonic Tidal Constituents
+In the previous section, we composed constituents with the use of fundamental frequencies. The total number of tidal constituents is huge (457 according to Cartwright and Tayler, 1971). Many of the more important constituents on earth have their own name, like the semi-diurnal moon tide $M_2$. The four main astronomical tidal constituents are presented in the table below. Their relatiev coefficients indicate their relative contribution to the total tidal amplitude of the equilibrium tide. The contributions are defined compared to the amplitude of the semi-diurnal lunar tide, $H_{m_2}$. 
+
+
+| Symbol | Name                    | Period  | Relative coefficient compared to $M_2$ |
+| ------ | ----------------------- | ------- | -------------------------------------- |
+| $M_2$  | Principle lunar         | 12.42 h | 1.00                                   |
+| $K_1$  | Luni-solar diurnal      | 23.93 h | 0.4 (lunar) or 0.19 (solar)            |
+| $S_2$  | Principle solar         | 12.00 h | 0.47                                   |
+| $O_1$  | Principle lunar diurnal | 25.58 h | 0.41                                   |
+
+The ratio of the amplitudes of these four constituents is often used to quantify the degree in which diurnal or semi-diurnal tides are dominant. The Form Factor $F$ calculates the ratio of diurnal and semi-diurnal amplitudes as follows:
+
+$$
+F = \frac{H_{K_1} + H_{O_1}}{H_{M_2} + H_{S_2}}
+$$
+
+If $F$ is smaller than 0.25 the tide is semi-diurnal. If it is between 0.25 and 1.5 the tide is mixed., mainly semi-diurnal. For $F$ between 1.5 and 3 the regime is mixed, mainly diurnal. And if $F$ is higher than 3 the tide is considered to be diurnal. 
+
+The interaction of the tidal constituents leads to spring-neap cycles and other interference phenomena, depending on phase difference. The interactio
