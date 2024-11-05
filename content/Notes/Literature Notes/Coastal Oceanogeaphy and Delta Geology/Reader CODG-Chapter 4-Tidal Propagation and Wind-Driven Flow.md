@@ -159,5 +159,45 @@ where $W_{10}$ is the wind speed measured at 10 m above the water level and fall
 We can illustrate the effect of the wind stress with an example. A steady wind across a narrow channel causes water to build up against the coast in the direction of the wind (see image above). In case of a steady state, the wind stress is balanced by the pressure term in the momentum equation
 
 $$
-\frac{}{}
+\frac{\partial P}{\partial x} = \frac{\partial \tau_s}{\partial z} \tag{4.12}
 $$
+
+where $z$ is the depth coordinate. The balancing pressure term is often translated in an increase in water level at the opposite side of the wind. The pressure is visualised as an arrow which opposes the wind 
+
+We can solve equation 4.12 using the following two equations. The first is the depth-averaged stress, which can be obtained by integrating over the depth and assuming that the stress is independent of depth
+
+$$
+\frac{1}{D} \int\limits_{-D}^{0} \frac{\partial \tau}{\partial z}dz = \frac{1}{D}(\tau_s - \tau_b) \tag{4.13}
+$$
+
+where
+- $\tau_s$ and $\tau_b$ are the surface and bottom stresses
+- $D$ is the depth
+
+The next equation which is required is the hydrostatic pressure distribution. It reads as 
+
+$$
+P = P_a - \rho g(z - \zeta) \tag{4.14}
+$$
+
+Herein, $z$ is defined upward, with $z=0$ at the mean water level, and $\zeta$ is the surface level deviation from $z=0$, also positive upward. We can simplify this assuming the mean water level $z$ and the air pressure $P_a$ are constants. 
+
+Differentiation with respect to $x$ yields
+
+$$
+\frac{\partial \zeta}{\partial x} = \frac{\partial P}{\partial x} \frac{1}{\rho g} \tag{4.15}
+$$
+
+Substituting equations 4.13 and 4.15 into equation 4.12 gives an expression for the sea surface slope caused by wind stress:
+
+$$
+\frac{\partial \zeta}{\partial x} = \frac{\tau_s - \tau_b}{g\rho D} \tag{4.16}
+$$
+
+If we now neglect the bed stress and substitute the right expression from equation 4.11, the result is. 
+
+$$
+\frac{\partial \zeta}{\partial x} = \frac{C_D \rho_a W^2}{g \rho D} \tag{4.17}
+$$
+
+This implies that the effect of wind stress on the surface slope increases with a decreasing water depth. For a basin with the dimensions of the North Sea (a length of $x=200$ km and a depth of $D=30$ m), a wind speed of 22 ms$^{-1}$ would cause a surface level increase of 0.85 m. For a storm with a wind speed of 
