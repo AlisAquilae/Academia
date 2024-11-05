@@ -116,4 +116,48 @@ The Coreolis effect is essential to the propagation of a Kelvin wave. The Coreol
 >[!Missing]
 >Insert Fig. 4.6
 
-The spatial propagation of a Kelvin wave in a theoretical basin is presented in the left figure above. The wave enters the basin at 7AM, propagates around a node (called an [[Amphidromic Point]]), passes the reflective boundary of the basin around 0PM and leaves the basin at 5PM. A similar process is visible
+The spatial propagation of a Kelvin wave in a theoretical basin is presented in the left figure above. The wave enters the basin at 7AM, propagates around a node (called an [[Amphidromic Point]]), passes the reflective boundary of the basin around 0PM and leaves the basin at 5PM. A similar process is visible in the southern coast of England, propagates in easterly direction along the Belgian coast, and then north along the Dutch coast towards the Wadden Sea (right image).
+
+
+---
+# 4.2 Wind-Driven Flow
+Open water systems like estuaries and shallow seas are exposed to atmospheric forcing mechanisms, including wind. In this section water level set-up due to wind forcing and Ekman transport is discussed. The wind does not only affect the near-surface layer, but may set the entire water column in motion. This section is based on chapter 6 of Pugh (1996)
+
+## 4.2.1 Wind Stress and Set-Up
+When the wind blows over the water surface, it moves the water as a result of drag. The ripples and waves cause surface roughness which is needed for the movement. The wind stress on the sea surface, $\tau_s$, can be quantified by assuming that it is dependent on the wind speed, $W$, and the air density, $\rho_a$. We can derive the following relationship for the wind stress
+
+$$
+\tau_s = C_D \rho_a^i W^j \tag{4.10}
+$$
+
+where
+- $C_D$ is a dimensionless drag coefficient, and $i$ and $j$ coefficients. 
+
+The coefficients can be determined by applying a dimensional analysis on equation 4.10
+
+$$
+[ML^{-1}T^{-2}] = [ML^{-3}]^i[LT^{-1}]^j
+$$
+
+This gives values of 1 and 2 for $i$ and $j$ respectively
+
+$$
+\tau_s = C_D \rho_a W^2 \tag{4.11}
+$$
+
+The value of the drag coefficient depends on the level at which the wind speed is measured; conventionally, this is 10m above the water level. $C_D$ can then be estimated as 
+
+$$
+C_D = 0.63 \cdot 10^{-3} + 0.066W_{10} \cdot 10^{-3}
+$$
+
+where $W_{10}$ is the wind speed measured at 10 m above the water level and falls within the range $[2.5 ms^{-1}, 21 ms^{-1}]$. 
+
+>[!Missing]
+>Insert Fig. 4.7
+
+We can illustrate the effect of the wind stress with an example. A steady wind across a narrow channel causes water to build up against the coast in the direction of the wind (see image above). In case of a steady state, the wind stress is balanced by the pressure term in the momentum equation
+
+$$
+\frac{}{}
+$$
