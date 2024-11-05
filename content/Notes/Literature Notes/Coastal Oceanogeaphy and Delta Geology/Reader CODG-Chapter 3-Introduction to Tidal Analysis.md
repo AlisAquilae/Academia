@@ -3,7 +3,7 @@ fileClass: Base, Literature Notes
 title: 
 Parents: ["[[Coastal Oceanography and Delta Geology]]"]
 Draft: 
-Status: In Progress
+Status: Done
 Authors: 
 Year of Publication: 
 Related Notes: 
@@ -391,6 +391,22 @@ The second term originates from the rate of change of the longitude of the lunar
 $$
 \begin{aligned}
 f &\approx 1-\alpha \cos(\omega_5 t) \\
-&= 1- 0.0373
+&= 1- 0.0373 \cos(\omega_5 t) \\
+u &\approx -\alpha \sin(\omega_5 t) \\
+&= -2.1\degree \sin(\omega_5 t)
 \end{aligned}
 $$
+
+The phase of the nodal angle $\omega_5 t$ is measured from the time when the ascending lunar node, at which the moon crosses the ecliptic from south to north, is at the First Point of Aries. The calculation of the influence of the nodal factors can be obtained for all lunar constituents.
+
+## 3.2.4 Shallow Water Tides
+Tidal waves are modified when they enter shallow water. In this context, a coastal shelf that is less than 200m deep is considered as being shallow. Non-linear processes like bottom friction, which depend on the square or a higher power of the tidal signal, modify the tidal wave on the shelf. The modification of the propagating tidal wave generates constituents with other frequencies than the one we started with. Generally, a whole range of additional constituents is necessary to describe the distortion in shallow water. 
+
+## 3.2.5 Least Square Fitting Procedure
+A least-square fit analysis can be used to determine the relative phase and the amplitude of each frequency in the time series. Many different Fourier functions are fitted through the time series. The least squares fit are the coefficients minimizing
+
+$$
+E = ||Tb-y||^2
+$$
+
+Where $E$ is the error of difference, $y$ is the recorded time series and $Tb$ is the calculated time series. The $b$ is a list of complex amplitudes and $T$ is a matrix of sinusoidal base functions. The least square fitting method allows gaps in the data and can be used for data of any length and interval. However, there is no easy way to determine whether the resulting phase and amplitude of a constituent is meaningful in a deterministic way. 
