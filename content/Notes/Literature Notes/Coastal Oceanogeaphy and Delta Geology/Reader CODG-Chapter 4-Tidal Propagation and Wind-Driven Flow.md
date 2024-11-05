@@ -79,4 +79,22 @@ A famous example of tidal resonance is the Bay of Fundy at the Atlantic coast of
 >[!Missing]
 >Insert Fig. 4.4
 
-The behaviour of standing waves can be illustrated by considering the water level in a rectangular box, which may represent the harbour in a river delta. At the node, in the middle
+The behaviour of standing waves can be illustrated by considering the water level in a rectangular box, which may represent the harbour in a river delta. At the node, in the middle of the box, the amplitude is zero; the water level is constant. At the antinodes, the water level is continuously changing. When assuming zero energy loss, the water movement can be described as a continuous transfer from potential energy to kinetic energy. The maximum potential energy during high water or low water (1) and (3) is converted to a maximum kinetic energy during the middle of the oscillations (2) and (4). This can be considered as two progressive waves travelling in opposite direction, with perfect reflections at the barriers. 
+
+The situation depicted above has only one node and is called the *fundamental node of oscillation* or *uninodal seiche*. The next highest mode has two nodes and so on. 
+
+The natural period of oscillation is the time it takes a wave to travel from one boundary and return after reflection by the other boundary. The time of this half-wave oscillation follows from equation 4.2
+
+$$
+T = \frac{2 \times \text{box length}}{(g \times \text{water depth})^{\frac{1}{2}}} = \frac{2L}{\sqrt{gD}}
+$$
+
+This is [[Merian's Equation]], after its originator. Merian's equation may be used to estimate the natural periods of for example long lakes, but the estimated values will differ from reality because the depths are varying. Also, the irregular shapes of natural lakes will result in different natural periods, in both lateral and longitudinal direction. 
+
+## 4.1.3 Kelvin Waves
+In the previous paragraphs, rotation of the Earth was neglected. Large-scale waves however are under influence of the [[Coreolis Force]]. A tidal wave in the Northern Hemisphere is deflected to the right of its propagation direction, during flood. This deflected component will continue until it meets a barrier (mostly the coastline). The result is a set-up of water against the coast. Similarly, the water is set-down during ebb. A tidal wave featuring such a setup and setdown towards the coastal boundary is called a [[Kelvin Wave]].
+
+>[!Missing]
+>Insert Fig. 4.5
+
+The water setup creates a pressure gradient directed away from the shore
