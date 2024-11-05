@@ -86,7 +86,7 @@ The situation depicted above has only one node and is called the *fundamental no
 The natural period of oscillation is the time it takes a wave to travel from one boundary and return after reflection by the other boundary. The time of this half-wave oscillation follows from equation 4.2
 
 $$
-T = \frac{2 \times \text{box length}}{(g \times \text{water depth})^{\frac{1}{2}}} = \frac{2L}{\sqrt{gD}}
+T = \frac{2 \times \text{box length}}{(g \times \text{water depth})^{\frac{1}{2}}} = \frac{2L}{\sqrt{gD}} \tag{4.6}
 $$
 
 This is [[Merian's Equation]], after its originator. Merian's equation may be used to estimate the natural periods of for example long lakes, but the estimated values will differ from reality because the depths are varying. Also, the irregular shapes of natural lakes will result in different natural periods, in both lateral and longitudinal direction. 
@@ -97,4 +97,23 @@ In the previous paragraphs, rotation of the Earth was neglected. Large-scale wav
 >[!Missing]
 >Insert Fig. 4.5
 
-The water setup creates a pressure gradient directed away from the shore
+The water setup creates a pressure gradient directed away from the shore. The development of this pressure gradient continues until it balances the Coreolis force. Now, the Kelvin wave is a [[Geostrophic Wave]]. Mathematically, the resulting wave can be described as follows
+
+$$
+\zeta(y) = \zeta_0 e^{-\frac{fy}{c}} \tag{4.8}
+$$
+
+$$
+u(y) = \sqrt{\frac{g}{D}} \zeta(y) \tag{4.9}
+$$
+
+Here, the boundary is located at $y=0$ and $\zeta_0$ is the wave amplitude at $y=0$. $f$ is the Coreolis parameter, defined as $f = 2\Omega \sin \phi$, in which $\Omega$ is the angular velocity of the earth and $\phi$ is the latitude. 
+
+The above equations imply an exponential decay of the wave amplitude away from the shore and a current velocity which is proportional to the amplitude. The parameter $c/f$ is called the *Rossby radius of deformation* and scales the decay length of the amplitude. At a distance $y=c/f$ away from the boundary the amplitude has decreased to $\zeta = 0.37\zeta_0$
+
+The Coreolis effect is essential to the propagation of a Kelvin wave. The Coreolis force deflects the wave to the right boundary at the Northern hemisphere and is stronger for waves with a higher celerity. The flow velocity is often highest in the upper part of the water column, where the flow experiences a stronger deflection to the coast. This generates a pressure gradient force that drives a net circulation, with water flowing to the coast in the upper layer and water flowing seaward in the lower layer. We will elaborate on this effect in the next section
+
+>[!Missing]
+>Insert Fig. 4.6
+
+The spatial propagation of a Kelvin wave in a theoretical basin is presented in the left figure above. The wave enters the basin at 7AM, propagates around a node (called an [[Amphidromic Point]]), passes the reflective boundary of the basin around 0PM and leaves the basin at 5PM. A similar process is visible
