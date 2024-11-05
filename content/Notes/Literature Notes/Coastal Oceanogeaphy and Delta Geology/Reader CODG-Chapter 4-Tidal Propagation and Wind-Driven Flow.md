@@ -167,7 +167,7 @@ where $z$ is the depth coordinate. The balancing pressure term is often translat
 We can solve equation 4.12 using the following two equations. The first is the depth-averaged stress, which can be obtained by integrating over the depth and assuming that the stress is independent of depth
 
 $$
-\frac{1}{D} \int\limits_{-D}^{0} \frac{\partial \tau}{\partial z}dz = \frac{1}{D}(\tau_s - \tau_b) \tag{4.13}
+\frac{1}{D} \int\limits_{-D}^{0} \frac{\partial \tau}{\partial z} \mathrm dz = \frac{1}{D}(\tau_s - \tau_b) \tag{4.13}
 $$
 
 where
@@ -200,4 +200,36 @@ $$
 \frac{\partial \zeta}{\partial x} = \frac{C_D \rho_a W^2}{g \rho D} \tag{4.17}
 $$
 
-This implies that the effect of wind stress on the surface slope increases with a decreasing water depth. For a basin with the dimensions of the North Sea (a length of $x=200$ km and a depth of $D=30$ m), a wind speed of 22 ms$^{-1}$ would cause a surface level increase of 0.85 m. For a storm with a wind speed of 
+This implies that the effect of wind stress on the surface slope increases with a decreasing water depth. For a basin with the dimensions of the North Sea (a length of $x=200$ km and a depth of $D=30$ m), a wind speed of 22 ms$^{-1}$ would cause a surface level increase of 0.85 m. For a storm with a wind speed of 30 ms$^{-1}$ this would be 1.6 m
+
+## 4.2.2 Ekman Transport
+When the wind drags the surface water layer, the surface layer in turn drags the layer beneath it and sets it into motion. This interaction propagates downward in the water column. Due to friction, each layer has a lower speed than the one above. 
+
+The rotation of the earth complicates this process by the Coreolis effect. The surface layer of the water is deflected to the right of the wind direction (Northern Hemisphere). Each layer of water, which is forced into motion by the layer above, shifts direction because of Earth's rotation. When going down, this forms a spiral, the Ekman spiral. The net transport is called the [[Ekman Transport]], which has an angle of approximately $90\degree$ with the wind direction.
+
+We can describe this process using the momentum equation. Let us consider a deep water layer, where the bottom stress can be neglected. We assume that the density is constant over depth and a horizontal pressure gradient of zero. The wind acts in the positive $x$-direction. For a steady-state situation, the momentum equation for wind stress reduces to
+
+$$
+\begin{aligned}
+-fv &= \frac{1}{\rho} \frac{\partial \tau_x}{\partial z} \\
+fu &= \frac{1}{\rho} \frac{\partial \tau_y}{\partial z} 
+\end{aligned} \tag{4.18}
+$$
+
+Here, 
+- $f$ is the Coreolis parameter
+- $\rho$ is the water density
+
+Integrating these equations from the bottom of the wind-driven layer to the surface gives the Ekman Volume Transport in $x-$ and $y-$direction: $U_E$ and $V_E$
+
+$$
+\begin{aligned}
+\frac{1}{\rho} \int\limits_{-D}^0 \frac{\partial \tau_x}{\partial z} \mathrm dz &= \frac{\tau_{xs} - \tau_{xb}}{\rho} \\
+\frac{1}{\rho} \int\limits_{-D}^0 \frac{\partial \tau_y}{\partial z} \mathrm dz &= \frac{\tau_{ys} - \tau_{yb}}{\rho}
+\end{aligned} \tag{4.19}
+$$
+
+where
+- $\tau_{xs}$ and $\tau_{xb}$ are the stress forces at the surface and bottom in $x$-direction
+
+Since
