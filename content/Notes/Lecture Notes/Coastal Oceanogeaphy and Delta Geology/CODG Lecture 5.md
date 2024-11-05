@@ -24,3 +24,9 @@ Waves, even complex (like the orange one) can be decomposed into a series of sin
 Quantifying the tide generating force on any place on earth requires the introduction of the gravitational force, i.e. the work that needs to be done against the force of attraction to move a particle of unit mass to an infinite distance from the body
 
 Amplitudes of tides difficult to find, but frequency of tides is fixed and dependent on celestial bodies, and therefore a lot easier to know
+
+$i_a$ defines the tidal species
+- 1 for diurnal species
+- 2 for semi-diurnal species
+- 3 for terdiurnal species
+- 4 for quarterdiurnal species
