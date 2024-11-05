@@ -232,4 +232,20 @@ $$
 where
 - $\tau_{xs}$ and $\tau_{xb}$ are the stress forces at the surface and bottom in $x$-direction
 
-Since
+Since the bottom friction does not play a role, $\tau_{xb}$ and $\tau_{yb}$ are zero. Also the surface wind stress in $y$-direction is zero. Equation 4.18 can therefore be simplified to
+
+$$
+\begin{aligned}
+-fV_E &= \tau_{xs} / \rho \\
+-fU_E &= 0
+\end{aligned}
+$$
+
+which has the solutions
+
+$$
+\begin{aligned}
+V_E &= -\tau_{xs} / f \rho \\
+U_E &= 0
+\end{aligned} \tag{4.20}
+$$
