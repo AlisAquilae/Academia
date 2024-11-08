@@ -249,3 +249,27 @@ V_E &= -\tau_{xs} / f \rho \\
 U_E &= 0
 \end{aligned} \tag{4.20}
 $$
+
+We just calculated that the net transport takes place in the negative $y$-direction, whereas the wind is directed along the positive $x$-direction. Due to the coreolis effect, wind driven transport deviates from the wind direction with an angle of $90\degree$ 
+
+>[!Missing]
+>Insert Fig. 4.8
+
+
+If we consider a theoretical situation, with no density differences, no bottom stress, and a wind that blows steady for a long time in deep water, a full Ekman spiral could develop. Due to the Coreolis force, the angle between the flow direction and the wind direction increases with depth, and due to the internal friction forces, the speed decreased with depth. 
+
+Although an Ekman spiral is unlikely to fully develop, it might be relevant to consider the depth until which it could penetrate. The Ekman Depth $D_E$ is defined as the depth at which the water moves in opposite direction to the wind at the surface
+
+$$
+D_E = \pi \frac{2A_x}{\rho f} \tag{4.21}
+$$
+
+In this equation, $A_z$ is the eddy viscosity coefficient. The eddy viscosity is the internal stress in water; so the friction between the moving "water layers". The shear stress within the water column is related to the velocity gradient by the eddy viscosity coefficient
+
+$$
+\tau_{xz} = A_z \frac{\partial u}{\partial z} \tag{4.22}
+$$
+
+When the wind is directed longshore, having the coastline at its left (Northern Hemisphere), Ekman transport can cause a shore-directed upwelling. The wind causes a net offshore Ekman transport near the surface. When the wind is in opposite direction, the opposite happens. The water is subject to downwelling near the coast
+
+River plumes, which are subject to the next chapter, are also impacted by Ekman transport. The cross-shore plume structure varies as a function of the fluctuations in wind forcing. Upwelling winds spread the plumes tens of kilometres offshore, while downwelling winds can narrow the plume in width. 
