@@ -21,4 +21,22 @@ Again relatively short-term processes. Place something on the land, and see what
 Monitor vertical (subsidence)  and horizontal movements of tectonic plates
 
 # Short-lived radioisotopes
-The idea is that radiocative lead is naturally produced at a relatively constant rate in the atmosphere, giving an idea of sediment deposition and mixing up to approx 100 years
+The idea is that radioactive lead is naturally produced at a relatively constant rate in the atmosphere, giving an idea of sediment deposition and mixing up to approx 100 years (because it decays, meaning the more there is left, the younger it is)
+
+# Historical and Satellite-derived maps
+Provide snapshots in time with a historical focus on features of human importance. 
+
+# Archaeology
+Try to make sense of why certain features were built this way. 
+
+# Radiocarbon Dating
+We look for organic remains, plants or animals, looking for a radioisotope of carbon. Over time we have less radiocarbon, meaning with the amount of radiocarbon we can get an idea of how old a certain material is. Used a lot in archaeology
+
+# Luminescence Dating (OSL = optically stimulated luminescence)
+Measuring when sediments were last exposed to light, i.e. when they were buried. They are exposed to some radiation from around them. The longer they have been buried, the more radiation is stored. Through the use of one wavelength of light the radiation is excreted, and we can measure this. 
+
+---
+# How to pick right method
+With a lot of peat, use radiocarbon dating. Else for example luminescence dating if you have sand
+
+What you need to know is the research question and time scale, what materials are available (organics, sand), what materials are relevant, and wha
