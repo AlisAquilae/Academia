@@ -40,3 +40,11 @@ Measuring when sediments were last exposed to light, i.e. when they were buried.
 With a lot of peat, use radiocarbon dating. Else for example luminescence dating if you have sand
 
 What you need to know is the research question and time scale, what materials are available (organics, sand), what materials are relevant, and what is your budget.
+
+---
+# Modelling Delta Evolution - Different Types
+Physical (scale) models: scale models that reduce spatial scale and increase process speed
+
+Conceptual (simplified) numerical models: reduced complexity helps to study the (fundamental)  effects of individual parameters and physical processes. 
+
+Complex numerical models: aimed to crete ad much as possible a digital twin of their real-world analogue including all (important) process interractions and feedbacks
