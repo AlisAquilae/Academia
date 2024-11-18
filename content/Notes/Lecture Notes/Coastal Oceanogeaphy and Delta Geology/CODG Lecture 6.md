@@ -39,4 +39,4 @@ Measuring when sediments were last exposed to light, i.e. when they were buried.
 # How to pick right method
 With a lot of peat, use radiocarbon dating. Else for example luminescence dating if you have sand
 
-What you need to know is the research question and time scale, what materials are available (organics, sand), what materials are relevant, and wha
+What you need to know is the research question and time scale, what materials are available (organics, sand), what materials are relevant, and what is your budget.
