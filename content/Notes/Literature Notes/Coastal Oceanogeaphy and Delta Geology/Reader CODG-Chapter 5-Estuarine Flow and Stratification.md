@@ -173,4 +173,12 @@ There are many ways to divide estuary plumes into classes. Here we discuss the m
 >[!Missing]
 >Insert Fig. 5.9
 
-Yankovsky and Chapman (1997) define a set of governing parameters, which are solely determined by inflow parameters (figure 5.9). With these parameters three scenarios can be distinguished:
+Yankovsky and Chapman (1997) define a set of governing parameters, which are solely determined by inflow parameters (figure 5.9). 
+- The first parameter, $y_s$, represents the distance at which buoyant inflow is carried offshore by surface processes. 
+- The second parameter, $h_b$, can be interpreted as the depth up to where the plume is attached to the bottom.
+- The third parameter defines the distance at which the buoyant inflow is carried offshore by bottom processes
+
+With these parameters three scenarios can be distinguished:
+1. The equilibrium depth ($h_b$) is smaller than the depth of the buoyant inflow ($h_0$). The plume is surface-advected
+2. The equilibrium depth ($h_b$) is larger than the depth of the buoyant inflow ($h_0$) and $y_b$, the location of the $h_b$ isobath at the surface, is smaller than the distance, $y_s$. The plume is intermediate
+3. The equilibrium depth ($h_b$) is larger than the depth of the buoyant inflow ($h_0$) and $y_b$ is larger than $y_s$. The plume is bottom-advected. 
