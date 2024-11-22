@@ -127,4 +127,16 @@ This is an expression for the salt intrusion length in a mixed type of estuary.
 >[!Important]
 >We can conclude that the salt intrusion length increases with increasing cross-sectional area and dispersion coefficient, or with a lower river discharge.
 
-Calculating the salt intrusion length for a highly stratified estuary is more complicated. The top and bottom layers are largely decoupled, so the mean velocity will not be representative of either of the two layers. There are various empirical equations to calculate the salt intrusion length for highly stratified estuaries
+Calculating the salt intrusion length for a highly stratified estuary is more complicated. The top and bottom layers are largely decoupled, so the mean velocity will not be representative of either of the two layers. 
+
+There are various empirical equations to calculate the salt intrusion length for highly stratified estuaries. First, we introduce the densimetric Froude number. The densimetric Froude number indicates the ratio between the inertial force and the gravity force caused by the density difference (i.e. the buoyancy force). This ratio is often used in the analysis of jets and plumes.
+
+In this case, the salt water entering the estuary can be considered a wedge. Salt water intrusion into an estuary occurs if $F_{rp} < 1$. By assuming a densimetric Froude number of 1, the critical river flow up until which salt intrusion is possible can be estimated. After some derivation and substitution, we find
+
+$$
+Q_c = bh^{\frac{3}{2}} \sqrt{\frac{\Delta \rho}{\rho_m}g}
+$$
+
+Where
+- $Q_r$ is the critical discharge
+- $
