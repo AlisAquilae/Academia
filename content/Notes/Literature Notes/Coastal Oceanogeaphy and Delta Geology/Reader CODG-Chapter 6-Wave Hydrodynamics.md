@@ -83,3 +83,39 @@ From these equations, it is visible that the orbital velocities increase with in
 Equations 6.5 and 6.6 are complicated, so in practice simplifying assumptions are made depending on the wave environment. The most common assumptions are based on the water depth $d$ and two limiting conditions; deep and shallow water
 
 ## 6.2.1 Deep Water
+For deep water, one can assume the depth is much larger than the wavelength, such that $kd \to \infty$. This assumption simplifies the orbital motion equations to
+
+$$
+u_x = \omega ae^{kz} \sin(\omega t - kx) \tag{6.7}
+$$
+
+$$
+u_z = \omega ae^{kz} \cos(\omega t - kx) \tag{6.8}
+$$
+
+From equations 6.7 and 6.8, it is visible that the orbital velocity components have both the same magnitude. However, the horizontal and vertical velocity component are $90 \degree$ out of phase with each other. The latter implies that the motion is exactly circular. 
+
+The resulting velocity from the horizontal and vertical velocity component can be obtained by $u = \sqrt{u_x^2 + u_z^2}$ and using the trigonometric relation $\sin^2(x) + \cos^2(x)=1$, resulting in
+
+$$
+u = \omega ae^{kz} \tag{6.9}
+$$
+
+Thus, the velocity becomes independent. At the mean sea level surface ($z=0$) the equation reduces to $u=\omega a$. This result could however have been expected because the length of the circular motion of the water particle is equal to $2\pi a$ and completes one circle in a wave period $T$. The latter implies that a particle must travel with a constant speed that is equal to $\omega a$. 
+
+## 6.2.2 Shallow Water
+For shallow water, the assumption can be made that $kd \to 0$, which reduces equations 6.5 and 6.6 to
+
+$$
+u_x = \frac{\omega a}{kd}(\omega t - kx) \tag{6.10}
+$$
+
+$$
+u_z = \omega a(1+\frac{z}{d})\cos(\omega t - kx) \tag{6.11}
+$$
+
+From these equations, it can be observed that the magnitudes of the horizontal and vertical velocity components differ. To be more precise, the horizontal velocity component has become independent of the distance from the water surface. Indeed, from equation 6.11 it is visible that the vertical velocity at the bottom ($z=-d$) is zero (a boundary condition that was used to develop linear wave theory). Thus, the particle movement at the surface is elliptical and at the bottom a water particle only moves in the horizontal direction.
+
+![[Pasted image 20241122131725.png]]
+
+In practice, a good rule of thumb for applying deep water and shallow water assumptions is to consider the water deep if the depth $h$ compared to the deep-water wave length $L$ is in the order of $\frac{h}{L} \gt \frac{1}{2}$. Water is considered shallow if 
