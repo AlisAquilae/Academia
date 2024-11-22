@@ -58,8 +58,28 @@ $$
 
 ---
 # 6.2 Orbital Motion
-In the previous section the water surface motion was presented. However, a passing wave not only effects the water surface, it also sets the water under the surface in motion. In linear wave theory this movement is orbital with an amplitude that decreases with depth, see figures 6.2 and 6.3. This decrease in orbital diameter is hyperbolic and at a depth of half the wave length the orbital motion is already negligible.
+In the previous section the water surface motion was presented. However, a passing wave not only effects the water surface, it also sets the water under the surface in motion. In linear wave theory this movement is orbital with an amplitude that decreases with depth, see image below. This decrease in orbital diameter is hyperbolic and at a depth of half the wave length the orbital motion is already negligible.
 
+![[Pasted image 20241122125844.png]]
 
+The following two equations describe the horizontal and vertical velocity components respectively at any location and moment:
 
-The following two equations describe the horizontal and vertical velocity components at any location and moment:
+$$
+u_x = \omega a \frac{\cos(h)(k(d+z))}{\sin(h)(kd)}\sin(\omega t-kx) \tag{6.5}
+$$
+
+$$
+u_z = \omega a \frac{\sin(h)(k(d+z))}{\sin(h)(kd)}\sin(\omega t-kx) \tag{6.5}
+$$
+
+In which
+- $d$ is the water depth
+- $z$ is the vertical height with $z=0$ at the mean surface water elevation. 
+
+From these equations, it is visible that the orbital velocities increase with increasing amplitude and wave frequency. In the crest of the wave ($\eta \gt 0$) the velocity is always directed in the down-wave direction. The opposite holds for the trough of the wave where the velocity is always oriented up-wave
+
+![[Pasted image 20241122130228.png]]
+
+Equations 6.5 and 6.6 are complicated, so in practice simplifying assumptions are made depending on the wave environment. The most common assumptions are based on the water depth $d$ and two limiting conditions; deep and shallow water
+
+## 6.2.1 Deep Water
