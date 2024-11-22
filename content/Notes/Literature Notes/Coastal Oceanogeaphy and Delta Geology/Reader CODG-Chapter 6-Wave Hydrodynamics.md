@@ -31,4 +31,35 @@ $$
 
 in which
 - $\omega$ is the radian frequency
-- $k$ is the wave number, a
+- $k$ is the wave number, and
+- $a$ is the amplitude of the wave
+
+The radianf requency and the wave number are given by
+
+$$
+\omega = \frac{2\pi}{T} \tag{6.2}
+$$
+
+and
+
+$$
+k = \frac{2\pi}{L} \tag{6.3}
+$$
+
+where $T$ is the period and $L$ is the wave length, respectively.
+
+The harmonic wave is propagating with a constant phase, this could be observed by following the crest of the wave from a fixed point
+
+The speed at which the wave propagates is called the phase speed, and is denoted as
+
+$$
+c = \frac{\mathrm dx}{\mathrm dt} = \frac{\omega}{k} = \frac{L}{T} \tag{6.4}
+$$
+
+---
+# 6.2 Orbital Motion
+In the previous section the water surface motion was presented. However, a passing wave not only effects the water surface, it also sets the water under the surface in motion. In linear wave theory this movement is orbital with an amplitude that decreases with depth, see figures 6.2 and 6.3. This decrease in orbital diameter is hyperbolic and at a depth of half the wave length the orbital motion is already negligible.
+
+
+
+The following two equations describe the horizontal and vertical velocity components at any location and moment:
