@@ -168,3 +168,9 @@ An estuary plume can be divided in four dynamical regions: the source region, th
 - In the last region, the far-field, Coriolis, buoyancy, wind and bottom stress are all important. The far-field coincides with the coastal current, which can extend over a few 100kms, depending on the bathymetry. The current sometimes behaves as a geostrophic Kelvin wave (figure 4.5), where the Coriolis force and pressure gradient balance. It transports the diluted river water in the direction of the Kelvin wave propagation.
 
 ## 5.2.2 Surface and Bottom Advected Plumes
+There are many ways to divide estuary plumes into classes. Here we discuss the method of Yankovsky and Chapman (1997) who divided plumes into bottom and surface advected plumes. Fronts of bottom-advected plumes propagate further near the bottom than near the surface, and horizontal stratification is comparatively high. Bottom advected plumes are often characterised by a large river outflow, which makes them less sensitive to wind modification. A surface advected plume never interacts with the bottom. It has a vertically stratified structure. Surface plumes are sensitive to wind mixing and the wind direction, which can steer the plume in a direction.
+
+>[!Missing]
+>Insert Fig. 5.9
+
+Yankovsky and Chapman (1997) define a set of governing parameters, which are solely determined by inflow parameters (figure 5.9). With these parameters three scenarios can be distinguished:
