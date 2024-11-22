@@ -139,3 +139,53 @@ Combined, wave heights and wave periods are often shown as a wave spectrum (or v
 
 ---
 # 6.4 Dispersion
+A critically important concept in ocean waves is that of frequency dispersion. Analyzing a single wave (section 6.1) by its phase velocity left out the fact that the wavelength is dependent on the wave period. In deep water, the wavelength $L$ scales with the wave period squared $T^2$. 
+
+You can insert this dependence into the equation for the phase velocity (equation 6.4) and observe that longer period waves travel faster. Because of frequency dispersion, random wave fields that are initially generated in the ocean often desintegrate into fields with more regular wave frequencies.
+
+The relation that quantifies that longer waves travel faster than short waves can be inferred from the dispersion relationship:
+
+$$
+\omega^2 = gk \tan(h)(kd) \tag{6.15}
+$$
+
+From this equation, it is visible that longer waves (low $k$) have lower frequencies (low $\omega$) or that high frequency waves are shorter. 
+
+From the dispersion relationship, the propagation speed of the wave can be obtained, using equation 6.4. For an arbitrary depth, the propagation speed is given by
+
+$$
+c = \sqrt{\frac{g}{k}\tan(h)(kd)} \tag{6.16}
+$$
+
+The dispersion relationship can be simplified for deep water for which the assumption is made that $kd \to \infty$ and that $\tan(h)(kd) \to 1$. This implies that equation 6.15 reduces to
+
+$$
+\omega = \sqrt{gk} \tag{6.17}
+$$
+
+This deep-water dispersion relation becomes independent of the water depth and solely depends on the wave length (or wave period). The propagation speed of a deep water wave is
+
+$$
+c = \sqrt{\frac{g}{k}} = \sqrt{\frac{gL}{2\pi}} = \frac{gT}{2\pi} \tag{6.18}
+$$
+
+From the phase velocity in deep water it is visible that low frequency waves can travel faster than the high frequency waves. Waves in which the phase velocity depends on the wave length are called dispersive waves, because in a given sea state different waves will disperse from each other. 
+
+When a wave propagates towards land, the water depth will start to decrease. The result is that the wave will start to interact with the bottom (section 6.7). From the dispersion relationship, wave depth also has consequences for the wave length and wave speed (and for wave height, shape, and the direction, which will be discussed later).
+
+For shallow water, assuming that $kd \to 0$ and $\tan(h)(kd) \to kd$, the dispersion relation reduces to
+
+$$
+\omega = k\sqrt{gd} \tag{6.19}
+$$
+
+By subsequently dividing by the wave number ($k$), the phase speed is obtained for shallow water as
+
+$$
+c = \sqrt{gd} \tag{6.20}
+$$
+
+It is seen that the phase speed has become independent of the wavenumber. This implies that waves in shallow water are non-dispersive and the phase velocity is only dependent of the water depth. This simplification is called the long wave approximation, and also applies to waves such as tsunamis and tidal waves. The resulting effect is that the phase speed decreases while a wave approaches the shore line
+
+---
+# 6.5 Wave Groups
