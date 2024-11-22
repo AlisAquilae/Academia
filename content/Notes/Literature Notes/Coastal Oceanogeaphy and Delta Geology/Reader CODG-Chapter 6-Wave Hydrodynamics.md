@@ -118,4 +118,11 @@ From these equations, it can be observed that the magnitudes of the horizontal a
 
 ![[Pasted image 20241122131725.png]]
 
-In practice, a good rule of thumb for applying deep water and shallow water assumptions is to consider the water deep if the depth $h$ compared to the deep-water wave length $L$ is in the order of $\frac{h}{L} \gt \frac{1}{2}$. Water is considered shallow if 
+In practice, a good rule of thumb for applying deep water and shallow water assumptions is to consider the water deep if the depth $h$ compared to the deep-water wave length $L$ is in the order of $\frac{h}{L} \gt \frac{1}{2}$. Water is considered shallow if $\frac{h}{L} \lt \frac{1}{20}$. In between deep and shallow water, the full equation 6.5 and 6.6 should be used. 
+
+---
+# 6.3 Wave Spectrum
+The previous sections described a single wave traveling across the water surface. In reality however, as the wind blows over the sea, it generates many different waves. These generated waves will differ in their amplitude, wave length and frequency. This implies that a spectrum of waves is generated. The shape of this spectrum is, to a first order, dependent on the wind speed and fetch (the length over which the wind has blown, see Figure 6.6)
+
+![[Pasted image 20241122132452.png]]
+
