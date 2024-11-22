@@ -138,5 +138,27 @@ Q_c = bh^{\frac{3}{2}} \sqrt{\frac{\Delta \rho}{\rho_m}g}
 $$
 
 Where
-- $Q_r$ is the critical discharge
-- $
+- $Q_c$ is the critical discharge
+- $b$ is the channel width
+- $h$ is the channel length
+- $\Delta \rho$ is the difference in density between the sea water and the river water
+- $\rho_m$ is the average density, i.e. $\frac{1}{2}(\rho_s + \rho_r)$, and
+- $g$ is the gravitational acceleration
+
+If the river discharge is smaller than $Q_c$, salt water will enter the river mouth and of the river discharge is larger than $Q_c$, salt intrusion is unlikely
+
+---
+# 5.2 Plumes and Fronts
+The pathways of riverine sediments in buoyant estuary plumes are of key importance for the development of deltas. This section discusses the physics of estuarine plumes. We elaborate on the following subjects: the generating processes of plumes, the different dynamical regions in plumes and how plumes can be classified based on a scaling analysis. This section is largely based on Horner-Devine et al. (2015).
+
+## 5.2.1 Estuary Plumes
+An estuary plume is the flow of buoyant river water into the coastal ocean. Plumes deposit river suspended load at the submarine delta. In turn, the geometry of the delta influences the dynamics of the plume. Estuary plumes have a distinct dynamical character and span a large range of spatial and temporal scales. Depending on the forcing functions and geometry of the estuary, the structure of plumes varies greatly.
+
+The distinguishing dynamical feature of an estuary plume is the horizontal advection of fresh water from the river mouth that defines the shape and character of the plume. However, plumes occur in a range of sizes and shapes. The primary parameters which define the structure and scales of plumes are: fresh water inflow, tidal energy, coastline bathymetry/geometry, ambient ocean currents, wind and rotation of the earth. 
+
+An estuary plume can be divided in four dynamical regions: the source region, the liftoff point, the front and the near field region (figure 5.8).
+
+>[!Missing]
+>Insert Fig. 5.8
+
+n the source region, the bouyancy and momentum of the river outflow dominate the dynamics. The competition between the stratifying influence of the river and tidal mixing by the ocean determine the character of the plume. This competition can be presented in the estuarine Richardson number, which has a slightly different formulation than the gradient Richardson number discussed before;
