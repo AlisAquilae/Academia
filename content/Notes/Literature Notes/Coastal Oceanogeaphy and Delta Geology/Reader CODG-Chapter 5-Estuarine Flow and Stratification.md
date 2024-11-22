@@ -103,3 +103,28 @@ Salt intrusion threatens water quality in low-lying deltas, reducing the availab
 >The salt intrusion length is defined as the distance to the point where the salinity equals the river salinity, measured from the mouth of an estuary. The salt intrusion length is influenced by tidal forcing, river flow and geomorphological characteristics such as the river depth. 
 
 In this section a simple model is offered for calculating the salt intrusion length, as provided by Mikhailova (2012).
+
+>[!Warning]
+>I skipped the derivation of the formulas
+
+The salt intrusion length Ls depends on the type of stratification within the estuary, for which two types are distinguished. The first type is a well-mixed or partially mixed estuary (I), the second type consists of the strongly stratified or a salt-wedge types of estuary (II).
+
+In case of a well-mixed estuary, a one-dimensional form of the salt balance equation can be used to determine the salt intrusion distance. The final formula, specifically in the case of a steady state estuary, is
+
+$$
+L_s = \ln \left(\frac{S_s}{S_r} \right)\frac{AK}{Q}
+$$
+
+Where
+- $S_s$ is the sea-water salinity, or the initial salinity
+- $S_r$ is the salinity of the river mouth
+- $A$ is the mean channel cross-sectional area; in other words, $A=bh$
+- $K$ is the horizontal dispersion coefficient in streamwise direction (assumed to be constant)
+- $Q$ is the river discharge
+
+This is an expression for the salt intrusion length in a mixed type of estuary. 
+
+>[!Important]
+>We can conclude that the salt intrusion length increases with increasing cross-sectional area and dispersion coefficient, or with a lower river discharge.
+
+Calculating the salt intrusion length for a highly stratified estuary is more complicated. The top and bottom layers are largely decoupled, so the mean velocity will not be representative of either of the two layers. There are various empirical equations to calculate the salt intrusion length for highly stratified estuaries
