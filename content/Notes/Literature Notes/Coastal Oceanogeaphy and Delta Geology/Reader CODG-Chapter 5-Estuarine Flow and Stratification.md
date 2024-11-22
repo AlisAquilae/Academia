@@ -67,14 +67,39 @@ The influence of tidal velocity creates an apparent variation of salinity over t
 The intensity of stratification relative to mixing can be quantified by the gradient Richardson number, based on the ratio between the density gradient and the shear:
 
 $$
-Ri_{GR} = \frac{g}{\rho} \frac{\partial p / \partial z}{(\partial u/)}
+Ri_{GR} = \frac{g}{\rho} \frac{\partial p / \partial z}{(\partial u/\partial z)^2} \tag{5.10}
 $$
 
+Where:
+- $g$ denotes the gravitational acceleration
+- $\rho$ is the density
+- $z$ is the vertical coordinate, and
+- $u$ is the velocity
 
+>[!Important]
+>When the gradient Richardson number is smaller than 0.25, the water column is locally considered to be well-mixed. A Richardson number of 0.5 or higher indicates stratification.
+
+Stratification typically varies throughout the water column, and spatially. Close to the bed, where the velocity gradient is strongest, conditions are typically well-mixed. Wind may cause velocity shear and mixing near the surface.
 
 
 >[!Summary]
->Factors influencing density stratification
->- Estuary depth
->- Tidal amplitude
+>Summarising, density stratification is mainly influenced by 2 factors:
+>1. Estuary depth
+>2. Tidal amplitude
 
+Based on these, we can identify the following estuaries
+- A strongly stratified estuary or salt-wedge estuary is often relatively deep. The depth is large compared to the tidal velocity and the river discharge is large compared to the tidal velocities. At times of small river flow or during spring tides the stratification may weaken.
+- Partially mixed estuaries show great variation between spring tides and neap tides. During spring tides the estuary can be well-mixed, while during neap tides intensive stratification can develop. Another time-dependent factor is (seasonal) variation of river discharge. A higher river discharge increases the intensity of stratification, depending on the location in the estuary. Additionally, stratification increases towards the head of the estuary, where tidal velocities can be damped and river flow is more dominant.
+- Well-mixed estuaries are mostly shallow estuaries and have a small river discharge relative to the tidal velocities. During neap tide or periods of high river discharge stratification may develop.
+
+>[!Missing]
+>Insert Fig. 5.7
+
+
+## 5.1.3 Salt Intrusion
+Salt intrusion threatens water quality in low-lying deltas, reducing the availability of drinking water. Expressing the intensity of the salt water flow into an estuary is often done by the salt intrusion length. 
+
+>[!Important]
+>The salt intrusion length is defined as the distance to the point where the salinity equals the river salinity, measured from the mouth of an estuary. The salt intrusion length is influenced by tidal forcing, river flow and geomorphological characteristics such as the river depth. 
+
+In this section a simple model is offered for calculating the salt intrusion length, as provided by Mikhailova (2012).
