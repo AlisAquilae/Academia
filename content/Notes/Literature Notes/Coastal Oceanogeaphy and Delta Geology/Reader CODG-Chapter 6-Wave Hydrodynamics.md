@@ -122,7 +122,17 @@ In practice, a good rule of thumb for applying deep water and shallow water assu
 
 ---
 # 6.3 Wave Spectrum
-The previous sections described a single wave traveling across the water surface. In reality however, as the wind blows over the sea, it generates many different waves. These generated waves will differ in their amplitude, wave length and frequency. This implies that a spectrum of waves is generated. The shape of this spectrum is, to a first order, dependent on the wind speed and fetch (the length over which the wind has blown, see Figure 6.6)
+The previous sections described a single wave traveling across the water surface. In reality however, as the wind blows over the sea, it generates many different waves. These generated waves will differ in their amplitude, wave length and frequency. This implies that a spectrum of waves is generated. The shape of this spectrum is, to a first order, dependent on the wind speed and fetch (the length over which the wind has blown, see Figure 6.6). Initially, the generated spectrum is composed of short, high frequency waves. In time, short-wave dissipation and non-linear interactions between short waves will transfer wave energy to lower frequencies (longer period waves). However, for reasons that will be discussed in next section, the wave field will disintegrate into regular fields of near-equal frequencies (narrow-banded spectra).
 
 ![[Pasted image 20241122132452.png]]
+
+The wave spectrum can be determined from analyzing surface water elevations time series. Statistical properties such as the mean wave period, wave length and amplitude can be determined from such a time series. However, for most purposes the significant wave period and wave height are used. The significant wave height is the mean of the one third largest waves. The significant wave period is, then, the wave period corresponding to the significant wave height
+
+Combined, wave heights and wave periods are often shown as a wave spectrum (or variance density graph or power spectrum, see figure 6.7). The wave spectrum describes how much one single frequency contributes to the total variance of the time series. Using the variance is physical meaningful, since it relates wave height to the wave energy in a wave.
+
+>[!Info]
+>The total energy per unit crest is proportional to the square of the wave height ($E = \rho gH^2/8$), see also Section 6.6. In other words, the energy in a wave is proportional to the square of the deviation from the mean surface.
+
+
+![[Pasted image 20241122133737.png]]
 
