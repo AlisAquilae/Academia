@@ -136,3 +136,6 @@ Combined, wave heights and wave periods are often shown as a wave spectrum (or v
 
 ![[Pasted image 20241122133737.png]]
 
+
+---
+# 6.4 Dispersion
