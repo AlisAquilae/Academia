@@ -250,6 +250,43 @@ in which the overbars represent that the integral is time averaged over a wave p
 The kinetic energy per unit crest is equal to (integrated to the second order accuracy):
 
 $$
-E_{\text{kinetic}} = \overline{\int\limits_{-d}^\eta \frac{1}{2} \rho u^2 \, \mathrm dz} \approx \frac{1}{4} \rho
+E_{\text{kinetic}} = \overline{\int\limits_{-d}^\eta \frac{1}{2} \rho u^2 \, \mathrm dz} \approx \frac{1}{4} \rho g a^2 \tag{6.26}
 $$
 
+It follows that the time-averaged wave induced energy per unit area is equal to the sum of the potential and kinetic energy, $E_{\text{potential}} + E_{\text{kinetic}}$. 
+
+>[!Info]
+>An interesting result of these equations is that the total energy (per horizontal unit) is proportional to the square of the wave amplitude
+
+Wave energy is carried across the ocean with the propagating waves. In linear wave theory, which assumes no bottom roughness and no wave dissipation, the momentum flux of the propagating waves can be considered conserved (i.e. it does not change and a momentum balance can be formulated to investigate wave properties).
+
+Wave energy flux is defined as
+
+$$
+\begin{aligned}
+Ec_g &= \frac{1}{2} \rho g a^2 c_{\text{group}}\\
+&= \frac{1}{2} \rho g a^2nc \\
+&= \frac{1}{8}H^2nc
+\end{aligned} \tag{6.27}
+$$
+
+where $c_g$ is the group velocity. 
+
+Because of equation 6.27, it is often said that even though individual waves travel with phase velocity, the wave energy travels with group velocity. 
+
+---
+# 6.7 Coastal Waves
+Several interesting things happen when waves approach the coast and gradually transition from deep to shallow water. Two important changes to waves are their direction (refraction) and their height (shoaling).
+
+## 6.7.1 Wave Refraction
+Waves propagating in shallow water tend to align themselves with the bottom contour lines, see figure 6.9. This is the result of the dependence of the phase velocity on the water depth. The differences in propagation speed along the wave turns and aligns the wave with the bottom contour lines, which is called refraction.
+
+![[Pasted image 20241123092456.png]]
+
+>[!Warning]
+>Skipped the derivation of Snell's Law
+
+## 6.7.2 Shoaling
+As you read earlier in section 6.5, the group velocity decreases as waves approach the shoreline. A direct consequence of the decrease in the group velocity and the conservation of the wave energy flux, is that the wave energy per wave (or wave height) must increase (equation 6.27). This is called shoaling.
+
+Because of a decrease in the propagation speed (in shallow water phase velocity is dependent on depth) the wave amplitude must increase to conserve the energy flux.
