@@ -73,3 +73,27 @@ Where
 >[!Warning]
 >Skipped
 
+
+---
+# 7.3 Modelling Shoreline Evolution (The 1-Line Concept)
+
+>[!Warning]
+>Skipped
+
+
+---
+# 7.4 Alongshore Sediment Transport by Waves Creates Cuspate Deltas
+Wave-dominated deltas, such as the Nile Delta or the Grijalva Delta (figure 7.7), are deltas where waves are the dominant factor shaping the fluvial sediment. Compared to tidal and river-dominated deltas, wave dominated deltas often have smooth coastlines, and few (≈ 1) distributary channels. The cuspate shape of wave-dominated deltas (figure 7.7) originates from the dynamics of alongshore sediment transport. In this section the mechanics of the dominant processes responsible for generating these cuspate shapes will be discussed
+
+![[Pasted image 20241123150947.png]]
+
+A river delta with a straight shoreline initially grows rapidly in offshore direction, see figure 7.8. Rapid growth is possible because the angle is not favorable for longshore sediment transport. Therefore, most sediment supplied by the river accumulates near the river mouth. However, as a result of this initial rapid growth, near the river mouth the angle becomes more favorable for longshore sediment transport. Sediment supplied by the river is carried away by the longshore current from the river mouth. Further away from the river mouth the angle decreases, resulting in a decrease of the longshore sediment transport. This (diffusive) process is responsible for the delta growth in lateral direction. Eventually, an equilibrium situation is achieved in which the delta grows, but its shape does not change significantly anymore (figure 7.8). This situation is characterized by a shoreline deflection such that sediment transport away from the river mouth (by alongshore sediment transport) is balanced by sediment brought towards the beach by the river mouth.
+
+![[Pasted image 20241123151144.png]]
+
+---
+# 7.5 Quantifying Wave Dominance of a Delta
+
+>[!Warning]
+>Skipped
+
