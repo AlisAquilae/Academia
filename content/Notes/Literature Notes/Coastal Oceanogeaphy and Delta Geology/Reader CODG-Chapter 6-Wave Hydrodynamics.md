@@ -189,3 +189,44 @@ It is seen that the phase speed has become independent of the wavenumber. This i
 
 ---
 # 6.5 Wave Groups
+Similar to spring and neap tides, ocean waves with different frequencies create an interference pattern in the sea surface amplitude. Because of frequency dispersion it is common to see waves of nearly similar frequency, which results in a so-called wave group. 
+
+We can analyze the superposition of two waves with slightly different wavelengths (and thus phase velocities) and (for simplicity) equal amplitudes:
+
+$$
+\begin{aligned}
+\eta &= \eta_1 + \eta_2 \\
+&= a \cos(\omega_1 t + k_1 x) + a\cos(\omega_2t + k_2x)
+\end{aligned}
+ \tag{6.21}
+$$
+
+![[Pasted image 20241123090025.png]]
+
+Here $\eta$ is the surface elevation as a result of the superposition of $\eta_1$ and $\eta_2$. 
+
+If these two waves travel in the same directions they will reinforce each other if their crests coincide and cancel each other when they are out of phase with each other.
+
+The superposition of the two-harmonic waves will generate groups, see figure 6.8. Intuitively, you can imagine that the propagation speed of a wave group (group velocity) is not the same as for an individual wave. Rather, the group velocity is given by the difference between respective phase velocities. This can be shown by rewriting equation 6.1 
+
+$$
+\eta = 2a \cos \left( \frac{\omega_1 - \omega_2}{2}t - \frac{k_1-k_2}{2}x \right)\sin\left( \frac{\omega_1 + \omega_2}{2}t - \frac{k_1-k_2}{2}x \right) \tag{6.22}
+$$
+
+where the sine wave is the carrier wave which travels with a radian frequency equal to the average of the two original wave radian frequencies. The cosine wave modulates the amplitude of the sine wave and can be seen as the representation of the group waves. This implies that the wave group has a radian frequency and wave number equal to the difference between the two original waves. The latter implies, that the propagation speed of a wave group is thus different from the propagations speed of the individual waves, given by:
+
+$$
+\begin{aligned}
+c_{\text{group}} &= \frac{\frac{\omega_1 - \omega_2}{2}}{\frac{k_1 - k_2}{2}} \\
+&= \frac{\Delta \omega}{\Delta k} \\
+&= cn
+\end{aligned} \tag{6.23}
+$$
+
+where $c$ is the phase speed and in which
+
+$$
+n = \frac{1}{2} \left( 1 + \frac{2kd}{\sin(h)(2kd)} \right) \tag{6.24}
+$$
+
+Again, for deep water $kd \to \infty$ and equation 6.24 reduces to $n = 1/2$ which implies that a group propagates at half the velocity of the individual harmonic waves, since, $c_{\text{group}} = c
