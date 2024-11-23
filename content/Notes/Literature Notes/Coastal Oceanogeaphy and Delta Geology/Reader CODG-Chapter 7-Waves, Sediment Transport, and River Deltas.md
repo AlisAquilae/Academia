@@ -48,3 +48,28 @@ Alongshore sediment transport is difficult to (re) create in a laboratory, and n
 >For example, 10 m$^3$ of transport north along the beach and subsequently 10 m$^3$ south along the beach results in 20 m$^3$ of gross alongshore sediment transport and 0 m$^3$ of net alongshore sediment transport
 
 
+Various equations have been derived to predict the longshore sediment transport. Here the original CERC equation (the most well-known one) and a modern revised version will be discussed.
+
+## 7.2.1 The CERC-Equation
+The main assumption behind the CERC equation is that longshore sediment transport is proportional to the wave energy flux per length of shoreline. The wave energy flux per length of shoreline $F_x$ is given by
+
+>[!Warning]
+>Skipped the derivation of the CERC
+
+The general form of the CERC-equation is as follows
+
+$$
+Q_s = K_1H_b^{5/2}\sin(\theta_b)\cos(\theta_b) \tag{7.11}
+$$
+
+Where
+- $Q_s$ is the volumetric sediment transport
+- $K_1$ is an empirical constant relating the driving forces to the volumetric sediment flux
+- $H_b$ is the wave breaking height
+- $\theta_b$ is the angle between the breaking waves and the shoreline
+
+## 7.2.2 Revisited CERC-Equation 
+
+>[!Warning]
+>Skipped
+
