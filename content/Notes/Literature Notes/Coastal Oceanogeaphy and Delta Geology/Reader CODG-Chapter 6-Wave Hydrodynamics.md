@@ -229,4 +229,27 @@ $$
 n = \frac{1}{2} \left( 1 + \frac{2kd}{\sin(h)(2kd)} \right) \tag{6.24}
 $$
 
-Again, for deep water $kd \to \infty$ and equation 6.24 reduces to $n = 1/2$ which implies that a group propagates at half the velocity of the individual harmonic waves, since, $c_{\text{group}} = c
+Again, for deep water $kd \to \infty$ and equation 6.24 reduces to $n = 1/2$ which implies that a group propagates at half the velocity of the individual harmonic waves, since, $c_{\text{group}} = c\frac{1}{2}$. Individual waves thus travel through the group waves and the group wave is kept alive because every time a wave leaves the group a new wave enters the group at the down-wave side. 
+
+In shallow water, waves are non-dispersive and $n=1$. In a given water depth, every wave travels with the same velocity (linear wave theory), such that the wave group travels with individual waves. 
+
+---
+# 6.6 Wave Energy and Wave Energy Flux
+The presence of waves at the water surface implies that water particles change their original position and have to perform work against gravity (potential energy). In addition, the fact that the water particles move implies kinetic energy. The potential energy is given by the elevation times the mass times the gravity. However, it is necessary to separate the initial potential energy (the situation in which the water surface elevation is in rest) from the total potential energy to obtain the wave-induced potential energy. This results in:
+
+$$
+\begin{aligned}
+E_{\text{potential}} &= \overline{\int\limits_{-d}^\eta \rho gz \, \mathrm dz} - \overline{\int\limits_{-d}^0 \rho gz \, \mathrm dz} \\
+&= \overline{\int\limits_0^\eta \rho gz \, \mathrm dz} \\
+&= \frac{1}{4}\rho g a^2 
+\end{aligned}\tag{6.25}
+$$
+
+in which the overbars represent that the integral is time averaged over a wave period
+
+The kinetic energy per unit crest is equal to (integrated to the second order accuracy):
+
+$$
+E_{\text{kinetic}} = \overline{\int\limits_{-d}^\eta \frac{1}{2} \rho u^2 \, \mathrm dz} \approx \frac{1}{4} \rho
+$$
+
