@@ -3,7 +3,7 @@ fileClass: Base, Literature Notes
 title: 
 Parents: ["[[Coastal Oceanography and Delta Geology]]"]
 Draft: 
-Status: In Progress
+Status: Done
 Authors: 
 Year of Publication: 
 Related Notes: 
@@ -307,3 +307,9 @@ Wave breaking can happen in various ways, which largely depends on the slope of 
 - Spilling waves are characterized by instability of the wave crest and the generation of foam on the crest under which the wave remains its shape. The wave height for spilling waves slowly decreases as the wave energy is dissipated. 
 - Plunging waves are characterized by the generation of a jet in the upper part of the wave that curls forward while generating an air pocket, see figure 14. 
 - A surging wave occurs in a situation when a low frequency long wave approaches a steep bank, resulting in up- and downward motion and hardly any evidence of wave instability
+
+![[Pasted image 20241123144124.png]]
+
+>[!Important]
+>The figure above summarises what was mentioned above. If you understand this image, you're solid
+
