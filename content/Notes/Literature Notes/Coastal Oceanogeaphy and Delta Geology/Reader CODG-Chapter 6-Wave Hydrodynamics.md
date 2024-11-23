@@ -290,3 +290,20 @@ Waves propagating in shallow water tend to align themselves with the bottom cont
 As you read earlier in section 6.5, the group velocity decreases as waves approach the shoreline. A direct consequence of the decrease in the group velocity and the conservation of the wave energy flux, is that the wave energy per wave (or wave height) must increase (equation 6.27). This is called shoaling.
 
 Because of a decrease in the propagation speed (in shallow water phase velocity is dependent on depth) the wave amplitude must increase to conserve the energy flux.
+
+## 6.7.3 Combined Effect of Refraction and Shoaling
+
+>[!Warning]
+>Skipped
+
+## 6.7.4 Wave Breaking
+Waves start breaking for two reasons:
+1. When the wave becomes too steep to remain stable. The steepness of the wave can be captured in the ratio between wave height (H) and length (L). The maximum steepness or limiting steepness in deep water is near 0.142 and slightly less for shallow water. For waves that are steeper, the water velocity in the crest of the wave will move faster than the celerity of the wave, resulting in wave breaking.
+2. A second reason for wave breaking that is commonly seen on beaches is depth-induced wave breaking. 
+
+Higher waves break further offshore, and wave heights decrease linearly in the surfzone.
+
+Wave breaking can happen in various ways, which largely depends on the slope of the beach. The following breaking types are distinguished: spilling waves, plunging waves, and surging waves. 
+- Spilling waves are characterized by instability of the wave crest and the generation of foam on the crest under which the wave remains its shape. The wave height for spilling waves slowly decreases as the wave energy is dissipated. 
+- Plunging waves are characterized by the generation of a jet in the upper part of the wave that curls forward while generating an air pocket, see figure 14. 
+- A surging wave occurs in a situation when a low frequency long wave approaches a steep bank, resulting in up- and downward motion and hardly any evidence of wave instability
