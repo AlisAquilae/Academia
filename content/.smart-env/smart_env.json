@@ -30,11 +30,15 @@
     "chat_model": {
       "adapter": "openai",
       "openai": {
-        "model_key": "gpt-4o"
+        "model_key": ""
       }
     },
     "embed_model": {
       "model_key": "None"
-    }
+    },
+    "language": "en",
+    "review_context": false,
+    "lookup_limit": "10",
+    "send_tool_output_in_user_message": false
   }
 }
