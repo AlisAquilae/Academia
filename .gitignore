@@ -4,9 +4,9 @@ node_modules
 public
 prof
 tsconfig.tsbuildinfo
-.obsidian
+.obsidian/
 .quartz-cache
 private/
 .replit
 replit.nix
-.smart-env
+.smart-env/
