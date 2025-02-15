@@ -15,8 +15,7 @@ An estuary is a semi enclosed basin with free communication with the sea and fre
 
 At the river outlet, a river plume develops because seawater has a higher density than freshwater. At the landward side of the estuary, tides can extend beyond the limit of salinity intrusion, sometimes reaching hundreds of kilometers inland.
 
->[!Missing]
->Insert Fig. 5.1
+![[Pasted image 20250215131526.png]]
 
 
 ## 5.1.1 Estuarine Circulation
@@ -26,8 +25,7 @@ In an estuary, the time-averaged velocity profile varies over depth. The tidally
 >The velocity differences over depth are caused by a horizontal density gradient, which relates to the salinity and temperature differences between high-salinity seawater and freshwater in the river.
 
 
->[!Missing]
->Insert Fig. 5.2
+![[Pasted image 20250215131540.png]]
 
 
 The horizontal pressure gradient along an estuary is given by
@@ -47,22 +45,19 @@ The estuarine circulation has a large effect on density stratification within an
 
 The intensity of stratification largely depends on the magnitude of tidal mixing with respect to the fresh water inflow. Differential advection of salinity over the vertical enhances stratification, while mixing eliminates stratification.
 
->[!Missing]
->Insert Fig. 5.4
+![[Pasted image 20250215131606.png]]
 
 We can illustrate this considering a relatively deep estuary where the river discharge is high compared to the tidal velocity (figure 5.4a). The high input of fresh water at the river head flows seaward over a saline layer with higher density. At the interface of the two layers, a shear layer will develop as a result of the velocity of the upper layer. This velocity shear creates turbulent vortices, which enhances mixing between the two layers. 
 
 The turbulent motion may not be strong enough to mix the entire water column. The vertical extent of the internal mixing layer depends on the competition between processes of stratification and de-stratification. Let us consider a similar estuary with a smaller depth. When the depth of the lower saline layer is small enough, turbulence at the interface will interact with the bottom boundary layer and mixing becomes more important. No internal mixing layer develops, but salinity gradually increases towards the bottom (figure 5.5b).
 
->[!Missing]
->Insert Fig. 5.5
+![[Pasted image 20250215131622.png]]
 
 Next to the estuary depth, the tidal amplitude has a strong control on the mixing process. A larger tidal velocity intensifies the shear stress at the interface between fresh and salt water. The result is turbulence and a deeper mixed layer.
 
 The influence of tidal velocity creates an apparent variation of salinity over the the spring-neap cycle. Figure 5.6 demonstrates the salinity variation in the Hudson river during spring tide and neap tide. The higher tidal velocity during spring tide causes vigorous mixing and therefore a smaller vertical salinity gradient. During the neap tide, there is less mixing and the estuary is highly stratified.
 
->[!Missing]
->Insert Fig. 5.6
+![[Pasted image 20250215131638.png]]
 
 The intensity of stratification relative to mixing can be quantified by the gradient Richardson number, based on the ratio between the density gradient and the shear:
 
@@ -92,8 +87,7 @@ Based on these, we can identify the following estuaries
 - Partially mixed estuaries show great variation between spring tides and neap tides. During spring tides the estuary can be well-mixed, while during neap tides intensive stratification can develop. Another time-dependent factor is (seasonal) variation of river discharge. A higher river discharge increases the intensity of stratification, depending on the location in the estuary. Additionally, stratification increases towards the head of the estuary, where tidal velocities can be damped and river flow is more dominant.
 - Well-mixed estuaries are mostly shallow estuaries and have a small river discharge relative to the tidal velocities. During neap tide or periods of high river discharge stratification may develop.
 
->[!Missing]
->Insert Fig. 5.7
+![[Pasted image 20250215131658.png]]
 
 
 ## 5.1.3 Salt Intrusion
@@ -158,8 +152,7 @@ The distinguishing dynamical feature of an estuary plume is the horizontal advec
 
 An estuary plume can be divided in four dynamical regions: the source region, the liftoff point, the front and the near field region (figure 5.8).
 
->[!Missing]
->Insert Fig. 5.8
+![[Pasted image 20250215131723.png]]
 
 - In the source region, the buoyancy and momentum of the river outflow dominate the dynamics. The competition between the stratifying influence of the river and tidal mixing by the ocean determine the character of the plume.
 - When forcing by the river flow is high, the plume front is de-touched from the bottom. The location where this flow seperation takes place is the liftoff point. The location depends among others on the bathymetry of the submerged delta.
@@ -170,8 +163,7 @@ An estuary plume can be divided in four dynamical regions: the source region, th
 ## 5.2.2 Surface and Bottom Advected Plumes
 There are many ways to divide estuary plumes into classes. Here we discuss the method of Yankovsky and Chapman (1997) who divided plumes into bottom and surface advected plumes. Fronts of bottom-advected plumes propagate further near the bottom than near the surface, and horizontal stratification is comparatively high. Bottom advected plumes are often characterised by a large river outflow, which makes them less sensitive to wind modification. A surface advected plume never interacts with the bottom. It has a vertically stratified structure. Surface plumes are sensitive to wind mixing and the wind direction, which can steer the plume in a direction.
 
->[!Missing]
->Insert Fig. 5.9
+![[Pasted image 20250215131740.png]]
 
 Yankovsky and Chapman (1997) define a set of governing parameters, which are solely determined by inflow parameters (figure 5.9). 
 - The first parameter, $y_s$, represents the distance at which buoyant inflow is carried offshore by surface processes. 
