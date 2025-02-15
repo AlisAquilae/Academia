@@ -39,8 +39,7 @@ What is needed for a large delta to form?
 1. *A large river system delivering a lot of sediment*: Such river systems usually have a large catchment and drain major parts of the continent. Obviously, large rivers also require high precipitation over the catchment, which is especially the case in (monsoonal) tropical climates. Additionally, sediment production in the catchment is strongly enhanced if the catchment has a high relief with strong mechanical weathering in large high altitude areas. Also tectonic activity may contribute to high sediment production. Given these factors, it cannot be a surprise that the largest delta in the world is the Ganges-Brahmaputra delta. This delta is formed by mega-rivers that drain the tectonically active Himalayas. Moreover, the catchment is subjected to very high precipitation in a tropical monsoonal climate
 2. *A shallow sea, i.e. a wide continental shelf*: Deltas form on the margins of continents. These margins can be either geologically active or passive. Active continental margins are characterized by deep-sea troughs where seafloor (oceanic plate) dips under the continent (continental plate) in a process called **subduction**. In this situation the bottom of the sea slopes steeply from the coast to the deep sea and there is no substantial continental shelf that can host a large delta. Passive continental margins, on the other hand, are characterized by a (wide) continental shelf, which actually is the submerged part of the continent, and absence of a subduction zone. Large deltas tend to form in tectonic lows (e.g. graben structures) of the continental shelves along passive continental margins. An example of a large delta formed in such a setting is the Niger delta
 
->[!Missing]
->Insert image 1.4
+![[Pasted image 20250215125927.png]]
 
 Of course, not all deltas form in the ideal geological setting outlined above. Deltas form in any place where a river carrying sediment enters a standing body of water. Many, often relatively small, deltas fill up bays and drowned valleys, and do not form as a part of a coastal plain. In that case, the typical delta shape is less developed. An example of a small delta in a less typical setting is the Sacramento-San Joaquin delta that has formed in San Francisco Bay on an active continental margin. 
 
@@ -57,8 +56,7 @@ Of course, not all deltas form in the ideal geological setting outlined above. D
 # 1.3 Delta Types
 The geomorphology of deltas is largely determined by which of the three main delta-forming forces dominates: (1) river input, (2) wave energy, or (3) tidal energy. Deltas can be plotted in a triangle diagram, in which the extreme corners represent strong dominance of one of these three forces. It should be remembered, however, that most deltas take an intermediate position in this diagram, with two or three of the mentioned forces influencing delta morphology
 
->[!Missing]
->Insert Figure 1.5
+![[Pasted image 20250215125954.png]]
 
 River-dominated deltas form where large rivers carrying much sediment debouch into a sea with very little wave and tidal activity. These deltas protrude into the sea strongly, with distributaries building narrow, sometimes branching lobes. The birdfoot-shaped Mississippi delta is a classic example of this delta type
 
@@ -74,8 +72,7 @@ While this tripartite division of deltas provides a useful framework for analysi
 
 For these reasons, grain size should be added as a fourth axis to the triangle diagram above to enable a more comprehensive classification. 
 
->[!Missing]
->Insert Figure 1.6
+![[Pasted image 20250215130028.png]]
 
 
 ---
@@ -83,8 +80,7 @@ For these reasons, grain size should be added as a fourth axis to the triangle d
 ## 1.4.1 General Stratigraphy
 A simple ('ideal') delta sediment body is composed of three types of beds. When viewed in a cross-section perpendicular to the coastline one can distinguish in an upward direction: (1) bottomset or toeset beds, (2) foreset or frontset beds, and (3) topset beds
 
->[!Missing]
->Insert Figure 1.7
+![[Pasted image 20250215130051.png]]
 
 The [[Bottomset Beds]] are slightly included seaward and consist of fine material (clay and silt) that has been deposited in deep water in front of the larger part of the delta body from suspension during floods. This material has been transported by sediment gravity flows (turbidity currents) along the sea bottom. 
 
@@ -102,8 +98,7 @@ Now we will take a closer look at the delta deposits, particularly at the topset
 
 Firstly, the river channels are of importance. In deltas these are usually meandering or (relatively) straight. The channels scour into underlying beds, that may be delta foreset beds, or topset deposits, such as all types of fluvial deposits and peat. Channels transport sandy bedload and upon abandonment are filled with sand, thereby leaving lenticular sand bodies encased in other types of deposits. These sand bodies usually exhibit a fining upward sequence, because with gradual filling of the channel, the water shallows and finer material is deposited. 
 
->[!Missing]
->Insert Figure 1.8
+![[Pasted image 20250215130119.png]]
 
 >[!Note]
 >A small residual channel filled with clayey deposits and peat may be inset into the upper part of the channel sand body. 
@@ -115,10 +110,9 @@ Natural levees form along delta river channels by overbank deposition of sandy a
 Breaches of the natural levee are called [[Crevasse|Crevasses]]. These may form during river floods at weak spots in the natural levees. Crevasse splays form at the downstream end of crevasses, where the flow expands in the floodplain. Crevasse splays may prograde into wet floodbasins like mini-deltas or mouth bars and may also show a coarsening upward sedimentary succession like mouth bars. The development of crevasse splays requires a deep crevasse channel and the availability of enough sand-sized material. In a cross-section a crevasse splay can be recognised as a relatively wide sheet-like body of sand. It should be remembered, however, that crevasse deposits need not always be sandy, but may also consist of sandy and silty clay. With time, crevasse channels may develop into miniature fluvial systems with natural levees and small-scale crevasses and crevasse splays. Such strongly developed crevasse systems may develop into [[Avulsion|Avulsions]], and the zone of the flood-plain affected by these systems is in that case called an avulsion belt. Such large crevasse systems are very complex and are often characterised by anastomosing channel patterns. 
 
 >[!Example]
->The Schoonrewoerd system is an example of a sub-recent (mid-Holocene) avulsion belt in the Rhine-Meuse delta
+>The Schoonerwoerd system is an example of a sub-recent (mid-Holocene) avulsion belt in the Rhine-Meuse delta
 
->[!Missing]
->Insert Figure 1.9
+![[Pasted image 20250215130203.png]]
 
 Peat forms in the very distal parts of the delta plain that cannot be reached by overbank sediments. Peat beds may alternate with clayey floodplain deposits, but may also form very thick packages. Because of the high groundwater levels in the delta plain, controlled by sea level, decay of organic matter is poor and peat may develop relatively easily. 
 
@@ -127,25 +121,21 @@ The lower delta plain and coastal area comprises the terrestrial/intertidal part
 
 When a river debouches into the sea, bedload, usually sand-sized, will be deposited quite suddenly due to flow expansion. The resulting bar-like form in the river mouth is called a [[Mouth Bar]]. Due to delta progradation, the zone of mouth bar deposits may shift seaward, while on the landward side the river channel scours into the previously formed mouth bar deposits.  
 
->[!Missing]
->Insert Figure 1.10
+![[Pasted image 20250215130224.png]]
 
 Seaward progradation of mouth bars leads to formation of elongate sand bodies, termed [[Bar-Finger Sands]]. In some cases mouth bars plug river mouths and initiate channel bifurcation. Mouth bars typically have a coarsening upward sedimentary succession and can be recognised as extensive and relatively wide sand bodies in cross-sectional appearance. In the case of strong tidal currents and/or intense wave action, mouth bars will be absent or poorly developed because of erosion.
 
->[!Missing]
->Insert Figure 1.11
+![[Pasted image 20250215130240.png]]
 
 Longshore drift of sandy sediments along the delta coastline, which is predominantly wave-driven, will lead to the formation of **beach ridges**. These originate as linear sand bars arranged along the coastline formed by breaking waves that rapidly lose their energy, and hence their sediment-carrying capacity in shallow water. When these bars grow above sea level they develop into beaches that further grow upward due to wave run up. Above the line of maximum wave run up the wind carries the beach sand further landward and dune formation may further raise the level of beach ridges. In growing deltas, series of parallel beach ridges often form, when new beach ridges continuously develop seaward of existing beach ridges
 
->[!Missing]
->Insert Figure 1.12
+![[Pasted image 20250215130259.png]]
 
 Especially under strong tidal influence, beach ridges that are bordered by a tidal basin on the landward side are broken up into chains of barrier islands, separated by tidal channels. Beach ridges and barrier islands usually entirely consist of sand of a fairly uniform grain size, due to strong selection along the sediment transport route. They do display, however, a rich variety of sedimentary structures reflecting many contributing processes of formation. With a rising sea level and a seaward shifting coastline, complexes of beach ridges and barrier islands may constitute thick and wide sand bodies. In deltas where little sand-sized sediment is supplied to the shoreline and/or where longshore drift is absent beach ridges may be absent. 
 
 Beach ridges and barrier islands may shield low-lying parts of the lower delta plain, creating a low-energy salt to brackish environment, wish is termed a [[Lagoon]]. Not all deltas with beach ridges have lagoons (e.g. the image above). If beach ridge complexes are wide and massive, marine influence is completely banned from the neighbouring lower delta plain preventing the development of salt to brackish environments. It may also be that, due to high sediment supply from rivers, large back-barrier basins are absent on the lower delta plain. In deltas lagoons usually develop between delta distributaries, in which case (and when they are well connected to the sea) they are sometimes called [[Interdistributary Bays]]. The exact level of marine influence in lagoons depends on how well connected to the sea they are, but generally they are low-energy environments dominated by mud deposition that may be strongly influenced by vegetation
 
->[!Missing]
->Insert Figure 1.13
+![[Pasted image 20250215130315.png]]
 
 Within lagoons there is often a strong zonation in sediment grain size, vegetation type, and salinity, reflecting decreasing energy level and marine influence away from the coastline and the connection to the sea. Near tidal inlets lagoon sediments may be sandy, vegetation will be absent and strongly saline conditions will rule. This part of the lagoon will have a relatively low elevation and may only be exposed during low tide. Such an area is called an [[Intertidal Flat]], which may be a mud flat, a sand flat or a mixed flat, depending on sediment texture. Going away from the inlet and the coastline the surface elevation will rise and fine clayey sediments will be trapped in salt-tolerant marsh vegetation. These areas can be termed salt marshes. In salt marshes surface elevations usually exceed the high-tide level. These distal parts of the lagoon are only inundated during rare storm events and are typified by brackish conditions and silty clay to clay deposits. An important vegetation species in this zone may be reed (Phragmites). Peat may develop in lagoons that are totally blocked off from marine influence or in the very landward and low-energy parts of large lagoons. Relative to beach ridges and barrier islands, lagoons are extensive, and with rising sea-level thick sequences of lagoon sediments can develop. The grain size ranges from fine sand to clay and the content of organic matter in the sediments may be high. Peat beds may occur. 
 
@@ -154,8 +144,7 @@ Within lagoons there is often a strong zonation in sediment grain size, vegetati
 
 Systems of tidal channels may branch landward from a tidal inlet into the lagoon. Morphologically, these resemble river channels, in the sense that they have natural levees, bends and bars. A major difference, however, is that they are subject to tidal currents that vary in strength (and possibly direction) on a daily basis,. which gives rise to very distinctive sedimentary structures in tidal channel deposits. A typical phenomenon is frequent occurrence of so-called mud drapes. These are thin (a few millimeters to a centimeter thick) strongly silty and clayey layers covering bed forms, such as current ripples and bars. Mud drapes are slackwater deposits formed by settling of fine suspended sediment load at the transition between ebb and flood, when tidal currents cease. Mud drapes are separated by thick sand layers that are deposited when bed forms grow under influence of tidal currents. 
 
->[!Missing]
->Insert Figure 1.15
+![[Pasted image 20250215130332.png]]
 
 Mud drapes are abundant in tidal deposits, but may also occur outside the tidal zone. A specific arrangement of mud drapes, however, is exclusively tied to deposition from tidal currents. This arrangement is called a [[Tidal Bundle Sequence]]. This typical sequence develops in a tidal channel deposit because of two phenomena
 1. Tidal currents systematically vary in strength, due to spring-neap tidal cycles
@@ -163,8 +152,7 @@ Mud drapes are abundant in tidal deposits, but may also occur outside the tidal 
 
 A large current ripple in a tidal channel will thus migrate rapidly when currents are strong around spring tide. In this period the dominant current will deposit a thick layer of sand on the lee side of the ripple, which during the slack water stage will be draped by mud. If the subordinate current is much weaker than the dominant current it will have insufficient power  to erode the mud drape, but it may deposit a thin layer of sand on it. During the following slack water stage a new mud drape will be deposited, thereby completing the sedimentary archive of one ebb-flood cycle. During neap tide the current ripple will migrate slower in response to weaker tidal currents. In this period the deposited sand layers will be thinnewr and the mud drapes will dominate. In a cross-section of tidal channel deposits formed by migrating large current ripples (or megaripples) the spring-neap cycle variations in the thickness of the sand layers (called **bundles**) can be recognised and reflect the tidal range periodicity of 28.5 cycles. 
 
->[!Missing]
->Insert Figure 1.17
+![[Pasted image 20250215130349.png]]
 
 >[!Info]
 >Tidal bundle sequences are a unique sedimentary signature of tidal channel deposits. They were discovered in the Oosterschelde tidal inlet in the Southwestern Netherlands and have been recognised in modern and ancient sediments worldwide, since their first description in 1980 
