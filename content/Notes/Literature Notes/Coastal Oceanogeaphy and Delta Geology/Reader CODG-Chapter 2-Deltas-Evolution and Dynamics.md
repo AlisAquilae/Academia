@@ -35,8 +35,7 @@ Before we can discuss the constructive and destructive forces of delta formation
 ## 2.2.1 The Concept of Base-Level
 Over the course of geological time, any river will tend to develop a smooth and concave gradient line by local erosion and deposition. In the upper catchment there is much potential for erosion, whereas near its mouth the erosive potential is very limited and deposition will prevail. The lowest level in a river gradient line is sea level, because rivers cannot erode (very far) below this level. Of course in channels rivers can erode slightly below sea level, but at the same time they will construct wide floodplains by overbank deposition that are at or slightly above sea level. For this reason, sea level is called the **Base Level** if the river gradient line. 
 
->[!Missing]
->Insert Figure 2.2
+![[Pasted image 20250215130532.png]]
 
 Now consider that sea level (base level) rises. Then the river gradient line has to adjust to a new base-level position. Because the lower part of the gradient line becomes very gentle, the sediment transport capacity will decrease and deposition will increase and a new gradient line at a higher position will be established. The difference between the old and the new base level is called the [[Accommodation Space]], i.e. this is the space that can be filled up with sediments, provided that these are sufficiently available. If sea level drops the erosive potential in the lower part of the gradient line increases, because a higher gradient to sea level is created. This leads to establishment of a new gradient line by incision of the lower part.
 
@@ -45,20 +44,17 @@ These principles imply that a thick intact delta sediment body can only form und
 ## 2.2.2 Formation of Holocene Deltas due to Sea-Level Rise
 During glacial periods sea level may drop more than 100m with respect to interglacial sea level. This means that in general glacial sea level is at or below the edge of the continental shelf. Under these conditions, rivers are incised into the continental shelf, while on the relatively steep continental slope there is very little room for delta formation. 
 
->[!Missing]
->Insert Fig. 2.3
+![[Pasted image 20250215130552.png]]
 
 With the start of interglacial conditions, rising sea levels rapidly drown the continental shelf as well as any incipient delta that may form on it. Only when approaching full interglacial conditions, the rate of sea-level rise slows down and delta sediment bodies (or coastal prisms) of significant thickness and area can start to form. All [[Geological Time-Scales|Holocene]] deltas started to form between 8500 and 6500 years ago, the exact timing of the start of delta formation depending on the local balance between sediment input and decrease of sea-level rise.
 
->[!Missing]
->Insert Fig. 2.4
+![[Pasted image 20250215130616.png]]
 
 The base of a typical late [[Geological Time-Scales|Pleistocene]] to Holocene delta sequence is formed by an organic bed. This organic bed formed when groundwater-levels reached the top of the, usually sandy, Pleistocene deposits underlying holocene deltas. This sloping Pleistocene surface most frequently consists of fluvial terraces, testifying to incision of the fluvial system because of low glacial sea level. Especially when sea level was below the edge of the continental shelf a considerable valley may have formed. Rising sea level towards interglacial levels forced a rise of inland groundwater levels. Peat formation could occur when the groundwater level reached the surface. This peat marks the transgression of the sea over the sloping Pleistocene terraces. This peat is formed in a fresh to brackish lagoonal environment near the inland moving shoreline, and is most common in deltas with low [[Clastic Sediments|clastic sediment]] yield (that is, sediment discharge averaged over the delta plain area). In some deltas like the Rhine-Meuse and Mississippi deltas, basal peat is a prevalent and highly studied sea level indicator
 
 A package of nearshore marine sand may cover the lagoonal peat. This testifies to rapid drowning and transgression associated with rapid sea-level rise as occurred in late-Pleistocene and early-Holocene times on low parts of the continental shelf. The nearshore marine sands are capped by a thick coarsening upward sequence of prodelta, [[Foreset Beds|Foreset]] and [[Topset Beds|Topset deposits]], respectively. The coarsening upward sequence may also be underlain by an organic bed and represents the [[Progradation]] of the delta across the drowned continental shelf. The complete sequence, thus shows a transgression followed later by a regression. Such a sequence can be found, for instance, in the central part of the Nile delta coastline
 
->[!Missing]
->Insert Fig. 2.5
+![[Pasted image 20250215130635.png]]
 
 
 In more landward positions, or shallower portions of the continental shelf, the nearshore marine sand is absent and lagoonal and fluvial deposits cover the organic deposits that formed upon drowning of the Pleistocene surface. A coarsening upward trend is absent in this case and the sequence is usually thinner than the one described above. This sequence is found in positions that remained landward of the coastline during the full period of development of the delta deposits. This sequence may represent conditions of slower sea-level rise during mid-Holocene to late-Holocene times. It can be found in the central to eastern Rhine-Meuse delta. 
@@ -68,8 +64,7 @@ The sediment body formed under influence of sea-level rise thins in an up-stream
 ## 2.2.3 Reconstructions of Holocene Sea-Level Rise
 In depositional coastal areas, such as the Rhine-Meuse delta, reconstructions of the rate of Holocene sea-level rise can be made by radiocarbon age determination of basal peat samples. Basal peat is peat that has formed directly on top of the Pleistocene surface. The assumption behind this approach is that freshwater peat in a coastal lagoon forms at approximately mean sea level. This implies that if freshwater peat in a coastal lagoon is still in the same vertical position as during its formation, it is an indicator of former sea level, of which the age can be determined by dating. To circumvent the possibility that the peat has moved down due to compaction of underlying soft sediment beds, peat samples for reconstruction of sea-level rise are taken from peat beds directly overlying the (compaction-free) Pleistocene sandy surface. Usually suites of samples are taken from peat covering the steep flanks of buried Pleistocene river dunes that are located near the coastline. This sampling strategy enables the collection of sample sets covering a large range in both age and elevation. Plotting the age of the samples against their depth indicated the trend of mean sea-level evolution in the area. 
 
->[!Missing]
->Insert Fig. 2.6
+![[Pasted image 20250215130652.png]]
 
 >[!Info]
 >For the Rhine-Meuse delta, and other deltas, sea-level curves that have been made using this technique show a strongly decreasing rate of sea-level rise since the early holocene.
@@ -106,13 +101,11 @@ Whether a crevasse will grow into an avulsion is most importantly determined by 
 
 When a crevasse grows into an avulsion a vast zone of the floodplain is affected by flooding, channel formation and rapid sediment deposition. This zone is called the [[Avulsion Belt]]. The avulsion belt starts as a small lobate crevasse splay that gradually develops into a large elongated crevasse splay complex with a highly irregular planform.
 
->[!Missing]
->Insert Fig. 2.8
+![[Pasted image 20250215130718.png]]
 
 On the incipient crevasse splay unstable multi-channel patterns exist. Along with splay progradation into the wetlands, the channels on the older part of the splay complex start building natural levees and becoming more stable. During progradation avulsive flow may birufcate around obstructions in the avulsion reoute resulting in the formation of separate splay lobes with their own channels, prograding into the wetlands. Often the developing channels rejoin further downstream surrounding small floodbasin areas and forming an anastomosing pattern. After some time one of the channels becomes dominant and takes over all discharge from the temporary multi-channel system. The final stage is a wide and deep channel that cuts across the extensive crevasse splays that have formed in early stages of avulsion, and that connects with the sea through an existing tidal creek or inlet
 
->[!Missing]
->Insert Fig. 2.9
+![[Pasted image 20250215130735.png]]
 
 >[!Note]
 >Skipped the part on avulsions in the Rhine-Meuse Delta

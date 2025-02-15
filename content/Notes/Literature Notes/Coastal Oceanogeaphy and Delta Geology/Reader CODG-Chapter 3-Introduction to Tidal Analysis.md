@@ -30,8 +30,7 @@ $$
 
 In equation 3.1, $G$ is the gravitational constant taking a magnitude of $6.67 \cdot 10^{-11}$ Nm$^2$kg$^{-2}$. The distance between the two objects is the distance between the two centres of mass, the point where the mass of an object is assumed to be concentrated. For spherical objects the mass lies at its centre. The moon-earth system has a centre of mass, which is called the common centre of mass. It is located in between the two individual centres of mass. The moon and earth orbit around their common centre of mass due to their attraction. 
 
->[!Missing]
->Insert Fig. 3.1
+![[Pasted image 20250215130821.png]]
 
 The common centre of mass of the earth-moon system lies within the earth, because of the large mass of the earth. The period it takes for two bodies to complete an orbit is called a [[Sidereal Period]]. For the earth-moon system the sidereal period is 27.32 days.
 
@@ -42,8 +41,7 @@ Every single element on the earth describes an equal orbit around the common cen
 
 The magnitude of the tide-generating force is determined by the distance to the moon's centre of gravitation. We can easily calculate the tide-generating force for the points on earth which are located on the straight line between the moon's and the earth's centres of mass, since we know the radius of the earth. These points are indicated by $P_1$ and $P_2$ in the figure below
 
->[!Missing]
->Insert Fig. 3.2
+![[Pasted image 20250215130840.png]]
 
 The attractional force exerted on $P_1$ by the moon can be calculated by subtracting the radius of the earth, $r$, from the total distance to the moon, $R_l$:
 
@@ -99,8 +97,7 @@ in which
 
 The definition for the gravitational potential has a minus sign, because energy must be added to move the particle. It has the unit length$^2$time$^2$ and is a [[Scalars|Scalar]] property.
 
->[!Missing]
->Insert Fig. 3.3
+![[Pasted image 20250215130947.png]]
 
 When calculating the gravitational potential for any point $P$ on the surface of the earth, the distance $MP$ should be known. This can be calculated using the law of cosines:
 
@@ -181,8 +178,7 @@ $$
 ## 3.1.3 The Equilibrium Tide
 The [[Equilibrium Tide Theory]] described the tide on a spherical earth which is fully covered with water. This theory is developed to get a first grasp upon the tides on earth. The tidal waves can propagate endlessly, because there are no continental boundaries and the oceans have an infinite depth. The propagation of the tidal waves keeps up with the tidal forces. The equilibrium water level is only affected by gravity and the tidal forces. In this theory, the sea surface level, $\varsigma$, is always perpendicular to the resultant of the gravity and the gravitational force
 
->[!Missing]
->Insert Fig. 3.4
+![[Pasted image 20250215131012.png]]
 
 The tide-generating force is defined as $-m\frac{\partial \Omega_p}{\partial x}$. where $x$ is the direction perpendicular to the direction of gravity. Using the definition of the forces as in the figure above, the slope of the sea surface can be calculated as 
 
@@ -275,8 +271,7 @@ The [[Equatorial Coordinate System]] uses the celestial equator as the reference
 
 The [[Ecliptic Coordinate System]] uses the ecliptic plane as a reference. The ecliptic plane is a plane which cuts the earth by orbit of the earth around the sun. The ecliptic plane is tilted with respect to the equatorial plane, due to the obliquity of the Earth. The angle between the two planes is approximately $23\degree$. The zero reference for angular distances in the ecliptic coordinate system is also the vernal equinox. In the ecliptic system, the angular distance with respect to the vernal equinox is called the Ecliptic longitude
 
->[!Missing]
->Insert Fig. 3.5
+![[Pasted image 20250215131040.png]]
 
 
 ## 3.1.6 Basic Astronomical Frequencies

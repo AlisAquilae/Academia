@@ -18,8 +18,7 @@ This chapter first discusses the properties of long waves propagating in coastal
 ## 4.1.1 Long Waves
 Most water waves, such as waves breaking on the beach or waves in a harbour, have periods in the order of seconds. However, the strongest tidal waves have periods of 12 or 24 hours, and their wavelengths are in the order of hundreds of kilometres. 
 
->[!Missing]
->Insert Fig. 4.1
+![[Pasted image 20250215131129.png]]
 
 Because of the limited depth of the ocean, tidal waves are [[Long Waves]]. Long waves are waves of which the wave length is much larger than the wave depth (length $10^3$ to $10^4$ times larger than depth).
 
@@ -43,8 +42,7 @@ $$
 
 This implies that the maximum currents occur when the water level at a location is highest (at high tide). At low water the currents are directed opposite to the direction of the wave propagation
 
->[!Missing]
->Insert Fig. 4.2
+![[Pasted image 20250215131211.png]]
 
 The water level can be defined as a sine function of both distance and time
 
@@ -68,16 +66,14 @@ The wave number indicates the spatial frequency of a harmonic wave. Both the wat
 ## 4.1.2 Resonance and Standing Waves
 When a progressing wave meets a (coastal) boundary, part of the wave energy will be reflected. In combination with the next incoming wave, this reflected wave can result in a [[Standing Wave]]. A standing wave has a pattern of alternatively nodes and antinodes, separated from each other by a distance of $\frac{1}{4} \lambda$. The antinodes are the points where the amplitude is maximum and the currents are zero. At the nodes the amplitude is zero and the currents are maximum
 
->[!Missing]
->Insert Fig. 4.3
+![[Pasted image 20250215131254.png]]
 
 The figure above shows the production of a standing wave pattern in an estuary. The two figures are separated from each other by a period of $t=\frac{1}{4}T$. The effect of resonance is largest when the length of the basin equals a quarter of the wave length (or three quarters, five quarters, etc.). Only when the basin has exactly this length, a pure standing wave will occur. Any other length results in a combination of a standing and propagating wave. The effect of resonance will be strongest near the head of an embayment: due to energy losses the amplitude of the reflected wave will decrease as it comes closer to the mouth of the embayment.
 
 A famous example of tidal resonance is the Bay of Fundy at the Atlantic coast of Canada, where the tidal amplitude can be up to 15 meters.
 
 
->[!Missing]
->Insert Fig. 4.4
+![[Pasted image 20250215131315.png]]
 
 The behaviour of standing waves can be illustrated by considering the water level in a rectangular box, which may represent the harbour in a river delta. At the node, in the middle of the box, the amplitude is zero; the water level is constant. At the antinodes, the water level is continuously changing. When assuming zero energy loss, the water movement can be described as a continuous transfer from potential energy to kinetic energy. The maximum potential energy during high water or low water (1) and (3) is converted to a maximum kinetic energy during the middle of the oscillations (2) and (4). This can be considered as two progressive waves travelling in opposite direction, with perfect reflections at the barriers. 
 
@@ -94,8 +90,7 @@ This is [[Merian's Equation]], after its originator. Merian's equation may be us
 ## 4.1.3 Kelvin Waves
 In the previous paragraphs, rotation of the Earth was neglected. Large-scale waves however are under influence of the [[Coreolis Force]]. A tidal wave in the Northern Hemisphere is deflected to the right of its propagation direction, during flood. This deflected component will continue until it meets a barrier (mostly the coastline). The result is a set-up of water against the coast. Similarly, the water is set-down during ebb. A tidal wave featuring such a setup and setdown towards the coastal boundary is called a [[Kelvin Wave]].
 
->[!Missing]
->Insert Fig. 4.5
+![[Pasted image 20250215131336.png]]
 
 The water setup creates a pressure gradient directed away from the shore. The development of this pressure gradient continues until it balances the Coreolis force. Now, the Kelvin wave is a [[Geostrophic Wave]]. Mathematically, the resulting wave can be described as follows
 
@@ -113,8 +108,7 @@ The above equations imply an exponential decay of the wave amplitude away from t
 
 The Coreolis effect is essential to the propagation of a Kelvin wave. The Coreolis force deflects the wave to the right boundary at the Northern hemisphere and is stronger for waves with a higher celerity. The flow velocity is often highest in the upper part of the water column, where the flow experiences a stronger deflection to the coast. This generates a pressure gradient force that drives a net circulation, with water flowing to the coast in the upper layer and water flowing seaward in the lower layer. We will elaborate on this effect in the next section
 
->[!Missing]
->Insert Fig. 4.6
+![[Pasted image 20250215131353.png]]
 
 The spatial propagation of a Kelvin wave in a theoretical basin is presented in the left figure above. The wave enters the basin at 7AM, propagates around a node (called an [[Amphidromic Point]]), passes the reflective boundary of the basin around 0PM and leaves the basin at 5PM. A similar process is visible in the southern coast of England, propagates in easterly direction along the Belgian coast, and then north along the Dutch coast towards the Wadden Sea (right image).
 
@@ -153,8 +147,7 @@ $$
 
 where $W_{10}$ is the wind speed measured at 10 m above the water level and falls within the range $[2.5 ms^{-1}, 21 ms^{-1}]$. 
 
->[!Missing]
->Insert Fig. 4.7
+![[Pasted image 20250215131410.png]]
 
 We can illustrate the effect of the wind stress with an example. A steady wind across a narrow channel causes water to build up against the coast in the direction of the wind (see image above). In case of a steady state, the wind stress is balanced by the pressure term in the momentum equation
 
@@ -252,8 +245,7 @@ $$
 
 We just calculated that the net transport takes place in the negative $y$-direction, whereas the wind is directed along the positive $x$-direction. Due to the coreolis effect, wind driven transport deviates from the wind direction with an angle of $90\degree$ 
 
->[!Missing]
->Insert Fig. 4.8
+![[Pasted image 20250215131434.png]]
 
 
 If we consider a theoretical situation, with no density differences, no bottom stress, and a wind that blows steady for a long time in deep water, a full Ekman spiral could develop. Due to the Coreolis force, the angle between the flow direction and the wind direction increases with depth, and due to the internal friction forces, the speed decreased with depth. 
