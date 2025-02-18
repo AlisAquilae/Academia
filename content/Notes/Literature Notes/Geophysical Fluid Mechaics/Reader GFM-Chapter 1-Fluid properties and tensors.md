@@ -84,12 +84,54 @@ See the table below for an overview of different tensors
 | Dyad   | Shear stress | 2     | 9                    | $\tau_{ij}$ | $\tau$               |
 
 Tensor notations
-- Vector notation: 
+- **Vector notation:** 
 	- Scalar: $a$ (normal letter)
 	- Vector: $\overrightarrow{a}$ (letter with arrow)
 	- Dyad / Tensor: **a** (bold letter)
-- Einstein / Index notation:
+- **Einstein / Index notation:**
 	- Scalar: $a$ (no index)
 	- Vector: $a_i$ (one index)
 	- Dyad / Tensor: $a_{ij}$ (two different indices)
-- Full / Component notation
+- **Full / Component notation**
+	- Scalar: 
+	  
+	  $$
+	  a
+	  $$
+	  
+	- Vector:
+	  
+	  $$
+	  \begin{pmatrix}a_1\\ a_2 \\a_3\end{pmatrix}
+	  $$
+	  
+	- Dyad / Tensor:
+	  
+	  $$
+	  \begin{pmatrix}a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \\ a_{31} & a_{32} & a_{33} \end{pmatrix}
+	  $$
+	  
+	  How do we measure a tensor? When trying to measure a tensor, the order of the tensor determines the number of values you expect. If e.g. you want to measure temperature (a scalar) you expect only one value. If you are measuring velocity (a vector) you expect to measure three values (one for each component), and so forth.
+	  
+- **Summation convention**: Any repeated index is summed over. The number of non-repeated indices determined the tensor order of the result.
+
+>[!Example]
+>
+>$$
+>a_ib_i
+>$$
+>
+>$a_i$ and $b_i$ both have one index so they are vectors. Index $i$ is repeated. There is no non-repeated index, so the result is a scalar. We sum over the repeated index (sum until 3 for the 3D case and until 2 for the 2D case):
+>
+>$$
+>a_ib_i = \sum
+>$$
+
+
+
+
+Summation
+
+$$
+\sum^3\limits{i=1}
+$$
