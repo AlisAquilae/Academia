@@ -17,5 +17,7 @@ The **Shear strain** refers to the deformation in a fluid caused by a [[Shear Fo
 It is denoted as
 
 $$
-S = \frac{\mathrm{dx}}{\mathrm{dy}}
+\gamma = \frac{\mathrm{dx}}{\mathrm{dy}}
 $$
+
+The shear strain per unit of time is called the [[Shear Rate]].
