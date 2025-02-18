@@ -13,5 +13,5 @@ Related Courses: ["[[Geophysical Fluid Mechanics]]"]
 
 The shear force per unit area is denoted using $\tau$. 
 
-The deformation in a fluid caused by a shearing force $\overrightarrow{F}$  which acts tangentially to the surface to which it is applied is caused the [[Shear Strain]]
+The deformation in a fluid caused by a shearing force $\overrightarrow{F}$  which acts tangentially to the surface to which it is applied to is called the [[Shear Strain]]
 

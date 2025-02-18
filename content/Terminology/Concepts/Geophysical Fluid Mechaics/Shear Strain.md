@@ -13,3 +13,9 @@ Related Courses:
   - "[[Geophysical Fluid Mechanics]]"
 ---
 The **Shear strain** refers to the deformation in a fluid caused by a [[Shear Force]] $\overrightarrow{F}$ which acts tangentially to the surface to which it is applied. 
+
+It is denoted as
+
+$$
+S = \frac{\mathrm{dx}}{\mathrm{dy}}
+$$
