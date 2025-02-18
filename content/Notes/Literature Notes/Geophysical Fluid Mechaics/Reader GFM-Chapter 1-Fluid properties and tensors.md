@@ -57,12 +57,12 @@ The third key property of a fluid is [[Fluid Surface Tension]]. A molecule locat
 # 1.3 Use of Tensors
 A [[Tensor]] is a mathematical object that helps to describe physical properties such as stress, strain or velocity gradients at any location in a fluid.
 
-Why use tensors?
+## 1.3.1 Why use tensors?
 1. Equations written as tensors do not change, regardless of the number of dimensions we consider (1D, 2D or 3D) and the coordinate system (Cartesian, cylindrical or spherical)
 2. Equations are more compact
 3. More emphasis on underlying physical mechanisms
 
-Order of tensors
+## 1.3.2 Order of tensors
 - Tensors can be of order 0, 1, 2, $\dots$ The order of the tensors depends on the number of directions involved. E.g. temperature or pressure have no direction and are zeroth order tensors. Velocity has one direction, thus a first-order tensor. Shear stress involves two directions (a force on a direction, acting on a surface with a direction) and is a second-order tensor. Third order tensors are hardly used in this course.
 - The number of components of a tensor depends on its order and number of dimensions involved 
 
@@ -83,7 +83,7 @@ See the table below for an overview of different tensors
 | Vector | Velocity     | 1     | 3                    | $u_i$       | $\overrightarrow{u}$ |
 | Dyad   | Shear stress | 2     | 9                    | $\tau_{ij}$ | $\tau$               |
 
-Tensor notations
+## 1.3.3 Tensor notations
 - **Vector notation:** 
 	- Scalar: $a$ (normal letter)
 	- Vector: $\overrightarrow{a}$ (letter with arrow)
@@ -124,14 +124,27 @@ Tensor notations
 >$a_i$ and $b_i$ both have one index so they are vectors. Index $i$ is repeated. There is no non-repeated index, so the result is a scalar. We sum over the repeated index (sum until 3 for the 3D case and until 2 for the 2D case):
 >
 >$$
->a_ib_i = \sum
+>a_ib_i = \sum^3_{i=1} a_ib_i = a_1b_1 + a_2b_2 + a_3b_3
+>$$
+
+>[!Example]
+>
+>$$
+>a_{ij}b_j
+>$$
+>
+>$a_{ij}$ has two indices, so this is a tensor. $b_j$ has one index and is a vector. This term has one non-repeating index ($i$), so the result is a vector
+>
+>$$
+>\begin{aligned}
+>a_{ij}b_j &= \sum^3_{j=1}a_{ij}b_j \\
+>&= a_{i1}b_1 + a_{12}b_2 + a_{i3}b_3 \\
+>&= \begin{pmatrix}a_{11}b_1 + a_{12}b_2 + a_{13}b3 \\
+>a_{21}b_1 + a_{22}b_2 + a_{23}b_3 \\
+>a_{31}b_1 + a_{32}b_2 + a_{33}b_3 \end{pmatrix}
+>\end{aligned}
 >$$
 
 
-
-
-Summation
-
-$$
-\sum^3\limits{i=1}
-$$
+## 1.3.4 Special Tensors
+- Unit vectors (first order): 
