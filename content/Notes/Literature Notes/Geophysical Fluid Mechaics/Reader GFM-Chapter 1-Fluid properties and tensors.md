@@ -77,7 +77,19 @@ where
 
 See the table below for an overview of different tensors
 
+| Type   | Example      | Order | Number of components | Index       | Vector               |
+| ------ | ------------ | ----- | -------------------- | ----------- | -------------------- |
+| Scalar | Pressure     | 0     | 1                    | $p$         | $p$                  |
+| Vector | Velocity     | 1     | 3                    | $u_i$       | $\overrightarrow{u}$ |
+| Dyad   | Shear stress | 2     | 9                    | $\tau_{ij}$ | $\tau$               |
 
-| Type | Example | Order | number of components |
-| ---- | ------- | ----- | -------------------- |
-|      |         |       |                      |
+Tensor notations
+- Vector notation: 
+	- Scalar: $a$ (normal letter)
+	- Vector: $\overrightarrow{a}$ (letter with arrow)
+	- Dyad / Tensor: **a** (bold letter)
+- Einstein / Index notation:
+	- Scalar: $a$ (no index)
+	- Vector: $a_i$ (one index)
+	- Dyad / Tensor: $a_{ij}$ (two different indices)
+- Full / Component notation
