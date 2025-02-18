@@ -49,4 +49,6 @@ Fluids that satisfy equation 1.3 are called [[Newtonian Fluids]], which include 
 >[!Note]
 >Not all geophysical fluids are Newtonian. Quicksand, for instance, is a dilatant substance, which means that $\mu$ increases with the rate of shear
 
-A second key property of a fluid is [[Fluid Density]], which is equivalent to [[Specific Mass]] or mass per unit of volume. 
+A second key property of a fluid is [[Fluid Density]], which is equivalent to [[Specific Mass]] or mass per unit of volume. [[Specific Weight]] is the specific mass times the gravitational acceleration, hence, $w=\rho g$. Finally, [[Specific Volume]] is defined as volume per unit of mass. 
+
+The third key property of a fluid is [[Fluid Surface Tension]]. A molecule located inside a fluid is pulled equally in all directions by cohesive forces from neighbouring fluid molecules, resulting in a net force of zero. Molecules at the surface do not have the same molecules on all sides of them, and therefore are pulled to the inside of the fluid. This creates internal pressure and a tangential force parallel to the surface, forcing the liquid surfaces to contract to the minimum area. The parallel forces are referred to as surface tension, and smooth the surface.
