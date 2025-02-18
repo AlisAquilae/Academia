@@ -43,3 +43,8 @@ $$
 $$
 
 $\mu$ is the [[Dynamic Viscosity]], and its value is different for every fluid. The ratio of dynamic viscosity to fluid density is called the [[Kinematic Viscosity]], $v$. Both $v$ and $\mu$ decrease with increasing temperature. 
+
+Fluids that satisfy equation 1.3 are called [[Newtonian Fluids]], which include water and air. 
+
+>[!Note]
+>Not all geophysical fluids are Newtonian. 
