@@ -15,7 +15,7 @@ async function newNote() {
         (await tp.file.move("/Media/" + tp.file.title));
     } else {
         // Suggester for course selection
-        course = await tp.system.suggester(["Coastal Oceanogeaphy and Delta Geology", "Hydrogeology", "Water Quantity and Quality", "Water 2", "Water 1"], ["Coastal Oceanogeaphy and Delta Geology", "Hydrogeology", "Water Quantity and Quality", "Water 2", "Water 1"], true);
+        course = await tp.system.suggester(["Geophysical Fluid Mechaics", "Water and Air Flow Numerical Techniques", "Coastal Oceanogeaphy and Delta Geology", "Hydrogeology", "Water Quantity and Quality"], ["Geophysical Fluid Mechaics", "Water and Air Flow Numerical Techniques", "Coastal Oceanogeaphy and Delta Geology", "Hydrogeology", "Water Quantity and Quality"], true);
 
         // Find note type base
         noteType = await tp.system.suggester(["Courses", "Notes", "Terminology", "Questions"], ["Courses", "Notes", "Terminology", "Questions"], true);
