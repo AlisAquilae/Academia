@@ -35,3 +35,11 @@ Where
 - $\mathrm{du}$ is the horizontal displacement in the time period, i.e. the velocity in the flow direction
 
 How much the shear rate is influenced by a certain amount of sheer stress depends on the [[Fluid Viscosity]]. Viscosity is the first key property of a fluid, which can be described as the "syrupiness". When a fluid is more viscous, it offers more resistance to deformation. 
+
+Newton performed experiments in which he found shear stress to be proportional to the shear rate:
+
+$$
+\tau = \mu \frac{\mathrm du}{\mathrm dy} \tag{1.3}
+$$
+
+$\mu$ is the [[Dynamic Viscosity]], and its value is different for every fluid. The ratio of dynamic viscosity to fluid density is called the [[Kinematic Viscosity]], $v$. Both $v$ and $\mu$ decrease with increasing temperature. 
