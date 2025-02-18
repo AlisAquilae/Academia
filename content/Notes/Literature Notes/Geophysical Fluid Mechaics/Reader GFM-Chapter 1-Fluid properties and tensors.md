@@ -10,10 +10,10 @@ Related Notes:
 Related Terminology: 
 Related Courses: ["[[Geophysical Fluid Mechanics]]"]
 ---
-# 1. Introduction
+# 1.1 Introduction
 Geophysical Fluid Mechanics addresses the mechanics of geophysical flows. Various types of flow occur on earth, including the flows of lava, water and air. This first chapter sets out to establish the difference between a fluid and a solid, and introduce the basic properties of a fluid. The second part of this chapter explains the tensor notation used in the mathematical description of the balance equations that govern the geophysical flow in the remainder of this reader.
 
-## 1.2 Properties of Fluids
+# 1.2 Properties of Fluids
 The difference between a solid and a fluid can be introduced from a comparison between pudding. When tilted, pudding will deform over a fixed distance. In more formal terms, it reacts to a [[Shear Force|Shear Stress]], $\tau$, with a fixed deformation, called the [[Shear Strain]], $\gamma$. It is therefore a solid. A [[Fluid]], on the other hand, reacts to shear stress with a continuous deformation. It is then not interesting to look at the deformation itself, since the fluid continues to deform indefinitely. Instead, what is interesting is the [[Shear Rate]], $S$ or $\dot{\gamma}$, i.e. the speed with which the fluid is deformed. 
 
 The shear strain is found by measuring the deformation horizontally relative to the original height - in other words,
@@ -52,3 +52,32 @@ Fluids that satisfy equation 1.3 are called [[Newtonian Fluids]], which include 
 A second key property of a fluid is [[Fluid Density]], which is equivalent to [[Specific Mass]] or mass per unit of volume. [[Specific Weight]] is the specific mass times the gravitational acceleration, hence, $w=\rho g$. Finally, [[Specific Volume]] is defined as volume per unit of mass. 
 
 The third key property of a fluid is [[Fluid Surface Tension]]. A molecule located inside a fluid is pulled equally in all directions by cohesive forces from neighbouring fluid molecules, resulting in a net force of zero. Molecules at the surface do not have the same molecules on all sides of them, and therefore are pulled to the inside of the fluid. This creates internal pressure and a tangential force parallel to the surface, forcing the liquid surfaces to contract to the minimum area. The parallel forces are referred to as surface tension, and smooth the surface.
+
+---
+# 1.3 Use of Tensors
+A [[Tensor]] is a mathematical object that helps to describe physical properties such as stress, strain or velocity gradients at any location in a fluid.
+
+Why use tensors?
+1. Equations written as tensors do not change, regardless of the number of dimensions we consider (1D, 2D or 3D) and the coordinate system (Cartesian, cylindrical or spherical)
+2. Equations are more compact
+3. More emphasis on underlying physical mechanisms
+
+Order of tensors
+- Tensors can be of order 0, 1, 2, $\dots$ The order of the tensors depends on the number of directions involved. E.g. temperature or pressure have no direction and are zeroth order tensors. Velocity has one direction, thus a first-order tensor. Shear stress involves two directions (a force on a direction, acting on a surface with a direction) and is a second-order tensor. Third order tensors are hardly used in this course.
+- The number of components of a tensor depends on its order and number of dimensions involved 
+
+$$
+n_c = n_d^{n_o}
+$$
+
+where
+- $n_c$ is the number of components
+- $n_d$ is the number of dimensions
+- $n_o$ is the order of tensors
+
+See the table below for an overview of different tensors
+
+
+| Type | Example | Order | number of components |
+| ---- | ------- | ----- | -------------------- |
+|      |         |       |                      |
