@@ -5,6 +5,7 @@ Parents: ["[[Reader GFM-Chapter 1-Fluid properties and tensors]]"]
 Draft: 
 Status: To Revisit
 aliases: 
+- "Shear Stress"
 Related Notes: 
 Related Terminology: 
 Related Courses: ["[[Geophysical Fluid Mechanics]]"]
