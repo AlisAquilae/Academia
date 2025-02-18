@@ -15,3 +15,5 @@ Fluids have 3 key properties
 1. [[Fluid Viscosity]]
 2. [[Fluid Density]]
 3. [[Fluid Surface Tension]]
+
+Fluids can be divided into [[Newtonian Fluids]] and Non-Newtonian fluids, based on whether they satisfy the relation found in [[Newton's Law of Viscosity]]

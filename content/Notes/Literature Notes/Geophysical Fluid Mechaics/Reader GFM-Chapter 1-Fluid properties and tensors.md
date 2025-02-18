@@ -36,7 +36,7 @@ Where
 
 How much the shear rate is influenced by a certain amount of sheer stress depends on the [[Fluid Viscosity]]. Viscosity is the first key property of a fluid, which can be described as the "syrupiness". When a fluid is more viscous, it offers more resistance to deformation. 
 
-Newton performed experiments in which he found shear stress to be proportional to the shear rate:
+Newton performed experiments in which he found shear stress to be proportional to the shear rate. This, as we call it now, is [[Newton's Law of Viscosity]]:
 
 $$
 \tau = \mu \frac{\mathrm du}{\mathrm dy} \tag{1.3}
@@ -47,4 +47,6 @@ $\mu$ is the [[Dynamic Viscosity]], and its value is different for every fluid. 
 Fluids that satisfy equation 1.3 are called [[Newtonian Fluids]], which include water and air. 
 
 >[!Note]
->Not all geophysical fluids are Newtonian. 
+>Not all geophysical fluids are Newtonian. Quicksand, for instance, is a dilatant substance, which means that $\mu$ increases with the rate of shear
+
+A second key property of a fluid is [[Fluid Density]], which is equivalent to [[Specific Mass]] or mass per unit of volume. 
