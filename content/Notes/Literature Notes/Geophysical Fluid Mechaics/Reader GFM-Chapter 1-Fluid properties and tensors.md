@@ -147,4 +147,28 @@ See the table below for an overview of different tensors
 
 
 ## 1.3.4 Special Tensors
-- Unit vectors (first order): 
+- **Unit vectors (first order)**: Unit vectors (length 1) pointing in the direction of the axes:
+
+$$
+\begin{aligned}
+\overrightarrow{e_1} &= \begin{pmatrix}1\\0\\0\end{pmatrix} \\
+\overrightarrow{e_2} &= \begin{pmatrix}0\\1\\0 \end{pmatrix} \\
+\overrightarrow{e_3} &= \begin{pmatrix}0\\0\\1 \end{pmatrix}
+\end{aligned}
+$$![[Pasted image 20250218202452.png]]
+
+- **Gradient vector (first order)**: This is a vector form of the derivative and only has meaning when combined with another tensor (which can be of varying orders):
+
+$$
+\overrightarrow{\nabla} = \frac{\partial}{\partial x_i} = \begin{pmatrix} \frac{\partial}{\partial x_2} \\ \frac{\partial}{\partial x_2} \\ \frac{\partial}{\partial x_3}\end{pmatrix}
+$$
+
+- **Kronecker delta** (second order): 
+
+$$
+\left.
+\begin{aligned}
+\delta_{ij} = 1 \, \text{ if } \, i=j \\ \delta_{ij} = 0 \, \text{ if } \, i \neq 0
+\end{aligned}
+\right\} \Rightarrow \delta_{ij} = \begin{pmatrix}1&0&0 \\ 0&1&0\\0&0&1
+ \end{pmatrix} $$
