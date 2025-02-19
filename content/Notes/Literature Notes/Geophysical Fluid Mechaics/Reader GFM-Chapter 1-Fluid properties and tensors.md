@@ -165,7 +165,7 @@ $$
 \overrightarrow{\nabla} = \frac{\partial}{\partial x_i} = \begin{pmatrix} \frac{\partial}{\partial x_2} \\ \frac{\partial}{\partial x_2} \\ \frac{\partial}{\partial x_3}\end{pmatrix}
 $$
 
-- **Kronecker delta** (second order): 
+- **Kronecker delta** (second order): Used as a sort of identity matrix. It acts as a selector in tensor notation, returning the component of the tensor equal to the component the Kronecker delta is multiplied with.
 
 $$
 \left.
@@ -175,5 +175,20 @@ $$
 \right\} \Rightarrow \delta_{ij} = \begin{pmatrix}1&0&0 \\ 0&1&0\\0&0&1
 \end{pmatrix} 
 $$
+
+>[!Example]
+>If you multiple a vector $a_j$ with $\delta_{ij}$, you get
+>
+>$$
+>\sum_j \delta_{ij}a_j = a_i
+>$$
+
+It is also frequently used in simplifying tensors with different components
+
+>[!Example]
+>For a second-order tensor $T_{kj}$:
+>$$
+>\delta_{ik} T_{kj} = T_{ij}
+>$$
 
 - **Alternating Unit Tensor** (third order): This is a third order tensor, which you can picture as a 3x3 cube
