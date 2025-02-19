@@ -159,6 +159,18 @@ $$
 
 ![[Pasted image 20250218202452.png]]
 
+>[!Example]
+>
+>$$
+>u = \begin{pmatrix}u_x \\ u_y \\ u_z \end{pmatrix}
+>$$
+>
+>can also be written by splitting the direction $e_i$ and the magnitude $u_i$:
+>
+>$$
+>u = \overrightarrow{e_x}u_x + \overrightarrow{e_y}u_y + \overrightarrow{e_z}u_z
+>$$
+
 - **Gradient vector (first order)**: This is a vector form of the derivative and only has meaning when combined with another tensor (which can be of varying orders):
 
 $$
@@ -192,3 +204,12 @@ It is also frequently used in simplifying tensors with different components
 >$$
 
 - **Alternating Unit Tensor** (third order): This is a third order tensor, which you can picture as a 3x3 cube
+
+
+## 1.3.5 Products between vectors
+- **Inner/scalar/dot product:** 
+	- Result: scalar
+	- Vector notation: $\overrightarrow{a} \cdot \overrightarrow{b} = |\overrightarrow{a}||\overrightarrow{b}|\cos \theta$, with $\theta$ the angle between $\overrightarrow{a}$ and $\overrightarrow{b}$
+	- Index notation: $a_ib_i$ 
+	- Component notation: $a_1b_1 + a_2b_2 + a_3b_3$
+	- Physical interpretation: parallelness of vectors
