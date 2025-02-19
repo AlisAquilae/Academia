@@ -212,4 +212,28 @@ It is also frequently used in simplifying tensors with different components
 	- Vector notation: $\overrightarrow{a} \cdot \overrightarrow{b} = |\overrightarrow{a}||\overrightarrow{b}|\cos \theta$, with $\theta$ the angle between $\overrightarrow{a}$ and $\overrightarrow{b}$
 	- Index notation: $a_ib_i$ 
 	- Component notation: $a_1b_1 + a_2b_2 + a_3b_3$
-	- Physical interpretation: parallelness of vectors
+	- Physical interpretation: how parallel vectors are
+- **Outer/vector/cross product:**
+	- Result: vector
+	- Vector notation: $\overrightarrow{a} \times \overrightarrow{b} = |\overrightarrow{a}||\overrightarrow{b}|\sin \theta \overrightarrow{n}$, where $\theta$ is the angle between the vectors and $\overrightarrow{n}$ is a unit vector orthogonal to $\overrightarrow{a}$  and $\overrightarrow{b}$ pointing in the direction defined by the right hand rule
+	- Index notation: $\varepsilon_{ijk}a_ib_j$
+	- Component notation:
+	  
+	  $$
+	  \begin{vmatrix}
+	  \overrightarrow{e_1} & \overrightarrow{e_2} & \overrightarrow{e_3} \\
+	  a_1 & a_2 & a_3 \\
+	  b_1 & b_2 & b_3 \\
+	  \end{vmatrix} = \det \begin{pmatrix}
+	  \overrightarrow{e_1} & \overrightarrow{e_2} & \overrightarrow{e_3} \\
+	  a_1 & a_2 & a_3 \\
+	  b_1 & b_2 & b_3 \\
+	  \end{pmatrix} = \begin{pmatrix}
+	  a_2b_3 - a_3b_2 \\ a_3b_1 - a_1b_3 \\ a_1b_2 - a_2b_1
+	  \end{pmatrix}
+	  $$
+	  
+	- Physical interpretation: The degree of orthogonality of $\overrightarrow{a}$ and $\overrightarrow{b}$. 
+- **Dyadic/direct product:**
+	- Result: tensor
+	- Vector notation: $\overrightarrow{a} \, \overrightarrow{b}$ or
