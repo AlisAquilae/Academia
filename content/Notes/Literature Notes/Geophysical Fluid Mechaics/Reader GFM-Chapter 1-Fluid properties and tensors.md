@@ -261,6 +261,14 @@ It is also frequently used in simplifying tensors with different components
 	
 	$$
 	\begin{aligned}
-	\overrightarrow{\nabla} \times \overrightarrow{u} &= \varepsilon_{ijk}\nabla_ia_j
+	\overrightarrow{\nabla} \times \overrightarrow{u} &= \varepsilon_{ijk}\nabla_ia_j \\
+	&= \begin{vmatrix}\overrightarrow{e_1} & \overrightarrow{e_2} & \overrightarrow{e_3} \\ \frac{\partial}{\partial x_1} & \frac{\partial}{\partial x_2} & \frac{\partial}{\partial x_3} \\ u_1 & u_2 & u_3 \end{vmatrix} \\
+	&= \overrightarrow{e_1} \begin{vmatrix}\frac{\partial}{\partial x_2} & \frac{\partial}{\partial x_3} \\ u_2 & u_3 \end{vmatrix} - \overrightarrow{e_2} \begin{vmatrix}\frac{\partial}{\partial x_1} & \frac{\partial}{\partial x_3} \\ u_1 & u_3 \end{vmatrix} + \overrightarrow{e_3} \begin{vmatrix}\frac{\partial}{\partial x_1} & \frac{\partial}{\partial x_2} \\ u_1 & u_2  \end{vmatrix} \\
+	&= \begin{pmatrix} \frac{\partial u_3}{\partial x_2} - \frac{\partial u_2}{\partial x_3} \\
+	\frac{\partial u_1}{\partial x_3} - \frac{\partial u_3}{\partial x_1} \\
+	\frac{\partial u_2}{\partial x_1} - \frac{\partial u_1}{\partial x_2}
+	\end{pmatrix}
 	\end{aligned}
 	$$
+	
+	- Physical interpretation: The tendency of a vector quantity to rotate. The first component of the curl is the rotation around the $x_1$-axis, in the $x_2$-$x_3$-plane, the second component is the rotation around the $x_2$-axis in the $x_1$-$x_3$-plane, and the third component is the rotation around the $x_3$-axis in the $x_1$-$x_2$-plane. If you follow the rotation of
