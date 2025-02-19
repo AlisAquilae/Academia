@@ -153,9 +153,11 @@ $$
 \begin{aligned}
 \overrightarrow{e_1} &= \begin{pmatrix}1\\0\\0\end{pmatrix} \\
 \overrightarrow{e_2} &= \begin{pmatrix}0\\1\\0 \end{pmatrix} \\
-\overrightarrow{e_3} &= \begin{pmatrix}0\\0\\1 \end{pmatrix}
+\overrightarrow{e_3} &= \begin{pmatrix}0\\0\\1 \end{pmatrix} \\
 \end{aligned}
-$$![[Pasted image 20250218202452.png]]
+$$
+
+![[Pasted image 20250218202452.png]]
 
 - **Gradient vector (first order)**: This is a vector form of the derivative and only has meaning when combined with another tensor (which can be of varying orders):
 
