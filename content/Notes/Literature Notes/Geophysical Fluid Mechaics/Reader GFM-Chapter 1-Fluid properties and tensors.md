@@ -236,4 +236,31 @@ It is also frequently used in simplifying tensors with different components
 	- Physical interpretation: The degree of orthogonality of $\overrightarrow{a}$ and $\overrightarrow{b}$. 
 - **Dyadic/direct product:**
 	- Result: tensor
-	- Vector notation: $\overrightarrow{a} \, \overrightarrow{b}$ or
+	- Vector notation: $\overrightarrow{a} \, \overrightarrow{b}$ or $\overrightarrow{a} \otimes \overrightarrow{b}$ 
+	- Index notation: $a_i b_j$
+	- Component notation
+	  
+	  $$
+	  \begin{pmatrix}
+	  a_1b_1 & a_1b_2 & a_1b_3 \\ a_2b_1 & a_2b_2 & a_2b_3 \\ a_3b_1 & a_3b_2 & a_3b_3
+	  \end{pmatrix}
+	  $$
+	  
+	- Physical interpretation: when two directions are important
+
+
+## 1.3.6 Product between gradient operator and vector
+- **Divergence** (dot product):
+	
+	$$
+	\overrightarrow{\nabla} \cdot \overrightarrow{a} = \nabla_i a_i = \frac{\partial a_i}{\partial x_i} = \frac{\partial a_1}{\partial x_1} + \frac{\partial a_2}{\partial x_2} + \frac{\partial a_3}{\partial x_3}
+	$$
+	
+	- Physical interpretation: The tendency of a quantity (e.g. mass/momentum) to flow away from a certain location. A positive divergence means we will lose amounts of that quantity. A negative divergence, also referred to as convergence, means we gain in that quantity.
+- **Curl** (cross product):
+	
+	$$
+	\begin{aligned}
+	\overrightarrow{\nabla} \times \overrightarrow{u} &= \varepsilon_{ijk}\nabla_ia_j
+	\end{aligned}
+	$$
