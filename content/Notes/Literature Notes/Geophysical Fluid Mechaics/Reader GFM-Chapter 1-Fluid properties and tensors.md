@@ -271,4 +271,13 @@ It is also frequently used in simplifying tensors with different components
 	\end{aligned}
 	$$
 	
-	- Physical interpretation: The tendency of a vector quantity to rotate. The first component of the curl is the rotation around the $x_1$-axis, in the $x_2$-$x_3$-plane, the second component is the rotation around the $x_2$-axis in the $x_1$-$x_3$-plane, and the third component is the rotation around the $x_3$-axis in the $x_1$-$x_2$-plane. If you follow the rotation of
+	- Physical interpretation: The tendency of a vector quantity to rotate. The first component of the curl is the rotation around the $x_1$-axis, in the $x_2$-$x_3$-plane, the second component is the rotation around the $x_2$-axis in the $x_1$-$x_3$-plane, and the third component is the rotation around the $x_3$-axis in the $x_1$-$x_2$-plane. 
+- **Gradient tensor** (dyadic product):
+	
+	$$
+	\overrightarrow{\nabla} \overrightarrow{u} = \overrightarrow{\nabla} \otimes \overrightarrow{u} = \nabla_i u_j = \frac{\partial u_j}{\partial x_i} = \begin{pmatrix} \frac{\partial u_1}{\partial x_1} & \frac{\partial u_2}{\partial x_1} & \frac{\partial u_3}{\partial x_1} \\ \frac{\partial u_1}{\partial x_2} & \frac{\partial u_2}{\partial x_2} & \frac{\partial u_3}{\partial x_2} \\ \frac{\partial u_1}{\partial x_3} & \frac{\partial u_2}{\partial x_3} & \frac{\partial u_3}{\partial x_3}
+	\end{pmatrix}
+	$$
+	
+	- Physical interpretation: This tensor holds the variation of the three components of a vector over the three spatial dimensions
+
