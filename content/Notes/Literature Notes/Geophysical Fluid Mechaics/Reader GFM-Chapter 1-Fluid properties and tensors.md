@@ -171,4 +171,7 @@ $$
 \delta_{ij} = 1 \, \text{ if } \, i=j \\ \delta_{ij} = 0 \, \text{ if } \, i \neq 0
 \end{aligned}
 \right\} \Rightarrow \delta_{ij} = \begin{pmatrix}1&0&0 \\ 0&1&0\\0&0&1
- \end{pmatrix} $$
+\end{pmatrix} 
+$$
+
+- **Alternating Unit Tensor** (third order): This is a third order tensor, which you can picture as a 3x3 cube
