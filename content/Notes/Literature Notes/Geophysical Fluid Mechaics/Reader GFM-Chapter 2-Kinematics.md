@@ -22,13 +22,15 @@ There are different approaches to the description of mechanics. We differentiate
 
 This differentiation gives rise to 4 approaches to mechanics.
 
-## 2.2.2 Constant mass, system approach
+---
+## 2.3 Constant mass, system approach
 In most high school physics, the constant mass, system approach is considered. Suppose
 you would study the dynamics of the student on the bike in the upper left corner of Figure 2.2. The mass will remain constant within the mass system, i.e. the student will not suddenly disappear or become larger. We can apply [[Newton's Second Law of Motion]] $\overrightarrow{F} = m\overrightarrow{a}$, i.e. if a force is applied to a student, the student with either accelerate or decelerate. This approach works well for a clearly defined mass system (the student), but for a fluid, it is much harder to define a constant mass system. That is why we decide to give up on following the fluid and instead define a constant volume within which we will study the fluid.
 
 ![[Pasted image 20250222143537.png]]
 
-## 2.2.3 Constant volume, system approach
+---
+## 2.4 Constant volume, system approach
 We turn to our bridge example again. In the constant volume, system approach, we no longer keep track of the motion of the student but define a control volume. Conservation of mass as defined before does not hold in this case. The mass is not simply constant in our fixed volume. Instead, we must now keep track of the **flux** of mass over the edges and the total mass in the control volume. So in our previous example (Figure 2.3), we see that we have around 6.8 students in the volume, and we have an outflow of students on the left edge, so the mass of students in our control volume is decreasing in time.
 
 ![[Pasted image 20250222144409.png]]
@@ -38,7 +40,7 @@ Just like for the conservation of mass, [[Newton's Second Law of Motion]] will n
 >[!Example]
 >In a recent study on the Ems estuary, the authors took flow measurements during a tidal cycle. The aim of the measurements was to set up a mass balance for the flow of water and sediment in a section of the estuary, t0o understand the reason for the extreme sediment concentrations in the system. To check the quality of the data collected, they calculated the mass balance over the control volume
 
-### 2.2.3.1 Mathematical Approach
+### 2.4.1 Mathematical Approach
 How do we systematically describe the bookkeeping of mass and momentum? We will start by considering mass, and will later extend the approach to other quantities, such as momentum.
 
 For mass, we first want to know the total mass in the volume. At every place in the volume, we will have a certain mass concentration, or mass per unit volume, also known as [[Fluid Density|Density]]. The total mass $M$ in the control volume $CV$ is equal to the density integrated over the $CV$:
@@ -100,4 +102,21 @@ $$
 >[!Note]
 >We will discuss the mass and momentum balances in more detail in [[Reader GFM-Chapter 3-Conservation of mass and momentum|Chapter 3]]
 
-The constant volume, system
+The constant volume, system approach that we have adopted in this section works better for fluids than the constant mass approach from section [[#2.3 Constant mass, system approach|2.3]], because we no longer need to follow a finite parcel of fluid, but just need to book-keep all fluxes over the edges of the control volume. This approach, however, does not work if we are interested in how e.g. mass or momentum are distributed in the control volume; for that purpose, we need to adopt the constant volume, field approach. 
+
+---
+# 2.5 Constant volume, field approach
+In this approach, we will no longer be satisfied just by knowing the bulk effects over the control volume. We want to describe what happens at each location within the control volume. Mathematically we move from an integral approach (over an entire system) to a differential approach (at infinitesimally small points). Looking at the bridge, in this approach, we will know for each fixed point how much mass is flowing part the point and whether it is increasing or decreasing in time. In terms of [[Newton's Second Law of Motion]], we will know how much momentum is passing each point, whether it is increasing or decreasing and the forces acting at each point. This is the approach we will use most in this course. The downside of this approach is that we do not know how points (infinitesimally small, and not finite as in the system approach) are moving through space. 
+
+![[Pasted image 20250222154126.png]]
+
+## 2.5.1 Mathematical Approach
+In order to describe what is going on within the control volume, we will take equation 2.7 as a starting point:
+
+$$
+\underbrace{\frac{\partial}{\partial t} \int_{CV} \; b\, \rho \, \mathrm{d}V}_{\text{Change of total mass}} \; \; \;+ \underbrace{\int_{CS} \; b \, \rho \, \overrightarrow{u} \cdot \overrightarrow{n} \, \mathrm{d}A}_{\text{Flux of mass through edges}} \;= \underbrace{\frac{\mathrm{d}B}{\mathrm{d}t}}_{\text{External flux}} \tag{2.7}
+$$
+
+The integrand of the first term of the left-hand side contains the property $b$ over the control volume, which is what we are aiming for, but we want to have it out of the integral since we are not only interested in the bulk property of the volume, but at each location. In the second term on the left-hand side, we have an integral over the surface. Ideally, we would like to rewrite this to a volume integral, such that also this integrand will vary over the volume instead of the surface. This is indeed possible. 
+
+To express the surface integral as a volume integral, we first work out the surface integral for an infitesimally small element withou
