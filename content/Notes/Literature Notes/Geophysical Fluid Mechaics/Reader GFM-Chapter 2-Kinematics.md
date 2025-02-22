@@ -166,4 +166,34 @@ This equation is equivalent to 2.7, but it holds locally over the entire field, 
 # 2.6 Constant mass, field approach
 In this last approach, we will keep track of the motion of every infinitesimally small point and while doing so keep track of all fluxes, changes in time and external forces. This is the most detailed description.
 
-Suppose there is someone standing on our bridge and smoking. The smoke would spread as the wind carries it. A spatial gradient in the smoke concentration 
+Suppose there is someone standing on our bridge and smoking. The smoke would spread as the wind carries it. A spatial gradient in the smoke concentration $s$ develops. 
+
+![[Pasted image 20250222161626.png]]
+
+A person standing at a distance will experience a smoke concentration that is increasing over time. This local change is called the **local time derivative** and is denoted by $\partial s / \partial t$ (Figure 2.11). So we have both a gradient of $s$ in space and a gradient of $s$ in time.
+
+![[Pasted image 20250222161814.png]]
+
+Let us now think of someone cycling over the bridge with a velocity $\overrightarrow{u}_c$. The smoke concentration this cyclist is going to experience is affected both by the change of smoke concentration in time and by the change of smoke concentration in space. In fact, the faster the cyclist moves in the direction of the increasing concentration, the faster the experienced concentration by the cyclist will increase. (Figure 2.13)
+
+![[Pasted image 20250222162050.png]]
+
+The change in smoke concentration the cyclist is experiencing is denoted by $\mathrm{d}s / \mathrm{d}t$ and is called the **total derivative**. It is a combination of the spatial and temporal gradients:
+
+$$
+\frac{\mathrm{d}s}{\mathrm{d}t} = \frac{\partial s}{\partial t} + u_1^c \, \frac{\partial s}{\partial x_1} \tag{2.13}
+$$
+
+where
+- $u_1^c$ is the $x$-component of the cyclist's velocity vector
+
+The last case we want to consider will stretch our imagination. A mother has just given her child a bunch of balloons and the child has now started to float in the wind over the bridge and crosses the same smoking student (Figure 2.14). 
+
+![[Pasted image 20250222162357.png]]
+
+This child moves with the wind speed $\overrightarrow{u}$. The concentration the child experiences is denoted by $\mathrm{D}s / \mathrm{D}t$ and is called the **material derivative** or **substantial derivative**. 
+
+$$
+\frac{\mathrm{D}s}{\mathrm{D}t} = \frac{\partial s}{\partial t} + u_1 \frac{\partial s}{\partial x_1} \tag{2.14}
+$$
+
