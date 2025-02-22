@@ -119,4 +119,17 @@ $$
 
 The integrand of the first term of the left-hand side contains the property $b$ over the control volume, which is what we are aiming for, but we want to have it out of the integral since we are not only interested in the bulk property of the volume, but at each location. In the second term on the left-hand side, we have an integral over the surface. Ideally, we would like to rewrite this to a volume integral, such that also this integrand will vary over the volume instead of the surface. This is indeed possible. 
 
-To express the surface integral as a volume integral, we first work out the surface integral for an infitesimally small element withou
+To express the surface integral as a volume integral, we first work out the surface integral for an infinitesimally small element within our control volume, as illustrated below.
+
+![[Pasted image 20250222154624.png]]
+
+The arrows in Figure 2.8 indicate that the flow field is diverging inside the control volume. This leads to a net outflow out of the volume and thus a mass loss inside the volume. 
+
+>[!Info]
+>In fact, we can mathematically show that the volume integral of the divergence is equal to the outward fluxes integrated over the surface of the control volume. This relation is known as the Divergence theorem (or Gauss' theorem).
+
+In fact, this relation between the flux over the surface of the control volume and the divergence of the same property within the volume applies to properties $B$ in general. Recall the meaning of divergence, i.e. that it represents the local loss of a certain quantity due to spatial gradients in it fluxes. The integral of the divergence over the volume will be the total loss of that quantity. This is equivalent to the net loss of that quantity over the edges of the control volume. We can express this as follows:
+
+$$
+\underbrace{\int\limits_{CS} \; b \, \rho \, \overrightarrow{u} \cdot \overrightarrow{n} \, \mathrm{d}A}_{\text{Net loss over edges}} = \underbrace{\int\limits_{CV} \; \overrightarrow{\nabla} \, \cdot (b \, \rho \, \overrightarrow{u})\,\mathrm{d}V}_{\text{Sum of local loss in volume}}
+$$
