@@ -281,3 +281,7 @@ It is also frequently used in simplifying tensors with different components
 	
 	- Physical interpretation: This tensor holds the variation of the three components of a vector over the three spatial dimensions
 
+
+$$
+\nu
+$$
