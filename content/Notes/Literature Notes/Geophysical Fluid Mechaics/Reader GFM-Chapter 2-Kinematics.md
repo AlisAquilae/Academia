@@ -74,6 +74,17 @@ $$
 Now, we know (recall Figure 2.3) that a net outflow of mass will lead to a decrease in total mass within the control volume. In other words, a positive mass flux (outflow) through the edges of the control volume has to be balanced by a negative change (decrease) of the total mass inside the control volume. Or, mathematically
 
 $$
-\underbrace{\frac{\partial}{\partial t} \int\limits_{CV} \; \rho \, \mathrm{d}V}_{\text{Change of total mass}} \; \; \;+ \underbrace{\int\limits_{CS} \; \rho \, \overrightarrow{u} \cdot \overrightarrow{n} \, \mathrm{d}A}_{\text{Flux of mass through edges}} = 0
+\underbrace{\frac{\partial}{\partial t} \int\limits_{CV} \; \rho \, \mathrm{d}V}_{\text{Change of total mass}} \; \; \;+ \underbrace{\int\limits_{CS} \; \rho \, \overrightarrow{u} \cdot \overrightarrow{n} \, \mathrm{d}A}_{\text{Flux of mass through edges}} = 0 \tag{2.5}
 $$
 
+Next to the mass, we might be interested in the flux of some other quantity $B$, e.g. momentum or some dissolved material. We can indicate the quantity per unit mass with $b$, such that
+
+$$
+B = \int\limits_V \; \rho b \, \mathrm{d}V \tag{2.6}
+$$
+
+To obtain the balance of $B$ we multiply the above mass balance (Eq. 2.5) with the quantity per unit mass $b$ to obtain
+
+$$
+\underbrace{\frac{\partial}{\partial t} \int\limits_{CV} \; b \rho \, \mathrm{d}V}_{\text{Change of total mass}} \; \; \;+ \underbrace{\int\limits_{CS} \; \rho \, \overrightarrow{u} \cdot \overrightarrow{n} \, \mathrm{d}A}_{\text{Flux of mass through edges}} = 0 \tag{2.5}
+$$
