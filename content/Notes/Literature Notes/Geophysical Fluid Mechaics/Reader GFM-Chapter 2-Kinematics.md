@@ -71,3 +71,9 @@ $$
 \int\limits_{CS} \rho \; \overrightarrow{u} \cdot \overrightarrow{n} \; \mathrm{d}A \tag{2.4}
 $$
 
+Now, we know (recall Figure 2.3) that a net outflow of mass will lead to a decrease in total mass within the control volume. In other words, a positive mass flux (outflow) through the edges of the control volume has to be balanced by a negative change (decrease) of the total mass inside the control volume. Or, mathematically
+
+$$
+\underbrace{\frac{\partial}{\partial t} \int\limits_{CV} \; \rho \, \mathrm{d}V}_{\text{Change of total mass}} \; \; \;+ \underbrace{\int\limits_{CS} \; \rho \, \overrightarrow{u} \cdot \overrightarrow{n} \, \mathrm{d}A}_{\text{Flux of mass through edges}} = 0
+$$
+
