@@ -143,6 +143,27 @@ $$
 We can substitute expressions 2.9 and 2.10 into equation 2.7 to obtain 
 
 $$
-\int\limits_{CV} \; \frac{\partial b \rho}{\partial t}
+\int\limits_{CV} \; \frac{\partial b \rho}{\partial t} \, \mathrm{d}V + \int\limits_{CV} \; \overrightarrow{\nabla} \, \cdot \, (b \, \rho \, \overrightarrow{u})\,\mathrm{d}V = \int\limits_{CV} \; \frac{\mathrm{d}\,\rho b}{\mathrm{d}t} \, \mathrm{d}V \tag{2.11}
 $$
 
+
+>[!Note]
+>Note that we also brought the derivative into the integral sign. We can only do this because the integration limits, i.e. the control volume, do not change with the derivative variable, i.e. time
+
+We can now consider an infinitesimally small control volume to obtain:
+
+$$
+\frac{\mathrm{d}\,\rho b}{\mathrm{d}t} = \frac{\partial \, b \rho}{\partial t} + \overrightarrow{\nabla} \cdot (b \rho \, \overrightarrow{u}) \tag{2.12}
+$$
+
+This equation is equivalent to 2.7, but it holds locally over the entire field, instead of holding only for the constant volume system as a whole. 
+
+>[!Note]
+>The constant volume, field approach is often used to measure a flow velocities in the lab or field
+
+
+---
+# 2.6 Constant mass, field approach
+In this last approach, we will keep track of the motion of every infinitesimally small point and while doing so keep track of all fluxes, changes in time and external forces. This is the most detailed description.
+
+Suppose there is someone standing on our bridge and smoking. The smoke would spread as the wind carries it. A spatial gradient in the smoke concentration 
