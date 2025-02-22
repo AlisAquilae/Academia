@@ -86,5 +86,18 @@ $$
 To obtain the balance of $B$ we multiply the above mass balance (Eq. 2.5) with the quantity per unit mass $b$ to obtain
 
 $$
-\underbrace{\frac{\partial}{\partial t} \int\limits_{CV} \; b \rho \, \mathrm{d}V}_{\text{Change of total mass}} \; \; \;+ \underbrace{\int\limits_{CS} \; \rho \, \overrightarrow{u} \cdot \overrightarrow{n} \, \mathrm{d}A}_{\text{Flux of mass through edges}} = 0 \tag{2.5}
+\underbrace{\frac{\partial}{\partial t} \int_{CV} \; b\, \rho \, \mathrm{d}V}_{\text{Change of total mass}} \; \; \;+ \underbrace{\int_{CS} \; b \, \rho \, \overrightarrow{u} \cdot \overrightarrow{n} \, \mathrm{d}A}_{\text{Flux of mass through edges}} \;= \underbrace{\frac{\mathrm{d}B}{\mathrm{d}t}}_{\text{External flux}} \tag{2.7}
 $$
+
+The external flux term has been added to account for changes in the quantity $B$ within the constant mass system. Although the mass is constant, the quantity considered might change due to some external input, or e.g. a chemical reaction.
+
+If we take $B$ to be momentum, i.e. $\overrightarrow{B} = m \, \overrightarrow{u}$, then $\overrightarrow{b} = \overrightarrow{u}$ and $\mathrm{d}B / \mathrm{d}t = m\, \mathrm{d}\overrightarrow{u} / \mathrm{d}t = m \, \overrightarrow{a} = \overrightarrow{F}$, where $\overrightarrow{F}$ is the resultant force acting on the control volume. The balance for momentum becomes:
+
+$$
+\frac{\partial}{\partial t} \int_{CV} \; \overrightarrow{u} \, \rho \, \mathrm{d}V + \int_{CS} \; \overrightarrow{u} \, \rho \, \overrightarrow{u} \cdot \overrightarrow{n} \, \mathrm{d}A = \overrightarrow{F} \tag{2.8} 
+$$
+
+>[!Note]
+>We will discuss the mass and momentum balances in more detail in [[Reader GFM-Chapter 3-Conservation of mass and momentum|Chapter 3]]
+
+The constant volume, system
