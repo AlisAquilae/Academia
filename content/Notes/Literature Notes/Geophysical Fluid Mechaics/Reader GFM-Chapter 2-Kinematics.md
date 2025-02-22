@@ -47,7 +47,7 @@ $$
 M = \int\limits_{CV} \rho \, \mathrm{d}V \tag{2.1}
 $$
 
-Recalling the example of students cycling through a control volume, we have seen that the total mass in the control volume can change over time because of mass flowing in and out of the control volume. The flow volume out of an infinitesmall (i.e. infinitely small) edge piece $\mathrm{d}A$ is equal to:
+Recalling the example of students cycling through a control volume, we have seen that the total mass in the control volume can change over time because of mass flowing in and out of the control volume. The flow volume out of an infinitesimal (i.e. infinitely small) edge piece $\mathrm{d}A$ is equal to:
 
 $$
 \overrightarrow{u} \cdot \overrightarrow{n} \; \mathrm{d}A \tag{2.2}
@@ -57,4 +57,17 @@ where
 - $\overrightarrow{u}$ is the velocity
 - $\overrightarrow{n}$ is a unit vector point outwards and orthogonal to the surface of the control volume. 
 
-The dot product corresponds to the projection of the velocity in the direction orthogonal to the surface, which is the only part of the velocity contributing to the outflow. The flow parallel to the surface will not contribute to the outflow. Also, not that we define outflow as positive, and correspondin
+The dot product corresponds to the projection of the velocity in the direction orthogonal to the surface, which is the only part of the velocity contributing to the outflow. The flow parallel to the surface will not contribute to the outflow. Also, not that we define outflow as positive, and correspondingly define inflow (where the velocity is directed into the control volume) as negative outflow. 
+
+The mass outflow over the infinitesimal edge will be:
+
+$$
+\rho \overrightarrow{u} \cdot \overrightarrow{n} \; \mathrm{d}A \tag{2.3}
+$$
+
+and the net outflow of mass out of the total outer edge $CS$ of the control volume is equal to:
+
+$$
+\int\limits_{CS} \rho \; \overrightarrow{u} \cdot \overrightarrow{n} \; \mathrm{d}A \tag{2.4}
+$$
+

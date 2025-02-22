@@ -16,7 +16,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "Templates", ".obsidian", "!(Media)**/!(*.md)", "!(*.md)", "Scripts", "Metadata Menu"],
+    ignorePatterns: ["private", "Templates", ".obsidian", "Scripts", "Metadata Menu"],
     defaultDateType: "created",
     generateSocialImages: false,
     theme: {
