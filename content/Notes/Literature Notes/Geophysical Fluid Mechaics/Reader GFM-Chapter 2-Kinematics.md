@@ -33,4 +33,28 @@ We turn to our bridge example again. In the constant volume, system approach, we
 
 ![[Pasted image 20250222144409.png]]
 
-Just like for the conservation of mass, [[Newton's Second Law of Motion]] will not simply hold for the control volume. Instead of keeping track of the momentum of one student, we will now keep track of the total momentum in our control volume (we ignore how this momnentum is )
+Just like for the conservation of mass, [[Newton's Second Law of Motion]] will not simply hold for the control volume. Instead of keeping track of the momentum of one student, we will now keep track of the total momentum in our control volume (we ignore how this momentum is distributed in the control volume). We will have momentum flowing out of the control volume (the student is leaving the control volume so takes a bit of momentum with them). We also might have forces acting on the control volume affecting the momentum (imagine the bridge would be sloping, gravity would accelerate the students adding momentum to the control volume). 
+
+>[!Example]
+>In a recent study on the Ems estuary, the authors took flow measurements during a tidal cycle. The aim of the measurements was to set up a mass balance for the flow of water and sediment in a section of the estuary, t0o understand the reason for the extreme sediment concentrations in the system. To check the quality of the data collected, they calculated the mass balance over the control volume
+
+### 2.2.3.1 Mathematical Approach
+How do we systematically describe the bookkeeping of mass and momentum? We will start by considering mass, and will later extend the approach to other quantities, such as momentum.
+
+For mass, we first want to know the total mass in the volume. At every place in the volume, we will have a certain mass concentration, or mass per unit volume, also known as [[Fluid Density|Density]]. The total mass $M$ in the control volume $CV$ is equal to the density integrated over the $CV$:
+
+$$
+M = \int\limits_{CV} \rho \, \mathrm{d}V \tag{2.1}
+$$
+
+Recalling the example of students cycling through a control volume, we have seen that the total mass in the control volume can change over time because of mass flowing in and out of the control volume. The flow volume out of an infinitesmall (i.e. infinitely small) edge piece $\mathrm{d}A$ is equal to:
+
+$$
+\overrightarrow{u} \cdot \overrightarrow{n} \; \mathrm{d}A \tag{2.2}
+$$
+
+where
+- $\overrightarrow{u}$ is the velocity
+- $\overrightarrow{n}$ is a unit vector point outwards and orthogonal to the surface of the control volume. 
+
+The dot product corresponds to the projection of the velocity in the direction orthogonal to the surface, which is the only part of the velocity contributing to the outflow. The flow parallel to the surface will not contribute to the outflow. Also, not that we define outflow as positive, and correspondin
