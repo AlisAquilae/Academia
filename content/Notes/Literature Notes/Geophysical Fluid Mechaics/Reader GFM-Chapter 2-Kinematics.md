@@ -197,3 +197,5 @@ $$
 \frac{\mathrm{D}s}{\mathrm{D}t} = \frac{\partial s}{\partial t} + u_1 \frac{\partial s}{\partial x_1} \tag{2.14}
 $$
 
+Note that the material derivative in equation 2.14 is written for one spatial direction ($x_1$) only. This equation can easily be extended for more dimensions by adding $u_2 \frac{\partial s}{\partial x_2}$ and $u_3 \frac{\partial s}{\partial x_3}$., The total derivative in equation 2.13 can similarly be extended to more spatial dimensions.
+
