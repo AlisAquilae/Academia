@@ -13,6 +13,7 @@ Related Courses: ["[[Geophysical Fluid Mechanics]]"]
 # 3.1 Introduction
 In this chapter, we introduce the three main governing equations that enable us to describe and forecast the motion evolution of geophysical flows. The conservation laws are for the variables mass, movement and energy. For these variables, the derivation starts with equation 2.7, and the application of this generic equation to mass ($M$), three-components of the velocity ($u_i$) and energy ($e$). We start with an example that motivates us to derive an equation to ensure that mass is conserved. We then move to the derivation of the conservation equation. Under typical conditions of water and air, we simplify this mass conservation law, and we derive its incompressible form. A fluid that is incompressible keeps the volume constant subject to changes of temperature and pressure.
 
+
 ---
 # 3.2 Conservation of Mass - The equation of continuity
 ![[Pasted image 20250224145242.png]]
@@ -98,5 +99,4 @@ $$
 \frac{\partial u_i}{\partial x_i} = \frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} + \frac{\partial w}{\partial z} = 0 \tag{3.8} 
 $$
 
-$\ref{3.8}$  
-
+$\eqref{massvector}$
