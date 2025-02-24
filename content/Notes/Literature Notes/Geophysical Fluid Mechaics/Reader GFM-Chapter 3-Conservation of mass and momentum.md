@@ -45,5 +45,38 @@ $$
 The flux over the surface of the control volume relates to the divergence of the same property within the volume. Recall the physical meaning of divergence, i.e. it represents the local loss of a certain quantity due to spatial gradients. These gradients create fluxes that move mass in and out of the control volume. The integral of the divergence over the volume is the total loss or gain of that quantity, in that case $m$. This is equivalent to the net loss of that quantity over the edges of the control volume.
 
 $$
-\underbrace{\int\limits_{CS} \; b \, \rho \, \overrightarrow{u} \cdot \overrightarrow{n} \, \mathrm{d}A}_{\text{Net}} =
+\underbrace{\int\limits_{CS} \; b \, \rho \, \overrightarrow{u} \cdot \overrightarrow{n} \, \mathrm{d}A}_{\text{Net loss over the edges}} = \underbrace{\int\limits_{CV} \; \overrightarrow{\nabla} \cdot (b \, \rho \, \overrightarrow{u}) \, \mathrm{d}V}_{\text{Sum of local loss in volume}} \tag{3.2}
+$$
+
+Similar as done in the previous chapter, we can now consider an infinitesimally small control volume (Equation 2.12) to obtain:
+
+$$
+\int\limits_{CV} \left[ \frac{\partial \rho}{\partial t} + \overrightarrow{\nabla} \cdot (\rho \, \overrightarrow{u} \,) \right] \, \mathrm{d}V = 0 \tag{3.3}
+$$
+
+It is important to stress that it is only representative locally over the entire field. We can then take the inner part of the integral. Then, the equation reads in the vectoral form:
+
+$$
+\frac{\partial \rho}{\partial t} + \overrightarrow{\nabla} \cdot (\rho \, \overrightarrow{u} \,) = 0 \tag{3.4}
+$$
+
+and using the index notation
+
+$$
+\frac{\partial \rho}{\partial t} + \frac{\partial}{\partial x_i} \, (\rho \, u_i) = 0 \tag{3.5}
+$$
+
+Both equations represent the same: the conservation of mass in a control volume.
+
+## 3.2.4 Can we express the equations as a function of the total derivative?
+In geophysical fluids it is key to be able to compare terms to determine which term is relevant with respect to the other. To this end, we take now equation 3.5, and we express it as a function of the material, or substantial derivative, as presented in the previous chapter. 
+
+>[!Warning]
+>I skipped the steps used in the derivationo
+
+
+The material derivative of the density is:
+
+$$
+\frac{D \rho}{Dt} = -\rho \frac{\partial \, u_i}{\partial \, x_i}
 $$
