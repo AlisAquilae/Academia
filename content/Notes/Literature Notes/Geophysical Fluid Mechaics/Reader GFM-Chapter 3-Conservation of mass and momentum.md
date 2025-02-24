@@ -96,7 +96,19 @@ If the flow fulfils this equations it is named incompressible. A flow is conside
 If now we take the incompressible form of the mass conservation, we can provide a physical explanation to our motivating example of the in or out flow in the Amazonian cloud. Remember that by definition, the velocity vector has three components. We take $u_1 = u$, $u_2 = v$ and $u_3 = w$. Our starting point is:
 
 $$
+\begin{equation}
 \frac{\partial u_i}{\partial x_i} = \frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} + \frac{\partial w}{\partial z} = 0 \tag{3.8} 
+\end{equation}
 $$
 
-$\eqref{massvector}$
+The expression enables us a method to calculate whether the flow is converging (net inflow of air increases the mass in a control volume) and diverging (net outflow of air decreases the mass in a control volume).
+
+Let us make use of equation 3.8. Assuming for the sake of simplicity that $v=0$, Figure 3.2 shows a convergent situation in which $\frac{\partial u}{\partial x} \lt 0$, and therefore the air is ascending $\frac{\partial w}{\partial z} \gt 0$ to fulfil the equation: 
+
+$$
+\overbrace{\frac{\partial u}{\partial x}}^{\lt \, 0} + \overbrace{\frac{\partial w}{\partial z}}^{\gt \, 0} = 0 \tag{3.9}
+$$
+
+![[Pasted image 20250224155114.png]]
+
+The analysis is valid within the control volume, by assuming that the dotted square is a control volume. Likewise, we can apply this analysis to the field description, by assuming that the dotted square is a point in space. 
