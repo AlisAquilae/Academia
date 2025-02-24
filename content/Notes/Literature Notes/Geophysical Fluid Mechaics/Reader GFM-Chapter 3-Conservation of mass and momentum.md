@@ -112,3 +112,8 @@ $$
 ![[Pasted image 20250224155114.png]]
 
 The analysis is valid within the control volume, by assuming that the dotted square is a control volume. Likewise, we can apply this analysis to the field description, by assuming that the dotted square is a point in space. 
+
+---
+# 3.3 Conservation of momentum - The equation of motion
+In our objective to describe all the characteristics of the flow (motions, laws and mathematics), it is key to be able to represent and calculate the movement of water and air masses. In the previous section, we learned that we need to conserve mass, but both air and water move and accelerate/decelerate continuously. Therefore we need an equation that describes the evolution in the three-spatial directions of a control volume or a point in space: the conservation of momentum expressed in the form of acceleration and deceleration. We will derive it like the equation for the conservation of mass, knowing that momentum is directly propoertional to the object's mass ($m$) and velocity ($v$). 
+
