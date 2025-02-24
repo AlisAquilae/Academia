@@ -78,5 +78,25 @@ In geophysical fluids it is key to be able to compare terms to determine which t
 The material derivative of the density is:
 
 $$
-\frac{D \rho}{Dt} = -\rho \frac{\partial \, u_i}{\partial \, x_i}
+\underbrace{\frac{D \rho}{Dt}}_{\text{Change of density of a fluid particle}} = \underbrace{-\rho \frac{\partial \, u_i}{\partial \, x_i}}_{\text{Expandion of the fluid}} \tag{3.6}
 $$
+
+By expressing the conservation of mass using only two terms, it is easy to compare them. As will be explained in the next section, this can lead to a simplified equation of the conservation of mass.
+
+## 3.2.5 Mass conservation in incompressible form
+As mentioned before, in a lot of applications for air and water we can assume as a first approximation that density $\rho$ is constant over time. If we make this assumption, equation 3.6 reduces to
+
+$$
+\frac{\partial u_i}{\partial x_i} = 0 \tag{3.7}
+$$
+
+If the flow fulfils this equations it is named incompressible. A flow is considered incompressible if the density of the fluid is constant within a fluid parcel (also called isochoric flow). Such a flow is often called incompressible.
+
+If now we take the incompressible form of the mass conservation, we can provide a physical explanation to our motivating example of the in or out flow in the Amazonian cloud. Remember that by definition, the velocity vector has three components. We take $u_1 = u$, $u_2 = v$ and $u_3 = w$. Our starting point is:
+
+$$
+\frac{\partial u_i}{\partial x_i} = \frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} + \frac{\partial w}{\partial z} = 0 \tag{3.8} 
+$$
+
+$\ref{3.8}$  
+
