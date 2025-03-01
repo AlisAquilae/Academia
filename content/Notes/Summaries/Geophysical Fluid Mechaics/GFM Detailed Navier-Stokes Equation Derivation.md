@@ -47,3 +47,22 @@ $$
 \int\limits_{CS} \rho b \; (\overrightarrow{u} \cdot \overrightarrow{n}) \; \mathrm{d}A \tag{3}
 $$
 
+We know that a net outflow of $B$ will lead to a decrease in total $B$ within the control volume. In other words, a positive flux (outflow) through the edges of the control volume has to be balanced by a negative change (decrease) of total $B$ inside the control volume. Or, mathematically
+
+$$
+\underbrace{\frac{\partial}{\partial t} \int\limits_{CV} \; \rho \, \mathrm{d}V}_{\text{Change of total B}} \; \; \;+ \underbrace{\int\limits_{CS} \; \rho \, \overrightarrow{u} \cdot \overrightarrow{n} \, \mathrm{d}A}_{\text{Flux of B through edges}} = 0 \tag{4}
+$$
+
+The first term accounts for the local rate of change within the control volume (i.e. how the property changes at a fixed point due to time dependence). 
+
+We, however, have to account for changes in quantity $B$ within the constant system due to, for example, a chemical reaction or temperature changes. This is captures in the external flux
+
+$$
+\frac{\mathrm{d}}{\mathrm{d}t} \int\limits_{CV} \; \rho b \, \mathrm{d}V = \frac{\mathrm{d}B}{\mathrm{d}t} \tag{5}
+$$
+
+The complete Reynolds Transport Theorem in integral form (as a combination of 4 and 5) states
+
+$$
+\begin
+$$
