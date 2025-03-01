@@ -81,5 +81,12 @@ $$
 Substituting this into the integral form (i.e. Equation 6):
 
 $$
+\int\limits_{CV} \; \frac{\partial}{\partial t} (\rho b) \, \mathrm{d}V + \int\limits_{CV} \; \overrightarrow{\nabla} \cdot (\rho b \, \overrightarrow{u}) \, \mathrm{d}V = 0 \tag{8}
+$$
 
+
+This equation should hold for any arbitrary control volume. The only way this is possible is if both integrands themselves are 0. Thus:
+
+$$
+\frac{\partial}{\partial t} (\rho b) + \int\limits_{CV} \; \overrightarrow{\nabla} \cdot (\rho b \, \overrightarrow{u}) \, \mathrm{d}V = 0 \tag{8}
 $$
