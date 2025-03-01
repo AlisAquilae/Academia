@@ -146,7 +146,7 @@ $$
 or, in an extended form for the first component $u$:
 
 $$
-\frac{\mathrm{d}u}{\mathrm{d}t} = \frac{\partial u}{\partial t} + u \frac{\partial u}{\partial x} + v \frac{\partial u}{\partial y} + w \frac{\partial u}{\partial z} \tag{3.12}
+\frac{\mathrm{d}u}{\mathrm{d}t} = \frac{\partial u}{\partial t} + u \frac{\partial u}{\partial x} + v \frac{\partial u}{\partial y} + w \frac{\partial u}{\partial z} \tag{3.13}
 $$
 
 ## 3.3.2 Derivation of the conservation of momentum: Navier-Stokes equation
@@ -154,4 +154,33 @@ $$
 >[!Note]
 >From here on out follows a derivation of the conservation of momentum equation, also called the [[Navier-Stokes Equation]]. Note that it is not important to be able to derive this equation yourself, but you should be able to follow the steps taken
 
-The equation of motion is obtained by associating $B$ (see Equation 2.7) with the momentum in the system. Momentum is a vector quantity, the product of mass and velocity. In the particular case of the momentum equation, $b$ becomes the velocity vector $\overrighta
+The equation of motion is obtained by associating $B$ (see Equation 2.7) with the momentum in the system. Momentum is a vector quantity, the product of mass and velocity. In the particular case of the momentum equation, $b$ becomes the velocity vector $\overrightarrow{u}$ with respect to the control volume equation. 
+
+From Newton's law of motion, the rate of change of momentum of a constant mass system is equal to the applies forces. The equation reads:
+
+$$
+\frac{\mathrm{d}}{\mathrm{d}t} \overrightarrow{B} = \overrightarrow{F} \tag{3.14}
+$$
+
+Applying equation 3.14 to the control volume equation (Equation 2.7) becomes
+
+$$
+\overrightarrow{F} = \int\limits_{CV} \; \frac{\partial}{\partial t} (\rho \overrightarrow{u}) \, \mathrm{d}V + \int\limits_{CS} \; \rho \, \overrightarrow{u} \, (\overrightarrow{u} \cdot \overrightarrow{n}) \, \mathrm{d}A \tag{3.15}
+$$
+
+in which
+- $\overrightarrow{F}$ is the sum of al forces acting on the fluid in the control volume
+
+To obtain the differential equation, we can express the last term of the right-hand side as the sum of the fluxes acting in the volume. The equation now reads:
+
+$$
+\frac{\mathrm{d}B}{\mathrm{d}t} = \int\limits_{CV} \left[ \frac{\partial}{\partial t} \, (\rho b) + \overrightarrow{\nabla} \cdot (\rho b \,\overrightarrow{u}) \right] \mathrm{d}V \tag{3.16}
+$$
+
+Similar to the conservation of mass, we can now consider an infinitesimal control volume (point). Dividing by the volume, the left side becomes the force per unit volume $\overrightarrow{f}$, and $b = \overrightarrow{u}$. The equation states that the rate of change of momentum per unit volume is equal to the force per unit volume. As a result, the differential equation reads:
+
+$$
+\overrightarrow{f} = \frac{\partial}{\partial t}\, (\rho \, \overrightarrow{u}) + \nabla \cdot (\rho \, \overrightarrow{u} \, \overrightarrow{u}) \tag{3.17}
+$$
+
+The quantity $\overrightarrow{u} \, \overrightarrow{u}$ is a dyadic product ($u_i u_j$). Equation 3.17 can be simplified by the use of the continuity equation (Equation)
