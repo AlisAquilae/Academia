@@ -59,7 +59,7 @@ where
 - $\overrightarrow{u}$ is the velocity
 - $\overrightarrow{n}$ is a unit vector point outwards and orthogonal to the surface of the control volume. 
 
-The dot product corresponds to the projection of the velocity in the direction orthogonal to the surface, which is the only part of the velocity contributing to the outflow. The flow parallel to the surface will not contribute to the outflow. Also, not that we define outflow as positive, and correspondingly define inflow (where the velocity is directed into the control volume) as negative outflow. 
+The dot product corresponds to the projection of the velocity in the direction orthogonal to the surface, which is the only part of the velocity contributing to the outflow. The flow parallel to the surface will not contribute to the outflow. Also, note that we define outflow as positive, and correspondingly define inflow (where the velocity is directed into the control volume) as negative outflow. 
 
 The mass outflow over the infinitesimal edge will be:
 

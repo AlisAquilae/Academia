@@ -24,4 +24,26 @@ $$
 
 where
 - $\rho$ is the fluid density
-- $b$ is the inyte
+- $b$ is the intensive property (e.g. $\overrightarrow{u}$ if $B$ is momentum)
+- $\mathrm{d}V$ is a differential volume element
+
+We know, however, that $B$ can change over time in a control volume, for example mass flowing in and out of the CV. The flow volume out of an infinitesimal (i.e. infinitely small) edge piece $\mathrm{d}A$ is equal to:
+
+$$
+\overrightarrow{u} \cdot \overrightarrow{n} \; \mathrm{d}A \tag{2}
+$$
+
+where
+- $\overrightarrow{u}$ is the velocity
+- $\overrightarrow{n}$ is a unit vector point outwards and orthogonal to the surface of the control volume. 
+- $(\overrightarrow{u} \cdot \overrightarrow{n}$), i.e. the dot product, corresponds to the projection of the velocity in the direction orthogonal to the surface, which is the only part of the velocity contributing to the outflow. The flow parallel to the surface will not contribute to the outflow
+
+>[!Note]
+>We define outflow as positive, and correspondingly define inflow (where the velocity is directed into the control volume) as negative outflow
+
+The net outflow out of the total outer edge $CS$ of the control volume is equal to 
+
+$$
+\int\limits_{CS} \rho b \; (\overrightarrow{u} \cdot \overrightarrow{n}) \; \mathrm{d}A \tag{3}
+$$
+
