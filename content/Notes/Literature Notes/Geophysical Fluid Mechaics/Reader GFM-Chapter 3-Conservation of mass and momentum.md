@@ -126,5 +126,32 @@ $$
 \overrightarrow{F} = m \, \frac{\mathrm{d}}{\mathrm{d}t} \, \overrightarrow{v} = m \overrightarrow{a} \tag{3.10}
 $$
 
-Here, the vector $\overrightarrow{F}$ represents a generic force of forces. Later in the section, we will identify the more important forces acting in the air or water masses. In our derivation, we will consider that these forces are acting per unit of volume, and therefore we divide the $\overrightarrow{F}$ by the volume: $\frac{\overrightarrow{F}}{\}
+Here, the vector $\overrightarrow{F}$ represents a generic force of forces. Later in the section, we will identify the more important forces acting in the air or water masses. In our derivation, we will consider that these forces are acting per unit of volume, and therefore we divide the $\overrightarrow{F}$ by the volume: $\frac{\overrightarrow{F}}{V} = \overrightarrow{f}$. 
 
+It is here important to remember that we will use in parts of the derivation the index notation and its extensions:
+
+$$
+\begin{aligned}
+\frac{\mathrm{d}}{\mathrm{d}t} \overrightarrow{v} &= \frac{\mathrm{d}u_i}{\mathrm{d}t} \\
+&= \frac{\mathrm{d}u}{\mathrm{d}t} + \frac{\mathrm{d}v}{\mathrm{d}t} + \frac{\mathrm{d}w}{\mathrm{d}t}
+\end{aligned} \tag{3.11}
+$$
+
+We will also use the relation between total and local derivative:
+
+$$
+\frac{\mathrm{d}u_i}{\mathrm{d}t} = \frac{\partial u_i}{\partial t} + u_j \frac{\partial u_i}{\partial x_j} \tag{3.12}
+$$
+
+or, in an extended form for the first component $u$:
+
+$$
+\frac{\mathrm{d}u}{\mathrm{d}t} = \frac{\partial u}{\partial t} + u \frac{\partial u}{\partial x} + v \frac{\partial u}{\partial y} + w \frac{\partial u}{\partial z} \tag{3.12}
+$$
+
+## 3.3.2 Derivation of the conservation of momentum: Navier-Stokes equation
+
+>[!Note]
+>From here on out follows a derivation of the conservation of momentum equation, also called the [[Navier-Stokes Equation]]. Note that it is not important to be able to derive this equation yourself, but you should be able to follow the steps taken
+
+The equation of motion is obtained by associating $B$ (see Equation 2.7) with the momentum in the system. Momentum is a vector quantity, the product of mass and velocity. In the particular case of the momentum equation, $b$ becomes the velocity vector $\overrighta
