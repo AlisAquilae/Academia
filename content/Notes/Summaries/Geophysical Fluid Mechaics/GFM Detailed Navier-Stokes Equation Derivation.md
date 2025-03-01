@@ -106,3 +106,30 @@ $$
 \frac{\partial}{\partial t}b + \overrightarrow{u} \cdot \overrightarrow{\nabla} b = 0 \tag{11}
 $$
 
+This is the fundamental equation governing the change of a fluid property $b$ (such as velocity, temperature or concentration)
+
+The **local time derivative** measures how $b$ changes at a fixed point in space using only the first term of Equation 11. It captures unsteady effects, meaning variations in time at a stationary observation point.
+
+$$
+\frac{\partial b}{\partial t} \tag{12}
+$$
+
+>[!Example]
+>If you are standing on a riverbank and measure water velocity at a fixed location, the local derivative tells you how the speed of the water at that spot changes over time.
+
+The **total derivative** accounts for changes in a function that depends on both space and time. The total derivative applies to a moving observer who is not necessarily following a fluid particle. It describes how $b$ changes both due to explicit time dependence and because the observer moves through a spatially varying field.
+
+If $b$ is a property that varies with space and time $(b(x, t)$), its total derivative is
+
+$$
+\begin{aligned}
+\frac{\mathrm{d}b}{\mathrm{d}t} &= \frac{\partial b}{\partial t} + \sum\limits_{i=1}^{3} \frac{\partial b}{\partial x_{i}} \frac{\mathrm{d}x_i}{\mathrm{d}t} \\
+\end{aligned} \tag{13}
+$$
+
+>[!Note]
+>Equation 13 captures the total derivative for the x, y and z directions. If we only want one direction, for example x, the formula reduces to
+>
+>$$
+>\frac{\mathrm{d}s}{\mathrm{d}t} = \frac{\partial b}{\partial t} + u_1^e \, \frac{\partial b}{\partial x_1} \tag{14}
+>$$
