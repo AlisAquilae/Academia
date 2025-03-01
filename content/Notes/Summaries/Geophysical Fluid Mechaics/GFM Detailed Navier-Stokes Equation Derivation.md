@@ -88,5 +88,21 @@ $$
 This equation should hold for any arbitrary control volume. The only way this is possible is if both integrands themselves are 0. Thus:
 
 $$
-\frac{\partial}{\partial t} (\rho b) + \int\limits_{CV} \; \overrightarrow{\nabla} \cdot (\rho b \, \overrightarrow{u}) \, \mathrm{d}V = 0 \tag{8}
+\frac{\partial}{\partial t} (\rho b) + \overrightarrow{\nabla} \cdot (\rho b \, \overrightarrow{u})= 0 \tag{9}
 $$
+
+This is the final differential form of the Reynolds Transport Theorem.
+
+## The Local Time Derivative, Total Derivative and Material Derivative
+In Equation 9 we obtained the differential form of the RTT. Expanding the divergence term using the product rule:
+
+$$
+\frac{\partial}{\partial t} \, (\rho b) + \rho (\overrightarrow{u} \cdot \overrightarrow{\nabla}) b + b(\overrightarrow{\nabla} \cdot \rho \, \overrightarrow{u}) = 0 \tag{10}
+$$
+
+For incompressible fluids, $(\overrightarrow{\nabla} \cdot \overrightarrow{u} = 0)$. This simplifies Equation 10 to
+
+$$
+\frac{\partial}{\partial t}b + \overrightarrow{u} \cdot \overrightarrow{\nabla} b = 0 \tag{11}
+$$
+
