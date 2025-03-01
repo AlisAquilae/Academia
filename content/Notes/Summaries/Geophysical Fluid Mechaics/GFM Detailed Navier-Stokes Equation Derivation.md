@@ -50,7 +50,7 @@ $$
 We know that a net outflow of $B$ will lead to a decrease in total $B$ within the control volume. In other words, a positive flux (outflow) through the edges of the control volume has to be balanced by a negative change (decrease) of total $B$ inside the control volume. Or, mathematically
 
 $$
-\underbrace{\frac{\partial}{\partial t} \int\limits_{CV} \; \rho \, \mathrm{d}V}_{\text{Change of total B}} \; \; \;+ \underbrace{\int\limits_{CS} \; \rho \, \overrightarrow{u} \cdot \overrightarrow{n} \, \mathrm{d}A}_{\text{Flux of B through edges}} = 0 \tag{4}
+\underbrace{\frac{\partial}{\partial t} \int\limits_{CV} \; \rho b \, \mathrm{d}V}_{\text{Change of total B}} \; \; \;+ \underbrace{\int\limits_{CS} \; \rho b \, (\overrightarrow{u} \cdot \overrightarrow{n}) \, \mathrm{d}A}_{\text{Flux of B through edges}} = 0 \tag{4}
 $$
 
 The first term accounts for the local rate of change within the control volume (i.e. how the property changes at a fixed point due to time dependence). 
@@ -64,5 +64,22 @@ $$
 The complete Reynolds Transport Theorem in integral form (as a combination of 4 and 5) states
 
 $$
-\begin
+\begin{aligned}
+\underbrace{\frac{\mathrm{d}B}{\mathrm{d}t}}_{\text{External flux}} &= \frac{\mathrm{d}}{\mathrm{d}t} \int\limits_{CV} \; \rho b \, \mathrm{d}V \\
+&= \underbrace{\frac{\partial}{\partial t} \int_{CV} \; \rho b \, \mathrm{d}V}_{\text{Change of total mass}} \; \; \;+ \underbrace{\int_{CS} \;  \rho b \, (\overrightarrow{u} \cdot \overrightarrow{n}) \, \mathrm{d}A}_{\text{Flux of mass through edges}} \;
+\end{aligned} \tag{6}
+$$
+
+
+## The Differential Form
+To derive the differential form, we apply the [[Divergence Theorem]] to the flux term. Recall the meaning of divergence, i.e. that it represents the local loss of a certain quantity due to spatial gradients and fluxes. The integral of the divergence over the volume will be the total loss of that quantity. This is the equivalent to the net loss of that quantity over the edges of the control volume. We can express this as follows:
+
+$$
+\underbrace{\int\limits_{CS} \;  \rho b \, (\overrightarrow{u} \cdot \overrightarrow{n}) \, \mathrm{d}A}_{\text{Net loss over edges}} \;\;\;= \underbrace{\int\limits_{CV} \; \overrightarrow{\nabla} \, \cdot (\rho b \, \overrightarrow{u})\,\mathrm{d}V}_{\text{Sum of local loss in volume}} \tag{7}
+$$
+
+Substituting this into the integral form (i.e. Equation 6):
+
+$$
+
 $$
