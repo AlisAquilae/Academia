@@ -183,4 +183,21 @@ $$
 \overrightarrow{f} = \frac{\partial}{\partial t}\, (\rho \, \overrightarrow{u}) + \nabla \cdot (\rho \, \overrightarrow{u} \, \overrightarrow{u}) \tag{3.17}
 $$
 
-The quantity $\overrightarrow{u} \, \overrightarrow{u}$ is a dyadic product ($u_i u_j$). Equation 3.17 can be simplified by the use of the continuity equation (Equation)
+The quantity $\overrightarrow{u} \, \overrightarrow{u}$ is a dyadic product ($u_i u_j$). Equation 3.17 can be simplified by the use of the continuity equation (Equation 3.6).
+
+Note that Equation 3.17 is written in a vectorial form. The equivalent equation written using the index notation reads:
+
+$$
+\begin{aligned}
+f_i &= \frac{\partial}{\partial t} \, (\rho u_i) + \frac{\partial}{\partial x_j} \, (\rho u_i u_j) \\
+&= u_1 \frac{\partial \rho}{\partial t} + \rho \frac{\partial u_i}{\partial t} + \rho u_j \frac{\partial u_i}{\partial x_j} + u_i \frac{\partial }{\partial x_j} (\rho u_j) 
+\end{aligned} \tag{3.18}
+$$
+
+Here we can make an important simplification and invoke the conservation of mass: the first and last term of the right hand side. Both terms cancel each other, and therefore the final expression reads:
+
+$$
+f_i = \rho \frac{\partial u_i}{\partial t} + \rho u_j \frac{ \partial u_i}{\partial x_j} \tag{3.19}
+$$
+
+This is the final conservation equation for momentum. Note that all the terms have units [kg m$^{-2}$ s$^{-2}$], equivalent to a force per unit volume with units [N m$^{-3}$]. Positive values of this term indicate that air/water masses are accelerating, whereas negative values indicate a deceleration of the air/water masses. In short, in a control volume, the (de-)acc
