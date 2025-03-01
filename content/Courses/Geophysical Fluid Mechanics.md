@@ -33,3 +33,6 @@ The literature for this course consists of 2 readers: one with study material, a
 - [[Reader GFM-Chapter 13-Momentum conservation in a rotating system]]
 - [[Reader GFM-Chapter 14-Characteristic flows with rotation and friction]]
 
+# ➕ Addendum 
+- [[GFM Detailed Navier-Stokes Equation Derivation]]
+
