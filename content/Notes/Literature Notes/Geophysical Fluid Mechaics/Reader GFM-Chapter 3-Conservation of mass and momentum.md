@@ -73,7 +73,7 @@ Both equations represent the same: the conservation of mass in a control volume.
 In geophysical fluids it is key to be able to compare terms to determine which term is relevant with respect to the other. To this end, we take now equation 3.5, and we express it as a function of the material, or substantial derivative, as presented in the previous chapter. 
 
 >[!Warning]
->I skipped the steps used in the derivationo
+>I skipped the steps used in the derivation
 
 
 The material derivative of the density is:
@@ -115,5 +115,16 @@ The analysis is valid within the control volume, by assuming that the dotted squ
 
 ---
 # 3.3 Conservation of momentum - The equation of motion
-In our objective to describe all the characteristics of the flow (motions, laws and mathematics), it is key to be able to represent and calculate the movement of water and air masses. In the previous section, we learned that we need to conserve mass, but both air and water move and accelerate/decelerate continuously. Therefore we need an equation that describes the evolution in the three-spatial directions of a control volume or a point in space: the conservation of momentum expressed in the form of acceleration and deceleration. We will derive it like the equation for the conservation of mass, knowing that momentum is directly propoertional to the object's mass ($m$) and velocity ($v$). 
+In our objective to describe all the characteristics of the flow (motions, laws and mathematics), it is key to be able to represent and calculate the movement of water and air masses. In the previous section, we learned that we need to conserve mass, but both air and water move and accelerate/decelerate continuously. Therefore we need an equation that describes the evolution in the three-spatial directions of a control volume or a point in space: the conservation of momentum expressed in the form of acceleration and deceleration. We will derive it like the equation for the conservation of mass, knowing that momentum is directly proportional to the object's mass ($m$) and velocity ($v$). 
+
+## 3.3.1 What is the governing equation that describes the movements of water and air masses?
+Our starting point is the [[Newton's Second Law of Motion|Second Law of Newton]]. In short: acceleration of an object depends upon two variables: the net force acting upon the object and the mass of the object. This object for us are masses of air and water. Using a similar approach as in the derivation of the conservation of mass, we analyse the forces that occur in and out of a control volume. 
+
+The second law of Newton reads (assuming mass does not change in time):
+
+$$
+\overrightarrow{F} = m \, \frac{\mathrm{d}}{\mathrm{d}t} \, \overrightarrow{v} = m \overrightarrow{a} \tag{3.10}
+$$
+
+Here, the vector $\overrightarrow{F}$ represents a generic force of forces. Later in the section, we will identify the more important forces acting in the air or water masses. In our derivation, we will consider that these forces are acting per unit of volume, and therefore we divide the $\overrightarrow{F}$ by the volume: $\frac{\overrightarrow{F}}{\}
 
