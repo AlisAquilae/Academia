@@ -210,4 +210,16 @@ This shows that there is no net inflow or outflow at any given point, solidifyin
 
 ---
 # Conservation of Momentum (Navier-Stokes Equation)
-testing 2
+In the previous section, we learned that we need to conserve mass, but both air and water move and accelerate/decelerate continuously. Therefore we need an equation that describes the evolution in the three-spatial directions of a control volume or a point in space: the conservation of momentum expressed in the form of acceleration and deceleration. 
+
+## Integral Form
+Our starting point is, again, the integral form of the Reynolds Transport Theorem, i.e. Equation 6
+
+$$
+\begin{aligned}
+\underbrace{\frac{\mathrm{d}B}{\mathrm{d}t}}_{\text{External flux}} &= \frac{\mathrm{d}}{\mathrm{d}t} \int\limits_{CV} \; \rho b \, \mathrm{d}V \\
+&= \underbrace{\frac{\partial}{\partial t} \int_{CV} \; \rho b \, \mathrm{d}V}_{\text{Change of total mass}} \; \; \;+ \underbrace{\int_{CS} \;  \rho b \, (\overrightarrow{u} \cdot \overrightarrow{n}) \, \mathrm{d}A}_{\text{Flux of mass through edges}} \;
+\end{aligned}
+$$
+
+Whereas we took $b=1$ in the conservation of mass equation, we now take $b = \overrightarrow{u}$, such that $B = \rho \overrightarrow{u}$. The
