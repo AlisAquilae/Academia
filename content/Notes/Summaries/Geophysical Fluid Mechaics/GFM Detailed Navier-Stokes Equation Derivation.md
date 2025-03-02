@@ -134,6 +134,8 @@ $$
 >\frac{\mathrm{d}s}{\mathrm{d}t} = \frac{\partial b}{\partial t} + u_1^e \, \frac{\partial b}{\partial x_1} \tag{14}
 >$$
 
+
+
 ---
 # Conservation of Mass (Continuity Equation)
 Assuming that we have a control volume, mass can not be created or destroyed within this volume. In other words, if you import air of the same density over a boundary of the control volume, then it is forced to move out another boundary of the control volume. Mass is therefore a **conserved variable**. 
@@ -165,4 +167,23 @@ $$
 \frac{\partial}{\partial t} (\rho b) + \overrightarrow{\nabla} \cdot (\rho b \, \overrightarrow{u})= 0 
 $$
 
-In the specific case of mass, we again set $b=1$. Equation 9 
+In the specific case of mass, we again set $b=1$. Equation 9 then reduces to
+
+$$
+\frac{\partial \rho}{\partial t} + \overrightarrow{\nabla} \cdot (\rho \, \overrightarrow{u} \,) = 0 \tag{16}
+$$
+
+Or, using the index notation:
+
+$$
+\frac{\partial \rho}{\partial t} + \frac{\partial}{\partial x_i} \, (\rho \, u_i) = 0 \tag{17}
+$$
+
+If we now include the second assumption, i.e. that we are dealing with an incompressible fluid, we know density ($\rho$) to remain constant in time. Equation 16 thus reduces to
+
+$$
+\overrightarrow{\nabla} \cdot \overrightarrow{u} = 0 \tag{18}
+$$
+
+This shows that there is no net inflow or outflow at any given point, solidifying that all mass is conserved.
+
