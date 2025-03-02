@@ -133,3 +133,20 @@ $$
 >$$
 >\frac{\mathrm{d}s}{\mathrm{d}t} = \frac{\partial b}{\partial t} + u_1^e \, \frac{\partial b}{\partial x_1} \tag{14}
 >$$
+
+---
+# Conservation of Mass (Continuity Equation)
+Assuming that we have a control volume, mass can not be created or destroyed within this volume. In other words, if you import air of the same density over a boundary of the control volume, then it is forced to move out another boundary of the control volume. Mass is therefore a **conserved variable**. 
+
+Another assumption that we will apply often in our derivations is that density of air or water is as a first approximation constant in time. If this assumption holds, then in addition of mass conservation, the volume is also conserved. If the flow satisfies this assumption, we call it **incompressible flow**.
+
+## Integral form
+Our starting point is the integral form of the Reynolds Transport Theorem, i.e. Equation 6 we saw earlier
+
+$$
+\begin{aligned}
+\underbrace{\frac{\mathrm{d}B}{\mathrm{d}t}}_{\text{External flux}} &= \frac{\mathrm{d}}{\mathrm{d}t} \int\limits_{CV} \; \rho b \, \mathrm{d}V \\
+&= \underbrace{\frac{\partial}{\partial t} \int_{CV} \; \rho b \, \mathrm{d}V}_{\text{Change of total mass}} \; \; \;+ \underbrace{\int_{CS} \;  \rho b \, (\overrightarrow{u} \cdot \overrightarrow{n}) \, \mathrm{d}A}_{\text{Flux of mass through edges}} \;
+\end{aligned} \tag{6}
+$$
+
