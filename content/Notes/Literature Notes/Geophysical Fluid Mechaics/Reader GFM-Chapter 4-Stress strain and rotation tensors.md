@@ -35,4 +35,36 @@ $$
 >[!Note]
 >Note that in the expansion we omit the terms of third- and higher-order.
 
-In our
+In our next step, we only consider terms of the first order derivatives in $\Delta x_j$. The increment in velocity (now in index notation) reads
+
+$$
+\Delta u_i = \frac{\partial u_i}{\partial x_j} \Delta x_j \tag{4.2}
+$$
+
+Note that $\frac{\partial u_i}{\partial x_j}$ is a second-order tensor that describes the velocity gradients in the flow: the shear-rate tensor. This tensor quantifies all the deformations and rotations in all directions that depend on the velocity gradients. In the following, we will decompose it into two contributions to distinguish between shear-strain and rotation. 
+
+Adding and subtracting the term $\frac{\partial u_j}{\partial x_i}$ in Equation 4.2, we can then rewrite the increment in the velocity $\Delta u_i$ as
+
+$$
+\Delta u_i = \overbrace{\frac{1}{2} \left( \frac{\partial u_i}{\partial x_j} + \frac{\partial u_j}{\partial x_i} \right) \Delta x_j}^{\text{related to shear-strain}} \;+ \; \underbrace{\frac{1}{2} \left( \frac{\partial u_i}{\partial x_j} - \frac{\partial u_j}{\partial x_i} \right) \Delta x_j}_{\text{Related to rotation}} \tag{4.3}
+$$
+
+We can now define in more detail the strain and rotation tensors
+
+## 4.2.2 Strain rate tensor
+From equation 4.3, we define the strain-rate tensor as
+
+$$
+d_{ij} = \frac{1}{2} \left( \frac{\partial u_i}{\partial x_j} + \frac{\partial u_j}{\partial x_i} \right) \tag{4.4}
+$$
+
+This tensor is related to the shear tensor using the viscosity in the fluid $\mu$. In doing so, we can relate the stress tensor to the physical aspects (velocities) of the flow. 
+
+
+
+
+Very important to note is that this tensor is symmetric. In other words: $d_{ij} = d_{ji}$. 
+
+>[!Info]
+>One can check this with a simple example by substituting $i=1$ and $j=2$, and finding out if $d_{12}$ equals $d_{21}$
+
