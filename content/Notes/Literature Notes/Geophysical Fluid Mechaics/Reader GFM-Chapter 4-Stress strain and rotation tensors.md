@@ -60,11 +60,37 @@ $$
 
 This tensor is related to the shear tensor using the viscosity in the fluid $\mu$. In doing so, we can relate the stress tensor to the physical aspects (velocities) of the flow. 
 
-
-
+$$
+\begin{aligned}
+\tau_{ij} &= -2\mu d_{ij} \\
+&= -\mu \left( \frac{\partial u_i}{\partial x_j} + \frac{\partial u_j}{\partial x_i} \right)
+\end{aligned} \tag{4.5}
+$$
 
 Very important to note is that this tensor is symmetric. In other words: $d_{ij} = d_{ji}$. 
 
 >[!Info]
 >One can check this with a simple example by substituting $i=1$ and $j=2$, and finding out if $d_{12}$ equals $d_{21}$
 
+
+The physical interpretation of this term is to view it as a transporting momentum through the control volume. A retarding stress would transport momentum out of the control volume, whereas a stress in the direction of motion transports momentum into the volume.
+
+>[!Note]
+>This point of view is useful in determining the signs of the various stresses. It also corresponds closely to the actual physical process since the “shear” on a volume is created by fluid molecules entering the volume at a higher or lower velocity than the average velocity of the particles already in the volume.
+
+## 4.2.3 Rotation-rate tensor
+Similar to the strain tensor, we now define the rotation-rate tensor:
+
+$$
+\omega_{ij} = \frac{1}{2} \left( \frac{\partial u_i}{\partial x_j} - \frac{\partial u_j}{\partial x_i} \right) \tag{4.7}
+$$
+
+Notice that from the definition, we can see that the rotation vector is directly related to the curl of the velocity field (cross-product of gradient vector and velocity vector). Another property of this tensor is that it is asymmetric, and therefore $\omega_{ij} \neq \omega_{ji}$. 
+
+The rotation rate tensor can also be written in a vectorial form as:
+
+$$
+\overrightarrow{\omega}_{rot} = \frac{1}{2} \overrightarrow{\nabla} \times \overrightarrow{u} \tag{4.8}
+$$
+
+The vorticity is defined as the curl (form or cause to form into a curved or spiral shape) of the velocity field. Vorticity is a vector quantity. The magnitude of the vorticity vector is a measure of the rotation of the fluid. The direction of the vorticity: the vector determines the axis of rotation, and the direction determines the sense of rotation (clockwise if the vector points away from you). Furthermore, the rotation vector is also closely linked to another property of the velocity field that
