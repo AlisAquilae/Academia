@@ -147,6 +147,22 @@ $$
 \begin{aligned}
 \underbrace{\frac{\mathrm{d}B}{\mathrm{d}t}}_{\text{External flux}} &= \frac{\mathrm{d}}{\mathrm{d}t} \int\limits_{CV} \; \rho b \, \mathrm{d}V \\
 &= \underbrace{\frac{\partial}{\partial t} \int_{CV} \; \rho b \, \mathrm{d}V}_{\text{Change of total mass}} \; \; \;+ \underbrace{\int_{CS} \;  \rho b \, (\overrightarrow{u} \cdot \overrightarrow{n}) \, \mathrm{d}A}_{\text{Flux of mass through edges}} \;
-\end{aligned} \tag{6}
+\end{aligned}
 $$
 
+For the specific case of mass, we take $b = 1$. Now, including the first assumption (i.e. mass is conserved, there is no external flux) and rewriting the equation, we arrive at:
+
+$$
+\underbrace{\int\limits_{CV} \; \frac{\partial \rho}{\partial t} \, \mathrm{d}V}_{\text{Mass rate gain/loss in the control volume}} + \underbrace{\int\limits_{CS} \; \rho \, (\overrightarrow{u} \cdot \overrightarrow{n})\,\mathrm{d}A}_{\text{Net loss/gain by fluxes normal to the surface}} = 0 \tag{15}
+$$
+
+This is the conservation of mass in integral form
+
+## Differential Form
+The starting point of the differential form of the mass balance equation is Equation 9, i.e. the differential form of the Reynolds Transport Theorem:
+
+$$
+\frac{\partial}{\partial t} (\rho b) + \overrightarrow{\nabla} \cdot (\rho b \, \overrightarrow{u})= 0 
+$$
+
+In the specific case of mass, we again set $b=1$. Equation 9 
