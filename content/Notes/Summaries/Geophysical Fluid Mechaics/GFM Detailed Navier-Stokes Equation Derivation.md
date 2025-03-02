@@ -131,5 +131,30 @@ $$
 >Equation 13 captures the total derivative for the x, y and z directions. If we only want one direction, for example x, the formula reduces to
 >
 >$$
->\frac{\mathrm{d}s}{\mathrm{d}t} = \frac{\partial b}{\partial t} + u_1^e \, \frac{\partial b}{\partial x_1} \tag{14}
+>\frac{\mathrm{d}b}{\mathrm{d}t} = \frac{\partial b}{\partial t} + u_1^e \, \frac{\partial b}{\partial x_1} \tag{14}
 >$$
+
+>[!Example]
+>Imagine you are on a boat moving through a river. The velocity of the water around you might change due to time variation (local derivative) and also because you are moving through a region where the flow is faster or slower (spatial derivative contribution)
+
+The **material derivative** describes the total rate of change of a property as experienced by a moving fluid particle. 
+
+It is denoted as
+
+$$
+\frac{\mathrm{D}b}{\mathrm{D}t} = \frac{\partial b}{\partial t} + (\overrightarrow{ u} \cdot \overrightarrow{\nabla})b \tag{15}
+$$
+
+where
+- $\frac{\partial b}{\partial t}$ is the local rate of change at a fixed point
+- $(\overrightarrow{ u} \cdot \overrightarrow{\nabla})b$ is the convective rate of change, capturing how a moving fluid particle experiences spatial variations
+
+Thus, the material derivative is the rate of change $b$ along the trajectory of a fluid particle. Here,
+- The local derivative measures changes at a fixed point
+- The convective term accounts for the fact that fluid particles move through a spatially varying field
+- The material derivative is the sum of both, representing the actual rate of change for a moving fluid particle. 
+
+>[!Example]
+>If you are floating in a river, the material derivative tells you how the velocity of the water around you changes, considering both the time variation of the flow and the spatial variations in the river. 
+
+
