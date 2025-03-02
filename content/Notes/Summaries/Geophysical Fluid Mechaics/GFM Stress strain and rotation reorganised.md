@@ -26,4 +26,4 @@ Based on the combination of translation, deformation and rotation, we can differ
 - Deformation while spinning: shear-induced rotation
 - Flow smoothly: translation without rotation
 
-Finally, before deriving deformation and rotation mathematically, it is important to differentiate rotation from vorticity. As mentioned before, rotation refers to how much a fluid element spins. Vorticity refers to the mathematical measure of rotation in a fluid
+Finally, before deriving deformation and rotation mathematically, it is important to differentiate rotation from vorticity. As mentioned before, rotation refers to how much a fluid element spins. Vorticity refers to the mathematical measure of rotation in a fluid, and is caused by differences in velocity. 
