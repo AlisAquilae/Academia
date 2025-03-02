@@ -93,4 +93,21 @@ $$
 \overrightarrow{\omega}_{rot} = \frac{1}{2} \overrightarrow{\nabla} \times \overrightarrow{u} \tag{4.8}
 $$
 
-The vorticity is defined as the curl (form or cause to form into a curved or spiral shape) of the velocity field. Vorticity is a vector quantity. The magnitude of the vorticity vector is a measure of the rotation of the fluid. The direction of the vorticity: the vector determines the axis of rotation, and the direction determines the sense of rotation (clockwise if the vector points away from you). Furthermore, the rotation vector is also closely linked to another property of the velocity field that
+The vorticity is defined as the curl (form or cause to form into a curved or spiral shape) of the velocity field. Vorticity is a vector quantity. The magnitude of the vorticity vector is a measure of the rotation of the fluid. The direction of the vorticity: the vector determines the axis of rotation, and the direction determines the sense of rotation (clockwise if the vector points away from you). Furthermore, the rotation vector is also closely linked to another property of the velocity field that is often used, namely vorticity (see [[Reader GFM-Chapter 6-Compressibility and vorticity|Chapter 6]]). The vorticity is defined as the curl of the velocity field:
+
+$$
+\overrightarrow{\omega} = \overrightarrow{\nabla} \times \overrightarrow{u} \tag{4.9}
+$$
+
+Hence, vorticity is two times the rotation vector $\overrightarrow{\omega}_{rot}$
+
+Since $\omega_{ij}$ has been identified with the rotation of a fluid element, $d_{ij}$ can be identifies as the distortion or rate of strain of an element. That is, $\omega_{ij}$ reflects the rigid body rotation of a particle whereas $d_{ij}$ reflects the rate of movement of the different points in the particle relative to each other. 
+
+Thus, the motion of a fluid can be described as
+1. A rigid body translation, plus
+2. A rigid body rotation (antisymmetric tensor), plus
+3. A deformation (symmetric tensor)
+
+>[!Summary]
+>In summary, the tensor $\partial u_i / \partial x_j$ has been split into an anti-symmetrical tensor, $\omega_{ij}$ (it is defined as the rotation rate tensor), and a symmetrical tensor, $d_{ij}$ (it is defined as the strain rate tensor, or deformation rate tensor). The latter is related to the shear tensor $\tau_{ij}$ that is included in the [[Navier-Stokes Equation]]
+
