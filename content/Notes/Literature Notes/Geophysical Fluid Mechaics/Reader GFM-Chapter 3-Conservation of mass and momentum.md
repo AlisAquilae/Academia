@@ -270,5 +270,24 @@ $$
 If we divide by the control volume $dV = dAdz$, the expression of the gravity force ($f_{g}$) reads
 
 $$
-f_g = -\rho
+f_g = -\rho g \frac{\partial h}{\partial x_i} \tag{3.25}
 $$
+
+where $h$ is positive upward, and we have generalized the expression toa ll the directions $x_i$
+
+>[!Note]
+>Note that the units of $f_p$ are [N m$^{-3}$] (or equivalently [kg m$^{-2}$ s$^{-2}$]) in agreement with the definition of $b$ as a force per unit volume
+
+## 3.3.4 Final expression of the conservation of momentum
+Equation 3.19 can now be written with the expressions of the three derived forces: pressure-gradient, shear, and gravitation. The equation reads:
+
+$$
+\rho \frac{\partial u_i}{\partial t} + \rho u_j \frac{ \partial u_i}{\partial x_j} = -\frac{\partial p}{\partial x_i} - \rho g \frac{\partial h}{\partial x_i} - \frac{\partial \tau_{ji}}{\partial x_{j}} \tag{3.26}
+$$
+
+We can also express this conservation law of momentum using the total derivative. The equation reads
+
+$$
+\rho \frac{Du_{i}}{Dt} = -\frac{\partial p}{\partial x_{i}} - \rho g \frac{\partial h}{\partial x_i} - \frac{\partial \tau_{ji}}{\partial x_j} \tag{3.27}
+$$
+
