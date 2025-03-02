@@ -157,4 +157,54 @@ Thus, the material derivative is the rate of change $b$ along the trajectory of 
 >[!Example]
 >If you are floating in a river, the material derivative tells you how the velocity of the water around you changes, considering both the time variation of the flow and the spatial variations in the river. 
 
+---
+# Conservation of Mass (Continuity Equation)
+Assuming that we have a control volume, mass can not be created or destroyed within this volume. In other words, if you import air of the same density over a boundary of the control volume, then it is forced to move out another boundary of the control volume. Mass is therefore a **conserved variable**. 
+
+Another assumption that we will apply often in our derivations is that density of air or water is as a first approximation constant in time. If this assumption holds, then in addition of mass conservation, the volume is also conserved. If the flow satisfies this assumption, we call it **incompressible flow**.
+
+## Integral form
+Our starting point is the integral form of the Reynolds Transport Theorem, i.e. Equation 6 we saw earlier
+
+$$
+\begin{aligned}
+\underbrace{\frac{\mathrm{d}B}{\mathrm{d}t}}_{\text{External flux}} &= \frac{\mathrm{d}}{\mathrm{d}t} \int\limits_{CV} \; \rho b \, \mathrm{d}V \\
+&= \underbrace{\frac{\partial}{\partial t} \int_{CV} \; \rho b \, \mathrm{d}V}_{\text{Change of total mass}} \; \; \;+ \underbrace{\int_{CS} \;  \rho b \, (\overrightarrow{u} \cdot \overrightarrow{n}) \, \mathrm{d}A}_{\text{Flux of mass through edges}} \;
+\end{aligned}
+$$
+
+For the specific case of mass, we take $b = 1$. Now, including the first assumption (i.e. mass is conserved, there is no external flux) and rewriting the equation, we arrive at:
+
+$$
+\underbrace{\int\limits_{CV} \; \frac{\partial \rho}{\partial t} \, \mathrm{d}V}_{\text{Mass rate gain/loss in the control volume}} + \underbrace{\int\limits_{CS} \; \rho \, (\overrightarrow{u} \cdot \overrightarrow{n})\,\mathrm{d}A}_{\text{Net loss/gain by fluxes normal to the surface}} = 0 \tag{15}
+$$
+
+This is the conservation of mass in integral form
+
+## Differential Form
+The starting point of the differential form of the mass balance equation is Equation 9, i.e. the differential form of the Reynolds Transport Theorem:
+
+$$
+\frac{\partial}{\partial t} (\rho b) + \overrightarrow{\nabla} \cdot (\rho b \, \overrightarrow{u})= 0 
+$$
+
+In the specific case of mass, we again set $b=1$. Equation 9 then reduces to
+
+$$
+\frac{\partial \rho}{\partial t} + \overrightarrow{\nabla} \cdot (\rho \, \overrightarrow{u} \,) = 0 \tag{16}
+$$
+
+Or, using the index notation:
+
+$$
+\frac{\partial \rho}{\partial t} + \frac{\partial}{\partial x_i} \, (\rho \, u_i) = 0 \tag{17}
+$$
+
+If we now include the second assumption, i.e. that we are dealing with an incompressible fluid, we know density ($\rho$) to remain constant in time. Equation 16 thus reduces to
+
+$$
+\overrightarrow{\nabla} \cdot \overrightarrow{u} = 0 \tag{18}
+$$
+
+This shows that there is no net inflow or outflow at any given point, solidifying that all mass is conserved.
 
