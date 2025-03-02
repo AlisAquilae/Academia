@@ -202,3 +202,4 @@ $$
 
 This is the final conservation equation for momentum. Note that all the terms have units [kg m$^{-2}$ s$^{-2}$], equivalent to a force per unit volume with units [N m$^{-3}$]. Positive values of this term indicate that air/water masses are accelerating, whereas negative values indicate a deceleration of the air/water masses. In short, in a control volume, the (de-)acceleration inside the volume and through the six sides of the volume depends on the forces exerted in the volume (see figure 2.8). Therefore, by identifying the individual forces and their relevant, we obtain an equation that is able to make a prognostic of the (de-)acceleration of air and water masses.
 
+## 3.3.3 Forces ac
