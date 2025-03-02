@@ -35,4 +35,4 @@ The literature for this course consists of 2 readers: one with study material, a
 
 # ➕ Addendum 
 - [[GFM Detailed Navier-Stokes Equation Derivation]]
-
+- [[GFM Stress strain and rotation reorganised]]
