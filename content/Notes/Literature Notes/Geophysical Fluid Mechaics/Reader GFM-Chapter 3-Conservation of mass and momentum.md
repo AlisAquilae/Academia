@@ -202,4 +202,34 @@ $$
 
 This is the final conservation equation for momentum. Note that all the terms have units [kg m$^{-2}$ s$^{-2}$], equivalent to a force per unit volume with units [N m$^{-3}$]. Positive values of this term indicate that air/water masses are accelerating, whereas negative values indicate a deceleration of the air/water masses. In short, in a control volume, the (de-)acceleration inside the volume and through the six sides of the volume depends on the forces exerted in the volume (see figure 2.8). Therefore, by identifying the individual forces and their relevant, we obtain an equation that is able to make a prognostic of the (de-)acceleration of air and water masses.
 
-## 3.3.3 Forces ac
+## 3.3.3 Forces acting in air and water
+Here we analyse the three main forces that lead to the movement of air and water masses. The forces are $f_i = f_p + f_r + f_g$
+
+- Pressure forces ($f_p$)
+- Shear forces ($f_r$)
+- Gravity force ($f_g$)
+
+In the following sections, we derive and provide a physical explanation of these three forces
+
+### 3.3.3.1 Pressure force
+The pressure force is the force that causes and air/water parcel (control volume) to move from an area with high pressure to a region with low pressure. Air pressure is the mass of a column of air above a certain location. In a certain location, A has a slightly higher temperature than location B. According to the gas law, the higher temperature relates to a lower density (i.e. Equation gas law). Imagine that the air columns at A and B are equal in height and that the temperature is equal across each column. This means that the density over the full column at location A is lower than the density of the column at B. This implies that the mass of column A is slightly lower than that of column B and therefore, the air pressure is lower at A than at B. This leads to horizontal pressure differences at the surface. An air parcel (control volume) located between columns A and B will therefore experience the pressure gradient force. This force will cause the air parcel to move from the area with high pressure (B) to the area with low pressure (A).
+
+Taking the control volume, we can write the gradient of the pressure acting only on the $x$-direction as
+
+$$
+-\frac{\partial p}{\partial x} \tag{3.20}
+$$
+
+If we generalize it to the three directions, one can write the pressure gradient force as
+
+$$
+f_p = - \frac{\partial p}{\partial x_i} \tag{3.21}
+$$
+
+>[!Note]
+>Note that the units of $f_p$ are [N m$^{-3}$] (or equivalently [kg m$^{-2}$ s$^{-2}$]) in agreement with the definition of $b$ as a force per unit volume
+
+### 3.3.3.2 Shear-stress of viscous force
+The [[Shear Force|Shear Stress]] is the force that pushes one part of the control volume in one specific direction, and the other part of the body with a different strength or in the opposite direction. For example, differences of wind in one direction lead to instabilities. They can create rotation, shear and strain in a controlled volume.
+
+We represent this deformation with a second-order tensor $\tau_{ji}$ (see [[Reader GFM-Chapter 4-Stress strain and rotation tensors|Chapter 4]] for a complete physical interpretation and the mathematical formulation). Focusing on the deformation term, for incompre
