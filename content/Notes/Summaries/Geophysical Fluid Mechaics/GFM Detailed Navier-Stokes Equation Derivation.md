@@ -222,4 +222,16 @@ $$
 \end{aligned}
 $$
 
-Whereas we took $b=1$ in the conservation of mass equation, we now take $b = \overrightarrow{u}$, such that $B = \rho \overrightarrow{u}$. The
+Whereas we took $b=1$ in the conservation of mass equation, we now take $b = \overrightarrow{u}$, such that $B = \rho \overrightarrow{u}$. In addition, from [[Newton's Second Law of Motion]],  the net force acting on a control volume equals the rate of change of momentum within that control volume. The equation above thus reduces to
+
+$$
+\frac{\mathrm{d}B}{\mathrm{d}t} = \overrightarrow{F} = \int\limits_{CV} \; \frac{\partial}{\partial t} (\rho \overrightarrow{u}) \, \mathrm{d}V + \int\limits_{CS} \; \rho \, \overrightarrow{u} \, (\overrightarrow{u} \cdot \overrightarrow{n}) \, \mathrm{d}A \tag{19}
+$$
+
+To reiterate:
+- The first term on the right-hand side represents the rate of change of momentum within the control volume.
+- The second term on the right-hand side accounts for the net flux of momentum across the control surface.
+
+>[!Important]
+>Thus, the rate of change of momentum within the control volume and across its boundaries must equal the total forces acting on it.
+

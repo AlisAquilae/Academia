@@ -156,7 +156,7 @@ $$
 
 The equation of motion is obtained by associating $B$ (see Equation 2.7) with the momentum in the system. Momentum is a vector quantity, the product of mass and velocity. In the particular case of the momentum equation, $b$ becomes the velocity vector $\overrightarrow{u}$ with respect to the control volume equation. 
 
-From Newton's law of motion, the net force acting on a control volume equals the rate of change of momentum within that control volume.. The equation reads:
+From Newton's law of motion, the net force acting on a control volume equals the rate of change of momentum within that control volume. The equation reads:
 
 $$
 \frac{\mathrm{d}}{\mathrm{d}t} \overrightarrow{B} = \overrightarrow{F} \tag{3.14}
