@@ -14,5 +14,7 @@ Related Courses: ["[[Geophysical Fluid Mechanics]]"]
 # Introduction to stress and strain
 In geophysical fluid mechanics, stress describes forces that influence and shape the movement of a fluid. These stresses are responsible for deformations in the fluid, which are mathematically described using strain and rotation
 - **Strain** (deformation without rotation): a measure of how the fluid elements stretch or compress
-- **Rotation** (without deformation): a measure of how the fluid spins without changing its shape
+- **Rotation** (without deformation): a measure of how the fluid spins without changing its shape, i.e. the swirl of the flow
 
+>[!Important]
+>It is important to emphasise that stress does not directly cause rotation. Stress only causes strain, or deformation. Such deformations can be due to equal pressure from all directions, in which case the fluid expands or compresses but does not rotate. Conversely, fluid can rotate independently of stress, through a process called **rigid-body rotation**. However, 

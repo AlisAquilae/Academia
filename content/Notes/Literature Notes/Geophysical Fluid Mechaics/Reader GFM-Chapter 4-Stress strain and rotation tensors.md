@@ -101,7 +101,7 @@ $$
 
 Hence, vorticity is two times the rotation vector $\overrightarrow{\omega}_{rot}$
 
-Since $\omega_{ij}$ has been identified with the rotation of a fluid element, $d_{ij}$ can be identifies as the distortion or rate of strain of an element. That is, $\omega_{ij}$ reflects the rigid body rotation of a particle whereas $d_{ij}$ reflects the rate of movement of the different points in the particle relative to each other. 
+Since $\omega_{ij}$ has been identified with the rotation of a fluid element, $d_{ij}$ can be identified as the distortion or rate of strain of an element. That is, $\omega_{ij}$ reflects the rigid body rotation of a particle whereas $d_{ij}$ reflects the rate of movement of the different points in the particle relative to each other. 
 
 Thus, the motion of a fluid can be described as
 1. A rigid body translation, plus
