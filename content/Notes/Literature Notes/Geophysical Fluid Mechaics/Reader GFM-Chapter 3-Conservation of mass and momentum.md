@@ -232,4 +232,43 @@ $$
 ### 3.3.3.2 Shear-stress of viscous force
 The [[Shear Force|Shear Stress]] is the force that pushes one part of the control volume in one specific direction, and the other part of the body with a different strength or in the opposite direction. For example, differences of wind in one direction lead to instabilities. They can create rotation, shear and strain in a controlled volume.
 
-We represent this deformation with a second-order tensor $\tau_{ji}$ (see [[Reader GFM-Chapter 4-Stress strain and rotation tensors|Chapter 4]] for a complete physical interpretation and the mathematical formulation). Focusing on the deformation term, for incompre
+We represent this deformation with a second-order tensor $\tau_{ji}$ (see [[Reader GFM-Chapter 4-Stress strain and rotation tensors|Chapter 4]] for a complete physical interpretation and the mathematical formulation). Focusing on the deformation term, for incompressible and unstratified (absence of temperature gradients) fluids, where $\rho$ = constant and thus $\overrightarrow{\nabla} \cdot \overrightarrow{u} = 0$, the viscous stress tensor becomes:
+
+$$
+\tau_{ij} = -2 \mu d_{ij} = \mu \frac{1}{2} \left( \frac{\partial u_i}{\partial x_j} + \frac{\partial u_j}{\partial x_i} \right) \tag{3.22}
+$$
+
+The units of $\tau_{ij}$ are [N m$^{-2}$] . To obtain the net force acting in the entire column, we need to calculate the gradients of this shear term along the three directions x, y and z. 
+
+>[!Warning]
+>I skipped the derivation of the shear-strain force
+
+The final expression of the shear-strain force therefore reads:
+
+$$
+\begin{aligned}
+f_r &= - \left( \frac{\partial \tau_{xi}}{\partial x} + \frac{\partial \tau_{yi}}{\partial y} + \frac{\partial \tau_{zi}}{\partial z} \right) \\
+&= - \frac{\partial \tau_{ji}}{\partial x_{j}}
+\end{aligned} \tag{3.23}
+$$
+
+>[!Note]
+>Note that the units of $f_p$ are [N m$^{-3}$] (or equivalently [kg m$^{-2}$ s$^{-2}$]) in agreement with the definition of $b$ as a force per unit volume
+
+### 3.3.3.3 Gravity force
+The gravity force is the force that is created in the vertical direction due to the force of gravity acting on a fluid element. Gravitation opposes the upwards movement of a control volume by a pressure term equal to $\rho g h$, where
+- $\rho$ is the density of the fluid
+- $g$ is the acceleration of gravity
+- $h$ is the vertical length of our control volume
+
+Taking the forces acting in the control volume, we can write the balances of forces in the z-direction (i.e. vertically) as
+
+$$
+pdA - (p + \Delta p)dA - pghdA \tag{3.24}
+$$
+
+If we divide by the control volume $dV = dAdz$, the expression of the gravity force ($f_{g}$) reads
+
+$$
+f_g = -\rho
+$$
