@@ -77,23 +77,37 @@ d_{ij} &= \frac{1}{2} \left( \frac{\partial u_i}{\partial x_j} + \frac{\partial 
 \end{aligned}\tag{3}
 $$
 
-This tensor is related to the stress tensor using the 
+The rate of deformation tensor links with fluid viscosity ($\mu$) and external forces to form the stress tensor ($\tau_{ij}$). For an incompressible, unstratified fluid, this relation is described as
 
+$$
+\begin{aligned}
+\tau_{ij} &= -2\mu d_{ij} \\
+&= -\mu \left( \frac{\partial u_i}{\partial x_j} + \frac{\partial u_j}{\partial x_i} \right)
+\end{aligned} \tag{4}
+$$
 
+This equation shows that viscous forces are proportional to the velocity gradient, making it critical for describing momentum in the [[Navier-Stokes Equation]]. 
 
 ## Rotation-Rate Tensor
 The second term, $\frac{1}{2} \left(L - L^T \right)$, is an asymmetric tensor. The asymmetric part is called the **spin tensor**, and gives the letter $W$. It is directly related to the rate of rotation, but not its deformation at all. It is defined as
 
 $$
-W = \frac{1}{2} \left(L - L^T \right) \tag{4}
+W = \frac{1}{2} \left(L - L^T \right) \tag{5}
+$$
+The rotation rate tensor can also be written in a vectorial form as:
+
+$$
+\overrightarrow{\omega}_{rot} = \frac{1}{2} \overrightarrow{\nabla} \times \overrightarrow{v} \tag{6}
 $$
 
->[!Note]
->The spin tensor can also be written in vectorial form as
->
->$$
->\overrightarrow{\omega}_{rot} = \frac{1}{2} \overrightarrow{\nabla} \times \overrightarrow{v}
->$$
+Rotation is closely related to vorticity. If vorticity is high, the fluid is rotating strongly. If vorticity is zero, the flow is irrotational. Specifically, vorticity ($\overrightarrow{\omega}$) is given as
+
+$$
+\overrightarrow{\omega} = \overrightarrow{\nabla} \times \overrightarrow{u} \tag{7}
+$$
+
+Hence, vorticity is two times the rotation vector $\overrightarrow{\omega}_{rot}$
+
 
 So the velocity gradient tensor can be written as 
 
@@ -103,4 +117,7 @@ L &= D + W \\
 &= d_{ij} + \omega_{ij}
 \end{aligned}
 $$
+
+>[!Summary]
+>In summary, the tensor $\partial u_i / \partial x_j$ has been split into an anti-symmetrical tensor, $\omega_{ij}$ (it is defined as the rotation rate tensor), and a symmetrical tensor, $d_{ij}$ (it is defined as the strain rate tensor, or deformation rate tensor). The latter is related to the shear tensor $\tau_{ij}$ that is included in the [[Navier-Stokes Equation]]
 
