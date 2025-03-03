@@ -30,4 +30,10 @@ Finally, before deriving deformation and rotation mathematically, it is importan
 
 ---
 # Mathematical analysis of stress
-To analyse stress mathematically, we must work towards deriving a stress tensor $\tau_{ij}$, as is included in the [[Navier-Stokes Equation]]. As described above, stress can (in)directly lead to strain (i.e. deformation) and rotation. 
+To analyse stress mathematically, we must work towards deriving a stress tensor $\tau_{ij}$, as is included in the [[Navier-Stokes Equation]]. As described above, stress can (in)directly lead to strain (i.e. deformation) and rotation. To investigate these in tandem, we compute a velocity gradient tensor. Doing so allows us to identify whether flow converges towards a single point (causing compression, i.e. strain), flow past each other (causing shear strain) or spin around each other (causing rotation). 
+
+We define the velocity gradient tensor as
+
+$$
+
+$$
