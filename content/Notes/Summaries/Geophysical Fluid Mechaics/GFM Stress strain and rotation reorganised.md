@@ -35,5 +35,25 @@ To analyse stress mathematically, we must work towards deriving a stress tensor 
 We define the velocity gradient tensor as
 
 $$
-
+L = \nabla v = \frac{\partial v_i}{\partial x_j}
 $$
+
+where
+- $v$ is the velocity
+- $x$ is the current coordinate
+
+>[!Example]
+>Suppose the velocity field is
+>
+>$$
+>v = \left( \frac{1}{5-x}, \frac{-y}{10}, 0 \right)
+>$$
+>
+>This gives the velocity of any particle in the fluid as a function of the particle's position at that instant
+>
+>The velocity gradient is
+>
+>$$
+>L = \begin{bmatrix} \frac{1}{(5-x)^2} & 0 & 0 \\ 0 & \frac{-1}{10} & 0 \\ 0 & 0 & 0  \end{bmatrix}
+>$$
+
