@@ -35,7 +35,7 @@ To analyse stress mathematically, we must work towards deriving a stress tensor 
 We define the velocity gradient tensor as
 
 $$
-L = \nabla v = \frac{\partial v_i}{\partial x_j}
+L = \nabla v = \frac{\partial v_i}{\partial x_j} \tag{1}
 $$
 
 where
@@ -56,4 +56,35 @@ where
 >$$
 >L = \begin{bmatrix} \frac{1}{(5-x)^2} & 0 & 0 \\ 0 & \frac{-1}{10} & 0 \\ 0 & 0 & 0  \end{bmatrix}
 >$$
+
+
+The velocity gradient tensor can be decomposed int symmetric and asymmetric parts as follows:
+
+$$
+\begin{aligned}
+L &= \frac{1}{2}\left( L + L^T \right) + \frac{1}{2} \left(L - L^T \right) \\
+&= \overbrace{\frac{1}{2} \left( \frac{\partial u_i}{\partial x_j} + \frac{\partial u_j}{\partial x_i} \right)}^{\text{related to shear-strain}} \;+ \; \underbrace{\frac{1}{2} \left( \frac{\partial u_i}{\partial x_j} - \frac{\partial u_j}{\partial x_i} \right)}_{\text{Related to rotation}}
+\end{aligned} \tag{2}
+$$
+
+The first term $\frac{1}{2}\left( L + L^T \right)$ is symmetric, and describes the strain rate tensor in an Eulerian context. It is formally called the **Rate of Deformation Tensor**, and is assigned the symbol $D$. So $D$ is defined as
+
+$$
+D = \frac{1}{2}\left( L + L^T \right) \tag{3}
+$$
+
+The second term, $\frac{1}{2} \left(L - L^T \right)$, is an asymmetric tensor. The asymmetric part is called the spin tensor, and gives the letter $W$. It is directly related to the rate of rotation, but not its deformation at all. It is defined as
+
+$$
+W = \frac{1}{2} \left(L - L^T \right) \tag{4}
+$$
+
+So the velocity gradient tensor can be written as 
+
+$$
+\begin{aligned}
+L &= D + W \\
+&= d_{ij} + w_{ij}
+\end{aligned}
+$$
 
