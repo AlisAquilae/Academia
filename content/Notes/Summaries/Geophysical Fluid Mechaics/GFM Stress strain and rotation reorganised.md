@@ -84,7 +84,7 @@ So the velocity gradient tensor can be written as
 $$
 \begin{aligned}
 L &= D + W \\
-&= d_{ij} + w_{ij}
+&= d_{ij} + \omega_{ij}
 \end{aligned}
 $$
 
