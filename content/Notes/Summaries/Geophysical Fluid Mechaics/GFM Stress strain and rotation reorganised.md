@@ -67,17 +67,33 @@ L &= \frac{1}{2}\left( L + L^T \right) + \frac{1}{2} \left(L - L^T \right) \\
 \end{aligned} \tag{2}
 $$
 
+## Rate of Deformation Tensor
 The first term $\frac{1}{2}\left( L + L^T \right)$ is symmetric, and describes the strain rate tensor in an Eulerian context. It is formally called the **Rate of Deformation Tensor**, and is assigned the symbol $D$. So $D$ is defined as
 
 $$
-D = \frac{1}{2}\left( L + L^T \right) \tag{3}
+\begin{aligned}
+D &= \frac{1}{2}\left( L + L^T \right) \\
+d_{ij} &= \frac{1}{2} \left( \frac{\partial u_i}{\partial x_j} + \frac{\partial u_j}{\partial x_i} \right)
+\end{aligned}\tag{3}
 $$
 
-The second term, $\frac{1}{2} \left(L - L^T \right)$, is an asymmetric tensor. The asymmetric part is called the spin tensor, and gives the letter $W$. It is directly related to the rate of rotation, but not its deformation at all. It is defined as
+This tensor is related to the stress tensor using the 
+
+
+
+## Rotation-Rate Tensor
+The second term, $\frac{1}{2} \left(L - L^T \right)$, is an asymmetric tensor. The asymmetric part is called the **spin tensor**, and gives the letter $W$. It is directly related to the rate of rotation, but not its deformation at all. It is defined as
 
 $$
 W = \frac{1}{2} \left(L - L^T \right) \tag{4}
 $$
+
+>[!Note]
+>The spin tensor can also be written in vectorial form as
+>
+>$$
+>\overrightarrow{\omega}_{rot} = \frac{1}{2} \overrightarrow{\nabla} \times \overrightarrow{v}
+>$$
 
 So the velocity gradient tensor can be written as 
 
