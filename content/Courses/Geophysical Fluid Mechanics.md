@@ -23,7 +23,7 @@ The literature for this course consists of 2 readers: one with study material, a
 - [[Reader GFM-Chapter 3-Conservation of mass and momentum]]
 - [[Reader GFM-Chapter 4-Stress strain and rotation tensors]]
 - [[Reader GFM-Chapter 5-Conservation of energy]]
-- [[Reader GFM-Chapter 6-Compressibility and vorticity]]
+- [[Reader GFM-Chapter 6-Compressibility and vorticity]] (==Skipped==)
 - [[Reader GFM-Chapter 7-Dimensional analysis]]
 - [[Reader GFM-Chapter 8-Similitude]]
 - [[Reader GFM-Chapter 9-Introduction to turbulence]]

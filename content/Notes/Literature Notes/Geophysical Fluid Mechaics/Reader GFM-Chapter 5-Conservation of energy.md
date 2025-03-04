@@ -3,7 +3,7 @@ fileClass: Base, Literature Notes
 title: 
 Parents: ["[[Geophysical Fluid Mechanics]]"]
 Draft: 
-Status: In Progress
+Status: Done
 Authors: 
 Year of Publication: 
 Related Notes: 
@@ -90,5 +90,13 @@ $$
 As a last step, we assume incompressible fluid, which means no energy can be transferred to internal energy (since we have no gradient in heat flux, no viscous action, and no compression of the fluid), which will therefore be constant:
 
 $$
-u_i \overbrace{\frac{\partial}{\partial x_i} \underbrace{\left( \frac{u_i u_i}{2} + \frac{p}{\rho} + gh \right)}_{\text{Total energy (scalar)}}}^{\text{Gradient in energy (vector)}} = 0
+u_i \overbrace{\frac{\partial}{\partial x_i} \underbrace{\left( \frac{u_i u_i}{2} + \frac{p}{\rho} + gh \right)}_{\text{Total energy (scalar)}}}^{\text{Gradient in energy (vector)}} = 0 \tag{5.9}
 $$
+
+The above is a dot product of velocity with the gradient of energy and that has to be zero. In other words, the flow is orthogonoal to the gradient of energy, and therefore parallel to constant energy lines. So along a streamline, the energy is constant, which yields [[Bernoulli's Equation]]:
+
+$$
+\frac{u_i u_i}{2} + \frac{p}{\rho} + gh = C \; : \; \text{constant along a streamline} \tag{5.10}
+$$
+
+Although the pressure term in the equation stems from the work done by the system, pressure is often referred to as a form of energy of a fluid particle. Bernoulli's equation then states that as far as the effects of viscosity can be neglected, the sum of kinetic energy, pressure energy and potential energy remains constant along a streamline. 
