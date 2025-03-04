@@ -54,3 +54,24 @@ $$
 \rho \frac{\partial}{\partial t} \left( \frac{u_i u_i}{2} + e \right) + \rho u_i \left( \frac{u_i u_i}{2} + e \right) = - \frac{\partial q_i}{\partial x_i} - \frac{\partial}{\partial x_i} (\tau_{ij} u_j + p u_i) - \rho g u_i \frac{\partial h}{\partial x_i} \tag{5.6}
 $$
 
+where $q_i$ is the heat flux vector. Using the concept of the material derivative (see [[Reader GFM-Chapter 2-Kinematics|Chapter 2]]), the equation of energy can be written as:
+
+$$
+\rho \frac{D}{Dt} \left( \frac{u_i u_i}{2} + e \right) = - \frac{\partial q_i}{\partial x_i} - \frac{\partial}{\partial x_i} (pu_i) - \rho gu_i \frac{\partial h}{\partial x_i} \tag{5.7}
+$$
+
+Or in words
+
+![[Pasted image 20250304105813.png]]
+
+- The rate of heat transfer appears with a negative sign. This is because the divergence represents the outflow of heat from the system, but the energy will increase on the inflow of heat
+- Both the work by viscous forces and pressure forces have a negative sign since the work as stated here is the work done by the system on the surroundings, which results in a loss of energy
+- The work done by gravity forces is included here on the right hand side but originates from the internal kinetic energy of the system. The term only has value of there is motion ($u_i$) with a component parallel to gravity ($\partial h / \partial x_i$). This is the case if the fluid flows to a higher elevation, which will result in a loss of kinetic or internal energy
+
+---
+# 5.2 Mechanical versus thermal energy (==skipped==)
+
+
+---
+# 5.3 Perfect fluids: Bernoulli's equation
+Perfect fluids have zero viscosity, which implies that there are neither shear stresses in the flow
