@@ -27,4 +27,35 @@ There are 4 fundamental dimensions involved in most fluid mechanics problems, co
 3. Time ($T$)
 4. Temperature ($T_e$)
 
-A dimension is expressed in m
+A dimension is expressed in measurable units. The dimension of gravity is length per time squared, which, in the SI-system is expressed in the units [m s$^{-2}$]. 
+
+>[!Note]
+>Sometimes other unit systems are used such as imperial units, with inches and feet as units of length, for instance. The discussion on dimension holds regardless of the system of units
+
+
+In physics, the dimension of a quantity $y$ in general is denoted using angular brackets, as in [$y$]. Terms in an equation can be analysed by focusing on the dimension. For example, the double derivative:
+
+$$
+\frac{\partial^2 y}{\partial x^2} = \frac{\partial}{\partial x} \frac{\partial y}{\partial x} \tag{7.1}
+$$
+
+has the dimension:
+
+$$
+\left[ \frac{1}{x} \frac{y}{x} \right] = \left[ \frac{y}{x^2} \right] \tag{7.2}
+$$
+
+In general, for arbitrary $n$:
+
+$$
+\left[ \frac{\partial^n y}{\partial x^ n} \right] = \left[ \frac{y}{x^n} \right]\tag{7.3}
+$$
+
+Taking an integral instead of a derivative:
+
+$$
+\int\limits_{a}^b
+ \; y \, \mathrm{d}x \tag{7.4}
+$$
+
+The integration bounds $a$ an
