@@ -74,5 +74,7 @@ $$
 Correct equations are dimensionally homogeneous. This means that the dimension of all terms in the equation are the same. [[Bernoulli's Equation]] is dimensionally homogeneous because all terms have the same dimension length $L$, which in the SI-system has the unit (m):
 
 $$
-\underbrace{H}_{\text{L (m)}} = \underbrace{\vphantom{\frac{v^2}{2g}}}
+{\underbrace{\vphantom{\frac{v^2}{2g}}{H}}_{\text{L (m)}}} = {\underbrace{\frac{v^2}{2g}}_\text{L (m)}} + {\underbrace{\vphantom{\frac{v^2}{2g}}{\frac{p}{\rho g}}}_{\text{L (m)}}} + {\underbrace{\vphantom{\frac{v^2}{2g}}{z}}_{\text{L (m)}}} \tag{7.7}
 $$
+
+From this example above we can conclude that it is not possible to sum, subtract, or compare terms with different dimensions, but it is possible to multiple, divide, and raise to a power variables with different dimensions. Next to these functions we also have so-called transcendental functions such as the logarithm, exponential, trigonometric functions, etc. These functions only allow for dimensionless arguments. We will make use of these properties of dimensional variables to derive relations between these variables. 
