@@ -58,4 +58,21 @@ $$
  \; y \, \mathrm{d}x \tag{7.4}
 $$
 
-The integration bounds $a$ an
+The integration bounds $a$ and $b$ have the same dimension as $x$; $[a] = [b] = [x]$. The integral as a whole has the same dimension as $x$ times $y$:
+
+$$
+\left[ \int\limits_{a}^b
+ \; y \, \mathrm{d}x \right] = [yx] \tag{7.5}
+$$
+
+and for multiple integrals
+
+$$
+\left[ \iiint \; y \, \mathrm{d}x_1 \, \mathrm{d}x_2 \, \mathrm{d}x_3 \right] = \left[ yx_1 x_2 x_3 \right] \tag{7.6}
+$$
+
+Correct equations are dimensionally homogeneous. This means that the dimension of all terms in the equation are the same. [[Bernoulli's Equation]] is dimensionally homogeneous because all terms have the same dimension length $L$, which in the SI-system has the unit (m):
+
+$$
+\underbrace{H}_{\text{L (m)}} = \underbrace{\vphantom{\frac{v^2}{2g}}}
+$$
