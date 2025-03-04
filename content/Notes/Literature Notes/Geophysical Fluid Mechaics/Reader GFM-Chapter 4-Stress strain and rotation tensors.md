@@ -111,3 +111,21 @@ Thus, the motion of a fluid can be described as
 >[!Summary]
 >In summary, the tensor $\partial u_i / \partial x_j$ has been split into an anti-symmetrical tensor, $\omega_{ij}$ (it is defined as the rotation rate tensor), and a symmetrical tensor, $d_{ij}$ (it is defined as the strain rate tensor, or deformation rate tensor). The latter is related to the shear tensor $\tau_{ij}$ that is included in the [[Navier-Stokes Equation]]
 
+---
+# 4.3 Stress and rate of strain in the momentum equation
+As mentioned in the introduction, in order to describe the motions of mass and water, it is key to include the contribution to the shear force in the Navier-Stoke equations. In including the shear force, we take only the strain-deformation processes (symmetric tensor $d_{ij}$). In [[Reader GFM-Chapter 5-Conservation of energy|Chapter 5]] we will derive an equation for the rotation tensor $w_{ij}$. 
+
+We move back to equation 3.26, which describes the acceleration of the flow in local time derivatives
+
+$$
+\rho \frac{\partial u_i}{\partial t} + \rho u_j \frac{ \partial u_i}{\partial x_j} = -\frac{\partial p}{\partial x_i} - \rho g \frac{\partial h}{\partial x_i} - \overbrace{\frac{\partial \tau_{ji}}{\partial x_{j}}}^{\text{shear-term}} \tag{3.26}
+$$
+
+
+
+We still need to represent the term $\tau_{ji}$. We do so by substituting $\tau_{ji}$ for equation 4.5. Doing so, we obtain the final equation for the conservation of momentum. It reads:
+
+$$
+\rho \frac{\partial u_i}{\partial t} + \rho u_j \frac{ \partial u_i}{\partial x_j} = -\frac{\partial p}{\partial x_i} - \rho g \frac{\partial h}{\partial x_i} + \mu \frac{\partial^2 u_i}{\partial x_i \partial x_j} \tag{4.10}
+$$
+

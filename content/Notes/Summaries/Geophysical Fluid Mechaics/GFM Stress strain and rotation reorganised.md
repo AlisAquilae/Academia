@@ -115,7 +115,7 @@ $$
 \begin{aligned}
 L &= D + W \\
 &= d_{ij} + \omega_{ij}
-\end{aligned}
+\end{aligned} \tag{8}
 $$
 
 >[!Summary]
