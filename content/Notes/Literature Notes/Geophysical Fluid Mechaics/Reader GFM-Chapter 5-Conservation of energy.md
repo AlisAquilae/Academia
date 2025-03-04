@@ -74,4 +74,21 @@ Or in words
 
 ---
 # 5.3 Perfect fluids: Bernoulli's equation
-Perfect fluids have zero viscosity, which implies that there are neither shear stresses in the flow
+Perfect fluids have zero viscosity, which implies that there are neither shear stresses in the flow, nor is there heat conduction. Although perfect fluids do not exist in reality, the concept of a perfect fluid has many practical applications in low-viscosity fluids.
+
+The conservation law for energy (Eq. 5.7) can be simplified assuming there is
+1. Stationary flow: $\partial / \partial t = 0$
+2. No heat transfer: $\partial q_i / \partial x_i = 0$
+3. Inviscid flow: i.e. stress is negligible: $\tau_{ij} = 0$
+
+Under those assumptions, we have
+
+$$
+\rho u_i \frac{\partial}{\partial x_i} \left(\frac{u_i u_i}{2} + 2 \right) = - \frac{\partial}{\partial x_i} (pu_i) - \rho gu_i \frac{\partial h}{\partial x_i} \tag{5.8}
+$$
+
+As a last step, we assume incompressible fluid, which means no energy can be transferred to internal energy (since we have no gradient in heat flux, no viscous action, and no compression of the fluid), which will therefore be constant:
+
+$$
+u_i \overbrace{\frac{\partial}{\partial x_i} \underbrace{\left( \frac{u_i u_i}{2} + \frac{p}{\rho} + gh \right)}_{\text{Total energy (scalar)}}}^{\text{Gradient in energy (vector)}} = 0
+$$
