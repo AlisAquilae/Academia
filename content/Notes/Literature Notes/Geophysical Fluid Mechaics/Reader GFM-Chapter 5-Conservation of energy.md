@@ -49,3 +49,8 @@ E = \frac{u_i u_i}{2} + gh + e \tag{5.5}
 $$
 
 We can derive the constant volume field approach equation for this quantity, which si given by
+
+$$
+\rho \frac{\partial}{\partial t} \left( \frac{u_i u_i}{2} + e \right) + \rho u_i \left( \frac{u_i u_i}{2} + e \right) = - \frac{\partial q_i}{\partial x_i} - \frac{\partial}{\partial x_i} (\tau_{ij} u_j + p u_i) - \rho g u_i \frac{\partial h}{\partial x_i} \tag{5.6}
+$$
+
