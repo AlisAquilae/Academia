@@ -176,4 +176,7 @@ The procedure to find a relation between $n$ variables that are considered to co
 3. Investigate the functional relation between the dimensionless numbers empirically. If a dimensionless number is found not to relate to the other groups, it can be omitted
 
 With these constraints of all fundamental dimensions being present in the set of repeaters, the repeating variables can be chosen freely to achieve the reduction of variables. It is pragmatic to choose repeaters that vary little during experiments. Gravity and viscosity are often considered to be appropriate repeaters, but not necessarily, because it is not impossible to control viscosity (by using a different fluid) or influence gravity (e.g. by using a reduced gravity aircraft). With the obtained dimensionless numbers, many equivalent formulations can be obtained, since:
-- Dimensionless numbers may be multip
+- Dimensionless numbers may be multiplied or divided to form a new synoptic group
+- The reciprocal of a dimensionless number remains dimensionless
+- A dimensionless number can be raised to any power
+
