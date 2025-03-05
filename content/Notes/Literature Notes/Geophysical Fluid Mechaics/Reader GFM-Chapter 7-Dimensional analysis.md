@@ -119,7 +119,32 @@ This equation only holds true when each of the terms in the multiplication is eq
 
 $$
 \begin{aligned}
-0 &= -m-r &\Rightarrow m = -r \\
-0 &=
-\end{aligned}
+0 &= -m-r & \Rightarrow m = -r \\
+0 &= q+r & \Rightarrow q=-r \\
+0 &= m+b-3q-r+s+t &\Rightarrow b = -r-s-t
+\end{aligned} \tag{7.12}
+$$
+
+We can see that each fundamental dimension yielded a relation for the exponents, such that that dimension would vanish in the multiplicative relation. This relation started out with 6 exponents corresponding to the 6 independent variables. These exponents can be reduced from 6 to 3 using the above relations:
+
+$$
+f \bar{v}^{-r}d^{-r-s-t}\rho^{-r}\mu^{r}k^sk'^t = K \tag{7.13}
+$$
+
+The remaining exponents can be freely chosen and we will still fulfil the requirement that the relation is dimensionless. This is only possible if all variables raised to the same power are themselves dimensionless. We therefore regroup the variables according to the remaining free exponents:
+
+$$
+f \left( \frac{\mu}{\bar{v}d\rho} \right)^r \left( \frac{k}{d} \right)^s \left(\frac{k'}{d} \right)^t = K \tag{7.14}
+$$
+
+We now found a multiplicative relation between the variables such that we are left with dimensionless combinations of the original variables. The original function in 6 variables is now reduced to a function of 3 variables in 3 dimensionless groups of variables:
+
+$$
+\phi \left( \frac{\mu}{\bar{v}d\rho}, \frac{k}{d}, \frac{k'}{d} \right) = 0 \tag{7.15}
+$$
+
+Each argument in the unknown function $\phi$ is now dimensionless, and the second argument is recognised as the inverse of the Reynolds number:
+
+$$
+Re = 
 $$
