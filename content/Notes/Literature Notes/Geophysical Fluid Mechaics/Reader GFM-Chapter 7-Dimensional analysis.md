@@ -83,4 +83,20 @@ From this example above we can conclude that it is not possible to sum, subtract
 # 7.3 Indicial method
 The merits of dimensional analysis can be explained by describing the procedure to set up experimental research aimed at obtaining a predictive formula for the friction factor $f$. Because if its intuitive appeal, the indicial method will be adopted here, whereas in the subsequent section a more efficient (but less transparent) procedure is introduced. 
 
-The variables that may influence friction include mean velocity $\bar{v}$
+The variables that may influence friction include mean velocity $\bar{v}$, depth $d$, water density $\rho$, viscosity $\mu$, a characteristic protrusion length of the wall roughness $k$, and spacing of the roughness elements $k'$. The objective is to find a function $\phi$ relating the friction factor and all other variables:
+
+$$
+\phi (f, \bar{v}, d, \rho, \mu, k, k') = 0 \tag{7.8}
+$$
+
+Finding such a relation is quite challenging, especially since have six independent variables. This would require exploring a 6-dimensional parameter space leading to a prohibitive number of experiments. This function, however, must adhere to the dimensional rules we described above. We can make use of that knowledge to simplify this function.
+
+The function we aim to find might contain sums, subtractions, and other mathematical functions. Regardless of the form of this function, we know it must adhere to the properties we found earlier: terms that are summed should have the same dimensions. In other words, we want to combine the above variables in such a way that they have equal dimensions. Furthermore, to allow for the use of transcendental functions we require them to be dimensionless.
+
+Therefore, we seek a way to combine the variables in the above function such that they form dimensionless numbers. The only possible way to combine variables of different dimensions is in a multiplicative way (multiplying, dividing, and raising to a power):
+
+$$
+f \bar{v}^m d^b \mu ^r k^s k'^t = K \tag{7.10}
+$$
+
+We equate this to an unknown dimensionless number $K$. Herein, $m, b, q, r, s$ and $t$ are unknown powers. With this, a multiplicative relation is established between the variables. The dimensions of the parameters in our model can be expressed in terms of three of those fundamental dimensions
