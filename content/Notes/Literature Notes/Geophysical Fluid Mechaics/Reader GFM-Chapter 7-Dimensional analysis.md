@@ -146,5 +146,34 @@ $$
 Each argument in the unknown function $\phi$ is now dimensionless, and the second argument is recognised as the inverse of the Reynolds number:
 
 $$
-Re = 
+Re = \frac{\bar{v}d\rho}{\mu} = \frac{\bar{v}d}{v} \tag{7.16}
 $$
+
+The function above can take any form including summations, products, and any transcendental functions, while ensuring dimensional soundness. On top of that, the number of variables was reduced and an experiment investigating the relation between these variables is very much simplified.
+
+>[!Info]
+>The result obtained above was used as a basis for experiments that have led to the development of Moody’s chart, being a cornerstone of the theory on friction in wall-bounded flow. It applies to the flow of water and air, but also to other types of fluids used in industry and present in nature.
+
+
+---
+# 7.4 Buckingham $\pi$ theorem
+The inidicial method becomes tedious if the number of variables increases. A generalised theory is obtained with the Buckingham $\pi$ theorem, which reads:
+
+>[!Quote]
+>The number of dimensionless numbers necessary to describe a phenomenon in which $n$ variables are involved is $n-m$, where $m$ is the number of fundamental dimensions
+>
+>$$
+>\phi\left(\pi_1, \pi_2, \pi_3, \dots, \pi_{n-m} \right) = 0 \tag{7.17}
+>$$
+
+
+You could interpret this as: if there are $n$ variables and $m$ fundamental dimensions, then $n-m$ non-dimensional numbers $\pi_{1\dots n-m}$ can be formed that have an (unknown) functional relation $\phi$. For example, when mass, time, and length are involved, then $m=3$ and $n-3$ dimensionless numbers result. Since there are fewer dimensionless numbers than variables, some of the variables will occur in more than one dimensionless number. These are called "repeaters". The $n-m$ dimensionless numbers are composed of $m$ repeaters and $n-m$ parameters that appear only one in the set of dimensionless numbers (or non-repeaters).
+
+The procedure to find a relation between $n$ variables that are considered to control a physical system is as follows:
+
+1. Choose $n-m$ repeaters. Each of the fundamental dimensions must appear in at least one of the repeating variables
+2. Combine the repeating variables with the remaining independent variables to form the required number of groups
+3. Investigate the functional relation between the dimensionless numbers empirically. If a dimensionless number is found not to relate to the other groups, it can be omitted
+
+With these constraints of all fundamental dimensions being present in the set of repeaters, the repeating variables can be chosen freely to achieve the reduction of variables. It is pragmatic to choose repeaters that vary little during experiments. Gravity and viscosity are often considered to be appropriate repeaters, but not necessarily, because it is not impossible to control viscosity (by using a different fluid) or influence gravity (e.g. by using a reduced gravity aircraft). With the obtained dimensionless numbers, many equivalent formulations can be obtained, since:
+- Dimensionless numbers may be multip
