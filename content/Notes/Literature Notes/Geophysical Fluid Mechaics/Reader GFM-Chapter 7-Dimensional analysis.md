@@ -96,7 +96,30 @@ The function we aim to find might contain sums, subtractions, and other mathemat
 Therefore, we seek a way to combine the variables in the above function such that they form dimensionless numbers. The only possible way to combine variables of different dimensions is in a multiplicative way (multiplying, dividing, and raising to a power):
 
 $$
-f \bar{v}^m d^b \mu ^r k^s k'^t = K \tag{7.10}
+f \bar{v}^m d^b \mu ^r k^s k'^t = K \tag{7.9}
 $$
 
-We equate this to an unknown dimensionless number $K$. Herein, $m, b, q, r, s$ and $t$ are unknown powers. With this, a multiplicative relation is established between the variables. The dimensions of the parameters in our model can be expressed in terms of three of those fundamental dimensions
+We equate this to an unknown dimensionless number $K$. Herein, $m, b, q, r, s$ and $t$ are unknown powers. With this, a multiplicative relation is established between the variables. The dimensions of the parameters in our model can be expressed in terms of three of those fundamental dimensions:
+
+![[Pasted image 20250305142434.png]]
+
+Dimensional analysis of Eq. 7.9, in terms of the fundamental dimensions, yields:
+
+$$
+{\overbrace{1}^{[f]}} \cdot {\overbrace{(LT^{-1})^m}^{[\bar{v}]}} \cdot {\overbrace{L^b}^{[d]}} \cdot {\overbrace{(ML^{-3})^q}^{[\rho]}} \cdot {\overbrace{(ML^{-1}T^{-1})^F}^{[\mu]}} \cdot {\overbrace{L^s}^{[k]}} \cdot {\overbrace{L^t}^{[k']}} = {\overbrace{1}^{[K]}} \tag{7.10}
+$$
+
+We can regroup each fundamental dimension to yield:
+
+$$
+T^{-m-r} \cdot M^{q+r} \cdot L^{m + b -rq-r+s+t} = 1 \tag{7.11}
+$$
+
+This equation only holds true when each of the terms in the multiplication is equal to 1, which is only the case when the exponent of each of the terms is 0:
+
+$$
+\begin{aligned}
+0 &= -m-r &\Rightarrow m = -r \\
+0 &=
+\end{aligned}
+$$
