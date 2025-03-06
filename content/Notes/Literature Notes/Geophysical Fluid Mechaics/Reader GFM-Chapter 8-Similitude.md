@@ -45,4 +45,9 @@ We describe three types of similarity that enable us to compare our models with 
 	>This does not necessarily mean that the Re/Ma regimes that the smaller scale plane will encounter are the same, which is achieved only if the flow is adjusted. Then, the model is also dynamically similar
 
 - **Kinematic similarity**: It is described as the velocity at any point in the model flow is proportional by a constant scale factor to the velocity at the same point in the prototype flow, while it is maintaining the flow's streamlined shape
-- **Dynamic similitude**: It is described as the ratio of all forces acting on corresponding fluid particles and boundary surfaces in the two systems (model and prototype) are constant. 
+- **Dynamic similitude**: It is described as the ratio of all forces acting on corresponding fluid particles and boundary surfaces in the two systems (model and prototype) are constant. The dynamic similarity is achieved if the typical numerical value of each of the dimensionless groups involved in the flow subject to the study is the same in the model and the prototype. At the corresponding point in the flow, identical kinds of forces are parallel and related by a constant scale factor.
+
+
+>[!Warning]
+>Skipped the rest of the chapter
+
