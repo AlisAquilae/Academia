@@ -3,7 +3,7 @@ fileClass: Base, Literature Notes
 title: 
 Parents: ["[[Geophysical Fluid Mechanics]]"]
 Draft: 
-Status: In Progress
+Status: Done
 Authors: 
 Year of Publication: 
 Related Notes: 
@@ -202,5 +202,51 @@ With these constraints of all fundamental dimensions being present in the set of
 >Since there are 5 variables and 3 fundamental dimensions, the Buckingham pi theorem states that we can reduce the problem to $5-3=2$ dimensionless $\pi$ groups
 >
 >**Step 3: Select repeating variables**
->We choose three repeating variables that, together, contain all fu
+>We choose three repeating variables that, together, contain all fundamental dimensions: $U_{\infty}$, $D$, and $\rho$. 
+>
+>**Step 4: Form the dimensionless $\pi$ groups**
+>Each $\pi$ group must be a combination of the selected variables and one of the remaining variables, ensuring the resulting term is dimensionless
+>
+>*First $\pi$ group (using $U$)*
+>
+>$$
+>\pi_1 = \frac{U}{U_{\infty}}
+>$$
+>
+>This is dimensionless because both $U$ and $U_{\infty}$ have dimensions $[LT^{-1}]$
+>
+>*Second $\pi$ group (using $\mu$)*
+>
+>$$
+>\pi_2 = \frac{\rho U_{\infty} D}{\mu}
+>$$
+>
+>This expression is dimensionless because:
+>
+>$$
+>\begin{aligned}
+>\frac{[ML^{-3}][LT^{-1}][L]}{[ML^{-1}T^{-1}]} &= [ML^{-3}][L^2 T^{-1}][M^{-1}LT] \\
+>&= 1
+>\end{aligned}
+>$$
+>
+>This is recognised as the [[Reynolds Number]], which describes the ratio of inertial forces to viscous forces
+>
+>**Step 5: Final dimensionless relationship**
+>We can now express the velocity $U$ around the cylinder as a function of the Reynolds number:
+>
+>$$
+>\frac{U}{U_{\infty}} = f \left( \frac{\rho U_{\infty}D}{\mu} \right) = f(Re)
+>$$
+>
+>This shows that the normalised velocity $\frac{U}{U_{\infty}}$ depends only on the Reynolds number, greatly simplifying the analysis of flow behaviour
+
+
+
+---
+# 7.5 Interpretation of dimensionless numbers (==Partially skipped==)
+A dimensionless number can be interpreted as the ratio of two similar physical quantities. Below, a number of well-known dimensionless numbers are discussed, relevant to fluid mechanics. This list is far from complete, and the definition of dimensional numbers sometimes differs between authors.
+
+>[!Warning]
+>Skipped the rest
 
