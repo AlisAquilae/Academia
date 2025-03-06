@@ -180,3 +180,27 @@ With these constraints of all fundamental dimensions being present in the set of
 - The reciprocal of a dimensionless number remains dimensionless
 - A dimensionless number can be raised to any power
 
+
+>[!Example]
+>**Step 1: Identify the variables**
+>We want to determine how the velocity $U$ around a cylindrical object submerged in fluid depends on certain key physical variables. The variables involved are:
+>
+>- $U$: Velocity at a point around the cylinder $[LT^{-1}]$
+>- $D$: Diameter of the cylinder $[L]$
+>- $\rho$: Density of the fluid $[ML^{-3}]$
+>- $\mu$: Dynamic viscosity of the fluid $[ML^{-1}T^{-1}]$
+>- $U_{\infty}$: Free-stream velocity of the fluid (velocity far from the cylinder) $[LT^{-1}]$
+>
+>This gives 5 variables
+>
+>**Step 2: Count the fundamental dimensions**
+>The fundamental dimensions in this problem are
+>- Mass $[M]$
+>- Length $[L]$
+>- Time $[T]$
+>
+>Since there are 5 variables and 3 fundamental dimensions, the Buckingham pi theorem states that we can reduce the problem to $5-3=2$ dimensionless $\pi$ groups
+>
+>**Step 3: Select repeating variables**
+>We choose three repeating variables that, together, contain all fu
+
