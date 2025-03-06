@@ -28,9 +28,9 @@ The literature for this course consists of 2 readers: one with study material, a
 - [[Reader GFM-Chapter 8-Similitude]]
 - [[Reader GFM-Chapter 9-Introduction to turbulence]]
 - [[Reader GFM-Chapter 10-Turbulence modelling]]
-- [[Reader GFM-Chapter 11-Laminar flows]]
+- [[Reader GFM-Chapter 11-Laminar flows]] (==Skipped==)
 - [[Reader GFM-Chapter 12-Boundary layer theory]]
-- [[Reader GFM-Chapter 13-Momentum conservation in a rotating system]]
+- [[Reader GFM-Chapter 13-Momentum conservation in a rotating system]] (==Skipped==)
 - [[Reader GFM-Chapter 14-Characteristic flows with rotation and friction]]
 
 # ➕ Addendum 
