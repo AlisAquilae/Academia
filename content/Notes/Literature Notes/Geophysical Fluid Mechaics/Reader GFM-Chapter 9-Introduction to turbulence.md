@@ -30,15 +30,15 @@ To this end, the flow characteristics are treated using the so-called Reynolds d
 
 $$
 \begin{aligned}
-\mu &= \bar{\mu} + u'\\
-\phi &= \bar{\phi} + \phi'
+\mu &= \overline{\mu} + u'\\
+\phi &= \overline{\phi} + \phi'
 \end{aligned} \tag{9.1}
 $$
 
 Note that we made this decomposition in only one direction (for the sake of simplicity in the equations), but it also applies to the three directions of wind. Moreover, $\phi$ is a generic scalar like temperature or salinity, and $\phi'$ is the turbulence-induced variation. The time average of the arbitrary variable $\bar{\phi}$ at time $t_0$ is defined as:
 
 $$
-\bar{\phi} = \frac{1}{T} \int\limits_{t_0 - \frac{1}{2} T}^{t_0 + \frac{1}{2}T} \; \phi \, \mathrm{d}t \tag{9.2}
+\overline{\phi} = \frac{1}{T} \int\limits_{t_0 - \frac{1}{2} T}^{t_0 + \frac{1}{2}T} \; \phi \, \mathrm{d}t \tag{9.2}
 $$
 
 The limits of the integration, determined by the time average $T$, should be sufficiently large to comply:
@@ -50,10 +50,34 @@ For instance, there is no influence of diurnal variability, i.e. changes of the 
 A key assumption with the Reynolds decomposition is that the time average of the fluctuating components is zero by definition:
 
 $$
-\bar{\phi}'= \frac{1}{T} \int\limits_{t_0 - \frac{1}{2} T}^{t_0 + \frac{1}{2}T} \; \phi' \, \mathrm{d}t = 0 \tag{9.2}
+\overline{\phi '}= \frac{1}{T} \int\limits_{t_0 - \frac{1}{2} T}^{t_0 + \frac{1}{2}T} \; \phi' \, \mathrm{d}t = 0 \tag{9.2}
 $$
 
 In other words, we assume that during the averaging time, there are the same amount of positive and negative fluctuations. As such, the net effect is an average fluctuation of the variables equal to $0$
 
 ## 9.2.2 Variance of the velocity fluctuation and turbulent fluxes
-A fundamental aspect in geophysical flows is that introducing the Reynolds decomposition in the product of two variables yields two terms: a term that is only composed by the product of the mean values, and a term that is only formed by the product of two fluctuation values. This term $\bar{u'^2}$ or $\bar{u' \phi '}$ 
+A fundamental aspect in geophysical flows is that introducing the Reynolds decomposition in the product of two variables yields two terms: a term that is only composed by the product of the mean values, and a term that is only formed by the product of two fluctuation values. This term $\overline{u'^2}$ or $\overline{u' \phi '}$ , and it represents the net effect of turbulent fluctuations. 
+
+The derivation of this term is as follows:
+
+$$
+\begin{aligned}
+\overline{u^2} &= \overline{(\overline{u} + u')^2} \\
+&= \overline{u}\overline{u} + 2 \overline{\overline{u}u'} \\
+&= \overline{u}^2 + 0 + \overline{u'^2} \\
+&= \overline{u}^2 + \overline{u'^2}
+\end{aligned} \tag{9.3}
+$$
+
+The last term in this equation is recognised as the variance of the $u$-component (fluctuating) wind and covariance (second-order statistical moments) between the fluctuating component $u$. Notice that the averaged fluctuations around the average fall out of the equation because they are $0$.
+
+>[!Warning]
+>Skipped some of the alternatives to Equation 3.9 which take length or ensemble averages rather than time averages
+
+
+---
+# 9.3 Reynolds averages on the governing equations of the flow (==Skipped==)
+
+---
+# 9.4 Turbulent kinetic energy
+An important quantity that defines the energy of the turbulent flow in water or air is the turbulent kinetic energy (TKE). It is therefore associated with the amount of energy of the turbulent eddies in the mean flow. TKE can be produced by fluid shear, friction or buoyan
