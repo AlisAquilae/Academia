@@ -3,7 +3,7 @@ fileClass: Base, Literature Notes
 title: 
 Parents: ["[[Geophysical Fluid Mechanics]]"]
 Draft: 
-Status: In Progress
+Status: Done
 Authors: 
 Year of Publication: 
 Related Notes: 
@@ -80,4 +80,13 @@ The last term in this equation is recognised as the variance of the $u$-componen
 
 ---
 # 9.4 Turbulent kinetic energy
-An important quantity that defines the energy of the turbulent flow in water or air is the turbulent kinetic energy (TKE). It is therefore associated with the amount of energy of the turbulent eddies in the mean flow. TKE can be produced by fluid shear, friction or buoyan
+An important quantity that defines the energy of the turbulent flow in water or air is the turbulent kinetic energy (TKE). It is therefore associated with the amount of energy of the turbulent eddies in the mean flow. TKE can be produced by fluid shear, friction or buoyancy. The TKE per unit mass $k$ (units m$^2$ s$^{-2}$) is defined as half the trace (the sum of all elements on the main diagonal) of the Reynolds stress tensor:
+
+$$
+\begin{aligned}
+k &= \frac{1}{2} (\overline{u_1 '^2} + \overline{u_2 '^2} + \overline{u_3 '^2}) \\
+&= \frac{1}{2} (\overline{u '^2} + \overline{v '^2} + \overline{w '^2})
+\end{aligned} \tag{9.4}
+$$
+
+TKE is normally measured and therefore can be calculated using the eddy-covariance instruments (EC). EC measures with a high frequency ($\gt 10$ Hz) the three components of the velocity field. 
