@@ -134,3 +134,39 @@ Q(t,x) &= \iint\limits_{(y,z) \in A} \; u_x (t,x,y,z) \\
 $$
 
 This mean velocity $u(t,x)$ will be called *the* flow velocity. Another way of saying this is that we replace the whole velocity field in this cross section by its mean.
+
+---
+# 2.6 Bottom slopes
+Next to the geometry of the cross-section, we need to consider how the bottom height varies over large distances. We only appreciate these large scale variations when we look at the large scale long wave perspective. 
+
+The most important quantity describing the bottom height variation is the bottom slope $S_o$. It describes how the bed elevation varies along the river, i.e. $z_o = z_o (x)$, and is defined as
+
+$$
+S_o (x) = -\frac{\mathrm{d} z_o}{\mathrm{d}x} (x) \ll 1
+$$
+
+Since we assume that the changes in geometry, and thus also in bottom height, are gradual (i.e. very small bottom slopes) we can also state that:
+
+$$
+\text{perpendicular to the bottom} \approx \text{vertical}
+$$
+
+as illustrated in Figure 2.19 . This is an important question as, provoked by the left part of Figure 2.19, one could be uncertain on how to measure the water depth in a river: perpendicular to the bottom or just vertically. If $S_o \ll 1$, both measurements result in the same number
+
+![[Pasted image 20250309165032.png]]
+
+In a similar way, one can say that
+
+$$
+\text{parallel to the bottom} \approx \text{horizontal}
+$$
+
+This is consistent with the long wave assumption, where it was assumed that the characteristic $x$-scale is much larger than the characteristic vertical $z$-scale
+
+---
+# 2.7 Hydrostatic pressure
+As we study only long waves, we may neglect curved stream lines, and as a result we may also assume the pressure to be **hydrostatic**, i.e. the same as in stagnant water. This means that at every point in the river, the pressure equals the status pressure of the water column above it. As a consequence, the pressure increases linearly as going from the top to the bottom (see Figure 2.20):
+
+$$
+p (t,)
+$$
