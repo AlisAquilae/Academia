@@ -29,4 +29,23 @@ In principle, any hydraulic flow can be described by the velocity vector $\overr
 
 ![[Pasted image 20250309154336.png]]
 
-Figure 1.1 shoes a typical
+Figure 1.1 shoes a typical problem of the closed conduits. At the left water flows into a smaller pipe and continues through a wider pipe at the right. A complete description of this flow is given by the values of:
+
+$$
+\left\{  
+\begin{aligned}
+\overrightarrow{u}(t,x,y,z) &= \begin{pmatrix} u_x (t,x,y,z) \\ u_y (t,x,y,z) \\ u_z (t,x,y,z) \end{pmatrix} \\
+&p(t,x,y,z)
+\end{aligned}
+\right\} \; \text{for all} (x,y,z) \in \text{the pipe}
+$$
+
+Figure 1.2 illustrates such a description.
+
+![[Pasted image 20250309155012.png]]
+
+The complete mathematical description is given by the continuity equation combined with the [[Navier-Stokes Equation|Navier-Stokes Equations]]. 
+
+---
+# 1.3 Free surface flow
+The fundamental quantities to be investigated in open water flow are - as in the pipe flow case - velocities and pressure. The extra and complicating factor in the description of flow in channels and rivers is that it has a free surface: the flow domain (i.e. the "(x,y,z)" for which one has to determine the velocities and pressures) changes with the flow in
