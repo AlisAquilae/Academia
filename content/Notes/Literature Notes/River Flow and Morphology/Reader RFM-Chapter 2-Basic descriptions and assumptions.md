@@ -37,4 +37,26 @@ This long wave point of view has as a consequence that all the very rapid very l
 
 The long wave point of view is not a kind of view we are generally used to. When visiting a river, we can only see a small part. That is why we often perceive the river as being horizontal, while in the long wave perspective a river usually has a slope. Also, the view of a weir over small scales is closer to our perception of a weir than the long wave point of view.
 
-The long wave 
+The long wave POV does not only show in the vertical cross-sections, as in the previous figures, but also in horizontal ones as in Figure 2.5. Locally, e.gh. in a bend of a river, there is a large variation of flow velocities, not all of them point in the same direction as some flow is more directed to the sides as other flow which follows more the central line of the river. This variation will be neglected, and we will approximate the river by a "line", as in the right-hand side of the figure. 
+
+![[Pasted image 20250309161626.png]]
+
+---
+# 2.3 Cross section and long profile
+For every position $x$ along the river, the unique place orthogonal to the flow direction is called the **cross-section**. Figure 2.6 shows a typical cross section along the river Rhine. For low land rivers, cross sections will be confined by dikes. Man made rivers usually show much more regular cross sections
+
+![[Pasted image 20250309161810.png]]
+
+It is important to note the vertical exaggeration that is typically used when displaying river cross sections. In practice, depth is often 20 times smaller than the river depth, and a river is actually more like a pancake than a bathtub. This has important implications for how we perceive flow in a cross-section. Used to the vertical exaggeration, we also tend to exaggerate vertical flow velocity, which in most rivers is very limited. 
+
+We will always assume the geometry of each cross section to be completely known, i.e. the function $z_b (x,y)$ is known. We assume the geometry of the cross section and this function to be independent of time. This means that all problems concerning bed erosion, sedimentation, etc. are neglected at this point. 
+
+![[Pasted image 20250309162234.png]]
+
+The height of the lowest point of each cross section is called the **bed level** and will be denoted by $z_o$ (see Figure 2.9). This is measured with respect to an arbitrary zero (fixed for the whole river), usually sea level. A plot of $z_o$ versus the length of the river (thus, $x \rightarrow z_o(x)$) is called a **long profile**.
+
+We will assume - within the spirit of the long wave POV - that all changes of the bed level alng the river (thus, along the x-direction) are very gradual. 
+
+---
+# 2.4 Levels and lengths in a cross-section
+Wi
