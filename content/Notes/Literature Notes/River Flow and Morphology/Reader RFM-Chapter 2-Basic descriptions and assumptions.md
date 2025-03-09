@@ -1,14 +1,14 @@
 ---
 fileClass: Base, Literature Notes
 title: 
-Parents: 
+Parents: ["[[River Flow and Morphology]]"]
 Draft: 
-Status: 
+Status: Done
 Authors: 
 Year of Publication: 
 Related Notes: 
 Related Terminology: 
-Related Courses: 
+Related Courses: ["[[River Flow and Morphology]]"]
 ---
 # 2.1 Introduction
 In the previous chapter it was stated that the dynamics of waves in open channel flow is fully described by:
@@ -168,5 +168,37 @@ This is consistent with the long wave assumption, where it was assumed that the 
 As we study only long waves, we may neglect curved stream lines, and as a result we may also assume the pressure to be **hydrostatic**, i.e. the same as in stagnant water. This means that at every point in the river, the pressure equals the status pressure of the water column above it. As a consequence, the pressure increases linearly as going from the top to the bottom (see Figure 2.20):
 
 $$
-p (t,)
+p (t,x,z) = \rho g[a(t,x) - z]
 $$
+
+![[Pasted image 20250309165530.png]]
+
+---
+# 2.8 Dimension reduction
+When one would use the [[Navier-Stokes Equation]] extended for the free surface calculation, then they would consist of five partial differential equations. The solution of this would give
+- $u_x (t,x,y,z)$
+- $u_y (t,x,y,z)$
+- $u_z (t,x,y,z)$
+- $p(t,x,y,z)$
+- $a(t,x,y,z)$
+
+With the long wave assumptions made above we can reduce the Navier=Stokes equations to a much simpler set of equations describing the relation between
+
+- $u(t,x)$
+- $a(t,x)$
+
+or, equivalently
+
+- $Q(t,x)$
+- $A(t,x)$
+
+Therefore, under the long wave assumption we can reduce the problem
+- from five variables to two variables
+- Varying over only two dimensions $(t,x)$ instead of four dimensions $(t,x,y,z)$
+
+Throughout our study of long wave hydrodynamics we will make extensive use of the following graphical representations (Figure 2.21):
+- Three-dimensional graphs with time and space in the horizontal plane (top picture)
+- Slices of the time space (middle picture) at (1) fixed times $(t_0, t_1)$, to investigate the variation in space, and at (2) fixed places $(x_0, x_1)$, to investigate the evolution in time.
+- These slices can also be plotted in more conventional two-dimensional graphs (bottom picture)
+
+![[Pasted image 20250309170040.png]]
