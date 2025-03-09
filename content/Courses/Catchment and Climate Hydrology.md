@@ -22,6 +22,23 @@ The course is divided into 6 thematic modules:
 6. Synthesis and field excursion Iceland
 
 # 📖 Course Material
+The course material for this course consists of scientific papers. Given that the course is divided into 6 modules, I have divided the papers along which module they support
 
+## 1. Climate and the Water Cycle
+### Lecture 1
+- [[Eagleson (1994)-The evolution of modern hydrology]]
+- [[Schaefi & Gupta (2007)-Do Nash values have value]]
+
+### Lecture 2
+- [[Albertson & Kiely (2001)-On the structure of soil moisture time series]]
+### Lecture 3
+- [[Hoek van Dijke et al (2022)-Shifts in regional water availability]]
+### Practical 1
+- [[Laio et al (2001)-Plants in water-controlled ecosystems]] (*Background reading*)
+
+## 2. Runoff and Drought
+### Lecture 4
+- [[Kirchner (2009)-Catchments as simple dynamic systems]]
+- [[Gevaert et al (2014)-Hillslope-scale experiment]]
 
 # 📢 Lectures
