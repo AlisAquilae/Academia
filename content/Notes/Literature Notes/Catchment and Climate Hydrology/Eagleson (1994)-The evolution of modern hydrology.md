@@ -36,3 +36,30 @@ $$
 Equation 1 is called the [[Water Balance]] equation. It is one of the two fundamental equations of hydrology, the other being the similarly derived energy balance equation, and is the only equation (albeit in various guises) that is used in this paper. These two governing equations are coupled strongly through the appearance in each of the evapotranspiration or its [[Latent Heat Flux|Latent heat]] equivalent. 
 
 Until the mid-l 900s hydrology was largely an empirical adjunct of hydraulic and agricultural engineering and was dominated by the practical need to forecast the local response of the land surface (i.e. flood, drought, crop productivity) to the local atmospheric forcing (i.e. precipitation and net radiation). In these activities the land surface was decoupled from the atmosphere along the horizontal dashed lines of Fig. 4, implying $P$ independent of $E$. This was done intuitively because interest lay in small geographic scales, although no other way was known; the terrestrial part of the system was seen as a simple cascade with cause ($P$) leading directly to effect ($R$).
+
+Two things happened in the mid-to-late 1960s which changed this simple cause-and-effect model for hydrologists. The first was recognition of the need for international cooperation for fair and effective use of transnational water resources and acquisition of large-scale hydrologic data; the United Nations sponsored the International Hydrological Decade (IHD) from 1965 to 1974. It was a worldwide program of cooperation in scientific hydrology proposing a new research agenda containing the themes of the hydrologic evolution being described here:
+- **World water balance**: quantifying the elements of the hydrologic cycle at large space and time scales;
+- **Influence of man on the hydrologic cycle**: understanding the feedback from land surface to atmosphere
+
+These themes raised our consciousness about regional and global scale problems. 
+
+The second thing to happen was the reception of dramatic color photographs of Earth in space, and the realization that the color variations therein were in large measure due to the presence or absence of water. This crystallized active interest by all of us in the interconnectedness of nature and in the changes being wrought by humans.
+
+---
+# 2. Some challenges and opportunities
+## 2.1 Scale (==Skipped==)
+Relates to El Niño being an important global hydrological concept of study
+
+## 2.2 Human-induced global change
+There are two primary human effects upon the hydrologic cycle: (1) introduction of radiatively-active gasses into the atmosphere, and (2) physical alterations of the landsurface. Both of these, through their effects upon evapotranspiration, change both the water balance and the energy balance. 
+
+To approach these issues of large lateral scale and of global change, we have had to modify our view of the land-surface-to-atmosphere feedbacks. 
+
+---
+# 3. A sampling of recent research results
+## 3.1 Definitions
+First it is helpful to sketch the flow paths of water in our column of atmosphere as we have done in Fig. 10. 
+
+![[Pasted image 20250309145310.png]]
+
+The column has a lateral dimension defined by the geographical scale, perhaps a riverbasin, a region or a continent. There is an advective influx of atmospheric moisture, $Q_{\text{in}}$, across the upwind face of the column and an efflux, $Q_{\text{out}}$, across the downwind face. Moisture is added to the atmosphere by evapotr
