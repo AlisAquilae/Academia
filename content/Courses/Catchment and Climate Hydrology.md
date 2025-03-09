@@ -39,6 +39,38 @@ The course material for this course consists of scientific papers. Given that th
 ## 2. Runoff and Drought
 ### Lecture 4
 - [[Kirchner (2009)-Catchments as simple dynamic systems]]
+
+### Lecture 5
 - [[Gevaert et al (2014)-Hillslope-scale experiment]]
+- [[Kirchner (2006)-A double paradox in catchment hydrology]]
+
+### Lecture 6
+- [[Ault (2020)-On the essentials of drought in a changing climate]]
+
+## 3. Floods and Lowlands
+### Lecture 7
+- [[Tarasova et al (2019)-Causative classification of river flood events]]
+
+### Lecture 8
+- [[Imhoff et al (2020)]]
+
+### Lecture 9
+- [[Brauer et al (2014)-The Wageningen Lowland Runoff Simulator]]
+
+
+## 4. Cryosphere and Variability
+### Lecture 10
+- [[Milly & Dunne (2020)-Colorado River floe dwindles]]
+
+### Practical 3
+- [[Uhlenbrook et al (1999)-Prediction uncertainty of conceptual rainfall-runoff models]]
+
+### Lecture 11
+- [[Beven et al (2021)-A history of TOPMODEL]]
+
+## 5. (Un)certainty
+### Lecture 12
+- [[Holländer et al (2009)-Comparative predictions of discharge]]
+- [[Addor & Melsen (2018)-Legacy, rather than adequacy, ]]
 
 # 📢 Lectures
