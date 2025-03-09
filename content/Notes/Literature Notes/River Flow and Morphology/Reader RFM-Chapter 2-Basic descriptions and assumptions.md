@@ -90,11 +90,47 @@ There are various other important quantities that can be derived (so all quantit
    
    $$
    \begin{aligned}
-   A &= 
+   A &= PR \\
+   R &= \frac{A}{P}
    \end{aligned}
    $$
-
+   
+   Again a not directly measurable but useful quantity
 
 
 
 ![[Pasted image 20250309162932.png]]![[Pasted image 20250309162950.png]]
+
+>[!Info]
+>In principle, given the geometry of the cross section, each of these quantities can be derived from the others
+
+To be mathematically rigorous, the wetted area should be specified by its position $x$ along the river (as the geometry of the cross section may change) and the depth at that place at that time: $a(t,x)$ and thus write formulas containing expressions as $A(x,a(t,x))$. As these dependencies are clear, however, we often use shorthands as $A(t,x)$. Similar notational shorthands will be used for the other quantities. 
+
+---
+# 2.5 Discharge and velocities in a cross section
+The amount of water flowing at a particular time and place in the river is determined by the velocity field. From the long wave POV, one is however not interested in the velocities and flows at a very local scale in the cross section but mainly in total discharge through a cross section. This quantity is usually called *the* discharge, and denoted by $Q$. 
+
+Formally, they can be derived from the $x$-component of the velocity field, being the component in the downstream direction orthogonal to the cross section:
+
+$$
+Q(t,x) = \iint\limits_{(y,z) \in A} \; u_x (t,x,y,z)
+$$
+
+In all practical situations, the magnitude of velocity and even its direction vary within a cross section. Close to the bottom the velocity tends to zero. The maximum velocity is reached near the middle just under the surface. 
+
+As our global view upon the river does not enable us to calculate all these variations, wer will only consider the velocity averages over a cross section and neglect the variations around this mean:
+
+$$
+u(t,x) = \frac{1}{A(t,x)} \iint_{(y,z) \in A} \; u_x (t,x,y,z)
+$$
+
+This average velocity is closely connected to the discharge
+
+$$
+\begin{aligned}
+Q(t,x) &= \iint\limits_{(y,z) \in A} \; u_x (t,x,y,z) \\
+&= A(t,x) \, u(t,x)
+\end{aligned}
+$$
+
+This mean velocity $u(t,x)$ will be called *the* flow velocity. Another way of saying this is that we replace the whole velocity field in this cross section by its mean.
