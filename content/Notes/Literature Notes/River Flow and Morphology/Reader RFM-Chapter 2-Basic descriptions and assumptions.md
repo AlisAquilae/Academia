@@ -59,4 +59,42 @@ We will assume - within the spirit of the long wave POV - that all changes of th
 
 ---
 # 2.4 Levels and lengths in a cross-section
-Wi
+Within the spirit of the long wave approximations already made, we assume the water surface in a cross section to be completely horizontal (which is approximately true in practical situations). As a consequence, we have to calculate only one depth in each cross section. For the cross section at $x$ we choose the depth with respect to the deepest point of the cross section and denote this by $a(t,x)$ and call it *the* water depth at position $x$ and time $t$. It may also be useful to measure the water level with respect to the same zero as the bed level $z_o$. This level will be denoted by $h(t,x)$ and is referred to as water level. Figure 2.11 illustrates this definition.
+
+![[Pasted image 20250309162736.png]]
+
+There are various other important quantities that can be derived (so all quantities that follow are *functions* of $a$) from this water level:
+
+1. The width $b$
+2. The wetted area $A$.
+
+>[!Note]
+>The following relations with the water width are very useful (see also Figure 2.13)
+>
+>$$
+>\begin{aligned}
+>\frac{\partial A}{\partial a} &= b \\
+>A(a) &= \int\limits_{0}^{a} \; \mathrm{d}\alpha \; b(\alpha)
+>\end{aligned}
+>$$
+
+3. The **hydraulic depth** $d$ or cross-section average depth. This quantity is indirectly defined as follows: the wetted area equals the area of a rectangle with width $b$ and height $d$, thus:
+   
+   $$
+   d = \frac{A}{b}
+   $$
+   
+   This is not a directly measurable quantity, but it will prove to be handy in many formulas
+4. The **wetter perimeter** $P$: the length of the cross section that has contact with the water
+5. The **hydraulic radius** $R$: A rectangle with width $P$ and height $R$ has area $A$, or formally
+   
+   $$
+   \begin{aligned}
+   A &= 
+   \end{aligned}
+   $$
+
+
+
+
+![[Pasted image 20250309162932.png]]![[Pasted image 20250309162950.png]]
