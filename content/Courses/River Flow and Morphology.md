@@ -40,3 +40,10 @@ The course material consists of a reader designed specifically or this course.
 - [[RFM Lecture 6]]
 - [[RFM Lecture 7]]
 - [[RFM Lecture 8]]
+- [[RFM Lecture 9]]
+- [[RFM Lecture 10]]
+- [[RFM Lecture 11]]
+- [[RFM Lecture 12]]
+- [[RFM Lecture 13]]
+- [[RFM Lecture 14]]
+
