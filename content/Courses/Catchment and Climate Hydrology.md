@@ -44,6 +44,9 @@ The course material for this course consists of scientific papers. Given that th
 - [[Gevaert et al (2014)-Hillslope-scale experiment]]
 - [[Kirchner (2006)-A double paradox in catchment hydrology]]
 
+### Practical 2
+- Nothing
+
 ### Lecture 6
 - [[Ault (2020)-On the essentials of drought in a changing climate]]
 
@@ -57,20 +60,66 @@ The course material for this course consists of scientific papers. Given that th
 ### Lecture 9
 - [[Brauer et al (2014)-The Wageningen Lowland Runoff Simulator]]
 
+### Practical 3
+- Nothing
 
 ## 4. Cryosphere and Variability
 ### Lecture 10
 - [[Milly & Dunne (2020)-Colorado River floe dwindles]]
 
-### Practical 3
+### Practical 4
 - [[Uhlenbrook et al (1999)-Prediction uncertainty of conceptual rainfall-runoff models]]
 
 ### Lecture 11
 - [[Beven et al (2021)-A history of TOPMODEL]]
 
+### Practical 5
+- Nothing
+
 ## 5. (Un)certainty
 ### Lecture 12
 - [[Holländer et al (2009)-Comparative predictions of discharge]]
-- [[Addor & Melsen (2018)-Legacy, rather than adequacy, ]]
+- [[Addor & Melsen (2018)-Legacy drives the selection of hydrological models]]
+
+### Lecture 13
+- [[Oreskes et al (1994)-Verification, validation and confirmation of numerical models]]
+
+### Lecture 14
+- [[Bouaziz et al (2018)-Quantifying net intercatchment groundwater flows]]
+
+### Lecture 15
+- Nothing
+
+### Practical 6
+- [[Helgason & Nijssen (2024)-Large-sample data for hydrology and environmental sciances]]
+
+
+## 6. Synthesis and Field Excursion Iceland
+### Lecture 16
+- [[Wrede et al (2019)-Towards more systematic perceptual model development]]
+- [[Melsen et al (2018)-Mapping (dis)agreement in hydrological projections]]
 
 # 📢 Lectures
+
+## 1. Climate and the Water Cycle
+- [[CCH Lecture 1]]
+- [[CCH Lecture 2]]
+- [[CCH Lecture 3]]
+
+## 2. Runoff and Drought
+- [[CCH Lecture 4]]
+- [[CCH Lecture 5]]
+- [[CCH Lecture 6]]
+
+## 3. Floods and Lowlands
+- [[CCH Lecture 7]]
+- [[CCH Lecture 8]]
+- [[CCH Lecture 9]]
+
+## 4. Cryosphere and Variability
+- [[CCH Lecture 10]]
+- [[CCH Lecture 11]]
+
+## 5. (Un)certainty
+
+## 6. Synthesis and Field Excursion Iceland
