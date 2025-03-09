@@ -22,4 +22,17 @@ As we perceive it today, hydrology is a geoscience whose scientific basis lies i
 ![[Pasted image 20250309143201.png]]
 ![[Pasted image 20250309143214.png]]
 
-Imagine the cartoon of Fig. 4 as a vertical column of atmosphere and soil; it is a one-dimensional representation of the continental hydrologic system. Water enters and leaves the column horizontally, as atmospheric moisture flux (with net inflow, $Q$) and as land surface and groundwater runoff, $R_s$ and $R_g$. respectively (with the net outflow $R$). Water is exchanged vertically between the atmosphere and land surface by the fluxes: precipitation, $P$, and evapotranspiration, $E$
+Imagine the cartoon of Fig. 4 as a vertical column of atmosphere and soil; it is a one-dimensional representation of the continental hydrologic system. Water enters and leaves the column horizontally, as atmospheric moisture flux (with net inflow, $Q$) and as land surface and groundwater runoff, $R_s$ and $R_g$. respectively (with the net outflow $R$). Water is exchanged vertically between the atmosphere and land surface by the fluxes: precipitation, $P$, and [[Evapotranspiration]], $E$, the latter consisting of evaporation from bare soil or other solid and water surfaces, plus transpiration from the stomata of vegetation. The moisture contents of the atmosphere and of the soil are indicated by the respective state variables, $W$ and $S$. Dividing by the column along the horizontal dashed lines, we can isolate the land surface and for it write a statement of conservation of water mass that simply requires the difference between inflow and outflow in a given time interval, $\Delta t$, to produce an equal change in internal moisture storage. That is, 
+$$
+\text{precipitation} - \text{evapotranspiration} - \text{runoff} = \text{storage change}
+$$
+
+or mathematically,
+
+$$
+P-E-R = \Delta S \tag{1}
+$$
+
+Equation 1 is called the [[Water Balance]] equation. It is one of the two fundamental equations of hydrology, the other being the similarly derived energy balance equation, and is the only equation (albeit in various guises) that is used in this paper. These two governing equations are coupled strongly through the appearance in each of the evapotranspiration or its [[Latent Heat Flux|Latent heat]] equivalent. 
+
+Until the mid-l 900s hydrology was largely an empirical adjunct of hydraulic and agricultural engineering and was dominated by the practical need to forecast the local response of the land surface (i.e. flood, drought, crop productivity) to the local atmospheric forcing (i.e. precipitation and net radiation). In these activities the land surface was decoupled from the atmosphere along the horizontal dashed lines of Fig. 4, implying $P$ independent of $E$. This was done intuitively because interest lay in small geographic scales, although no other way was known; the terrestrial part of the system was seen as a simple cascade with cause ($P$) leading directly to effect ($R$).
