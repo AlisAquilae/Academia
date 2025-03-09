@@ -121,5 +121,10 @@ The course material for this course consists of scientific papers. Given that th
 - [[CCH Lecture 11]]
 
 ## 5. (Un)certainty
+- [[CCH Lecture 12]]
+- [[CCH Lecture 13]]
+- [[CCH Lecture 14]]
+- [[CCH Lecture 15]]
 
 ## 6. Synthesis and Field Excursion Iceland
+- [[CCH Lecture 16]]
