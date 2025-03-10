@@ -507,4 +507,18 @@ S_f &= \frac{Q^2}{C^2 A^2 R}
 $$
 
 ## 3.7.1 Reference values
-The starting point of all dimensionless analysis is to choose reference values. We start by choosing a "typical" reference value for the discharge: $\overline{Q}$, e.g. the mean discharge. Next, we choose a reference value for depths. 
+The starting point of all dimensionless analysis is to choose reference values. We start by choosing a "typical" reference value for the discharge: $\overline{Q}$, e.g. the mean discharge. Next, we choose a reference value for depths. Once the reference values are chosen, one can define dimensionless variables by dividing the original variables by their reference value. 
+
+>[!Warning]
+>Skipped the derivation. Asterisks indicate dimensionless quantities, obtained by dividing the actual quantity by the reference quantity
+
+
+$$
+\begin{aligned}
+\frac{\partial A_*}{\partial t_*} + \frac{\partial Q_*}{\partial x_*} &= 0 \\
+\overline{\text{Fr}}^2 \left( \frac{\partial Q_*}{\partial t_*} + \frac{\partial(Q_* u_*)}{\partial x_*} \right) &= A_* \left(1-\frac{Q_*^2}{A^2_* R_*} - \frac{\partial a_*}{\partial x_*} \right)
+\end{aligned}
+$$
+
+
+
