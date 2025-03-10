@@ -1,14 +1,14 @@
 ---
 fileClass: Base, Literature Notes
 title: 
-Parents: 
+Parents: ["[[Catchment and Climate Hydrology]]"]
 Draft: 
-Status: 
+Status: Done
 Authors: 
 Year of Publication: 
 Related Notes: 
 Related Terminology: 
-Related Courses: 
+Related Courses: ["[[Catchment and Climate Hydrology]]"]
 ---
 # How do we communicate model performance?
 The process of model performance evaluation is of primary importance, not only in the model development and calibration process, but also when communicating the results to other researchers and to stakeholders. The basic ‘rule’ is that every modelling result should be put into context, for example, by indicating the model performance using appropriate indicators, and by highlighting potential sources of uncertainty, and this practice has found its entry into the large majority of papers and conference presentations.
@@ -67,4 +67,8 @@ q_{APB} (t) = r \cdot p(t - lag_{opt})
 $$
 
 
-A further important characteristic of catchments is to filter (smooth) the rainfall to remove higher frequency variability. We can, therefore, further add a simple dispersion process (a moving average) to adjust the smoothness of the scaled-down and translated precipitation to match the smoothness of the observed discharge. One simple way to choose the degree of smoothness (the size of the moving-average window) is so as to maximize the correlation between the adjusted precipitation and the observed flow
+A further important characteristic of catchments is to filter (smooth) the rainfall to remove higher frequency variability. We can, therefore, further add a simple dispersion process (a moving average) to adjust the smoothness of the scaled-down and translated precipitation to match the smoothness of the observed discharge. One simple way to choose the degree of smoothness (the size of the moving-average window) is so as to maximize the correlation between the adjusted precipitation and the observed flow.
+
+---
+# Conclusion
+The purpose of this paper is to argue that the definition of an appropriate baseline for model performance, and in particular, for measures such as the NSE values, should become part of the ‘best practices’ in hydrologic modelling. Every modelling study should explain and justify the choice of benchmark. Of course, the appropriate benchmark model will necessarily be different for different types of case studies. However, for efficient communication, the benchmark should fulfill the basic requirement that every hydrologist can immediately understand its explanatory power for the given case study and, therefore, appreciate how much better the actual hydrologic model is. We encourage further research aimed at establishing a comprehensive set of benchmark models that could also be of further use as a Null hypothesis for hydrologic significance testing, and invite further open dialogue on this topic.

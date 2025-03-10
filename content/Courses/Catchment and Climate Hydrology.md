@@ -91,7 +91,7 @@ The course material for this course consists of scientific papers. Given that th
 - Nothing
 
 ### Practical 6
-- [[Helgason & Nijssen (2024)-Large-sample data for hydrology and environmental sciances]]
+- [[Helgason & Nijssen (2024)-Large-sample data for hydrology and environmental sciances]] (*Background reading*)
 
 
 ## 6. Synthesis and Field Excursion Iceland
