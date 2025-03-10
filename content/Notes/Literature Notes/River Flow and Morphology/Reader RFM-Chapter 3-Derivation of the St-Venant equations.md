@@ -143,5 +143,58 @@ $$
 4. Inflow - outflow
 
 $$
-- \frac{\partial \rho \, Q \, u}{\partial x} = - \rho \frac{\partial Q \, u}{}
+- \frac{\partial \rho \, Q \, u}{\partial x} = - \rho \frac{\partial Q \, u}{\partial x}
 $$
+
+5. External flow
+
+$$
+F
+$$
+
+
+Following the same reasoning as in the previous section, the momentum balance can be written as:
+
+$$
+\rho \frac{\partial Q}{\partial t} + \rho \frac{\partial Q \, u}{\partial x} = F
+$$
+
+Where $F$ in the right hand stands for the sum of all external forces, all evaluated per unit river length (as was also done for the lateral flow):
+
+$$
+F = \sum\limits_i F_i
+$$
+
+These different forces will be studied in more detail in the next sections
+
+## 3.3.2 Gravity
+As the bottom slope is in general non-zero, gravity will make water flow and thus will generate momentum. To calculate the component of this force in the flow direction, we have to decompose the total gravity force (pointing vertically downwards: i.e. in the direction given by the vector $-\overrightarrow{1}_z$) into a component perpendicular to the bottom of the river (this part does not contribute to flow momentum), and a component parallel to that bottom that does contribute to the flow in that direction. 
+
+![[Pasted image 20250310140655.png]]
+
+The total gravity force can now be calculated:
+
+$$
+\begin{aligned}
+\overrightarrow{F}_{\text{grav}} &= -\overrightarrow{1}_z \, g \, \cdot \, \text{mass control volume} \\
+&= -\overrightarrow{1}_z \, g \, \rho \, \Delta x \, A \\
+&= -\overrightarrow{1}_z \, g \, \rho \, A \, \Delta x
+\end{aligned}
+$$
+
+From this total force the component parallel to the bottom can be calculated. We are interested in the magnitude of this component per unit length of the river. This quantity will be denoted by $F_o$ and can be calculated as follows:
+
+$$
+\begin{aligned}
+F_o &= \sin(\alpha) \, F_{\text{grav}} / \Delta x \\
+&= \rho \, g \, A \, S_o
+\end{aligned}
+$$
+
+>[!Note]
+>The subindex "$_o$" is traditionally used in this context and has no special meaning
+
+>[!Note]
+>For small $\alpha$: $S_o = \tan(\alpha) \approx \sin(\alpha) \approx \alpha$
+
+
