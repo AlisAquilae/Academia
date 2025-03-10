@@ -43,4 +43,28 @@ To properly communicate how good a model really is, it seems necessary to establ
 
 ---
 # Establishing benchmark models
-For observed time series showing a strong but relatively constant seasonality (for example, related to the climate), a simple benchmark model is the one already mentioned: the interannual mean value for every calendar day.
+For observed time series showing a strong but relatively constant seasonality (for example, related to the climate), a simple benchmark model is  the interannual mean value for every calendar day. For the three case studies presented in Schaefli et al. (2005), such a benchmark model immediately reveals that the hydrologic model is performing much better for one of the catchments: for the Lonza River, the NSE of the calibrated hydrologic model is $0\cdot 2$ or 28% higher than the NSE of the benchmark model. For the other two case studies, the performance improvement of the hydrologic model over the benchmark model is only 13% (Rhone River) and 7% (Drance River). Using such a calendar day benchmark model is equivalent to computing the NSE of pre-treated simulated and observed series from which the seasonality has been removed, which is a standard procedure in time series analysis.
+
+The performance improvement of the hydrologic model over the benchmark model can be measured by defining a normalised benchmark efficiency ($BE$) defined, in analogy to the NSE, as follows:
+
+$$
+NSE = 1 - \frac{\sum\limits^N_{t=1} \left[q_{\text{obs}}(t) - q_{\text{sim}}(t) \right]^2}{\sum\limits^N_{t=1} \left[q_{\text{obs}}(t) - q_b (t) \right]^2}
+$$
+
+where $q_b (t)$ is the benchmark model discharge at time step $t$. Such a calendar day benchmark model will establish whether the hydrologic model has greater explanatory power than already contained in the seasonality of the driving forces (climate)
+
+In a similar vein, we can construct benchmark models that measure whether the hydrologic model has more explanatory power than already contained in the frequency content of the dominant driving process, i.e. in the rainfall. Recall that the ‘function’ of a catchment is (by a process of storage and time-delayed release) to transform the variability of the driving signal (the rainfall) into an output response (the streamflow) that has reduced amplitude and variability, and is diffused over time. Therefore a considerable part of the variability in the output comes from the driving signal, and our interest is in evaluating the ability of the model to correctly replicate the transforming function of the catchment.
+
+It is common for catchment modellers to show hydrograph time series plots in which the model simulation ‘goes up—and down’ in a manner similar to that of the measured catchment hydrograph, as an indication of modelling success. Clearly, however, the vast majority of the ‘up—and down’ hydrologic model response is caused by the driving variables, and what we need to measure is how well the catchment process modification of this behaviour has been reproduced. A very simple benchmark model, therefore, would be to simply scale the rainfall to match the mean discharge (analogous to a $\Phi$-index operation) and to shift the sequence in time by some optimum lag that reflects the time of concentration of the basin. The idea is that this benchmark ‘model’ projects the frequency variation of the driving variables into the output while having the correct runoff ratio.
+
+This adjusted precipitation benchmark (APB) is constructed as follows:
+1. Take the precipitation $p(t)$ and multiply by the runoff ratio $r$ (mean discharge / mean precipitation) to make the adjusted precipitation volume equal to the observed discharge volume; this is called adjuster precipitation
+2. Shift the adjusted precipitation to the right by an optimum lag ($lag_{opt}$) which minimises the mean squared error-of-fit to observed discharge
+3. Hence, the ABP model becomes
+
+$$
+q_{APB} (t) = r \cdot p(t - lag_{opt})
+$$
+
+
+A further important characteristic of catchments is to filter (smooth) the rainfall to remove higher frequency variability. We can, therefore, further add a simple dispersion process (a moving average) to adjust the smoothness of the scaled-down and translated precipitation to match the smoothness of the observed discharge. One simple way to choose the degree of smoothness (the size of the moving-average window) is so as to maximize the correlation between the adjusted precipitation and the observed flow
