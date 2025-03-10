@@ -76,6 +76,72 @@ Combining the terms above results in
 $$
 \begin{aligned}
 \text{change in storage} &= \text{inflow} - \text{outflow} + \text{external flow} \\
-\Delta x \Delta t \left(\frac{\partial \rho A}{\partial t} (t, x) \right) &= \Delta x \Delta t \left( -\frac{\partial \rho Q}{\partial x}(t, x) \right) + \Delta x \, \Delta t \, \rho \, I 
+\Delta x \Delta t \left(\frac{\partial \rho A}{\partial t} (t, x) \right) &= \Delta x \Delta t \left( -\frac{\partial \rho Q}{\partial x}(t, x) \right) + \Delta x \, \Delta t \, \rho \, I \\
+\frac{\partial \rho \, A}{\partial t} (t, x) &= - \frac{\partial \rho \, Q}{\partial x} (t,x) + \rho \, I
 \end{aligned}
+$$
+
+Using the fact that water has a constant density ($\rho = 1$), this can be rewritten into
+
+$$
+\frac{\partial A}{\partial t} + \frac{\partial Q}{\partial x} = I
+$$
+
+---
+# 3.3 Conservation of Momentum
+## 3.3.1 Momentum and forces
+The second conservative quantity to be investigates is the momentum. The more traditional Newtonian formulation (for one simple body) is in terms of acceleration and forces:
+
+$$
+\begin{aligned}
+\text{acceleration} &= \text{forces}\\
+m \overrightarrow{a} &= \overrightarrow{F}
+\end{aligned}
+$$
+
+
+As we will only investigate the components in the direction of the flow, we will only consider the components of the vectors in that direction, and omit the vector sign $\; \overrightarrow{}\;$ above.
+
+Momentum is defined by momentum $= m v$, so that
+
+$$
+\begin{aligned}
+\text{change in momentum} &= \frac{\partial (\text{momentum})}{\partial t} \\
+&= \frac{\partial m v}{\partial t}\\
+&= m \frac{\partial v}{\partial t} \\
+&= m a\\
+&= F
+\end{aligned}
+$$
+
+This is generalised in the conservation law for momentum, which can be formulated using the control volume description of this chapter as:
+
+$$
+\text{change in momentum} = \left( \text{momentum inflow} - \text{momentum outflow} \right) + \text{external forces}
+$$
+
+The conservation law can be worked out in much the same wat as was done for the conservation of mass in the previous section:
+
+1. Storage
+
+$$
+\rho A u = \rho Q
+$$
+
+2. Change of storage
+
+$$
+\frac{\partial \rho \, Q}{\partial t} = \rho \frac{\partial Q}{\partial t}
+$$
+
+3. Flow into the system
+
+$$
+\rho \, Q \,u
+$$
+
+4. Inflow - outflow
+
+$$
+- \frac{\partial \rho \, Q \, u}{\partial x} = - \rho \frac{\partial Q \, u}{}
 $$
