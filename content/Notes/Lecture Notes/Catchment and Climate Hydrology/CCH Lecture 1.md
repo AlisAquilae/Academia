@@ -87,4 +87,6 @@ Nash-Sutcliffe is R$^2$ for linear regression, with the only difference being th
 
 Easy to interpret, normalised statistic, but emphasis on peak flows and outliers
 
-Drawbacks of NSE: high vs. low flows very sensitive to log transformation. Does not handle this well. Another problem of NSE baseline being mean of the model is not very ambitious. It is very simple to make use of this. Thus you need a better baseline / benchmark. Now same formula but instead of mean you use baseline discharge 
+Drawbacks of NSE: high vs. low flows very sensitive to log transformation. Does not handle this well. Another problem of NSE baseline being mean of the model is not very ambitious. It is very simple to make use of this. Thus you need a better baseline / benchmark. Now same formula but instead of mean you use baseline discharge.
+
+Latest development is moving away from NSE altogether. Thus moving towards the King-Gupta efficiency. Allows weighting of factors based on their relative importance. 
