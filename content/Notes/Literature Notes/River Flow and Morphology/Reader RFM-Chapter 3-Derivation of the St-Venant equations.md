@@ -320,3 +320,9 @@ $$
 $$
 
 ---
+# 3.4 The St-Venant equations
+Combining all the derivations above results in the St-Venant equations, a system of two partial differential equations:
+
+$$
+
+$$
