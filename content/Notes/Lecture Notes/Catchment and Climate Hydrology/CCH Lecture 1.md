@@ -21,3 +21,10 @@ Hydrology is a young field.
 
 ---
 # Paper for today
+Introduces water balance
+
+The effect of plants is important for hydrology, for example through evaporation and atmospheric moisture. This is a coupled system. 
+
+You want to make a model that does justice to nature but is still elegant. 
+
+Also coupled with atmosphere, for example through recycling of evaporated water as new rain. 
