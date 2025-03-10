@@ -370,6 +370,35 @@ Those flowing situations that do not change in time are called *stationary*. As 
 
 $$
 \begin{aligned}
-\frac{\partial Q}
+\frac{\partial Q}{\partial x} = I
+\frac{\partial Q \, u}{\partial x} = g \, A \left(S_o - S_f - S_p \right)
 \end{aligned}
 $$
+
+It is customary to work out the left hand side of the second equation in the following way:
+
+$$
+\begin{aligned}
+\frac{\partial Q \, u}{\partial x} &= \frac{\partial}{\partial x}\left(\frac{Q^2}{A} \right) \\
+&= 2 \frac{Q}{A} \frac{\partial Q}{\partial x} - \frac{Q^2}{A^2} \frac{\partial A}{\partial x}\\
+&= 2u \, I - \frac{Q^2 \, b}{A^2} \frac{\partial a}{\partial x}
+\end{aligned}
+$$
+
+With this result, and the fact that $S_p = \frac{\partial a}{\partial x}$, the second equation can be rewritten as:
+
+$$
+\begin{aligned}
+2u \, I - \frac{Q^2 \, b}{A^2} \frac{\partial a}{\partial x} &= g \ A \left( S_o - S_f - \frac{\partial a}{\partial x}\right) \\
+\left(1 - \frac{Q^2 \, b}{g \, A^3} \, \frac{\partial a}{\partial x} \right) &= S_o - S_f - \frac{2u \, I}{g \, A}
+\end{aligned}
+$$
+
+On the left hand side of the last equation appears an expression that plays an important role in the study of open water. It is called the [[Froude Number]] and is defined by :
+
+$$
+\text{Fr} = \sqrt{\frac{Q^2 \, b}{g \, A^3}}
+$$
+
+and it will reappear at many places in these notes
+
