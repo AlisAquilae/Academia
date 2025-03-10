@@ -3,7 +3,7 @@ fileClass: Base, Literature Notes
 title: 
 Parents: ["[[Catchment and Climate Hydrology]]"]
 Draft: 
-Status: In Progress
+Status: Done
 Authors: 
 Year of Publication: 
 Related Notes: 
@@ -28,4 +28,22 @@ No study has quantified the effects of large-scale global tree restoration on wa
 
 ---
 # Impact on water fluxes
-Under the current precipitation and potential evaporation, large-scale tree restoration would lead to a direct local increase in terrestrial evaporation of on average $8.2 \pm 5.5$ mm yr$^{-1}$, which is an increase of 1.2%. The sign of the average evaporation effect is clear, but the underlying distribution is heavily skewed, and the direct increase in evaporation can exceed $250$ mm yr$^{-1}$ in the South American tropical forest. When we include the indirect effects of increased evaporation on the atmospheric moisture content and precipitation, we find that 68% of this extra evaporated water would rain out over land. Following tree restoration, terrestrial precipitation would increase, with $4.8 \pm 3.1$ mm yr$^{-1}$ on average due to recycling of increased evaporation ()
+Under the current precipitation and potential evaporation, large-scale tree restoration would lead to a direct local increase in terrestrial evaporation of on average $8.2 \pm 5.5$ mm yr$^{-1}$, which is an increase of 1.2%. The sign of the average evaporation effect is clear, but the underlying distribution is heavily skewed, and the direct increase in evaporation can exceed $250$ mm yr$^{-1}$ in the South American tropical forest. When we include the indirect effects of increased evaporation on the atmospheric moisture content and precipitation, we find that 68% of this extra evaporated water would rain out over land. Following tree restoration, terrestrial precipitation would increase, with $4.8 \pm 3.1$ mm yr$^{-1}$ on average due to recycling of increased evaporation (an average increase of 0.7%). While the patterns in the direct evaporation effect are determined by the patterns in tree restoration and local climate, the indirect evaporation-recycling effect of tree restoration on precipitation happens at the continental scale and is determined by atmospheric circulation.
+
+Without the effect of evaporation recycling, global mean water availability would decrease by $8.2 \pm 5.3$ mm yr$^{-1}$. When we include the process of evaporation recycling on the water budget calculations (thus taking into account that the evaporated water will partly rain out over land), water availability would decrease by $5.3 \pm 5.6$ mm yr$^{-1}$. There is, however, a large spatial variability, with regions showing a decreasing (up to 38%) or increasing (up to 6%) water availability. The results suggest that for half of Earth’s surface (47%), the indirect moisture recycling effects of large-scale tree restoration could offset the direct evaporation effects, thus resulting in slight increases in water availability rather than decreases. 
+
+---
+# Varying effects on streamflow
+To evaluate the impacts of tree restoration at the river-basin scale, we aggregate the direct effects (via increased evaporation) and indirect effects (through increased precipitation) for 21 large river basins. For all the river basins, enhanced evaporation reduces streamflow (up to 9%), but streamflow reduction can be close to zero, when increasing precipitation outweighs the increasing evaporation.
+
+The increased precipitation is a combination of local recycling (when evaporated water rains out within the same river basin) and recycling of water from other, further upwind, regions. For several tropical basins with a high local evaporation recycling, the high recycling nearly completely compensates for the loss of water through evaporation. Most river basins with a low wetness index (water-limited basins) have a low tree-restoration potential simply because arid regions can only support tree growth if there is significant groundwater convergence. These arid river basins have a small absolute change in evaporation and precipitation. Overall, following tree restoration, streamflow will decrease for most of the world’s important river basins despite the indirect effect of evaporation recycling.
+
+---
+# Implications for water availability
+Our study shows that large-scale tree restoration will shift water availability regionally. The hot spots for forest restoration could face a strong reduction in the water availability because water supply by evaporation recycling is not enough to compensate for water loss through evaporation. However, regions with no or limited tree-restoration potential could see an increase in water availability due to the lateral transport of evaporated water into the region. This shows the importance of proper strategic planning of forest restoration projects. 
+
+Another important finding is that this tree-restoration scenario could further decrease annual water availability in several regions that are already facing water scarcity
+
+---
+# Discussion and conclusion
+This study estimated the effects of global large-scale tree restoration on water fluxes, including evaporation recycling. The results show that tree restoration shifts water availability and streamflow at both local and continental scales and that the patterns of increasing and decreasing water availability are complex throughout the globe. Following tree restoration, the increased precipitation could increase water availability locally; however, we find a global net loss of water availability over the continents. These conclusions are consistent with other data-driven or model-based studies of the effects of land-cover change on water fluxes. We stress that future tree-restoration strategies should consider the hydrological effects. Smart tree-restoration strategies are necessary to secure the water supply locally and remotely or enhance the water supply in water-scarce regions.
