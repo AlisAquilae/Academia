@@ -479,3 +479,13 @@ A \frac{\partial u}{\partial t} + A \, u \frac{\partial u}{\partial x} &= g \, A
 $$
 
 The following system of differential equations in $a$ and $u$ is this equivalent to the St-Venant equations, and is therefore sometimes called the St-Venant equations expressed in depth and velocity. 
+
+So, to summarise:
+
+$$
+\begin{aligned}
+\frac{\partial a}{\partial t} + u \frac{\partial a}{\partial x} + d \frac{\partial u}{\partial x}&= i \\
+\frac{\partial u}{\partial t} + u \frac{\partial u}{\partial x} + g \frac{\partial a}{\partial x} &= g(S_o - S_f) - \frac{i \, u}{d}
+\end{aligned}
+$$
+
