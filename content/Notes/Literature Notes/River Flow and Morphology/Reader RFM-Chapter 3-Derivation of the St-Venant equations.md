@@ -292,6 +292,31 @@ $$
 $$
 \begin{aligned}
 F_f &= -\frac{\rho \, g}{C^2} \, u^2 P \\
-&= -rho \,
+&= -\rho \, g \, A \, S_f
 \end{aligned}
 $$
+
+This constant $C$ is called the [[Chézy Equation|Chézy Coefficient]] and has the dimensions $\left[L^{-1/2}T^{-1}  \right]$. The formula above is called the Chézy formalism for the friction slope.
+
+The Chézy coefficient can take a broad range of values. Higher values ($75 \; \text{m}^{-1/2}s^{-1}$  to $50 \; \text{m}^{-1/2}s^{-1}$ ) for very clean rivers, average values (50 to 20) for "standard"  rivers, with some resistance (e.g. due to water plants), smaller values (20 to 5) for rivers with larger resistance (e.g. due to large water plants).
+
+The "derivation" above is, however, not rigorous and is based on assumptions that are not always true in practical situations. As a consequence, $C$ is not a constant and may depend on the other hydraulic variables (such as $R$ or $a$). 
+
+Another much used (empirical) formalism for the friction slope is that of Manning:
+
+$$
+S_f = \frac{n^2 Q^2}{A^2 R^{4/3}}
+$$
+
+Where $n$ is called the [[Manning Coefficient]] and has the dimension $\left[L^{-1/3}T \right]$. Again, the coefficient may depend on the depth and velocity. 
+
+As the friction term as dealt with in the St-Venant equations is highly empirical, neither the Chézy coefficient nor the Manning coefficient can be directly measured. The values mentioned above are the best first order guesses. Proper values can only be found by comparing results (levels, discharges) of calculations made with the St-Venant equations to measurements, thus by calibration. 
+
+## 3.3.5 Total momentum balance
+In some situations, there may be other forces involved than those mentioned above, such as the force induced by wind on the water surface. Here, we will restrict ourselves to the forces considered in the previous sections. Consider that the density of water is constant ($\rho \approx 1 \cdot 10^3$ kg m$^{-3}$), the total momentum balance becomes:
+
+$$
+\frac{\partial Q}{\partial t} + \frac{\partial Q u}{\partial x} = g \, A \left(S_o - S_f - S_p \right)
+$$
+
+---
