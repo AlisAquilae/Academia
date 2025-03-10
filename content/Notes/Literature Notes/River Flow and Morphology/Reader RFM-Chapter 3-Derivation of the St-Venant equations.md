@@ -402,3 +402,50 @@ $$
 
 and it will reappear at many places in these notes
 
+With the help of this new definition, the stationary equations can be written as:
+
+$$
+\begin{aligned}
+\frac{\partial Q}{\partial x} &= I \\
+\frac{\partial a}{\partial x} &= \frac{s_o - s_f - \frac{2 \, u \, I}{g \, A}}{1 - \text{Fr}^2}
+\end{aligned}
+$$
+
+These equations are often used to study the effects of hydraulic controls, such as weirs (e.g. backwater effects)
+
+---
+# 3.6 The St-Venant equations expressed in $a$ and $u$
+
+The St-Venant equations in section 3.4 clearly show the dependency on the variables $A$ and $Q$. The other basic variables $a$ and $u$ are "hidden" inside $A$ and $Q$. If wanted, the role of $a$ and $u$ can be made more explicit. Using our knowledge of the geometry of the cross section, one can write:
+
+$$
+\frac{\partial A}{\partial a} = b
+$$
+
+where $b = b(a)$ stands for the width of the cross section at level $a$. From this we can rewrite the mass balance equation into
+
+$$
+b \frac{\partial a}{\partial t} + b \, u \frac{\partial a}{\partial x} + A \frac{\partial u}{\partial x} = I
+$$
+
+or also (expressing the balance "per unit width"):
+
+$$
+\frac{\partial a}{\partial t} + u \frac{\partial a}{\partial x} + \frac{A}{b} \frac{\partial u}{\partial x} = \frac{I}{b}
+$$
+
+It is customary to introduce some new notation at this point. 
+
+1. Remember the definition of hydraulic depth:
+
+$$
+d = \frac{A}{b}
+$$
+
+2. We introduce the notation $i$ for the lateral flow per unit width:
+
+$$
+i = \frac{I}{b}
+$$
+
+This new quantity has the dimension of [L / T]. If the lateral inflow consists only of rain falling into the river or evaporation extracting water from the river, the $i$ is just the intensity. See section 3.2.3 for the to
