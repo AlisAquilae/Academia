@@ -65,3 +65,26 @@ There is thus an optimum complexity. Captured by Occam's razor theory (law of pa
 - Determine how many assumptions and conditions are necessary. If an explanation requirex extra assumptions
 - ??????????
 
+Model terminology:
+- Input
+  - Model parameters (or variables)
+  - Initial conditions (for all model states)
+  - Model / atmospheric forcing (e.g. P, T, RH)
+- Model simupation (equation)
+- Outout
+  - Model variables (e.g. Q, ET)
+  - State variables (e.g. S)
+
+Usually sensitivity analysis is included, where paramaters, etc. are varied
+
+**How to quantify how well a model fits the data?**
+Nash-Sutcliffe coefficient. Still used a lot.
+
+Nash-Sutcliffe is R$^2$ for linear regression, with the only difference being that it can become negative.
+
+>[!Warning]
+>ChatGPT Nash-Sutcliffe
+
+Easy to interpret, normalised statistic, but emphasis on peak flows and outliers
+
+Drawbacks of NSE: high vs. low flows very sensitive to log transformation. Does not handle this well. Another problem of NSE baseline being mean of the model is not very ambitious. It is very simple to make use of this. Thus you need a better baseline / benchmark. Now same formula but instead of mean you use baseline discharge 
