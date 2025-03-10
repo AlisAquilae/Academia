@@ -38,3 +38,30 @@ We use [[Flux Density|Specific Discharge]] instead of regular discharge
 We have a system with climate forcing (water and energy) where in a natural system with a lot of complexity and variability produces some output.  model simplifies this and tries to predict it. 
 
 Catchment is box which partitions, stores and releases water. System has memory, meaning that precipitation - discharge shoots up and then slowly declines
+
+Types of models in hydrology
+- Conceptual model (reservoirs)
+- Perceptual model (view on how the system works)
+- Physically-based model (differential equations)
+- Lumped models, distributed models
+
+Steps in model development
+1. System conceptualisation (knowledge on dominant hydrological processes)
+2. Numerical implementation
+3. Code verification (check whether concept was implemented correctly)
+4. Model parameter calibration or optimisation
+5. Model output validation
+
+4 and 5 using different subsets of available data ("split sample" consisting of training set and validation set)
+
+Model development complexity and data availability together determine the performance of a model and what its worth in practice. 
+
+We can also look at model prediction in terms of bias and variance
+- High bias means off-target
+- High variance means not accurate
+
+There is thus an optimum complexity. Captured by Occam's razor theory (law of parsimony):
+- Problem solving principle: always choose model with fewest assumptions. 
+- Determine how many assumptions and conditions are necessary. If an explanation requirex extra assumptions
+- ??????????
+
