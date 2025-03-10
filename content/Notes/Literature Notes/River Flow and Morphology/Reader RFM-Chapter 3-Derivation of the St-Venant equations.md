@@ -232,5 +232,66 @@ One way of reasoning resulting (at least) in a mathematical form for the frictio
 1. One can state in general that the frictiono increases if the velocity increases, as this generates more turbulence. Newton's hypothesis states that friction is in general proportional to the square of the velocity:
 
 $$
-F_f \
+F_f \sim u^2
+$$
+
+2. Friction occurs due to turbulence along the bottom and walls. From this one may conclude that the more contact the flow has with the walls and the bottom, the higher the friction will be. This leads to:
+
+$$
+F_f \sim P
+$$
+
+>[!Note]
+>(for $P$ and $R$, see [[Reader RFM-Chapter 2-Basic descriptions and assumptions|Chapter 2]])
+
+3. Combining the aspects above, oen may assume that there exists a constant $c$, such that
+
+$$
+F_f = -c \, u^2 \, P
+$$
+
+Because the two previous forces could be written as:
+
+$$
+\begin{aligned}
+F_o &= \rho \, g \, A \, S_o &= \rho \, g \, a \; (\text{gravity slope}) \\
+F_p &= -\rho \, g \, A \, S_p &= -\rho \, g \, A \; (\text{pressure slope})
+\end{aligned}
+$$
+
+It is also customary to rewrite the friction force in a similar formula:
+
+$$
+F_f = - \rho \, g \, A \, S_f = - \rho \, g \, A \; (\text{friction slope})
+$$
+
+
+So that one can rewrite for the sum of the forces:
+
+$$
+F_o + F_f + F_p = \rho \, g \, A \, (S_o - S_f - S_p)
+$$
+
+The friction slope is then defined by:
+
+$$
+\begin{aligned}
+S_f &= \frac{-F_f}{\rho \, g \, A} \\
+&= \frac{c}{\rho \, g} \frac{u^2 P}{A} \\
+&= \frac{c}{\rho \, g} \frac{Q^2 A}{A^2 RA} \\
+&= \frac{c}{\rho \, g}\frac{Q^2}{A^2 R}
+\end{aligned}
+$$
+
+Out of respect for historical tradition, the constant is rewritten as $1/C^2$:
+
+$$
+S_f = \frac{Q^2}{C^2 A^2 R}
+$$
+
+$$
+\begin{aligned}
+F_f &= -\frac{\rho \, g}{C^2} \, u^2 P \\
+&= -rho \,
+\end{aligned}
 $$
