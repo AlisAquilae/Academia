@@ -489,3 +489,22 @@ $$
 \end{aligned}
 $$
 
+
+---
+# A dimensionless form of the St-Venant equations
+Another form of the St-Venant equations that is often used is the so-called *dimensionless form*. In dimensionless form all variables are divided by a typical reference value, which makes them dimensionless. If this is properly done, the resulting dimensionless variables will all have a magnitude of the order of 1. The reference variable will end up in the equations as constants, and can help to evaluate which terms are important and which ones can be neglected in an equation.
+
+Dimensionless forms also make the comparison between different rivers easier. For example, a small river and a large river might have very different discharge and geometry and are hard to compare (comparing apples with oranges), while the hydrodynamic behaviour might be similar. Looking at the dimensionless form of equations makes the terms in the governing equations have a scale-independent magnitude allowing for direct comparison (comparing mandarins with mandarins).
+
+We give here a typical derivation of a dimensionless form of the St-Venant equations starting from the balance form of the St-Venant equations without lateral inflow using the Chézy form for the friction slope.
+
+$$
+\begin{aligned}
+\frac{\partial A}{\partial t} + \frac{\partial Q}{\partial x} &= 0 \\
+\frac{\partial Q}{\partial t} + \frac{\partial Q \, u}{\partial x} &= g \, A \left(S_o - S_f - \frac{\partial a}{\partial x} \right) \\
+S_f &= \frac{Q^2}{C^2 A^2 R}
+\end{aligned}
+$$
+
+## 3.7.1 Reference values
+The starting point of all dimensionless analysis is to choose reference values. We start by choosing a "typical" reference value for the discharge: $\overline{Q}$, e.g. the mean discharge. Next, we choose a reference value for depths. 
