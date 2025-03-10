@@ -448,4 +448,34 @@ $$
 i = \frac{I}{b}
 $$
 
-This new quantity has the dimension of [L / T]. If the lateral inflow consists only of rain falling into the river or evaporation extracting water from the river, the $i$ is just the intensity. See section 3.2.3 for the to
+This new quantity has the dimension of [L / T]. If the lateral inflow consists only of rain falling into the river or evaporation extracting water from the river, the $i$ is just the intensity. See section 3.2.3 for the other forms.
+
+With the help of these new notations, the mass balance per unit width can now be written as:
+
+$$
+\frac{\partial a}{\partial t} + u \frac{\partial a}{\partial x} + d \frac{\partial u}{\partial x} = i
+$$
+
+In a similar way, the momentum balance becomes
+
+$$
+A \frac{\partial u}{\partial t} + b \, u \frac{\partial a}{\partial t} + b \, u^2 \frac{\partial a}{\partial x} + 2Au \frac{\partial u}{\partial x} = g \, A \left(S_o - S_f - \frac{\partial a}{\partial x} \right)
+$$
+
+This last equation can be simplified by subtracting the following equation obtained by multiplying the mass balance with $u$:
+
+$$
+b \, u \frac{\partial a}{\partial t} + b \, u^2 \frac{\partial a}{\partial x} + A \, u \frac{\partial u}{\partial x} = I \, u = i \, b \, u
+$$
+
+resulting in:
+
+$$
+\begin{aligned}
+A \frac{\partial u}{\partial t} + A \, u \frac{\partial u}{\partial x} &= g \, A \left( S_o - S_f - \frac{\partial a}{\partial x} \right) - i \, b \, u \\
+\frac{\partial u}{\partial t} + u \frac{\partial u}{\partial x} &= g \left(S_o - S_f - \frac{\partial a}{\partial x} \right) - i , u , \frac{b}{A} \\
+&= g \left( S_o - S_f - \frac{\partial a}{\partial x}\right) - \frac{i \, u}{d}
+\end{aligned}
+$$
+
+The following system of differential equations in $a$ and $u$ is this equivalent to the St-Venant equations, and is therefore sometimes called the St-Venant equations expressed in depth and velocity. 
