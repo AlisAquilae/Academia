@@ -321,8 +321,55 @@ $$
 
 ---
 # 3.4 The St-Venant equations
-Combining all the derivations above results in the St-Venant equations, a system of two partial differential equations:
+
+>[!Important]
+>Combining all the derivations above results in the St-Venant equations, a system of two partial differential equations:
+>
+>$$
+>\begin{aligned}
+>\frac{\partial A}{\partial t} + \frac{\partial Q}{\partial x} &= I \\
+>\frac{\partial Q}{\partial t} + \frac{\partial Q \, u}{\partial x} &= g \, A \left(S_o - S_f - S_p \right)
+>\end{aligned}
+>$$
+
+
+---
+# 3.5 Non dynamic St-Venant equations
+In this section we will consider in more detail the non dynamic form of the St-Venant equations. 
+
+## 3.5.1 Equilibrium equations
+Those flowing situations where there is neither dependency on time nor on space are called *equilibrium*. Equilibrium occurs when everything along the river is uniform (no changes in cross-section, no abrupt changes such as weirs), and no time dependent stress (rainfall, changes in levels) occurs
+
+In that case, $a$, $Q$, $u$ and all other quantities involved are now constants, independent of $t$ and $x$. They will be denoted with the subscript $_e$ to stress that aspect, as in $a_e$, $Q_e$, $u_e$. As in equilibrium all derivatives with respect to time and space vanish, the St-Venant equations reduce to
 
 $$
+0 = S_o - S_f
+$$
 
+In Chézy and Manning formalism, respectively:
+
+$$
+\begin{array}{l}
+\frac{Q^2_e}{C^2 A^2_e R_ e} = S_0 & & \frac{n^2 Q^2_e}{A^2_e R^{4/3}_e} = S_o
+\end{array}
+$$
+
+Which is usually rewritten as:
+
+$$
+\begin{aligned}
+Q_e &= \sqrt{S_o} C \, A_e \, R_e^{1/2} \\
+Q_e &= \frac{\sqrt{S_o}}{n} \, A_e \, R_e^{2/3}
+\end{aligned}
+$$
+
+These expressions are referred to as [[Chézy's Law]] and [[Manning's Law]]. They show that in equilibrium conditions, there is a one-to-one relationship between discharge $Q$ and depth $a$: $Q_e = Q_e(a_e)$. 
+
+## 3.5.2 Stationary equations
+Those flowing situations that do not change in time are called *stationary*. As all time dependencies vanish, the St-Venant equations reduce to:
+
+$$
+\begin{aligned}
+\frac{\partial Q}
+\end{aligned}
 $$
