@@ -25,3 +25,4 @@ We will try to set up a mass balance and a momentum balance.
 
 Upstream inflow - downstream outflow + external in/outflow = change in storage. Goes for mass, momentum, energy, etc. Any preserved quantity.
 
+See notebook
