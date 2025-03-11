@@ -23,4 +23,5 @@ It is all about bookkeeping what comes in and what goes out. Not everything whic
 
 We will try to set up a mass balance and a momentum balance. 
 
+Upstream inflow - downstream outflow + external in/outflow = change in storage. Goes for mass, momentum, energy, etc. Any preserved quantity.
 
