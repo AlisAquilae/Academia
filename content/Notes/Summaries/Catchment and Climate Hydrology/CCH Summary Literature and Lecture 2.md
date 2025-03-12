@@ -53,20 +53,24 @@ Whereas the upwards movement of soil water occurs mainly due to plant uptake, wa
 >[!Note]
 >Different soils have different grain sized. Both the hydraulic conductivity and the grain size strongly influence model parameters
 
-After all excess water has been drained away, and only the water that is bound to soil particles by capillary forces remains, the remaining water in the soil is called the [[Field Capacity]]. This serves as a practical  measure for the water-holding capacity of a field of soil. 
+After all excess water has been drained away, and only the water that is bound to soil particles by capillary forces remains, the remaining water in the soil is called the [[Field Capacity]] ($\theta_{\text{FC}}$). This serves as a practical  measure for the water-holding capacity of a field of soil. 
 
 >[!Important]
 >That is not to say that the level of water cannot decrease below field capacity. Rather, this is the maximum level gravity can decrease the water level to. Other processes, like evaporation, can decrease the amount of water further. 
 
 
+---
+# Importance of soil moisture for evapotranspiration
 The relation between the volumetric water content ($\theta$) and unsaturated conductivity $k$ can de described by a power-law:
 
 $$
 k(\theta) = k_{\text{sat}} \left(\theta / \theta_{\text{sat}} \right)^{2b+3}
 $$
 
-where $k_{\text{sat}}$, $\theta_{\text{sat}}$ and $b$ are soil hydraulic properties which differ for every soil type. 
+where $k_{\text{sat}}$, $\theta_{\text{sat}}$ and $b$ are soil hydraulic properties which differ for every soil type. This is used by [[Albertson & Kiely (2001)-On the structure of soil moisture time series|Albertson & Kiely (2011)]] as well, though in a slightly different form:
 
+$$
+q_{rz} = K(\theta_{rz}) = K_{\text{sat}}\left( \frac{\theta_{rz}}{\theta_{rz,max}} \right)^{2b+3}
+$$
 
----
-# Importance of soil moisture for evapotranspiration
+where $q_{rz}$ is the unit head gradient [[Darcy's Law]] 
