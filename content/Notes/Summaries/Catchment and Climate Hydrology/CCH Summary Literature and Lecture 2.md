@@ -30,7 +30,7 @@ When we are talking about evapotranspiration (ET), it is necessary to differenti
 
 
 ---
-# Impact of Soil Moisture on Evapotranspiration
+# Dynamics between soil moisture and evapotranspiration
 We previously saw that soil moisture evaporation is an important process for the water and energy balances. [[Soil Moisture]] refers to the water present in the [[Unsaturated Zone]] of the soil, caught between soil particles. When all pores are filled with water, the soil becomes 'saturated', and therefore part of the [[Saturated Zone]]. Even in the driest conditions, however, there is always some soil moisture present. This is caused by capillary forces, gluing the water to the soil particles. 
 
 >[!Important]
@@ -57,6 +57,15 @@ After all excess water has been drained away, and only the water that is bound t
 
 >[!Important]
 >That is not to say that the level of water cannot decrease below field capacity. Rather, this is the maximum level gravity can decrease the water level to. Other processes, like evaporation, can decrease the amount of water further. 
+
+
+The relation between the volumetric water content ($\theta$) and unsaturated conductivity $k$ can de described by a power-law:
+
+$$
+k(\theta) = k_{\text{sat}} \left(\theta / \theta_{\text{sat}} \right)^{2b+3}
+$$
+
+where $k_{\text{sat}}$, $\theta_{\text{sat}}$ and $b$ are soil hydraulic properties which differ for every soil type. 
 
 
 ---
