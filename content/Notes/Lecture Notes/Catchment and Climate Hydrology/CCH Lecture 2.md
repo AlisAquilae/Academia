@@ -35,4 +35,26 @@ Moisture in the soil.
 Metrics:
 - Soil column of depth $L$ (mm). Half filled is approximately saturation, because porosity usually about 50%
 - Absolute water content: S = porosity times soil depth $L$
-- Ratio of wetness: between zero and one. However, you lose info on how much water is available in absol
+- Ratio of wetness: between zero and one. However, you lose info on how much water is available in absolute sense
+- Volumetric water content: percentage of water in volume of soil. Cannot exceed porosity. Usually indicated by $\theta$. 
+
+Observing storage
+- Gravimeter (small ring sample, weigh it, dry it in the oven, weigh again, that is how much water is in there). You can, however, never repeat the measurement again. Labour intensive, destructive. 
+- TDR. Accurate, but very expensive, needs calibration. 
+- Neutron probe. Used in the past. Accurate but radioactive
+- Cosmic ray. Suffers from interpretation issues. 
+- Groundwater wells. Accurate, cheap, but required shallow groundwater and no info about unsaturated zone. 
+- Gravity field anomalies (GRACE). Coarse spatial resolution. Low frequency.
+- Passive microwave. Accurate, but only shallow part of soil
+- Active microwave. More accurate, higher resolution, but even shallower. 
+
+These also vary in measurement scales. 
+
+Scaling models:
+- spacing between measurement 
+- Extent (range of all measurements)
+- Support: (range of single measurement)
+
+Water in the soil can go down or up. 
+- Up generally via uptake of plant roots. 
+- Down: gravity pulls water down. Wants to flow through pores, but pores want to keep water in due to capillary for
