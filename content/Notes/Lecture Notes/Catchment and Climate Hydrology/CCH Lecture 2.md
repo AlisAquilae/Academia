@@ -90,3 +90,11 @@ $$
 
 We thus require a very high resolution to measure something each second, which we then ned to aggregate to the decade. 
 
+# Impact of soil moisture on actual ET
+At soil moisture values below critical moisture content, water uptake from plant roots can no longer satisfy PET and ET becomes supply limited. Models typically account for this by multiplying PET bya  stress factor $\beta$. 
+
+The stress factor is typoically nonlinear, and often parameterised by a piecewise linear function of soil moisture. Below wilting point 0, fully saturated is 1, in between is linear function. 
+
+---
+# Rooting depth
+Now also link to absolute storage, and therefore rooting depth. This is highly variable and uncertain, and difficult to 
