@@ -114,3 +114,8 @@ In a wet climate, soils will be at field capacity, because that's where they lik
 Below critical moisture, soil is also quite comfortable. In deserts. New precipitation is limited, and immediately gets evaporated. 
 
 Thus, 2 preferred states. One in dry season and one in wet season. 
+
+Budyko-curve. Excursions above and below critical moisture content cause actual ET to defer from potential ET. 
+
+Looking at the long-term partitioning. It is not as simple as P - ET, as it depends on dynamics and whether soils will dry out below critical moisture content. 
+
