@@ -92,4 +92,21 @@ $$
 \right.
 $$
 
-Combining the drainage ($K$) and the evapotranspiration gives a soil moisture loss function. 
+![[Pasted image 20250312151354.png]]
+
+Combining the drainage ($K$) and the evapotranspiration gives a soil moisture loss function. When plotting this combined function, we find the following
+
+![[Pasted image 20250312151540.png]]
+
+From this figure, we can conclude that below the critical soil moisture, we see a gradually decreasing loss. This is because precipitation is already limited and all precipitation is immediately evaporated, and new water cannot be added to the volumetric soil moisture. In the higher regions, above field capacity, any new precipitation will immediately be drained, creating a sharp increase in loss. 
+
+In general, the system therefore prefers to be either wet or dry, but not somewhere in between. There are therefore two preferred systems. This can be confirmed when plotting these individually
+
+![[Pasted image 20250312152007.png]]
+
+In the month august, volumetric soil moisture is low, and losses increase rapidly due to evapotranspiration. Then, evapotranspiration decreases up until a certain point, until the system is no longer water-limited but energy limited. Excess water immediately gets drained, leading to high drainage scores in may.
+
+![[Pasted image 20250312152154.png]]
+
+This way we can also compare places with different climates. Viriginia is water-limited and
+
