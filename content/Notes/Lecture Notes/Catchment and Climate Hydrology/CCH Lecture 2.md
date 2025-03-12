@@ -57,4 +57,14 @@ Scaling models:
 
 Water in the soil can go down or up. 
 - Up generally via uptake of plant roots. 
-- Down: gravity pulls water down. Wants to flow through pores, but pores want to keep water in due to capillary for
+- Down: gravity pulls water down. Wants to flow through pores, but pores want to keep water in due to capillary forces. Balance between the two determines flow. If soil is wet, gravity is stronger. If dry, capillary forces stronger. Flux pulled down by gravity is [[Permeability|Hydraulic Conductivity]]. Strongly depends on amount of water in the soil (almost to the point it is a threshold process). Different soils have different grain sizes. Both hydraulic conductivity and grain size strongly influence model parameters
+
+## Field capacity
+[[Field Capacity]] is generally defined as the volumetric water content after excess water has drained away and the rate of downward movement has decreased. Serves as a practical measure for the water-holding capacity of a field soil. Water can still go below field capacity, e.g. through evaporation
+
+Above field capacity, rapid increase in amount of water being drained. Below field capacity, nothing really happens
+
+## Evapotranspiration
+In many catchments, more water leaves the catchment via evaporation than via streamflow. Streamflow is often storage-driven, leading to faster recession rates in summer compared to winter. Many long-term changes in runoff characteristics can be attributed to changes in evaporation. Integral part of hydrological models. 
+
+Energy associated with whate
