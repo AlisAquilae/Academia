@@ -73,4 +73,8 @@ $$
 q_{rz} = K(\theta_{rz}) = K_{\text{sat}}\left( \frac{\theta_{rz}}{\theta_{rz,max}} \right)^{2b+3}
 $$
 
-where $q_{rz}$ is the unit head gradient [[Darcy's Law]] 
+where $q_{rz}$ is the drainage from the root zone. 
+
+This formula shows that drainage from the root zone (i.e. $K$) is a highly non-linear process (in fact, one of the least linear ones in nature). For low volumetric water contents, the drainage from the rootzone is almost non-existent. This remains the case when VWC increases. At some point, however, a point is reached where $K$ increases drastically. 
+
+In addition, another 'loss' of water is evapotranspiration. We saw previously that we usually work with PET. The inclusion of the rootzone is important, because under certain conditions AET starts to differ from PET. At low soil moisture, uptake from plant roots can no longer satisfy the atmospheric demand (PET), and AET becomes supply or soil moisture limited. Similarly, at high soil moisture there is too much water to be evaporated, and the system becomes energy-limited. The point in between is a transitional region, where systems are limited 
