@@ -77,4 +77,19 @@ where $q_{rz}$ is the drainage from the root zone.
 
 This formula shows that drainage from the root zone (i.e. $K$) is a highly non-linear process (in fact, one of the least linear ones in nature). For low volumetric water contents, the drainage from the rootzone is almost non-existent. This remains the case when VWC increases. At some point, however, a point is reached where $K$ increases drastically. 
 
-In addition, another 'loss' of water is evapotranspiration. We saw previously that we usually work with PET. The inclusion of the rootzone is important, because under certain conditions AET starts to differ from PET. At low soil moisture, uptake from plant roots can no longer satisfy the atmospheric demand (PET), and AET becomes supply or soil moisture limited. Similarly, at high soil moisture there is too much water to be evaporated, and the system becomes energy-limited. The point in between is a transitional region, where systems are limited 
+In addition, another 'loss' of water is evapotranspiration. We saw previously that we usually work with PET. The inclusion of the rootzone is important, because under certain conditions AET starts to differ from PET. At low soil moisture, uptake from plant roots can no longer satisfy the atmospheric demand (PET), and AET becomes supply or soil moisture limited. At the very lowest, even, there is so little water that evaporation almost stagnates. Similarly, at high soil moisture there is too much water to be evaporated, and the system becomes energy-limited. 
+
+The point where the transitional zone becomes a dry zone is called the **wilting point** ($\theta_{\text{wilt}}$). The point where the system becomes energy limited is called the **critical soil moisture** ($\theta_{\text{crit}}$). 
+
+It is common to incorporate this into models by multiplying PET by a stress factor $\beta$ which takes these considerations into account. This stress factor is then commonly defined as
+
+$$
+\beta = \beta(\theta_{\text{rz}}) = \left\{\begin{array}{ll}
+0 & \theta_{\text{rz}} \le \theta_{\text{w}} \\
+\frac{\theta_{\text{rz}} - \theta_{\text{wilt}}}{\theta_{\text{lim}}-\theta_{\text{wilt}}} & \theta_{\text{wilt}} \lt \theta_{\text{rz}} \lt \theta_{\text{lim}} \\
+1 & \theta_{\text{rz}} \ge \theta_{\text{lim}}
+\end{array}
+\right.
+$$
+
+Combining the drainage ($K$) and the evapotranspiration gives a soil moisture loss function. 
