@@ -58,3 +58,6 @@ After all excess water has been drained away, and only the water that is bound t
 >[!Important]
 >That is not to say that the level of water cannot decrease below field capacity. Rather, this is the maximum level gravity can decrease the water level to. Other processes, like evaporation, can decrease the amount of water further. 
 
+
+---
+# Importance of soil moisture for evapotranspiration
