@@ -128,3 +128,8 @@ The course material for this course consists of scientific papers. Given that th
 
 ## 6. Synthesis and Field Excursion Iceland
 - [[CCH Lecture 16]]
+
+
+
+# 🔗 Summaries
+- [[CCH Summary Literature and Lecture 2]]
