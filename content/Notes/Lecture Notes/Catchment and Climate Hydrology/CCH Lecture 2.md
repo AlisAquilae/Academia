@@ -110,3 +110,7 @@ Uses same formulas for drainage and ET and above, and considers these two separa
 Together, they describe how much water is 'lost'  from the system. This is the loss-functioon . Total loss per day given a typical soil profile per level of soil moisture. 
 
 In a wet climate, soils will be at field capacity, because that's where they like to be. 
+
+Below critical moisture, soil is also quite comfortable. In deserts. New precipitation is limited, and immediately gets evaporated. 
+
+Thus, 2 preferred states. One in dry season and one in wet season. 
