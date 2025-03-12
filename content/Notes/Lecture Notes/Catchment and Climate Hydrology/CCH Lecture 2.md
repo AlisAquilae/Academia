@@ -67,4 +67,18 @@ Above field capacity, rapid increase in amount of water being drained. Below fie
 ## Evapotranspiration
 In many catchments, more water leaves the catchment via evaporation than via streamflow. Streamflow is often storage-driven, leading to faster recession rates in summer compared to winter. Many long-term changes in runoff characteristics can be attributed to changes in evaporation. Integral part of hydrological models. 
 
-Energy associated with whate
+Energy associated with water phase changes. Energy needed for transition from 1kg liquid to 1kg of water vapour is a lot, 2450 KJ. 
+
+Evaporation can occur via different processes. Difference between fores- and non-forest sites. In forest, lot of rainfall can remain on canopy and directly evaporate from there (never reaches the soil). Can account for 50% of evaporation for western-European environments. Globally, on avergae, stomata transpiration accounts for 80% of evaporation.
+
+Globally, most of the evaoptranspiration stems from transpiration, which peaks in tropics. Bare-soil evaporation only dominates in semi-arid regions.
+
+We are talking about ET.
+- Potential ET (PET) is a representation of the environmental demand for evapotranspiration. Not actual evapotranspiration, but potential for evapotranspiration given enough water is available. Standardised ET. Actual ET is said to be potential ET when there is enough water !!!
+
+Estimating PET
+- Penman-Monteith. Strongest theoretical basis, but required most inputs and observations
+- Priestley-Tailor. Robust, but no advection
+- Makkink. Global rather than net radiation
+- Thornthwaithe. Little input data needed, but does not consider energy balance. Only considers temperature. 
+
