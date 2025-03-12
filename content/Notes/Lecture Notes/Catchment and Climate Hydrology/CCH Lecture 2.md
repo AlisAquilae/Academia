@@ -97,4 +97,16 @@ The stress factor is typoically nonlinear, and often parameterised by a piecewis
 
 ---
 # Rooting depth
-Now also link to absolute storage, and therefore rooting depth. This is highly variable and uncertain, and difficult to 
+Now also link to absolute storage, and therefore rooting depth. This is highly variable and uncertain, and difficult to measure. Therefore this is often a tuning paramater. Usually taken in range of 50-100 cm
+
+Usually 150mm evaporation available more than precipitation for evaporation. Afterwards, soil moisture becomes limiting. taken as difiference between field capcacity, and critical moisture content times rooting depth
+
+---
+# Paper for today
+One of first papers to analyse longer time-series soil moisture. 
+
+Uses same formulas for drainage and ET and above, and considers these two separate.
+
+Together, they describe how much water is 'lost'  from the system. This is the loss-functioon . Total loss per day given a typical soil profile per level of soil moisture. 
+
+In a wet climate, soils will be at field capacity, because that's where they like to be. 
