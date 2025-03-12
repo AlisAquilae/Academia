@@ -31,4 +31,20 @@ When we are talking about evapotranspiration (ET), it is necessary to differenti
 
 ---
 # Impact of Soil Moisture on Evapotranspiration
+We previously saw that soil moisture evaporation is an important process for the water and energy balances. [[Soil Moisture]] refers to the water present in the [[Unsaturated Zone]] of the soil, caught between soil particles. When all pores are filled with water, the soil becomes 'saturated', and therefore part of the [[Saturated Zone]]. Even in the driest conditions, however, there is always some soil moisture present. This is caused by capillary forces, gluing the water to the soil particles. 
+
+>[!Important]
+>In saturated conditions, the amount of water present in the soil is equal to the [[Porosity]]. In practice, porosity is usually about 50%
+
+One important metric for the amount of water present in a soil is the [[Volumetric Water Content]] ($\theta$). This refers to the percentage of water in the total volume of the soil (i.e. including the soil particles). Logically, therefore, the volumetric water content can never exceed the porosity.
+
+>[!Info]
+>Similar to evapotranspiration, we have various tools to find the amount of soil moisture present in a soil:
+>- Gravimeter: Take a small ring sample, weigh it, evaporate the water in an oven, and weigh the sample again. The difference in weight is the amount of water that was present. This is a cheap and simple method, but samples cannot be repeatedly analysed
+>- TDR: Accurate, but very expensive. 
+>- Neutron probe: Commonly used in the past. Accurate but slightly radioactive
+>- Cosmic ray: Suffers from interpretation issues
+>- GRACE: Satelite-based observations. Very coarse spatial resolution and low frequency, but very accurate
+>- Passive microwave. Highly accurate, but can only investigate a small top-section of the soil
+>- Active microwave: Even more accurate than passive microwave, but also even more shallow
 
