@@ -48,3 +48,13 @@ One important metric for the amount of water present in a soil is the [[Volumetr
 >- Passive microwave. Highly accurate, but can only investigate a small top-section of the soil
 >- Active microwave: Even more accurate than passive microwave, but also even more shallow
 
+Whereas the upwards movement of soil water occurs mainly due to plant uptake, water is pulled down by gravity. Water wants to flow down, but is bound to soil particles by capillary forces. If the soil is wetter, gravity is stronger, and there is more downwards movement of soil water. If the soil is drier, the capillary forces are stronger, and water cannot leave the soil. The flux of the gravity-induced downward movement of water is there fore highly dependent on the amount of water already in the soil. This flux is equal to the [[Permeability|Hydraulic Conductivity]]. 
+
+>[!Note]
+>Different soils have different grain sized. Both the hydraulic conductivity and the grain size strongly influence model parameters
+
+After all excess water has been drained away, and only the water that is bound to soil particles by capillary forces remains, the remaining water in the soil is called the [[Field Capacity]]. This serves as a practical  measure for the water-holding capacity of a field of soil. 
+
+>[!Important]
+>That is not to say that the level of water cannot decrease below field capacity. Rather, this is the maximum level gravity can decrease the water level to. Other processes, like evaporation, can decrease the amount of water further. 
+
