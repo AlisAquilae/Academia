@@ -11,4 +11,24 @@ Related Courses: ["[[Catchment and Climate Hydrology]]"]
 # Introduction
 The temporal structure of soil moisture is a key feature of hydrologic interactions with climate. The effects are bi-directional: vegetation and soils, through their controls on transpiration and drainage, leave a distinct imprint on the temporal structure of soil moisture; and, over long time periods, the governing role that soil moisture plays on the partitioning of energy at the land surface manifests itself as a regional regulation on climate. Soil moisture and its evaporation are therefore integral in predicting the water and energy fluxes across the land surface. 
 
-Although evapotranspiration is not the first thing we think of when setting up a water balance, it is highly important. In many catchments, more water leaves the catchment via eca
+---
+# Evapotranspiration
+
+Although evapotranspiration is not the first thing we think of when setting up a water balance, it is highly important. In many catchments, more water leaves the catchment via evaporation than via streamflow. Streamflow is often storage-driven, leading to faster recession rates in summer than in winter. Meanwhile, evaporation continues year-round. It therefore accounts for many long-term changes in runoff characteristics. 
+
+When we are talking about evapotranspiration (ET), it is necessary to differentiate between [[Actual Evapotranspiration]] (AET) and [[Potential Evapotranspiration]] (PET). PET is a representation of the environmental demand for evapotranspiration. It represents the ET for a standardised soil, given standardised conditions, and, importantly, given ample water availability. Actual ET is equal to PET if, in reality, enough water is available. Where this is not the case, AET differs from PET. It is very difficult to calculate AET, which is why we often work with PET instead. 
+
+>[!Info]
+>There are different ways to estimate PET:
+>- Penman-Monteith: Has the strongest theoretical basis, but requires the most observations as inputs, and is therefore difficult to implement
+>- Priestley-Tailor: Is a significantly easier yet robust method, but has as a downside that it does not include [[Advection]].
+>- Makkink: Similarly robust, but looks at global radiation rather than net radiation
+>- Thornthwaithe. Easy and little input data needed, but does not consider the energy balance (it is only a function of temperature)
+
+>[!Info]
+>Most transport of water vapour occurs via turbulent exchange. This is often approximated using the [[Eddy Covariance]], which states that, under certain assumptions, the vertical flux of moisture is proportional to the covariance between the vertical typical wind speed and the variable of interest (temperature for $H$ and $q$ for ET). Although this is our best-approximation at present, the eddy covariance has to be measured at the time-scale of seconds. This makes it very difficult to find patterns in evapotranspiration which, we know, is a process that differs in the order of months to years.
+
+
+---
+# Impact of Soil Moisture on Evapotranspiration
+
