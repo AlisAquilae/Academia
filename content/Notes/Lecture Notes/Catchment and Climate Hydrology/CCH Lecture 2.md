@@ -82,3 +82,11 @@ Estimating PET
 - Makkink. Global rather than net radiation
 - Thornthwaithe. Little input data needed, but does not consider energy balance. Only considers temperature. 
 
+Most transport of water vapour occurs via turbulent exchange. Under certain assumptions, the vertical flux is proportional to the covariance between vertical typical wind speed and the variable of interest (temperature for H and q for ET)
+
+$$
+F \approx \overline{\rho_a} \overline{w'T'}
+$$
+
+We thus require a very high resolution to measure something each second, which we then ned to aggregate to the decade. 
+
