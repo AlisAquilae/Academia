@@ -108,5 +108,10 @@ In the month august, volumetric soil moisture is low, and losses increase rapidl
 
 ![[Pasted image 20250312152154.png]]
 
-This way we can also compare places with different climates. Viriginia is water-limited and
+This way we can also compare places with different climates. Viriginia is water-limited and Cork is energy-limited. 
 
+These climatic differences are captured in the [[Budyko Curve]], which plots the difference between PET and AET because of reasons explained above. 
+
+![[Pasted image 20250312152414.png]]
+
+The argument here is that instead of being a linear function, some systems cross the critical soil moisture point at times, leading to a generally lower AET.
