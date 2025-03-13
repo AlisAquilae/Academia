@@ -42,4 +42,8 @@ Simple model which predicts changes in forest cover and its effect on AET is the
 There is a theory that forests act like sponges, called "sponge theory". It has never really been confirmed, but it keeps coming back as an idea. According to the theory, if trees grow and you get a forest, which develops the soil, you get more organic matter. The whole complex acts like a giant sponge, taking up water in wet periods and releasing it in dry periods. This theory has been criticised since the 1920s, but is still popular among policy makers and NGOs. 
 
 Little research on impact of forests on floods. This research is difficult because
-- You need small, 
+- You need small, similar catchments in a pairwise fashion. 
+- You ideally want a flood to occur in your forest. Such floods are rare, and it is even rarer for them to occur where your measurement devices are.
+- Measuring floods in general is difficult. A lot can go wrong. Weirs being blocked, electricity cutting out. 
+
+In general, most study present find a decrease in flood peak with an increase in tree cover, predominantly with high intensity rainfall. 
