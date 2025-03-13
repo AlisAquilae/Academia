@@ -60,3 +60,10 @@ For tropical forests, removing them you are left with grass which dries out quic
 Boreal forests have an important warming role, because they reduce the albedo of the snow cover. Boreal foretss absorb a lot of energy, thus leading to local warming. 
 Temperate regions are much more uncertain.
 
+Forests dont just have a local impact, but a regional one. Water that is evaporated might precipitate somewhere else, therefore forming remote connections.
+
+---
+Forests evaporate more, but only on average. On individual days, you can get a completely different dynamic. Under extreme temeperatures, forests modulate their evapotranspiration.
+
+---
+# Interaction between forests and clouds
