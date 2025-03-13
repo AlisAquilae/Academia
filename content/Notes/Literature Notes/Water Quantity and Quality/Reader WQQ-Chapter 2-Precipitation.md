@@ -91,3 +91,29 @@ $$
 
 where
 - $d = |p_1 - p_2|$
+- $R$ is the rainfall depth
+
+## 2.5.2 Spatial interpolation
+For most applications, it is not useful to know the rainfall intensities and sums at the meteorological stations alone; hydrologists usually want to know how much rain fell on an entire catchment. Several techniques can be used to interpolate between point measurements and obtain catchment total rainfall sums (also called catchment average rainfall, because rainfall is usually expressed in depths (mm) and not in volumes):
+
+- **Arithmetic mean**: In this method, the rainfall of all stations in a catchment is averaged to obtain the catchment average precipitation. This method is simple but not very accurate, because stations may not be uniformly distributed and the network density is often sparse. 
+- **Thiessen polygons** (also called Voronoi diamgrams in more general mathematical applications): This method is similar to the arithmetic mean method, but in the Thiessen polygon method not all stations receive the same weight. 
+
+$$
+\overline{R} = \sum\limits_{j=1}^N \omega_j \cdot R_j
+$$
+
+where
+- $\overline{R}$ is the catchment average rainfall
+- $N$ is the number of stations
+- $R_j$ is the rainfall measured by each rain gauge
+- $\omega_j$ is the weight of each station
+
+To obtain the weights, the catchment area is divided into sub-areas, which are located around rain gauges. From each point within the sub-area around a certain rain gauge, that particular rain gauge is closer than any other rain gauge. The weight of a rain gauge $\omega$ is the fraction of the total catchment area belonging to that rain gauge:
+
+$$
+\omega_j = \frac{A_j}{A_{total}}
+$$
+
+- **Elevation classes**: This method is applied in mountainous areas, where precipitation increases strongly with elevation. The precipitation at a certain location in the catchment in mountainous regions is more likely to be similar to that from a rain gauge at the same elevation than from a rain gauge nearby. The available rain gauges are divided into elevation classes. With a digital elevation model or map the catchment area is divided into the same classes. The catchment average precipitation can be obtained from $N$ elevation classes by using the same equation as in the Thiessen polygons, with now $\omega_j$ the weight of each elevation class (the fraction of the total catchment area belonging to that class) and $R_j$ the mean rainfall measured by all rain gauges in each elevation class. 
+- **Kriging**: The kriging method is more sophisticated than the previous methods because it takes into account the spatial dependence of rainfall. The
