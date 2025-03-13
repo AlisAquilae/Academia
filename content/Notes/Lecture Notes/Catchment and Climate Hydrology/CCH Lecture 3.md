@@ -29,3 +29,8 @@ So: trees are different
 in forests, 44% of all water that leaves as evapotranspiration is interception evaporation. 
 
 To account for difficulty of using trees in experiments, is the uise of paired-catchment experiments. One catchment with little canopy, one with a lot. Do a treatment and investigate results. First experiment in 1926, which found much higher baseflow without forest. Thus, water yield is higher without forest. 
+- Paired-catchment approach necessary to account for climatic variables, e.g. differences in precipitation. 
+
+Coniferous forests evaporate much more than makkink evapotranspiration would predict. Thus, makkink PET is not always the maximum AET.
+
+The effect only increases with age of forests. Water yield continues to go down with forest age
