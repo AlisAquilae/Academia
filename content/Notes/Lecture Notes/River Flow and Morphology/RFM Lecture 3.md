@@ -65,4 +65,16 @@ So - Sf < 0: then the water level is smaller than the normal depth
 
 First calculate normal water level using Chezy or Manning, then compare with actual water level. 
 
- 1 - FR^2 = 0 or 
+- $1 - Fr^2 = 0$ or $FR = 1$, critical water depth (will generate problems)
+- $1 - Fr^2 > 0$ or $Fr < 1$: subcritical flow, relatively deep, slow flow (stromend water)
+- $1-Fr^2 < 0$ or $Fr > 1$: supercritical flow, relatively shallow, fast flow (schietend water)
+
+If normal level higher than critical level, normal flow is subcritical. Mild slope. If normal level is equal or lower than critical level, normal flow is supercritical. Steep slope. 
+
+We calculate normal depth, critical depth, and evaluate whether the fraction between the two is above or below 1.
+
+All this results in 12 different water surface level profiles. 
+
+>[!Warning]
+>See slides!!!
+
