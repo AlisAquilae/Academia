@@ -44,4 +44,26 @@ Precipitation is more than merely a mass flux affecting the water budget of the 
 # 2.3 Precipitation and climate change
 Although it is currently well-established that increased greenhouse gas concentrations play an important role in the observed and predicted global increase in mean surface air temperature, the effects of global change on current and future precipitation occurrence and patterns are significantly less clear. This uncertainty is due to the complexity of the precipitation process itself, with its enormous variation in space and time, both at global, regional and local scales, and due to the not yet fully understood role it plays in several feedback mechanisms in the climate system. This makes precipitation a notoriously difficult geophysical field to model and measure. 
 
-The Clausius-Clapeyron relation predicts that rising air temperatures will lead to increases in the saturation water vapour pressure of the atmosphere
+>[!Warning]
+>Skipped the various viewpoints
+
+
+---
+# 2.4 Precipitation measurement
+Rain gauges, disdrometers, ground-based weather radars and satellites are used for quantitative precipitation estimation (QPE). Accurate precipitation estimates are important for hydrological applications, for example to obtain accurate discharge forecasts. For this purpose the spatial and temporal variability of rainfall should be captured as accurately as possible.
+
+## 2.4.1 Rain gauges
+A rain gauge is a device that collects the rain in a funnel and then measures the amount of water. Rain gauges can be divided into three main classes: manual gauges, mechanical chart-recording gauges, and electrical gauges.
+- The rainfall amount of a manual rain gauge is typically determined by emptying the gauge into a graduated cylinder on a daily basis
+- Mechanical chart-recording gauges supply information on the time when rain starts and stops and give an approximate indication of the rate of rainfall. A pen is moved across a paper chart to measure the rate of rainfall during the day.
+- Electronic rain gauges also provide a near-continuous rainfall measurement. The type most widely used is the tipping-bucket gauge, where the number of bucket tips is recorded, from which the rainfall intensity can be derived.
+
+>[!Note]
+>The set-up of a rain gauge is important. It should not be located too close to buildings or other high obstacles. Particularly in urban areas it is difficult to find a suitable location for measuring rainfall. Rain gauges installed above ground suffer from undercatch due to turbulence. Automatic rain gauges require good maintenance and inspection to obtain accurate point rainfall depths.
+
+
+## 2.4.2 Disdrometers
+Drop size distributions (DSDs) are commonly measured by disdrometers, which record the sizes (and sometimes fall velocities and drop shapes) of raindrops falling on or through a horizontal plane in a given time interval. This may be done by e.g. measuring stains on filter paper, measuring the impact of drops on a surface, measuring the magnitude and duration of the extinction of light caused by a raindrop, measuring the position of the extinction of light with an array of detectors, or using the Doppler shift in an electromagnetic signal caused by falling raindrops.
+
+## 2.4.3 Weather radars
+Weather radars are a type of ground-based remote sensing instrument and have become an important tool for real-time quantitative precipitation estimation over large areas. They are, for instance, used in water management and nowcasting (i.e. short-term forecasting) of precipitation. Current operational weather radar products have a spatial resolution of typically 1 km in the horizontal and a temporal resolution of 5 min.
