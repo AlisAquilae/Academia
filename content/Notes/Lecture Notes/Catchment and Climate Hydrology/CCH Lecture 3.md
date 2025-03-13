@@ -47,3 +47,16 @@ Little research on impact of forests on floods. This research is difficult becau
 - Measuring floods in general is difficult. A lot can go wrong. Weirs being blocked, electricity cutting out. 
 
 In general, most study present find a decrease in flood peak with an increase in tree cover, predominantly with high intensity rainfall. 
+
+---
+# Impact of forest on climate
+We have been talking about discharge as PET-precipitation, not Eddy covariance. 
+
+Study based on water balance find that forests evaporate more. Study based on eddy covariance finds the opposite. What causes this difference?
+
+This is probably the interception evaporation that eddy covariance measurements have difficulty measuring. EC measures turbulence, which is high in sunny days. Much less so in winter conditions, where you have a lot of wet air. Measurement differences and environment can therefore affect your measurements. 
+
+For tropical forests, removing them you are left with grass which dries out quickly. Is also more reflective
+Boreal forests have an important warming role, because they reduce the albedo of the snow cover. Boreal foretss absorb a lot of energy, thus leading to local warming. 
+Temperate regions are much more uncertain.
+
