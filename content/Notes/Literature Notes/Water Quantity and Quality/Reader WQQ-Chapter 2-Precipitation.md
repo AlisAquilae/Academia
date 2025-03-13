@@ -67,3 +67,27 @@ Drop size distributions (DSDs) are commonly measured by disdrometers, which reco
 
 ## 2.4.3 Weather radars
 Weather radars are a type of ground-based remote sensing instrument and have become an important tool for real-time quantitative precipitation estimation over large areas. They are, for instance, used in water management and nowcasting (i.e. short-term forecasting) of precipitation. Current operational weather radar products have a spatial resolution of typically 1 km in the horizontal and a temporal resolution of 5 min.
+
+Quantitative precipitation estimation from weather radar can be hampered by a number of errors. Radar measures precipitation indirectly, using several assumptions, and at larger altitudes above the Earth's surface (where snow and ice may be present), whereas for most applications rainfall at the Earth's surface is of interest. The most important errors for operational weather radars at midlatitudes are attenuation of the radar beam as a result of strong precipitation or a wet radome (the protecting sphere around the radar itself), errors caused by a nonuniform vertical profile of reflectivity or variability of the drop size distribution. Especially at long ranges from the radar, rainfall intensity can be underestimated, for instance because of overshooting of precipitation. 
+
+Because of these possible (sources of) errors, it is necessary to adjust radar rainfall depths before these can be used in hydrological applications. This is commonly done with rain gauge data. Rain gauges are assumed to provide accurate point measurements of rainfall (if well maintained), while weather radars give semi-quantitative precipitation estimates. On the other hand, radars are better capable of revealing the spatial structure of rainfall in detail than rain gauge networks. The best of two worlds is to combine weather radar with rain gauge data.
+
+## 2.4.4 Satellites
+Quantitative precipitation estimation from satellites is generally considered to be less accurate than from rain gauges or weather radars. However, satellite precipitation estimates are particularly valuable over oceans and remote areas, where few ground-based (remote sensing) measurements are available. Satellite constellations provide global estimates of precipitation on a near real-time basis. Satellite precipitation estimates are obtained from remotely sensing the radiation emitted or reflected by atmospheric hydrometeors. This can be done by several techniques that depend on the type of sensor and the range of the electromagnetic spectrum used.
+
+## 2.4.5 Ongoing developments (==Skipped==)
+
+
+---
+# 2.5 Spatial statistics of rainfall
+## 2.5.1 Spatial variation
+Spatial variation of rainfall can be extremely important in hydrology because of spatially varying soil properties and land use types. The interplay between rainfall spatial variability and the stream channel network topology of a catchment can also have a large impact on its hydrologic behaviour. It is therefore important to characterize this spatial variability of rainfall to be able to draw conclusions on the behaviour of a catchment, in particular during extreme events. The variogram can be used to describe this spatial variability in a statistical manner. A variogram (which is short for semivariogram) is a geostatistical tool to describe the spatial variation of a field (rainfall in this case). It is often assumed that the spatial rainfall field is statistically stationary (the mean, variance, and spatial correlation of the field are independent of the location in space) and isotropic (the spatial correlation does not depend on direction). The correlation of the field at two points in space can then be expressed as a function of only the distance between these two points (i.e. independent of the position and direction).
+
+The semivariogram ($\gamma (d)$) is defined as half the variance of the difference between the field at two points ($p_1$ and $p_2$):
+
+$$
+\gamma(d) = \frac{1}{2} \text{Var}\left[ R(p_1) - R(p_2) \right]
+$$
+
+where
+- $d = |p_1 - p_2|$
