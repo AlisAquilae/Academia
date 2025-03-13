@@ -116,4 +116,21 @@ $$
 $$
 
 - **Elevation classes**: This method is applied in mountainous areas, where precipitation increases strongly with elevation. The precipitation at a certain location in the catchment in mountainous regions is more likely to be similar to that from a rain gauge at the same elevation than from a rain gauge nearby. The available rain gauges are divided into elevation classes. With a digital elevation model or map the catchment area is divided into the same classes. The catchment average precipitation can be obtained from $N$ elevation classes by using the same equation as in the Thiessen polygons, with now $\omega_j$ the weight of each elevation class (the fraction of the total catchment area belonging to that class) and $R_j$ the mean rainfall measured by all rain gauges in each elevation class. 
-- **Kriging**: The kriging method is more sophisticated than the previous methods because it takes into account the spatial dependence of rainfall. The
+- **Kriging**: The kriging method is more sophisticated than the previous methods because it takes into account the spatial dependence of rainfall. The catchment is divided into grids and on each grid point the rainfall is estimated from several rain gauges in the neighbourhood. The method requires a variogram model to determine the influence of each rain gauge at the grid point. A catchment area is simply obtained by averaging all grid points located within the catchment boundaries. 
+
+---
+# 2.6 Rain gauge data processing
+## 2.6.1 Quality control
+The measured amount of precipitation differs between stations. This can be caused by the spatial variability described in the sections above, or by measurement inaccuracies. Rain gauge measurement inaccuracies are often related to the exposition of the rain gauge. Sometimes rain gauges are located in rain shadows (under trees or close to walls) or too high. Rain gauges that are set up above the soil surface measure less precipitation than actually falls on the soil surface, because the air flows are disturbed by the presence of the rain gauge itself and some of the water droplets are blown over the rain gauge. To check rainfall data series for errors, several techniques can be used
+
+- **Ripple diagram**: In a ripple diagram the cumulative precipitation sums of all stations are plotted against time. Ripple diagrams are not straight; wet periods increase the slopes of the curves and dry periods decrease the slope. If all stations would be the same, the curves would show the same reaction on wet and dry periods
+- **Double-mass curves**: There are often used to check the consistency of rain gauge time series. In double-mass curves the cumulative time series of two rain gauges are plotted against each other. When the curve is not on the 1:1-line, there is a systematic difference between the gauges. This may be due to instrumental artefacts, but also due to strong spatial rainfall gradients (especially if the gauges are far apart). A sudden change in the slope of the curve indicates that an abrupt change in one of the rain gauge time series has occurred.
+- **Ratios**: Spatial variability and differences in exposition cause differences in rainfall measurements. For example, station $A$ always catches 10% less than station $B$ because it is closer to the coast or on the leeward side of a mountain. The ratio between rainfall amounts caught at the two stations, in that case, will be quite stable in time. When plotting the ratio of two stations against time, one can see when there is a marked difference between the two stations. This difference may be a true difference (for example when convective rainfall events lead to large spatial variability), but may also be caused by measurement errors
+
+## 2.6.2 Gap-filling
+Precipitation time-series are often not complete. Instruments can always fail or be out of operation for a while. These gaps can be filled by several methods:
+- **Index-station method (rainfall-weighed)**: According to this method, estimates are made with rainfall data from other stations in the vicinity (called index-stations), preferably in different directions around the station with missing data. The weights are computed from mean values of the stations in corresponding periods. When 3 index stations $A$, $B$ and $C$ are used, then the rainfall at the station with missing data $X$ is:
+
+$$
+R_x = 
+$$
