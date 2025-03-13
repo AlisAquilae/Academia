@@ -67,3 +67,18 @@ Forests evaporate more, but only on average. On individual days, you can get a c
 
 ---
 # Interaction between forests and clouds
+Forests seem to have more clouds. More evaporation, more clouds, right? But is this truly because of more evaporation? Evaporation can change daily.
+
+Likely other reason: albedo, aerosols, more radiation. If humidity is high enough
+
+There is a tendency for the clouds to cluster along the down-wind side of the forest. This is called the forest-breeze. 
+
+This signal is different for different parts of the world. In tropical regions, if you remove the forest, the soil heats more, and with enough moisture, you get more clouds over non-forest regions. 
+
+For a tropical forest edge, if you cut down the forest. Less evaporation, more sensible heat, more clouds. In Europe, opposite. Thermal convection, possible aerosols, forest breeze, create more convection and therefore more cloud cover. 
+
+---
+# Interaction between forests and precipitation
+Evaporationshed: downwind areas of precipitation receiving evaporation from focus region.
+
+Recycling ratio is the fraction of evaporation that subsequenctly rains down over the land. It is the fraction that has e
