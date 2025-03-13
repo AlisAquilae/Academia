@@ -132,5 +132,17 @@ Precipitation time-series are often not complete. Instruments can always fail or
 - **Index-station method (rainfall-weighed)**: According to this method, estimates are made with rainfall data from other stations in the vicinity (called index-stations), preferably in different directions around the station with missing data. The weights are computed from mean values of the stations in corresponding periods. When 3 index stations $A$, $B$ and $C$ are used, then the rainfall at the station with missing data $X$ is:
 
 $$
-R_x = 
+R_x = \frac{1}{3} \left(\frac{\overline{R_X}}{\overline{R_A}} R_A + \frac{\overline{R_X}}{\overline{R_B}}R_B + \frac{\overline{R_X}}{\overline{R_C}}R_C \right)
 $$
+
+in which $R$ values are the mean values of the stations for a common period
+
+- **Index-station method (distance-weighed)**: Instead of the ratio of the means, the reciprocals of the distance can be used as weights. When the distances from $X$ to $A$, $B$ and $C$ are given by $r_A$, $r_B$ and $r_C$, respectively, then we find
+
+$$
+R_X = \frac{\frac{R_a}{r_a} + \frac{R_B}{r_b} + \frac{R_C}{r_c}}{\frac{1}{r_A} + \frac{1}{r_B} + \frac{1}{r_C}}
+$$
+
+- **Linear regression**: Another way to fill the gaps is to establish a relation between two stations. This relation is found by plotting the rainfall measurements of two stations against each other and fitting a line through the data. The relation of this line can then be used to estimate missing values with measurements of the other station. 
+- **Isohyet method**: This method requires more work and is applied when differences between neighbouring stations are large. Rainfall is estimated from isohyetal maps (maps with lines with equal rainfall depths). Strictly speaking it is not necessary to compute the isohyets first. We can also use an interpolation technique to estimate the missing values (such as Thiessen polygons)
+
