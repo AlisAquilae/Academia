@@ -1,14 +1,14 @@
 ---
 fileClass: Base, Literature Notes
 title: 
-Parents: 
+Parents: ["[[Water Quantity and Quality]]"]
 Draft: 
-Status: 
+Status: Done
 Authors: 
 Year of Publication: 
 Related Notes: 
 Related Terminology: 
-Related Courses: 
+Related Courses: ["[[Water Quantity and Quality]]"]
 ---
 
 >[!Warning]
@@ -35,4 +35,23 @@ $$
 
 
 ## 1.1.1 Catchment water balance
-For any arbitrary land surface element or area, the water (mass) balance is complicated to solve because the fluxes $Q_{\text{in}}$ and $Q_{\text{out}}$ are unknown and cannot easily be observed. Therefore, hydrologists often study the water balance of land surface elements for which the fluxes $Q_{\text{in}}$ and $Q_{\text{out}}$ can be measured: catchments. A [[Catchment]] is an area where all the [[Runoff]] water converges to a single point (the [[Debouchment|Outlet]]) under the influence of gravity. When no groundwater flow over the catchment boundaries occurs, the flow at the catchment outlet is the only lateral flow. With precipitation $P$ and [[Actual Evapotranspiration|(actual) evapotranspiration]] 
+For any arbitrary land surface element or area, the water (mass) balance is complicated to solve because the fluxes $Q_{\text{in}}$ and $Q_{\text{out}}$ are unknown and cannot easily be observed. Therefore, hydrologists often study the water balance of land surface elements for which the fluxes $Q_{\text{in}}$ and $Q_{\text{out}}$ can be measured: catchments. A [[Catchment]] is an area where all the [[Runoff]] water converges to a single point (the [[Debouchment|Outlet]]) under the influence of gravity. When no groundwater flow over the catchment boundaries occurs, the flow at the catchment outlet is the only lateral flow. With precipitation $P$ and [[Actual Evapotranspiration|(actual) evapotranspiration]] $ET_{\text{act}}$ as the only fluxes at the land surface, the simplified catchment water balance reads:
+
+$$
+P - ET_{\text{act}} - Q_{\text{out}} = \frac{\Delta S}{\Delta t}
+$$
+
+
+>[!Note]
+>In reality, when all water balance elements in this equation are measured independently, the water balance often does not close. This is usually caused by measurement errors or neglected water balance terms. Reducing the non-closure of water balance residual still poses a challenge for hydrologists. 
+
+
+## 1.1.2 Water balance elements
+The fluxes that determine the water balance of most catchments are precipitation, evapotranspiration, and runoff (streamflow). These fluxes are fundamentally different for several reasons:
+- Precipitation typically occurs in (relatively) short events. The occurrence of precipitation is linked with the large scale synoptic weather situation. The intensity can vary over a wide range, but at the catchment scale, instantaneous precipitation intensities are typically much larger than intensities of evapotranspiration or runoff
+- Evapotranspiration is not only strongly related to the availability of water, but also to that of energy. Therefore the evapotranspiration intensity closely follows the solar cycle, resulting in strong diurnal and seasonal cycles. Spatial variability in land use and soil moisture can cause large variations in evapotranspiration rates. 
+- Runoff or discharge from a catchment is strongly controlled by the amount of subsurface water storage in the catchment. Directly after a precipitation event, water can also be transported to the outlet over the land surface or via macropores. An important difference between $Q$ and the other water balance terms ($P$, $ET_{\text{act}}$ and $\Delta S / \Delta t$) is that $Q$ is measured as an area-integrated value at the outlet (in L$^3$ T$^{-1}$), while $P$ and $P$, $ET_{\text{act}}$ and $\Delta S / \Delta t$ are usually obtained from point-measurements (in L T$^{-1}$)
+- Storage change can be seen as the effect of the other water balance terms. Because the time scales and timing of these are different, the amount of water stored in the catchment changes. However, storage itself also affects $ET_{\text{act}}$ (available soil moisture) and $Q$ (groundwater as driving force for subsurface runoff). This illustrates that the water balance fluxes influence each other and form a complex system with feedback cycles. 
+
+In the next chapters we will deal with each of these fluxes in more detail, from precipitation (chapter 2), to evapotranspiration (chapter 3), and finally runoff (chapter 4). In chapter 5 these aspects will come together when we will deal with rainfall-runoff modeling.
+

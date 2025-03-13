@@ -2,7 +2,7 @@
 fileClass: Base, Courses
 title: 
 Parents: ["[[index]]"]
-Draft: true
+Draft: false
 Status: To Revisit
 Course Code: HWM20806
 Period: 1
