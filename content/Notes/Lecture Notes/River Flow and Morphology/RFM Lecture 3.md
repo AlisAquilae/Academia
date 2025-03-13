@@ -64,3 +64,5 @@ So - Sf < 0: then the water level is smaller than the normal depth
 
 
 First calculate normal water level using Chezy or Manning, then compare with actual water level. 
+
+ 1 - FR^2 = 0 or 
