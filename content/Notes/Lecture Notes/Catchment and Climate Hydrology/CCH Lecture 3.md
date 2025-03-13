@@ -81,4 +81,8 @@ For a tropical forest edge, if you cut down the forest. Less evaporation, more s
 # Interaction between forests and precipitation
 Evaporationshed: downwind areas of precipitation receiving evaporation from focus region.
 
-Recycling ratio is the fraction of evaporation that subsequenctly rains down over the land. It is the fraction that has e
+Recycling ratio is the fraction of evaporation that subsequenctly rains down over the land. It is the fraction of precipitation that has evaporated over land. 
+
+Especially in tropical regions, a large influence on precipitation, to the extent that the tropics might not survive without this mechanism. 
+
+Controversial theory: biotic pump theory. If you get condensation, because of the remvoal of water frpm the air, this leads to a pressure drop. This creates winds which bring more moisture. This they call the biotic pump. 
