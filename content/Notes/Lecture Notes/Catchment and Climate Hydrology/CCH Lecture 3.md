@@ -33,4 +33,13 @@ To account for difficulty of using trees in experiments, is the uise of paired-c
 
 Coniferous forests evaporate much more than makkink evapotranspiration would predict. Thus, makkink PET is not always the maximum AET.
 
-The effect only increases with age of forests. Water yield continues to go down with forest age
+The effect only increases with age of forests. Water yield continues to go down with forest age.
+
+Simple model which predicts changes in forest cover and its effect on AET is the model by Zhang et al. (2001). Assumes constant PET between forests
+
+---
+# Impact of forests on floods
+There is a theory that forests act like sponges, called "sponge theory". It has never really been confirmed, but it keeps coming back as an idea. According to the theory, if trees grow and you get a forest, which develops the soil, you get more organic matter. The whole complex acts like a giant sponge, taking up water in wet periods and releasing it in dry periods. This theory has been criticised since the 1920s, but is still popular among policy makers and NGOs. 
+
+Little research on impact of forests on floods. This research is difficult because
+- You need small, 
