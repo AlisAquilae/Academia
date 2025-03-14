@@ -281,4 +281,23 @@ As we have seen in paragraphs 3.1 and 3.3.6, the rate at which water can evapora
 
 ![[Pasted image 20250314215211.png]]
 
-Even when radiation stays the same, potential evapotranspiration can increase when actual evapotranspiration decreases because low $ET_{\text{act}}$ causes increasing temperature (heating cycles) and reduces humidity (drying cycle)
+Even when radiation stays the same, potential evapotranspiration can increase when actual evapotranspiration decreases because low $ET_{\text{act}}$ causes increasing temperature (heating cycles) and reduces humidity (drying cycle). This means that potential evapotranspiration should no longer be looked at simply as an independent driver of evapotranspiration, but also as a result of evapotranspiration itself. This lead Bouchet (1963) to formulate the hypothesis that under constant radiation, any reduction of actual evapotranspiration with respect to the equilibrium conditions under sufficient soil moisture (the wet-environment evapotranspiration, $ET_{\text{wet}}$) will cause a similar increase in potential evapotranspiration. The wet-environment evapotranspiration is thus independent of (internal) soil moisture conditions at the land surface and is mainly driven by radiation input rather than (externally forced) atmospheric humidity. Under wet conditions, the following holds:
+
+$$
+ET_{\text{act}} = ET_{\text{pot}} = ET_{\text{wet}}
+$$
+
+Under dry conditions, any decrease in $ET_{\text{act}}$ will cause a similar increase in $ET_{\text{pot}}$, such that
+
+$$
+ET_{\text{act}} + ET_{\text{pot}} = 2 \times ET_{\text{wet}}
+$$
+
+This equation is known as the complementary relationship or the [[Bouchet Hypothesis]]. Although the general principle behind the Bouchet hypothesis might seem intuitive, it has puzzled many scientists that the exact 1:1 compensation of $ET_{\text{act}}$ and $ET_{\text{pot}}$ indeed seems to hold when confronted with data.
+
+
+---
+# 3.6 Budyko curve
+The complementary relationship describes the large scale dependency of evapotranspiration on atmospheric conditions (humidity and radiation). A different model, based on constraints imposed by the land surface water budget, was developed by Budyko, a famous Russian scientist and one of the founders of physical climatology. Budyko discovered that the partitioning of the mean water balance components $P$, $ET$ and $Q$ in catchments is strongly controlled by climate.
+
+This relation can be understood by first considering the annual water balance of a hypothetical catchment under two contrasting climates: one climate in which the mean potential evaporation exceeds precipitation, and one in which precipitation exceeds potential evaporation. The catchment is simplified as a bucket with a (finite) storage capacity $C$. Runoff from the catchment is only produced when the storage exceeds the storage capacity ([[Saturation Excess Overland Flow]]), and evapotranspiration always 
