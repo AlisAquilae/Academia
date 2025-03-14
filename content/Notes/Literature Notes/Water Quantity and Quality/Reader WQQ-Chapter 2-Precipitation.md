@@ -1,14 +1,14 @@
 ---
 fileClass: Base, Literature Notes
 title: 
-Parents: 
+Parents: ["[[Water Quantity and Quality]]"]
 Draft: 
-Status: 
+Status: Done
 Authors: 
 Year of Publication: 
 Related Notes: 
 Related Terminology: 
-Related Courses: 
+Related Courses: ["[[Water Quantity and Quality]]"]
 ---
 # 2.1 Precipitation and the earth's water and energy cycles
 Precipitation can be defined as all water (solid or liquid) falling from the atmosphere and reaching the continents and oceans. It plays a central role in the water and energy cycles driving the Earth's climate system. 
