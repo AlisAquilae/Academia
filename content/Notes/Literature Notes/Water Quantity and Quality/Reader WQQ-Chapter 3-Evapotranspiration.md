@@ -144,4 +144,16 @@ in which
 
 This equation shows how much water is transported upwards per unit of area and per unit of time. This equation holds for all turbulent fluxes of any other quantity such as heat, carbon dioxide, or methane
 
-T
+Two things are noteworthy about the equation above. First, the vertical wind speed $w$ is not uncorrelated with properties of interest ($T, q$), so that the mean of the product cannot be considered as the product of the means of $w$ and $q$. Second, the mean vertical wind speed should be 0, since air is neither created nor destroyed at the land surface. In order for transport to take place by vertical motion of air, it should be related to fluctuations in vertical wind speed, taking place at smaller timescales. 
+
+Under a number of assumptions, it is possible to simplify the formula for the Eddy covariance to
+
+$$
+\lambda ET \approx \lambda \overline{\rho_a} \overline{w'q'} \equiv \lambda \overline{\rho_a} \, \text{Cov}(w, q)
+$$
+
+With this equation, the turbulent exchange can be estimated from the high-frequency variability (variances) of the vertical wind speed and the quantity of interest (in this case water vapour), and the strength of their correlation.
+
+In practice, the Eddy covariance method often leads to a systematic underrepresentationo (a so-called bias) of fluxes in the order of 10-20%. This can, for instance, be caused by problems related to the sampling of high-frequency and small-scale turbulence (eddies). When evapotranspiration measurements made by eddy covariance are used in water balance studies, often a bias-correction is applied. By assuming that the errors in the sensible heat flux and in evapotranspiration are both caused by the same problems and are thus comparable in relative magnitude, the Bowen ratio can directly be estimated from eddy covariance measurements from $\beta = \lambda ET/H$. The equation for the Bowen ratio in combination with the energy balance can then be used to correct $ET$ using observed net radiation and soil heat flux. 
+
+## 3.3.6 Potential evapotranspiration methods
