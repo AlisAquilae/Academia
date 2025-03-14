@@ -267,4 +267,18 @@ $$
 in which $\tau$ is the time constant of the decay process. This constant depends on vegetation type and water available in the root zone, and is larger for forested sites than for grassland or pastures. Over forest ecosystems, the time constant is typically around 30 days, resulting in a very slow decay in $ET_{\text{act}}$. Over grassland, $ET_{\text{act}}$ decays much faster and time constants of 10-15 days are typically found. It appears to be a property of the land surface rather than a result of atmospheric forcing. During drought episodes in different years, similar time constants are found at a particular site. 
 
 ## 3.4.5 Bare soil
-Whereas water for transpiration can be taken up by plants over the whole root zone (typically over the upper 50-100 cm), bare soil evaporation mainly depends on tyhe amount of and gradients in soil moisture in the upper few cm of the soil. 
+Whereas water for transpiration can be taken up by plants over the whole root zone (typically over the upper 50-100 cm), bare soil evaporation mainly depends on the amount of and gradients in soil moisture in the upper few cm of the soil. As a result, the time scales of the process are much smaller. Since bare soil evaporation by definition takes place through the land surface, the amount of evaporation that can be sustained depends on the amount of moisture that can be transported to the drying upper soil layer. This is a strongly self-limiting process because of the strong non-linear dependency of the unsaturated [[Permeability|Hydraulic Conductivity]] on soil moisture (i.e. drying strongly reduces the capacity of moisture to be transported to the surface). It has been shown that during stage 2 drying, evaporation from bare soil $E_{\text{act}}$ decays with the square root of time since the start of the process
+
+$$
+E_{\text{act}}(t) = \frac{1}{2} \frac{D_s}{\sqrt{t-t_0}}
+$$
+
+in which $D_s$ is the so-called desorptivity. The desorptivity is assumed to be constant for a given soil type and varies from 2.1 for sandy loam to 5 for clay loam soil. The much shorter time scales of bare soil evaporation lead to more frequent stage 2 and 3 drying in comparison to vegetated land surfaces. This explains why annual values for bare soil evaporation are (much) lower than those of vegetated land surfaces. 
+
+---
+# 3.5 Bouchet hypothesis
+As we have seen in paragraphs 3.1 and 3.3.6, the rate at which water can evaporate depends both on the amount of energy that can be used to evaporate water (radiation term in the Penman equation), as well as on the ability to transport water vapour (VPD of and turbulence in the atmospheric boundary layer, mass transfer term in Penman equation). The drier the atmosphere, the easier it is for evaporation to take place. Yet, the evaporation itself will moisten the atmosphere, thus decreasing the moisture gradient and weakening the mass transfer term. In addition, evapotranspiration is linked to the warming of the atmosphere via the land surface energy balance (a reduction in $ET$ will increase sensible heat $H$ as per the Bowen ratio). evapotranspiration is eased by warming, since the saturated vapour pressure (and thus VPD) increases strongly with temperature. 
+
+![[Pasted image 20250314215211.png]]
+
+Even when radiation stays the same, potential evapotranspiration can increase when actual evapotranspiration decreases because low $ET_{\text{act}}$ causes increasing temperature (heating cycles) and reduces humidity (drying cycle)
