@@ -300,4 +300,30 @@ This equation is known as the complementary relationship or the [[Bouchet Hypoth
 # 3.6 Budyko curve
 The complementary relationship describes the large scale dependency of evapotranspiration on atmospheric conditions (humidity and radiation). A different model, based on constraints imposed by the land surface water budget, was developed by Budyko, a famous Russian scientist and one of the founders of physical climatology. Budyko discovered that the partitioning of the mean water balance components $P$, $ET$ and $Q$ in catchments is strongly controlled by climate.
 
-This relation can be understood by first considering the annual water balance of a hypothetical catchment under two contrasting climates: one climate in which the mean potential evaporation exceeds precipitation, and one in which precipitation exceeds potential evaporation. The catchment is simplified as a bucket with a (finite) storage capacity $C$. Runoff from the catchment is only produced when the storage exceeds the storage capacity ([[Saturation Excess Overland Flow]]), and evapotranspiration always 
+![[Pasted image 20250314221052.png]]
+
+This relation can be understood by first considering the annual water balance of a hypothetical catchment under two contrasting climates: one climate in which the mean potential evaporation exceeds precipitation, and one in which precipitation exceeds potential evaporation. The catchment is simplified as a bucket with a (finite) storage capacity $C$. Runoff from the catchment is only produced when the storage exceeds the storage capacity ([[Saturation Excess Overland Flow]]), and evapotranspiration always takes place at the potential rate. Figure 3.28 shows the catchment storage response to rainfall events for arid ($ET \gt P$) and humid ($P \gt ET$) climate conditions. Under arid conditions, the catchment storage is always too low to produce runoff. All precipitation is added to the catchment storage and evaporated directly after the event, effectively causing all rainfall to evaporate ($ET_{\text{act}} = P$). Under humid conditions, the catchment is always nearly saturated. The time in between rainstorms is insufficient to dry the catchment considerably, so that evapotranspiration occurs always at the potential rate ($ET_{\text{act}} = ET_{\text{pot}}$). Many rainfall events induce saturation ($S = C$) and surface runoff. By normalising the yearly water balance by $P$, the water balances for arid and humid climates are given by
+
+$$
+\begin{array}{ll}
+\frac{ET_{\text{act}}}{P} = \frac{ET{\text{pot}}}{P} & & \text{for } \frac{ET_{\text{pot}}}{P} \lt 1 \\
+\frac{ET_{\text{act}}}{P} = 1 & & \text{for } \frac{ET_{\text{pot}}}{P} \gt 1
+\end{array}
+$$
+
+
+These can be combined into
+
+$$
+\frac{ET_{\text{act}}}{P} = \min \left(1, \frac{ET_{\text{pot}}}{P} \right)
+$$
+
+It was the contribution of Budyko to show that these lines, when plotted in a graph with $ET_{\text{act}}/P$ on the $y$-axis, and $ET_{\text{pot}}/P$ on the $x$-axis, form the asymptotes of the annual water balance in real world catchments. Real-world catchments scatter along a curve referred to as the [[Budyko Curve]]. This curve has asymptotes given by the previous equation, and deviates most form these lines around $ET_{\text{pot}}/P = 1$. 
+
+![[Pasted image 20250314221104.png]]
+
+Several people have proposed mathematical descriptions for the Budyko curve. One of the most succesful is the one proposed by Zhang et al. (2004)
+
+$$
+\frac{ET_{\text{}}}
+$$
