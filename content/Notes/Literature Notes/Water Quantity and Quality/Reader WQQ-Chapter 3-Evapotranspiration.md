@@ -159,7 +159,7 @@ In practice, the Eddy covariance method often leads to a systematic underreprese
 ## 3.3.6 Potential evapotranspiration methods
 As explained in section 3,1, evapotranspiration is driven by the difference in water vapour pressure between the evaporating (land) surface and the atmosphere. In potential evapotranspiration methods, it is typically assumed that evapotranspiration takes place from a saturated surface, and that the vapour pressure $e$ at the surface equals the saturated vapour pressure at the surface temperature, i.e. $e = e^* (T_{\text{surf}})$. Thus, direct determination of evapotranspiration would require observations of land surface temperature, which are not routinely available. 
 
-Penman (1948) was amonng the first to propose a way around this problem. Central in the derivation of the Penman-equation is the linearisation of the saturation vapour pressure versus temperature-curve (the Clausius-Clapeyron relation) at air temperature $T_{\text{air}}$:
+Penman (1948) was among the first to propose a way around this problem. Central in the derivation of the Penman-equation is the linearisation of the saturation vapour pressure versus temperature-curve (the Clausius-Clapeyron relation) at air temperature $T_{\text{air}}$:
 
 $$
 \Delta = \frac{e^* (T_{\text{surf}}) - e^*(T_{\text{air}})}{T_{\text{surf}} - T_{\text{air}}}
@@ -167,7 +167,7 @@ $$
 
 In this equation, the temperature gradient $T_{\text{surf}} - T_{\text{air}}$ represents the driving force behind the sensible heat flux. By combining this equation with the simplified land surface energy balance, $T_{\text{surf}}$ can be eliminated. The Penman equation thus combined information on the latent as well as the sensible heat flux, which are coupled by the land surface energy balance. This is one of the reasons why this equation is often seen as the best possible estimate of ET from meteorological data alone. 
 
-The original Penman equation was developed for evaporation from a wet surface and only parameterised the aerodynamic resistance $r_a$, while neglecting the additional surface resistance $r_s$ that stomata cause when the main source of evapotranspiration is from within the stomata. The Penman-Monteith equation combines the aerodynamic and surface resistance, and reads
+The original Penman equation was developed for evaporation from a wet surface and only parameterised the aerodynamic resistance $r_a$, while neglecting the additional surface resistance $r_s$ that stomata cause when the main source of evapotranspiration is from within the stomata. The [[Penman-Monteith Equation]] combines the aerodynamic and surface resistance, and reads
 
 $$
 \lambda ET_{\text{pot}} = \frac{\Delta (R_{\text{net}} - G) + \frac{\rho_a c_p}{r_a} \text{VPD}}{\Delta + \gamma \left(1+\frac{r_s}{r_a} \right)}
@@ -191,8 +191,14 @@ in which it can be more directly seen that both radiation and mass transfer due 
 
 The Penman-Monteith equation combines the effect of two driving factors: radiation and "mass transfer", which quantifies the vapour pressure gradient and the potential for turbulence in the boundary layer to transport moisture away from the land surface. Therefore the Penman-Monteith equation is also referred to as a combination equation. Theoretically, evapotranspiration can be driven by any of the two factors alone, but in practice the radiation term dominates.
 
-The Penman-Monteith equation requires numerous input variables, which are not all routinely measured at meteorological stations (e.g. net radiation). Based on lysimeter experiments, Makkink (1957) noted that evapotranspiration under conditions typical for the Netherlands is primarily driven by temperature and global radiation, both of which are routinely measured at KNMI stations. He proposed the following formula for the so-called reference evapotranspiration $ET_{\text{ref}}$, which is the potential evapotranspiration of a well-watered grassland:
+The Penman-Monteith equation requires numerous input variables, which are not all routinely measured at meteorological stations (e.g. net radiation). Based on lysimeter experiments, Makkink (1957) noted that evapotranspiration under conditions typical for the Netherlands is primarily driven by temperature and global radiation, both of which are routinely measured at KNMI stations. He proposed the following formula for the so-called [[Reference Evapotranspiration]] $ET_{\text{ref}}$, which is the potential evapotranspiration of a well-watered grassland:
 
 $$
-\lambda ET_{\text{ref}} = 0.65 \frac{\Delta}{\D}
+\lambda ET_{\text{ref}} = 0.65 \frac{\Delta}{\Delta + \gamma} R_{\text{global}}
 $$
+
+in which $R_{\text{global}}$ is the global (shortwave incoming) radiation. 
+
+>[!Info]
+>A method of similar complexity is the Priestley-Taylor equation, which is often used when few input data are available
+

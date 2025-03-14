@@ -12,3 +12,6 @@ Related Courses: ["[[Water 1]]"]
 **Reference Evapotranspiration** is the evapotranspiration that theoretically could take place for the actual meteorological conditions over well-watered grassland (the conditions at most meteorological stations).
 
 The reference evapotranspiration is used to calculate the [[Potential Evapotranspiration]] and, indirectly, [[Actual Evapotranspiration]]
+
+Various methods for determining the reference evapotranspiration exist, including
+- [[Makkink Reference Evapotranspiration]]
