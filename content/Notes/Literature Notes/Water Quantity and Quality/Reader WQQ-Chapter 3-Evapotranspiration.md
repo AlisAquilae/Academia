@@ -322,8 +322,10 @@ It was the contribution of Budyko to show that these lines, when plotted in a gr
 
 ![[Pasted image 20250314221104.png]]
 
-Several people have proposed mathematical descriptions for the Budyko curve. One of the most succesful is the one proposed by Zhang et al. (2004)
+Several people have proposed mathematical descriptions for the Budyko curve. One of the most successful is the one proposed by Zhang et al. (2004)
 
 $$
-\frac{ET_{\text{}}}
+\frac{ET_{\text{act}}}{P} = 1 + \frac{ET_{\text{pot}}}{P} - \left[1 - \left(\frac{ET_{\text{pot}}}{P} \right)^w \right]^{1/w}
 $$
+
+where $w$ is a model paramater that depends on catchment properties (mainly land cover and storage capacity). For catchments across different climate zones in Australia, Zhang et al. found that $w=2.63$. However, they also found a dependency on land cover. Forested catchments were found to have a higher $w$ (2.84) than grassed catchments (2.55). When observed $ET_{\text{pot}}$ were averaged over forests and grassland, slightly different values for $w$ were found after optimisation. These, together with $ET_{\text{pot}}$ for forest and grassland, can be used to estimate $ET_{\text{act}}$ in mm rather than the dimensionless ratio $ET_{\text{act}}/P$
