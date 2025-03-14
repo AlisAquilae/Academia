@@ -84,7 +84,23 @@ A different hypothesis links rising levels of atmospheric $\ce{CO2}$ directly to
 
 ---
 # 3.3 Evapotranspiration measurement
-# 3.3.1 Evaporation pans
+## 3.3.1 Evaporation pans
 One of the most straightforward and inexpensive methods to observe the amount of evaporation is by measuring the amount of water that evaporated from a large pan filled with water. Evaporation pans are the oldest instruments to measure evaporation and in many regions there are continuous records of more than 50 years. While the measurements were originally performed to assist farmers in their calculations of crop water requirement, they have received considerable interest from climate scientists since they provide historical information on a key aspect of the hydrological cycle.
 
-Evaporation pans are typically so-called 
+Evaporation pans are typically so-called "Class A evaporation pans". They consist of a cylinder wi5th a diameter of 47.5 in (120.7 cm) and a depth of 10 in (25 cm). The pan rests on a flat wooden base and is often protected by a fence to prevent animals drinking from it. Evaporation is measured daily as the decrease of water level in the pan. The measurement begins with the pan filled to exactly two inches (5 cm) from the top of the pan. After 24 hours, the amount of water to refill the pan to exactly two inches from its top is measured. Daily evaporation is corrected for precipitation, but values become less accurate on days with heavy precipitation. Also, the pan measures how much water can be evaporated into the atmosphere given ample supply of water, which can be inversely related to the actual evapotranspiration from the environment in dry conditions. 
+
+## 3.3.2 Catchment water balance
+Estimates of long-term average evapotranspiration can be obtained from the catchment-scale water balance and by assuming that storage changes over multiple years are small compared to other fluxes. Under these conditions, the water balance simplifies to
+
+$$
+ET_{P-Q} = P-Q
+$$
+
+in which $P$ and $Q$ are precipitation and runoff, respectively. An important advantage of the catchment water balance is the spatial scale. By definition, it provides an average value for the whole catchment, thus reducing the effects of small-scale variability. An important disadvantage is the fact that $P$ and $Q$ might not be the only losses from the catchment (boundary flow may be significant in small catchments). Also, yearly sums of $P$ and $Q$ might be impacted significantly by just a few storms, during which the largest measurement errors occur.
+
+## 3.3.3 Lysimeters
+Lysimeters are instruments which are designed to monitor the water and/or nutrient balance of a larger soil volume. Two types can be distinguished: the weighing and the non-weighing lysimeter. 
+
+Weighing lysimeters are limited in size since they need to be weighed. The volume of soil in a weighing lysimeter can therefore vary from the size of a bucket in case of a small lysimeter typically used for experiments up to a cylinder with a diameter of 2 m and a height of 2.5 m in case of the Rietzholzbach lysimeter in Switzerland. Small lysimeters are often weighed manually, whereas large lysimeters rest on electronic weight scales that record changes in weight continuously. Drainage from the bottom of such large lysimeters is often measured separately, sometimes in combination with concentration of solutes. 
+
+Non-weighing lysimeters only measure the outflow, and $ET$ is estimated over longer periods of time from the difference between $P$ and the lysimeter outflow and assuming that changes in lysimeter storage can be neglected. Since they do not have to be weighed, non-weighing lysimeters can be much larger than weighing lysimeters. The lysimeters in Castricum, for example, measure 25 x 25 meters, and are four meters deep so they can even be used to monitor the water balance of small patches of forest. 
