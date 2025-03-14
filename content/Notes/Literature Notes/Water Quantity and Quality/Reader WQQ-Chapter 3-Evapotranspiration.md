@@ -213,9 +213,33 @@ The soil moisture limitation function typically takes the following form
 
 $$
 \beta(\theta) = \left\{\begin{array}{ll}
-0 & \theta_{\text{rz}} \le \theta_{\text{w}} \\
-\frac{\theta - \theta_{\text{pwp}}}{\theta_{\text{lim}}-\theta_{\text{wilt}}} & \theta_{\text{pwp}} \lt \theta_{\text{rz}} \lt \theta_{\text{lim}} \\
-1 & \theta_{\text{rz}} \ge \theta_{\text{lim}}
+0 & \theta \le \theta_{\text{pwp}} \\
+\frac{\theta - \theta_{\text{pwp}}}{\theta_{\text{crit}}-\theta_{\text{wilt}}} & \theta_{\text{pwp}} \lt \theta \le \theta_{\text{crit}} \\
+1 & \theta_{\text{crit}} \lt \theta \le \theta_{\text{sat}}
 \end{array}
 \right.
 $$
+
+in which
+- $\theta_{\text{pwp}}$ is the [[Permanent Wilting Point]] of the soil
+- $\theta_{\text{crit}}$ is the [[Critical Moisture Content]] defining the onset of soil moisture stress
+- $\theta_{\text{sat}}$ is the saturated moisture content or [[Porosity]] of the soil.
+
+This can also be expressed as
+
+$$
+\beta(\theta) = \max \left[0, \min \left( \frac{\theta - \theta_{\text{pwp}}}{\theta_{\text{crit}} - \theta_{\text{pwp}}} \right) \right]
+$$
+
+Most hydrological models include a formulation similar to the equations above. There is, however, considerable variability in the values of $\theta_{\text{crit}}$ that are used. Some models start to limit evapotranspiration for any soil moisture below the [[Field Capacity]], i.e. $\theta_{\text{crit}} - \theta_{\text{fc}}$, but measurements suggest that for most combinations of vegetation and soil type, more than half of the soil moisture available between $\theta_{\text{pwp}}$ and $\theta_{\text{fc}}$  can be transpired at the potential rate before soil moisture starts to be a limiting factor
+
+## 3.3.7 Satellite remote sensing (==Skipped==)
+
+
+## 3.3.8 Scintillometry (==Skipped==)
+
+
+---
+# 3.4 Evapotranspiration processes
+## 3.4.1 Land use effects
+Even under similar atmospheric conditions, evapotranspiration from different land use types will be different. In general, evapotranspiration over forests tends to be higher. Zhang et al. (2001) 
