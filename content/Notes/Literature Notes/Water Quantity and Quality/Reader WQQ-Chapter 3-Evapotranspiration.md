@@ -38,4 +38,28 @@ $$
 
 in which $q^* (T)$ is the value of $q$ at saturation
 
-The saturated vapour pressure of air $e^*$ increases almost exponentially with temperature, through the relationship known as the [[Clausius-Clapeyron Equation|Clausius-Clapeyron Relation]]. This makes that, at least potentially, evapotranspiration can be much higher in warm regions compared to cold regions. Because 
+The saturated vapour pressure of air $e^*$ increases almost exponentially with temperature, through the relationship known as the [[Clausius-Clapeyron Equation|Clausius-Clapeyron Relation]]. This makes that, at least potentially, evapotranspiration can be much higher in warm regions compared to cold regions. Because evapotranspiration cannot take place in the absence of a gradient in vapour pressure, an external input of (solar) energy is required. 
+
+Without any input of energy, the evapotranspiration from a wet surface will increase the humidity of the air. This reduces the VPD, which in turn slows down the evapotranspiration until it comes to a halt. 
+
+>[!Note]
+>Note that on a molecular level, exchange of $\ce{H2O}$ molecules continues at the same rate, only now the number of molecules evaporating is balanced by the number that condensates
+
+During daytime, the sun not only provides the energy needed for evapotranspiration, but it also warms the air, which increases the VPD because of its effect on $e^*$ through the [[Clausius-Clapeyron Equation]]. During nighttime, there is no input of energy at the land surface (in fact, net radiation is negative), and the air cools down often to dew point - thus reducing the VPD and effectively stopping evapotranspiration. Nighttime evapotranspiration is only significant in specific cases when heat is provided by [[Advection]]
+
+Since energy is required to sustain evapotranspiration, the process of evapotranspiration is a key element of not only the land surface water balance but also of the land surface energy balance
+
+$$
+R_{\text{net}} = \lambda ET + H + G
+$$
+
+in which
+- $R_{\text{net}}$ is the net radiation
+- $\lambda$ is the latent heat of vaporisation
+- $ET$ is the evapotranspiration
+- $H$ is the [[Sensible Heat Flux]]
+- $G$ is the ground heat flux
+
+The latent heat of vaporisation for water is large compared to that of other liquids. Evapotranspiration from the land surface thus transfers large amounts of hidden (latent) energy. In absence of water that can be evaporated, more energy becomes available to warm the air through the sensible heat flux $H$. This explains why in desert regions, where no water is available for evaporative cooling, daytime temperatures can reach up to 50 degrees Celsius. Reduces evaporation can also lead to higher temperatures in humid regions such as central and western Europe. In wet or coastal regions, on the other hand, the abundance of water leads to small variability in temperature.
+
+Besides the input of energy, turbulence plays an important role in evapotranspiration. In absence of turbulence, evapotranspiration would only be driven by diffusion, and would take plate at a rate approximately 6 orders of magnitude smaller than is observed at the land surface. Turbulence causes mixing of volumes of air (eddies) with different humidities. Less dense humid (and often warm)
