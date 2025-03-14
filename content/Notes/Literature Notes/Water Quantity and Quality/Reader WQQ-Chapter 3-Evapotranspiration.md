@@ -157,3 +157,18 @@ With this equation, the turbulent exchange can be estimated from the high-freque
 In practice, the Eddy covariance method often leads to a systematic underrepresentationo (a so-called bias) of fluxes in the order of 10-20%. This can, for instance, be caused by problems related to the sampling of high-frequency and small-scale turbulence (eddies). When evapotranspiration measurements made by eddy covariance are used in water balance studies, often a bias-correction is applied. By assuming that the errors in the sensible heat flux and in evapotranspiration are both caused by the same problems and are thus comparable in relative magnitude, the Bowen ratio can directly be estimated from eddy covariance measurements from $\beta = \lambda ET/H$. The equation for the Bowen ratio in combination with the energy balance can then be used to correct $ET$ using observed net radiation and soil heat flux. 
 
 ## 3.3.6 Potential evapotranspiration methods
+As explained in section 3,1, evapotranspiration is driven by the difference in water vapour pressure between the evaporating (land) surface and the atmosphere. In potential evapotranspiration methods, it is typically assumed that evapotranspiration takes place from a saturated surface, and that the vapour pressure $e$ at the surface equals the saturated vapour pressure at the surface temperature, i.e. $e = e^* (T_{\text{surf}})$. Thus, direct determination of evapotranspiration would require observations of land surface temperature, which are not routinely available. 
+
+Penman (1948) was amonng the first to propose a way around this problem. Central in the derivation of the Penman-equation is the linearisation of the saturation vapour pressure versus temperature-curve (the Clausius-Clapeyron relation) at air temperature $T_{\text{air}}$:
+
+$$
+\Delta = \frac{e^* (T_{\text{surf}}) - e^*(T_{\text{air}})}{T_{\text{surf}} - T_{\text{air}}}
+$$
+
+In this equation, the temperature gradient $T_{\text{surf}} - T_{\text{air}}$ represents the driving force behind the sensible heat flux. By combining this equation with the simplified land surface energy balance, $T_{\text{surf}}$ can be eliminated. The Penman equation thus combined information on the latent as well as the sensible heat flux, which are coupled by the land surface energy balance. This is one of the reasons why this equation is often seen as the best possible estimate of ET from meteorological data alone. 
+
+The original Penman equation was developed for evaporation from a wet surface and only parameterised the aerodynamic resistance $r_a$, while neglecting the additional surface resistance $r_s$ that stomata cause when the main source of evapotranspiration is from within the stomata. The Penman-Monteith equation combines the aerodynamic and surface resistance, and reads
+
+$$
+\lam
+$$
