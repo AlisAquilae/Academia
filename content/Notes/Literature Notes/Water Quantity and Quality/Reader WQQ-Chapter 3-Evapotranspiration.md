@@ -191,7 +191,7 @@ in which it can be more directly seen that both radiation and mass transfer due 
 
 The Penman-Monteith equation combines the effect of two driving factors: radiation and "mass transfer", which quantifies the vapour pressure gradient and the potential for turbulence in the boundary layer to transport moisture away from the land surface. Therefore the Penman-Monteith equation is also referred to as a combination equation. Theoretically, evapotranspiration can be driven by any of the two factors alone, but in practice the radiation term dominates.
 
-The Penman-Monteith equation requires numerous input variables, which are not all routinely measured at meteorological stations (e.g. net radiation). Based on lysimeter experiments, Makkink (1957) noted that evapotranspiration under conditions typical for the Netherlands is primarily driven by temperature and global radiation, both of which are routinely measured at KNMI stations. He proposed the following formula for the so-called [[Reference Evapotranspiration]] $ET_{\text{ref}}$, which is the potential evapotranspiration of a well-watered grassland:
+The Penman-Monteith equation requires numerous input variables, which are not all routinely measured at meteorological stations (e.g. net radiation). Based on lysimeter experiments, [[Makkink Reference Evapotranspiration|Makkink]] (1957) noted that evapotranspiration under conditions typical for the Netherlands is primarily driven by temperature and global radiation, both of which are routinely measured at KNMI stations. He proposed the following formula for the so-called [[Reference Evapotranspiration]] $ET_{\text{ref}}$, which is the potential evapotranspiration of a well-watered grassland:
 
 $$
 \lambda ET_{\text{ref}} = 0.65 \frac{\Delta}{\Delta + \gamma} R_{\text{global}}
@@ -200,5 +200,22 @@ $$
 in which $R_{\text{global}}$ is the global (shortwave incoming) radiation. 
 
 >[!Info]
->A method of similar complexity is the Priestley-Taylor equation, which is often used when few input data are available
+>A method of similar complexity is the [[Priestley-Taylor Reference Evapotranspiration|Priestley-Taylor Equation]], which is often used when few input data are available
 
+In order to obtain estimates of [[Actual Evapotranspiration]] from potential evapotranspiration, a water budget is calculated to see when periods of low soil moisture occur, i.e. when soil moisture levels are insufficient to maintain evapotranspiration rates as high as the potential rate. The potential evapotranspiration is then reduced by soil moisture ($\theta$) through a limitation factor $\beta(\theta)$ (not to be confused with the Bowen ratio). 
+
+$$
+ET_{\text{act}} = \beta(\theta)ET_{\text{pot}}
+$$
+
+The soil moisture limitation function typically takes the following form
+
+
+$$
+\beta(\theta) = \left\{\begin{array}{ll}
+0 & \theta_{\text{rz}} \le \theta_{\text{w}} \\
+\frac{\theta - \theta_{\text{pwp}}}{\theta_{\text{lim}}-\theta_{\text{wilt}}} & \theta_{\text{pwp}} \lt \theta_{\text{rz}} \lt \theta_{\text{lim}} \\
+1 & \theta_{\text{rz}} \ge \theta_{\text{lim}}
+\end{array}
+\right.
+$$
