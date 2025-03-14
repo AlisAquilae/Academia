@@ -104,3 +104,44 @@ Lysimeters are instruments which are designed to monitor the water and/or nutrie
 Weighing lysimeters are limited in size since they need to be weighed. The volume of soil in a weighing lysimeter can therefore vary from the size of a bucket in case of a small lysimeter typically used for experiments up to a cylinder with a diameter of 2 m and a height of 2.5 m in case of the Rietzholzbach lysimeter in Switzerland. Small lysimeters are often weighed manually, whereas large lysimeters rest on electronic weight scales that record changes in weight continuously. Drainage from the bottom of such large lysimeters is often measured separately, sometimes in combination with concentration of solutes. 
 
 Non-weighing lysimeters only measure the outflow, and $ET$ is estimated over longer periods of time from the difference between $P$ and the lysimeter outflow and assuming that changes in lysimeter storage can be neglected. Since they do not have to be weighed, non-weighing lysimeters can be much larger than weighing lysimeters. The lysimeters in Castricum, for example, measure 25 x 25 meters, and are four meters deep so they can even be used to monitor the water balance of small patches of forest. 
+
+## 3.3.4 Bowen ratio method
+The Bowen ratio method is a conceptually simple method that estimates evapotranspiration with the land surface energy balance as a constraint. The dimennsionless [[Bowen Ratio]] expresses the partitioning of available energy into sensible and latent heat flux. It is defined as
+
+$$
+\beta = \frac{H}{\lambda ET}
+$$
+
+in which $\lambda ET$ is the evapotranspiration in the same units as $H$.
+
+The Bowen ratio typically varies from 0.4 or well-watered grassland to over 1.6 for forests under heatwave conditions. The ingenuity of the Bowen ratio method lies in the determination of the Bowen ratio. By assuming that the effective eddy diffusivities (defined over time periods of half an hour or longer) for turbulent exchange of water vapour and heat are the same, the Bowen ratio can be determined from synchronous measurements of average temperature and vapour pressure at two heights
+
+$$
+\beta = \gamma \frac{T_1 - T_2}{e_1 - e_2}
+$$
+
+in which $\gamma$ is the psychrometric constant which relates temperature to humidity. In combination with the simplified land surface energy balance we saw previously, this yields
+
+$$
+\lambda ET = \frac{R_{\text{net}} - G}{1 + \beta}
+$$
+
+Since the Bowen ratio method depends on very accurate measurements of small gradients, special care is taken to avoid systematic errors.
+
+## 3.3.5 Eddy covariance
+In contrast to the Bowen ratio method, which uses measurements representing averages of the turbulent exchange over a given time interval, the [[Eddy Covariance]] method monitors the turbulent exchange itself. On the (sub)second timescale, there are considerable fluctuations in the vertical windspeed (although the average vertical wind speed is zero). During short periods of up to tens of seconds, large upwards movement of warm air can occur, transporting both heat and water vapour away from the land surface. On a hot summer day, these eddies can be felt as a sudden short increase in wind. When these eddies are very strong, they can start to rotate and form so-called dust-devils. 
+
+For the turbulent flux of water vapour, it holds that
+
+$$
+\lambda ET = \lambda \, \overline{\rho_a wq} \neq \lambda \overline{\rho_a} \cdot \overline{w} \cdot \overline{q}
+$$
+
+in which
+- $\rho_a$ is the density of the air
+- $w$ is the vertical wind speed
+- $q$ is the specific humidity
+
+This equation shows how much water is transported upwards per unit of area and per unit of time. This equation holds for all turbulent fluxes of any other quantity such as heat, carbon dioxide, or methane
+
+T
