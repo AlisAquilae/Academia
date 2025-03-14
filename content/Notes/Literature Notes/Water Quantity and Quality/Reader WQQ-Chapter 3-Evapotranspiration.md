@@ -170,5 +170,29 @@ In this equation, the temperature gradient $T_{\text{surf}} - T_{\text{air}}$ re
 The original Penman equation was developed for evaporation from a wet surface and only parameterised the aerodynamic resistance $r_a$, while neglecting the additional surface resistance $r_s$ that stomata cause when the main source of evapotranspiration is from within the stomata. The Penman-Monteith equation combines the aerodynamic and surface resistance, and reads
 
 $$
-\lam
+\lambda ET_{\text{pot}} = \frac{\Delta (R_{\text{net}} - G) + \frac{\rho_a c_p}{r_a} \text{VPD}}{\Delta + \gamma \left(1+\frac{r_s}{r_a} \right)}
+$$
+
+in which
+- $\rho_a$ is the density of air
+- $\Delta$ is the slope of the saturation vapour pressure versus temperature-curve at $T_{\text{air}}$
+- $c_p$ is the specific heat capacity ($\approx 1.01 \times 10^3$ J kg$^{-1}$ K$^{-1}$),
+- $\text{VPD}$ the vapour pressure deficit at reference level,.
+- $r_a$ the aerodynamic resistance to evaporation
+- $r_s$ the surface resistance related to the size and opening of the stomata
+
+The Penman-Monteith equation can also be written as
+
+$$
+\lambda ET_{\text{pot}} = \underbrace{c_1 \times (R_{\text{net}} - G)}_{\text{radiation}} + \underbrace{c_2 \times \text{VPD}}_{\text{mass tramsfer}}
+$$
+
+in which it can be more directly seen that both radiation and mass transfer due to turbulent exchange driven by a VPD gradient contribute to evapotranspiration.
+
+The Penman-Monteith equation combines the effect of two driving factors: radiation and "mass transfer", which quantifies the vapour pressure gradient and the potential for turbulence in the boundary layer to transport moisture away from the land surface. Therefore the Penman-Monteith equation is also referred to as a combination equation. Theoretically, evapotranspiration can be driven by any of the two factors alone, but in practice the radiation term dominates.
+
+The Penman-Monteith equation requires numerous input variables, which are not all routinely measured at meteorological stations (e.g. net radiation). Based on lysimeter experiments, Makkink (1957) noted that evapotranspiration under conditions typical for the Netherlands is primarily driven by temperature and global radiation, both of which are routinely measured at KNMI stations. He proposed the following formula for the so-called reference evapotranspiration $ET_{\text{ref}}$, which is the potential evapotranspiration of a well-watered grassland:
+
+$$
+\lambda ET_{\text{ref}} = 0.65 \frac{\Delta}{\D}
 $$
