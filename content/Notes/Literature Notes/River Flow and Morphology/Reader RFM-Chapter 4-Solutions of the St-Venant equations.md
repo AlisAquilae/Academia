@@ -36,6 +36,7 @@ which is sometimes referred to a the standard backwater equation.
 Also this equation is rather easy to solve numerically. We will, however, concentrate here on the qualitative analysis of these solutions. This can be done very systematically and results in a classification generally known as [[Classification Standard Stationary Water Surface Profiles]]. The classified backwater curves turn out to be a very useful tool to assess the hydrodynamic response of a river to a change in e.g. discharge, sea level, side channels, or resulting from human interventions such as narrowing or dredging.
 
 ## 4.1.2 Equilibrium depth and critical depth
+### 4.1.2.1 Equilibrium depth
 The classification of water surface profiles starts by considering the sign of the pressure slope $\frac{da}{dx}$. The sign of this slope follows from the sign of the numerator $(S_o - S_f)$ and denominator $(1 - \text{Fr}^2)$ in Equation 4.1.
 
 When the numerator is zero we are in equilibrium situation, as analysed in [[Reader RFM-Chapter 3-Derivation of the St-Venant equations|Chapter 3]]. In equilibrium situations, given a certain discharge, the depth will change such that a balance is found between friction and gravity. This equilibrium water depth, also referred to as [[Normal Depth]], is denoted by $a_e$. For real cross-sections the value of $a_e$ can for example be found suing a graph in which the local cross-sectional geometry is accounted for. However, to ease further analysis of the backwater curves, we derive an expression for the equilibrium depth
