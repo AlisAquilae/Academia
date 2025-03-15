@@ -154,3 +154,28 @@ The following figures illustrate all cases of the table above
 
 ![[Pasted image 20250315135358.png]]
 
+![[Pasted image 20250315135413.png]]
+
+![[Pasted image 20250315135423.png]]
+
+
+## 4.1.5 Analytical approximation to the backwater equation (==Skipped==)
+
+
+## 4.1.6 Example: River widening
+### 4.1.6.1 Graphical evaluation
+We will consider an example to demonstrate the application of backwater curves to assess the effects of changes in a river. As part of the room for the river program, several measures are implemented that create more room for the river. To understand the effects of this program on the hydrodynamics we consider a river widening over a stretch between locations $A$ and $B$. We assume the river to be initially in equilibrium, and discharging into the sea. The roughness of the river is well represented by a Chèzy coefficient of $C = 50$ m$^{1/2}$ s$^{-1}$ and the bottom slope is $S_o = 1\cdot 10^{-4}$. We will assess the effect qualitatively with a number of sketches. To do so, we need to take the following steps
+
+1. Determine the type of river slope
+2. Draw the initial bed and water surface
+3. Determine how equilibrium and critical depth change after the change in conditions
+4. Draw the water surface profiles after the change has occurred
+
+For the first step we need to determine the type of slope. For this we compute the critical slope (Equation 4.4):
+
+$$
+\begin{aligned}
+S_C &= \frac{g}{C^2} \\
+&= \frac{0.81 \text{ m s}^{-2}}{(50 \text{ m}^)}
+\end{aligned}
+$$
