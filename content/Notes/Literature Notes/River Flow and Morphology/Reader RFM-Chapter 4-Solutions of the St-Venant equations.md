@@ -91,3 +91,6 @@ $$
 $$
 
 When the water depth nears the critical depth, we find that the depth slope becomes infinite, i.e. the water surface will be perpendicular to the bed. We get to this unrealistic result because near the critical depth the long wave assumption does not hold any longer since we will typically observe strong vertical flow, non-hydrostatic pressure, and strong turbulence (e.g. a [[Hydraulic Jump]] will develop).
+
+## 4.1.3 Classification of river bed slopes
+Based on the equilibrium depth and the critical depth it is possible to classify the bed slopes of rivers. In order to do this, we observe that the equilibrium depth (Equation 4.2) is dependent on slope and discharge, while the critical depth depends only on discharge. This means that given a discharge, the depth at which the flow becomes critical is fixed, but the depth at which the flow is normal changes with the slope. We can thus think of a slope at which the normal and critical depth are equal. This slope is called the **critical slope**. We can find an expressiono for the critical slope by setting the equilibrium depth to be equal to the critical depth
