@@ -68,4 +68,26 @@ $$
 
 When the water depth nears the equilibrium depth $(a \to a_e)$ we find that the depth becomes constant, i.e. the water surface will tend to be parallel to the bottom. Far away from an imposed boundary water depth (e.g. at a confluence or sluice gate) the river will always tend to restore the equilibrium depth. Whether the river tends to the equilibrium depth upstream or downstream of the boundary condition depends on whether the flow is [[Subcritical Flow|Subcritical]] $(\text{Fr} \lt 1)$ or [[Supercritical Flow|Supercritical]] $(\text{Fr} \gt 1)$
 
-The transition between subcritical and supercritical flow is represented in Equation 4.1 by the denominator $1 - \text{Fr}^2$. When the denominator tends to zero,m the flow will
+The transition between subcritical and supercritical flow is represented in Equation 4.1 by the denominator $1 - \text{Fr}^2$. When the denominator tends to zero,m the flow will be critical. The depth at which the flow is critical $(\text{Fr} = 1)$ will be called [[Critical Water Depth]] and denoted by $a_C$. An expression for the critical water depth is found by solving the equation
+
+$$
+1 = Fr^2 = \frac{Q^2 b}{g A^3}
+$$
+
+Using the same assumption $(b \gg a)$ we used for the normal depth, we can find an expression for the critical depth
+
+$$
+a_C = \left( \frac{Q^2}{g b^2} \right)^{\frac{1}{3}} \tag{4.3}
+$$
+
+The critical water depth depends on the discharge (and the geometry of the cross section). When the water depth is smaller than the critical depth $a \lt a_C$ the flow is supercritical, while in the other case $a \gt a_C$ the flow is called subcritical. When the flow is supercritical, a boundary condition imposed on the depth has effect downstream of the perturbation, but when the flow is subcritical the boundary condition will only affect the river upstream. A more detailed discussion of the two situations will follow in section 4.4.2
+
+The sign of the denominator in Equation 4.1 can thus be found by comaring the actual depth to the critical water depth. 
+
+$$
+1 - \text{Fr}^2 = \left\{ \begin{matrix} \gt 0 & \text{if } a \gt a_e \\
+= 0 & \text{if }a = a_e \\
+\lt 0 & \text{if } a \lt a_e \end{matrix} \right.
+$$
+
+When the water depth nears the critical depth, we find that the depth slope becomes infinite, i.e. the water surface will be perpendicular to the bed. We get to this unrealistic result because near the critical depth the long wave assumption does not hold any longer since we will typically observe strong vertical flow, non-hydrostatic pressure, and strong turbulence (e.g. a [[Hydraulic Jump]] will develop).
