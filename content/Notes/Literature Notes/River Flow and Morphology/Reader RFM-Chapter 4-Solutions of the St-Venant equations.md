@@ -68,7 +68,7 @@ $$
 
 When the water depth nears the equilibrium depth $(a \to a_e)$ we find that the depth becomes constant, i.e. the water surface will tend to be parallel to the bottom. Far away from an imposed boundary water depth (e.g. at a confluence or sluice gate) the river will always tend to restore the equilibrium depth. Whether the river tends to the equilibrium depth upstream or downstream of the boundary condition depends on whether the flow is [[Subcritical Flow|Subcritical]] $(\text{Fr} \lt 1)$ or [[Supercritical Flow|Supercritical]] $(\text{Fr} \gt 1)$
 
-The transition between subcritical and supercritical flow is represented in Equation 4.1 by the denominator $1 - \text{Fr}^2$. When the denominator tends to zero,m the flow will be critical. The depth at which the flow is critical $(\text{Fr} = 1)$ will be called [[Critical Water Depth]] and denoted by $a_C$. An expression for the critical water depth is found by solving the equation
+The transition between subcritical and supercritical flow is represented in Equation 4.1 by the denominator $1 - \text{Fr}^2$. When the denominator tends to zero, the flow will be critical. The depth at which the flow is critical $(\text{Fr} = 1)$ will be called [[Critical Water Depth]] and denoted by $a_C$. An expression for the critical water depth is found by solving the equation
 
 $$
 1 = Fr^2 = \frac{Q^2 b}{g A^3}
