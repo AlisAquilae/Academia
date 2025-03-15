@@ -38,4 +38,34 @@ Also this equation is rather easy to solve numerically. We will, however, concen
 ## 4.1.2 Equilibrium depth and critical depth
 The classification of water surface profiles starts by considering the sign of the pressure slope $\frac{da}{dx}$. The sign of this slope follows from the sign of the numerator $(S_o - S_f)$ and denominator $(1 - \text{Fr}^2)$ in Equation 4.1.
 
-When the numerator is zero we are in equilibrium situation, as analysed in [[Reader RFM-Chapter 3-Derivation of the St-Venant equations|Chapter 3]]. In equilibrium situations, given a certain discharge, the depth will change such that a balance is found between friction and gra
+When the numerator is zero we are in equilibrium situation, as analysed in [[Reader RFM-Chapter 3-Derivation of the St-Venant equations|Chapter 3]]. In equilibrium situations, given a certain discharge, the depth will change such that a balance is found between friction and gravity. This equilibrium water depth, also referred to as [[Normal Depth]], is denoted by $a_e$. For real cross-sections the value of $a_e$ can for example be found suing a graph in which the local cross-sectional geometry is accounted for. However, to ease further analysis of the backwater curves, we derive an expression for the equilibrium depth
+
+To find such an expression, we assume that $b \gg a$. As a result of this assumption we can set $A \approx a \cdot b$ and $R \approx a$. Since in equilibrium $S_o = S_f$ we find (using [[Chézy's Law]] for the friction slope)
+
+$$
+S_o = \frac{Q^2}{C^2 A^2 R}
+$$
+
+We now fill out in this equation the approximations for $R$ and $A$
+
+$$
+S_o = \frac{Q^2}{C^2 a^3_e b^2}
+$$
+
+Note that, since we assumed equilibrium, we can write $a_e$ instead of $a$. Now we can easily find an expression for the equilibrium depth:
+
+$$
+a_e = \left( \frac{Q^2}{C^2b^2S_o} \right)^{\frac{1}{3}} \tag{4.2}
+$$
+
+The sign of the numerator in Equation 4.1 can thus be found by comparing the actual depth to the normal depth
+
+$$
+S_o - S_f = \left\{ \begin{matrix} \gt 0 & \text{if } a \gt a_e \\
+= 0 & \text{if }a = a_e \\
+\lt 0 & \text{if } a \lt a_e \end{matrix} \right.
+$$
+
+When the water depth nears the equilibrium depth $(a \to a_e)$ we find that the depth becomes constant, i.e. the water surface will tend to be parallel to the bottom. Far away from an imposed boundary water depth (e.g. at a confluence or sluice gate) the river will always tend to restore the equilibrium depth. Whether the river tends to the equilibrium depth upstream or downstream of the boundary condition depends on whether the flow is [[Subcritical Flow|Subcritical]] $(\text{Fr} \lt 1)$ or [[Supercritical Flow|Supercritical]] $(\text{Fr} \gt 1)$
+
+The transition between subcritical and supercritical flow is represented in Equation 4.1 by the denominator $1 - \text{Fr}^2$. When the denominator tends to zero,m the flow will
