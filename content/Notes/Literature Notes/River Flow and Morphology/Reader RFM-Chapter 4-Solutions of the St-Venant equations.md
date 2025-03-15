@@ -199,4 +199,4 @@ Downstream of location $B$, the river is unaffected by the weidening and we stil
 
 Upstream of $A$ the equilibrium depth is again higher. Since the water level downstream of $A$ s lower than the equilibrium depth upstream of $A$, we will have an $M_2$-curve developing. Also here the depth slope will be largest at $A$ and slowly decrease when approaching the equilibrium depth.
 
-The result obtained (Figure 4.8) helps to understand how widening will affect the hydrodynamics of the river. It is important to note that the widening only affects the river upstream, since we are dealing with subcritical flow. The flow upstream of $A$ accelerates when approaching $A$. Down
+The result obtained (Figure 4.8) helps to understand how widening will affect the hydrodynamics of the river. It is important to note that the widening only affects the river upstream, since we are dealing with subcritical flow. The flow upstream of $A$ accelerates when approaching $A$. Downstream of $A$ the flow slowly decelerates until $B$. Downstream of $B$ the flow is still in equilibrium.
