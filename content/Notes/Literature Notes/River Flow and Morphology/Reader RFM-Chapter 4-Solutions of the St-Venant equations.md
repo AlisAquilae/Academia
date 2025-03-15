@@ -67,7 +67,10 @@ S_o - S_f = \left\{ \begin{matrix} \gt 0 & \text{if } a \gt a_e \\
 \lt 0 & \text{if } a \lt a_e \end{matrix} \right.
 $$
 
-When the water depth nears the equilibrium depth $(a \to a_e)$ we find that the depth becomes constant, i.e. the water surface will tend to be parallel to the bottom. Far away from an imposed boundary water depth (e.g. at a confluence or sluice gate) the river will always tend to restore the equilibrium depth. Whether the river tends to the equilibrium depth upstream or downstream of the boundary condition depends on whether the flow is [[Subcritical Flow|Subcritical]] $(\text{Fr} \lt 1)$ or [[Supercritical Flow|Supercritical]] $(\text{Fr} \gt 1)$
+When the water depth nears the equilibrium depth $(a \to a_e)$ we find that the depth becomes constant, i.e. the water surface will tend to be parallel to the bottom. Far away from an imposed boundary water depth (e.g. at a confluence or sluice gate) the river will always tend to restore the equilibrium depth. 
+
+#### 4.1.2.2 Critical depth
+Whether the river tends to the equilibrium depth upstream or downstream of the boundary condition depends on whether the flow is [[Subcritical Flow|Subcritical]] $(\text{Fr} \lt 1)$ or [[Supercritical Flow|Supercritical]] $(\text{Fr} \gt 1)$
 
 The transition between subcritical and supercritical flow is represented in Equation 4.1 by the denominator $1 - \text{Fr}^2$. When the denominator tends to zero, the flow will be critical. The depth at which the flow is critical $(\text{Fr} = 1)$ will be called [[Critical Water Depth]] and denoted by $a_C$. An expression for the critical water depth is found by solving the equation
 
@@ -94,4 +97,28 @@ $$
 When the water depth nears the critical depth, we find that the depth slope becomes infinite, i.e. the water surface will be perpendicular to the bed. We get to this unrealistic result because near the critical depth the long wave assumption does not hold any longer since we will typically observe strong vertical flow, non-hydrostatic pressure, and strong turbulence (e.g. a [[Hydraulic Jump]] will develop).
 
 ## 4.1.3 Classification of river bed slopes
-Based on the equilibrium depth and the critical depth it is possible to classify the bed slopes of rivers. In order to do this, we observe that the equilibrium depth (Equation 4.2) is dependent on slope and discharge, while the critical depth depends only on discharge. This means that given a discharge, the depth at which the flow becomes critical is fixed, but the depth at which the flow is normal changes with the slope. We can thus think of a slope at which the normal and critical depth are equal. This slope is called the **critical slope**. We can find an expressiono for the critical slope by setting the equilibrium depth to be equal to the critical depth
+Based on the equilibrium depth and the critical depth it is possible to classify the bed slopes of rivers. In order to do this, we observe that the equilibrium depth (Equation 4.2) is dependent on slope and discharge, while the critical depth depends only on discharge. This means that given a discharge, the depth at which the flow becomes critical is fixed, but the depth at which the flow is normal changes with the slope. We can thus think of a slope at which the normal and critical depth are equal. This slope is called the **critical slope**. We can find an expression for the critical slope by setting the equilibrium depth to be equal to the critical depth:
+
+$$
+\begin{aligned}
+a_e &= a_C \\
+\frac{Q^2}{C^2 b^2 S_o} &= \frac{Q^2}{gb^2}
+\end{aligned}
+$$
+
+From this, we find that the bed slope, which is equal to the critical slope (as the critical slope is independent of slope, and only depends on discharge) is found by
+
+$$
+S_o = S_C = \frac{g}{C^2}
+$$
+
+From this we can classify river bed slopes based on the critical slope
+- **Mild slope (M)**: when $S_o \lt S_C \; (a_e \gt a_C)$
+- **Critical slope (C)**: when $S_o = S_C \; (a_e = a_C)$
+- **Steep slope (S)**: when $S_o \gt S_C \; (a_e \lt a_C)$
+
+Furthermore we can distinguish two more slopes based on the sign of the bed slope
+- **Horizontal slope (H)**: when $S_o = 0 \; (a_e = \infty \gt a_C)$
+- **Adverse slope (A)**: when $S_o \lt 0 \; (a_e \lt 0 \lt a_C)$
+
+Most natural rivers feature mild slopes in lowland areas (such as in the Netherlands) and steep slopes in mountainous areas (typically outside the Netherlands). Figure 4.1 illustrates the two most important slopes: mild and steep. The critical slope is added just for systematic completeness, but will never occur in natural systems
