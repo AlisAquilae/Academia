@@ -121,4 +121,36 @@ Furthermore we can distinguish two more slopes based on the sign of the bed slop
 - **Horizontal slope (H)**: when $S_o = 0 \; (a_e = \infty \gt a_C)$
 - **Adverse slope (A)**: when $S_o \lt 0 \; (a_e \lt 0 \lt a_C)$
 
-Most natural rivers feature mild slopes in lowland areas (such as in the Netherlands) and steep slopes in mountainous areas (typically outside the Netherlands). Figure 4.1 illustrates the two most important slopes: mild and steep. The critical slope is added just for systematic completeness, but will never occur in natural systems
+Most natural rivers feature mild slopes in lowland areas (such as in the Netherlands) and steep slopes in mountainous areas (typically outside the Netherlands). Figure 4.1 illustrates the two most important slopes: mild and steep. The critical slope is added just for systematic completeness, but will never occur in natural systems. Also the horizontal and adverse slope are often not found in nature, but they commonly occur in hydraulic flumes (often horizontal) and in hydraulic structures. 
+
+![[Pasted image 20250315134436.png]]
+
+![[Pasted image 20250315134454.png]]
+
+## 4.1.4 The twelve water surface profiles
+The kind of water surface profile that develops in a river, depends on the type of bed slope. In the previous section we saw that five different bed slopes can be distinguished. For most slopes the river will by itself always be in an equilibrium state and no backwater curve develops. For a backwater curve to develop some kind of imposed water depth, i.e. a boundary condition is needed. This can be a narrowing, a sluice gate or a tributary. Regardless of what causes the depth boundary condition, for a backwater to develop the depth or depth imposed by the depth boundary condition must be a non equilibrium water depth $a$. The imposed depth "pushes" the river out of equilibrium and the river will try to "restore" the equilibrium far away from the boundary condition.
+
+To study the interplay between the boundary condition, imposing a depth $a$ and the equilibrium ($a_e$) and critical depth ($a_C$), we rewrite the backwater equation 4.1 in a more convenient form in terms of these depths, using the same assumption used to derive expressions for the equilibrium and critical depth ($b \gg a$):
+
+$$
+\begin{aligned}
+\frac{\partial a}{\partial x} &= \frac{S_o - S_f}{1-\text{Fr}^2} \\
+&=S_o \frac{a^3 -a^3_e}{a^3 - a^3_C}
+\end{aligned}
+$$
+
+The equation in this form is also known as the [[Equation of Bélanger]].
+
+With the equation in this form we can better distinguish how the relative magnitude of the boundary depth $a$, and equilibrium and critical depth control the kind of water surface profile that will develop. Considering all combinations we get to a total of twelve water surface profiles. The naming codes in this table are almost standard. 
+
+![[Pasted image 20250315135146.png]]
+
+Each of these twelve cases can now easily be analysed in terms of signs. For instance for the case $M_2$, one has:
+- as $a \lt a_e$, one can conclude that $S_o - S_f \lt 0$
+- as $a_C \lt a$, one can conclude that $1 - \text{Fr}^2 \gt 0$
+- From this follows that $\frac{\mathrm{d}a}{\mathrm{d}x} \lt 0$, i.e.: the water depth will decline in the downstream direction. 
+
+The following figures illustrate all cases of the table above
+
+![[Pasted image 20250315135358.png]]
+
