@@ -176,6 +176,27 @@ For the first step we need to determine the type of slope. For this we compute t
 $$
 \begin{aligned}
 S_C &= \frac{g}{C^2} \\
-&= \frac{0.81 \text{ m s}^{-2}}{(50 \text{ m}^)}
+&= \frac{0.81 \text{ m s}^{-2}}{(50 \text{ m}^{1/2}\text{s}^{-1})^2} \\
+&= 3.9 \cdot 10^{-3}
 \end{aligned}
 $$
+
+Since $S_o = 1 \cdot 10^{-4} \lt S_C = 3.9 \cdot 10^{-3}$ we can conclude that the river has a mild slope, and therefore $a_e \lt a_C$, and we expect backwater curves of the $M$-type.
+
+The second step is to draw the initial situation. We know the river to be discharging into the sea, and that the river is in equilibrium. Since the slope is mild we know that the equilibrium is subcritical, and therefore the boundary condition for the water level is set downstream by the sea. Also the critical depth is smaller than the equilibrium depth.
+
+![[Pasted image 20250315140707.png]]
+
+The third step is to evaluate how the equilibrium and critical depth will change as a result of the river widening. For this we can use Equation 4.2 and 4.3. Since both expressions have the river width in the denominator, we can conclude that as a result of the river widening, both the equilibrium and critical depth will drop. We can now draw these new depths.
+
+![[Pasted image 20250315140821.png]]
+
+The last step is to draw the backwater curves. Since the flow is subcritical the effects propagate in upstream direction and so we start drawing on the downstream end of the river. 
+
+![[Pasted image 20250315140907.png]]
+
+Downstream of location $B$, the river is unaffected by the weidening and we still have equilibrium. These equilibrium conditions form a boundary condition for the upstream reach  $AB$. In the reach $AB$ the equilibrium depth is lower. This means that we have a boundary depth that is higher than the equilibrium depth, which means than an $M_1$-curve will develop. Starting at $B$ we can draw the $M_1$-curve. The slope of this curve will decrease when we slowly approach the equilibrium depth (see Equation 4.5), like an exponential curve (see Equation 4.6). The level that the backwater reaches in $A$ will set the boundary condition for the reach upstream of $A$.
+
+Upstream of $A$ the equilibrium depth is again higher. Since the water level downstream of $A$ s lower than the equilibrium depth upstream of $A$, we will have an $M_2$-curve developing. Also here the depth slope will be largest at $A$ and slowly decrease when approaching the equilibrium depth.
+
+The result obtained (Figure 4.8) helps to understand how widening will affect the hydrodynamics of the river. It is important to note that the widening only affects the river upstream, since we are dealing with subcritical flow. The flow upstream of $A$ accelerates when approaching $A$. Down
