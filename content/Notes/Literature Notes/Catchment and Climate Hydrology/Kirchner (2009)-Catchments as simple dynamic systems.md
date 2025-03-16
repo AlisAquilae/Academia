@@ -98,6 +98,26 @@ The function $g(Q)$ can be estimated from observational data by combining Equiat
 
 $$
 \begin{aligned}
-
-\end{aligned}
+g(Q) &= \frac{\mathrm{d}Q}{\mathrm{d}S} \\
+&= \frac{\frac{\mathrm{d}Q}{\mathrm{d}t}}{P - E - Q}
+\end{aligned} \tag{6}
 $$
+
+which implies that the slope of the storage-discharge function $f(S)$ can be determined from instantaneous measurements of precipitation, evapotranspiration, discharge and the rate of change of discharge. Of the free fluxes $P$, $E$ and $Q$, discharge can be measured more reliably than precipitation or evapotranspiration at the whole-catchment scale, for the reasons described earlier. Therefore, Equation 6 can be most accurately estimated when precipitation and evapotranspiration fluxes are small compared to discharge ($P \ll Q$ and $E \ll Q$). Under these circumstances, Equation 6 is approximated by
+
+$$
+g(Q) = \frac{\mathrm{d}Q}{\mathrm{d}S} \approx - \frac{\frac{\mathrm{d}Q}{\mathrm{d}t}}{Q} \tag{7}
+$$
+
+Equation 7 implies that one can estimate the sensitivity function $g(Q)$ from the time series of $Q$ alone. To do this, one must identify intervals of time when precipitation and evapotranspiration are small compared to discharge, but it is not necessary to measure either $P$ or $E$ accurately as long as their magnitude compared to $Q$ is known. 
+
+From the sensitivity function $g(Q)$, one can derive the storage-discharge relationship by first inverting Equation 5
+
+$$
+\int \mathrm{d}S = \int \frac{\mathrm{d}Q}{g(Q)}
+$$
+
+
+thus obtaining $S$ as a function of $Q$, and then by inverting this function to obtain $Q$ as a function of $S$. 
+
+Apart from thje requirement that $Q = f(S)$ must be an increasing function of $S$ (and thus that $g(Q)$ must always be positive), nothing in the approach outlined here requires $f(S)$ or $g(Q)$ to have any particular mathematical form. In practice, $g(Q)$ will be an empirical function that is estimated from streamflow time series datya, and it could potentially exhibit different functional forms in different catchments. A few simple functional forms of $g(Q)$ can be integrated and inve
