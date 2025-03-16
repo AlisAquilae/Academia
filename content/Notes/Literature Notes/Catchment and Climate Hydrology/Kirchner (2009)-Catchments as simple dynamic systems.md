@@ -64,9 +64,40 @@ $$
 and thus that the storage-discharge function is invertible. Thus the discharge in the stream provides an implicit measure of the volume of water stored in the catchment:
 
 $$
-S = f^{-1}(Q) \tag{2}
+S = f^{-1}(Q) \tag{3}
 $$
 
 Equations 1 and 2 form a first-order dynamical system, in which $P$, $E$, $Q$ and $S$ are all understood to be functions of time. This dynamical system would be particularly simple if $Q$ were a linear function of $S$. The properties of such systems have been extensively studies in hydrology, but in general $Q$ will be a nonlinear function of $S$, resulting in a richer spectrum of possible behaviours. This more general nonlinear case is the focus of the analysis presented here.
 
 Regardless of the form that $f(S)$ takes, the structure of the dynamical system directly yields an important inference concerning catchment storage response. Because $Q$ is a function of $S$ alone, storage (and thus discharge) will be rising whenever $P - E \gt Q$, and falling whenever $Q \gt P - E$. The peak discharge ($\frac{\mathrm{d}Q}{\mathrm{d}t} = 0$) will coincide with the peak storage ($\frac{\mathrm{d}S}{\mathrm{d}t} = 0$). Because the peak rainfall corresponds to rising flow, which by definition will occur before the peak discharge, the peak flow will lag the peak rainfall, even in the absence of any travel time delays for pulses of stormflow to reach the weir. Furthermore, the peak flow will occur as the rainfall rate falls below discharge, and thus the mass balance (Equation 1) turns negative.
+
+---
+# 4. Estimating catchment sensitivity to changes in storage: Theory
+Differentiating Equation 2 with respect to time and substituting Equation 1 directly yields the following differential equation for the rate of change of discharge through time:
+
+$$
+\begin{aligned}
+\frac{\mathrm{d}Q}{\mathrm{d}t} &= \frac{\mathrm{d}Q}{\mathrm{d}S} \frac{\mathrm{d}S}{\mathrm{d}t} \\
+&= \frac{\mathrm{d}Q}{\mathrm{d}S} (P - E - Q)
+\end{aligned} \tag{4}
+$$
+
+The term $\frac{\mathrm{d}Q}{\mathrm{d}S}$ will be crucial in the analysis that follows; it is the derivative of the storage discharge relationship $f(S)$, and represents the sensitivity of discharge to changes in storage. Normally, derivatives like $\frac{\mathrm{dQ}}{\mathrm{dS}}$ would be expressed in terms of $S$, but $S$ cannot be directly measured at the catchment scale for the reasons described earlier. However, because $S$ is assumed to be a single-valued function of $Q$, $\frac{\mathrm{d}Q}{\mathrm{d}S}$ can also be expressed as a function of $Q$, here defined as $g(Q)$:
+
+$$
+\begin{aligned}
+\frac{\mathrm{d}Q}{\mathrm{d}S} &= f'(S) \\
+&= f'(f^{-1}(Q)) \\
+&= g(Q)
+\end{aligned} \tag{5}
+$$
+
+The function $g(Q)$ will be called the "sensitivity function" because it expresses the sensitivity of discharge to changes in storage. Mathematically, it is the implicit differential form of the storage-discharge relationship; it measures how changes in discharge are related to changes in storage, but it does so as a function of $Q$ (which is directly measurable) rather than $S$ (which is not). This makes it more useful than the conventional form $f'(S)$ for the analysis that follows.
+
+The function $g(Q)$ can be estimated from observational data by combining Equiations 4 and 5 to yield
+
+$$
+\begin{aligned}
+
+\end{aligned}
+$$
