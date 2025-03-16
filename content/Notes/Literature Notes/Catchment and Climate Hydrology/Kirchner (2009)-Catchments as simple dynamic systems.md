@@ -45,4 +45,28 @@ $P$, $Q$, $E$ and $S$ are understood to be functions of time, and are understood
 
 Application of Equation 1 should take account of how its individual terms are measured, and the spatial scales over which such measurements are applicable. Of the four terms in Equation 1, only discharge is an aggregated measurement for the entire catchment. Therefore the analysis presented here explores what one can learn about catchment processes from fluctuations in streamflow, without assuming that measurements of precipitation or evapotranspiration are spatially representative. The analysis also makes no use of direct measurements of changes in storage, because they are often unavailable.
 
-This analysis makes the fundamental assumption that this discharge in the stream, $Q$, depends solely on the amount of water stored in the catchment, $S$. That is, the analysis assumer that there is some storage-discharge function $f
+This analysis makes the fundamental assumption that this discharge in the stream, $Q$, depends solely on the amount of water stored in the catchment, $S$. That is, the analysis assumes that there is some storage-discharge function $f(S)$, such that
+
+$$
+Q = f(S) \tag{2}
+$$
+
+This premise is not valid in every catchment, but in many cases it can be a useful approximation, and it is an essential assumption in the analysis that follows. Of course, in any catchment some fraction of stream discharge may be controlled by processes other than the release of water from storage. Two obvious examples are direct precipitation onto the stream surface itself, and precipitation onto areas that are impermeable or saturated and are directly connected to the stream. These processes will route precipitation directly to discharge as bypassing flow, rather than adding it to subsurface storage. The analysis presented here does not require that bypassing flow is entirely absent, but assumes that it is not a dominant component of discharge. If, instead, discharge is dominated by bypassing flow, the approach presented here may fail, because processes such as channel routing (which are not treated in detail here) may dominate the runoff response. A method for assessing the quantitative significance of bypassing flow is presented in Section 15,4
+
+The premise that discharge depends on storage is broadly consistent with the smaller-scale governing equations that drive subsurface transport. For example, the flow of water downward through the unsaturated zone is controlled by its matric potential and hydraulic conductivity, which are both steep nonlinear functions of water content. Flow in the saturated zone depends on the slope of the water table, which varies with storage in the saturated zone, and on the saturated hydraulic conductivity, which varies as a function of depth; thus transmissivity also depends on the total storage in the saturated zone. As a result, stream discharge is often a steep nonlinear function of groundwater levels in the surrounding catchment. Many of the processes and rate coefficients that control water flow in the subsurface are strongly, and nonlinearly, dependent on storage.
+
+Nonetheless it is not clear how these nonlinear relationships, which may differ from point to point across the landscape, will combine to create a storage-discharge relationship for the catchment as a whole. For this reason, my approach assumes no particular functional form for the storage-discharge relationship $f(S)$, instead allowing both the form of $f(S)$ and its coefficients to be estimated directly form runoff time series data. I assume only that $Q$ is an increasing single valued function of $S$, i.e.
+
+$$
+\frac{\mathrm{d}Q}{\mathrm{d}S} \gt 0 \; \text{for all }Q\text{ and all }S
+$$
+
+and thus that the storage-discharge function is invertible. Thus the discharge in the stream provides an implicit measure of the volume of water stored in the catchment:
+
+$$
+S = f^{-1}(Q) \tag{2}
+$$
+
+Equations 1 and 2 form a first-order dynamical system, in which $P$, $E$, $Q$ and $S$ are all understood to be functions of time. This dynamical system would be particularly simple if $Q$ were a linear function of $S$. The properties of such systems have been extensively studies in hydrology, but in general $Q$ will be a nonlinear function of $S$, resulting in a richer spectrum of possible behaviours. This more general nonlinear case is the focus of the analysis presented here.
+
+Regardless of the form that $f(S)$ takes, the structure of the dynamical system directly yields an important inference concerning catchment storage response. Because $Q$ is a function of $S$ alone, storage (and thus discharge) will be rising whenever $P - E \gt Q$, and falling whenever $Q \gt P - E$. The peak discharge ($\frac{\mathrm{d}Q}{\mathrm{d}t} = 0$) will coincide with the peak storage ($\frac{\mathrm{d}S}{\mathrm{d}t} = 0$). Because the peak rainfall corresponds to rising flow, which by definition will occur before the peak discharge, the peak flow will lag the peak rainfall, even in the absence of any travel time delays for pulses of stormflow to reach the weir. Furthermore, the peak flow will occur as the rainfall rate falls below discharge, and thus the mass balance (Equation 1) turns negative.
