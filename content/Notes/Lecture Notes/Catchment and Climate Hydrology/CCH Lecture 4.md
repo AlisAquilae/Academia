@@ -123,3 +123,12 @@ Explanation (in part): concentrations vary in depth in general, due to differenc
 Differentiate new (with tracer) from old (without tracer)  water, compose their time series cumulatively as well as individually, and find out what the ratio new-old water is in hydrograph
 
 Assumptions: characteristic concentrations for different sources and concentrations constant in space and time (for storm duration).
+
+More complex: End-Member Mixing Analysis (EMMA): extends the simple mixing model by looking at precipitation, soil water and ground water. Now do the same trick for the system, as long as you have 2 tracers. If the combination of these tracers is different in the system, you can decompose the hydrograph again.
+
+Nowadays, because of new technologies, we can study this for high resolutions in time and for many tracers at once. 
+
+## Isotopes
+Advantage over tracers: An isotope is not an addition to the water, but the water itself. It is a property of the water. This is useful in hydrology because you get fractionation. One isotope might be slightly easier to evaporate. The ratio between these isotopes can explain where the water comes from. 
+
+You always look at de
