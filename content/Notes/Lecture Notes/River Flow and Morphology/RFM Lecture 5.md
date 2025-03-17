@@ -42,8 +42,16 @@ We use Manning or Chezy, because for a kinematic wave, these become exact.
 
 Kinematic wave is based on unaltered mass, manning/chezy. It simplifies it as a wave that propagates downstream without changing.
 
-In reality, depth changes. Celerity increases for larger water depth. What happens then? Well, still captured. 
+In reality, depth changes. Celerity increases for larger water depth. What happens then? Well, still captured. Thus allows for waves 'turning' slowly and changing angles
 
 What is not captured? Diffusion/attenuation
 
 We still use kinematic waves in models, for example landscape evolution models. These work with geological timescales. 
+
+---
+# cD Wave
+We do include the pressure correction term. S0 - Sf - Sp = 0
+
+It is simply the kinematic wave times a pressure correction
+
+???????????????
