@@ -49,9 +49,10 @@ What is not captured? Diffusion/attenuation
 We still use kinematic waves in models, for example landscape evolution models. These work with geological timescales. 
 
 ---
-# cD Wave
+# Convection-Diffusion Wave
 We do include the pressure correction term. S0 - Sf - Sp = 0
 
 It is simply the kinematic wave times a pressure correction
 
 ???????????????
+
