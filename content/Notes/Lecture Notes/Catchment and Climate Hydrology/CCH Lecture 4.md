@@ -95,3 +95,31 @@ Most prominent tracers: geochemical tracers: silica, chloride, calcium. Dependin
 
 ## Paper for today: Kirchner (2006)
 Look at response of flow to rainfall using chloride as a tracer. 
+
+Result: higher rainfall means higher streamflow (makes sense)
+
+However, chloride concentration is quite variable. Depending on type of rainfall, chloride concentration varies. If you look at chloride concentration in the stream, the chloride concentration is almost constant. Thus, by looking at concentrations, you can falsify some of the theories we have been talking about. This is not compatible with observation of Horton. 
+
+Catchment acts as a big buffer, smooths out the concentration of chloride. 
+
+There is some seasonality, and some response to certain high precipitation events, but otherwise chloride concentration almost constant. This can also be if the water is really well mixed and has a long residence time. 
+
+Also did some explorations on which concepts of travel times match his observations. Advection-dispersion, ganna distribution, exponential distribution. Only the gamma distribution is able to reasonable describe the chloride concentration.
+
+Travel time is therefore very nonlinear with a very thick tail. Part of water resides very short time, and then a very flat tail. Most of the water ending up in the stream has been there for a long time.
+
+Catchment is not just a box with rainfall water. There is a long time lag between the reaction of surface water to precipitation. 
+
+This is also why we still have a nitrate crisis here in the Netherlands, because it takes a long time for all the nitrate to wash away. 
+
+## The double paradox of stream cgemistry (Kirchner, 2006)
+Rapid mobilisation of old water. In many small catchments, streamflow responds promptly to rainfall inputs, but fluctuations in tracers are often strongly damped. This indicates that storm flow in these catchments is mostly 'old' water
+
+2nd paradox: variable chemical composition in water.
+
+Explanation (in part): concentrations vary in depth in general, due to difference in transmissivity between deep and shallow groundwater. Explains different chemical composition. 
+
+## Simple mixing models
+Differentiate new (with tracer) from old (without tracer)  water, compose their time series cumulatively as well as individually, and find out what the ratio new-old water is in hydrograph
+
+Assumptions: characteristic concentrations for different sources and concentrations constant in space and time (for storm duration).
