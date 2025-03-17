@@ -131,4 +131,4 @@ Nowadays, because of new technologies, we can study this for high resolutions in
 ## Isotopes
 Advantage over tracers: An isotope is not an addition to the water, but the water itself. It is a property of the water. This is useful in hydrology because you get fractionation. One isotope might be slightly easier to evaporate. The ratio between these isotopes can explain where the water comes from. 
 
-You always look at de
+You always look at deviation from the global meteoric water line. 
