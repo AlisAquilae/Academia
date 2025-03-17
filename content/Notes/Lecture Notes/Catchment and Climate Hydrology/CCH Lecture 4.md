@@ -39,4 +39,23 @@ Rather than saying Horton were wrong, they assume that not all streamflow is run
 
 They came up with a variable source area concept. Rather than infiltration being limited, you might get quick runoff but only from saturated parts of the landscape. The rest is groundwater flow.
 
-There are a couple of things still very wrong with this. Layered rainfall and subsurface flow can be questioned, as well as
+There are a couple of things still very wrong with this. Layered rainfall and subsurface flow can be questioned, as well as the thought that the deeper you go down into the soil, the faster the water will flow. This is really wrong. If you follow this model, there is a large capacity for water to be transported deeper into the profile. If a catchment dries out in the top layer, the catchment will keep on generating flow untill all the water is gone. 
+
+What is right is the idea of channel expansion, which is still useful. 
+
+## Dunne and Black (early 1970s): Variable source area concept
+First mapped which part of the soil is saturated. There is a strong seasonal shift in saturated areas, they found, they found. If any rain falls directly on saturated area, will lead to rapid response. Strong dynamics in source area of a catchment. 
+
+Important for one of the models we will use in the practicals
+
+Variable source area concept developed by previous examples, in the same, humid climate. There is, however, some kind of relation to climate, topography and vegetation. 
+
+If soil is dry, Hortonian overland flow still can hold. If humid climate and dense vegetation, variable source area concept holds. 
+
+## Role of topographic convergence
+Saturation develops often in local topographic convergence areas, where subsurface flow from a larger area is forced to the surface, leading to a strong increase in stormflow. 
+
+## Groundwater ridging
+There's other processes as well. Not all catchment needs to respond to rainfall for the response in the stream to be significant. Ratio rainfall to streamflow is often only 20%. Even if few percent of catchment area is saturated, can still be significant.
+
+Groundw
