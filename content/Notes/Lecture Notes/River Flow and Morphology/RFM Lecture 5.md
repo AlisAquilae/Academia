@@ -46,5 +46,4 @@ In reality, depth changes. Celerity increases for larger water depth. What happe
 
 What is not captured? Diffusion/attenuation
 
----
-# Kinematic celerity vs. velocity
+We still use kinematic waves in models, for example landscape evolution models. These work with geological timescales. 
