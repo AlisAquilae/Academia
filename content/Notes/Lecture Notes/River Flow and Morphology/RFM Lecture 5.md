@@ -36,4 +36,15 @@ If S0 - Sf - Sp  = 0, we find a diffusion-convection wave
 
 ---
 # Kinematic wave
-You 
+You often find an approximation using kinematic waves in models.
+
+We use Manning or Chezy, because for a kinematic wave, these become exact. 
+
+Kinematic wave is based on unaltered mass, manning/chezy. It simplifies it as a wave that propagates downstream without changing.
+
+In reality, depth changes. Celerity increases for larger water depth. What happens then? Well, still captured. 
+
+What is not captured? Diffusion/attenuation
+
+---
+# Kinematic celerity vs. velocity
