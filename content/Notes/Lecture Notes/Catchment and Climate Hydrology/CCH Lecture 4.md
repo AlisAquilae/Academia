@@ -75,3 +75,23 @@ Transmissivity feedback: the wetter the system, the higher the capacity to trans
 
 ### Sidenote
 Fill and spill hypothesis: first fill small holes in the bedrock before it can spill over to the next hole, leading to a time lag in response. Also likely explains limited response of subsurface flow to precipitation (only 20% of precipitation as runoff).
+
+
+---
+# Tracers in hydrology
+Evidence we have seen so far only looks at water levels, runoff, timing of flows, amount of water. But there is more info we can use. Different concentrations, transport of chemicals, etc. If you want to know more about flow routes, you should look at characteristics of the water.
+
+Knowledge of flow routes, residence times essentyial for model conceptualisation and validation
+
+Use of tracers: low background concentration characteristic, detectable in low concentrations, not subject to sorption, fractionation, colatisation or other chemical reactions. 
+
+Tracers can be natural or artificial.
+
+Types of tracers: chemical, isotopes, dna, diatoms (groups of algae)
+
+Most prominent tracers: geochemical tracers: silica, chloride, calcium. Depending on where you are, different tracers are relevant. 
+- Silica: useful for residence times
+- Chloride: useful close to the coast
+
+## Paper for today: Kirchner (2006)
+Look at response of flow to rainfall using chloride as a tracer. 
