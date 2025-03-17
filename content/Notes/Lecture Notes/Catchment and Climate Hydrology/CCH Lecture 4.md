@@ -72,3 +72,6 @@ Explained by less compaction, more organic matter, more biological activity. Lea
 Once groundwater table is deeper down, conductivity is low, and response to rainfall is a lot slower. Thus very opposite to  variable source area conceptual model. 
 
 Transmissivity feedback: the wetter the system, the higher the capacity to transport water. 
+
+### Sidenote
+Fill and spill hypothesis: first fill small holes in the bedrock before it can spill over to the next hole, leading to a time lag in response. Also likely explains limited response of subsurface flow to precipitation (only 20% of precipitation as runoff).
