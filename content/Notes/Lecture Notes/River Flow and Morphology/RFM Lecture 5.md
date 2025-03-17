@@ -8,3 +8,8 @@ Related Notes:
 Related Terminology: 
 Related Courses: ["[[River Flow and Morphology]]"]
 ---
+# Yesterday
+- Method of characteristics
+
+---
+# Today
