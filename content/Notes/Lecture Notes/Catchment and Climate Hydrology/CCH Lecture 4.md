@@ -58,4 +58,17 @@ Saturation develops often in local topographic convergence areas, where subsurfa
 ## Groundwater ridging
 There's other processes as well. Not all catchment needs to respond to rainfall for the response in the stream to be significant. Ratio rainfall to streamflow is often only 20%. Even if few percent of catchment area is saturated, can still be significant.
 
-Groundw
+Groundwater ridging. Capillar fringe part of soil above the groundwater table where you have neegative pressure but still complete saturation. Depending on soil type, you have a few cm up to 20 cm of full saturation above groundwater table. 
+
+Why is this relevant? Based on groundwater table, you might exaggerate the amount of water the soil can store. Any rainfall that can infiltrate will push this capillary fringe to above the surface, leading to overland flow. This is stronger in fine soils than in coarse soils. 
+
+This can lead to a groundwater ridge. During precipitation, because of rise of groundwater close to the stream, you get a local bulge in groundwater table. Water will flow to the stream as well as away from the stream, due to a local maximum in water table. 
+
+## Transmissivity feedback
+Rapid response of the groundwater outflow to infiltration may be explained by a large increase in the hydraulic conductivity of the soil towards to ground surface. This is called the transmissivity feedback. Explains the large nonlinearity in nature.
+
+Explained by less compaction, more organic matter, more biological activity. Leads to higher transmissivity in top layer. 
+
+Once groundwater table is deeper down, conductivity is low, and response to rainfall is a lot slower. Thus very opposite to  variable source area conceptual model. 
+
+Transmissivity feedback: the wetter the system, the higher the capacity to transport water. 
