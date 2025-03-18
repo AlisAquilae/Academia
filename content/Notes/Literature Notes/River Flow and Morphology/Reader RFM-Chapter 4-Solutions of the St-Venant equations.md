@@ -275,11 +275,11 @@ $$
 v(t,x) \approx v(t-\epsilon, x-2\epsilon)
 $$
 
-So if we denote by $v*$ the value $v(t,x)$, the last equation can be applied over and over again, to yield:
+So if we denote by $v^*$ the value $v(t,x)$, the last equation can be applied over and over again, to yield:
 
 $$
 \begin{aligned}
-v* &= v(t,x) \\
+v^* &= v(t,x) \\
 &\approx v(t - \epsilon, x - 2\epsilon) \\
 &\approx v(t - 2\epsilon, x - 4\epsilon) \\
 & \; \; \vdots \\
@@ -296,4 +296,59 @@ Another way of stating this property is by saying that all the different $v$-val
 ![[Pasted image 20250318085939.png]]
 
 ## 4.3.2 Second example
-The power of the
+The power of the method of characteristics as first introduced in the precious section is best seen by analysing the following example:
+
+$$
+\begin{aligned}
+\frac{\partial v}{\partial t} + c(v) \frac{\partial v}{\partial x} &= 0 \\
+c(v) &= \sqrt{v}
+\end{aligned}
+$$
+
+If $c(v)$ would be a constant (i.e. not $v$ dependent), the analysis would be exactly the same as the previous section. The fact that $c(v) = \sqrt{v}$ makes this equation non-linear (analytical solutions do not exist). The analysis by the method of characteristics however remains perfectly feasible. To prove that, let us start in a point $(t,x)$ and denote $v^* = v(t,x)$ and $c^* = c(v*)$. The differential equation in that point:
+
+$$
+\frac{\partial v}{\partial t}(t,x) + c^* \frac{\partial v}{\partial x}(t,x)
+$$
+
+This differential equation can - as seen in the previous section - be written as
+
+$$
+\begin{aligned}
+0 &= \frac{\partial v}{\partial t}(t,x) + c^* \frac{\partial v}{\partial x}(t,x) \\
+&\approx \frac{v(t,x) - v(t-\epsilon, x - c^* \epsilon)}{\epsilon}
+\end{aligned}
+$$
+
+from which we may conclude:
+
+$$
+v(t-\epsilon, x-c^* \epsilon) = v^*
+$$
+
+and thus also
+
+$$
+c(v(t-\epsilon, x-c^* \epsilon)) = c(v^*) = c^*
+$$
+
+This allows again a systematic recursion:
+
+$$
+\begin{aligned}
+v^* &= v(t,x) \\
+& \approx v(t-\epsilon, x-c^* \epsilon) \\
+& \approx v(t-2\epsilon, x - 2c^* \epsilon) \\
+& \; \; \vdots \\
+&\approx v(t-n\epsilon, x-nc^* \epsilon)
+\end{aligned}
+$$
+
+$$
+\begin{aligned}
+c^* &= c(v(t,x)) \\
+&\approx c(v(t-\epsilon, x-c^* \epsilon)) \\
+&\approx c(v(t-2\epsilon, x-2c^* \epsilon)) \\
+& \; \; \vdots
+\end{aligned}
+$$
