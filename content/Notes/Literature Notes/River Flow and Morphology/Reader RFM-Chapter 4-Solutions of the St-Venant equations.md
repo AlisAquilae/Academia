@@ -195,8 +195,29 @@ The last step is to draw the backwater curves. Since the flow is subcritical the
 
 ![[Pasted image 20250315140907.png]]
 
-Downstream of location $B$, the river is unaffected by the weidening and we still have equilibrium. These equilibrium conditions form a boundary condition for the upstream reach  $AB$. In the reach $AB$ the equilibrium depth is lower. This means that we have a boundary depth that is higher than the equilibrium depth, which means than an $M_1$-curve will develop. Starting at $B$ we can draw the $M_1$-curve. The slope of this curve will decrease when we slowly approach the equilibrium depth (see Equation 4.5), like an exponential curve (see Equation 4.6). The level that the backwater reaches in $A$ will set the boundary condition for the reach upstream of $A$.
+Downstream of location $B$, the river is unaffected by the widening and we still have equilibrium. These equilibrium conditions form a boundary condition for the upstream reach  $AB$. In the reach $AB$ the equilibrium depth is lower. This means that we have a boundary depth that is higher than the equilibrium depth, which means than an $M_1$-curve will develop. Starting at $B$ we can draw the $M_1$-curve. The slope of this curve will decrease when we slowly approach the equilibrium depth (see Equation 4.5), like an exponential curve (see Equation 4.6). The level that the backwater reaches in $A$ will set the boundary condition for the reach upstream of $A$.
 
 Upstream of $A$ the equilibrium depth is again higher. Since the water level downstream of $A$ s lower than the equilibrium depth upstream of $A$, we will have an $M_2$-curve developing. Also here the depth slope will be largest at $A$ and slowly decrease when approaching the equilibrium depth.
 
 The result obtained (Figure 4.8) helps to understand how widening will affect the hydrodynamics of the river. It is important to note that the widening only affects the river upstream, since we are dealing with subcritical flow. The flow upstream of $A$ accelerates when approaching $A$. Downstream of $A$ the flow slowly decelerates until $B$. Downstream of $B$ the flow is still in equilibrium.
+
+---
+# 4.2 Solving the dynamic St-Venant equations
+In the rest of this chapter we will investigae solutions to the dynamic St-Venant equations. For this we use the St-Venant equations expressed in $a$ and $u$ and the Chézy formalism
+
+$$
+\begin{aligned}
+\frac{\partial a}{\partial t} + u\frac{\partial a}{\partial x} + d \frac{\partial u}{\partial x} &= i \\
+\frac{\partial u}{\partial t} + u \frac{\partial u}{\partial x} + g \frac{\partial a}{\partial x} &= g(S_o - S_f) - \frac{iu}{d} \\
+S_f &= \frac{u^2}{C^2 a^2 R}
+\end{aligned}
+$$
+
+Some differential equations (and systems of partial differential equations) permit analytical solutions, i.e. formula solutions in terms of sin and cos and the like. The following (only interesting for educational purposes) partial differential equations
+
+$$
+\begin{aligned}
+\frac{\partial a}{\partial t} -4 \frac{\partial a}{\partial x} + 2 \frac{\partial u}{\partial x} &= i \\
+\frac{\partial u}{\partial t} -2 \frac{\partial u}{\partial x} + 4 \frac{\partial a}{\partial x} &= g(S_o - S_f) - \frac{iu}{d}
+\end{aligned}
+$$
