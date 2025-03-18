@@ -53,4 +53,12 @@ There are many regions where this is not true, but in some cases it might be. Th
 
 If discharge is a result of storage, then the inverse is true as well: storage causes discharge. Discharge therefore predicts storage. 
 
-Now we assume precipitation and evapotranspiration to be much smaller than discharge. 
+Now we assume precipitation and evapotranspiration to be much smaller than discharge. This way, we can measure the sensitivity of discharge to changes in storage by looking at discharge alone, disregarding the storage term entirely. 
+
+Binning of data points necessary beccause some measurements might be negative due to errors, which poses problems when using a log-transform. 
+
+The storage level is arbitrary. It is only found by investigating the discharge sensitivity, and does not relate to absolute numbers. 
+
+How can we use this? We want to simulate relation between rainfall and runoff. Starting from the water balance, we now have a sensitivity function. With some mathematics, we can come up with a formula that relates the change in discharge over time using the discharge only. 
+
+This is our rainfall-runoff model. 
