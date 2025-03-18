@@ -62,3 +62,5 @@ The storage level is arbitrary. It is only found by investigating the discharge 
 How can we use this? We want to simulate relation between rainfall and runoff. Starting from the water balance, we now have a sensitivity function. With some mathematics, we can come up with a formula that relates the change in discharge over time using the discharge only. 
 
 This is our rainfall-runoff model. 
+
+We also assume ET = PET (goes under the wet conditions)
