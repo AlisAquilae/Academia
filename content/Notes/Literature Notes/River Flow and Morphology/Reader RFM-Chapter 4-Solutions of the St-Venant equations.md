@@ -397,5 +397,36 @@ First we see that because of the constant characteristic speed, the characterist
 Figure 4.13 illustrates the solution by characteristics of the following (most general) differential equation:
 
 $$
-\frac{\partial v}{\partial t} + \sqrt{v} \frac{\partial v}{}
+\frac{\partial v}{\partial t} + \sqrt{v} \frac{\partial v}{\partial x} = -v^{1.5}
 $$
+
+The behaviour of the solution of this equation is a combination of the previous cases: $v$-values travel with a $v$-value dependent characteristic speed. But as the $v$-values do change while traveling, the speed also changes, resulting in curved characteristics.
+
+---
+# 4.4 Characteristics for the St-Venant equations
+The St-Venant equations are a system of two partial differential equations in two unknowns. The method of characteristics does also work for this type of equations, but the mathematics are of course much more complex. For that reason, we work with the following "linear" St-Venant equations:
+
+$$
+\begin{aligned}
+\frac{\partial a}{\partial t} + \text{u} \frac{\partial a}{\partial x} + \text{d} \frac{\partial u}{\partial x} &= 0\\
+\frac{\partial u}{\partial t} + \text{g} \frac{\partial a}{\partial x} + \text{u} \frac{\partial u}{\partial x} &= \text{g} (S_o - S_f)
+\end{aligned}
+$$
+
+Where (note the difference in fonts) u and d are now not functions but constants (and $a$ and $u$ are still functions of $t$ and $x$).
+
+## 4.4.1 Derivation of the characteristics (==Skipped==)
+
+
+## 4.4.2 Characteristic celerities
+Using the mathematics above, the St-Venant equations were rewritten into the following equivalent system of differential equations:
+
+$$
+\begin{aligned}
+\frac{\partial \Lambda_+}{\partial t} + (u + \sqrt{gd}) \frac{\partial \Lambda_+}{\partial x} &= \dots \\
+\frac{\partial \Lambda_-}{\partial t} + (u - \sqrt{gd}) \frac{\partial \Lambda_-}{\partial x} &= \dots 
+\end{aligned}
+$$
+
+where
+- $\Lambda_+ = \sqrt{g$ 
