@@ -470,6 +470,9 @@ The other disturbance ends at position
 
 $$
 \begin{aligned}
-x_- &= 
+x_- &= x_0 + \Delta t \, c_- \\
+&= x_0 + \Delta t \, u \left(1 - \frac{1}{\text{Fr}} \right)
 \end{aligned}
 $$
+
+The most common situation in open water is a flowing regime in which $\text{Fr} \lt 1$, which results in $x_- \lt x_0$, i.e. the other disturbance is moving upstream. Such situations are called **tranquil** or **streaming** or [[Subcritical Flow]]. 
