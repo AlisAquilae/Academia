@@ -30,3 +30,17 @@ We observe an exponential-like decay. This reflects a linear reservoir.
 Using a recession analysis, you can learn a lot about your system. 
 
 Everyday you have ET. This declines with declining storage. If you know amount of ET and how fast it can decay in your system, you can estimate storage. 
+
+Today, we are going to be talking about the simplest model imaginable for this case. No auxiliary variables, only the main fluxes in and out of the catchment using a very elegant and simple equation. If this does the job, you don't need more complexity (remember Occam's Razor!!!)
+
+Today: relation between what comes in (climate signal)  and the release, nothing about what happens in between.
+
+The idea is that there is a direct relationship between root zone dynamics and runoff at the catchment outlet. 
+
+Recession is much faster during summer when potential ET is high. Recession is decay of streamflow
+
+Today: typical headwater catchment. 
+
+---
+# Kirchner (paper for today)
+Did observations and studied hydrographs. 
