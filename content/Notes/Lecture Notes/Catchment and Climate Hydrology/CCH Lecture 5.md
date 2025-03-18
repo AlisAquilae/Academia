@@ -44,3 +44,13 @@ Today: typical headwater catchment.
 ---
 # Kirchner (paper for today)
 Did observations and studied hydrographs. 
+
+At the moment that precipitation peaks, so does streamflow peak. At the moment rainfall peaks, storage in the catchment is highest and streamflow is highest. 
+
+He posed that discharge in the stream is solely caused on the amount of water stored in the catchment. 
+
+There are many regions where this is not true, but in some cases it might be. There might be pipeflow, connection between surface-subsurface flow, groundwater flow, baseflow. All of this is somehow assimed to be included in the assumption.
+
+If discharge is a result of storage, then the inverse is true as well: storage causes discharge. Discharge therefore predicts storage. 
+
+Now we assume precipitation and evapotranspiration to be much smaller than discharge. 
