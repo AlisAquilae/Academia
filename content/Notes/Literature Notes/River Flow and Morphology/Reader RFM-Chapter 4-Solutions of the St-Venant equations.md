@@ -257,6 +257,43 @@ $$
 But from this follows also for all $\alpha$ and all $\beta$ (and for small $\epsilon$):
 
 $$
-
+\alpha \frac{\partial f}{\partial t}(t,x) + \beta \frac{\partial f}{\partial x}(t,x) \approx \frac{f(t,x) - f(t-\alpha \epsilon, x - \beta \epsilon)}{\epsilon}
 $$
 
+It is this form that can be used for the differential equation above, with $\alpha = 1$ and $\beta = 2$. It results in
+
+$$
+\begin{aligned}
+0 &= \frac{\partial v}{\partial t}(t,x) + 2 \frac{\partial v}{\partial x}(t,x)\\
+& \approx \frac{v(t,x) - v(t - \epsilon, x - 2\epsilon)}{\epsilon}
+\end{aligned}
+$$
+
+and from this we can conclude
+
+$$
+v(t,x) \approx v(t-\epsilon, x-2\epsilon)
+$$
+
+So if we denote by $v*$ the value $v(t,x)$, the last equation can be applied over and over again, to yield:
+
+$$
+\begin{aligned}
+v* &= v(t,x) \\
+&\approx v(t - \epsilon, x - 2\epsilon) \\
+&\approx v(t - 2\epsilon, x - 4\epsilon) \\
+& \; \; \vdots \\
+&\approx v(t - n\epsilon, x - 2n\epsilon)
+\end{aligned}
+$$
+
+This sequence of times and positions with (approximately) the same v-values can best be analysed in the so-called $(t,x)$-plane. We can make $\epsilon$ smaller and smaller, and it is clear that the points converge to a line. 
+
+The conclusion is clear: the solution of the differential equation of this section has the property that it is constant over lines with a slope of 2 in the $(t,x)$-plane. This line is called a **characteristic**. The slope, being a quotient of a length (here $2\epsilon$) and a time (here $\epsilon$) has the dimension of velocity and is called the **characteristic celerity**, velocity or speed.
+
+Another way of stating this property is by saying that all the different $v$-values travel with speed $c = \frac{\mathrm{d}x}{\mathrm{d}t} = 2$ through the $(t,x)$-plane.
+
+![[Pasted image 20250318085939.png]]
+
+## 4.3.2 Second example
+The power of the
