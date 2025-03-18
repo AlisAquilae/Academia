@@ -349,6 +349,53 @@ $$
 c^* &= c(v(t,x)) \\
 &\approx c(v(t-\epsilon, x-c^* \epsilon)) \\
 &\approx c(v(t-2\epsilon, x-2c^* \epsilon)) \\
-& \; \; \vdots
+& \; \; \vdots \\
+&\approx c(v(t-n \epsilon, x - nc^* \epsilon))
 \end{aligned}
+$$
+
+and the same conclusion as in the previous section: the value $v^*$ travels with a characteristic speed of $c^*$ over the straight line characteristic without changing. 
+
+However, if we would have taken another $v$-vale as a start, the $v$-values travel at unequal characteristic speeds, resulting in non-parallel characteristics, as illustrated by Figure 4.11. This generates in principle the theoretical possibility that characteristic lines intersect. In practical hydraulic situations this will not happen.
+
+This difference in characteristic speed is often systematic, as is the case in the example: the square root is an increasing function, so higher values of $v$ travel faster than lower values (also seen in Figure 4.11)
+
+![[Pasted image 20250318091312.png]]
+
+## 4.3.3 Third example
+![[Pasted image 20250318091354.png]]
+
+Figure 4.12 illustrates the characteristic result for a differential equation of the form:
+
+$$
+\frac{\partial v}{\partial t} + c\frac{\partial v}{\partial x} = -v^{1.5}
+$$
+
+The difference with the previous examples is that the right hand side differs from zero. If $c$ is constant, the analysis is done as follows. First, the differential equation is discretised into
+
+$$
+\frac{v(t, x) - v(t- \epsilon, x-c\epsilon)}{\epsilon} = -v^{1/5} (t,x)
+$$
+
+so that
+
+$$
+v(t-\epsilon, x-c\epsilon) = v(t,x) + \epsilon v^{1.5} (t,x)
+$$
+
+and by repeating
+
+$$
+v(t-2\epsilon, x-2c\epsilon) = v(t-\epsilon, x-c\epsilon) + \epsilon v^{1.5} (t-\epsilon, x-c\epsilon)
+$$
+
+First we see that because of the constant characteristic speed, the characteristics are again straight parallel lines. The change is now on the $v$-values. They are no longer constant. But they remain to be calculated using the previous values on the characteristic only. 
+
+## 4.3.4 Fourth example
+![[Pasted image 20250318091928.png]]
+
+Figure 4.13 illustrates the solution by characteristics of the following (most general) differential equation:
+
+$$
+\frac{\partial v}{\partial t} + \sqrt{v} \frac{\partial v}{}
 $$
