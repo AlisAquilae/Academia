@@ -217,7 +217,46 @@ Some differential equations (and systems of partial differential equations) perm
 
 $$
 \begin{aligned}
-\frac{\partial a}{\partial t} -4 \frac{\partial a}{\partial x} + 2 \frac{\partial u}{\partial x} &= i \\
-\frac{\partial u}{\partial t} -2 \frac{\partial u}{\partial x} + 4 \frac{\partial a}{\partial x} &= g(S_o - S_f) - \frac{iu}{d}
+\frac{\partial a}{\partial t} -4 \frac{\partial a}{\partial x} + 2 \frac{\partial u}{\partial x} &= 0 \\
+\frac{\partial u}{\partial t} -2 \frac{\partial u}{\partial x} + 4 \frac{\partial a}{\partial x} &= 0
 \end{aligned}
 $$
+
+have the following solution (there are of course many other solutions depending on the boundary conditions):
+
+$$
+\begin{aligned}
+a(t,x) &= \cos(2x + 4t) + \cos(x + 6t) \\
+u(t,x) &= \cos (wx+4t) - \cos(x + 6t)
+\end{aligned}
+$$
+
+The St-Venant equations *do not* have analytical solutions. This is so  because they are non-linear in $a$ and $u$, as well as many of the other terms. Nonlinear differential equations do not permit (apart from some exceptional cases) analytical solutions. 
+
+One can, of course, linearise all equations, and thus also the St-Venant equations. It means that one considers cases where $a$ and $u$ only show small deviations from a constant value, so small that quadratic (and higher order) terms in these deviations are neglected. We will work out examples for this approach in section 5.2.3 and 5.3.4 for simplifications of the St-Venant equations.
+
+The method of characteristics is one mathematical technique that can help to analyse non-linear differential equations. We present a minimal introduction in the next sections. For this we will first give a mathematical introduction to the case of 1 unknown, and then generalise the methods for the St-Venant equations. 
+
+---
+# 4.3 Method of Characteristics
+We will discuss the method by giving a series of examples. Our approach will be semi-numerical
+
+## 4.3.1 A first example
+Consider the following partial differential equation:
+
+$$
+\frac{\partial v}{\partial t}(t,x) + 2 \frac{\partial v}{\partial x}(t,x) = 0
+$$
+
+To interpret this differential equation, we will use Taylor series expansion. The classical form is (for small $\Delta t$ and small $\Delta x$):
+
+$$
+f(t-\Delta t, x - \Delta x) \approx f(t,x) - \frac{\partial f}{\partial t}(t,x)\Delta t - \frac{\partial f}{\partial x}(t,x) \Delta x
+$$
+
+But from this follows also for all $\alpha$ and all $\beta$ (and for small $\epsilon$):
+
+$$
+
+$$
+
