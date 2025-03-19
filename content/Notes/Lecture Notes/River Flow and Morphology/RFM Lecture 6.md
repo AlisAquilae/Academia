@@ -58,5 +58,6 @@ Reynolds number by definition is 1. Viscosity so important that this is the slow
 Law of the wall: 
 
 $$
-
+u^+ = f_w (y^+)
 $$
+
