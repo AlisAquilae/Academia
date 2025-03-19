@@ -31,3 +31,21 @@ In front of the obstacle, flow speed decreases and therefore force increases (Be
 We can mathematically decompose the drag force into these two components. 
 
 Drag component is horizontal force, vertical component is the lift force. 
+
+Instead of calculating the total drag force on an object, we can identify the relative contribution of friction drag and force drag on any point, using 2 coefficients. 
+
+Bluff bodies (non-streamlined) get separated, creates high pressure and low pressure. This causes a pressure difference. This pressure times the area is the drag force. 
+
+---
+# Flow which experiences drag forces
+Velocity small near bed floor, increases with depth and reaches some equilibrium
+
+Boundary layer in atmosphere or ocean, boundary layer is typically very thin compared to the depth of the ocean/atmosphere. In rivers, boundary layer typically comprises the whole depth of the water. What is at the bed of the river (small grains, large grains) affects flow even until the surface
+
+We are going to describe mathematical for 4 sections
+- Close yto wall: viscous effects dominant. Laminar layer/viscous layer
+- In between this close to the bottom region and a bit higher up in the boundary layer: log law (lograithmig profile)
+- Small part between previous two: buffer layer
+- Middle to the top: outer layer
+
+First smooth surface, without considering roughness. 
