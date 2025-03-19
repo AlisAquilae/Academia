@@ -49,3 +49,14 @@ We are going to describe mathematical for 4 sections
 - Middle to the top: outer layer
 
 First smooth surface, without considering roughness. 
+
+## Inner layer, close to wall
+Important are viscosity, wall shear stress and density. From these we can define characteristic velocity and length scales. 
+
+Reynolds number by definition is 1. Viscosity so important that this is the slowest possible velocity. Any lower, we would not have any flow at all. 
+
+Law of the wall: 
+
+$$
+
+$$
