@@ -64,3 +64,11 @@ How can we use this? We want to simulate relation between rainfall and runoff. S
 This is our rainfall-runoff model. 
 
 We also assume ET = PET (goes under the wet conditions)
+
+---
+# Doing hydrology backward
+Not using precipitation to streamflow, but using streamflow to estimate precipitation at the catchment-scale. 
+
+Assume that when it rains, ET is much smaller than P. Then rainfall can be inferred. 
+
+ET can be estimated during periods when no rainfall is observed. 
