@@ -123,4 +123,8 @@ This apparent contradiction is resolved when we consider the following:
 - In a wide container, the weight of the additional fluid is distributed more horizontally
 - In a flaring container, the walls support some of the fluid weight, relieving the base of additional force. 
 
-Although this is referred to as the **hydroststic paradox**, it is not a true paradox. The difference between solids and fluids helps clarify the situation: solids do not change their shape under p[re]
+Although this is referred to as the **hydroststic paradox**, it is not a true paradox. The difference between solids and fluids helps clarify the situation: solids do not change their shape under pressure, while fluids are deformable under pressure. 
+
+*Simon Stevin*, a renowned Dutch scientist (1548 - 1620) explained this phenomenon intuitively. He argued that if a pressure difference existed between two differently sized reservoirs, the fluid would start flowing. However, since hydrostatics assumed the fluid to be at rest (non-flowing), pressures must be equal at depths. This reasoning also leads to what is known as the law of communicating vessels: a difference in fluid levels between two connected parts would generate pressure differences, which is impossible in a standing fluid./ 
+
+Stevin's argument can be applied in all directions, proving that pressure in a fluid is the same in every direction. This principle is also known as [[Pascal's Law]]. Pascal's law is reflected in the equation for hydrostatic pressure (Eq. 1.3), which gives the magnitude of pressure without specifying any direction. Thus, pressure is not a vector but a scalar quantity
