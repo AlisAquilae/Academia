@@ -221,5 +221,47 @@ $$
 \begin{aligned}
 F_{\text{tot}} &= A \overline{P} \\
 &= L D \rho g \left( z_T + \frac{D}{2} \right)
-\end{aligned}
+\end{aligned} \tag{1.13}
 $$
+
+
+>[!Example]
+>A square surface with sides of 1.5 m is located 1 m below the water surface. Calculate the total pressure force
+>
+>$$
+>\begin{aligned}
+>A &= (1.5)^2 = 2.25 \, \text{m}^2 \\
+>\overline{P} &= \rho g z\\
+>&= 1000 \times 9.81 \times (1+0.75) \\
+>&= 17168 \, \text{N m}^{-2} \\
+>F &= A \times \overline{P} \\
+>&= 2.25 \times 17168 \\
+>&= 38629 \, \text{N} \\
+>&= 3.9 \times 10^4 \, \text{N}
+>\end{aligned}
+>$$
+
+
+## 1.4.2 Pressure forces on general flat vertical surfaces
+Equation 1.13 above used the pressure calculated in the middle as an average for the whole surface. When the surface in the vertical is not symmetrical, the choice of the middle as average is no longer correct. The equation of the previous section can however be generalised for all vertical surfaces into
+
+$$
+\begin{aligned}
+\overrightarrow{F_{\text{tot}}} &= A \overline{P} \\
+&= L D \rho g (z_T + y_G)
+\end{aligned} \tag{1.14}
+$$
+
+In this equation:
+- $z_T$ depends only on the position of the top of the surface (not on its shape)
+- $y_G$ depends only on the geometry of the surface (not on its position in the water): at this depth below the top of the surface, the mean pressure on the surface can be found
+
+For trapezoidal surfaces (see for notations Figure 1.7) this depth is given by
+
+$$
+y_G = \frac{D}{2} \left(1 + \frac{1}{3} \frac{L_B - L_T}{L_B + L_T} \right) \tag{1.15}
+$$
+
+There are three cases
+- When the bottom is wider than the top, the average depth should be more to the bottom
+- When the top is as wide as the bottom, which is the rectangular cas
