@@ -15,7 +15,7 @@ async function newNote() {
         (await tp.file.move("/Media/" + tp.file.title));
     } else {
         // Suggester for course selection
-        course = await tp.system.suggester(["Geophysical Fluid Mechaics", "Water and Air Flow Numerical Techniques", "Water Quantity and Quality", "River Flow and Morphology", "Catchment and Climate Hydrology"], ["Geophysical Fluid Mechaics", "Water and Air Flow Numerical Techniques", "Water Quantity and Quality", "River Flow and Morphology", "Catchment and Climate Hydrology"], true);
+        course = await tp.system.suggester(["Geophysical Fluid Mechaics", "Water and Air Flow Numerical Techniques", "Water Quantity and Quality", "River Flow and Morphology", "Catchment and Climate Hydrology", "River Flow"], ["Geophysical Fluid Mechaics", "Water and Air Flow Numerical Techniques", "Water Quantity and Quality", "River Flow and Morphology", "Catchment and Climate Hydrology", "River Flow"], true);
 
         // Find note type base
         noteType = await tp.system.suggester(["Courses", "Notes", "Terminology", "Questions"], ["Courses", "Notes", "Terminology", "Questions"], true);
