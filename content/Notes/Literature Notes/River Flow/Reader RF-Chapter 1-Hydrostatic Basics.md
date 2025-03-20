@@ -87,4 +87,40 @@ where
 - $g$ is the gravitational acceleration
 - $h$ is the depth below the water surface
 
-Liquids are largely incompressible, m,e
+Liquids are largely incompressible, meaning their density remains fairly constant despite changes in pressure. This makes hydrostatic liquids predictable and straightforward to calculate. 
+
+However, the total pressure exerted at a given depth in a fluid is the sum of the hydrostatic pressure and the atmospheric pressure acting on the surface of the fluid. 
+
+$$
+P_{\text{total}} = P{_{\text{hydrostatic}}} + P_{\text{atmospheric}} \tag{1.4}
+$$
+
+The atmospheric pressure is the pressure exerted by the weight of the atmosphere above the fluid. At sea level, atmospheric pressure is approximately 101,325 Pa or 101.3 kPa
+
+>[!Example]
+>At 10 meters below the surface of the water, the hydrostatic pressure is:
+>
+>$$
+>P_{\text{hydrostatic}} = 1000 \cdot 9.81 \cdot 10 = 98.1 \text{ kPa}
+>$$
+>
+>The total pressure at this depth is
+>
+>$$
+>P_{\text{total}} = 98.1 + 101.3 = 199.4 \text{ kPa}
+>$$
+
+
+In practice, we often only calculate the hydrostatic pressure, assuming that atmospheric pressure remains constant if we stay at the same altitude.
+
+## 1.3.1 Hydrostatic Paradox
+The hydrostatic paradox is a counter-intuitive concept in fluid mechanics that highlights a surprising property of fluids regarding pressure and force. It states that the pressure at a given depth in a fluid depends solely on the height of the fluid column and not on the shape of volume of the container. In other words, containers with different shapes but the same base area and the same height of liquid will exert the same pressure on the base, even if their total volume of liquid differs significantly.
+
+Intuition might suggest that a container holding a larger volume of fluid should exert a greater force on its base. In reality, since pressure depends only on the height of the fluid column, containers with more fluid (but the same fluid height and base area) do not exert more force on the base. 
+
+This apparent contradiction is resolved when we consider the following:
+- In a narrow container, the sides of the container support much of the fluid's weight
+- In a wide container, the weight of the additional fluid is distributed more horizontally
+- In a flaring container, the walls support some of the fluid weight, relieving the base of additional force. 
+
+Although this is referred to as the **hydroststic paradox**, it is not a true paradox. The difference between solids and fluids helps clarify the situation: solids do not change their shape under p[re]
