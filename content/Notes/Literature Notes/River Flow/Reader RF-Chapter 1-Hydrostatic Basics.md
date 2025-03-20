@@ -177,4 +177,49 @@ In this section we will show how to calculate the total pressure force on a vert
 >Insert Figure 1.7
 
 
-Such a surface can be thought of as an aggregate
+Such a surface can be thought of as an aggregate of a lot of small strips ($N$ in the illustration). The total pressure force is the sum of the total pressure forces on all of these strips.
+
+Consider one of these strips and denote by $z_i$ its depth below the water surface. As the vertical height of this strip is rather small ($D/N$ with $N$ being large) the pressure on this strip is everywhere very close to
+
+$$
+P_i = \rho g z_i \tag{1.8}
+$$
+
+As this pressure does not vary much, one can approximate the pressure force on this strip:
+
+$$
+\begin{aligned}
+F_i &= A_i P_i \\
+&= L \, \frac{D}{N} \rho g z_i
+\end{aligned} \tag{1.9}
+$$
+
+The total pressure force is then given by the sum of the forces on all strips:
+
+$$
+F_{\text{tot}} = \sum\limits_i F_i = L \, \frac{D}{N} \rho g \sum\limits_i z_i \tag{1.10}
+$$
+
+$\frac{1}{N} \sum_i z_i$ is the mean depth $\overline{z}$ of the surface below the water surface, which can be expressed (using the notations of Figure 1.7) as
+
+$$
+\overline{z} = z_T + \frac{D}{2} \tag{1.11}
+$$
+
+The pressure at this mean depth is given by
+
+$$
+\begin{aligned}
+\overline{P} &= \rho g \overline{z} \\
+&= \rho g \left(z_T + \frac{D}{2} \right)
+\end{aligned} \tag{1.12}
+$$
+
+Combining this leads to
+
+$$
+\begin{aligned}
+F_{\text{tot}} &= A \overline{P} \\
+&= L D \rho g \left( z_T + \frac{D}{2} \right)
+\end{aligned}
+$$
