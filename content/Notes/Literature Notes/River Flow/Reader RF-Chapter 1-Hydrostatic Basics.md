@@ -44,4 +44,47 @@ where
 
 **Density** ($\rho$) is defined as the mass of substance per unit volume. For water, density varies with temperature, but at 4 degree Celcius (its densest point), freshwater has a density of approximately 1000 kg m$^{-3}$. Saltwater, on the other hand, has a slightly higher density, up to 1030 kg m$^{-3}$. In this course, we will focus on freshwater, assuming a density of $\rho = 1000$ kg m$^{-3}$ for simplicity.
 
-The formula for de
+The formula for density is
+
+$$
+\rho = \frac{m}{V} \tag{1.2}
+$$
+
+where
+- $\rho$ is density
+- $m$ is mass
+- $V$ is volume
+
+>[!Info]
+>One of water's unique properties is that its maximum density occurs at 4 degree Celcius, unlike most substances, which are densest in their solid state. This explains why ice floats on liquid water, as its solid form is less dense. 
+
+
+**Viscosity** is a measure of a fluid's resistance to flow, reflecting how much it resists deformation when subjected to an external force. In simple terms, it represents the fluid's "thickness" or "stickiness". Water has a relatively low dynamic viscosity, making it easy to move through or stir. Higher values indicate a "thicker" fluid
+
+>[!Info]
+>The dynamic viscosity $\mu$ of water at room temperature is
+>
+>$$
+>\mu \approx 1.0 \cdot 10^{-3} \; \text{ kg / ms}
+>$$
+
+
+An ideal fluid, by contrast, is incompressible and has no viscosity, but in real-world applications, viscosity plays a crucial role in understanding the friction and resistance experienced during flow.
+
+---
+# 1.3 Hydrostatic Pressure
+[[Hydrostatic Pressure]] refers to the pressure exerted by a fluid due to its weight when at rest. In standing water, pressure increases with depth due to the weight of the water above exerting a downward force.
+
+The fundamental equation for hydrostatic pressure is
+
+$$
+P = p \cdot g \cdot h \tag{1.3}
+$$
+
+where
+- $P$ is the pressure at depth (Pa)
+- $\rho$ is the density of water
+- $g$ is the gravitational acceleration
+- $h$ is the depth below the water surface
+
+Liquids are largely incompressible, m,e
