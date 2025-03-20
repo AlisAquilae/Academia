@@ -136,3 +136,45 @@ Hydrostatic pressure plays an essential role in numerous fields, including:
 - Meteorology: Atmospheric pressure, a form of hydrostatic pressure in gases, helps explain weather patterns, storm systems, and altitude-based variations in climate
 - Oceanography: In the study of the ocean, hydrostatic pressure helps explain the distribution of marine life, the structure of ocean currents, and the behavious of submersible vehicles
 - Measuring pressure in flowing water: In this chapter, we treat hydrostatic pressure (i.e. no-flow conditions), but it also has applications in cases of flowing water. 
+
+---
+# 1.4 Hydrostatic forces
+From the previous sections, we know how to calculate pressure. Pressure itself is *not* a force (it's a force divided by an area). However, on every object below the water surface, a force is exerted caused by the pressure within the water. This chapter discusses how to calculate this pressure force for some specific objects, which can be used for bridge pillars, boats, sand grains and valves. Here, these objects will be generalised to surfaces
+
+[[Hydrostatic Force]] is defined as the total force exerted by a stationary fluid on a surface in contact with the fluid. This force arises from the hydrostatic pressure acting over an area of the surface. Since pressure increases with depth, the hydrostatic force on a surace varies with its orientation and depth within the fluid.
+
+The hydrostatic force $F$ acting on a surface submerged in a fluid can be expressed as
+
+$$
+F = P \times A \tag{1.6}
+$$
+
+Replacing $P$ with our formula found in Eq. 1.2, we reach
+
+$$
+\begin{aligned}
+F &= P \cdot A \\
+&= \rho \cdot g \cdot h \cdot A
+\end{aligned} \tag{1.7}
+$$
+
+where
+- $F$ is the total force of the base in Newtons
+- $P$ is the pressure at depth in pascals
+- $A$ is the area of the base (in square meters)
+- $\rho$ is the density of the fluid
+- $g$ is the gravitational acceleration
+- $h$ is the height of the fluid column
+
+Even though container $C$ might hold a much larger volume of water than containers $A$ or $B$, the pressure at the bottom depends only on the height of the water column. Therefore, the force on the base will be the same for all three containers, assuming they have the same base area and fluid height.
+
+Knowing the pressure gives only the magnitude of the force perpendicular to a surface per unit area of the surface. 
+
+## 1.4.1 Pressure forces on flat vertical rectangular surfaces
+In this section we will show how to calculate the total pressure force on a vertical rectangular surface. Figure 1.7 illustrates this problem and we will use the notations of this figure. The direction orthogonal to the surface is horizontal, and so is the direction of the pressure force. It is therefore sufficient to calculate the magnitude of the pressure force. 
+
+>[!Missing]
+>Insert Figure 1.7
+
+
+Such a surface can be thought of as an aggregate
