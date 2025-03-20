@@ -256,7 +256,7 @@ In this equation:
 - $z_T$ depends only on the position of the top of the surface (not on its shape)
 - $y_G$ depends only on the geometry of the surface (not on its position in the water): at this depth below the top of the surface, the mean pressure on the surface can be found
 
-For trapezoidal surfaces (see for notations Figure 1.7) this depth is given by
+For trapezoidal surfaces (see for notations Figure 1.8) this depth is given by
 
 $$
 y_G = \frac{D}{2} \left(1 + \frac{1}{3} \frac{L_B - L_T}{L_B + L_T} \right) \tag{1.15}
@@ -264,4 +264,8 @@ $$
 
 There are three cases
 - When the bottom is wider than the top, the average depth should be more to the bottom
-- When the top is as wide as the bottom, which is the rectangular cas
+- When the top is as wide as the bottom, which is the rectangular case of the previous section
+- When the top is wider than the bottom, the average depth should be more to the top
+
+For each geometrical shape the calculation of $y_G$ is different (Sec. 1.4.3)
+
