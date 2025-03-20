@@ -30,7 +30,7 @@ That being said, these are the courses which I have followed or intend to follow
 - [[Advanced Hydrological Systems Analysis]]
 - [[Catchment and Climate Hydrology]]
 - [[Coastal Oceanography and Delta Geology]]
-- [[Hydrology and Hydrometry]]
+- [[Hydraulics and Hydrometry]]
 - [[General Chemistry]]
 - [[General Physics]]
 - [[Geophysical Fluid Mechanics]]
