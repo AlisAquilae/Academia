@@ -42,4 +42,37 @@ Within the spirit of the approximations already made, we assume the water surfac
 
 There are various other important quantities that can be described as functions of the water level $a(t,x)$:
 - The width $b$
-- The [[Wetted Area]] $A$, which is the portion of the river cross-section in contact with water. This is a key factor in determining discharge, as it directly influences velocity
+- The [[Wetted Area]] $A$, which is the portion of the river cross-section in contact with water. This is a key factor in determining discharge, as it directly influences velocity (See Eq. 2.5). The following relations with the water width are very useful:
+  
+  $$
+  \begin{aligned}
+  \frac{\partial A}{\partial a} &= b \\
+  A(a) &= \int\limits_0^a \, \mathrm{d}\alpha \, b(\alpha)
+  \end{aligned} \tag{2.1}
+  $$
+  
+- The [[Hydraulic Depth]] $d$ or cross-section average depth. This quantity is indirectly defined as follows: the wetted area equals the area of a rectangle with width $b$ and height $d$, thus
+  
+  $$
+  d = \frac{A}{b} \tag{2.2}
+  $$
+  
+  This is not a directly measurable quantity, but it will prove to be handy in many formulas
+- The [[Wetted Perimeter]] $P$. This is the length of the cross-section that has contact with the water. This perimeter is important because it measures the length along which most friction occurs. For a general cross-section, the perimeter is a difficult function of depth: $P(d)$. In our simplification we will assume that the width of the river is much larger than its depth. Such a cross-section is called a **broad rectangular cross-section**. For a broad rectangular cross-section, the wetted perimeter is constant and equal to the width of the river: $P \approx B$
+- The [[Hydraulic Radius]] $R$ is in general defined by
+  
+  $$
+  \begin{aligned}
+  A &= PR \\
+  R &= \frac{A}{P}
+  \end{aligned} \tag{2.3}
+  $$
+  
+  Again a not directly measurable but useful quantity. For the broad rectangular cross-section this quantity equals the water depth: $R = A/P = B d/B = d$
+
+To be mathematically rigorous, the wetted area should be specified by its position $x$ along the river (as the geometry of the cross-section may change) and the depth at that place at that time $a(t,x)$, and thus write formulas containing expressions as $A(x, a(t,x))$. As these dependencies are clear however we often use shorthands as $A(t,x)$. Similar notational shorthands will be used for other quantities. 
+
+## 2.2.2 Velocity and velocity fields
+In river engineering, understanding the flow velocity distribution across a river's cross-section is fundamental to analysing the dynamics of water movement. 
+
+In closed conduits, like pipes, the velocity is lower near the walls due to friction, a phenom
