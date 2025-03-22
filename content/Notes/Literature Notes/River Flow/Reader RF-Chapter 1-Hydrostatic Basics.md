@@ -430,4 +430,32 @@ where
 - $z_T$ is the distance from the top of the surface to the water level
 - $I$ stands for the **second moment of area** of the surface. Each surface has its own $I$, which depends on the geometry of the surface (just like the position of the centroid). 
 
-Independently of depth in the water, the centroid can
+>[!Example]
+>For a rectangle, $I = D^2 /12$. Independently of depth in the water, the centroid can be found as $y_G = D/2$. The center of pressure is then found at
+>
+>$$
+>y_P = D/2 + \frac{D^2 /12}{z_T + D/2}
+>$$
+
+
+Based on the example above, we can draw 2 conclusions which are valid for all surfaces in general:
+- The center of pressure is always below the centroid
+- The deeper the surface is submerged, the more the center of pressure approximates the centroid
+
+>[!Warning]
+>Skipped the derivation of $y_P$ for various geometrical shapes
+
+
+## 1.4.4 Application of hydrostatic forces
+It is essential to quantify the acting hydrostatic forces in various applications, some are mentioned below.
+
+- Dams and reservoirs: Engineers must calculate the hydrostatic forces acting on the walls of dams and reservoirs to ensure structural integrity. Incorrect calculations can lead to catastrophic failures. 
+- Aquariums and water tanks: The design of aquariums, water tanks, and pressure vessels require precise calculations of hydrostatic forces to ensure that the walls can withstand the pressure exerted by the fluid inside.
+- [[Archimedes' Principle]]: Archimedes' principle is a fundamental concept in fluid mechanics, formulated by the ancient Greek mathematician and physicist Archimedes. It explains why objects float or sink in fluids and describes the buoyant force acting on objects submerged in a fluid (liquid or gas)
+  
+  >[!Quote]
+  >Any object, wholly or partially submerged in a fluid, experiences an upward force (buoyant force) equal to the weight of the fluid displaced by the object
+  
+This means that when an object is placed in a fluid, it displaces a certain amount of fluid. The fluid, in turn, exerts an upward buoyant force on the object, equal to the weight of the fluid displaced. 
+
+The buoyant force $F_b$ is the upward force acting on an object submerged in a fluid,. 
