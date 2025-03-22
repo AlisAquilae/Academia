@@ -75,4 +75,28 @@ To be mathematically rigorous, the wetted area should be specified by its positi
 ## 2.2.2 Velocity and velocity fields
 In river engineering, understanding the flow velocity distribution across a river's cross-section is fundamental to analysing the dynamics of water movement. 
 
-In closed conduits, like pipes, the velocity is lower near the walls due to friction, a phenom
+In closed conduits, like pipes, the velocity is lower near the walls due to friction, a phenomenon known as the [[Law of the Wall]]. Friction is most intense at the boundaries where the water meets the solid surface, causing the velocity to decrease near the walls. There is, however, also friction within the water due to viscosity. Therefore, the velocity gradually increases further away from the wall, peaking in the middle of the cross-section. The distribution of the velocity through the cross-section is called the **velocity profile**.
+
+The Law of the Wall also holds for cross-sections of rivers. As the geometry is in general more complex, the patterns may be more complicated than for circular conduits. In contrast with a closed conduit, there is no wall at the top. There is also friction with the air, but this is much less compared to the friction due to the walls. Therefore, the maximum velocity is found just below the water surface, near the middle of the river. 
+
+In all practical situations, the magnitude of velocity and even its direction therefore vary within a cross-section. As our global view upon the river does not enable us to calculate these variations, we will only consider the velocity averaged over a cross-section and neglect the variations around its mean.
+
+$$
+u(t,x) = \frac{1}{A(t,x)} \iint\limits_{(y,z) \in A(t,x)} \, u_x(t,x,y,z) \tag{2.4}
+$$
+
+This mean velocity $u(t,x)$ will be called *the* flow velocity. Another way of saying this is that we replace the whole velocity field in this cross-section by its mean. 
+
+## 2.2.3 Discharge
+The velocity or velocity field determines the amount of water flowing at a particular time and place in the river. Often, we are however not interested in the velocities and flows at a very local scale in the cross-section but in the total discharge through a cross-section. This quantity is called the discharge, and denoted by $Q$. 
+
+A very important equation connects velocity and discharge:
+
+$$
+Q = A \overline{v} \tag{2.5}
+$$
+
+where
+- $Q$ is the discharge through the cross-section
+- $A$ is the area of the cross-section
+- $\overline{v}$ is the mean velocity 
