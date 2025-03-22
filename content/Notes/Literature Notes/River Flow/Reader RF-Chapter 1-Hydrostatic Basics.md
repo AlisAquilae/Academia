@@ -416,3 +416,18 @@ The four panels of figure 1.11 illustrate four cases
    
    This point $z_p$ is called the **point of application** of the total of the forces on the right
 
+This analysis shows that for practical (calculation) purposes, one may replace the two forces on the right by one total force, whose magnitude is the total of these two applied at the point of application. This theory can also be applied to pressure forces. The point of application is in these cases also called the **center of pressure**. As pressure increases with depth, and the mean pressure is given by the centroid, the center of pressure will always be found below this centroid. 
+
+The following equation gives a general way of calculating this center of pressure:
+
+$$
+y_P = y_G + \frac{I}{y_G + z_T} \tag{1.20}
+$$
+
+where
+- $y_P$ is the center of pressure
+- $y_G$ is the centroid
+- $z_T$ is the distance from the top of the surface to the water level
+- $I$ stands for the **second moment of area** of the surface. Each surface has its own $I$, which depends on the geometry of the surface (just like the position of the centroid). 
+
+Independently of depth in the water, the centroid can
