@@ -127,4 +127,15 @@ $$
 Our assumptions so far can be summarised as follows:
 1. The water level in each cross-section is horizontal, so the water surface is completely determined by the water depth $d$ (or $a$, depending on the used variable) with respect to the lowest point of the cross-section. This depth can also change along the river and calculating the depth can be part of the problem to be solved
 2. The width $B$ is in general a function of water depth $d$. We will only consider rectangular cross-sections for which the width $B$ is constant
-3. The wetted area $A$ changes if the depth changes. This is an important difference with closed conduits. 
+3. The wetted area $A$ changes if the depth changes. This is an important difference with closed conduits. The functional relation between wetted area and water depth $A(d)$ can be complicated. For a rectangular cross-section it is simple: $A(d) = Bd$. The wetted area is important because it links discharge to velocity and discharge rather than velocity is the basic quantity in open water. So for a rectangular cross-section one has
+   
+   $$
+   \begin{aligned}
+   Q &= B d \overline{v} \\
+   \overline{v} &= \frac{Q}{Bd}
+   \end{aligned}
+   $$
+   
+4. The length of contact of the cross-sectioon with the bed is called the wetted perimeter $P$. In our simplification we will assume that the width of the river is much larger than its depth, so that the wetted perimeter is roughly equal to the width of the river: $P \approx B$
+5. Traditionally, one also includes the hydraulic radius to be used in friction equations. For broad rectangular channels, the radius simplifies to the water depth because $P \approx B$ (the river's width), making the hydraulic radius equal to the depth, $R \approx d$
+
