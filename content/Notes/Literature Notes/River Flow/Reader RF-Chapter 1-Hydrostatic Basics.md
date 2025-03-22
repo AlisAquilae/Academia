@@ -316,4 +316,71 @@ For a wall where the top of the wall is at the surface of the water, the pressur
 For a vertical surface submerged in water, one must also calculate the pressure force at the upper end of the surface. 
 
 >[!Example]
->Due to the construction of a dam, the artificial Lake Reschen in South Tyrol, Italy, developed to a depth of 28 meters. Alongside 16
+>Due to the construction of a dam, the artificial Lake Reschen in South Tyrol, Italy, developed to a depth of 28 meters. Alongside 163 homes, a 14th century church was flooded in the process. Suppose the vertical bell tower of the submerged church has a height of 10 meters and a width fo 3 meters. The fluid in the reservoir is water. 
+>
+>The pressure at the top of the tower is
+>
+>$$
+>\begin{aligned}
+>P_{\text{top}} &= 1000 \, \text{kg / m}^3 \times 9.81 \, \text{m / s}^2 \times (28 \, \text{m} - 10 \, \text{m}) \\
+>&= 176580 \, \text{Pa}
+>\end{aligned}
+>$$
+>
+>The pressure at the bottom of the tower is
+>
+>$$
+>\begin{aligned}
+>P_{\text{top}} &= 1000 \, \text{kg / m}^3 \times 9.81 \, \text{m / s}^2 \times 28 \, \text{m} \\
+>&= 274680 \, \text{Pa}
+>\end{aligned}
+>$$
+>
+>The average pressure is then
+>
+>$$
+>P_{\text{avg}} = \frac{176580 + 274680}{2} = 225630 \, \text{Pa}
+>$$
+>
+>The hydrostatic force on the entire bell tower wall is then
+>
+>$$
+>\begin{aligned}
+>F &= P_{\text{avg}} \times A \\
+>&= 225630 \, \text{Pa} \times (10 \, \text{m} \times 3 \, \text{m}) \\
+>&= 6768.9 \, \text{kN}
+>\end{aligned}
+>$$
+
+
+
+## 1.4.4 Hydrostatic forces on a horizontal surface
+For a horizontal surface submerged in a fluid, such as the bottom of a tank, the pressure is constant across the entire surface because the depth does not vary. 
+
+>[!Example]
+>Consider a tank filled with water, where the depth of water above the bottom surface is 5 meters. The area of the bottom surface is 10 m$^2$, and the density of the water is 1000 kg/m$^3$. The pressure at the bottom of the tank can be calculated as follows:
+>
+>$$
+>P = \rho g h
+>$$
+>
+>where
+>- $\rho = 1000$ kg/m$^3$ (density of water)
+>- $g = 9.81$ m/s$^2$ (acceleration due to gravity)
+>- $h = 5$ m (depth of water)
+>
+>Substituting the values:
+>
+>$$
+>P = 1000 \times 9.81 \times 5 = 49050 \, \text{Pa}
+>$$
+>
+>The hydrostatic force on the bottom surface is
+>
+>$$
+>49050 \times 10 \, \text{m}^2 = 490500 \, \text{N}
+>$$
+
+
+##
+
