@@ -269,3 +269,51 @@ There are three cases
 
 For each geometrical shape the calculation of $y_G$ is different (Sec. 1.4.3)
 
+## 1.4.3 Hydrostatic forces on rectangular vertical surfaces
+For a vertical surface, such as the wall of a dam, the pressure varies with depth, resulting in a non-uniform distribution of force. The pressure at the top of the surface is lower than that at the bottom.
+
+To calculate the total hydrostatic force on a vertical surface, we use the concept of average pressure. The average pressure on a submerged wall can be calculated by
+
+$$
+P_{\text{avg}} = \frac{P_{\text{top}} + P_{\text{bottom}}}{2} \tag{1.16}
+$$
+
+For a wall where the top of the wall is at the surface of the water, the pressure at the top of the surface is defined as $P_{\text{top}} = 0$. which makes the calculation easier.
+
+>[!Example]
+>Suppose a vertical dam wall has a height of 10 meters and a width of 20 meters. The fluid in the reservoir is water, and the top of the wall is at the surface of the water.
+>
+>The pressure at the bottom of the wall is
+>
+>$$
+>\begin{aligned}
+>P_{\text{bottom}} &= \rho g h_{\text{bottom}} \\
+>&= 1000 \, \text{kg / m}^3 \times 9.81 \, \text{m / s}^2 \times 10 \, \text{m} \\
+>&= 98100 \, \text{Pa}
+>\end{aligned}
+>$$
+>
+>The average pressure on the wall is
+>
+>$$
+>\begin{aligned}
+>P_{\text{avg}} &= \frac{0 + 98100}{2} \\
+>&= 49050 \, \text{Pa}
+>\end{aligned}
+>$$
+>
+>The hydrostatic force on the entire surface is then
+>
+>$$
+>\begin{aligned}
+>F &= P_{\text{avg}} \times A \\
+>&= 49050 \, \text{Pa} \times (10 \, \text{m} \times 20 \, \text{m})\\
+>&= 9810000 \, \text{N}
+>\end{aligned}
+>$$
+
+
+For a vertical surface submerged in water, one must also calculate the pressure force at the upper end of the surface. 
+
+>[!Example]
+>Due to the construction of a dam, the artificial Lake Reschen in South Tyrol, Italy, developed to a depth of 28 meters. Alongside 16
