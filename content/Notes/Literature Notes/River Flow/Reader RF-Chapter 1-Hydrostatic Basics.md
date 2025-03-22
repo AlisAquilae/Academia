@@ -269,7 +269,7 @@ There are three cases
 
 For each geometrical shape the calculation of $y_G$ is different (Sec. 1.4.3)
 
-## 1.4.3 Hydrostatic forces on rectangular vertical surfaces
+### 1.4.2.1 Hydrostatic forces on rectangular vertical surfaces
 For a vertical surface, such as the wall of a dam, the pressure varies with depth, resulting in a non-uniform distribution of force. The pressure at the top of the surface is lower than that at the bottom.
 
 To calculate the total hydrostatic force on a vertical surface, we use the concept of average pressure. The average pressure on a submerged wall can be calculated by
@@ -354,7 +354,7 @@ For a vertical surface submerged in water, one must also calculate the pressure 
 
 
 
-## 1.4.4 Hydrostatic forces on a horizontal surface
+### 1.4.2.2 Hydrostatic forces on a horizontal surface
 For a horizontal surface submerged in a fluid, such as the bottom of a tank, the pressure is constant across the entire surface because the depth does not vary. 
 
 >[!Example]
@@ -382,5 +382,37 @@ For a horizontal surface submerged in a fluid, such as the bottom of a tank, the
 >$$
 
 
-##
+## 1.4.3 Center of pressure
+
+>[!Missing]
+>Insert Figure 1.11
+
+The **center of pressure** is a special case of the "point of application of the total force". Figure 1.11 shows four cases of a bar on which two forces are working from the right and one from the left. The left force's magnitude equals the sum of the two right forces. The bar will (initially) neither move left or right under the influence of these forces as the magnitudes left and right balance. The bar will, however, start (again, initially) turning, which depends on the position of the left force. The magnitude and direction of this rotation can be determined by examining the **moment of force** (also known as **torque**). In general, the moment of force $M$ is computed by summing the combined pushing effect of all forces acting on an object
+
+$$
+M = \sum\limits_i F_i r_i \tag{1.17}
+$$
+
+where $r$ is the lever, which is the distance to the point where the force is applied.
+
+In figure 1.11, the moment becomes
+
+$$
+\begin{aligned}
+M &= \sum\limits_i F_i (z_i - z) \\
+&= F_1 (z_1 - z) + F_2 (z_2 - z)
+\end{aligned} \tag{1.18}
+$$
+
+The four panels of figure 1.11 illustrate four cases
+1. If $M \lt 0$, rotation will be clockwise
+2. If $M \gt 0$, rotation will be counterclockwise. Note that this is caused by the large lever $(z_2 - z)$ of the force $F_2$, which makes that the top force is more of influence, even though the bottom force is larger. The levers multiplied with the magnitudes of the forces give the moment of force
+3. Applying the left force in the middle of the bar (third figure from the left) does not avoid rotation: the levers are now equal, but as $F_1 \gt F_2$, the bar starts rotating clockwise
+4. $M$ is only zero if the left force is applied to
+   
+   $$
+   z_p = \frac{\sum\limits_i z_i F_i}{\sum F_i} \tag{1.19}
+   $$
+   
+   This point $z_p$ is called the **point of application** of the total of the forces on the right
 
