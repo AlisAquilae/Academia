@@ -99,4 +99,32 @@ $$
 where
 - $Q$ is the discharge through the cross-section
 - $A$ is the area of the cross-section
-- $\overline{v}$ is the mean velocity 
+- $\overline{v}$ is the mean velocity through the cross-section
+
+This relationship is crucial for calculating the amount of water passing through any given section of the river at any particular time. 
+
+For greater mathematical and physical accuracy, Equation 2.6 can be derived from the $x$-component of the velocity field, being the component in the downstream direction orthogonal to the cross-section. The resulting expression is as follows
+
+$$
+\begin{aligned}
+Q(t,x) &= \iint\limits_{(y,z) \in A(t,x)} \, u_x (t,x,y,z) \\
+&= A(t,x)u(t,x)
+\end{aligned} \tag{2.6}
+$$
+
+For a closed conduit the area of the cross-section $A$ is a constant. For a river, however, both area and mean velocity change with discharge. For instance in periods of high water. the cross-section area may increase, altering both the area and mean velocity, thereby affecting discharge.
+
+## 2.2.4 Long profile and bottom slopes
+Next to the geometry of the cross-section, we need to consider how the bottom height varies over large distances. In the following we will therefore be taking a closer look at the bed height $z_0$. A plot of $z_0$ versus the length of the river is called a **long profile**. The bottom elevation $z_b$ is usually curved, but is assumed to be straight here. 
+
+The most important quantity describing bottom height variation is the bottom slope $S_o$. It describes how the bed elevation varies along the river, i.e. $z_0  = z_0 (x)$ and is defined as 
+
+$$
+S_o (x) = - \frac{\mathrm{d}z_0}{\mathrm{d}x} \ll 1 \tag{2.7}
+$$
+
+## 2.2.5 Assumptions for geometry and flow parameters of rivers
+Our assumptions so far can be summarised as follows:
+1. The water level in each cross-section is horizontal, so the water surface is completely determined by the water depth $d$ (or $a$, depending on the used variable) with respect to the lowest point of the cross-section. This depth can also change along the river and calculating the depth can be part of the problem to be solved
+2. The width $B$ is in general a function of water depth $d$. We will only consider rectangular cross-sections for which the width $B$ is constant
+3. The wetted area $A$ changes if the depth changes. This is an important difference with closed conduits. 
