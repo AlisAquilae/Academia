@@ -1,14 +1,14 @@
 ---
 fileClass: Base, Literature Notes
 title: 
-Parents: 
+Parents: ["[[River Flow]]"]
 Draft: 
-Status: 
+Status: To Revisit
 Authors: 
 Year of Publication: 
 Related Notes: 
 Related Terminology: 
-Related Courses: 
+Related Courses: ["[[River Flow]]"]
 ---
 # 1.1 Introduction
 Water plays a vital role in both natural processes and engineered systems, making it a key focus of study in physics. Just as physics is divided into statics and dynamics, the study of water is similarly split into hydrostatics (the behaviour of water at rest) and hydrodynamics (the behaviour of water in motion). Unlike much of physics, which often deals with solid objects like planets or apples, the study of fluids - encompassing liquids and gasses - introduces unique properties and behaviours.
@@ -458,4 +458,18 @@ It is essential to quantify the acting hydrostatic forces in various application
   
 This means that when an object is placed in a fluid, it displaces a certain amount of fluid. The fluid, in turn, exerts an upward buoyant force on the object, equal to the weight of the fluid displaced. 
 
-The buoyant force $F_b$ is the upward force acting on an object submerged in a fluid,. 
+The buoyant force $F_b$ is the upward force acting on an object submerged in a fluid. It is responsible for making objects appear lighter when submerged and is the reason why objects sink or float. The equation for buoyant force is given by
+
+$$
+F_b = \rho_{\text{fluid}} \cdot g \cdot V_{\text{displaced}} \tag{1.26}
+$$
+
+where
+- $F_b$ is the buoyant force
+- $\rho_{\text{fluid}}$ is the density of the fluid
+- $g$ is the gravitational acceleration
+- $V_{\text{displaced}}$ is the volume of fluid displaced by the object.
+
+Objects that are less dense than the fluid displace an amount of fluid whose weight is greater than the object's weight, resulting in a net upward force (buoyant force) that causes objects to float. Conversely, objects denser than the fluid displace an amount of fluid whose weight is less than the object's weight, leading to sinking.
+
+The Archimedes' Principle can be used to understand why ships can float on water, how much of an iceberg is under water, and why helium balloons rise and how submarines work. Despite being made of steel, which is denser than water, ships float because their overall shape and design allow them di displace a large volume of water, creating a buoyant force equal to their weight. The weight of the displaced water keeps them afloat. Ice is less dense than water, so about 10% of the iceberg is above the surface, while the rest is submerged, displacing seawater equal to the iceberg's total weight. Helium is less dense than air. A helium balloon displaces air, and since the weight of the air displaced is greater than the weight of the balloon itself, it rises. And lastly, submarines use ballast tanks to control their buoyancy. When the tanks are filled with water, the submarine becomes denser and sinks. When the tanks are filled with air, the submarine becomes less dense and rises. 
