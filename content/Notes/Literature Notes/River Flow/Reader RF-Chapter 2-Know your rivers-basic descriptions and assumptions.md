@@ -150,4 +150,23 @@ Additionally, we can classify flow into stationary and non-stationary flow.
 
 In **stationary flow**, the flow velocity at each position remains constant over time (both in direction and magnitude). While the flow may vary spatially, it remains temporally constant. Non-stationary flow, on the other hand, is time-dependent
 
-Lastly, we can differentiate between uniform and non-uniform flow. In **uniform flow** situations all properties remain the same along the river. Uniform flow is said to be in equilibrium
+Lastly, we can differentiate between uniform and non-uniform flow. In **uniform flow** situations all properties remain the same along the river. Uniform flow is said to be **in equilibrium**. Non-uniform flow, on the other hand, means that depths and velocities are changing throughout the river. As described above, typical scales in the horizontal are large, often measured in km and certainly much larger than the vertical scale, which typically has a scale of m, causing gradual changes in water depth. For that reason, non-uniform flow situations are sometimes also called **gradually varying**. 
+
+Undisturbed water flow tends to be in equilibrium. 
+
+## 2.3.2 Streamlines
+The motion of water can be visualised using **floaters** - small particles that follow the motion of water flow without influencing it. By tracking the position of such a floater over time, we can "see" the flow of water. This provides a conceptual model for understanding how fluid moves through a domain. 
+
+For stationary flow (remember: flow is not changing over time, yet may vary spatially), this means that if a floater is released at the same starting position, it will follow the same path and reach the same locations after identical time intervals. At any given moment, a floater has a velocity, a vector that points in the direction of its movement and whose magnitude corresponds to its speed. This vector is referred to as the **flow velocity** of water.
+
+The path followed by a floater is called a **streamline**. For stationary flows, streamlines do not vary over time. Once a floater starts on a streamline, it will continue to follow that path. At every point along a streamline, the flow direction is tangent to the line.
+
+In reality, flows are rarely perfectly stationary. A real floater fluctuates around a streamline instead of following it precisely. Two floaters released from the same point at different times may follow different paths, but their paths will fluctuate around the same streamline. 
+
+In practice, we approximate real flow by using stream-averaged velocities, which can yield averaged streamlines. The degree of averaging, typically determined by the length of the time interval used, may vary depending on the situation. 
+
+>[!Note]
+>Every location in the flow domain has a unique streamline. Two streamlines cannot intersect, as this would imply that a floater at the intersection would have no clear direction to follow. Thus, the entire flow domain can be conceptualised as being filled with non-intersecting streamlines. This will come in handy in the following chapters when we try to understand the interplay of flow velocities and pressure, and what that means for the energy in the system.
+
+
+We can also define **stream tubes**. To construct a stream tube, choose a central streamline and take a small starting area around the beginning of that streamline. The streamlines originating from this area form a tube around the central streamline. A floater startin on this cen
