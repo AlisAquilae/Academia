@@ -122,4 +122,39 @@ $$
 \frac{1}{\sqrt{\lambda}} = -2 \log \left( 0.27 \frac{k_s}{D} + \frac{2.51}{\text{Re} \sqrt{\lambda}} \right) \tag{4.6}
 $$
 
-2. The **smooth turbulent** region. 
+2. The **smooth turbulent** region. In this region the resistance no longer depends on the relative roughness $k_s / D$: all points with different symbols fall on the same line in Fig. 4.9. In these cases the roughness $k_s$ is smaller than the laminar boundary layer (see e.g. Fig. 4.4)$. Therefore, the flow in the tube only "feels" the smooth laminar boundary and not the real rough tube boundary. One widely used equation to calculate the resistance coefficient in these cases is:
+   
+   $$
+   \frac{1}{\sqrt{\lambda}} = 2 \log \left( \frac{\text{Re} \sqrt{\lambda}}{2.51} \right) \tag{4.7}
+   $$
+   
+   This equation can be derived from Colebrook-White by setting $k_s / D = 0$. In this equation, $\lambda$ depends only on the velocity (through $\text{Re}$) but not on $k_s$
+3. The **laminar** region. The friction is now proportional to $v$ rather than to $v^2$ (and thus $\lambda \sim 1/v$ ) and depends on $\text{Re}$. An equation often used in this region is:
+   
+   $$
+   \lambda = \frac{64}{\text{Re}} \tag{4.8}
+   $$
+
+4. Several "transition"  regions, where the characteristics of the regions above mix
+
+### 4.1.2.2 Local energy losses
+Local energy losses have many causes: changes in cross-sections, bends in the tube, valves, etc. All these different cases have their own equations. 
+
+
+## 4.1.3 Friction in open water: Manning and Chézy
+The Bernoulli analysis of open water starts by choosing a streamline. In these notes the line at the water surface is chosen, because the pressure there is atmospheric, and thus equal to zero. 
+
+A result of this approach is that there are only two energy components:
+- Static energy, its height given by the sum of bottom height ($z_b$) and water depth $d$, so this is the sum of potential and pressure energy;
+- Kinetic energy. As was also done for tubes, the velocity in this term is thought to be close to the mean velocity in the cross-section. 
+
+For analysis over larger lengths of the river, the energy loss is an important component. This energy loss is visible as the slope of the total energy line. This slope is called the **friction slope**, denoted by $S_f$ and is technically defined as the energy loss per unit length:
+
+$$
+S_f = \frac{\Delta E}{\Delta L} \tag{4.11}
+$$
+
+The sigh is positive, which means energy loss in the downstream direction. This friction slope can vary in space.
+
+The calculation of energy losses for open water is more complicated than for the pipes in previous sections. Although the flow in open water is (almost) always turbulent, an exact calculation is complicated by the geometrical complexity of the cross-section, irregular roughness of the bottom and velocity distribution. Therefore, every equa
+
