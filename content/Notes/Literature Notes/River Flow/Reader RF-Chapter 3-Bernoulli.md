@@ -3,7 +3,7 @@ fileClass: Base, Literature Notes
 title: 
 Parents: ["[[River Flow]]"]
 Draft: 
-Status: In Progress
+Status: Done
 Authors: 
 Year of Publication: 
 Related Notes: 
@@ -129,3 +129,5 @@ When for all points on a streamline, the pressure heights are added to the verti
 
 The total energy line is horizontal (since energy is conserved), but the hydraulic gradient line and the streamline itself are in general not horizontal. The changes in these lines give insight in how to contributions of the three forms of energy change when moving over the streamline (while their sum remains constant). These changes in contribution are caused by energy conversions. 
 
+---
+# 3.4 Applying Bernoulli (==Skipped==)
