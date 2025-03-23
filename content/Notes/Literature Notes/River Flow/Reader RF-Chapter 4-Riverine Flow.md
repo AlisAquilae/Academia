@@ -82,3 +82,28 @@ Therefore the following restrictive assumptions will be made
 
 
 >[!Warning]
+>There are more examples in the book, relating to the cases for widening of tubes. I skipped these for now
+
+
+Generalising the examples leads to a general equation for [[Bernoulli's Law]] with losses: for points on the same streamline with flow from point 1 to point 2,
+
+$$
+z_1 + \frac{v_1^2}{2g} + \frac{P_1}{\rho \, g} = z_2 + \frac{v_2^2}{2g} + \frac{P_2}{\rho \, g} + \sum\limits_i \Delta E_i \tag{4.3}
+$$
+
+The $\Delta E_i$ stands for the sum of the different energy loss terms that occur between points 1 and 2. 
+
+In the following, different types of losses will be calculated. We differentiate between gradual losses (so due to the flow itself along the entire flow domain) and local losses (due to local causes, e.g. changes in cross-sections). Such equations cannot be derived from purely physical principles, as this would require solving the full turbulent flow. However, there are effective equations that solve this problem in a pragmatic sense.
+
+### 4.1.2.1 Gradual energy losses
+One of the oldest and most famous equations for energy losses (gradual losses in this case) is the [[Darcy-Weisbach Equation]] for the gradual loss in energy height
+
+$$
+\Delta E_{DW} = \frac{\lambda \, L \, v^2}{2 \, g \, D} \tag{4.4}
+$$
+
+Although this equation has been justified by experiments and not theory, the terms in it can be understood intuitively:
+- $L$ stands for the length of the tube. Longer tubes generate more friction.
+- $D$ stands for the diameter of the tube. Most friction and turbulence is caused by the wall of the tube. For a tube with a circular cross-section, the ratio between perimeter and area is given by $\frac{4}{D}$. The larger the diameter $D$, the smaller this ratio and the smaller the relative contribution of the wall to the friction. This is reflected in the equation by the fact that the diameter $D$ appears in the denominator
+- $v^2$ is the velocity squared. Higher (average) velocity results in more friction. That his increase goes with the second power of the velocity is only a good approximation for turbulent flow, however, based on experimental evidence, and is not always true
+- $\lambda$ is the so-called Darcy-Weisbach friction coefficient. It is thought to be independent of $v$, $L$ and $D$ and stands for the (dimensionless) roughness of the wall of the tube. Rougher walls cause more friction and have a higher $\lambda$. This coefficient depends on the 
