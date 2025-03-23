@@ -106,4 +106,20 @@ Although this equation has been justified by experiments and not theory, the ter
 - $L$ stands for the length of the tube. Longer tubes generate more friction.
 - $D$ stands for the diameter of the tube. Most friction and turbulence is caused by the wall of the tube. For a tube with a circular cross-section, the ratio between perimeter and area is given by $\frac{4}{D}$. The larger the diameter $D$, the smaller this ratio and the smaller the relative contribution of the wall to the friction. This is reflected in the equation by the fact that the diameter $D$ appears in the denominator
 - $v^2$ is the velocity squared. Higher (average) velocity results in more friction. That his increase goes with the second power of the velocity is only a good approximation for turbulent flow, however, based on experimental evidence, and is not always true
-- $\lambda$ is the so-called Darcy-Weisbach friction coefficient. It is thought to be independent of $v$, $L$ and $D$ and stands for the (dimensionless) roughness of the wall of the tube. Rougher walls cause more friction and have a higher $\lambda$. This coefficient depends on the 
+- $\lambda$ is the so-called Darcy-Weisbach friction coefficient. It is thought to be independent of $v$, $L$ and $D$ and stands for the (dimensionless) roughness of the wall of the tube. Rougher walls cause more friction and have a higher $\lambda$. This coefficient depends on the material of the tube and on the smoothness of its finish. 
+
+The Darcy-Weisbach equation (Eq. 4.4) is effective for turbulent situations, but it does not apply to all flow situations. As discussed above, the second power in the equation is only valid in turbulent situations. For other flow situations, however, one sticks to the algebraic form of the equations and chooses to make the friction coefficient $\lambda$ velocity-dependent. This dependency is typically plotted in a so-called Moody-diagram. In these graphs one plots the resistance coefficient $\lambda$ as a function of the Reynolds number, rather than velocity. As the Reynolds number is directly proportional to the velocity, this investigates essentially the same dependency. 
+
+>[!Missing]
+>Insert Figure 4.9
+
+The graph contains many measurements. The roughness of the tube was parameterised by the ratio of the roughness length $k_s$ (the size of the "bumps" on the wall of the tube, as is also used for sandpaper) divided by the diameter $D$ of the tube. Measurements corresponding to the same $k_s / D$ values were plotted with the same symbol.
+
+In this graph, one can distinguish several regions:
+1. The **rough turbulent** region. In this region, the Darcy-Weisbach equation is valid: $\lambda$ is approximately constant for a fixed relative roughness length $k_s / D$. For the relation between $\lambda$ and $k_s / D$ many equations exist. One very well known one is the [[Colbrook-White Equation]]:
+
+$$
+\frac{1}{\sqrt{\lambda}} = -2 \log \left( 0.27 \frac{k_s}{D} + \frac{2.51}{\text{Re} \sqrt{\lambda}} \right) \tag{4.6}
+$$
+
+2. The **smooth turbulent** region. 
