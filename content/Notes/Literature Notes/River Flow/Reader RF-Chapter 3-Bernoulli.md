@@ -46,7 +46,7 @@ This equation can intuitively be understood by noting that:
 The term "potential energy" is an overstatement. It suggests that the equation gives a value for an absolute quantity. In reality, the zero level for $z$ (sometimes called datum) can be chosen arbitrarily. So the equation can only be used in a relative sense, to compare the potential energies in two situations with the same zero level.
 
 ## 3.1.2 Kinetic energy
-The kinetic energy of an object is the energy that it possesses due to its current motion. For fluids this translates into "flowing water has kinetic energy". A hose with flowing water possesses kinetic energy, because it can make a water wheel turn. Kinetic energy is given by:
+The **kinetic energy** of an object is the energy that it possesses due to its current motion. For fluids this translates into "flowing water has kinetic energy". A hose with flowing water possesses kinetic energy, because it can make a water wheel turn. Kinetic energy is given by:
 
 $$
 \text{kinetic energy} = \frac{1}{2} m \, v^2 = W \frac{1}{2} \frac{v^2}{g} \tag{3.2}
@@ -58,4 +58,54 @@ $$
 - Kinetic energy on Jupiter is equal to kinetic energy on Earth, so no gravitational constant appears in the equation. To make the comparison with the equation for potential energy as transparent as possible, the equation is translated into weight by $m = W/g$. 
 
 ## 3.1.3 Pressure energy
-The last form of energy is 
+The last form of energy is **pressure energy**. This form of energy is illustrated by a bottle of champagne: if one releases the cork, the pressurised fluid will drive the wheel.
+
+The equation for pressure energy is given by:
+
+$$
+\text{pressure energy} = P V = W \frac{P}{\rho \, g} \tag{3.3}
+$$
+
+- Higher pressure leads to more pressure energy
+- Larger volumes have more pressure energy
+- To make the comparison with the equation for potential energy as transparent as possible, the equation is translated into weight by $V = m / \rho = W / (\rho \, g)$. 
+
+We choose $P$ to be pressure with respect to atmospheric pressure rather than the absolute pressure. Pressure energy as given by the equation above can thus only be used for comparing two situations (which was also the case with potential energy).
+
+---
+# 3.2 Bernoulli's Law
+The law of conservation of energy says that in a stream tube:
+
+>[!Quote]
+>Total energy remains constant:
+>
+>$$
+>\text{total energy} = \text{potential energy} + \text{kinetic energy} + \text{pressure energy}
+>$$
+
+
+Now we take any streamline and two points on it. Consider a thin stream tube around the streamline. By making the stream tube infinitely thin, the total energy $\varepsilon$ at points 1 and 2 become:
+
+$$
+\begin{aligned}
+\varepsilon_1 &= W \, z_1 + W \frac{1}{2} \frac{v^2_1}{g} + W\frac{P_1}{\rho \, g} \\
+\varepsilon_2 &= W \, z_2 + W \frac{1}{2} \frac{v^2_2}{g} + W\frac{P_2}{\rho \, g}
+\end{aligned} \tag{3.4}
+$$
+
+
+The conservation of energy between 1 and 2 can thus be written as
+
+$$
+W \, z_1 + W \frac{1}{2} \frac{v^2_1}{g} + W\frac{P_1}{\rho \, g} =  W \, z_2 + W \frac{1}{2} \frac{v^2_2}{g} + W\frac{P_2}{\rho \, g} \tag{3.5}
+$$
+
+As $W$ appears both on the left and right it can be eliminated from the equation to yield [[Bernoulli's Law]]: For points 1 and 2 on the same streamline,
+
+$$
+z_1 + \frac{v_1^2}{2g} + \frac{P_1}{\rho \, g} = z_2 + \frac{v_2^2}{2g} + \frac{P_2}{\rho \, g} \tag{3.7}
+$$
+
+
+>[!Info]
+>Strictly speaking, the equation above is not about conservation of energy but about the conservation of energy per unit weight. However, the formulation
