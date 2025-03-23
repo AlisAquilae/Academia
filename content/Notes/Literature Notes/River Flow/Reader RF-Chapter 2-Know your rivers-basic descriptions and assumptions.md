@@ -139,3 +139,15 @@ Our assumptions so far can be summarised as follows:
 4. The length of contact of the cross-sectioon with the bed is called the wetted perimeter $P$. In our simplification we will assume that the width of the river is much larger than its depth, so that the wetted perimeter is roughly equal to the width of the river: $P \approx B$
 5. Traditionally, one also includes the hydraulic radius to be used in friction equations. For broad rectangular channels, the radius simplifies to the water depth because $P \approx B$ (the river's width), making the hydraulic radius equal to the depth, $R \approx d$
 
+---
+# 2.3 Flowing water and how to describe it
+In the following section, you will learn how to describe riverine flow with words such as stationary, uniform and equilibrium. Additionally, we will discuss how the flow of the water can be made visible and learn more about the long wave POV.
+
+## 2.3.1 Classification of flow
+We generally differentiate between **line flow** (1D, $v = f(x)$, for example a narrow river), surface or **plane flow** (2D, $v = f(x, y)$, for example a wide river) and **spatial flow** (3D, $v = f(x,y,z)$, for example a river bend).
+
+Additionally, we can classify flow into stationary and non-stationary flow. 
+
+In **stationary flow**, the flow velocity at each position remains constant over time (both in direction and magnitude). While the flow may vary spatially, it remains temporally constant. Non-stationary flow, on the other hand, is time-dependent
+
+Lastly, we can differentiate between uniform and non-uniform flow. In **uniform flow** situations all properties remain the same along the river. Uniform flow is said to be in equilibrium
