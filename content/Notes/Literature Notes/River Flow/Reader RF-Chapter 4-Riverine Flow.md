@@ -54,5 +54,31 @@ In many practical situations, the velocity profile is a combination of the profi
 The following equation is widely used to describe this velocity profile:
 
 $$
-\frac{v(y)}{v_{\tau}} = \left\{ \begin{array}{ll} \frac{1}{x} \ln \left(\frac{y \, v_{\tau} \, \rho}{\mu} \right) + C \end{array} \right.
+\frac{v(y)}{v_{\tau}} = \left\{ \begin{array}{ll} \frac{1}{k} \ln \left(\frac{y \, v_{\tau} \, \rho}{\mu} \right) + C \; \; \text{ if } y \gt \delta \\
+\frac{v_{\tau} \, \rho}{\mu} \, y
+\end{array} \right. \tag{4.2}
 $$
+
+where
+- $v(y)$ is the magnitude of the flow velocity at distance $y$ from the wall
+- $v_{\tau}$ is the friction velocity or shear velocity
+- $k$ is the [[Von Karman Constant]]
+- $\rho$ and $\mu$ are the density and viscosity, respectively. The fraction $\mu / \rho$ is called the [[Kinematic Viscosity]]
+- $\delta$ is the thickness of the laminar layer
+- $C$ is a constant chosen such that both equations are equal for $y = \delta$
+
+## 4.1.2 Adjusting Bernoulli's Law for energy losses (in pipes)
+The internal friction described above leads to energy losses. In our consideration so far, Bernoulli's law expresses conservation of energy for a streamline. As discussed in the previous sections, however, energy is not conserved, because a significant amount of energy gets lost. So the Bernoulli's equation has to be adjusted for these losses. 
+
+However, the previous sections showed that the energy losses can only be understood from the total flow domain and the complete velocity profile. Energy losses cannot be evaluated on an isolated streamline: friction shows itself in differences between velocities on neighbouring streamlines (see e.g. Fig. 4.4).
+
+Therefore the following restrictive assumptions will be made
+1. Only tubes with circular cross-sections will be discussed. In the following sections generalisation to the open water case will be treated.
+2. Only the streamline in the center of the cross-section will be considered
+3. The velocity of the middle streamline will be considered to be close to the mean velocity
+
+>[!Example]
+>Consider a flow through a tube while accounting for energy losses. Energy is lost in the flow direction, which can be seen in the slope of the total energy line (which was previously horizontal), sloping downward in the flow direction. As in this example the tube has a constant diameter, one can conclude from the law of conservation of mass that the velocity over the streamlines is constant and that the hydraulic gradient line is parallel to the total energy line. As a consequence, including the energy losses leads in this case ti changes in pressure.
+
+
+>[!Warning]
