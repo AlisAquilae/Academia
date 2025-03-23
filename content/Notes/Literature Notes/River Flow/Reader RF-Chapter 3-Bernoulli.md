@@ -103,9 +103,29 @@ $$
 As $W$ appears both on the left and right it can be eliminated from the equation to yield [[Bernoulli's Law]]: For points 1 and 2 on the same streamline,
 
 $$
-z_1 + \frac{v_1^2}{2g} + \frac{P_1}{\rho \, g} = z_2 + \frac{v_2^2}{2g} + \frac{P_2}{\rho \, g} \tag{3.7}
+z_1 + \frac{v_1^2}{2g} + \frac{P_1}{\rho \, g} = z_2 + \frac{v_2^2}{2g} + \frac{P_2}{\rho \, g} \tag{3.6}
 $$
 
 
 >[!Info]
->Strictly speaking, the equation above is not about conservation of energy but about the conservation of energy per unit weight. However, the formulation
+>Strictly speaking, the equation above is not about conservation of energy but about the conservation of energy per unit weight. However, the formulation above is the most common one in hydraulics, because the two are effectively the same for water. 
+
+
+---
+# 3.3 Energy lines
+The total energy per unit weight in Bernoulli's Law (Eq. 3.6) is split as:
+
+$$
+E_{\text{tot}} = z + \frac{v^2}{2g} + \frac{P}{\rho \, g} \tag{3.7}
+$$
+
+All terms in this equation have the dimension of length (not of energy) and the names of the terms reflect this: $E_{\text{tot}}$ is the total energy height, $z$ is the position or potential height, $\frac{P}{\rho \, g}$ is the pressure height (so the height of the water column in a piezometer) and $\frac{v^2}{2g}$ is the velocity height.
+
+When for all points on a streamline, the pressure heights are added to the vertical position of the points, one obtains the **hydraulic gradient line**. Connecting total energy heights gives a horizontal line, called the **total energy line**. 
+
+>[!Missing]
+>Insert Figure 3.3
+
+
+The total energy line is horizontal (since energy is conserved), but the hydraulic gradient line and the streamline itself are in general not horizontal. The changes in these lines give insight in how to contributions of the three forms of energy change when moving over the streamline (while their sum remains constant). These changes in contribution are caused by energy conversions. 
+
