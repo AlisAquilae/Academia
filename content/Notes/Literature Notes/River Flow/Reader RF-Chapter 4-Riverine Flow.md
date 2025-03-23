@@ -21,4 +21,38 @@ This chapter will introduce friction as an energy loss mechanism and explore how
 # 4.2 Friction and energy losses
 ## 4.2.1 The Reynolds number: Laminar vs. Turbulent flow
 One way in which friction shows itself in a measurable way is in the velocity profile. It is important to distinguish two flow regimes: laminar and turbulent. Reynolds demonstrated this in his famous ink-experiment. He introduced a thin line of ink in a tube containing a flowing fluid. He observed that two situations can occur:
-- The ink remained concentrated in 
+- The ink remained concentrated in a thin line. This situation is called [[Laminar Flow]].
+- The ink spread all over the tube. This is called [[Turbulent Flow]]. One can see that this spreading is due to whirls in the flow. These whirls have all sizes and shaped, are dynamic and characteristic for turbulence.
+
+Moreover, Reynolds found that for low velocities, flow was always laminar, and that for high velocities, flow was always turbulent, and that the transition between these two occurred at about the same velocity. This transition depends on the kind of fluid. By introducing a dimensionless number named after him, Reynolds created on equation for all fluids:
+
+$$
+\text{Re} = \frac{\rho}{\mu} \, \overline{v} \, D
+$$
+
+where
+- $\rho$ stands for the density of the fluid
+- $\mu$ stands for its [[Fluid Viscosity|Viscosity]]
+- $D$ stands for the diameter of the tube
+- $\overline{v}$ stands for the average flow velocity of the fluid
+
+>[!Important]
+>In general,
+>- $\text{Re} \lt 2000 = \text{Laminar}$
+>- $\text{Re} \gt 4000 = \text{Turbulent}$
+
+Friction in laminar situations is different from friction in turbulent situations. The difference between laminar and turbulent flow can be made visible by following floaters (left panels of Figure 4.4). The positions of the floaters at regular time intervals are marked by dots. The positions of each floater are connected by smooth lines. The (average) streamlines are plotted in gray. In both cases, the velocities decrease near the wall (bottom in the illustration). In the turbulent case the floaters are mixing in the vertical due to the whirls in the flow. In the laminar case floaters tend stay at the same vertical distance to the wall
+
+>[!Missing]
+>Insert Figure 4.4
+
+
+In many practical situations, the velocity profile is a combination of the profiles in Figure 4.4:
+- A (usually small) laminar layer near the wall (the so-called [[Boundary Layer]])
+- A logarithmic turbulent velocity profile beyond the boundary layer
+
+The following equation is widely used to describe this velocity profile:
+
+$$
+\frac{v(y)}{v_{\tau}} = \left\{ \begin{array}{ll} \frac{1}{x} \ln \left(\frac{y \, v_{\tau} \, \rho}{\mu} \right) + C \end{array} \right.
+$$
