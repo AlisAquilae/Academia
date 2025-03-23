@@ -169,4 +169,28 @@ In practice, we approximate real flow by using stream-averaged velocities, which
 >Every location in the flow domain has a unique streamline. Two streamlines cannot intersect, as this would imply that a floater at the intersection would have no clear direction to follow. Thus, the entire flow domain can be conceptualised as being filled with non-intersecting streamlines. This will come in handy in the following chapters when we try to understand the interplay of flow velocities and pressure, and what that means for the energy in the system.
 
 
-We can also define **stream tubes**. To construct a stream tube, choose a central streamline and take a small starting area around the beginning of that streamline. The streamlines originating from this area form a tube around the central streamline. A floater startin on this cen
+We can also define **stream tubes**. To construct a stream tube, choose a central streamline and take a small starting area around the beginning of that streamline. The streamlines originating from this area form a tube around the central streamline. A floater starting on this centerline will remain within this tube. 
+
+>[!Info]
+>A complete description of a stationary flow requires both velocities and pressures. Flow velocities form a vector field, meaning that at each point in the domain, a velocity vector is defined. Pressure forms a scalar field. At each point in the domain, a scalar value representing the pressure is defined. 
+
+
+## 2.3.3 Long waves
+Long waves in river flow, also known as shallow-water waves or flood waves, are disturbances in the water surface where the wavelength is much longer than the depth of the water. These waves propagate over significant distances in rivers and can result from various events, such as
+1. Tidal influences (tidal bores or tides moving upstream in estuaries)
+2. Flood events (from sudden or gradual increases in river discharge due to rainfall or snowmelt)
+3. Dam breaks or rapid releases of water
+
+The dynamics of long waves in open channel flow are fully described by
+1. The velocity: $\overrightarrow{u}(t,x,y,x)$
+2. The pressure: $p(t,x,y,z)$
+3. The depth: $a(t,x,y)$
+
+As discussed above, simplifications are needed to allow for calculations of open channel flow in practice. For waves, this is also true and a summary of these assumptions is that they describe the waves of interest as one-dimensional in space and time. 
+
+One important property of waves is the "wave length" $\overline{L}$: a characteristic length of the variation of the water level and other flow properties in space. By comparing the wave length with a characteristic water depth, denoted here by $\overline{a}$, one can distinguish two types of flows and waves:
+- **Rapidly varied flow**: flows where changes in depth and velocity occur over short lengths: $\overline{L} \ll 10 \times \overline{a}$. Flows beneath sluice gates, over weirs, etc. fall in this category. Waves of this type are called **short waves**.
+- **Gradually varied flow**: Changes in depth and velocity occur over long distances compared tot he water depth: $\overline{L} \gg 10 \times \overline{a}$. Waves of this type are called **long waves**. Another name commonly used for this type of flow is **shallow water flow**. 
+
+>[!Warning]
+>Skipped the rest of this chapter, since it is simply copied from [[River Flow and Morphology]]
