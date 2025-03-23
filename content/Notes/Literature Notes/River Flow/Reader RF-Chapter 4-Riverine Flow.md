@@ -156,5 +156,59 @@ $$
 
 The sigh is positive, which means energy loss in the downstream direction. This friction slope can vary in space.
 
-The calculation of energy losses for open water is more complicated than for the pipes in previous sections. Although the flow in open water is (almost) always turbulent, an exact calculation is complicated by the geometrical complexity of the cross-section, irregular roughness of the bottom and velocity distribution. Therefore, every equa
+The calculation of energy losses for open water is more complicated than for the pipes in previous sections. Although the flow in open water is (almost) always turbulent, an exact calculation is complicated by the geometrical complexity of the cross-section, irregular roughness of the bottom and velocity distribution. Therefore, every equation to calculate this energy loss is necessarily empirical. One often used equation that will also be used in these notes is the [[Manning's Law|Manning Equation]].
+
+$$
+\begin{aligned}
+S_f &= \frac{n^2 \, v^2}{d^{4/3}} \\
+&= \frac{n^2 \, Q^2}{B^2 \, d^{10/3}}
+\end{aligned} \tag{4.12}
+$$
+
+>[!Note]
+>Remember, $Q = B \, d \, v$ (Eq. 2.10) for a broad rectangular cross-section
+
+
+Note that the velocity appears squared in the equation, just as in the Darcy-Weisbach (Eq. 4.4) for turbulent flow. The strange powers $4/3$ and $10/3$ in the denominator are purely empirical: they yield good results in many practical situations. The factor $n$ is called the [[Manning Coefficient]] and represents the roughness of the river bed. 
+
+The flow velocity according to Manning's equation is in general:
+
+$$
+v = \frac{R_h^{2/3} S_f^{1/2}}{n} \tag{4.13}
+$$
+
+with $R_h$ (or $R$) being the hydraulic radius as mentioned in Chapter 2. And for a broad-rectangular cross-section:
+
+$$
+v = \frac{d^{2/3} S_f^{1/2}}{n} \tag{4.14}
+$$
+
+with $d$ being the [[Hydraulic Depth]] as mentioned in Equation 2.3 of Chapter 2.
+
+Sometimes the [[Chézy Equation]] is used instead of Manning's. The Chézy relation is also empirical and uses a constant $C$ representing smoothness rather than roughness:
+
+$$
+\begin{aligned}
+S_f &= \frac{v^2}{C^2 \, d} \\
+&= \frac{Q^2}{C \, B^2 \, d^3}
+\end{aligned} \tag{4.15}
+$$
+
+The Manning and Chézy coefficients can be converted to each other using:
+
+$$
+C = \frac{1}{n} d^{1/6} \tag{4.16}
+$$
+
+The flow velocity according to Chézy's equation is in general
+
+$$
+v= C \sqrt{R_h S_f} \tag{4.17}
+$$
+
+and for a broad rectangular cross-section:
+
+$$
+v = C \sqrt{d \, S_f} \tag{4.18}
+$$
 
