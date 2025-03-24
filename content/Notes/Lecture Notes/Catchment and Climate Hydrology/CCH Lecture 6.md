@@ -57,4 +57,28 @@ Propagation of drought through different parts of the terrestrial hydrological c
 
 Both time lag and attenuation change drought characteristics, and their 
 
-There are different ways to measure drought through different indices. There are hundreds of different ways to quantify these, and no one agrees. And nobody can agree, because it really depends on the context. In NL we have the KNMI drought index. Potential precipitation deficit: measurement of dryness based on recent precipitation and PET (Makkink). Does not account ofr 
+## Indices
+There are different ways to measure drought through different indices. There are hundreds of different ways to quantify these, and no one agrees. And nobody can agree, because it really depends on the context. 
+
+In NL we have the KNMI drought index. Potential precipitation deficit: measurement of dryness based on recent precipitation and PET (Makkink). Couple problems:
+- Does not account for soil moisture
+- Assumed field capacity at the start, which is often not true
+- PET does not hold if it's really dry
+
+If we look at European websites, Percent of Normal (pN). Easy to interpret, but does not really show impacts. 
+
+Many other indices in combination with remote sensing and soil moisture.
+
+Standardised indices (SPI, SGI, SPEI, SRI). Expressing drought standardised is sort of the main way of doing things now.
+- Dimensionless index basedc on probability distribution of (monthly) precipitation, groundwater levels, etc.
+- Distribution is derived by fitting a Gamma (in case of precipitation) or normal cumulative distribution function
+- However, rainfall is rarely 0 and cannot be negative, making a probability distribution difficult. SPI is therefore difficult to use, because you need to transform the data to a more normal distribution.
+- SPI is often accounted, but is not perfect
+- Anything below -1.5 is severely to extreme drought
+
+Threshold approach and deficit volume
+- For water reservoir management the deficit $D$ velow the threshold is relevant. Integrating the deficit over the duration of a drought gives the deficit volume, i.e. the total "missing"  flow
+- Impact is often related to these thresholds. Water level is either high enough or not, somewhere in between does not exist
+- Thus again really depends on the threshold taken, and therefore the impact you are looking at.
+- Used a lot in hydrological drought
+
