@@ -110,8 +110,16 @@ Droughts are not equal everywhere. Different regions are correlated quite highly
 
 Zooming in on the summer season. In spite of global precipitation increase, they also simulate drier soils. This has everything to do with the role of ET
 
+Challenge in drought research: 
+
 ---
 # Social POV
 Drought is not just a physical phenomenon, but also a natural distaster. It is the hazard (phsyical aspect of the drought) but also the vulnerability of a system and the exposure to the hazard.
 
 For drought to have an impact, these three need to overlap. If there are no people living at a point of drought, these are not affected, and there is no disaster. 
+
+---
+# Climate
+More drought, more energy excess, higher sensible heat flux, higher temperature.
+
+ET decreases (i.e. latent heat flux)
