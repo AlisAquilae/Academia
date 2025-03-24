@@ -102,3 +102,16 @@ This means that we have a continuous mention of drought, even though when lookin
 
 ## Human-induced drought
 Drought created by human use of water. Usually combination of climate-induced and human-induced drought, which we call human-modified drought
+
+---
+# Paper for today: Ault
+
+Droughts are not equal everywhere. Different regions are correlated quite highly with El Nino and El Nina, making them predictable (to a certain extent). Climate models might not do a good job of simulating this: long term variability between models is often high. 
+
+Zooming in on the summer season. In spite of global precipitation increase, they also simulate drier soils. This has everything to do with the role of ET
+
+---
+# Social POV
+Drought is not just a physical phenomenon, but also a natural distaster. It is the hazard (phsyical aspect of the drought) but also the vulnerability of a system and the exposure to the hazard.
+
+For drought to have an impact, these three need to overlap. If there are no people living at a point of drought, these are not affected, and there is no disaster. 
