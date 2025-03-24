@@ -99,3 +99,6 @@ This means that agricultural drought becomes somewhat ambiguous. You might have 
 Thinking of drought at the landscape scale, lot of things of influence: soil moisture, ground water, surface water, etc. These do not overlap, meaning we have almost always drought looking from a distance.
 
 This means that we have a continuous mention of drought, even though when looking at something individually, drought might be a once every decade event. This is called the drought frequency paradox. 
+
+## Human-induced drought
+Drought created by human use of water. Usually combination of climate-induced and human-induced drought, which we call human-modified drought
