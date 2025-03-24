@@ -94,3 +94,8 @@ Typically in wet areas, drought means higher productivity rather than less, beca
 Of course you cannot sustain this for the whole summer. 
 
 This means that agricultural drought becomes somewhat ambiguous. You might have lower soil moisture, expecting problems. But if you are above the CSM, plants might be doing better. 
+
+## Drought frequency paradox and propagation
+Thinking of drought at the landscape scale, lot of things of influence: soil moisture, ground water, surface water, etc. These do not overlap, meaning we have almost always drought looking from a distance.
+
+This means that we have a continuous mention of drought, even though when looking at something individually, drought might be a once every decade event. This is called the drought frequency paradox. 
