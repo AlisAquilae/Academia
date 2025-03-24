@@ -43,6 +43,18 @@ The earth has a certain capacity to deal with drought, but if drought lasts too 
 
 ## Types of drought
 Drought can be seen as a below-average availability of water over periods varying from 15 days (flash-drought) to decades (referred to as mega-drought)
-- Meteorological drought is induced by a prolonged period of below-average orecuoutation (precedes other droughts)
+- Meteorological drought is induced by a prolonged period of below-average precipitation (precedes other droughts)
 - Agricultural droughts affect crop production or ecology through below-average water in the unsaturated zone
-- Hydrological drought
+- Hydrological drought expresses the below-average availability of water in aquifers, lakes and rivers
+- Socioeconomic drought occurs when the demand for an economic good exceeds supply as a result of a weather-related deficit in water supply. 
+
+These are connected, where one can lead to the other (but not necessarily). This is called propagation of drought.
+
+Propagation of drought through different parts of the terrestrial hydrological cycle leads to 
+- (time)lag: signal takes time to propagate.
+- attenuation: Signal changes itself, for example due to interaction with other parts of the system. 
+- lengthening and pooling of meteorological drought: Individual droughts are longer outstretched and might overlap into a single drought
+
+Both time lag and attenuation change drought characteristics, and their 
+
+There are different ways to measure drought through different indices. There are hundreds of different ways to quantify these, and no one agrees. And nobody can agree, because it really depends on the context. In NL we have the KNMI drought index. Potential precipitation deficit: measurement of dryness based on recent precipitation and PET (Makkink). Does not account ofr 
