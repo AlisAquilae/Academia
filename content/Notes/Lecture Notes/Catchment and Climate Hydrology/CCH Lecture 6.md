@@ -82,3 +82,15 @@ Threshold approach and deficit volume
 - Thus again really depends on the threshold taken, and therefore the impact you are looking at.
 - Used a lot in hydrological drought
 
+US Drought monitor also captures how drought is experienced, talking to people locally, newspapers, industry, etc. Drought is only a drought if there is an impact. 
+
+## Evaporation and soil moisture regimes
+Combining evaporation and soil moisture makes predicting agricultural drought difficult. This is because there is a soil-moisture limited region and an energy-limited region when it comes to evaporation. 
+
+Critical soil moisture reflect threshold value.
+
+Typically in wet areas, drought means higher productivity rather than less, because higher temperature and less clouds, meaning more evaporation, meaning more productivity (because energy-limited).
+
+Of course you cannot sustain this for the whole summer. 
+
+This means that agricultural drought becomes somewhat ambiguous. You might have lower soil moisture, expecting problems. But if you are above the CSM, plants might be doing better. 
