@@ -34,3 +34,9 @@ Free river behaviour is subject to human control measures, this day mostly groyn
 
 # Dunes
 Dunes are not ripples. Ripples are related to wave behaviour. 
+
+There is a feedback circle
+1. Water motion sets into motion sediment transport
+2. Changes in sediment transport create morphological change
+3. Morphological change influences water motion
+
