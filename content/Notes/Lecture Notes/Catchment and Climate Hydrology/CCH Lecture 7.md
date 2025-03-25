@@ -154,3 +154,29 @@ Rain-on-snow floods
 - Snow cover in the catchment
 - Rising temperatures lead to melting snow
 - Saturation of the soil and infiltration capacity exceedance
+
+
+
+---
+# Generation of floods
+Flood generation depends on atmospheric and catchment conditions. However, there exist a variety of conditions that can cause floods
+
+Different atmospheric and catchment condition combinations can lead to the same flood peak. Looking at the peaks only clouds the differences these combinations can cause.
+
+In addition, different combinations can lead to the same flood peak. E.g. low moisture high precipitation and low precipitation high soil moisture. 
+
+---
+# Flood types (paper for today)
+How can we classify floods according to our generating processes?
+- Hydroclimatic perspective (sea level pressure, i.e. atmosphere)
+- Hydrological perspective (hydrometeorology or catchment state)
+- ???
+
+A very simple classification: Season
+- Assumption: flood processes differ in winter and summer (heavy rainfall in summer, snowmelt in winter)
+- Advantage: does not require additional data
+- Disadvantage: mixture processes are not considered
+
+Hydroclimatic classification
+- Classify flood event according to what is going in the atmosphere. E.g. monsoon, snowmelt, cyclone, etc.
+- Disadvantage: the catchment i
