@@ -19,3 +19,9 @@ Structure of the boundary layer
 Total drag is a combined component of form drag and friction drag.
 
 Opposite of drag is lift
+
+# Today
+Morphology and morphodynamics, and sediments in general. 
+
+# Meandering
+Water moves from high to low and take steepest decent, but we show meanders. Why could this be? We still do not know. 
