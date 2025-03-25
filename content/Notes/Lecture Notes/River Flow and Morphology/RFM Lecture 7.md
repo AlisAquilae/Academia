@@ -40,3 +40,11 @@ There is a feedback circle
 2. Changes in sediment transport create morphological change
 3. Morphological change influences water motion
 
+# Sediment size
+- Sieve diameter: diameter of the smallest circle that encompasses one dimension of the grain
+- Sedimentation or standard fall diameter: diameter of the quartz sphere that would settle at the same speed as the sediment grain in still, distilled water at 24 degree C
+- Nominal diameter: represents the diameter of the sphere that would make up the same volume as the sediment grain
+
+Units are milimeters, microns or phi units. 
+
+Cohesiveness refers to the 'stickiness' of the soil, i
