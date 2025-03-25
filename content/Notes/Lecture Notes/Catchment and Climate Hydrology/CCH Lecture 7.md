@@ -38,3 +38,27 @@ There are also different components: direct flow (runoff) and baseflow
 Thus, for floods, direct runoff most important.
 
 Floods are a global phenomenon, but there are similarities between what happens where and when.
+
+---
+# Climate change
+More floods, and more severe foods, expected in the future. Globally, not just regionally. 
+
+---
+# Flood probabilities
+FFlood probabilities form the basis for estimating design floods. Design floods are used for dimensioning dams, retention basins, infrastructure, etc.
+
+Return period: 
+
+$$
+T = 1 / (1-p)
+$$
+
+where $p$ is a non-exceedance probability. E.g. spillway must be able to deal with a return period of once every 1000 years. 
+
+Stochastic risk: risk of exceedance with one year: $1 - p$. Risk of exceedance within two years: $1 - p^2$.
+
+Basic assumption: flood events are independent and homogeneous: plotting positions $pp$. Empirical probability of event $i$. However, limited to years of observation for max return period
+
+Distribution function: tries to mimic behaviour of plotting positions by fitting a line through the observations. 
+
+There are a lot of functions to do this: Normal, LogNormal, Gumble, Gamma, Exponential, GEV, GPD
