@@ -23,5 +23,14 @@ Opposite of drag is lift
 # Today
 Morphology and morphodynamics, and sediments in general. 
 
-# Meandering
-Water moves from high to low and take steepest decent, but we show meanders. Why could this be? We still do not know. 
+# Flow types
+Water moves from high to low and take steepest decent, but we show meanders. Why could this be? We still do not know. Typical for lowlands and gentle slopes
+
+We find braided rivers with high discharges and steep slopes. 
+
+Anastomosis typical for delta and plain areas. 
+
+Free river behaviour is subject to human control measures, this day mostly groynes. Mostly for raising the water level for ships.
+
+# Dunes
+Dunes are not ripples. Ripples are related to wave behaviour. 
