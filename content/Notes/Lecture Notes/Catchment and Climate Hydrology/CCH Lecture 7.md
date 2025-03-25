@@ -61,4 +61,46 @@ Basic assumption: flood events are independent and homogeneous: plotting positio
 
 Distribution function: tries to mimic behaviour of plotting positions by fitting a line through the observations. 
 
-There are a lot of functions to do this: Normal, LogNormal, Gumble, Gamma, Exponential, GEV, GPD
+There are a lot of functions to do this: Normal, LogNormal, Gumble, Gamma, Exponential, GEV, GPD.
+- Main difference: number of parameters, i.e. flexibility in the shape. More parameters means more flexibility but also more uncertainty. 
+
+Most frequently used for AMS (annual maximum series): Generalized Extreme Value distribution (GEV) 
+
+But how to esetimate parameters? Fitting distribution to your data. Three main approaches for this parameters estimation
+1. Method of moments (simple but not robust)
+2. L-Moment estimators
+3. Maximum likelihood estimation
+
+Useful also to compare different catchments
+
+Disadvantage of AMS: only one event per year
+
+Instead, use all flood peaks above a given threshold (= Peaks over threshold (POT))
+- Statistics are similar, but some peculiarities
+
+---
+# Origin of floods
+Division in three types of conditions
+
+Atmospheric conditions
+- Rainfall
+- Snow
+- Ice
+
+Catchment conditions
+- Soil moisture
+- Debris flow
+- Geology
+- Steepness
+- Topography
+
+
+Anthropogenic conditions
+- Levee failure
+
+## Atmospheric conditions
+Factors influencing floods:
+- Spatial extension of rainfall events (local or widespread)
+- Intensity
+- Duration
+- Spatial extension of snowmelt
