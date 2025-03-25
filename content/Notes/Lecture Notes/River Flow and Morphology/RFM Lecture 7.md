@@ -47,4 +47,8 @@ There is a feedback circle
 
 Units are milimeters, microns or phi units. 
 
-Cohesiveness refers to the 'stickiness' of the soil, i
+Cohesiveness refers to the 'stickiness' of the soil, i.e. whether the Vanderwaals bindings have a strong influence. 
+
+Grain size distribution describes the population of sediment sizes found at a particular time and place. Median grain size d50 is defined as the size for which 50% by weight of the material is finer.
+
+Geometric mean is the weighted average of phi size. Arithmetic mean is the weighted mean of the grain size. 
