@@ -104,3 +104,30 @@ Factors influencing floods:
 - Intensity
 - Duration
 - Spatial extension of snowmelt
+
+Heavy rainfall event have a larger impact on small catchments. Snowmelt events have a larger impact on large catchments. 
+
+Atmospheric conditions are therefore very important for floods
+
+The Vb weather pattern is responsible for most of the major floods in Europe in the last decades. It takes up moisture from the Mediterranean and transports this in a country-clockwise movement north around the Alps. 
+
+But there are about 100 days with Vb weather patterns in a year. Why not 100 floods per year?
+
+## Catchment conditions
+The severity of the flood events is controlled by the catchment caharceteristics
+- Catchment area
+- Topograhy (steepness)
+- Drainage density
+- Vegetation
+- Geology
+- Soil type and sickness
+- Land use
+
+Most important: antecedent soil moisture. How wet is the soil when it starts to rain? Influences how much water can be stored. 
+
+Can differentiate between Hortonian overland flow (infiltration excess) and Dunne overland flow (saturation excess)
+
+Runoff generating processes lead to either direct runoff or baseflow
+
+Special case: flash floods:
+- 
