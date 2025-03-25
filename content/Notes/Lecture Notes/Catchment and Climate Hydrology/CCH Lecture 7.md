@@ -179,4 +179,12 @@ A very simple classification: Season
 
 Hydroclimatic classification
 - Classify flood event according to what is going in the atmosphere. E.g. monsoon, snowmelt, cyclone, etc.
-- Disadvantage: the catchment i
+- Disadvantage: the catchment itself is not considered
+
+Process-based classification
+- Combine atmosphere with catchment. Look at the type of rainfall event as well as catchment characteristics
+
+Hydrograph
+- Flood hydrograph fully describes the event. Different flood generating processes have different hydrograph shapes
+
+Flood types give us useful information for what kinds of floods are common in certain regions. 
