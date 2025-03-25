@@ -129,5 +129,28 @@ Can differentiate between Hortonian overland flow (infiltration excess) and Dunn
 
 Runoff generating processes lead to either direct runoff or baseflow
 
+## Anthropogenic
+
+# Different kinds of floods
 Special case: flash floods:
-- 
+- High intensity rainfall
+- Steep terrain
+- Exposed bedrock or very thin rainfall
+
+Long-lasting rainfall floods
+- Spatially extensive rainfall events
+- Medium uniform intensity over a long period of time
+- Soil moisture increase. Saturation of the soil, more rain than soil can absorb
+
+Snowmelt floods
+- Rising temperatures
+- Snow cover in the catchment
+- Saturation of the soil
+- Slowly rising flood hydrographs. 
+
+Rain-on-snow floods
+- High intensity rainfall
+- Similar to heavy rainfall events
+- Snow cover in the catchment
+- Rising temperatures lead to melting snow
+- Saturation of the soil and infiltration capacity exceedance
