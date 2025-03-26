@@ -296,3 +296,26 @@ Figure 4.13 illustrates the energy analysis for a decreasing sequence of water d
 This analysis shows that one can distinguish two situations:
 1. The situation in the left panels of Figure 4.13, where increasing water depth results in increasing total energy. This flow is called [[Subcritical Flow]].
 2. The situation in the right panels of Figure 4.13, where increasing water depths result in decreasing total energy. This flow situation is called [[Supercritical Flow]]
+
+The calculation aspect of this classification of the flow regime in subcritical and supercritical is simplified by two variables:
+
+$$
+\begin{aligned}
+d_c &= \left(\frac{Q^2}{B^2 \, g} \right)^{1/3} \\
+\text{Fr}(d) &= \frac{Q}{B \sqrt{g \, d^3}}
+\end{aligned} \tag{4.25}
+$$
+
+Both quantities can be used to distinguish the type of flow situation:
+- $d \gt d_c \iff \text{Fr} \lt 1 \; \text{: Subcritical flow}$  
+- $d \lt d_c \iff \text{Fr} \gt 1 \; \text{: Supercritical flow}$
+
+Subcritical flow has a large water depth and low velocity. The total energy is made up by a high static energy and a low kinetic energy. Meanwhile, supercritical flow has a low water depth and a high velocity. The total energy is the sum of a low static energy and a high kinetic energy.
+
+A simple test to decide whether flow is subcritical or supercritical is to throw a (small) stone in the water. When one throws a small stone in standing water, the resulting waves move in all directions with equal speed. When one throws a stone in subcritical water, a similar wave is generated. However, the part that moves upstream moves more slowly because the water velocity works against it. The faster the flow velocity, the more pronounced this effect will be. For supercritical flow the flow velocity is so large that the part of the wave that tends to move upstream does not overcome the water's flow velocity and is dragged downstream. 
+
+>[!Important]
+>The property that no disturbance can move upstream is characteristic for supercritical flow
+
+
+An important implication of the direction in which the distubance moves through the water is that for subcritical flow the water level in a river is controlled
