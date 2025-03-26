@@ -31,7 +31,7 @@ This is not an exhaustive list of energies that can be considered. Electromagnet
 
 
 ## 3.1.1 Potential energy
-The fist form of energy is **potential energy**. Any mass of water at a certain height has the ability (if allowed to flow downward) to make a water wheel turn. Reservoirs for hydroelectric power generation are classical examples. Potential energy is given by the following eqiation:
+The fist form of energy is **potential energy**. Any mass of water at a certain height has the ability (if allowed to flow downward) to make a water wheel turn. Reservoirs for hydroelectric power generation are classical examples. Potential energy is given by the following equation:
 
 $$
 \text{potential energy} = m \, g \, z = W \, z \tag{3.1}

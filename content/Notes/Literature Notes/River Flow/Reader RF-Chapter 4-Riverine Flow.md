@@ -244,4 +244,19 @@ Both of these show that in equilibrium situations there is a unique non-linear r
 
 The relation between depth and velocity is important, but in practice the following questions are even more useful:
 - Given a water depth $d$, what is the (unique) discharge corresponding to this depth in equilibrium situations? This discharge is called the [[Normal Discharge]] or equilibrium discharge corresponding to the given depth and denoted by $Q_n$
-- Given a discharge $Q$, what is the (unique) water depth corresponding to this discharge in equilibrium situations? This water depth is called the [[Normal de]]
+- Given a discharge $Q$, what is the (unique) water depth corresponding to this discharge in equilibrium situations? This water depth is called the [[Normal Depth]] corresponding to the given discharge and denoted by $d_n$
+
+The answer to the questions above can be derived from the velocity (Eq. 4.20 or Eq. 4.21), combined with $Q = a \, v = B \, d \, v$, to yield:
+
+$$
+\begin{aligned}
+\text{Manning: } \; \; Q_n &= \frac{B \sqrt{S_o}}{n}d^{5/3} \\
+d_n &= \left( \frac{n \, Q}{B \sqrt{S_o}} \right)^{3/5} \\
+\text{Chézy: } \; \; Q_n &= C \, B \, S_o^{1/2} \, d_n^{2/3} \\
+d_n &= \left(\frac{Q^2}{C^2 B^2 S_o} \right)^{1/3}
+\end{aligned} \tag{4.22}
+$$
+
+
+## 4.3.2 Critical, subcritical and supercritical flow
+[[Bernoulli's Law]] also allows other analyses than the equilibrium case. The important example of distinguishing subcritical and supercritical flow will be presented in this section. Although not all the mathematics involved can be presented here (some of it will be discussed in the next section), most of the important conclusions can be understood intuitively.
