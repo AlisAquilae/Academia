@@ -493,7 +493,7 @@ In some - less common - situations however, with larger velocity $u$ and smaller
 
 
 ---
-# 4.5 Characteristic analysis of the St-Venant equations
+# 4.5 Characteristic analysis of the St-Venant equations (==Partially skipped==)
 To continue the analysis by the method of characteristics, we will investigate the following equations
 
 $$
@@ -521,6 +521,27 @@ $$
 \Lambda_+ &= \sqrt{\text{g}} \, a + \sqrt{\text{d}} \, u \\
 \Lambda_- &= -\sqrt{\text{g}} \, a + \sqrt{\text{d}} \, u \\
 & \, \, \Downarrow \\
-u &= \frac{1}{2 \sqrt{\text{d}}} \left( \Lambda_+ + \Lambda_- \right)
+u &= \frac{1}{2 \sqrt{\text{d}}} \left( \Lambda_+ + \Lambda_- \right) \\
+a &= \frac{1}{2 \sqrt{\text{g}}} \left( \Lambda_+ - \Lambda_- \right)
 \end{aligned}
 $$
+
+
+---
+# 4.6 Domains of dependency by characteristics (==Partially skipped==)
+The analysis of the previous section proves that the values of $a$ and $u$ at the point $P = (t,x)$ did depend on the values at the points $(t - \epsilon, x - c_+ \epsilon)$ and $(t - \epsilon, x - c_- \epsilon)$. The values of $a$ and $u$ in these points do depend - by the same reasoning - on the values in the points $(t - 2\epsilon, x - 2c_+ \epsilon)$, $(t-2\epsilon, x - (c_+ + c_-) \epsilon)$ and $(t-2\epsilon, x-2c_- \epsilon)$. Building in this way more and more past points on which the values of $a$ and $u$ in the top depend, generates a picture as in Figure 4.18. 
+
+![[Pasted image 20250326140228.png]]
+
+If we let $\epsilon \to 0$, we see that all these points converge to a **domain of dependency** determined by a cone with $P$ as top and characteristics as boundaries.
+
+This type of analysis can be useful in understanding the dependencies in the solutions of the St-Venant equations. 
+
+---
+# 4.7 Characteristics and the general St-Venant equations (==Skipped==)
+
+---
+# 4.8 Numerical solutions (==Partially skipped==)
+As analytical solutions tot he St-Venant equations can not be found, the best one can do is to use numerical schemes in order to obtain best approximations of the true solutions. 
+
+Many techniques can and have been used [[Finite Elements]], [[Finite Volumes]], and others. As the St-Venant equations are spatially one-dimensional, the most used type of numerical technique is [[Finite Difference]]. It is out of the scope of these lecture notes to give an overview of all possible choices of FD scheme
