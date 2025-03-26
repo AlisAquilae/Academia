@@ -260,3 +260,22 @@ $$
 
 ## 4.3.2 Critical, subcritical and supercritical flow
 [[Bernoulli's Law]] also allows other analyses than the equilibrium case. The important example of distinguishing subcritical and supercritical flow will be presented in this section. Although not all the mathematics involved can be presented here (some of it will be discussed in the next section), most of the important conclusions can be understood intuitively.
+
+The Bernoulli analysis in this case consists of the analysis of the energy as a function of water depth $d$ *for a constant discharge*. The analysis is done locally around a point A. By local we mean that the energy slope (and thus the friction slope and the Manning coefficient) is not considered, only the energy in the point itself. The water depths shown are also only locally valid and certainly not parallel to the bottom at a larger scale and thus not necessarily in equilibrium.
+
+To simplify the analysis, we choose the $z = 0$ level at the height of point A. The part of the energy height above this level (so the total energy above the bed) is called the **specific energy**. This specific energy can be written in two ways. The first is using Bernoulli's equation:
+
+$$
+\begin{aligned}
+E_{\text{spec}} &= \text{static energy} + \text{kinetic energy} \\
+&= d + \frac{v^2}{2g}
+\end{aligned} \tag{4.23}
+$$
+
+The second way uses the relation $v = Q / (B\,d)$
+
+$$
+E_{\text{spec}} = d + \frac{Q^2}{2g \, B^2 \, d^2} \tag{4.24}
+$$
+
+This second way is more suitable for open water because the analysis in this sectioon will be done for one fixe
