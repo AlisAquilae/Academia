@@ -578,4 +578,20 @@ In a so-called **staggered grid** (see Figure 4.21), this is done in a special w
 >The notation is weird here, which is why I did not finish this section completely
 
 
-- Spatial derivatives of level terms on flow nodes and spatial derivatives of flow terms on level nodes can easily be approximated by looking at neighbouring grid nodes, e.g
+- Spatial derivatives of level terms on flow nodes and spatial derivatives of flow terms on level nodes can easily be approximated by looking at neighbouring grid nodes, e.g.
+  
+  $$
+  \begin{aligned}
+  \frac{\widehat{\partial a}}{\partial x}[n, 15] &\approx \frac{\hat{a}[n, 16] - \hat{a}[n, 14]}{2\Delta x} \\
+  \frac{\widehat{\partial u}}{\partial x} [n, 14] &\approx \frac{\hat{u}[n, 13] - \hat{u}[n, 15]}{2\Delta x}
+  \end{aligned}
+  $$
+  
+- When needed, a term of one type can be approximated on a node of the other type by taking the average of the neighbouring nodes, e.g.:
+
+>[!Warning]
+>Skipped the rest
+
+
+---
+# 4.9 Computer models for complex water systems (==Skipped==)
