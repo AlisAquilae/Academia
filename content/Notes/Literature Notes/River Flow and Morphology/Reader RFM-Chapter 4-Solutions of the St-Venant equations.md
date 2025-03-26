@@ -485,9 +485,42 @@ The same figure can be used to illustrate another very common use of characteris
 
 In some - less common - situations however, with larger velocity $u$ and smaller water depths $d$, it may happen that $\text{Fr} \gt 1$. If this is the case, the flow is called **rapid**, **torrential** or [[Supercritical Flow]]. In that case, a similar analysis as the one above results in two disturbances both moving downstream, as illustrated by Figure 4.16
 
+![[Pasted image 20250326134815.png]]
 
 
 >[!Note]
 >In normal situations (at least in the Netherlands), shooting water occurs only very locally in the neighbourhood of control structures like weirs
 
 
+---
+# 4.5 Characteristic analysis of the St-Venant equations
+To continue the analysis by the method of characteristics, we will investigate the following equations
+
+$$
+\begin{aligned}
+\frac{\partial \Lambda_+}{\partial t} + c_+ \frac{\partial \Lambda_+}{\partial x} &= 0\\
+\frac{\partial \Lambda_-}{\partial t} + c_- \frac{\partial \Lambda_-}{\partial x} &= 0
+\end{aligned}
+$$
+
+the difference with the original ones being the zeros on the right hand sides.
+
+As was done in the section 4.3, we will analyse this semi-numerically, take a small $\epsilon$ derive from the equations above:
+
+$$
+\begin{aligned}
+\Lambda_+ (t,x) &\approx \Lambda_+ (t - \epsilon, x - c_+ \epsilon) \\
+\Lambda_- (t,x) &\approx \Lambda_- (t-\epsilon, x - c_- \epsilon)
+\end{aligned}
+$$
+
+The new variables $\Lambda_+$ and $\Lambda_-$ do not give much direct insight, but there is a one-to-one correspondence with the original variables $a$ and $u$:
+
+$$
+\begin{aligned}
+\Lambda_+ &= \sqrt{\text{g}} \, a + \sqrt{\text{d}} \, u \\
+\Lambda_- &= -\sqrt{\text{g}} \, a + \sqrt{\text{d}} \, u \\
+& \, \, \Downarrow \\
+u &= \frac{1}{2 \sqrt{\text{d}}} \left( \Lambda_+ + \Lambda_- \right)
+\end{aligned}
+$$
