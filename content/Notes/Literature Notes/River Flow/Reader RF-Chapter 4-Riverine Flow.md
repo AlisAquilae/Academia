@@ -278,4 +278,13 @@ $$
 E_{\text{spec}} = d + \frac{Q^2}{2g \, B^2 \, d^2} \tag{4.24}
 $$
 
-This second way is more suitable for open water because the analysis in this sectioon will be done for one fixe
+This second way is more suitable for open water because the analysis in this section will be done for one fixed discharge $Q$. 
+
+>[!Missing]
+>Insert Figure 4.13
+
+
+Figure 4.13 illustrates the energy analysis for a decreasing sequence of water depths $d_1 \gt d_2 \gt d_3 \gt d_4 \gt d_5 \gt d_6$ (and thus a sequence of decreasing static energies). As the discharge is kept constant, decreasing water depth also results in increasing velocities: $v_1 \lt v_2 \lt v_3 \lt v_4 \lt v_5 \lt v_6$. 
+- At first ($1 \to 2$) the decrease of the water depth $d$ causes a decrease in the total energy: the kinetic energy increases ($v_2 \gt v_1$), but the static energy decreases more. 
+- For ($2 \to 3$) the kinetic energy keeps increasing, but the decrease of static energy is still larger, so the total energy still decreases. 
+- Around the so-called critical situation (3, 4) the decrease of the total energy stops, and the increase of kinetic energy becomes equal to the loss in static energy
