@@ -544,4 +544,38 @@ This type of analysis can be useful in understanding the dependencies in the sol
 # 4.8 Numerical solutions (==Partially skipped==)
 As analytical solutions tot he St-Venant equations can not be found, the best one can do is to use numerical schemes in order to obtain best approximations of the true solutions. 
 
-Many techniques can and have been used [[Finite Elements]], [[Finite Volumes]], and others. As the St-Venant equations are spatially one-dimensional, the most used type of numerical technique is [[Finite Difference]]. It is out of the scope of these lecture notes to give an overview of all possible choices of FD scheme
+Many techniques can and have been used [[Finite Elements]], [[Finite Volumes]], and others. As the St-Venant equations are spatially one-dimensional, the most used type of numerical technique is [[Finite Difference]]. It is out of the scope of these lecture notes to give an overview of all possible choices of FD schemes. We present here only one example, a so-called [[Staggered Grid Finite Difference]].
+
+The first step in any FD approach is to construct a (regular)  grid in the $(x, t)$ domain. Only on the grid points approximations for $a$ and $u$ will be calculated, which makes the problem finite. Assuming the grid differences constant (as we will do in these notes) and denoted by $\Delta x$ and $\Delta t$ the difference between two neighbouring grid points in space and time respectively, a FD scheme will calculate approximations $\hat{a}[n, j] \, \hat{u}[n, h]$ for $n = 1, 2, \dots$ and $j = 1, 2, \dots$ such that
+
+$$
+\begin{aligned}
+a(n \Delta t, j \Delta x) &\approx \hat{a}[n, j] \\
+u(n \Delta t, j\Delta x) &\approx \hat{u}[n, j]
+\end{aligned}
+$$
+
+In a so-called **staggered grid** (see Figure 4.21), this is done in a special way:
+- On halve of the notes (the black marked nodes in Figure 4.21, or - in this example - the nodes with an odd $j$-index), only approximations to the flow terms will be calculated
+  
+  $$
+  \hat{u}[n, 13], \hat{u}[n, 15], \hat{u}[n, 17], \dots
+  $$
+  
+  
+- On the other halve of the nodes (the nodes marked with open squares in Figure 4.21, or - in this example - the nodes with an even $j$-index) level terms are calculated
+  
+  $$
+  \begin{aligned}
+  \hat{a}[n, 12], \hat{a}[n, 14], \hat{a}[n, 16], \dots \\
+  \hat{d}[n, 12] = \hat{d}(\hat{a}[n, 12], \hat{d}[n, 14])
+  \end{aligned}
+  $$
+  
+  
+
+>[!Warning]
+>The notation is weird here, which is why I did not finish this section completely
+
+
+- Spatial derivatives of level terms on flow nodes and spatial derivatives of flow terms on level nodes can easily be approximated by looking at neighbouring grid nodes, e.g
