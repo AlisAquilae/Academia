@@ -218,7 +218,7 @@ $$
 \begin{aligned}
 F_p &= -\rho g  \frac{\partial a(x)}{\partial x} \int \mathrm{d}y \, a(x,y) \\
 &= \rho \, g \frac{\partial a}{\partial x}A \\
-&= -rho \, g \, A \, S_p
+&= -\rho \, g \, A \, S_p
 \end{aligned}
 $$
 
