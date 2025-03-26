@@ -318,4 +318,10 @@ A simple test to decide whether flow is subcritical or supercritical is to throw
 >The property that no disturbance can move upstream is characteristic for supercritical flow
 
 
-An important implication of the direction in which the distubance moves through the water is that for subcritical flow the water level in a river is controlled
+An important implication of the direction in which the disturbance moves through the water is that for subcritical flow the water level in a river is controlled by downstream disturbance. For example, if we place a weir in a river and the flow is subcritical, the weir will affect the flow upstream of it. On the other hand, for supercritical flow a disturbance will be controlled upstream. An undershot gate creating supercritical flow will control the water levels downstream of the gate. 
+
+>[!Note]
+>Water flow tends to the normal depth. The transition from subcritical to supercritical is usually smooth, while the transition from supercritical to subcritical happens in a turbulent region called the [[Hydraulic Jump]]
+
+
+## 4.3.3 Analysis with specific energy (==Skipped==)
