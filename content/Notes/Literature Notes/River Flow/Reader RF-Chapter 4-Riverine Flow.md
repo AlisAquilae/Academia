@@ -67,7 +67,7 @@ where
 - $\delta$ is the thickness of the laminar layer
 - $C$ is a constant chosen such that both equations are equal for $y = \delta$
 
-## 4.1.2 Adjusting Bernoulli's Law for energy losses (in pipes)
+## 4.2.2 Adjusting Bernoulli's Law for energy losses (in pipes)
 The internal friction described above leads to energy losses. In our consideration so far, Bernoulli's law expresses conservation of energy for a streamline. As discussed in the previous sections, however, energy is not conserved, because a significant amount of energy gets lost. So the Bernoulli's equation has to be adjusted for these losses. 
 
 However, the previous sections showed that the energy losses can only be understood from the total flow domain and the complete velocity profile. Energy losses cannot be evaluated on an isolated streamline: friction shows itself in differences between velocities on neighbouring streamlines (see e.g. Fig. 4.4).
@@ -95,7 +95,7 @@ The $\Delta E_i$ stands for the sum of the different energy loss terms that occu
 
 In the following, different types of losses will be calculated. We differentiate between gradual losses (so due to the flow itself along the entire flow domain) and local losses (due to local causes, e.g. changes in cross-sections). Such equations cannot be derived from purely physical principles, as this would require solving the full turbulent flow. However, there are effective equations that solve this problem in a pragmatic sense.
 
-### 4.1.2.1 Gradual energy losses
+### 4.2.2.1 Gradual energy losses
 One of the oldest and most famous equations for energy losses (gradual losses in this case) is the [[Darcy-Weisbach Equation]] for the gradual loss in energy height
 
 $$
@@ -137,11 +137,11 @@ $$
 
 4. Several "transition"  regions, where the characteristics of the regions above mix
 
-### 4.1.2.2 Local energy losses
+### 4.2.2.2 Local energy losses
 Local energy losses have many causes: changes in cross-sections, bends in the tube, valves, etc. All these different cases have their own equations. 
 
 
-## 4.1.3 Friction in open water: Manning and Chézy
+## 4.2.3 Friction in open water: Manning and Chézy
 The Bernoulli analysis of open water starts by choosing a streamline. In these notes the line at the water surface is chosen, because the pressure there is atmospheric, and thus equal to zero. 
 
 A result of this approach is that there are only two energy components:
@@ -212,3 +212,36 @@ $$
 v = C \sqrt{d \, S_f} \tag{4.18}
 $$
 
+
+---
+# 4.3 Characteristic flow conditions
+## 4.3.1 Equilibrium flow: normal discharge and depth
+As already shortly discussed in chapter 2, an important special case of open water is that of [[Uniform Flow]] or equilibrium flow. Such an equilibrium situation is characterised by parallel channel bottom ($z_0$), streamlines (being the water surface) and total energy lines. This can also be expressed by the equality of slopes (bottom slope $S_o$ and friction slope $S_f$):
+
+$$
+S_o = S_f \tag{4.19}
+$$
+
+Using the Manning equation (Eq. 4.12) this can be rewritten into
+
+$$
+\begin{aligned}
+S_o = S_f &= \frac{n^2 v^2}{d^{4/3}} \\
+v &= \frac{\sqrt{S_o}}{n} d^{2/3}
+\end{aligned} \tag{4.20}
+$$
+
+Or using the Chézy equation (Eq. 4.15) we obtain:
+
+$$
+\begin{aligned}
+S_o = S_f &= \frac{v^2}{C^2 d} \\
+v &= C \sqrt{S_o d}
+\end{aligned} \tag{4.21}
+$$
+
+Both of these show that in equilibrium situations there is a unique non-linear relationship between water depth and velocity. 
+
+The relation between depth and velocity is important, but in practice the following questions are even more useful:
+- Given a water depth $d$, what is the (unique) discharge corresponding to this depth in equilibrium situations? This discharge is called the [[Normal Discharge]] or equilibrium discharge corresponding to the given depth and denoted by $Q_n$
+- Given a discharge $Q$, what is the (unique) water depth corresponding to this discharge in equilibrium situations? This water depth is called the [[Normal de]]
