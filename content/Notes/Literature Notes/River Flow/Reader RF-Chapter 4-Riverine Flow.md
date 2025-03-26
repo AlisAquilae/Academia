@@ -288,3 +288,11 @@ Figure 4.13 illustrates the energy analysis for a decreasing sequence of water d
 - At first ($1 \to 2$) the decrease of the water depth $d$ causes a decrease in the total energy: the kinetic energy increases ($v_2 \gt v_1$), but the static energy decreases more. 
 - For ($2 \to 3$) the kinetic energy keeps increasing, but the decrease of static energy is still larger, so the total energy still decreases. 
 - Around the so-called critical situation (3, 4) the decrease of the total energy stops, and the increase of kinetic energy becomes equal to the loss in static energy
+
+>[!Important]
+>The nonlinear trade-off between depth and velocity is caused by their interaction with the cross-sectional area $A$ of the river. At great depths, $A$ is large, meaning a slight decrease in depth will have a large relative influence on $A$, and therefore on the kinetic energy. Meanwhile, velocity $v$ does not increase as much yet, since the depth is still large. When depth decreases further, we reach a point where the area $A$ decrease becomes small enough where the decrease in static energy is smaller than the increase in kinetic energy $v$. 
+
+
+This analysis shows that one can distinguish two situations:
+1. The situation in the left panels of Figure 4.13, where increasing water depth results in increasing total energy. This flow is called [[Subcritical Flow]].
+2. The situation in the right panels of Figure 4.13, where increasing water depths result in decreasing total energy. This flow situation is called [[Supercritical Flow]]
