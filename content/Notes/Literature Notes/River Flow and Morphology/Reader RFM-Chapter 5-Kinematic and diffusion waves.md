@@ -125,6 +125,57 @@ Applying the chain rule gives
 $$
 \begin{aligned}
 \frac{\partial Q}{\partial x} &= \frac{\partial Q_{\text{kin}}}{\partial t} \, \frac{\partial a}{\partial x} \\
-\frac{\partial A}{\partial t} &= \frac{\partial A}{}
+\frac{\partial A}{\partial t} &= \frac{\partial A}{\partial a}\, \frac{\partial a}{\partial t} \\
+&= b \frac{\partial a}{\partial t}
 \end{aligned}
 $$
+
+Substituting this in the mass conservation equation:
+
+$$
+\begin{aligned}
+b \frac{\partial a}{\partial t} + \frac{\partial Q_{\text{kin}}}{\partial a} \, \frac{\partial a}{\partial x} &= 0 \\
+\frac{\partial a}{\partial t} + \frac{1}{b} \frac{\partial Q_{\text{kin}}}{\partial a} \, \frac{\partial a}{\partial x} &= 0
+\end{aligned}
+$$
+
+Which results finally in the **Kinematic wave equation**:
+
+>[!Important]
+>
+>$$
+>\frac{\partial a}{\partial t} + c \frac{\partial a}{\partial x} = 0
+>$$
+>
+>with
+>
+>$$
+>c = \frac{1}{b(a)} \frac{\partial Q_{\text{kin}}}{\partial a}
+>$$
+
+
+This quantity $c$, which has the dimension of velocity, is called the **Kinematic wave celerity** or the celerity for short.
+
+>[!Note]
+>Another well-known way of writing the celerity results in
+>
+>$$
+>\begin{aligned}
+>c &= \frac{1}{b(a)} \frac{\partial Q_{\text{kin}}}{\partial a} \\
+>&= \frac{1}{\frac{\partial A}{\partial a}} \frac{\partial Q_{\text{kin}}}{\partial a} \\
+>&= \frac{\partial Q_{\text{kin}}}{\partial A}
+>\end{aligned}
+>$$
+>
+>which is called in this form [[Seddon's Law]]
+
+
+## 5.2.3 Linearised kinematic equation
+The kinematic wave equation is a non-linear differential equation, as the celerity is in general a function of the depth:
+
+$$
+\frac{\partial a}{\partial t} + c(a) \frac{\partial a}{\partial x} = 0
+$$
+
+As linear differential equations are mathematically much easier to solve, one often linearises the constituent equations. For this purpose, one chooses a constant reference depth $a_0$ and writes:
+
