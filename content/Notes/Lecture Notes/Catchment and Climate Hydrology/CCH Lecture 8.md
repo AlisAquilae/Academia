@@ -82,8 +82,11 @@ Examples of parametric models
 These have in common that they have "reservoirs", and fluxes from one reservoir to the other
 
 Until 2013, complex, spatially distributed models for lowland catchments, or simple, parametric models for sloping catchments. To fill this gap: WALRUS Model
-# Groundwater-unsaturated zone coupling
 
+# Groundwater-unsaturated zone coupling
+When the groundwater is deeper, the storage deficit is higher.
+
+There is a relation between groundwater and the unsaturated zone: percolation and capillary rise. 
 
 
 
