@@ -94,3 +94,11 @@ There is a relation between groundwater and the unsaturated zone: percolation an
 2. Groundwater table rise
 3. Ponding and overland flow
 4. Backwater feedback
+
+We have wetness-denepdent flow routes
+- Deep groundwater: gradual flow to surface water
+- Higher groundwater: flow through macropores
+- Highest groundwater: ponding and overland flow
+
+# Groundwater-based water-feedback
+Surface-water level management. 
