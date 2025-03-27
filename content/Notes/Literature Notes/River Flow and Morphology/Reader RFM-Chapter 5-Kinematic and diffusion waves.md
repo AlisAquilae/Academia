@@ -260,7 +260,20 @@ Part of the formula is similar to the kinetic one. This can be used to write:
 $$
 \begin{aligned}
 Q_{\text{dif}}(a, S_p) &= Q_{\text{kin}}(a) \left( 1 - \frac{S_p}{S_o} \right)^{1/2} \\
-&= Q_{\text{kin}}(a) 
+&= Q_{\text{kin}}(a) \, \mathfrak{S}^{1/2}
 \end{aligned}
 $$
 
+The last factor $\mathfrak{S}^{1/2}$ is a pressure-correction to the kinematic discharge. As the depth is mostly in first order approximation parallel to the bottom, this correction term is usually approximately 1. 
+
+One can gain more insight into this correction as follows.
+
+>[!Warning]
+>Skipped the derivation
+
+
+$$
+\mathfrak{S} = \frac{1}{S_o} \left| \frac{\partial h}{\partial x} \right|
+$$
+
+where $h$ is the water height measured with respect to a reference horizontal (this in contrast to $a$ which is the water height measured with respect to the bottom of the river). These differen
