@@ -102,3 +102,5 @@ We have wetness-denepdent flow routes
 
 # Groundwater-based water-feedback
 Surface-water level management. 
+
+There is sometimes drainage, sometimes infiltration
