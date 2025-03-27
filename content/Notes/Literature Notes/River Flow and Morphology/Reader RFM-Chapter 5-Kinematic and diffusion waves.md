@@ -491,4 +491,43 @@ At time $t_4$:
   $$
   
   
-- 
+- The depths as measured at $L_o$ continue to decrease
+  
+  $$
+  \frac{\partial a}{\partial t} (t_4, L_o) \lt 0
+  $$
+
+
+The fact that the highest depth is measured at $t_2$ before the spatial wave top passes the point (at $t_3$) is due to diffusion: in the time between $t_2$ and $t_3$, while moving downstream to the measuring point, the spatial wave top is still getting lower and lower due to the diffusion. 
+
+The other conclusion one can draw from this analysis is that, although there is no longer a one-to-one relationship between discharge and depth, the "true" discharges move systematically counter clockwise around that one-to-one relationship of the kinematic case. This is called the **Q-a hysteresis**
+
+
+## 5.3.9 Jones' formula
+In practice one can easily measure depths. Measuring discharges is much more difficult, certainly in high flood situations. For this reason, one uses $Q-a$ relations to derive discharges from measured depths. While this may give good results in near equilibrium situations where $S_p = \frac{\partial a}{\partial t} \approx 0$, it produces systematic errors when a high flood passes the gauging station.
+
+The more sophisticated formula
+
+$$
+Q_{\text{dif}} \left(a, \frac{\partial a}{\partial x} \right) = Q_{\text{kin}} (a) \left(1 - \frac{1}{S_o} \frac{\partial a}{\partial x} \right)^{1/2}
+$$
+
+is however very difficult to apply in practical real time situations, as it is very difficult to measure the depth slope $\frac{\partial a}{\partial x}$. For that reason, Jones has proposed a more practical approximation. Starting point is the first order approximation of the kinematic wave. 
+
+$$
+\frac{\partial a}{\partial t} + c \frac{\partial a}{\partial x} \approx 0
+$$
+
+so that
+
+$$
+S_p = \frac{\partial a}{\partial x} \approx - \frac{1}{c} \frac{\partial a}{\partial t}
+$$
+
+which leads to Jones' formula
+
+$$
+Q_{\text{dif}} \left(a, \frac{\partial a}{\partial x} \right) \approx Q_{\text{kin}} (a) \left(1 = \frac{1}{c \, S_o} \frac{\partial a}{\partial t} \right)^{1/2}
+$$
+
+To apply this formula, one needs an estimation of the celerity $c$ and an estimation of $\partial a / \partial t$, which can in practical situations be readily derived from continuous depth measurements at the one gauging station $L_o$. 
