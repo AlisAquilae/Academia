@@ -409,5 +409,40 @@ In the same spirit, the linearised $cD$-equation also allows a direct answer to 
 The solution is in this case given by a space transfer function:
 
 $$
-a(t, x_d) = \int\limits_0^{\infty} \, \mathrm{d} \tau \, a(t - \tau, x_u) \, T (\tau)
+a(t, x_d) = \int\limits_0^{\infty} \, \mathrm{d} \tau \, a(t - \tau, x_u) \, T (\tau, x_u - x_d)
 $$
+
+where the transfer function is now given by
+
+$$
+T(\tau, \Delta x) = \frac{\Delta x}{2 \sqrt{\pi D \tau ^3}} \, e^{-\frac{(\Delta x - c \tau)^2}{4D\tau}}
+$$
+
+One may think of the space transfer function as the wave that would pass the measuring point $\Delta x$ if at time $0$ at place $0$ an "instantaneous unit wave" would be released. 
+
+
+The large advantage of this approach is that one does not need to calculate any intermediate values. Only values at the upstream point and a global assessment of the values $c$ and $D$ is needed to solve the problem. 
+
+
+## 5.3.8 The passage of a wave
+In this section, we will focus on the analysis of the passage of a $cD$-wave in one particular point "$x = L_o$" on the river (e.g. a gauging station). For this analysis, it is important to make a sharp distinction between temporal and spatial properties. The "wave top" e.g. can be interpreted in two ways:
+- The "spatial wave top" is for each time $t$ defined as that place in the whole trajectory where the highest depth (w.r.t. the bottom) is measured. The trajectory in space-time of the spatial wave top is indicated in Figure 5.12 by a dotted line. The statement "the wave top passed the gauging station $L$ at time $t$" means that at that time $t$ the spatial wave top happened to be just at $x = L_0$
+- The "temporal wave top" is for each $x$ along the river as that time when the highest depth was measured at that point. 
+
+![[Pasted image 20250327170659.png]]
+
+In this analysis we pay special attention to the formula
+
+$$
+\begin{aligned}
+Q_{\text{dif}} \left(a, \frac{\partial a}{\partial x} \right) &= Q_{\text{kin}} (a) \, \mathfrak{S}^{1/2} \\
+\mathfrak{S}^{1/2} &= \left(1 - \frac{S_p}{S_o} \right) = \left( 1 - \frac{1}{S_o} \frac{\partial a}{\partial x} \right)
+\end{aligned}
+$$
+
+At time $t_1$:
+- The spatial wave top is upstream of the point $L_o$. Therefore, at the point $L_o$ self
+  
+  $$
+  \frac{\partial a}{\partial x}(t_1, L_o)
+  $$
