@@ -440,9 +440,55 @@ Q_{\text{dif}} \left(a, \frac{\partial a}{\partial x} \right) &= Q_{\text{kin}} 
 \end{aligned}
 $$
 
+![[Pasted image 20250327171448.png]]
+
 At time $t_1$:
 - The spatial wave top is upstream of the point $L_o$. Therefore, at the point $L_o$ self
   
   $$
-  \frac{\partial a}{\partial x}(t_1, L_o)
+  \frac{\partial a}{\partial x}(t_1, L_o) \lt 0 \Rightarrow \mathfrak{S} \gt 1 \Rightarrow Q_{\text{dif}} \gt Q_{\text{kin}}
   $$
+
+- The depth measured in $L_o$ is still raising in time:
+  
+  $$
+  \frac{\partial a}{\partial t} (t_1, L_0) \gt 0
+  $$
+
+At time $t_2$:
+ - The spatial wave top is still upstream of the point $L_o$, so that at point $L_o$ we still have 
+   
+   $$
+   \frac{\partial a}{\partial x}(t_2, L_o) \lt 0 \Rightarrow \mathfrak{S} \gt 1 \Rightarrow Q_{\text{dif}} \gt Q_{\text{kin}}
+   $$
+   
+   
+ - However, at that time, the highest of all depths measures at $L_o$ is reached:
+   
+   $$
+   \frac{\partial a}{\partial t} (t_2, L_0) = 0
+   $$
+
+At time $t_3$:
+- The spatial wave top is just on top of the plane $L_o$. Therefore, at $L_o$:
+  
+  $$
+  \frac{\partial a}{\partial x}(t_3, L_o) = 0 \Rightarrow \mathfrak{S} = 1 \Rightarrow Q_{\text{dif}} = Q_{\text{kin}}
+  $$
+  
+  
+- In $L_o$, however, the measured depths are already decreasing:
+  
+  $$
+  \frac{\partial a}{\partial t}(t_3, L_0) \lt 0
+  $$
+
+At time $t_4$:
+- The spatial wave top is already downstream of $L_o$, so that
+  
+  $$
+  \frac{\partial a}{\partial x}(t_4, L_o) \gt 0 \Rightarrow \mathfrak{S} \lt 1 \Rightarrow Q_{\text{dif}} \lt Q_{\text{kin}}
+  $$
+  
+  
+- 
