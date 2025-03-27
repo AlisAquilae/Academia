@@ -179,3 +179,51 @@ $$
 
 As linear differential equations are mathematically much easier to solve, one often linearises the constituent equations. For this purpose, one chooses a constant reference depth $a_0$ and writes:
 
+$$
+\frac{\partial a}{\partial t} + c(a_0) \frac{\partial a}{\partial x} = 0
+$$
+
+where
+
+$$
+c(a_0) = \frac{1}{b(a_0)}\frac{\partial Q_{\text{kin}}}{\partial a} (a_0)
+$$
+
+is now a constant, only depending on the reference depth $a_0$. The kinematic wave equation in this form is known as the **Linear kinematic wave equation**.
+
+## 5.2.4 Kinematic characteristics
+The kinematic equations can be analysed by the technique of characteristics as given in Section 4.2
+
+For the linearised kinematic equation, one can state
+
+>[!Quote]
+>The water level travels with speed $c(a_0)$
+
+
+This is graphically illustrated by Figure 5.3. The paths that the depth follow are plotted in the $x-t$ plane. They are all parallel as they all have the same speed. From this follows that in a linear kinematic model, the form of the wave remains unchanged as it travels downstream. 
+
+![[Pasted image 20250327155354.png]]
+
+For the general non-linear kinematic equation, one can formulate the analysis by characteristics as
+
+>[!Quote]
+>the depth $a$ that exists at time $t$ at place $x$ can be found a time $\Delta t$ later at a place $x(a) \Delta t$ downstream
+
+or also
+
+>[!Quote]
+>every depth $a$ travels with its own speed $c(a)$ downstream
+
+
+This is illustrated in Figure 5.4. The non-constant speed results in non-parallel characteristics.
+
+![[Pasted image 20250327155647.png]]
+
+As $c(a)$ is in general an increasing function of $a$, higher water levels travel faster than lower ones.
+
+For the form of the wave, one can draw the following conclusions:
+- Each depth travels without attenuation: the highest water level will arrive downstream with the same height
+- The fact that higher depths travel faster make that the wave front gets steeper and the wave tail fatter. This would in the end also lead to the impossible situation that one fast water level passes a slower moving one, proving that the kinematic approach , although initially may be a good approximation, is ultimately physically unrealistic. What happens in reality is that when the water front gets very steep, the pressure slope or depth slope can no longer be neglected. This will be worked out in Section 5.3
+
+## 5.2.5 Celerity versus flow velocity
+The celerity $c$ can be interpreted as the (kinematic) speed of a wave. $c$ is the speed of the wave, i.e. a form, and not of the water itself as this has a flow velocity $u$. If we
