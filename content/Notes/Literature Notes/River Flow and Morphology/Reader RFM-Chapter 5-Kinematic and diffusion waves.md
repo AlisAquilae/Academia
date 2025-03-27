@@ -86,3 +86,45 @@ $$
 
 In this both $A$ and $R$ are functions of the depth $a$. It shows that this first approximation results in a one-to-one relationship between depth $a$ and discharge $Q$.
 
+The formula above was theoretically derived. In many cases, such a relationship is obtained from measurements. First, one measures in several situations (and thus for several depths $a$) the discharge (e.g. by measuring the flow velocity profile). The measurements are then connected by a smooth curve (often of the form $Q = \alpha \, a^{\beta}$).
+
+We will use any one-to-one $Q-a$ relationship as a replacement of the momentum equation, regardless of whether this was theoretically derived from equilibrium or obtained by fitting. So, formally, we start from
+
+$$
+Q= Q_{\text{kin}}(a)
+$$
+
+where $Q_{\text{kin}}$ can stand for any (increasing) function of $a$. We can think of this relation as a first order approximation in general situations, or as an exact relation in equilibrium cases. Note that the existence of one-to-one $Q-a$ relationship implies a similar relation between the flow velocity $u$ and the depth $a$, as from
+
+$$
+u = \frac{Q}{A} = \frac{Q_{\text{kin}}(a)}{A(a)}
+$$
+
+In the formalism of Chézy and Manning, respectively:
+
+$$
+\begin{aligned}
+u &= \sqrt{S_o} \, C \, R^{1/2} \\
+&= \frac{1}{n} \sqrt{S_o} \, R^{2/3}
+\end{aligned}
+$$
+
+
+## 5.2.2 The kinematic equation
+The start for the derivation of the kinematic equation are the following equations (which can be thought of as simplifications of the St-Venant equations):
+
+$$
+\begin{aligned}
+\frac{\partial A}{\partial t} + \frac{\partial Q}{\partial x} &= 0 \\
+Q &= Q_{\text{kin}}(a)
+\end{aligned}
+$$
+
+Applying the chain rule gives
+
+$$
+\begin{aligned}
+\frac{\partial Q}{\partial x} &= \frac{\partial Q_{\text{kin}}}{\partial t} \, \frac{\partial a}{\partial x} \\
+\frac{\partial A}{\partial t} &= \frac{\partial A}{}
+\end{aligned}
+$$
