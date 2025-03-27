@@ -89,3 +89,8 @@ When the groundwater is deeper, the storage deficit is higher.
 There is a relation between groundwater and the unsaturated zone: percolation and capillary rise. 
 
 # Wetness-dependent flowroutes
+4 phases:
+1. Soil moisture increase
+2. Groundwater table rise
+3. Ponding and overland flow
+4. Backwater feedback
