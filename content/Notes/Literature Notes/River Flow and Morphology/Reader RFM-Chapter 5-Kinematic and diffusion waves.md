@@ -276,4 +276,57 @@ $$
 \mathfrak{S} = \frac{1}{S_o} \left| \frac{\partial h}{\partial x} \right|
 $$
 
-where $h$ is the water height measured with respect to a reference horizontal (this in contrast to $a$ which is the water height measured with respect to the bottom of the river). These differen
+where $h$ is the water height measured with respect to a reference horizontal (this in contrast to $a$ which is the water height measured with respect to the bottom of the river). These different types of slopes are illustrated in Figure 5.6. In words:
+
+$$
+\mathfrak{S} = \frac{\text{water surface slope w.r.t. horizontal}}{\text{bottom slope w.r.t. horizontal}}
+$$
+
+
+![[Pasted image 20250327162117.png]]
+
+
+## 5.3.2 The $cD$-equation
+The start for the derivation of the $cD$-equation are the following equations:
+
+$$
+\begin{aligned}
+\frac{\partial A}{\partial t} + \frac{\partial Q}{\partial x} &= 0 \\
+Q &= Q_{\text{diff}} (a, S_p) = Q_{\text{kin}}(a) \, \mathfrak{S}^{1/2}
+\end{aligned}
+$$
+
+
+>[!Warning]
+>Skipped the derivation
+
+
+This results finally in the $cD$-wave equation:
+
+$$
+\begin{aligned}
+\frac{\partial a}{\partial t} + c \frac{\partial a}{\partial x} - D \frac{\partial^2 a}{\partial x^2} &= 0 \\
+c &= \frac{\mathfrak{S}^{1/2}}{b} \frac{\partial Q_{\text{kin}}}{\partial a} \\
+D &= \frac{Q_{\text{kin}}}{2 S_o \, b \, \mathfrak{S}^{1/2}}
+\end{aligned}
+$$
+
+
+In this $c$ is again the celerity as discussed in the kinematic section, although the formula is a bit different. 
+
+The new coefficient $D$ is called the **diffusion coefficient**. Its meaning will be investigated in the next sections. The minus sign in the right hand side of the definition of $D$ was introduced to make $D$ positive.
+
+## 5.3.3 General description of the $cD$-equation
+One way of getting insight in the workings of the $cD$-equation is by investigating how a general wave $a$ changes in small time interval $\Delta t$. One can show using a second order Taylor expansion that for $\Delta t \to 0$ the following expression converges to the solution of the linear $cD$-equation:
+
+$$
+a(t+\Delta t, x) \approx \frac{a(t, x-c(t, x)\Delta t + \sqrt{2D(t,x)\Delta t}) + a(t, x-c(t,x)\Delta t - \sqrt{2D(t,x)\Delta t})}{2}
+$$
+
+where $c$ and $D$ were calculated in the $(t,x)$ point:
+
+$$
+\begin{aligned}
+c(t,x) &= c \left( \right)
+\end{aligned}
+$$
