@@ -226,4 +226,41 @@ For the form of the wave, one can draw the following conclusions:
 - The fact that higher depths travel faster make that the wave front gets steeper and the wave tail fatter. This would in the end also lead to the impossible situation that one fast water level passes a slower moving one, proving that the kinematic approach , although initially may be a good approximation, is ultimately physically unrealistic. What happens in reality is that when the water front gets very steep, the pressure slope or depth slope can no longer be neglected. This will be worked out in Section 5.3
 
 ## 5.2.5 Celerity versus flow velocity
-The celerity $c$ can be interpreted as the (kinematic) speed of a wave. $c$ is the speed of the wave, i.e. a form, and not of the water itself as this has a flow velocity $u$. If we
+The celerity $c$ can be interpreted as the (kinematic) speed of a wave. $c$ is the speed of the wave, i.e. a form, and not of the water itself as this has a flow velocity $u$. Waves travel at a different speed that then water, usually faster. 
+
+---
+# 5.3 Convection diffusion wave
+This section discusses the second order approximation to the St-Venant equations. The resulting model is called the **diffusion** or **convection-diffusion** equation, or even shorter the cD-wave.
+
+This second order is really needed if one wants to study floods in natural rivers. 
+
+## 5.3.1 The $Q_{\text{dif}}$ formula
+A second order approximation of the momentum equation:
+
+$$
+0 = S_o - S_f - S_p
+$$
+
+expresses the equilibrium between gravity, friction and pressure forces by the corresponding slopes. Using the Manning form of the friction, this becomes
+
+$$
+0 = S_o - \frac{n^2 \, Q^2}{A^2 \, R^{4/3}} - S_p
+$$
+
+which leads to:
+
+$$
+Q = \frac{1}{n} S_o^{1/2} \, A \, R^{2/3} \, \left(1 - \frac{S_p}{S_o} \right)^{1/2}
+$$
+
+This shows that discharge $Q$ is not only a function of depth $a$ but also of the depth slope $S_p = \partial a / \partial x$
+
+Part of the formula is similar to the kinetic one. This can be used to write:
+
+$$
+\begin{aligned}
+Q_{\text{dif}}(a, S_p) &= Q_{\text{kin}}(a) \left( 1 - \frac{S_p}{S_o} \right)^{1/2} \\
+&= Q_{\text{kin}}(a) 
+\end{aligned}
+$$
+
