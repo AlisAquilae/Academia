@@ -48,11 +48,40 @@ This all leads to challenges
 - Climate change
 - Land use change
 - Water quality deterioration
-- Land subsidence
-- Increasing demand for information
+- Land subsidence (especially in peaty areas)
+- Increasing demand for information (want to know what water challenges to expect)
+
+For all this we need tools. Commonly used:
+- Surface-water based: MIKE-SHE, HEC-RAS, SOBEK
+- Soil-column based: HYDRUS, SWAP
+- Groundwater-based: MODFLOW
+- Combinations: SHE, HydroGeosphere, SIMGRO, NHI
+
+These are all "physically-based". Based on what you measure in reality. There are also other model types: empirical models (input, output, try to match them in some way, black-box models, machine-learning models) and conceptual (parametric) models (somewhere in-between the two)
 
 
+Advantages of parametric models
+- Fewer measurements
+- Smaller risk of overparameterisation than physically-based models
+- More practical and faster
 
+Disadvantages of parametric models
+- Physically-based closer to reality
+- More difficult to apply to different locations. 
+- Uncertainty is (relatively) higher (though physically-based models is still uncertain)
+- Needs more calibration
+
+Model choice depends on the aim of the study, catchment characteristics and data availability
+
+Examples of parametric models
+- HBV
+- PDM
+- SWAT
+- Sacramento model
+
+These have in common that they have "reservoirs", and fluxes from one reservoir to the other
+
+Until 2013, complex, spatially distributed models for lowland catchments, or simple, parametric models for sloping catchments. To fill this gap: WALRUS Model
 # Groundwater-unsaturated zone coupling
 
 
