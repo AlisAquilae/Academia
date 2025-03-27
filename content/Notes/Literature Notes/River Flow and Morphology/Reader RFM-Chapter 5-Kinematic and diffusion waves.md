@@ -327,6 +327,37 @@ where $c$ and $D$ were calculated in the $(t,x)$ point:
 
 $$
 \begin{aligned}
-c(t,x) &= c \left( \right)
+c(t,x) &= c \left(a(t,x), \frac{\partial a}{\partial x}(t,x) \right) \\
+D(t,x) &= D \left(a(t,x), \frac{\partial a}{\partial x}(t,x) \right)
 \end{aligned}
 $$
+
+This allows for the following description: in a small time interval $\Delta t$
+- The wave travels over a distance $c \Delta t$ downstream. This is sometimes called the **convection step** (Figure 5.7)
+- After this convective movement, an averaging step performed by replacing the depth by the average of levels a distance $\sqrt{2D\Delta t}$ upstream and $\sqrt{2D\Delta t}$ downstream (Figure 5.8)
+
+The combination of both results in a shifted collapsed form, as in Figure 5.9
+
+![[Pasted image 20250327163419.png]]
+
+![[Pasted image 20250327163329.png]]
+
+
+## 5.3.4 Linearised $cD$-equation
+
+The expressions for $c$ and $D$ are complex functions of $a$ and $S_p = \frac{\partial a}{\partial x}$, making the $cD$-equation highly nonlinear. They become more transparent when one approximated them by linearised versions. 
+
+>[!Warning]
+>Skipped the derivation
+
+
+The linearised $cD$-equation reads as follows:
+
+$$
+\frac{\partial a}{\partial t} + c(a_0) \frac{\partial a}{\partial x} - D(a_0) \frac{\partial^2 a}{\partial x^2} = 0
+$$
+
+where $c(a_0)$ and $D(a_0)$ are now constants
+
+## 5.3.5 Analytical solutions of the linearised $cD$-equation
+
