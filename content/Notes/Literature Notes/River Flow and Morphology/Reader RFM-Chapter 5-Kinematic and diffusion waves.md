@@ -376,6 +376,8 @@ In this solution we see the two main principles of the $cD$-equation:
 1. The "$x - c(a_0)t$" term shows the translation or the kinematic movement of the wate with celerity $c(a_0)$: the higher the celerity, the faster it moves
 2. The "$e^{-\frac{D(a_0)}{L^2} t}$" shows how, due to the diffusion part, the cosine function damps out. This is also called the **attenuation** of the wave. The larger the $D$ and the smaller the wave length $L$, the larger the dampening
 
+![[Pasted image 20250327165752.png]]
+
 ## 5.3.6 Time transfer function
 The linearised $cD$-equation also allows a direct answer (without solving the differential equation) to the following problem:
 
@@ -385,5 +387,27 @@ The linearised $cD$-equation also allows a direct answer (without solving the di
 The direct answer can be given by means of an integral:
 
 $$
-a(t1, x) = \int\limits_{- \infty}^{+\infty} \, \mathrm{d} \zeta \, a(t_0, \zeta)
+a(t1, x) = \int\limits_{- \infty}^{+\infty} \, \mathrm{d} \zeta \, a(t_0, \zeta) \, T (x-\eta, t_1 - t_0)
+$$
+
+where the so-called **transfer function** is given by
+
+$$
+T(\zeta, \Delta t) = \frac{1}{\sqrt{4 \pi D \Delta t}} \, e^{-\frac{(\zeta - c \Delta t)^2}{4D\Delta t}}
+$$
+
+The transfer function is the well-known Gauss function, classically defined by its mean (here $c \Delta t$) and its standard deviation (here $\sqrt{2D\Delta t}$).
+
+The integral states that any depth at time $t_1$ at place $x$ can be found as a weighted average of values at time $t_0$, where the values around the point $(t_0, x-c(t_1 - t_0))$ get the most weight. The smaller $D$ the more weight is concentrated around $(t_0, x-c(t_1 - t_0))$
+
+
+## 5.3.7 Space transfer function
+In the same spirit, the linearised $cD$-equation also allows a direct answer to the following practical problem:
+- Given the depths in an upstream point at $x_u: a(t, x_u)$, for all $t$
+- Calculate the depths in a downstream point at $x_d \gt x_u$
+
+The solution is in this case given by a space transfer function:
+
+$$
+a(t, x_d) = \int\limits_0^{\infty} \, \mathrm{d} \tau \, a(t - \tau, x_u) \, T (\tau)
 $$
