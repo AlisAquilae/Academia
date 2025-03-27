@@ -360,4 +360,30 @@ $$
 where $c(a_0)$ and $D(a_0)$ are now constants
 
 ## 5.3.5 Analytical solutions of the linearised $cD$-equation
+The linearised $cD$-equation
 
+$$
+\frac{\partial a}{\partial t} + c(a_0) \frac{\partial a}{\partial x} - D(a_0) \frac{\partial^2 a}{\partial x^2} = 0
+$$
+
+has analytical solutions. A simple but illustrative case is given by (see also Figure 5.10)
+
+$$
+a(t,x) = \alpha + a_{\text{max}} \, e^{-\frac{D(a_0)}{L^2} t} \, \cos \left(\frac{x - c(a_0) t}{L} \right) 
+$$
+
+In this solution we see the two main principles of the $cD$-equation:
+1. The "$x - c(a_0)t$" term shows the translation or the kinematic movement of the wate with celerity $c(a_0)$: the higher the celerity, the faster it moves
+2. The "$e^{-\frac{D(a_0)}{L^2} t}$" shows how, due to the diffusion part, the cosine function damps out. This is also called the **attenuation** of the wave. The larger the $D$ and the smaller the wave length $L$, the larger the dampening
+
+## 5.3.6 Time transfer function
+The linearised $cD$-equation also allows a direct answer (without solving the differential equation) to the following problem:
+
+- Given the values of $a(t_0, x)$ for all $x$ and a time $t_1 \gt t_0$
+- Calculate the values of $a(t_1, x)$ for all $x$
+
+The direct answer can be given by means of an integral:
+
+$$
+a(t1, x) = \int\limits_{- \infty}^{+\infty} \, \mathrm{d} \zeta \, a(t_0, \zeta)
+$$
