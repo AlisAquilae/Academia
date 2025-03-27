@@ -88,6 +88,4 @@ When the groundwater is deeper, the storage deficit is higher.
 
 There is a relation between groundwater and the unsaturated zone: percolation and capillary rise. 
 
-
-
-# Wetness-dependent routing
+# Wetness-dependent flowroutes
