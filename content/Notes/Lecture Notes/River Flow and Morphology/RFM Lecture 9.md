@@ -68,3 +68,14 @@ Upper-stage plane bed
 Antidunes
 - Supercritical flow
 - Cause water surface undulation (in phase with topography)
+
+
+---
+# Equilibrium dimensions
+How large are the dunes? This is an important question for navigatio and flood risk
+
+Dune length $\lambda$ and dune height $\Delta$. 
+
+There are several empirical relations (dune height predictors) between dune length or height and water depth or transport stage
+
+Transport stage is shield stress divided by the critical shield number.
