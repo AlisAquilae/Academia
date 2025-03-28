@@ -45,10 +45,15 @@ Ripples:
 - Slight bedload transport
 - Evenly spaced, cm-scale, fine sand, subcritical flow
 - Develop in the laminar/viscous sublayer
-- Hydraulically smooth regime (grainsizes smaller than depth of lami)
+- Hydraulically smooth regime (grainsizes smaller than depth of laminar layer)
+- No interaction with water surface
+- Dimensions scale with grain size
 
 Dunes
 - More bedload transport
+- Larger, 2D and 3D, sand and gravel (coarser than with ripples), subcritical flow
+- Migrate downstream with a pronounced slip face (leeway side)
+- May generate flow separation (hydraulic roughness)
 
 Upper-stage plane bed
 - More sediment in suspension, little dunes
