@@ -72,10 +72,19 @@ Antidunes
 
 ---
 # Equilibrium dimensions
-How large are the dunes? This is an important question for navigatio and flood risk
+How large are the dunes? This is an important question for navigation and flood risk
 
 Dune length $\lambda$ and dune height $\Delta$. 
 
 There are several empirical relations (dune height predictors) between dune length or height and water depth or transport stage
 
 Transport stage is shield stress divided by the critical shield number.
+
+
+---
+# Flow resistance
+Dunes are major sources of flow resistance because of the turbulent wake that extracts energy from the flow. 
+
+We would like to calculate how much dunes contribute to total drag and therefore to water depth. If drag force increases, you need a larger gravitation force to still push the flow down the river and push against the friction force. 
+
+$\tau_0 = \rho g aS_0$
