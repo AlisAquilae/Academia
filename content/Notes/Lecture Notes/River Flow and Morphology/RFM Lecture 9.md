@@ -48,14 +48,23 @@ Ripples:
 - Hydraulically smooth regime (grainsizes smaller than depth of laminar layer)
 - No interaction with water surface
 - Dimensions scale with grain size
+- Formed solely by bed load
 
 Dunes
 - More bedload transport
 - Larger, 2D and 3D, sand and gravel (coarser than with ripples), subcritical flow
 - Migrate downstream with a pronounced slip face (leeway side)
 - May generate flow separation (hydraulic roughness)
+- Water surface is affected, out of face with the river bed
+- Scale with water depth (contrary to ripples)
+- Formed by bed load and suspended load
 
 Upper-stage plane bed
-- More sediment in suspension, little dunes
+- More sediment in suspension, little dunes (dunes are filled in, turbulence is dampened)
+- Unstable regime (easy to form dunes, but can also easily remove them again)
+- Supercritical flow
+- Suspended sediment
 
 Antidunes
+- Supercritical flow
+- Cause water surface undulation (in phase with topography)
