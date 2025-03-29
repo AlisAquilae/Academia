@@ -31,4 +31,13 @@ Looking in more detail at the flow velocity structure within the boundary layer,
 
 Within the turbulent boundary layer, irregular mixing of the fluid particles take place. The transition between the turbulent and laminar boundary layer is dependent on the Reynolds number. Different types of transitions occur in nature. At sufficiently high Reynolds numbers, a distinction can be made between:
 - **Natural transition**: Infinitesimal disturbances of selected frequencies become unstable and grow as two-dimensional waves. During the growth of these so-called Tollmien-Schlichtin waves, spanwise distortions and three-dimensional, nonlinear interactions become relevant. Finally, the waves breakdown to turbulence. This is a natural transition
-- **Bypass transition**: Transition proceeds so rapidly that the general processes associated wi
+- **Bypass transition**: Transition proceeds so rapidly that the general processes associated with natural transition seem to be bypassed. This process is characterised by growth over time scales much shorter than the viscous scale of Tollmien-Schlichting waves.
+
+>[!Info]
+>Critical Reynolds numbers for the transition between laminar and turbulent flow are circumstantial, i.e. they depend on the specific hydraulic situation
+
+
+The boundary concept described above breaks down if the flow separates. This may occur in case of a pressure drop in the flow direction. Consider, for instance, the widening part of a Venturi meter where the flow diverges. In that section, conservation of mass requires that flow velocity decreases in the flow direction, and the [[Bernoulli's Equation]] can be used to show that pressure must increase in the flow direction. Rather than a pressure gradient, the flow is forced by the convective acceleration term in the momentum balance. The adverse pressure gradient, together with a no-slip condition (zero velocity) at the wall, may result in a backflow which separates the boundary layer from the surface (see Fig. 6.4). Consequently, the effect of viscosity is transmitted into the interior of the flow, which exerts a **form drag** or **pressure drag** on the surface. A more detailed description of this phenomenon will be given at the end of this chapter, where the concepts of drag and lift are further introduced. 
+
+![[Pasted image 20250329111451.png]]
+
