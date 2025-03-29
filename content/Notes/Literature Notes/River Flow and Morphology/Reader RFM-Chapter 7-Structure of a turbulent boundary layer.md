@@ -203,4 +203,73 @@ The earlier derivation via the dimensional analysis confirms Prandtl's theory an
 ---
 # 7.5 The buffer layer, Van Driest damping function
 
-The velocity profile in the boundary layer is now determined by equation 7.1 in the viscous sublayer, which roughly applies for $y^+ \lt 5$, and by equation 7.2 in the log-law layer, which roughly stretches from $y^+ \gt 30$ to $\eta \lt 0.3$. Hence, additional velocity pfo
+The velocity profile in the boundary layer is now determined by equation 7.1 in the viscous sublayer, which roughly applies for $y^+ \lt 5$, and by equation 7.2 in the log-law layer, which roughly stretches from $y^+ \gt 30$ to $\eta \lt 0.3$. Hence, additional velocity profile information is missing in the so-called **buffer layer** between $5 \lt y^+ \lt 30$.
+
+The empirical solution to this hiatus was due to Van Driest in the context of the mixing length theory.
+
+The total shear stress reads as:
+
+$$
+\begin{aligned}
+\tau/\rho &= \nu \frac{\mathrm{d}u}{\mathrm{d}y} + l^2 \left(\frac{\mathrm{d}u}{\mathrm{d}y} \right)^2 \\
+\text{or, equivalently: } \; \tau/\tau_w &= \frac{\mathrm{d}u^+}{\mathrm{d}y^+} + \left(l^+ \frac{\mathrm{d}u^+}{\mathrm{d}y^+}\right)^2
+\end{aligned}
+$$
+
+The normalised mixing length is defined as $l^+ \equiv l / \delta_\nu$. This is a quadratic equation for $\mathrm{d}u^+ / \mathrm{d}y^+$, which has the solution
+
+$$
+\frac{\mathrm{d}u^+}{\mathrm{d}y^+} = \frac{2\tau / \tau_w}{1 + \sqrt{1 + 4(\tau / \tau_w)l^{+2}}}
+$$
+
+In the inner layer, the ratio $\tau / \tau_w$ is essentially unity, so that the law of the wall is obtained in terms of the mixing length as the integral of the equation above:
+
+$$
+\begin{aligned}
+u^+ &= f_w(y^+)\\
+&= \int_0^{y^+} \frac{2 \mathrm{d}y^+}{1 + \sqrt{1 + 4l^{+2}}}
+\end{aligned} \tag{7.3}
+$$
+
+Equation 7.3 gives the velocity profile through the inner layer, provided that the vertical structure of $l^+$ is known. In the log-law region, $l^+$ relates to $y^+$ as in $l^+ = \kappa y^+$. In the viscous sublayer, turbulent shear stresses are absent, which can be captured by the constraint $\mathrm{d}l^+ / \mathrm{d}y^+ = 0$ for $y^+ = 0$. Hence, the specification $l^+ = \kappa y^+$ needs to be reduced, or damped, near the wall. Van Driest proposed the following specification:
+
+$$
+l^+ = \kappa y^+ \left[1-e^{-y^+ / A^+} \right] \tag{7.4}
+$$
+
+where $A^+$ is a constant ascribed the value $A^+ = 26$. The term in the square brackets is the [[Van Driest Damping Function]].
+
+Equations 7.3 and 7.4 together form the [[Law of the Wall]]. From experiments it was found that the law of the wall provides an excellent representation of the data. 
+
+---
+# 7.6 The outer layer
+For very large values of $y^+$ the log-law does not represent the exact velocity profile Particularly in non-equilibrium boundary layers with a pressure gradient, the velocity profile deviates slightly from the log-law in the outer layer. Coles observed in 1956 that the deviation of the log-law had a wake-like shape relative to the free stream:
+
+$$
+u = u_{\text{log-law}} + \Delta u f(\eta)
+$$
+
+The wake function $f$ is assumed to be a universal S-shaped function defined to satisfy the normalisation conditions $f(0) = 0$ and $f(1) = 0$. The validity of this function was experimentally confirmed. Popular forms are:
+
+$$
+\begin{aligned}
+f(\eta) &= \sin^2 \left(\frac{\pi}{2}\eta \right) \\
+&= 3\eta^2 - 2\eta^3
+\end{aligned}
+$$
+
+Those ingredients have lead to the formulation of the [[Coles Law of the Wake]]:
+
+$$
+u^+ = \frac{1}{\kappa} \ln(y^+) + B + \frac{2\Pi}{\kappa}f(\eta)
+$$
+
+In general, Cole's wake strength parameter $\Pi$ is a function of pressure gradient. The law of the wake allows for relatively steep velocity profiles. 
+
+The different subdivisions of the boundary layer defined in the previous sections are summarised in Figure 7.2
+
+![[Pasted image 20250329153831.png]]
+
+---
+# 7.7 Roughness effects
+The analysis above applies for hydraulically smooth wall flows, which are actually u
