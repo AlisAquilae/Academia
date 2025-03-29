@@ -42,4 +42,63 @@ y^+ &\equiv \frac{y}{\delta_\nu} \\
 \end{aligned}
 $$
 
-where $y^+$ can be considered as a local [[reynolds]]
+where $y^+$ can be considered as a local [[Reynolds Number]], measuring the relative importance of viscous and turbulent transport dependent of the distances to the wall. 
+
+At large $y^+$ the direct effect of viscosity on momentum transport is small. In this region differences in height scale $\eta$ are important, which is the lateral coordinate $y$ normalised by the boundary layer depth $\delta$:
+
+$$
+\eta = \frac{y}{\delta}
+$$
+
+By combining the different parameters, one more dimensionless number can be obtained, which is referred to as the **friction Reynolds number**
+
+$$
+\begin{aligned}
+\text{Re}_\tau &= \delta^+ \\
+&= \frac{u_\tau \delta}{\nu}
+\end{aligned}
+$$
+
+The general, scale-independent aspects of boundary layers can be analysed using the aforementioned dimensionless parameters.
+
+In the turbulent part of the boundary layer, the flow is completely specified by $u, y, \rho, \nu, \delta$ and $u_\tau$. With those 6 variables and 3 independent dimensions, dimensional analysis yields a functional relation between 3 dimensionless groups. These groups are conveniantly taken as:
+
+$$
+u^+ = f(y^+, \eta)
+$$
+
+Close to the wall ($\eta \ll 1$) the velocity $u$ does not scale on $\delta$. The region where this applied is defined as the **inner layer**, which can be subdivided in a turbulent and laminar part (the latter of which is the viscous sublayer). The independece of $\delta$ reduces the number of variables from 6 to 5 and leads to the [[Law of the Wall]]:
+
+$$
+u^+ = f_w (y^+)
+$$
+
+For large values of the local Reynolds number ($y^+ \gg 1$), in the so-called **outer layer**, the effect of viscosity on the 'velocity deficit' $u_e - u$ is negligible. Dimensional analysis then yields:
+
+$$
+\begin{aligned}
+\frac{u_e - u}{u_\tau} &= u_e^+ - u^+ \\
+&= f_o(\eta)
+\end{aligned}
+$$
+
+In between the inner and outer layer an intermediate layer may exist, where both viscosity and boundary layer thickness influence the velocity profile. In the next three sections the velocity distribution for the inner, the intermediate and the outer layer are described in more detail. 
+
+---
+# 7.3 The inner layer
+In the inner layer, the region very close to the wall, the shear stress is entirely viscous. Within this region it is expected that the behaviour is universal, i.e. independent of the external flow and Reynolds number. Discarding the turbulent stress part, the total shear stress reduces to:
+
+$$
+\tau = \rho \nu \frac{\mathrm{d}u}{\mathrm{d}y}
+$$
+
+Combined with the no-slip condition at the wall, this implies
+
+>[!Warning]
+>Skipped the derivation
+
+
+$$
+\left[\frac{\mathrm{d}u^+}{\mathrm{d}y^+} \right]
+$$
+
