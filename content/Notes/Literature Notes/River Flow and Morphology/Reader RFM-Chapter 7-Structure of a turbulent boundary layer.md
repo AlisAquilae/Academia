@@ -272,4 +272,28 @@ The different subdivisions of the boundary layer defined in the previous section
 
 ---
 # 7.7 Roughness effects
-The analysis above applies for hydraulically smooth wall flows, which are actually u
+The analysis above applies for hydraulically smooth wall flows, which are actually uncommon in rivers and streams. In general, environmental flows are hydraulically rough. Protrusions as small as sand particles influence the mean velocity profile, as the transfer of momentum to the wall is dominated by pressure drag or the roughness elements, rather than skin friction drag. In the transitional regime, both viscous and roughness effects operate. 
+
+The normative size of the roughness elements $k_s$ can be made dimensionless as in
+
+$$
+k_s^+ = \frac{u_\tau k_s}{\nu}
+$$
+
+A dimensional analysis now includes an additional roughness variable, leading the following adapted velocity profile for the overlap region:
+
+$$
+\begin{aligned}
+u^+ &= \frac{1}{\kappa} \ln(y^+) + \tilde{B} \; \; \text{ , where} \\
+\tilde{B} &= \left\{ \begin{array}{ll} B & (k_s^+ \to 0; \text{hydraulically smooth}) \\
+B_k - \frac{1}{\kappa} \ln(k^+_s) & (k^+_s \to \infty; \text{hydraulically rough}) \end{array} \right.
+\end{aligned}
+$$
+
+where $B = 5.6$ as in equation 7.2 and $B_k$ takes a value of 8.5. Elaborate all-encompassing interpolation formulas are available for $\tilde{B}$, to determine its value under transitional roughness. In practice, the following mean velocity profile is generally used, with $z$ denoting the vertical coordinate:
+
+$$
+u = \frac{u_\tau}{\kappa} \ln \left(\frac{z}{z_0} \right)
+$$
+
+where $z_0$ is called the roughness length. 
