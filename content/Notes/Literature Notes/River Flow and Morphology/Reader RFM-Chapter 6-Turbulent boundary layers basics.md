@@ -56,3 +56,16 @@ $$
 $$
 
 These equations govern the gradual growth of the boundary layer sketched in Figure 6.2. The flow represents a balance between viscous and inertial effects, with pressure playing no role. For a flow field that satisfied the boundary layer equations, an event that happens downstream of a given location cannot affect what happens upstream of that point. The development of the boundary layer over a flat plate parallel to the flow, as sketched in Figure 6.2, is therefore independent of the length of the plate. In addition, the presence of the plate has no effect on the flow ahead of the plate. 
+
+Based on a clever coordinate transform and change of variables, Blasius was able to reduce the boundary layer (partial differential) equations to ordinary differential equations that he was able to solve. Blasius' solution provides details of the velocity profile and wall shear stress in a laminar boundary layer that develops along a flat plate.
+
+---
+# 6.2 Turbulence and Reynolds decomposition
+Turbulence is a type of fluid motion that is difficult to define. Crucial of a turbulent flow is that it is subject to semi-random, stochastic property changes. Turbulence refers to:
+- A 3D, time-dependent, eddying motion with many scales, causing continuous mixing of fluid elements, often superposed on a simpler mean flow
+- A solution of the Navier-Stokes equations
+- A natural state at high Re; most environmental flows are fully turbulent. 
+- An efficient mixer of momentum, energy and constituents
+- A major source of energy loss, or, the conversion of kinetic energy into heat
+
+The fundamental difference between laminar and turbulent flow is the semi-random behaviour of fluid particles. Turbulence-induce
