@@ -108,4 +108,26 @@ $$
 \tau = \underbrace{\mu \frac{\partial \overline{u}}{\partial y}}_{\text{viscous}} \, \underbrace{-\rho \overline{u' v'}}_{\text{turbulent}}
 $$
 
-In general, the turbulence contribution to the transport of momentum is substantially greater than the viscous con
+In general, the turbulence contribution to the transport of momentum is substantially greater than the viscous contribution, except for a very thin inner layer nar the surface, where viscous forces dominate. In the subsequent chapter inner and associated outer layers will be parameterised. The effects of turbulence on mean flow patterns are widely varying, and often difficult to generalise. In case of bluff bodies (i.e. objects in water for which flow separation is likely to occur), it can be stated that turbulence causes a delay of flow separation and reduction of the pressure drag.
+
+>[!Warning]
+>Skipped the part on changing viscosities due to suspended sediment load and the generalisation of Reynolds stresses to be applicable to a general flow situation
+
+
+In the examination of the Reynolds stress, Prandtl introduced a mixing length $l$, with the aim to relate the Reynolds stress to velocity shear. [[Prandtl's Mixing Length]] is defined as the distance in which a particle loses its excess momentum or gains its momentum deficit and assumed the mean velocity of its surroundings. Assuming that the changes of velocity $u'$ and $v'$ following from this particle motion are statistically equal, then it follows that $u' \approx -v' \approx l \, \mathrm{d}u / \mathrm{d}y$, and:
+
+$$
+\tau = -\rho \overline{u' v'} = \rho l^2 \left(\frac{\mathrm{d}\overline{u}}{\mathrm{d}\overline{y}} \right)^2
+$$
+
+in which the viscous contribution has been omitted. Close to the surface, Prandtl assumed that $l$ becomes dependent on the distance from the surface: $l = ky$. Thus assumption results in a logarithmic velocity profile, which will be derived in the next chapter.
+
+---
+# 6.3 Thickness definitions of the boundary layer
+In the analysis of the boundary layer, three different boundary layer thicknesses are in use. To start with, the thickness of the boundary layer $\delta$ can be defined as the distance from the surface where the local velocity equals 99 percent of the external stream velocity ($u_e$):
+
+$$
+\delta = y(u=0.99u_e)
+$$
+
+The displacement thickness (see Figure 6.6)
