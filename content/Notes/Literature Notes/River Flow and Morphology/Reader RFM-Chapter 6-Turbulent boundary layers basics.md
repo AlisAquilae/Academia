@@ -233,4 +233,47 @@ p_d &= \frac{1}{2} \rho u_e^2
 \end{aligned}
 $$
 
-Suppose that streamlines coincide with horizontal pathlines and no e
+Suppose that streamlines coincide with horizontal pathlines and no energy losses occur, the dynamic pressure is the pressure increase that a fluid particle experiences when it decelerated from $u = u_e$ to $u = 0$. The resulting local skin friction coefficient reads as
+
+$$
+c_f = \frac{\tau_w}{\frac{1}{2} \rho u_e^2}
+$$
+
+Physically, skin friction drag is caused by the actual contact of the fluid particles against the surface. The magnitude of the coefficient depends on the properties of both the surface and the fluid.
+
+In a similar manner a dimensionless pressure coefficient can be introduced, which reads as:
+
+$$
+c_p = \frac{p}{\frac{1}{2} \rho u_e^2}
+$$
+
+Pressure drag is also referred to as **form drag**, as it largely depends on the form or shape of an immersed body.
+
+The integrated streamwise force on a body in a flow, which is defined as the drag $D$, can be non-dimensionalised by dividing the dynamic pressure times area, as in:
+
+$$
+c_D = \frac{D}{\frac{1}{2} \rho u_e^2 A}
+$$
+
+The total drag hence consists of a pressure contribution and a skin friction contribution. Pressure drag is the dominating factor in flows where separation occurs, i.e. in case of bluff bodies (Fig. 6.9). For streamlined bodies, the viscous parts are more important. For a horizontal body of length $x$, the drag is only a function of the shear stresses. 
+
+The drag coefficient can then be written as:
+
+$$
+c_D = \frac{\int_0^x \tau_w\, \mathrm{d}x}{\frac{1}{2} \rho u_e^2 A}
+$$
+
+
+![[Pasted image 20250329143219.png]]
+
+
+In summary, bluff bodies are characterised by:
+- Flow separation
+- A flow-related force dominated by the pressure drag
+- $cD = O(1)$
+
+For streamlined bodies:
+- No flow separation occurs
+- Flow-related forces are dominated by friction drag
+- $c_D \ll 1$
+
