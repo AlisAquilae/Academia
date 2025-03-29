@@ -105,7 +105,7 @@ $$
 which, on integration, yields:
 
 $$
-y^+ = u^+
+y^+ = u^+ \tag{7.1}
 $$
 
 The portion of the inner layer where this equation applies is the laminar sublayer, which extends approximately to $y^+ \lt 5$. The remainder of the inner layer, which extends approximately to $\eta \lt 0.1$, is yet to be defined in Section 7.5.
@@ -148,4 +148,59 @@ $$
 y^+ \frac{\mathrm{d}f_w}{\mathrm{d}y^+} = \text{constant}
 $$
 
-The constant that emerges is usually written as $1 / \mathfrak{}$ 
+The constant that emerges is usually written as $1 / \kappa$, where $\kappa$ ($\approx 0.41$) is the [[Von Karman Constant]]:
+
+$$
+\frac{\mathrm{d}f_w}{\mathrm{d}y^+} = \frac{1}{\kappa y^+}
+$$
+
+Integrating once more with respect to $y^+$ gives the **log-law velocity profile**
+
+$$
+f_w = u^+ = \frac{1}{\kappa} \ln(y^+) + B
+$$
+
+A typical value for $B$ is 5.6.
+
+The overlap, or log-law region, is confined to the region between $y^+ \gt 30$ and $\eta \lt 0.3$
+
+An alternative derivation was given by Prandtl, starting with his [[Prandtl's Mixing Length|Mixing length]] concept:
+
+$$
+\tau = \rho l^2 \left(\frac{\mathrm{d}u}{\mathrm{d}y} \right)^2
+$$
+
+
+He assumed that close to the surface, $l$ becomes linearly dependent on the distance from the surface $l = \kappa y$. The shear stress at the subsurface $\tau_0$ then reads as:
+
+$$
+\begin{aligned}
+\tau_0 &= \rho \kappa^2 y^2 \left(\frac{\mathrm{d}u}{\mathrm{d}y} \right)^2 \\
+\text{or } \; \mathrm{d}u &= \frac{u_\tau}{\kappa y} \mathrm{d}y
+\end{aligned}
+$$
+
+on integration, this yields:
+
+$$
+\frac{u}{u_e} = \frac{1}{\kappa} \ln(y) + C
+$$
+
+Values of the integration constant were experimentally determined in the form
+
+$$
+C = 5.56 - \frac{1}{\kappa} \ln \frac{\nu}{u_\tau}
+$$
+
+Combining the previous two equations and substituting for the nondimensional variables $u^+$ and $y^+$ then results in
+
+$$
+u^+ = \frac{1}{\kappa} \ln(y^+) + B \tag{7.2}
+$$
+
+The earlier derivation via the dimensional analysis confirms Prandtl's theory and hypotheses for a turbulent boundary layer. Vice versa, Prandtl's findings, which were supported by empirical observations, show that the overlap layer exists and may cover a large part of the boundary layer.
+
+---
+# 7.5 The buffer layer, Van Driest damping function
+
+The velocity profile in the boundary layer is now determined by equation 7.1 in the viscous sublayer, which roughly applies for $y^+ \lt 5$, and by equation 7.2 in the log-law layer, which roughly stretches from $y^+ \gt 30$ to $\eta \lt 0.3$. Hence, additional velocity pfo
