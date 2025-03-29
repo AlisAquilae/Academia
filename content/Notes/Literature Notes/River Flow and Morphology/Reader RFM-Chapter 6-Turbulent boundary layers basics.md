@@ -182,4 +182,55 @@ The shear stress $\tau_w$ acts along the surface of the object and is caused by 
 
 ![[Pasted image 20250329141726.png]]
 
-In Figure 6.8, 
+In Figure 6.8, the shear and pressure force for a two-dimensional situation are drawn. The following $x$ and $y$ force components can be obtained:
+
+$$
+\mathrm{d}F_x = (\rho \mathrm{d}A) \cos(\alpha) + (\tau_w \mathrm{d}A) \sin(\alpha)
+$$
+
+and
+
+$$
+\mathrm{d}F_y = -(\rho \mathrm{d}A) \sin(\alpha) + (\tau_w \mathrm{d}A)\cos(\alpha)
+$$
+
+The total drag is then defined as:
+
+$$
+\begin{aligned}
+D &= \int \mathrm{d}F_x \\
+&= \int p \, \cos(\alpha) \, \mathrm{d}A + \int \tau_w \, \sin(\alpha) \, \mathrm{d}A
+\end{aligned}
+$$
+
+and for the total lift
+
+$$
+\begin{aligned}
+L &= \int \mathrm{d}F_y \\
+&= \int -p \, \sin(\alpha) \, \mathrm{d}A + \int \tau_w \, \cos(\alpha) \, \mathrm{d}A
+\end{aligned}
+$$
+
+Assuming that the pressure gradient in a boundary layer is zero, the total loss of momentum for a horizontal plate of length $x$ must be equal to the total drag imparted on the surface. As stated earlier, the total loss of momentum in a boundary layer can be defined as $\rho u_e^2 \theta$. Accordingly, the total drag over a horizontal plate of distance $x$ in the direction of the flow is defined as
+
+$$
+D(x) = \int_0^x \tau_w \mathrm{d}x = \rho u_e^2 \theta
+$$
+
+On differentiation, this leads to the momentum integral equation:
+
+$$
+\tau_w = \rho u_e^2 \frac{\mathrm{d}\theta}{\mathrm{d}x}
+$$
+
+Changes in the boundary layer thickness hence yield a wall shear stress component. A increase of $\theta$ results in an increase of the shear stress, and drag. Often the wall shear stress is made dimensionless with the dynamic pressure, which proceeds from equating the pressure term with the kinetic energy term in the Bernoulli equation:
+
+$$
+\begin{aligned}
+\frac{p_d}{\rho g} &= \frac{u_e^2}{2g} \\
+p_d &= \frac{1}{2} \rho u_e^2
+\end{aligned}
+$$
+
+Suppose that streamlines coincide with horizontal pathlines and no e
