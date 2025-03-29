@@ -68,4 +68,44 @@ Turbulence is a type of fluid motion that is difficult to define. Crucial of a t
 - An efficient mixer of momentum, energy and constituents
 - A major source of energy loss, or, the conversion of kinetic energy into heat
 
-The fundamental difference between laminar and turbulent flow is the semi-random behaviour of fluid particles. Turbulence-induce
+The fundamental difference between laminar and turbulent flow is the semi-random behaviour of fluid particles. Turbulence-induced variations of a flow variable or constituent can be isolated by decomposing the flow variable, or constituent, into a mean and a fluctuating component:
+
+$$
+\begin{aligned}
+u &= \overline{u} + u' \\
+\phi &= \overline{\phi} + \phi'
+\end{aligned}
+$$
+
+Herein, $\phi$ can be seen as a scalar like temperature or salinity. Averaging a product of fluctuating quantities yields an extra term representing the net effect of turbulent fluctuations:
+
+$$
+\begin{aligned}
+\overline{u^2} &= \overline{u}^2 + \overline{u'^2} \\
+\overline{u \phi} &= \overline{u}\overline{\phi} + \overline{u' \phi'}
+\end{aligned}
+$$
+
+In these latter two equations, the first can be recognised as a variance and the latter as a covariance. Due to the effects of turbulent fluctuations, transport of momentum or a constituent like salinity is feasible in absence of a mean drift. Consider a simple shear flow, in which the only nonzero mean velocity component is $u$. Hence, $\overline{v} = 0$, taking $v$ as the vertical velocity component. The instantaneous momentum flux equals the mass flux $\rho u A$ times velocity. For the net horizontal flux, this boils down to:
+
+$$
+\overline{(\rho A u^2)} = \rho(\overline{u}^2 + \overline{u'^2})A
+$$
+
+and for the net vertical flux to
+
+$$
+\overline{(\rho A u v)} = \rho (\overline{u} \, \overline{v} + \overline{u' v'})A = \rho \overline{u'v'}A
+$$
+
+In the vertical direction, turbulent fluctuations thus cause transport of momentum in absence of mean drift. 
+
+The effect of turbulence on the mean flow arises from the net transport of momentum by fluctuating velocities. As far as the mean flow is concerned this has the same effect as an additional force. This 'effective force' (per unit area) is called a [[Reynolds Stress]].
+
+In a simple shear flow, for which $\overline{w} = 0$, the total effective shear stress reads:
+
+$$
+\tau = \underbrace{\mu \frac{\partial \overline{u}}{\partial y}}_{\text{viscous}} \, \underbrace{-\rho \overline{u' v'}}_{\text{turbulent}}
+$$
+
+In general, the turbulence contribution to the transport of momentum is substantially greater than the viscous con
