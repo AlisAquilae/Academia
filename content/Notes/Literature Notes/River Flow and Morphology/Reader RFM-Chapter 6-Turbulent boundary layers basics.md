@@ -130,4 +130,56 @@ $$
 \delta = y(u=0.99u_e)
 $$
 
-The displacement thickness (see Figure 6.6)
+The displacement thickness (see Figure 6.6) represents the outward displacement of the streamlines caused by the viscous effects of the surface. It is defined as
+
+$$
+\begin{aligned}
+\delta^* &= \frac{1}{u_2} \int\limits_0^\infty \, (u_e i u) \, \mathrm{d}y \\
+&= \int\limits_0^\infty \, (1-\frac{u}{u_e})\, \mathrm{d}y
+\end{aligned}
+$$
+
+The mass flux deficit then reads as $\rho u_e \delta^*$. The loss of momentum flu for the mass flux $\rho u \,\mathrm{d}y$  between adjacent streamlines is $(u_e - u)\rho u \, \mathrm{d}y$. Hence, the momentum deficit is equivalent to
+
+$$
+\int\limits_0^\infty \, \rho(u_e - u)u \, \mathrm{d}y
+$$
+
+This may be equated to the momentum carried through a vertical section $\theta$ per unit width at the free stream velocity:
+
+$$
+\rho u_e^2 \theta = \int\limits_0^\infty \, \rho(u_e - u)u \, \mathrm{d}y
+$$
+
+which results in the definition of the **momentum thickness**:
+
+$$
+\begin{aligned}
+\theta &= \frac{1}{u_e^2} \int\limits_0^\infty \, (u_e - u)u \, \mathrm{d}y \\
+&= \int\limits_0^\infty \frac{u}{u_e} \left(1 - \frac{u}{u_e} \right) \, \mathrm{d}y
+\end{aligned}
+$$
+
+The ratio between the displacement thickness and the momentum thickness is called the **shape factor** $H$:
+
+$$
+H = \frac{\delta^*}{\theta}
+$$
+
+Since
+
+$$
+\frac{u}{u_e} \left(1 - \frac{u}{u_e} \right) \lt 1 - \frac{u}{u_e}
+$$
+
+the shape factor is always greater than 1. A larger shape factor is an indicator of a boundary layer near separation.
+
+---
+# 6.4 Lift and drag concepts
+A body immersed in a moving fluid experiences a resultant force due to the interaction between the body and the fluid surrounding it. The interaction can be described in terms of two types of stresses: shear stresses and normal stresses. 
+
+The shear stress $\tau_w$ acts along the surface of the object and is caused by the effects of viscosity. Perpendicular to the object, normal stresses exist due to the pressure. The integrated effect of these stresses in the direction of the approaching flow is called the **drag** $D$, and normal to the flow the **lift** $L$. 
+
+![[Pasted image 20250329141726.png]]
+
+In Figure 6.8, 
