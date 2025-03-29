@@ -41,3 +41,18 @@ The boundary concept described above breaks down if the flow separates. This may
 
 ![[Pasted image 20250329111451.png]]
 
+In theory, the details of a viscous, incompressible flow past any object can be obtained by solving the governing Navier-Stokes equations and the equation describing conservation of mass for incompressible flow. Using boundary layer concepts introduced in the previous sections, Prandtl was able to impose certain approximations to simplify the governing equations. The following assumptions were made:
+- High Reynolds numbers
+- $\frac{\partial}{\partial x} \ll \frac{\partial}{\partial y}$ (streamwise gradients much smaller than cross-stream gradients)
+- $p = p_e$ (pressure is that in the external flow)
+
+Physically, the flow is primarily parallel to the plate and any fluid property is convected downstream much more quickly than it is diffused across the streamlines. Using these assumptions in an asymptotic analysis resulted in the following boundary-layer equations:
+
+$$
+\begin{aligned}
+\rho \left(\overline{u} \frac{\partial \overline{u}}{\partial x} + \overline{v}\frac{\partial \overline{u}}{\partial y} \right) &= \rho u_e \frac{\mathrm{d}u_e}{\mathrm{d}x} + \frac{\partial \tau}{\partial y} \\
+\frac{\partial \overline{u}}{\partial x} + \frac{\partial \overline{v}}{\partial y} &= 0
+\end{aligned}
+$$
+
+These equations govern the gradual growth of the boundary layer sketched in Figure 6.2. The flow represents a balance between viscous and inertial effects, with pressure playing no role. For a flow field that satisfied the boundary layer equations, an event that happens downstream of a given location cannot affect what happens upstream of that point. The development of the boundary layer over a flat plate parallel to the flow, as sketched in Figure 6.2, is therefore independent of the length of the plate. In addition, the presence of the plate has no effect on the flow ahead of the plate. 
