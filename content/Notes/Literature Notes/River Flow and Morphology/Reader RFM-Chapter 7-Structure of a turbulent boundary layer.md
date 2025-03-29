@@ -99,6 +99,53 @@ Combined with the no-slip condition at the wall, this implies
 
 
 $$
-\left[\frac{\mathrm{d}u^+}{\mathrm{d}y^+} \right]
+\left[\frac{\mathrm{d}u^+}{\mathrm{d}y^+} \right]_{\text{y=0}} = 1
 $$
 
+which, on integration, yields:
+
+$$
+y^+ = u^+
+$$
+
+The portion of the inner layer where this equation applies is the laminar sublayer, which extends approximately to $y^+ \lt 5$. The remainder of the inner layer, which extends approximately to $\eta \lt 0.1$, is yet to be defined in Section 7.5.
+
+---
+# 7.4 The overlap layer
+In Section 7.2, two unknown functions were introduced that describe velocity variation in the inner and outer layer, respectively. In between the inner and outer layer, an overlap is supposed to exist, where both the constraints for the inner and outer layer are satisfied. This implies that across the overlap layer the functions of the inner and outer layer are both valid and must match to guarantee a smooth overlap:
+
+$$
+u^+ = f_w(y^+) \;\; \text{ and } \; \; u^+_e - u^+ = f_o(\eta)
+$$
+
+Using the definition of the friction Reynolds number, it can be shown that $y^+ = \eta \delta^+$. Hence, the dimensionless velocity of the free flow as a function of $\delta^+$ is the sum of the function $f_o$ and $f_w$ and reads:
+
+$$
+u_e^+ = f_o(\eta) + f_w(\eta \delta^+)
+$$
+
+A solution to this function, which defines the overlap region, can be found by differentiation with respect to $\delta^+$:
+
+$$
+u+e^+ (\delta^+) = 0 + \eta f'_w(\eta \delta^+)
+$$
+
+and subsequently with respect to $\eta$
+
+$$
+\begin{aligned}
+0 &= f'_w(\eta \delta^+) + \eta \delta^+ f''_w(\eta \delta^+) \\
+&= f'_w (y^+) + y^+ f''_w(y^+) \\
+&= \frac{\mathrm{d}}{\mathrm{d}y^+} \left( y^+ \frac{\mathrm{d}f_w}{\mathrm{d}y^+} \right)
+\end{aligned}
+$$
+
+using that $y^+ = \eta \delta^+$. 
+
+When integrated with respect to $y^+$, this gives:
+
+$$
+y^+ \frac{\mathrm{d}f_w}{\mathrm{d}y^+} = \text{constant}
+$$
+
+The constant that emerges is usually written as $1 / \mathfrak{}$ 
