@@ -155,7 +155,7 @@ $$
 The two dimensionless parameters in the equation above are respectively the [[Shields Parameter]] $\tau_*$ and the particle Reynolds number $\text{Re}_p$. Bedload motion initiates if the Shields parameter exceeds a critical value:
 
 $$
-\tau_* = \frac{\tau_0}{\rho \Delta g D} \gt \tau_{*c}
+\tau_* = \frac{\tau_0}{\rho \Delta g D} \gt \tau_{*c} \tag{8.2}
 $$
 
 So far, the results from the dimensional analysis do not account for a sloping bed. If the longitudinal slope $\alpha$ is sufficiently high then in addition to the drag force $F_D$, a direct tangential gravitational force $F_{gt}$ applies, impelling the particle downslope. This reduces the critical Shields stress calculated from the equation above as in
@@ -164,4 +164,11 @@ $$
 \tau_{*c} = \tau_{*c0} \cos \alpha \sqrt{1 - \frac{\tan \alpha}{\tan \phi_s}}
 $$
 
-where
+where $\tau_{*c0}$ is calculated from equation 8.2.
+
+Finally, a transverse slope may influence the critical Shields stress. In case of a significant transverse slope $\theta$, as in the case of a river bank, the critical shear stress reduces as in:
+
+$$
+\tau_{*c} = \tau_{*c0} \cos \theta \sqrt{1 - \frac{\tan^2 \theta}{\tan^2 \phi_s}}
+$$
+
