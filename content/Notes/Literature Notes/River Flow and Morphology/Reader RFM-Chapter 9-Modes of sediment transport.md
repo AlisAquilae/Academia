@@ -222,3 +222,8 @@ P = \frac{w_f}{\kappa u_\tau}
 $$
 
 The Rouse parameter characterises the relative importance of settling due to gravity and vertical mixing due to turbulence. It indicates the degree of saturation of the concentration vertical. The criteria for suspension can be reformulates as:
+- $P \gt 2.5$: no suspension
+- $1 \lt P \lt 2.5$: incipient suspension
+- $P \lt 1$: full suspension
+
+The solutions provided above give the *relative* concentration, since the reference concentration $c_0$ at some distance $z_0$ from the bed has to be known. Estimation of $c_0$ requires a separate analysis. One approach is to equate $c_0$ with the bedload concentration. It is further noted that for both the solutions $c_s \to \infty$ for $z \to 0$, which is physically impossible since $c_{\text{max}}$ is approximately $0.6$. A final remark refers to the definition of the location of the bed, which can be difficult due to bed irregularities cause by ripples and dunes. 
