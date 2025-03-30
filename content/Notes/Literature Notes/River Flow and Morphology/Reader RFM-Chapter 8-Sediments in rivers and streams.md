@@ -53,4 +53,42 @@ $$
 
 Alluvial sediment can be uniform, meaning that differences in sediment size within a sample are negligible, or be a mixture of the basic sediment classes given in Table 8.1. The population of sediment sizes found at a particulate time and place is described by the grain size distribution, which in turb can be parameterised. The median grain size $d_{50}$ is defined as the size for which 50% by weight of the material is finer. In general, $d_x$ is defined as the size for which $X$% by weight of the material is finer.
 
-The geometric mean is the weighted average of phi size, as opposed to the arithmetic average being the weighted mean of the grain size. The geometric standard deviation $
+The geometric mean is the weighted average of phi size, as opposed to the arithmetic average being the weighted mean of the grain size. The geometric standard deviation $\sigma_g$ of grain size distribution indicates how well-sorted the grain distribution is. Assuming a log-normal distribution, an estimate of $\sigma_g$ can be obtained from
+
+$$
+\sigma_g = \sqrt{ \frac{d_{84}}{d_{16}}}
+$$
+
+The closer $\sigma_g$ approaches to unity, the better the sediment is sorted. In this chapter, the focus is on non-cohesive sediments, and in particular on sands. Cohesive sediment (clay or silt) forms aggregates (also called flocs), which form and breakup under the influence of physical and chemical processes. The latter processes are beyond the scope of the present lecture. 
+
+
+---
+# 8.4 Particle fall velocity
+Sediment particles are subject to gravity, and will therefore settle when they are suspended in water at rest. The terminal fall velocity is the particle velocity at equilibrium, i.e. the sum of gravity force, buoyancy force and fluid drag being equal to zero. The net gravitational force acting on a suspended particle $F_g$ is defined as the difference between weight ($F_G = \rho_s \, V \, g$) and buoyancy ($F_b = \rho \, V , g$), where $\rho_s$ and $\rho$ are sediment and fluid densities respectively, $V$ is the sediment particle volume and $g$ is the gravitational acceleration
+
+$$
+\begin{aligned}
+F_g &= F_G - F_b \\
+&= (\rho_s - \rho) \, V \, g
+\end{aligned}
+$$
+
+In case of an equilibrium (steady fall of the particle) the net gravitational force is balanced by the drag force $F_D$, which reads
+
+$$
+F_D = C_D \, A \, \frac{1}{2}\rho \, w_f^2
+$$
+
+Herein
+- $C_D$ is the drag coefficient
+- $A$ is the particle's cross-sectional area perpendicular to the trajectory of its motion
+- $w_f$ is the particle fall velocity.
+
+Equating the previous two equations and rearranging yields a general law for settling:
+
+$$
+w_f = \sqrt{\frac{\rho_s - \rho}{\rho} \frac{g}{C_D / 2} \frac{V}{A}}
+$$
+
+The particle [[Reynolds Number]] is defined as $\text{Re}_p = u \, D / \nu$, wherein $u$ is the velocity of the particle relative to the fluid, $D$ is the particle diameter, and $\nu$ is the [[Kinematic Viscosity]]
+
