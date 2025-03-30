@@ -35,3 +35,22 @@ The first property to classify is sediment size. Several slightly differing defi
 - Sieve diameter: diameter of the smallest circle that encompasses one dimension of the grain
 - Sedimentation or standard fall diameter: diameter of the quartz sphere that would settle at the same speed as the sediment grain in still, distilled water at 24 degree Celsius. It arises from settling type measurements of grain size. 
 - Nominal diameter: represents the diameter of the sphere that would take up the same volume as the sediment grain
+
+Sieve diameter and standard fall diameter are readily measurable quantities. The nominal diameter is particularly convenient when sediment volume transport is to be calculated.
+
+Grain sizes are often reported in millimeters (mm) or microns ($\mu$m). The classification of sediment is given in Table 8.1. 
+
+![[Pasted image 20250330101735.png]]
+
+As one can see the absolute difference between the diameter of e.g. a clay particle and a silt particle is much smaller than between a sand particle and a gravel particle. To be able to show both differences in one diagram, "phi" units ($\phi$) are introduced. The phi scale is logarithmically spaced, and grain diameter increases as phi size decreases. The conversion between the phi scale and diameter is:
+
+$$
+\begin{aligned}
+D &= 2^{-\phi} \\
+\phi &= - \frac{\ln(D)}{\ln(2)}
+\end{aligned}
+$$
+
+Alluvial sediment can be uniform, meaning that differences in sediment size within a sample are negligible, or be a mixture of the basic sediment classes given in Table 8.1. The population of sediment sizes found at a particulate time and place is described by the grain size distribution, which in turb can be parameterised. The median grain size $d_{50}$ is defined as the size for which 50% by weight of the material is finer. In general, $d_x$ is defined as the size for which $X$% by weight of the material is finer.
+
+The geometric mean is the weighted average of phi size, as opposed to the arithmetic average being the weighted mean of the grain size. The geometric standard deviation $
