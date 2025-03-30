@@ -90,5 +90,18 @@ $$
 w_f = \sqrt{\frac{\rho_s - \rho}{\rho} \frac{g}{C_D / 2} \frac{V}{A}}
 $$
 
-The particle [[Reynolds Number]] is defined as $\text{Re}_p = u \, D / \nu$, wherein $u$ is the velocity of the particle relative to the fluid, $D$ is the particle diameter, and $\nu$ is the [[Kinematic Viscosity]]
+The particle [[Reynolds Number]] is defined as $\text{Re}_p = u \, D / \nu$, wherein $u$ is the velocity of the particle relative to the fluid, $D$ is the particle diameter, and $\nu$ is the [[Kinematic Viscosity]]. It follows that $u$ is equal to $w_f$ in the case of still water. Stoke found that in laminar flow for small particle Reynolds numbers ($\text{Re}_p \lt 0.1$) the drag is given by 
 
+$$
+C_D = \frac{24}{\text{Re}_p}
+$$
+
+Substitution of the equation above in the one before it, and assuming the particles to be an ideal sphere for which $V \, D/A = 2D^2 / 3$ results in [[Stoke's Law of Settling]] ($\mu = \rho \nu$):
+
+$$
+w_f = \frac{1}{18\mu} (\rho_s - \rho) \, g \, D^2 \tag{8.1}
+$$
+
+Hence, in laminar flow $w_f \propto D^2$ provided that $\text{Re}_p \lt 0.1$. The latter condition is rarely met in rivers. However, Stoke's law is often used to infer the "effective diameter" of a sediment suspension, either during low flow conditions (e.g. slack water in tidal estuaries) or in the laboratory. The bulk settling velocity is measured and then the diameter is backed out of equation 8.1.
+
+In turbulent flow 
