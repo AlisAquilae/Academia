@@ -156,17 +156,69 @@ Left of the equality sign are the temporal and advective inertial terms, which b
 In case of an equilibrium, the inertial terms cancel, which leads to the following non-trivial equilibrium state:
 
 $$
-w_f \frac{\partial c_s}{\partial z} + \frac{\partial}{\partial z} \left( \epsilon_z \frac{\partial c_s}{\partial z}\right) = 0
+w_f \frac{\partial c_s}{\partial z} + \frac{\partial}{\partial z} \left( \epsilon_z \frac{\partial c_s}{\partial z}\right) = 0 \tag{9.1}
 $$
 
 with the boundary condition at the surface where the vertical sediment flux is zero:
 
 $$
-w_f c_s + \epsilon_z \frac{\partial c_s}{\partial z} = 0 \; \; \text{ at } z = z_s
+w_f c_s + \epsilon_z \frac{\partial c_s}{\partial z} = 0 \; \; \text{ at } z = z_s \tag{9.2}
 $$
 
 The boundary condition at the bed can be derived from a formula equating the bed concentration to the Shields stress and critical Shields stress:
 
 $$
-c
+c_0 = f(\tau_*, \tau_{*cr}) \; \; \text{ at }z=z_0 \tag{9.3}
 $$
+
+The eddy diffusivity $\epsilon_z$ determines the rate of vertical exchange of suspended sediment. Usually, it is assumed to be proportional to the kinematic eddy viscosity ($\nu_t$):
+
+$$
+\epsilon_z = \frac{\nu_t}{\sigma_\theta}
+$$
+
+The constant of proportionality $\sigma_\theta$ is called a turbulent Prandtl number, which is also used for other scalars than concentration, in particular for temperature Assuming a logarithmic velocity profile implies that the kinematic eddy viscosity reads:
+
+$$
+\nu_z = \kappa z u_\tau
+$$
+
+where $\kappa$ is the [[Von Karman Constant]] ($0.408$). Hence, with $\alpha_1 = 1/\sigma_\theta$, the equation for the eddy diffusivity can be written as:
+
+$$
+e_z = \alpha_1 \kappa z u_\tau
+$$
+
+Integrating equation 9.1 from an arbitrary height above the bottom to the surface, and substituting in equation 9.2 yields
+
+$$
+w_f c_s + \epsilon_z \frac{\partial c_s}{\partial z} = 0 \tag{9.4}
+$$
+
+This equation can be solved using the boundary condition at the bed (equation 9.3):
+
+$$
+\frac{c_s}{c_0} = \left(\frac{z_0}{z} \right)^{\frac{w_f}{\alpha \kappa u_\tau}}
+$$
+
+where $a = z_s - z_0$
+
+Alternatively, $\epsilon_z$ can be assumed to vary parabolically over the vertical:
+
+$$
+\epsilon_z = \alpha_2 \kappa u_\tau a \left(\frac{z}{a} \frac{a-z}{a} \right)
+$$
+
+The solution to equation 9.4 then reads:
+
+$$
+c_s = c_0 \left(\frac{a-z}{a} \frac{z_0}{a - z_0} \right)^{w_f / (\alpha_2 \kappa u_\tau)}
+$$
+
+Crucial in both the solutions is the dimensionless Rouse parameter
+
+$$
+P = \frac{w_f}{\kappa u_\tau}
+$$
+
+The Rouse parameter characterises the relative importance of settling due to gravity and vertical mixing due to turbulence. It indicates the degree of saturation of the concentration vertical. The criteria for suspension can be reformulates as:
