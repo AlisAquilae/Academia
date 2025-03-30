@@ -138,4 +138,30 @@ The Coulomb force is a result of the frictional contact between the grains, and 
 
 ![[Pasted image 20250330105543.png]]
 
-The forces $F_g$ and $F_L$ can be decomposed in tangential ($F_{gt}, F_{Lt}$) and normal ($F_{gn}, F_{Ln}$) components. At the cr
+The forces $F_g$ and $F_L$ can be decomposed in tangential ($F_{gt}, F_{Lt}$) and normal ($F_{gn}, F_{Ln}$) components. At the critical threshold for bedload transport the tangential forces must balance. It is difficult to determine the shear stress at which a particle starts sliding rigorously from this force balance. This is caused by the complicated flow around a bed particle at rest, which determines the appropriate value of $C_D$, $C_L$ and $u_D$
+
+Instead, we turn to a dimensional analysis starting with the notion that the relevant parameters are $\tau_0, \rho_s, \rho, D, g$ and $\mu$, where $\tau_0$ is bed shear stress. The parameters $\rho_s$ and $\rho$ can be represented by a single parameter $\Delta = (\rho_s - \rho)/\rho$, which is the relative density. This yields in dimensionless terms
+
+$$
+f_1 \left(\frac{\tau_0}{\rho \Delta g D}; \frac{D \sqrt{\rho \tau_0}}{\mu} \right) = 0
+$$
+
+or, introducing the shear velocity $u_\tau = \sqrt{\tau_0 / \rho}$ and the [[Kinematic Viscosity]] $\nu = \mu / \rho$:
+
+$$
+f_2 \left(\frac{\tau_0}{\rho \Delta g D}; \frac{D u_\tau}{\nu} \right)
+$$
+
+The two dimensionless parameters in the equation above are respectively the [[Shields Parameter]] $\tau_*$ and the particle Reynolds number $\text{Re}_p$. Bedload motion initiates if the Shields parameter exceeds a critical value:
+
+$$
+\tau_* = \frac{\tau_0}{\rho \Delta g D} \gt \tau_{*c}
+$$
+
+So far, the results from the dimensional analysis do not account for a sloping bed. If the longitudinal slope $\alpha$ is sufficiently high then in addition to the drag force $F_D$, a direct tangential gravitational force $F_{gt}$ applies, impelling the particle downslope. This reduces the critical Shields stress calculated from the equation above as in
+
+$$
+\tau_{*c} = \tau_{*c0} \cos \alpha \sqrt{1 - \frac{\tan \alpha}{\tan \phi_s}}
+$$
+
+where
