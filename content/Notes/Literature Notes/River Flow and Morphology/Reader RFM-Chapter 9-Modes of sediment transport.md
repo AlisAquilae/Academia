@@ -94,4 +94,36 @@ The relation was derived using flume data pertaining to well-sorted seidment in 
 While the MPM relation is historically important and still finds application, it has limitations. The flume data used to define it correspond to the very high end of the transport events that normally occur during floods in alluvial gravel-bed streams ([[Bankfull Discharge]] conditions).
 
 ## 9.3.2 Einstein equation
-Einstein followed a probabilistic philosophy, abandoning the concept of a critical shear stress. He tried to estimate sediment transport flux by accounting for the probability that any sediment particle within a population would by mobalised by the fluxtuating flow fiel
+Einstein followed a probabilistic philosophy, abandoning the concept of a critical shear stress. He tried to estimate sediment transport flux by accounting for the probability that any sediment particle within a population would by mobalised by the fluctuating flow field. An implicit relation is proposed of the form:
+
+$$
+\frac{43 \Phi}{1 + 43\Phi} = 1-\frac{1}{\sqrt{\pi}} \int\limits_{-(0.143/\tau_*)-2}^{+(0.143/\tau_*)-2} \, e^{-t} \, \mathrm{d}t
+$$
+
+The relation takes into account that small sediment grains hide within the pore space. For larger shear stresses, the Einstein formula approaches $\Phi \approx 8 \tau_*$. Apart from the absence of a threshold, Einstein's equation differs from many other bedload formulas in that the transport rate is not approximately proportional to the Shields stress raised to the power 1.5.
+
+>[!Note]
+>Some more examples are very briefly mentioned in the reader, which are all based on the two formulas described above
+
+
+## 9.3.3 Bagnold equation
+Rather than starting from a dimensional analysis, Bagnold's  approach was to estimate the forces required to move an entire later of the bed relative to underlying layers. When the Shields stress is large enough ($\tau_* \gt \tau_{*sheet}$) and the bedload layer devolves into a sliding layer of grains that can be several grains thick, sheet flow conditions are said to occur. In case of a negligible bed slope, the Coulomb force for this would be
+
+$$
+\begin{aligned}
+F &= \tan\phi_s (\rho_s - \rho) g V_s \\
+&= \tan\phi_s (\rho_s - \rho) g A c_s \delta_B
+\end{aligned}
+$$
+
+where $\tan\phi_s$ is the coefficient of internal friction. Normalising by area ($A$), substitution of $F/A = \tau_b$, where $\tau_b$ is the bed shear stress, and incorporating a velocity term on each side of the equation gives (remember, $q_{BL} = c_s \delta_b u_s$):
+
+$$
+\tau_b u_s = \tan\phi_s(\rho_s - \rho) g \,q_{BL}
+$$
+
+To solve the equation for bedload transport, Bagnold assumes a hydraulically rough flow over a plane bed ($D/z_0 = 30$), so that the velocity at the height of the grain diameter is $u_s (z = D) \approx 8.5 u_\tau$ (see the Boundary layer chapters). He furthermore defined the efficiency factor $e_b$, to represent the ratio of the flow's capacity to do work to the amount of work done to move sediment. And with $\tau_b = \rho u_\tau^2$, Bagnold solves for $q_{BL}$:
+
+$$
+q_{BL} = \frac{8.5 e_b \rho u^3_\tau}{(\rho_s)}
+$$
