@@ -104,4 +104,38 @@ $$
 
 Hence, in laminar flow $w_f \propto D^2$ provided that $\text{Re}_p \lt 0.1$. The latter condition is rarely met in rivers. However, Stoke's law is often used to infer the "effective diameter" of a sediment suspension, either during low flow conditions (e.g. slack water in tidal estuaries) or in the laboratory. The bulk settling velocity is measured and then the diameter is backed out of equation 8.1.
 
-In turbulent flow 
+In turbulent flow ($\text{Re} \gt 1000$), the drag coefficient becomes independent of the particle Reynolds number and approximates as:
+
+$$
+C_D \approx 0.5
+$$
+
+This implies that $w_f \propto \sqrt{D}$. An all-encompassing approximation for the particle fall velocity of sand and gravel reads as:
+
+$$
+C_D = \frac{24\mu}{\rho |w_f| D} + 1.5
+$$
+
+which is valid for particle Reynolds number $\text{Re}_p \lt 10^4$. 
+
+
+---
+# 8.5 Threshold of sediment motion
+If water at rest above a mobile bed gradually starts to flow, the sediment particles at the bed do not show an immediate response. Up to some flow velocity no particles move at all, which is referred to as the **threshold of sediment motion**. Because of the inhomogeneity of alluvial sediment and the stochastic nature of turbulence, the velocity and associated shear stress threshold is a stochastic quantity.
+
+Analysis of the threshold of sediment can start by setting up a force balance for an immersed particle on a sloping bed, which is at the onset of moving off the ed by the surrounding flow. The forces acting on the exposed sediment particle on a sloping bed are.
+
+- The net gravity force: $F_g = (\rho_s - \rho) \, V , g$
+- The lift force: $F_L = \frac{1}{2} \mu_D^2 C_L A$
+- The drag force: $F_D = \frac{1}{2} \rho \mu_D^2 C_D A$
+- The resistance of Coulomb force $F_c = \tan(\phi_s F_{gn})$
+
+where
+- $u_D$ is the flow velocity that would occur if the particle was absent
+- $\phi_s$ is the angle of repose, which refers to the steepest angle at which a pile of unconsolidated grains remains stable
+
+The Coulomb force is a result of the frictional contact between the grains, and is assumed to vary linearly with the component of the gravity force normal to the surface. The constant of proportionality is derived by considering the situation in which the inclination angle $\alpha$ of the surface equals the angle of repose, resulting in the relation $F_c = \tan(\phi_s F_{gn})$ that applies to an arbitrary angle $\alpha$. 
+
+![[Pasted image 20250330105543.png]]
+
+The forces $F_g$ and $F_L$ can be decomposed in tangential ($F_{gt}, F_{Lt}$) and normal ($F_{gn}, F_{Ln}$) components. At the cr
