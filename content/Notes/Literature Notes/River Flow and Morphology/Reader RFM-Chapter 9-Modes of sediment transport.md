@@ -125,5 +125,48 @@ $$
 To solve the equation for bedload transport, Bagnold assumes a hydraulically rough flow over a plane bed ($D/z_0 = 30$), so that the velocity at the height of the grain diameter is $u_s (z = D) \approx 8.5 u_\tau$ (see the Boundary layer chapters). He furthermore defined the efficiency factor $e_b$, to represent the ratio of the flow's capacity to do work to the amount of work done to move sediment. And with $\tau_b = \rho u_\tau^2$, Bagnold solves for $q_{BL}$:
 
 $$
-q_{BL} = \frac{8.5 e_b \rho u^3_\tau}{(\rho_s)}
+q_{BL} = \frac{8.5 e_b \rho u^3_\tau}{(\rho_s - \rho) g \tan\phi_s}
+$$
+
+where $e_b / \tan\phi_s$ must be empirically set using bedload measurements. The value of $e_b$ depends on the fluid and ranges between $0.1$ and $0.2$ in water. The value for $\tan\phi_s$ depends on sediment characteristics, and is about $0.6$ for natural shaped sediment. The absence of a critical Shields stress in the formulation renders it invalid in low-energy environments. Bagnold's relation is an energistics approach, because the parameterisation is a function of flow energy. 
+
+The total number of bedload transport formulas available in the literature must be in the order of a thousand, which indicates that the introduction that follows is merely the tip of the iceberg. Selecting a bedload transport formula requires knowledge about the ranges of validity of alternative formulas, which may refer to:
+- grain size range
+- uniformity of the sediment
+- Shield stress range
+- specific density of the sediment
+- presence of bed forms
+
+---
+# 9.4 Suspended sediment
+Sediment remains in suspension when lift forces associated with turbulence overcome the particle fall velocity ($w_f$). The analysis of suspended sediment concentration profiles starts with a mass balance of the sediment in suspension. The 2DV (two-dimensional - vertical) mass balance for suspended sediment reads as:
+
+$$
+\frac{\partial c_s}{\partial t} + u \frac{\partial c_s}{\partial x} + w \frac{\partial c_s}{\partial z} = w_f \frac{\partial c_s}{\partial z} + \frac{\partial}{\partial z} \left(\epsilon_z \frac{\partial c_s}{\partial z} \right)
+$$
+
+where
+- $c_s$ is the volume concentration of the suspended sediment
+- $u, w$ are the horizontal and vertical sediment velocity components
+- $w_f$ is the particle fall velocity in still water conditions
+- $\epsilon_z$ is the eddy diffusivity
+
+Left of the equality sign are the temporal and advective inertial terms, which balance the settling term and the vertical mixing term right of the equality sign. Horizontal mixing may often be neglected. 
+
+In case of an equilibrium, the inertial terms cancel, which leads to the following non-trivial equilibrium state:
+
+$$
+w_f \frac{\partial c_s}{\partial z} + \frac{\partial}{\partial z} \left( \epsilon_z \frac{\partial c_s}{\partial z}\right) = 0
+$$
+
+with the boundary condition at the surface where the vertical sediment flux is zero:
+
+$$
+w_f c_s + \epsilon_z \frac{\partial c_s}{\partial z} = 0 \; \; \text{ at } z = z_s
+$$
+
+The boundary condition at the bed can be derived from a formula equating the bed concentration to the Shields stress and critical Shields stress:
+
+$$
+c
 $$
