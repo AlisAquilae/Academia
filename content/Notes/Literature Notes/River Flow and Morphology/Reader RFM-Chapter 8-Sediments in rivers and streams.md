@@ -17,4 +17,21 @@ Sediment can be defined as fragmented material formed by physical and chemical w
 # 8.2 Sediment transport, bed morphology and plan-form shape
 Natural rivers are dynamic elements of a landscape that constantly evolve in time, even in case of a constant discharge. Depending on the hydrological regime and geophysical setting, the planform shape of a river channel can be either meandering, braiding or straight. 
 - Meandering rivers scour their bends which leads to an evolutionary pattern characterised by the alternation of gradual elongation and sudden shortening by cutoff events
-- Braiding river reaches are composed of sand bars, bifurcations where streams diverge and confluences where streams converge. Whereas the morphological behvaiour of meande
+- Braiding river reaches are composed of sand bars, bifurcations where streams diverge and confluences where streams converge. Whereas the morphological behaviour of meandering rivers are fairly well-understood and to some degree predictable, braiding rivers develop chaotically and do rarely allow for deterministic predication. 
+- Natural straight river channels are often a sign of persistent flow conditions
+
+Within a river channel the river bed can feature bedforms of several types. Starting from a flat bed, increasing flow velocity typically results successively in ripples ($\text{Fr} \ll 1$), dunes ($\text{Fr} \lt 1$), flat bed ($\text{Fr} \le 1$), standing waves ($\text{Fr} = 1$) and antidunes ($\text{Fr} \gt 1$). At extremely high flow velocities that sometimes occur in mountainous streams, chutes and step-pools may form, where the steps often consist of bed rock material. Bedforms have a great influence on flow resistance. The shear stress at the bed is composed not only of a contribution of the grains but also of an additional contribution caused by drag of the bedforms. In the Netherlands dunes develop in the Rhine during relatively high discharges, which at times leads to undesirably high water levels.
+
+The morphological behaviour of rivers briefly introduced above is an isolated component of the interaction between water motion, sediment transport and geomorphology. Figure 8.5 presents a flow chart of what can be termed the morphological feedback system. Water flow over an alluvial bed (meaning that the bed non-fixed as it consists of alluvium, i.e. eroded sediment) can cause entrainment, transport and settling of bed sediment. The systematic displacement of sediment by river flow causes planform changes and bedform dynamics. In turn, changes in the river planform and bedform developments alter flow patterns and the associated sediment transport processes. Understanding morphological developments in rivers thus requires to consider processes of flow and sediment transport. 
+
+
+![[Pasted image 20250330101101.png]]
+
+---
+# 8.3 Bulk properties of sediment
+The dynamic interaction between water and sediment is for a major part dependent on the bulk properties of sediment, i.e. the properties of groups of sediment particles. Various sediment particles suspended in a river flow may have different sizes, shapes, specific gravities and fall velocities. The characteristic properties of the sediment are determined by taking a number of samples and making a statistical analysis of the samples to determine the mean, distribution and standard deviation of the sample. 
+
+The first property to classify is sediment size. Several slightly differing definitions apply to the sediment diameter:
+- Sieve diameter: diameter of the smallest circle that encompasses one dimension of the grain
+- Sedimentation or standard fall diameter: diameter of the quartz sphere that would settle at the same speed as the sediment grain in still, distilled water at 24 degree Celsius. It arises from settling type measurements of grain size. 
+- Nominal diameter: represents the diameter of the sphere that would take up the same volume as the sediment grain
