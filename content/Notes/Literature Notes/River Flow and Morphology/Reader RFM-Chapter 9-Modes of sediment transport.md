@@ -61,4 +61,37 @@ The velocity of suspended load particles is often considered to be equal to the 
 
 ---
 # 9.3 Bedload transport
-Bedload transport $q_{BL}$ can be assumed to depend upon five variables: sediment density $\rho_s$, water density $\rho$, bed shear stress $\tau_b$, grain size $D$ and the gravity ac
+Bedload transport $q_{BL}$ can be assumed to depend upon five variables: sediment density $\rho_s$, water density $\rho$, bed shear stress $\tau_b$, grain size $D$ and the gravity acceleration $g$. Choosing $\rho, D$ and $g$ as repeating variables, a dimensional analysis yields the following generalised transport formula:
+
+$$
+\phi \left(\frac{\rho_s - \rho}{\rho}; \frac{q_{BL}}{D^{3/2} g^{1/2}};\frac{\tau_b}{\rho g D} \right) = 0
+$$
+
+The relative density $\Delta = (\rho_s - \rho)/\rho$ is usually included in the shear stress term and in the sediment transport term. The shear stress term divided by $\Delta$ is recognised as the [[Shields Parameter|Shields stress]]. The sediment transport term can be combined with $\Delta$ to yield the Einstein bedload number $\Phi$, which is defined as follows:
+
+$$
+\Phi = \frac{q_{BL}}{\sqrt{\frac{\rho_s - \rho}{\rho}g D^3}}
+$$
+
+To quantify bedload transport, $\Phi$ is empirically related either directly with the Shields stress $\tau_*$ or with the excess of the Shields stress above a critical Shields stress ($\tau_{*c}$). We start to consider sediment transport in the absence of bed forms, i.e. plane bed transport. A functional relation is sought of the form:
+
+$$
+\Phi = f(\tau_*; \tau_{*c})
+$$
+
+## 9.3.1 Meyer-Peter and Müller equation
+One of the most notorious bedload transport relations is that due to Meyer-Peter and Müller (MPM), which takes the form:
+
+$$
+\begin{array}{ll}
+\Phi = 0 & \tau_* \lt 0.047 \\
+\Phi = 8(\tau_* - 0.047)^{3/2} & \tau_* \gt 0.047
+\end{array}
+$$
+
+The relation was derived using flume data pertaining to well-sorted seidment in the sand-gravel sizes $D$ between $0.03$ and $2.9$ cm. After re-analysis of the original data, Wong and Parker corrected the proportionality constant from $8$ to $4.93$ and the exponent from $1.5$ to $1.6$.
+
+While the MPM relation is historically important and still finds application, it has limitations. The flume data used to define it correspond to the very high end of the transport events that normally occur during floods in alluvial gravel-bed streams ([[Bankfull Discharge]] conditions).
+
+## 9.3.2 Einstein equation
+Einstein followed a probabilistic philosophy, abandoning the concept of a critical shear stress. He tried to estimate sediment transport flux by accounting for the probability that any sediment particle within a population would by mobalised by the fluxtuating flow fiel
