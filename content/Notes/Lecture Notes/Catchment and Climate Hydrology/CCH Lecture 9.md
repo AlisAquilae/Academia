@@ -43,3 +43,16 @@ Accumulation phase of snow much more difficult to model than snowmelt.
 In addition, we are dealing with a complex landscape. Hills facing south receive much more radiation than hills facing north. This is not explained by the degree-day model alone. 
 
 Even more complex: snow drift. Snow blowing in from somewhere else in the landscape. 
+
+---
+# Snow and climate change
+Given that temperature is important for snow, it is not surprising that snowcover is decreasing given climate change. 
+
+Maximum snow is dropping slower than mean snow dropping.
+
+Increase in temperature does not mean a quicker increase in snowmelt. This is because snow is a seasonal phenomenon. If temperature pushes snowmelt earlier into the season, snowfall is pushed into a season where radiation is lower. 
+
+Snow-albedo feedback: decreasing snowcover increases temperature further. 
+
+---
+# Paper for today:
