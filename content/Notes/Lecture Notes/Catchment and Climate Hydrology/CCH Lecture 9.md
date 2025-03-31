@@ -55,4 +55,5 @@ Increase in temperature does not mean a quicker increase in snowmelt. This is be
 Snow-albedo feedback: decreasing snowcover increases temperature further. 
 
 ---
-# Paper for today:
+# Glaciers and climate change
+Ice can deform and flow under pressure (stress). The movement is characterised by plasticity. This is what differentiates it from 
