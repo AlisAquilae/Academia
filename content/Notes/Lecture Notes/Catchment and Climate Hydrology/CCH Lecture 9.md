@@ -38,3 +38,6 @@ Once snow has fallen, most models use degree-day concept. It is linearly and eas
 
 Snowmelt runoff model (SRM), mainly used in US, accounts for differences in elevation when using tenperatures and snowmelt. Physically-based snowmelt modelling (VIC) uses thermodynamics, but are quickly very complex. 
 
+Accumulation phase of snow much more difficult to model than snowmelt.
+
+In addition, we are dealing with a complex landscape. Hills facing south receive much more radiation than hills facing north. This is not explained by the degree-day model alone. 
