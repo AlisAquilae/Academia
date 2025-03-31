@@ -114,9 +114,9 @@ The course material for this course consists of scientific papers. Given that th
 ## 3. Floods and Lowlands
 - [[CCH Lecture 7]]
 - [[CCH Lecture 8]]
-- [[CCH Lecture 9]]
 
 ## 4. Cryosphere and Variability
+- [[CCH Lecture 9]]
 - [[CCH Lecture 10]]
 - [[CCH Lecture 11]]
 
