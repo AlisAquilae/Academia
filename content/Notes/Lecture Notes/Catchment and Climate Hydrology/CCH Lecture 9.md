@@ -56,4 +56,10 @@ Snow-albedo feedback: decreasing snowcover increases temperature further.
 
 ---
 # Glaciers and climate change
-Ice can deform and flow under pressure (stress). The movement is characterised by plasticity. This is what differentiates it from 
+Ice can deform and flow under pressure (stress). The movement is characterised by plasticity. This is what differentiates it from snow
+
+It is a persistent body of dense ice that is constantly moving under its own weight. 
+
+Equilibrium line: where 'firm' changes into ice. Above this is accumulation zone (accumulates mass). Below ablation. 
+
+Glaciers are shrinking and disappearing. 
