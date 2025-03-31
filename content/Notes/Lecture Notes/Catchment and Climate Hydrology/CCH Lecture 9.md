@@ -34,4 +34,7 @@ Thus snow can both help and hinder
 # Snow in models
 In models, precipitation divided into rain and snow based on temperature threshold. Transition is often gradual and depends on atmospheric conditions. E.g. above a maximum temperature of 2-3 degrees no snow is possible. Below -0.5 - 0.5 degrees all precipitation typically falls as snow. In between, the fraction of snow is often assumed to vary linearly. 
 
-Once snow has fallen, most models use degree-day concept. It is linearly and easy to work with, but its not purely  physical. Assumes all snow melt is because of snow melt exceeding 0 degrees. Any further exceedance than that has a linear effect. E.g. 7 days of 6 degrees gives 7x6 is 42 degree days
+Once snow has fallen, most models use degree-day concept. It is linearly and easy to work with, but its not purely  physical. Assumes all snow melt is because of snow melt exceeding 0 degrees. Any further exceedance than that has a linear effect. E.g. 7 days of 6 degrees gives 7x6 is 42 degree days. As a first order approach this is the way to go, but it has its limitations. Daily melt is then degree days multiplied by a factor which depends on the density of the snow. 
+
+Snowmelt runoff model (SRM), mainly used in US, accounts for differences in elevation when using tenperatures and snowmelt. Physically-based snowmelt modelling (VIC) uses thermodynamics, but are quickly very complex. 
+
