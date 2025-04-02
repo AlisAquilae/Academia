@@ -44,3 +44,15 @@ In the bend, you have a balance between two forces: the centrifugal force and ce
 Balance between the two averaged over the depth. However, not a balance at all depths individually. This is because centripetal force is constant over depth, whereas centrifugal force differs for different depths, being either higher or lower than centripetal force. This changes with depth. Shallow depth means more centrifugal, deep means more centripetal. This creates a 'circulation', also called 'secondary flow'. This distributes high momentum to outer bend and lower momentum to inner bend. 
 
 This explains why outer bend will tend to erode away, as momentum is higher here. Meanwhile, in inner bend momentum is lower, means deposition is higher there. 
+
+
+---
+# Sharp bends
+Sharp bends can form when: 
+- Low streampower
+- Wide floodplains (low slopes)
+- Erosion resistant and vegetated
+
+The planform "freezes" and deep scours develop. Meander becomes sharper and sharper over time, creating sharp bends. 
+
+Due to deep scours, you get adverse pressure gradients and separation of flow (see boundary layer theory)
