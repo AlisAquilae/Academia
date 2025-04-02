@@ -42,4 +42,12 @@ For short-term forecasting and warning this is somewhat different
 
 ---
 # wflow_sbm
-In the past, lumped 
+In the past, lumped model used by Rijkswaterstaat: HBV
+
+Now, processes are split more. 
+
+- Snow: day-degree approach
+- Interception: precipitation intercepted on vegetation
+- Evaporation and transpiration from different sources
+- Soil represented in different layers (which are variable)
+- Groundwater flow not through head differences but through kinematic approach (slope as driving force for lateral flow). Works well for coarse scale. 
