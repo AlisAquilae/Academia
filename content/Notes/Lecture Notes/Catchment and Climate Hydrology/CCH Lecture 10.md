@@ -51,3 +51,4 @@ Now, processes are split more.
 - Evaporation and transpiration from different sources
 - Soil represented in different layers (which are variable)
 - Groundwater flow not through head differences but through kinematic approach (slope as driving force for lateral flow). Works well for coarse scale. 
+- Reservoirs and lakes
