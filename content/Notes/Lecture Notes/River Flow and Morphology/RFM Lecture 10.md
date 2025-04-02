@@ -55,4 +55,6 @@ Sharp bends can form when:
 
 The planform "freezes" and deep scours develop. Meander becomes sharper and sharper over time, creating sharp bends. 
 
-Due to deep scours, you get adverse pressure gradients and separation of flow (see boundary layer theory)
+Superelevation outer bend in flow direction, adverse pressure gradient, flow reversal outer bend, flow convergence (water has to go somewhere). This reinforces scour formation. Cross-sectional area increases, expanding flow, adverse pressure gradient (in inner bend as well). So because of
+- Adverse pressure gradient in the outer bend
+- Increasing cross-sectional area due to scours
