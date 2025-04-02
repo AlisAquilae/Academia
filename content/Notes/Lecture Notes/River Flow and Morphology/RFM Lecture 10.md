@@ -34,3 +34,13 @@ Why do rivers meander?
 - Rivers tend towards a meander
 
 In meandering rivers, bedslope is not as steep. At some point, almost no bedslope difference. River wants to follow shortest path, cut through.
+
+---
+# Flow structure in river bends
+In the bend, you have a balance between two forces: the centrifugal force and centripetal force
+- Centrifugal: inertia causing you to 'overshoot'
+- Centripetal: force towards the inner bend. Flow accumulates in outer bend (pushed up against it). This superelevation / tilt / transversal slope causes this centripetal force. 
+
+Balance between the two averaged over the depth. However, not a balance at all depths individually. This is because centripetal force is constant over depth, whereas centrifugal force differs for different depths, being either higher or lower than centripetal force. This changes with depth. Shallow depth means more centrifugal, deep means more centripetal. This creates a 'circulation', also called 'secondary flow'. This distributes high momentum to outer bend and lower momentum to inner bend. 
+
+This explains why outer bend will tend to erode away, as momentum is higher here. Meanwhile, in inner bend momentum is lower, means deposition is higher there. 
