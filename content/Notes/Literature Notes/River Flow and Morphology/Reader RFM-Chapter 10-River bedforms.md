@@ -29,6 +29,59 @@ Different types of sand waves may occur simultaneously on a flat bed, but as the
 Linear stability theories apply strictly to the inception of bed forms. They are only able to predict whether or not sand waves are generated. Another limitation is that the outcome is independent of the initial perturbation amplitude. Unsteady perturbations amplify or decay forever. 
 
 ## 10.2.2 Dunes, antidunes, ripples and alternate bars
-The rupples, dunes and antidunes illustratred in Figure 2-36 are the classic bed forms of erodible-bed, open-channel flow. On the one hand, they 
+The rupples, dunes and antidunes illustratred in Figure 2-36 are the classic bed forms of erodible-bed, open-channel flow. On the one hand, they are the product of flow and sediment transport, and on the other hand, they profoundly influence flow and sediment transport. In fact, all of the bed load equations are strictly invalid in the presence of bed forms. The adjustment necessary to render them valid (i.e. removal of form drag) is discussed later in this chapter
 
 ![[Pasted image 20250403112852.png]]
+
+Ripples, dunes and antidunes are undular (wavelike) features that have wavelength $\lambda$ and wave height $\Delta$ that scale with the flow depth $H$, as defined below.
+
+### 10.2.2.1 Dunes
+Well-developed dunes tend to have wave heights $\Delta$ scaling up to about one-sixth of the depth, i.e.
+
+$$
+\frac{\Delta}{H} \le \frac{1}{6}
+$$
+
+Dune wavelength can vary considerably. A fairly typical range can be quantified in terms of dimensionless wavenumber $k$, where
+
+$$
+k = \frac{2 \pi H}{\lambda}
+$$
+
+This range is given by
+
+$$
+0.25 \lt k \lt 4.0
+$$
+
+Dunes invariable migrate downstream. They are typically approximately triangular in shape and usually (but not always) possess a slip face, beyond which the flow is separated for a certain length.
+
+A dune progresses forward as bed load accretes on the slip face. Generally, very little bed load is able to pass beyond the face without depositing on it, whereas most of the suspended load is not directly affected by it.
+
+Dunes are characteristic of [[Subcritical Flow]] in the Froude sense. In a shallow-water (long-wave) model, the Froude criterion dividing subcritical ($Fr \lt 1$) and supercritical ($Fr \gt 1$) flow is 
+
+$$
+Fr = 1
+$$
+
+where the [[Froude Number]] is given by
+
+$$
+Fr = \frac{U}{\sqrt{gH}}
+$$
+
+Dunes, however, do not qualify as long waves, in that their wavelength is of the order of the flow depth. A detailed potential flow analysis over a wavy bed yields the following (wave-number dependent) criterion for critical flow over a bedform
+
+$$
+Fr^2 = \frac{1}{k} \tanh(k)
+$$
+
+Note that as $k \to 0$ ($\lambda \to \infty$), $\tanh(k) \to k$, and the $Fr \to 1$ again. For dunes to occur, then, the condition
+
+$$
+Fr^2 \lt \frac{1}{k} \tanh(k)
+$$
+
+must be satisfied. Both dunes and antidunes cause the water surface to undulate as well as the bed. In the case of dunes, the undulation of the water surface is usually of much smaller amplitude than that of the bed; the two are nearly 180 degrees out of phase. 
+
+Let $c$ denote the wave speed of the dune. The bed load transport rate by dunes can be estimated as the volume of material transported forward per unit bed area per unit time by a m
