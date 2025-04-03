@@ -84,4 +84,36 @@ $$
 
 must be satisfied. Both dunes and antidunes cause the water surface to undulate as well as the bed. In the case of dunes, the undulation of the water surface is usually of much smaller amplitude than that of the bed; the two are nearly 180 degrees out of phase. 
 
-Let $c$ denote the wave speed of the dune. The bed load transport rate by dunes can be estimated as the volume of material transported forward per unit bed area per unit time by a m
+Let $c$ denote the wave speed of the dune. The bed load transport rate by dunes can be estimated as the volume of material transported forward per unit bed area per unit time by a migrating dune. If the dune is approximated as triangular shape, the following approximation holds
+
+$$
+q \approx \frac{1}{2} \Delta c(1-\lambda_p)
+$$
+
+where
+- $\Delta$ is the amplitude of the bed form
+- $c$ is the celerity of the bed form
+- $\Lambda_p$ is the porosity of the sediment bed
+
+Rubin and Hunter (1982) proposed that the transport rate given by the equation above be called the bed form transport rate instead of the bed load transport rate. 
+
+The celerity of dunes is a small fraction of the mean flow velocity. 
+
+### 10.2.2.2 Antidunes
+Antidunes are distinguished from dunes by the fact that the water surface undulations are nearly in phase with those of the bed. They are associated with [[Supercritical Flow]], in the sense that 
+
+$$
+Fr^2 \gt \frac{1}{k} \tanh(k)
+$$
+
+Antidunes may migrate either upstream or downstrean. Upstream migrating antidunes are usually rather symmetrical in shape and lack a slip face. Downstream migrating antidunes are rather rarer; these have a well-defined slip face and look rather like dunes. The distinguishing feature is the water surface undulations, which are very pronounced in the case of antidunes. 
+
+The potential-flow criterion dividing upstream-migrating antidunes from downstream-migrating antidunes is
+
+$$
+Fr^2 = \frac{1}{k \, \tanh(k)}
+$$
+
+Values lower than the above are associated with upstream-migrating antidunes.
+
+### 10.2.2.3 Ripples
