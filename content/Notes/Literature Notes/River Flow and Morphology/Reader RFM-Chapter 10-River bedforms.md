@@ -143,8 +143,19 @@ Various bed forms are associated with various flow regimes. In the case of a san
 The effect of bed forms on flow resistance can be explained as follows. As noted earlier for equilibrium flows in wide straight channels, the relation for bed resistance can be expressed in the form
 
 $$
-\tau_b = \rho C_j U^2
+\tau_b = \rho C_f U^2
 $$
 
 where
-- $C_j$ is the bed friction coefficie
+- $C_f$ is the bed friction coefficient
+
+If the bed were rigid and the flow rough, $C_j$ would vary only weakly with the flow. As a result, the relation between $\tau_b$ and $U$ is approximately parabolic for a flat rough bed.
+
+![[Pasted image 20250403121525.png]]
+
+The effect of bed forms is to increase the bed shear stress to values often well above that associated with the skin friction of a rough bed alone. In Figure 2-38, a ploit of $\tau_b$ versus $U$ is given for the case of an erodible bed. At very low values of $U$, the parabolic law is followed. As ripples and then dunes are formed, the bed shear stress rises to a maximum value. At this maximum value, the value of $C_f$ is seen to be as much as five times the value without Dunes. It is clear that dunes play a very important role with regards to bed resistance. The increased resistance results from form drag in the lee of the dune. 
+
+As the flow velocity increases further, dune wavelength gradually increases and dune height diminishes, leading to a gradual reduction in resistance. At some point, the dunes are washed out, and the parabolic law is again satisfied. At even higher velocities, the form drag associated with antidunes appears; it is not as pronounced as that of dunes. 
+
+In the case of a bed coarser than 1.0 mm, the ripple regime is replaced by a zone characterised by a lower-regime (subcritical) flat bed. Above this lies the ranges for dunes, upper-regime flat bed, and antidunes.
+
