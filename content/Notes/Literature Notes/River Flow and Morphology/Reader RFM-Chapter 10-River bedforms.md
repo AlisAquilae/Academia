@@ -159,3 +159,6 @@ As the flow velocity increases further, dune wavelength gradually increases and 
 
 In the case of a bed coarser than 1.0 mm, the ripple regime is replaced by a zone characterised by a lower-regime (subcritical) flat bed. Above this lies the ranges for dunes, upper-regime flat bed, and antidunes.
 
+## 10.2.4 Dimensionless characterisation of bed form regime
+
+
