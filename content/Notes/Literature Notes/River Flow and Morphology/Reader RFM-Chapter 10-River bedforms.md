@@ -117,3 +117,14 @@ $$
 Values lower than the above are associated with upstream-migrating antidunes.
 
 ### 10.2.2.3 Ripples
+Ripples are dune-like features that occur most of the time in the presence of a viscous sublayer. The existance of a viscous sublayer does not imply that the flow is either laminar or turbulent. Rather, when the flow is turbulent, the existence of a well-defined sublayer implies flow in the turbulent smooth regime rather than the turbulent rough regime. Ripples look very much like dunes in that they migrate downstream and have a pronounced slip face. They generally are much more three-dimensional in structure than dunes, however, and have little effect on the water surface. 
+
+As mentioned earlier, many authors have suggested that a criterion for the existence of ripples is the existence of a viscous sublayer. Recalling that the thickness of the viscous sublayer is given by $\delta_v = 11.6 v / u_*$, it follows that ripples form when
+
+$$
+R_p = \frac{u_* D}{v} \le 11.6
+$$
+
+
+>[!Warning]
+>Skipped t
