@@ -227,3 +227,21 @@ The Rouse parameter characterises the relative importance of settling due to gra
 - $P \lt 1$: full suspension
 
 The solutions provided above give the *relative* concentration, since the reference concentration $c_0$ at some distance $z_0$ from the bed has to be known. Estimation of $c_0$ requires a separate analysis. One approach is to equate $c_0$ with the bedload concentration. It is further noted that for both the solutions $c_s \to \infty$ for $z \to 0$, which is physically impossible since $c_{\text{max}}$ is approximately $0.6$. A final remark refers to the definition of the location of the bed, which can be difficult due to bed irregularities cause by ripples and dunes. 
+
+The relative magnitudes of $w_f$ and $u_{\tau}$ are not only crucial to equilibrium conditions, but also determinative to incipient suspended load transport. Bagnold proposed that the onset of significant sediment transport occurs if 
+
+$$
+u_\tau = w_f
+$$
+
+which is equivalent to
+
+$$
+\tau_{*c} = \frac{w_f^2}{\Delta g d}
+$$
+
+The particle vfall velocity $w_f$ is a function of the drag coefficient $C_D$, which in turn is a function of the particle Reynolds number $\text{Re}_p$. Hence, just as for bedload transport, the incipient motion of suspended sediment is a function of $\text{Re}_p$. Once more, it is stressed that there is no exact threshold of motion for a granular bed subjected to a turbulent flow. Both grain placement and the turbulence of the flow have elements of randomness.
+
+
+---
+# 9.5 Depth-averaged model (==Skipped==)
