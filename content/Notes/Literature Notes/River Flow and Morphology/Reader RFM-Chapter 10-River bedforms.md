@@ -127,4 +127,24 @@ $$
 
 
 >[!Warning]
->Skipped t
+>Skipped the various relations and criteria discussed
+
+
+### 10.2.2.4 Alternate bars
+Alternate bars are bed forms most commonly found in straight alluvial channels. Their geometry is three-dimensional. Navigation conditions and streambank stability can be affected by alternate bars. When alternate bars are present, pools develop on alternate sides of the channel and the floor meanders from pool to pool. Under these conditions, the flow might start to attack the stream banks, eventually causing bank erosion and leading to the initiation of stream meandering. The pools formed by alternate bars also provide habitat and play an important role in stream ecology.
+
+>[!Warning]
+>I again skipped the relations and formulaic conditions for alternate bars
+
+
+## 10.2.3 Progression of bed forms
+Various bed forms are associated with various flow regimes. In the case of a sand-bed stream with a characteristic size about 0.5 mm, a clear progression is evident as flow velocity increases. This is illustrated in Figure 2-36 presented above. The bed is assumed to be initially glat. At very low imposed velocity $U$, the bed remains flat because no sediment is moved. As the velocity exceeds the critical value, ripples are formed. At higher values, dunes form and coexist with ripples. For even higher velocities, well-developed dunes form in the absence of ripples. At some point, the velocity reaches a value near the short-wave critical value in the Froude sense. Near this point, the dunes are often suddenly and dramatically washed out. This results in a flat bed known as an upper-regime (supercritical) flat bed. Further increases in velocity lead to the formation of antidunes, and finally to the chute and pool pattern. The last of these is characterised by a series of hydraulic jumps. 
+
+The effect of bed forms on flow resistance can be explained as follows. As noted earlier for equilibrium flows in wide straight channels, the relation for bed resistance can be expressed in the form
+
+$$
+\tau_b = \rho C_j U^2
+$$
+
+where
+- $C_j$ is the bed friction coefficie
