@@ -46,3 +46,4 @@ The course material consists of a reader designed specifically for this course.
 - [[RFM Lecture 13]]
 - [[RFM Lecture 14]]
 
+[[RFM Paper discussion formulas]]
