@@ -350,7 +350,7 @@ In Chézy and Manning formalism, respectively:
 
 $$
 \begin{array}{l}
-\frac{Q^2_e}{C^2 A^2_e R_ e} = S_0 & & \frac{n^2 Q^2_e}{A^2_e R^{4/3}_e} = S_o
+\frac{Q^2_e}{C^2 A^2_e R_ e} = S_o & & \frac{n^2 Q^2_e}{A^2_e R^{4/3}_e} = S_o
 \end{array}
 $$
 

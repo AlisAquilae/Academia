@@ -39,12 +39,16 @@ $$
 
 
 Here:
-- $S_o$ is the bed slope, defined as $\frac{Q^2_e}{C^2 A^2_e R_ e}$
-- $S_f$ is the friction slope, defined as $\frac{Q^2}{C^2 A^2 R}$
+- $S_o$ is the bed slope, defined as $\frac{Q^2_e}{C^2 A^2_e R_e}$
+- $S_f$ is the friction slope, defined as $\frac{Q^2}{C^2 A^2 R}$, i.e. equal to the bed slope
 - $Fr$ is the Froude number, defined as $\sqrt{\frac{Q^2 \, b}{g \, A^3}}$
 
 In all of these,
 - $Q$ is the discharge
 - $C$ is the Chézy coefficient
 - $A$ is the wetted area, i.e. the cross-sectional area
-- $R$ is the hydraulic radius
+- $R$ is the hydraulic radius (where $R_e$ refers to the hydraulic radius in a state of equilibrium)
+- $b$ is the width
+- $g$ is gravity
+- $u$ is velocity
+- $I$ is the intensity per unit of time and per unit of river length of the sum of all the external flows
