@@ -23,10 +23,20 @@ Here:
 - $H$ is the height
 - $x$ is the longitudinal distance
 - $t$ is time
-- 
-
+- $\rho$ is density
 
 
 Assumptions:
 1. One-directional
-2. Tid
+2. Tide-averaged
+
+
+---
+
+$$
+\frac{s_o - s_f - \frac{2 \, u \, I}{g \, A}}{1 - \text{Fr}^2} = 0
+$$
+
+
+Here:
+- $S_o$ is the bed slope, 
