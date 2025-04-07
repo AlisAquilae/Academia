@@ -8,3 +8,18 @@ Related Notes:
 Related Terminology: 
 Related Courses: 
 ---
+# Today
+1. The perceptual model
+2. Model validation
+3. Uncertainty estimation methods
+
+---
+# Models
+A model is a simplified way to represent reality. 
+
+We often take the hydrological cycle for granted. But historically, this knowledge is only a few hundred years old. Water management is thousands of years old. 
+
+Thales from Milete one of the first to try to explain what hapens in natural phenomena (instead of attributing it to religion). But still relied on mystification 
+
+Plato: "tartarus". Where does the water flowing in the river come from?
+
