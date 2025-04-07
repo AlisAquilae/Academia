@@ -39,3 +39,16 @@ Procedure:
 5. Evaluation
 
 ---
+# Intermezzo
+Synthesis assignment
+Model: GR4J
+ML: Cart
+
+---
+# Model selection
+Model selection based on legacy. A system that works and continues to work
+
+Reasons:
+- Experience
+- Modelling ecosystems
+- Conventional approach bias
