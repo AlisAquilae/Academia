@@ -29,4 +29,8 @@ E.g.
 
 Always define this. Which terms are important, which do you need to measure?
 
-Most people assume the water balance to simply be P - ET - Q = $\Delta s$ . Other flows are assumed not to be as important. 
+Most people assume the water balance to simply be P - ET - Q = $\Delta s$ . Other flows are assumed not to be as important. However:
+- Intercatchment groundwater flow (across boundaries). Important in areas with complex geology or permeable soils. Never measured and difficult to estimate. Can be estimated using 
+  - Budyko curve (plot discharge / P, look for catchments which lie off the Budyko curve)
+  - Compare discharge simulation from model to observation. Rerun by adding or removing groundwater
+  - AET estimates. Most rainfall-runoff models are water balance conservative. Usually, model inputs are P and ETpot, and calibrate to Qobs. Model can only change ETpot to ETact. However, if IGF-inflow is ignored, ET is reduced too much
