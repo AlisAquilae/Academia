@@ -51,4 +51,4 @@ However, you can correct for them using statistical filters and physical correla
 We can identify 3 errors:
 - Bias: amplified when propagated through the hydrological system
 - Timing errors: attenuated when propagated through the hydrological system
-- Seasonally-varying errors: affect dynamic of 
+- Seasonally-varying errors: affect dynamic of simulated catchment water balance. 
