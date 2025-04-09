@@ -47,3 +47,8 @@ One of most common methods to observe precipitation is using radar. Problems:
 - Big rainfall event can also block rainfall behind it
 
 However, you can correct for them using statistical filters and physical correlations, or compare and combine using raingauges
+
+We can identify 3 errors:
+- Bias: amplified when propagated through the hydrological system
+- Timing errors: attenuated when propagated through the hydrological system
+- Seasonally-varying errors: affect dynamic of 
