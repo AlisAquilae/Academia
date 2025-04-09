@@ -62,3 +62,18 @@ You measure discharges at several moments in time, together with water level. Yo
 You can also measure using ADCP: derives $v$ from doppler shift (reflection of flowing particles). Sometimes this adcp is fixed, and use it instead of rating curve. Accuracy often assumed to be less than 5%, but in practice it is worse. 
 
 Difficulties: flow through floodplains, edges missing, compass calibration, moving bed
+
+Uncertainty:
+- Data errors (???????)
+- Natural processes (changes in channel due to bed movement and weed growth, non-stationary and non-uniform flows)
+- Rating-curve set-up (out of bank flows limiting the rise in water level, rating-curve extrapolation for extreme events prone to uncertainty)
+- Human influence (changes to the gauging station, flow regulation)
+
+How does this affect your discharge analysis?
+
+
+---
+# Examining discharge time series: error or artefact?
+Peculiarities: what to do? Leave it, remove, moving average, ...
+
+What caused it? "crime-scene investigation"
