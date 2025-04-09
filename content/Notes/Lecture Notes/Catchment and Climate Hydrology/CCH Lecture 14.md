@@ -52,3 +52,13 @@ We can identify 3 errors:
 - Bias: amplified when propagated through the hydrological system
 - Timing errors: attenuated when propagated through the hydrological system
 - Seasonally-varying errors: affect dynamic of simulated catchment water balance. 
+
+---
+# Discharge rating curves
+Stage-discharge relation (= rating curve) relates water height to discharge.
+
+You measure discharges at several moments in time, together with water level. You measure velocity, multiple with A. Interpolate/extrapolate height-discharge plot between observations. 
+
+You can also measure using ADCP: derives $v$ from doppler shift (reflection of flowing particles). Sometimes this adcp is fixed, and use it instead of rating curve. Accuracy often assumed to be less than 5%, but in practice it is worse. 
+
+Difficulties: flow through floodplains, edges missing, compass calibration, moving bed
