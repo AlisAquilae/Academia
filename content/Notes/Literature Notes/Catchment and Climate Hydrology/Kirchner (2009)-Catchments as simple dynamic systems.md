@@ -135,4 +135,9 @@ The paper's central hypothesis is that some catchments can be modeled as simple 
 - Discharge depends only on storage (i.e., no dominant bypass flow).
 - Q = f(S) is monotonic and invertible.
 
-# 3. 
+# 2. Formulas
+Only works for low $P$ and low $E$ periods
+
+Based on the formulas used in the paper, it is possible to "do hydrology backwards", i.e. predict $P$ and $E$ from $Q$
+
+Limitations: cannot deal with external fluxes, e.g. snowmelt, hortonian overland flow, etc.
