@@ -127,3 +127,12 @@ Apart from the requirement that $Q = f(S)$ must be an increasing function of $S$
 >I changed my methodology in summarising these papers halfway through this paper, which explains the sudden cut I make here
 
 
+# 1. Introduction
+The paper's central hypothesis is that some catchments can be modeled as simple nonlinear first-order dynamical systems, where discharge is a function of storage alone (Q = f(S)). He argues that instead of specifying the storage-discharge function a priori, it can be inferred from streamflow data directly.
+
+**Key assumptions:**
+- Catchment behaves as a single storage element.
+- Discharge depends only on storage (i.e., no dominant bypass flow).
+- Q = f(S) is monotonic and invertible.
+
+# 3. 
