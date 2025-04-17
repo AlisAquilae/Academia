@@ -9,4 +9,4 @@ Related Terminology:
 Related Courses: 
 ---
 # Today
-Synthesis
+Synthesis 
