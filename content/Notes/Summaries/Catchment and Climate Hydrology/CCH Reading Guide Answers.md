@@ -73,11 +73,14 @@ Related Courses: ["[[Catchment and Climate Hydrology]]"]
 >Fig. 4 in Albertson & Kiely shows the correspondence between the observed and simulated soil moisture content. Provide multiple arguments why you think the model fits are good/poor
 >
 >>[!Check]- Answer
->>Dynamics are generally well simulated, but increases after rainfall are not consistent. This can be due to errors in rainfall observations are processes s
+>>Dynamics are generally well simulated, but increases after rainfall are not consistent. This can be due to errors in rainfall observations are processes such as preferential flow not represented in the model
 
 
 >[!Question] Question 1.10
 >In both the Albertson & Kiely and the Laio et al. models, the loss function is a central element controlling the soil moisture dynamics and distribution. How is the loss function defined in Albertson & Kiely, and what are the similarities and difference in the shape and parameterisation of the loss function?
+>
+>>[!Check]- Answer
+>>The main difference between the models is that Laio et al. assume there is no drainage flux below field capacity, whereas the field capacity is not well defined in the other model
 
 
 >[!Question] Question 1.11
@@ -87,17 +90,28 @@ Related Courses: ["[[Catchment and Climate Hydrology]]"]
 
 >[!Question] Question 1.12
 >The study by Hoek van Dijke calculates changes in ET and Q based on six different Budyko models and/or parameters sets. What is the main advantage of doing so? And what is the main difference between the models?
+>>[!Check]- Answer
+>>As moisture from evapotranspirationo is being transported downwind to form new precipitation, deforestation in upwind parts of the Amazon will have a larger impact on the stability of the Amazon as a whole. It can influence precipitation all over the region, whereas deforestation in the downwind areas will have a more localised effect on climate and precipitation
 
 
 >[!Question] Question 1.13
 >Consider the gridded maps of water availability (streamflow) in Fig. 1e and 1f in Hoek van Dijke et al. Explain, using Extended Data Fig. 1, why 1e has only positive changes, and 1d both positive and negative.
+>>[!Check]- Answer 
+>>Using an ensemble of models will generally lead to a more robust estimate. In this particular case, the different models are fitted to several independent datasets from different parts of the world, making it more likely that the simulated values are realistic across different climate zones
 
 
 >[!Question] Question 1.14
 >While most simulated discharge values for the different basins in Hoek van Dijke et al. lie close to the 1:1 line, there are some outliers. Which basins are they, and could you think of reasons why the discharge is off there?
+>>[!Check]- Answer
+>>Fig 1.e shows the streamflow changes without recycling. The Budyko models only predict negative streamflow changes following afforestation across all climates (negative changes in Extended Data Fig. 1). Fig 1f generally shows the same pattern, but especially in tropical areas shows large areas with more uniform slightly positive changes due to enhanced rainfall due to recycling
 
 
 >[!Question] Question 1.15
 >Consider Fig. 2. What is the main reason that in some basins (Amazon, Yangtze) the precipitation recycling in Hoek van Dijke et al. nearly counteracts the impact of forest cover changes, while in other basins such as the Rhine this effect is much smaller?
+>
+>>[!Check]- Answer
+>>In particular the Murray-Darling and Colorado show a poorer fit. Both basins flow through (semi-)arid regions with extensive irrigation and abstractions that are not included in the model, making it a logical result that the simulated values are higher. 
+
+
 
 
