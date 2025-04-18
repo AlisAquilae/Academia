@@ -37,6 +37,9 @@ Related Courses: ["[[Catchment and Climate Hydrology]]"]
 
 >[!Question] Question 1.4
 >Study Eqs 1 and 2 in Schaefli & Gupta and describe their difference
+>
+>>[!Check]- Answer
+>>In Eq. 2, the mean observed discharge has been replaced by a baseline discharge which is (or can be) a function of time of year. This baseline discharge can be the climatology, or the result from any (simplified) model run.
 
 
 >[!Question] Question 1.5
@@ -74,4 +77,14 @@ Related Courses: ["[[Catchment and Climate Hydrology]]"]
 
 
 >[!Question] Question 1.13
->Consider the gridded maps of water availability (streamflow) in Fig. 1
+>Consider the gridded maps of water availability (streamflow) in Fig. 1e and 1f in Hoek van Dijke et al. Explain, using Extended Data Fig. 1, why 1e has only positive changes, and 1d both positive and negative.
+
+
+>[!Question] Question 1.14
+>While most simulated discharge values for the different basins in Hoek van Dijke et al. lie close to the 1:1 line, there are some outliers. Which basins are they, and could you think of reasons why the discharge is off there?
+
+
+>[!Question] Question 1.15
+>Consider Fig. 2. What is the main reason that in some basins (Amazon, Yangtze) the precipitation recycling in Hoek van Dijke et al. nearly counteracts the impact of forest cover changes, while in other basins such as the Rhine this effect is much smaller?
+
+
