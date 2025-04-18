@@ -44,23 +44,36 @@ Related Courses: ["[[Catchment and Climate Hydrology]]"]
 
 >[!Question] Question 1.5
 >Consider Table 1 in Schaefli & Gupta. Explain how the NSEB is calculated and what the difference is with BE
+>
+>>[!Check]- Answer
+>>The NSBE is the NSE for the benchmark model. In this case, this is simply the interannual mean value for every calendar day. Because of the strong seasonal signal, this model already achieves a high NSE. The BE is the benchmark efficiency (Eq. 2), which can be seen as a correction of the NSE for NSBE
 
 
 >[!Question] Question 1.6
 >From the paper by Schaefli & Gupta, it is clear that different evaluation criteria and ways to apply these criteria exist, and that these can impact not only inferred model parameters but also whether a simulation is judged good or not. What can you identify as a central element in model evaluation?
+>
+>>[!Check]- Answer
+>>The metric has to be selected or interpreted based on the research question and characteristics of the timeseries. NSE values are generally higher for catchments with high than with low flow variability and that logarithmic transformation puts more emphasis on low flow conditions. In Schaefli and Gupta, it is argued that in catchments with a strong seasonality, the baseline should not be the mean but the mean seasonal cycle
 
 
 ## Albertson & Kiely (2001)
 >[!Question] Question 1.7
 >Albertson & Kiely use limited data from just 2 sites in their study. What do you think was the main novelty and contribution at the time of publication?
+>>[!Check]- Answer
+>>At the time of publication, few long-term high-accuracy observations of soil moisture dynamics were available. This in combination with a new conceptual modelling framework was the main contribution.
 
 
 >[!Question] Question 1.8
 >Describe in your own words why Albertson & Kiely refer to drainage/leakage as a fast process, and evapotranspiration as a slow process
+>>[!Check]- Answer
+>>Drainage fluxes are a much more strong function of soil moisture in wet conditions than evapotranspiration under dry conditions. As a result, the timescale corresponding to these processes differ
 
 
 >[!Question] Question 1.9
 >Fig. 4 in Albertson & Kiely shows the correspondence between the observed and simulated soil moisture content. Provide multiple arguments why you think the model fits are good/poor
+>
+>>[!Check]- Answer
+>>Dynamics are generally well simulated, but increases after rainfall are not consistent. This can be due to errors in rainfall observations are processes s
 
 
 >[!Question] Question 1.10
