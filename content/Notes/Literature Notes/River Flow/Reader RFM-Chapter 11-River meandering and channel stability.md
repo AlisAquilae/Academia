@@ -70,3 +70,24 @@ Two categories of stability theories exist: (1) bar theories, which examine cond
 ---
 # 8.6 Simulations of meander evolution (==Skipped==)
 
+
+---
+# 8.7 Channel stabilisation
+Channel stabilisation is an important part of floodplain management. Channels are stabilised to enhance the utility of the floodplains, whether for business or recreation. Specific objectives are to (1) prevent bank erosion and loss of property, including bridges and other infrastructure; (2) enhance conveyance, in particular for floods; (3) facilitate traffic (commercial navigation and recreation); and (4) facilitate water usage (utilities, irrigation, diversion, etc.).
+
+## 8.7.1 Strategy
+The basic strategy is to stabilise the channel alignment and the channel cross-section. The river should maintain a natural alignment (a path of easy bends of reverse curvature) and have a cross-section that can accommodate the river's water and sediment regime. A good practice is to find a relatively stable reach of the river, determine channel and alignment characteristics for that reach and then apply those characteristics to the reach to be stabilised. 
+
+A complementary or supplementary approach is to calculate alignment characteristics using stability theory. 
+
+## 8.7.2 Technologies
+Several technologies are available for stabilising a channel. They function by adjusting bank resistance and/or bank erodibility and/or flow and bed topography. 
+
+### 8.7.2.1 Revetments
+Revetments are structures that are aligned parallel to the current. They are used most often to protect eroding banks and to form a smooth bank line. 
+
+### 8.7.2.2 Dikes, submerged vanes, bendway weirs
+Dikes, submerged vanes and bendway weirs are structures placed at an angle to the current. They are typically used for (1) fairing out sharp bends to a larger radius of curvature to provide a more desirable channel alignment (and thus stabilise concave banks); (2) closing off secondary channels and old head ways; (3) redistributing flow within a channel cross section (for example, to constrict a channel to increase depth in certain areas or to concentrate a braided river into a single channel); and (4) protecting bridges, utility crossings, and structures along the bank. 
+
+### 8.7.2.3 Dredging
+Dredging is the process of moving material from one part of the channel to another or to a disposal site on land. It is used most often for deepening or widening navigation channels or for land reclamation. 
