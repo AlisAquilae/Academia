@@ -116,8 +116,6 @@ Related Courses: ["[[Catchment and Climate Hydrology]]"]
 >>Fig 1.e shows the streamflow changes without recycling. The Budyko models only predict negative streamflow changes following afforestation across all climates (negative changes in Extended Data Fig. 1). Fig 1f generally shows the same pattern, but especially in tropical areas shows large areas with more uniform slightly positive changes due to enhanced rainfall due to recycling 
 
 
-
-
 >[!Question] Question 1.14
 >While most simulated discharge values for the different basins in Hoek van Dijke et al. lie close to the 1:1 line, there are some outliers. Which basins are they, and could you think of reasons why the discharge is off there?
 >>[!Check]- Answer
@@ -126,6 +124,8 @@ Related Courses: ["[[Catchment and Climate Hydrology]]"]
 
 >[!Question] Question 1.15
 >Consider Fig. 2. What is the main reason that in some basins (Amazon, Yangtze) the precipitation recycling in Hoek van Dijke et al. nearly counteracts the impact of forest cover changes, while in other basins such as the Rhine this effect is much smaller?
+>
+>![[Pasted image 20250424112214.png]]
 >
 >>[!Check]- Answer
 >>As moisture from evapotranspiration is being transported downwind to form new precipitation, deforestation in upwind parts of the Amazon will have a larger impact on the stability of the Amazon as a whole. It can influence precipitation all over the region, whereas deforestation in the downwind areas will have a more localised effect on climate and precipitation
@@ -141,10 +141,32 @@ Related Courses: ["[[Catchment and Climate Hydrology]]"]
 >[!Question] Question 2.1
 >Equation 2 in Kirchner (2009) represents the key assumption behind the method. Explain why it is not necessary to distinguish between unsaturated and saturated storage, and how realistic you think this assumption is
 >
+>$$
+>Q = f(S) \tag{2}
+>$$
+>
 >>[!Check]- Answer
 >>Kirchner assumes that the discharge reflects the total catchment storage, so saturated and unsaturated combined. This assumption might be realistic in catchments with shallow groundwater tables in which groundwater levels exert a strong control on unsaturated zone processes, or where runoff processes are strongly storage-driven. 
 
 
 >[!Question] Question 2.2
 >Consider Figure 7d in Kirchner (2009). Which catchment is likely to generate extreme discharge?
+>
+>![[Pasted image 20250424112534.png]]
+>
+>>[!Check]- Answer
+>>The Wye river catchment generates higher runoff rates for the same storage and/or storage increase, making it likely that this catchment will also have higher runoff rates
+
+
+>[!Question] Question 2.3
+>Figure 13 in Kirchner (2009) shows an extreme sensitivity of modelled flood peaks to antecedent moisture conditions. How are the antecedent moisture conditions accounted for in the application of the model?
+>
+>![[Pasted image 20250424112737.png]]
+>
+>>[!Check]- Answer
+>>When the simple dynamical systems approach is used to model discharge, it needs initial values of discharge rather than storage. These discharge values reflect the storage conditions
+
+
+>[!Question] Question 2.4
+>Section 13 in Kirchner (2009) represents an application of the model to do "hydrology backwards". What is meant by this? And why is it so useful?
 
