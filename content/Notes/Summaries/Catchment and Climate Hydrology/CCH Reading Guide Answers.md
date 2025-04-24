@@ -38,6 +38,10 @@ Related Courses: ["[[Catchment and Climate Hydrology]]"]
 >[!Question] Question 1.4
 >Study Eqs 1 and 2 in Schaefli & Gupta and describe their difference
 >
+>$$
+>NSE = 1 - \frac{\sum\limits_{t=1}^N [q_{obs} (t) - q_{sim} (t)]^2}{\sum\limits_{t=1}^N [q_{obs}(t) - \overline{q}_{obs}]^2} \tag{1}
+>$$
+>
 >>[!Check]- Answer
 >>In Eq. 2, the mean observed discharge has been replaced by a baseline discharge which is (or can be) a function of time of year. This baseline discharge can be the climatology, or the result from any (simplified) model run.
 
@@ -114,4 +118,19 @@ Related Courses: ["[[Catchment and Climate Hydrology]]"]
 
 
 
+
+---
+# Module 2: Runoff and Drought
+
+## Kirchner (2009)
+
+>[!Question] Question 2.1
+>Equation 2 in Kirchner (2009) represents the key assumption behind the method. Explain why it is not necessary to distinguish between unsaturated and saturated storage, and how realistic you think this assumption is
+>
+>>[!Check]- Answer
+>>Kirchner assumes that the discharge reflects the total catchment storage, so saturated and unsaturated combined. This assumption might be realistic in catchments with shallow groundwater tables in which groundwater levels exert a strong control on unsaturated zone processes, or where runoff processes are strongly storage-driven. 
+
+
+>[!Question] Question 2.2
+>Consider Figure 7d in Kirchner (2009). Which catchment is likely to generate extreme discharge?
 
