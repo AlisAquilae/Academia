@@ -169,4 +169,36 @@ Related Courses: ["[[Catchment and Climate Hydrology]]"]
 
 >[!Question] Question 2.4
 >Section 13 in Kirchner (2009) represents an application of the model to do "hydrology backwards". What is meant by this? And why is it so useful?
+>
+>>[!Check]- Answer
+>>The model can be used to estimate $P$ from $Q$ rather than estimating $Q$ from $P$. This can be useful for filling-in missing $P$ observations or to estimate precipitation in areas without rain gauges
 
+
+>[!Question] Question 2.5
+>Figure 21 proposes a conceptual model to explain the results from the Plynlimon catchments in Kirchner (2003). Explain how this model is consistent with the results in Figure 7 (See above)
+>
+>![[Pasted image 20250424113142.png]]
+>
+>>[!Check]- Answer
+>>Under wetter conditions, groundwater tables are higher, leading to more easy transport of water due to higher porosity and conductivity. Also, the slope of the groundwater table might be higher under wetter (higher storage) conditions
+
+
+## Gevaert et al. (2014)
+
+>[!Question] Question 2.6
+>The paper by Gevaert et al. describes an experiment in Biosphere II. What makes the experimental hillslope unique, and what is the benefit of this facility in comparison to making similar observations in a natural hillslope?
+>
+>>[!Check]- Answer
+>>Under laboratory conditions, flow processes at the hillslope scale can be studied in absence of natural variability in for instance soil properties and soil depth, allowing for more general conclusions. Such experiments also make it possible to integrate instruments and sensors throughout the hillslope, which would not be possible in natural systems
+
+
+>[!Question] Question 2.7
+>Figure 7 in Gevaert et al. shows the distribution of the saturation phases. Can you explain the patterns at the different timesteps?
+>
+>![[Pasted image 20250424113750.png]]
+>
+>>[!Check]- Answer
+>>Figure 7 shows how first an infiltration front propagated from the surface downwards. Upon reaching the bottom, saturation occurred and groundwater tables moved upwards. A local rise in the groundwater table can be seen nar the channel in the cross-section, indicating the effect of the 3-dimensional flow field in the convergent zone. 
+
+
+>[!Question]
