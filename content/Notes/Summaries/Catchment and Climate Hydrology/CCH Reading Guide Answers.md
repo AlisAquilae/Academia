@@ -101,7 +101,8 @@ Related Courses: ["[[Catchment and Climate Hydrology]]"]
 >[!Question] Question 1.12
 >The study by Hoek van Dijke calculates changes in ET and Q based on six different Budyko models and/or parameters sets. What is the main advantage of doing so? And what is the main difference between the models?
 >>[!Check]- Answer
->>As moisture from evapotranspirationo is being transported downwind to form new precipitation, deforestation in upwind parts of the Amazon will have a larger impact on the stability of the Amazon as a whole. It can influence precipitation all over the region, whereas deforestation in the downwind areas will have a more localised effect on climate and precipitation
+>>Using an ensemble of models will generally lead to a more robust estimate. In this particular case, the different models are fitted to several independent datasets from different parts of the world, making it more likely that the simulated values are realistic across different climate zones
+
 
 
 >[!Question] Question 1.13
@@ -111,21 +112,23 @@ Related Courses: ["[[Catchment and Climate Hydrology]]"]
 >
 >![[Pasted image 20250424110720.png]]
 >
->>[!Check]- Answer 
->>Using an ensemble of models will generally lead to a more robust estimate. In this particular case, the different models are fitted to several independent datasets from different parts of the world, making it more likely that the simulated values are realistic across different climate zones
+>>[!Check]- Answer
+>>Fig 1.e shows the streamflow changes without recycling. The Budyko models only predict negative streamflow changes following afforestation across all climates (negative changes in Extended Data Fig. 1). Fig 1f generally shows the same pattern, but especially in tropical areas shows large areas with more uniform slightly positive changes due to enhanced rainfall due to recycling 
+
+
 
 
 >[!Question] Question 1.14
 >While most simulated discharge values for the different basins in Hoek van Dijke et al. lie close to the 1:1 line, there are some outliers. Which basins are they, and could you think of reasons why the discharge is off there?
 >>[!Check]- Answer
->>Fig 1.e shows the streamflow changes without recycling. The Budyko models only predict negative streamflow changes following afforestation across all climates (negative changes in Extended Data Fig. 1). Fig 1f generally shows the same pattern, but especially in tropical areas shows large areas with more uniform slightly positive changes due to enhanced rainfall due to recycling
+>>In particular the Murray-Darling and Colorado show a poorer fit. Both basins flow through (semi-)arid regions with extensive irrigation and abstractions that are not included in the model, making it a logical result that the simulated values are higher. 
 
 
 >[!Question] Question 1.15
 >Consider Fig. 2. What is the main reason that in some basins (Amazon, Yangtze) the precipitation recycling in Hoek van Dijke et al. nearly counteracts the impact of forest cover changes, while in other basins such as the Rhine this effect is much smaller?
 >
 >>[!Check]- Answer
->>In particular the Murray-Darling and Colorado show a poorer fit. Both basins flow through (semi-)arid regions with extensive irrigation and abstractions that are not included in the model, making it a logical result that the simulated values are higher. 
+>>As moisture from evapotranspiration is being transported downwind to form new precipitation, deforestation in upwind parts of the Amazon will have a larger impact on the stability of the Amazon as a whole. It can influence precipitation all over the region, whereas deforestation in the downwind areas will have a more localised effect on climate and precipitation
 
 
 
