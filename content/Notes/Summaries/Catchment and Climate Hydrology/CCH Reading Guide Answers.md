@@ -231,4 +231,22 @@ Related Courses: ["[[Catchment and Climate Hydrology]]"]
 
 
 >[!Question] Question 2.11
->The standardisation process in drought quantification provides an image that drought is a random, stochastic process that has a quantifiable return period. How does Figure 1 in Ault
+>The standardisation process in drought quantification provides an image that drought is a random, stochastic process that has a quantifiable return period. How does Figure 1 in Ault change your perspective on drought as a stochastic process?
+>
+>![[Pasted image 20250424115010.png]]
+>
+>>[!Check]- Answer
+>>Figure 1 shows that drought in many regions is associates with ENSO. This means that in these regions, depending on the sign of the correlation, drought will be more or less likely in El Niño years, i.e. the decadal variability partly overwrites the stochastic nature of precipitation variability. 
+
+>[!Question] Question 2.12
+>What cause does Ault mention for drought in western and southern Europe?
+>
+>>[!Check]- Answer
+>>Seasonal modes of variability such as the North Atlantic Oscillation (NAO) can modify storm tracks crossing the Atlantic. During the positive phase of the NAO, winter storms crossing the Atlantic follow a more northerly path, resulting in reduced rainfall in western and southern Europe. 
+
+>[!Question] Question 2.13
+>What is a main unresolved discrepancy in drought research as identified by Ault? And what are its possible explanations?
+>
+>>[!Check]- Answer
+>>Ault identifies the impact of the widening of the Hayley cells on the Walker circulation as a main unresolved issue. Models predict that the east-west Walker circulation should slow in conjunction with the Hayley cells, but this is not seen in observations. It could be that the Walker circulation is responding differently to greenhouse gas forcings in reality than it does in models, or that substantial internal decadal variability in the equatorial Pacific Ocean may be overshadowing the forced response of the Walker circulation
+
