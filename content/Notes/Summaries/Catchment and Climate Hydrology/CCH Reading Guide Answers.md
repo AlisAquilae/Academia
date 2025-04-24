@@ -201,4 +201,34 @@ Related Courses: ["[[Catchment and Climate Hydrology]]"]
 >>Figure 7 shows how first an infiltration front propagated from the surface downwards. Upon reaching the bottom, saturation occurred and groundwater tables moved upwards. A local rise in the groundwater table can be seen nar the channel in the cross-section, indicating the effect of the 3-dimensional flow field in the convergent zone. 
 
 
->[!Question]
+>[!Question] Question 2.8
+>Describe what is understood by groundwater ridging. How does the topographic convergence in the hillslope contribute to this phenomenon?
+>
+>>[!Check]- Answer
+>>Groundwater ridging is the formation of a local peak in groundwater tables near the stream in areas with shallow groundwater tables. Given the shallow groundwater tables, groundwater ridging might have played a role in the formation of the cross-sectional groundwater profile
+
+
+## Kirchner (2006)
+
+>[!Question] Question 2.9
+>Study the empirical evidence provided in Figures 1 and 2 in the paper by Kirchner. How does this evidence lead to the formulation of the two paradoxes, and are the results indeed paradoxal?
+>
+>![[Pasted image 20250424114247.png]]
+>
+>![[Pasted image 20250424114300.png]]
+>
+>>[!Check]- Answer
+>>Figure 1 in Kirchner shows the direct response of streamflow to rainfall, but the lack of response in streamflow chemistry. This shows the paradox that streams responds fast, but that streamwater itself is generally old. Figure 2 shows that the different (reactive) chemical tracers either increase or decrease with streamflow, showing that not all old water is the same. Since concentrations might change with flow routes (and thus storage/discharge), this observation is less paradoxal
+
+
+## Ault (2020)
+
+>[!Question] Question 2.10
+>Ault (2020) discusses the use of land surface models (LSMs) to simulate soil moisture and drought. What is identified as a main problem in this respect?
+>
+>>[!Check]- Answer
+>>The quality of LSM output is only as good as its model forcing. Since reliable forcing at the global scale is available only for the past decades, the simulated time period is short with respect to interannual variability and especially decadal variability
+
+
+>[!Question] Question 2.11
+>The standardisation process in drought quantification provides an image that drought is a random, stochastic process that has a quantifiable return period. How does Figure 1 in Ault
