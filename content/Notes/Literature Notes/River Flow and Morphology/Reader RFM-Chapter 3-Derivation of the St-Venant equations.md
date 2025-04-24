@@ -229,7 +229,7 @@ Due to friction, flow momentum is lost. All the flow situations we study here co
 
 One way of reasoning resulting (at least) in a mathematical form for the friction force goes as follows:
 
-1. One can state in general that the frictiono increases if the velocity increases, as this generates more turbulence. Newton's hypothesis states that friction is in general proportional to the square of the velocity:
+1. One can state in general that the friction increases if the velocity increases, as this generates more turbulence. Newton's hypothesis states that friction is in general proportional to the square of the velocity:
 
 $$
 F_f \sim u^2
@@ -244,7 +244,7 @@ $$
 >[!Note]
 >(for $P$ and $R$, see [[Reader RFM-Chapter 2-Basic descriptions and assumptions|Chapter 2]])
 
-3. Combining the aspects above, oen may assume that there exists a constant $c$, such that
+3. Combining the aspects above, one may assume that there exists a constant $c$, such that
 
 $$
 F_f = -c \, u^2 \, P
