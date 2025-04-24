@@ -42,6 +42,10 @@ Related Courses: ["[[Catchment and Climate Hydrology]]"]
 >NSE = 1 - \frac{\sum\limits_{t=1}^N [q_{obs} (t) - q_{sim} (t)]^2}{\sum\limits_{t=1}^N [q_{obs}(t) - \overline{q}_{obs}]^2} \tag{1}
 >$$
 >
+>$$
+>BE = 1 - \frac{\sum\limits_{t=1}^N [q_{obs} (t) - q_{sim} (t)]^2}{\sum\limits_{t=1}^N [q_{obs}(t) - q_b (t)]^2} \tag{2}
+>$$
+>
 >>[!Check]- Answer
 >>In Eq. 2, the mean observed discharge has been replaced by a baseline discharge which is (or can be) a function of time of year. This baseline discharge can be the climatology, or the result from any (simplified) model run.
 
@@ -76,6 +80,8 @@ Related Courses: ["[[Catchment and Climate Hydrology]]"]
 >[!Question] Question 1.9
 >Fig. 4 in Albertson & Kiely shows the correspondence between the observed and simulated soil moisture content. Provide multiple arguments why you think the model fits are good/poor
 >
+>![[Pasted image 20250424110229.png]]
+>
 >>[!Check]- Answer
 >>Dynamics are generally well simulated, but increases after rainfall are not consistent. This can be due to errors in rainfall observations are processes such as preferential flow not represented in the model
 
@@ -100,6 +106,11 @@ Related Courses: ["[[Catchment and Climate Hydrology]]"]
 
 >[!Question] Question 1.13
 >Consider the gridded maps of water availability (streamflow) in Fig. 1e and 1f in Hoek van Dijke et al. Explain, using Extended Data Fig. 1, why 1e has only positive changes, and 1d both positive and negative.
+>
+>![[Pasted image 20250424110658.png]]
+>
+>![[Pasted image 20250424110720.png]]
+>
 >>[!Check]- Answer 
 >>Using an ensemble of models will generally lead to a more robust estimate. In this particular case, the different models are fitted to several independent datasets from different parts of the world, making it more likely that the simulated values are realistic across different climate zones
 
