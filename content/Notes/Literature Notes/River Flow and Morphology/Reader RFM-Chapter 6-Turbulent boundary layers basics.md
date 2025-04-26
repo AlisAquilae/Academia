@@ -270,7 +270,7 @@ $$
 In summary, bluff bodies are characterised by:
 - Flow separation
 - A flow-related force dominated by the pressure drag
-- $cD = O(1)$
+- $c_D = O(1)$
 
 For streamlined bodies:
 - No flow separation occurs

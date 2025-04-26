@@ -61,7 +61,7 @@ $$
 
 The general, scale-independent aspects of boundary layers can be analysed using the aforementioned dimensionless parameters.
 
-In the turbulent part of the boundary layer, the flow is completely specified by $u, y, \rho, \nu, \delta$ and $u_\tau$. With those 6 variables and 3 independent dimensions, dimensional analysis yields a functional relation between 3 dimensionless groups. These groups are conveniantly taken as:
+In the turbulent part of the boundary layer, the flow is completely specified by $u, y, \rho, \nu, \delta$ and $u_\tau$. With those 6 variables and 3 independent dimensions, dimensional analysis yields a functional relation between 3 dimensionless groups. These groups are conveniently taken as:
 
 $$
 u^+ = f(y^+, \eta)
