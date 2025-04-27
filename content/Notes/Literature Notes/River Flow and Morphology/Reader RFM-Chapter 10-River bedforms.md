@@ -29,7 +29,7 @@ Different types of sand waves may occur simultaneously on a flat bed, but as the
 Linear stability theories apply strictly to the inception of bed forms. They are only able to predict whether or not sand waves are generated. Another limitation is that the outcome is independent of the initial perturbation amplitude. Unsteady perturbations amplify or decay forever. 
 
 ## 10.2.2 Dunes, antidunes, ripples and alternate bars
-The rupples, dunes and antidunes illustratred in Figure 2-36 are the classic bed forms of erodible-bed, open-channel flow. On the one hand, they are the product of flow and sediment transport, and on the other hand, they profoundly influence flow and sediment transport. In fact, all of the bed load equations are strictly invalid in the presence of bed forms. The adjustment necessary to render them valid (i.e. removal of form drag) is discussed later in this chapter
+The ripples, dunes and antidunes illustrated in Figure 2-36 are the classic bed forms of erodible-bed, open-channel flow. On the one hand, they are the product of flow and sediment transport, and on the other hand, they profoundly influence flow and sediment transport. In fact, all of the bed load equations are strictly invalid in the presence of bed forms. The adjustment necessary to render them valid (i.e. removal of form drag) is discussed later in this chapter
 
 ![[Pasted image 20250403112852.png]]
 
