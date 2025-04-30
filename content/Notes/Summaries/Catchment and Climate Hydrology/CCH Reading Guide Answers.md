@@ -403,20 +403,32 @@ Related Courses: ["[[Catchment and Climate Hydrology]]"]
 
 >[!Question] Question 5.1
 >Why did the simulations of the ten models included in the study of Holländer et al. lie so far apart?
+>
+>>[!Check]- Answer
+>>There were no calibration data, and the modellers could decide for themselves which processes they considered relevant. It demonstrates the large role of calibration, and the importance of choosing your perceptual model carefully
 
 
 >[!Question] Question 5.2
 >Which process was overlooked in all models used by Holländer et al., and which general conclusion can you draw from this?
+>
+>>[!Check]- Answer
+>>The formation of erosion gullies. Despite the fact that most models don't account for changing landscape properties (such as the formation of erosion gullies), it also demonstrates that relevant processes can easily be overlooked. We often simulate catchments which we haven't seen, making it hard to estimate if we account for all relevant processes. Furthermore, we have the tendency to consider our own models, the models we have most experience with, as adequate. In this particular example, that is clearly not the case
 
 
 ## Oreskes et al. (1994)
 
 >[!Question] Question 5.3
->What is, according to Oreskes et al., the difference between verification and valiadtion?
+>What is, according to Oreskes et al., the difference between verification and validation?
+>
+>>[!Check]- Answer
+>>Verification is an 'establishment of truth', if a model is verified, it implies that the model mimics the truth correctly (which, according to Oreskes, is impossible). Validation implies an establishment of legitimacy. In scientific literature, however, this term is often mixed with 'verification'
 
 
 >[!Question] Question 5.4
 >Why do Oreskes et al. argue that hydrologic models (or Earth science models in general) cannot be verified?
+>
+>>[!Check]- Answer
+>>Because natural systems are never closed systems. For example, there is always exchange of energy and/or mass at the boundaries of the investigated system, making it hard to do controlled experiments. Furthermore, parameter values are effective values, because we cannot observe and model every single grain and drop in a catchment. Finally, there is the problem of non-uniqueness; different combinations of hypotheses or parameters can lead to the same results oir cancel each other our, and it is impossible to decide which one of the models (with the same results) is actually 'correct'.
 
 
 >[!Question] Question 5.5
@@ -427,8 +439,14 @@ Related Courses: ["[[Catchment and Climate Hydrology]]"]
 
 >[!Question] Question 5.6
 >How did Addor & Melsen demonstrate that adequacy could not explain model selection?
+>
+>>[!Check]- Answer
+>>They performed a bibliometric analysis, in which they scanned scientific publications on specific key-words that could drive model selection, such as landscape characteristics, time and space scale, and the goal of the study. When looking at the distribution of these keywords across the use of seven different models, it appeared that all models were used across almost all applications. They key-words could not explain model selection. On the other hand, the institute of the first author shored very strong correlation with the use of a specific model, supporting the hypothesis that legacy drives model selection
 
 
 >[!Question] Question 5.7
 >Which mechanisms in Addor & Melsen stimulate the use of conventional and well-established model in science?
 
+
+>[!Question] Question 5.8
+>What possible way forward do Addor & Melsen suggest, why, and what do you think of this suggestion?
