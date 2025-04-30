@@ -305,17 +305,65 @@ Related Courses: ["[[Catchment and Climate Hydrology]]"]
 >Figure 7 in Brauer et al. (2014) is based on data from two sites with shallow groundwater. Speculate what the figure would look like for a location with deep groundwater
 >
 >>[!Check]- Answer
->>There would be much more scatter, because the top soil and groundwater depth are uncoupled. It is possible to have a wet top soil while groundwater is deep and to have a dry
+>>There would be much more scatter, because the top soil and groundwater depth are uncoupled. It is possible to have a wet top soil while groundwater is deep and to have a dry top soil when the groundwater  is shallower (but still deep). Of course, both x- and y-axes would also extend further
 
 
 >[!Question] Question 3.8
 >How does surface water management (controlling weir levels and surface water supply) affect groundwater levels and flow routes in reality and in WALRUS?
+>
+>>[!Check]- Answer
+>>Surface water supply and elevating weir levels both increase surface water levels. The difference between groundwater level and surface water level then decreases. Since this level difference is the driving force behind groundwater drainage, elevating surface water levels will decrease groundwater drainage. It is also possible that the surface water level becomes higher than the groundwater level, causing surface water infiltration. 
 
 
 >[!Question] Question 3.9
 >What is the difference between initial conditions and model parameters? Which do you need to change if you apply WALRUS (or any other model) to the same catchment, but for a different modelling period?
+>
+>>[!Check]- Answer
+>>Model parameters are used to tailor a model to a certain catchment. They represent the effect of differences in the catchment's soil, drainage density or slope. The initial conditions give the states at the start of the simulation. If you apply the model to the same catchment, but for a different modelling period, you can keep the parameters the same, but should change the initial conditions. 
 
 
 >[!Question] Question 3.10
 >Explain why the groundwater depth is not included in the water balance computation (Eq. 12 in Brauer et al., 2014).
+>
+>>[!Check]- Answer
+>>The amount of water in the soil reservoir is represented by the (reverse of the) storage deficit. If you would use the groundwater depth in the water balance computation, you would count the water in the saturated zone twice. The groundwater level is only used to compute flow between the soil reservoir and the surface water reservoir
 
+
+---
+# Module 4. Variability and Cryopshere
+
+## Beven et al. (2021)
+
+>[!Question] Question 4.1 
+>The original TOPMODEL is based on three main assumptions. What are they?
+
+
+>[!Question] Question 4.2
+>Which main runoff processes does TOPMODEL represent?
+
+
+>[!Question] Question 4.3
+>According to the TOPMODEL concept, any point with the same topographic index in a catchment will behave the same (i.e. will have the same dynamics and processes). What is the main benefit of this for modelling?
+
+
+## Milly & Dunne (2020)
+
+>[!Question] Question 4.4
+>Explain what is meant by the delta method used in Milly and Dunne (2020)
+
+
+>[!Question] Question 4.5
+>What is the main novelty in Milly and Dunne (2020), that sets it apart from previous studies?
+
+
+
+>[!Question] Question 4.6
+>What explanation do Milly and Dunne (2020) provide for the discrepancy between change estimates using the delta method and empirical regression analysis?
+
+
+>[!Question] Question 4.7
+>What approach do Milly and Dunne (2020) take to validate their model? Why can't they use a more straightforward validation?
+
+
+>[!Question] Question 4.8
+>Milly and Dunne (2020) report significa
