@@ -260,34 +260,52 @@ Related Courses: ["[[Catchment and Climate Hydrology]]"]
 >What are the three main perspectives flood classification can be differentiated in and what are the main data sources for these approaches according to Tarasova et al. (2019)?
 >
 >>[!Check]- Answer
->>The three perspectives are: hydroclimatic, hydrological and hydrograph. Hydroclimatic classification approaches focus on the processes in the atmosphere and neglect the catchment. They usually use weather and pressure maps or atmospheric circulation patterns. The hydrological perspective combined hydrometeorological variables (e.g. rainfall, temperature) observed within catchments, the catchment state (e.g. snow depth, soil moisture), and hydrologi
+>>The three perspectives are: hydroclimatic, hydrological and hydrograph. Hydroclimatic classification approaches focus on the processes in the atmosphere and neglect the catchment. They usually use weather and pressure maps or atmospheric circulation patterns. The hydrological perspective combined hydrometeorological variables (e.g. rainfall, temperature) observed within catchments, the catchment state (e.g. snow depth, soil moisture), and hydrological processes (e.g. infiltration or saturation excess) leading to floods. The hydrograph-based classification focuses on the resulting flood event in the river, i.e., the discharge itself is classified. 
 
 
 >[!Question] Question 3.2
 >Why is the distinction into seasons in Tarasova et al. (2019) not sufficient for flood classification?
+>
+>>[!Check]- Answer
+>>For flood classification, it is assumed that the flood events (or peaks) within one class are identically distributed, i.e. have the same origin. This is not given within a season, as difference processes (e.g. thunderstorms with heavy rainfall and long-duration rainfall in summer) can lead to floods within one season
 
 
 >[!Question] Question 3.3
 >What is the main drawback of classifications in Tarasova et al. (2019) based on the hydrological perspective?
-
-
+>
+>>[!Check]- Answer
+>>These classifications require many data series in rather high temporal and spatial resolution. To be able to fully characterise the hydrological processes in a catchment, information on the temporal and spatial distribution of rainfall, soil moisture, snowmelt, etc., have to be available, which is difficult especially in data scarce regions. 
 
 ## Brauer et al. (2014)
 
 >[!Question] Question 3.4
 >How are lowland catchments in Brauer et al. (2014) different from mountainous ones? What are the consequences for rainfall-runoff processes and land-atmosphere interactions?
+>
+>>[!Check]- Answer
+>>Compared to mountainous catchments, lowland catchments have shallower groundwater (sooner saturation excess, less evaporation reduction), milder slopes (ponding instead of overland flow), are often more densely populated (more urban environments, with pavements causing more overland flow) and intensively managed (surface water management by means of supply and weirs, leading to less water shortage in summer)
 
 
 >[!Question] Question 3.5
 >Study Figure 5 in Brauer et al. (2014). Explain what happens to each variable (in reality and in WALRUS) when a wetness-dependent flow route division is applied
+>
+>![[Pasted image 20250430131032.png]]
+>
+>>[!Check]- Answer
+>>The first rainfall events increase soil moisture (decrease storage deficit) and groundwater level (decrease groundwater depth), leading to a slight increase in groundwater drainage and hence discharge. During later rainfall events, when the soil is wetter, more water will follow fast flow routes, causing a stronger increase in discharge
 
 
 >[!Question] Question 3.6
 >Derive equation 5 in Brauer et al. (2014) from equations 3 and 4
+>
+>>[!Check]- Answer
+>>See Brightspace 
 
 
 >[!Question] Question 3.7
 >Figure 7 in Brauer et al. (2014) is based on data from two sites with shallow groundwater. Speculate what the figure would look like for a location with deep groundwater
+>
+>>[!Check]- Answer
+>>There would be much more scatter, because the top soil and groundwater depth are uncoupled. It is possible to have a wet top soil while groundwater is deep and to have a dry
 
 
 >[!Question] Question 3.8
