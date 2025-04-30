@@ -250,3 +250,54 @@ Related Courses: ["[[Catchment and Climate Hydrology]]"]
 >>[!Check]- Answer
 >>Ault identifies the impact of the widening of the Hayley cells on the Walker circulation as a main unresolved issue. Models predict that the east-west Walker circulation should slow in conjunction with the Hayley cells, but this is not seen in observations. It could be that the Walker circulation is responding differently to greenhouse gas forcings in reality than it does in models, or that substantial internal decadal variability in the equatorial Pacific Ocean may be overshadowing the forced response of the Walker circulation
 
+
+---
+# Module 3: Floods and Lowlands
+
+## Tarasova et al. (2019)
+
+>[!Question] Question 3.1
+>What are the three main perspectives flood classification can be differentiated in and what are the main data sources for these approaches according to Tarasova et al. (2019)?
+>
+>>[!Check]- Answer
+>>The three perspectives are: hydroclimatic, hydrological and hydrograph. Hydroclimatic classification approaches focus on the processes in the atmosphere and neglect the catchment. They usually use weather and pressure maps or atmospheric circulation patterns. The hydrological perspective combined hydrometeorological variables (e.g. rainfall, temperature) observed within catchments, the catchment state (e.g. snow depth, soil moisture), and hydrologi
+
+
+>[!Question] Question 3.2
+>Why is the distinction into seasons in Tarasova et al. (2019) not sufficient for flood classification?
+
+
+>[!Question] Question 3.3
+>What is the main drawback of classifications in Tarasova et al. (2019) based on the hydrological perspective?
+
+
+
+## Brauer et al. (2014)
+
+>[!Question] Question 3.4
+>How are lowland catchments in Brauer et al. (2014) different from mountainous ones? What are the consequences for rainfall-runoff processes and land-atmosphere interactions?
+
+
+>[!Question] Question 3.5
+>Study Figure 5 in Brauer et al. (2014). Explain what happens to each variable (in reality and in WALRUS) when a wetness-dependent flow route division is applied
+
+
+>[!Question] Question 3.6
+>Derive equation 5 in Brauer et al. (2014) from equations 3 and 4
+
+
+>[!Question] Question 3.7
+>Figure 7 in Brauer et al. (2014) is based on data from two sites with shallow groundwater. Speculate what the figure would look like for a location with deep groundwater
+
+
+>[!Question] Question 3.8
+>How does surface water management (controlling weir levels and surface water supply) affect groundwater levels and flow routes in reality and in WALRUS?
+
+
+>[!Question] Question 3.9
+>What is the difference between initial conditions and model parameters? Which do you need to change if you apply WALRUS (or any other model) to the same catchment, but for a different modelling period?
+
+
+>[!Question] Question 3.10
+>Explain why the groundwater depth is not included in the water balance computation (Eq. 12 in Brauer et al., 2014).
+
