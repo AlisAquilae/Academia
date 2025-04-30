@@ -466,3 +466,39 @@ Related Courses: ["[[Catchment and Climate Hydrology]]"]
 >>- It allows to join forces: in a modular approach, everyone can contribute to model development by adding modules to the framework
 >>  
 >>Drawbacks are that each MMF is again limited to a particular modelling school of thought, an MMF is for example more conceptually based or more process based. Furthermore, there might be modules that are mutually exclusive, for instance the assumption made for the formulation in one module might be in conflict with the assumption of another module. As modeller, you have to be very well aware of this. Lastly, the paper demonstrates the large role of habit in modelling, so it will be unlikely that modellers will easily switch to a completely new way of working. 
+
+
+---
+# Module 6: Synthesis
+
+## Wrede et al. (2014)
+
+>[!Question] Question 6.1
+>Explain how knowledge on physiography, subsurface investigations, and observed catchment response were used in the model building in Wrede et al.
+>
+>>[!Check]- Answer
+>>See Fig. 2 in Wrede et al.
+>>
+>>![[Pasted image 20250430142218.png]]
+
+
+
+>[!Question] Question 6.2
+>From Fig. 6 in Wrede et al., it can be deduced that the Huewelerbach has the lowest annual ET (highest Q for same P). Can you explain this based on land cover? If not, what is a most likely explanation?
+>
+>![[Pasted image 20250430142256.png]]
+>
+>>[!Check]- Answer
+>>It is not clear why the Huewelerbach has the lowest ET. Based on land cover (forest 92%) one would expect ET to be higher than for Wollefsbach. The size of the catchment also does not provide an alternative explanation. If the catchment is very small (like the Weierbach), it becomes more likely that the effective catchment area is uncertain, also depending on the geological conditions. 
+
+
+
+## Melsen et al. (2018)
+
+>[!Question] Question 6.3
+>In Melsen et al., a distinction is made between all the model runs and so-called behavioural runs. What is meant by a behavioural run?
+
+
+>[!Question] Question 6.4
+>Fig. 4e in Melsen et al. shows a region where most of the models are non-behavioural. What features explain this?
+
