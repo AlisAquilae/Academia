@@ -489,16 +489,22 @@ Related Courses: ["[[Catchment and Climate Hydrology]]"]
 >![[Pasted image 20250430142256.png]]
 >
 >>[!Check]- Answer
->>It is not clear why the Huewelerbach has the lowest ET. Based on land cover (forest 92%) one would expect ET to be higher than for Wollefsbach. The size of the catchment also does not provide an alternative explanation. If the catchment is very small (like the Weierbach), it becomes more likely that the effective catchment area is uncertain, also depending on the geological conditions. 
-
-
+>>It is not clear why the Huewelerbach has the lowest ET. Based on land cover (forest 92%) one would expect ET to be higher than for Wollefsbach. The size of the catchment also does not provide an alternative explanation. If the catchment is very small (like the Weierbach), it becomes more likely that the effective catchment area is uncertain, also depending on the geological conditions. With 2.7 km$^2$, the catchment area should be fairly accurate
 
 ## Melsen et al. (2018)
 
 >[!Question] Question 6.3
 >In Melsen et al., a distinction is made between all the model runs and so-called behavioural runs. What is meant by a behavioural run?
+>
+>>[!Check]- Answer
+>>The parameter sets were considered behavioural as soon as they fulfilled a criterion that minimizes the Euclidean distance between observations and simulations for three components: the correlation, the relative variability, and the relative bias. This is also referred to as Kling-Gupta efficiency. The parameter set needed to result in a KGE of at least 0.5 on a daily basis over 23 years in order to be considered behavioural. If none of the parameter sets fulfilled the performance criterion, the hydrologic model was considered non-behavioural
 
 
 >[!Question] Question 6.4
 >Fig. 4e in Melsen et al. shows a region where most of the models are non-behavioural. What features explain this?
+>
+>![[Pasted image 20250430142817.png]]
+>
+>>[!Check]- Answer
+>>The basins in which none of the hydrologic models was able to capture current hydrological behaviour with observed forcing (i.e. where the models were non-behavioural) have a significant higher aridity and intermittent streamflow behaviour (no-flow periods). This is related to basins with a larger area and a lower slope (Fig. 4F). These results imply that all hydrologic models have difficulty in mimicking dry conditions, where the interplay between soil moisture and evapotranspiration becomes important. 
 
