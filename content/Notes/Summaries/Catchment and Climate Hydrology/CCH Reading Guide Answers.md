@@ -397,4 +397,38 @@ Related Courses: ["[[Catchment and Climate Hydrology]]"]
 
 
 
+---
+# Module 5: (Un)certainty
+## Holländer et al. (2009)
+
+>[!Question] Question 5.1
+>Why did the simulations of the ten models included in the study of Holländer et al. lie so far apart?
+
+
+>[!Question] Question 5.2
+>Which process was overlooked in all models used by Holländer et al., and which general conclusion can you draw from this?
+
+
+## Oreskes et al. (1994)
+
+>[!Question] Question 5.3
+>What is, according to Oreskes et al., the difference between verification and valiadtion?
+
+
+>[!Question] Question 5.4
+>Why do Oreskes et al. argue that hydrologic models (or Earth science models in general) cannot be verified?
+
+
+>[!Question] Question 5.5
+>Do you agree with Oreskes et al.?
+
+
+## Addor & Melsen (2019)
+
+>[!Question] Question 5.6
+>How did Addor & Melsen demonstrate that adequacy could not explain model selection?
+
+
+>[!Question] Question 5.7
+>Which mechanisms in Addor & Melsen stimulate the use of conventional and well-established model in science?
 
