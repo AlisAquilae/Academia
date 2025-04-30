@@ -336,34 +336,65 @@ Related Courses: ["[[Catchment and Climate Hydrology]]"]
 
 >[!Question] Question 4.1 
 >The original TOPMODEL is based on three main assumptions. What are they?
+>
+>>[!Check]- Answer
+>>The assumptions are
+>>1. The dynamics of the saturated zone can be expressed by a series of successive steady-state representations of the saturated zone on an area draining to a point of the hillslope
+>>2. The hydraulic gradient of the saturated zone can be approximated by the local surface topographic slope measured with respect to plain distance
+>>3. Hydraulic conductivity decreases exponentially with depth in the soil profile
 
 
 >[!Question] Question 4.2
 >Which main runoff processes does TOPMODEL represent?
+>
+>>[!Check]- Answer
+>>TOPMODEL represents subsurface runoff (groundwater component) and surface runoff (direct runoff from saturated areas)
 
 
 >[!Question] Question 4.3
 >According to the TOPMODEL concept, any point with the same topographic index in a catchment will behave the same (i.e. will have the same dynamics and processes). What is the main benefit of this for modelling?
+>
+>>[!Check]- Answer
+>>The benefit of TOPMODEL is that the hydrological behaviour of any point in the lanscape can be predicted on the topographic properties (i.e. DEM analysis)
 
 
 ## Milly & Dunne (2020)
 
 >[!Question] Question 4.4
 >Explain what is meant by the delta method used in Milly and Dunne (2020)
+>
+>>[!Check]- Answer
+>>In the delta method, sensitivity to climate change is investigated by changing the observed atmospheric forcing (the model input) by a certain amount (for instance +1K in case of temperature) or percentage (in case of precipitation)
 
 
 >[!Question] Question 4.5
 >What is the main novelty in Milly and Dunne (2020), that sets it apart from previous studies?
+>
+>>[!Check]- Answer
+>>The paper takes into account the feedback between the albedo of fractional snow cover, the subsequent increase in net radiation, and its effect on increasing ET
 
 
 
 >[!Question] Question 4.6
 >What explanation do Milly and Dunne (2020) provide for the discrepancy between change estimates using the delta method and empirical regression analysis?
+>
+>>[!Check]- Answer
+>>The authors use the interannual variability in storage to explain the discrepancy. By redistributing observed yearly anomalies according to the normal seasonal cycle, they can show that one can account for much of the storage effect
 
 
 >[!Question] Question 4.7
 >What approach do Milly and Dunne (2020) take to validate their model? Why can't they use a more straightforward validation?
+>
+>>[!Check]- Answer
+>>The authors combine several metrics, including NSE but also how well the model simulates the observed trends and climatology. This is important because the trend is likely sensitive to other parameters than the short term variability that is captured by NSE
 
 
 >[!Question] Question 4.8
->Milly and Dunne (2020) report significa
+>Milly and Dunne (2020) report significant changes in streamflow resulting from relatively minor changes in available energy. Explain this apparent contradiction
+>
+>>[!Check]- Answer
+>>In semi-arid and arid climates, a very small fraction of P ends up as runoff. This means that a relatively small change in ET can have a much larger relative impact on Q
+
+
+
+
