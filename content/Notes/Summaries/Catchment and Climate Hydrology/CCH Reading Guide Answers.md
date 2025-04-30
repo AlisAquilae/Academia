@@ -446,7 +446,23 @@ Related Courses: ["[[Catchment and Climate Hydrology]]"]
 
 >[!Question] Question 5.7
 >Which mechanisms in Addor & Melsen stimulate the use of conventional and well-established model in science?
+>
+>>[!Check]- Answer
+>>There are several mechanisms that stimulate maintaining the current status-quo in science. Examples provided by Addor & Melsen are:
+>>- The role of experience. Experience is very useful to use tools (such as models) in the right way. At the same time, this means that people have to use the same methods for a while, in order to obtain the relevant experience
+>>- Reviewers of scientific papers have a tendency to be biased towards methods with which they are familiar, and therefore papers that use known methods have a higher chance of being published than papers that use new or innovative methods. 
+>>- The same applies to reviewers of grant proposals, described as "the conventional approach bias". Risks involved with new and innovative methods are more difficult to estimate
+>>- Training: students and early-carreer scientists are trained by their mentors, which were again trained by their mentors before. In this way, people get trained in the current way of working and the current conventions within science
 
 
 >[!Question] Question 5.8
 >What possible way forward do Addor & Melsen suggest, why, and what do you think of this suggestion?
+>
+>>[!Check]- Answer
+>>Addor & Melsen suggest switching towards Modular Modelling Frameworks (MMFs). This has several advantages compared to conventional numerical modelling
+>>- It will be easy to set up several different models which facilitates a model intercomparison before model selection
+>>- It allows to exactly pinpoint which specific formulation causes differences among model results, because you can change one formulation at a time
+>>- It allows for a pluriform approach: you can easily run several models for one project
+>>- It allows to join forces: in a modular approach, everyone can contribute to model development by adding modules to the framework
+>>  
+>>Drawbacks are that each MMF is again limited to a particular modelling school of thought, an MMF is for example more conceptually based or more process based. Furthermore, there might be modules that are mutually exclusive, for instance the assumption made for the formulation in one module might be in conflict with the assumption of another module. As modeller, you have to be very well aware of this. Lastly, the paper demonstrates the large role of habit in modelling, so it will be unlikely that modellers will easily switch to a completely new way of working. 
