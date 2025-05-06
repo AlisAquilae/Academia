@@ -79,3 +79,21 @@ For our finite differences prediction to be accurate, the error needs to be smal
 >This is because the error is proportional to $\Delta t$, i.e. $\text{error} \sim \Delta t$, which tells us this is a first-order approximation
 
 
+Going back to our example, the water level $h$. Building a simple model using using only the first term of the Taylor series (i.e. $\frac{\partial h}{\partial t})$, and taking this to be equal to $\alpha h(t)$ again, we find
+
+$$
+\frac{h(t+\Delta t) - h(t)}{\Delta t} = \alpha h(t)
+$$
+
+This is what is called an **explicit method**: we are solving the future using only information the present. 
+
+We can now predict our future value for $h$ using the current timestep plus the derivative
+
+$$
+\begin{aligned}
+h(t+\Delta t) &= h(t) + \Delta t \alpha h(t) \\
+&= (1+\Delta t \alpha)h(t)
+\end{aligned}
+$$
+
+This is our first numerical model, which is called [[Euler Forward]]. We can tell what our future value of $h(t)$ is going to be using the value of $h(t)$ at our current timestep. 
