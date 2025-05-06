@@ -22,4 +22,13 @@ $$
 
 We call our type of models **environmental flow models**
 
-We describe
+We describe environmental flow models in terms of balance equations, where the balance is defined in terms of fluxes (internal and external)
+
+We will discuss three different techniques for solving flow equations:
+- [[Finite Differences]] (solving equations on a spatial grid)
+- [[Finite Volumes]] (budgeting flow in control volumes)
+- [[Finite Elements]] (budgeting flow in control volumes with more accuracy)
+
+When dealing with flow models, we have to deal with different kinds of uncertainty:
+- Uncertainty in initial conditions: it is often difficult to get high quality data, but slight changes in the initial conditions can have enormous impacts on the outcome of our models
+- Uncertainty in flow parameters: many models constants or parameters vary in space, and the

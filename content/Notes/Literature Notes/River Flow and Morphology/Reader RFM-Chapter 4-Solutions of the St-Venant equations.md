@@ -544,7 +544,7 @@ This type of analysis can be useful in understanding the dependencies in the sol
 # 4.8 Numerical solutions (==Partially skipped==)
 As analytical solutions tot he St-Venant equations can not be found, the best one can do is to use numerical schemes in order to obtain best approximations of the true solutions. 
 
-Many techniques can and have been used [[Finite Elements]], [[Finite Volumes]], and others. As the St-Venant equations are spatially one-dimensional, the most used type of numerical technique is [[Finite Difference]]. It is out of the scope of these lecture notes to give an overview of all possible choices of FD schemes. We present here only one example, a so-called [[Staggered Grid Finite Difference]].
+Many techniques can and have been used [[Finite Elements]], [[Finite Volumes]], and others. As the St-Venant equations are spatially one-dimensional, the most used type of numerical technique is [[Finite Differences]]. It is out of the scope of these lecture notes to give an overview of all possible choices of FD schemes. We present here only one example, a so-called [[Staggered Grid Finite Difference]].
 
 The first step in any FD approach is to construct a (regular)  grid in the $(x, t)$ domain. Only on the grid points approximations for $a$ and $u$ will be calculated, which makes the problem finite. Assuming the grid differences constant (as we will do in these notes) and denoted by $\Delta x$ and $\Delta t$ the difference between two neighbouring grid points in space and time respectively, a FD scheme will calculate approximations $\hat{a}[n, j] \, \hat{u}[n, h]$ for $n = 1, 2, \dots$ and $j = 1, 2, \dots$ such that
 
