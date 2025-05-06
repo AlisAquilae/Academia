@@ -29,3 +29,9 @@ $$
 h(t) = h_0 \exp(\alpha t)
 $$
 
+The mathematical notation of the derivative above, again using the state variable, is
+
+$$
+\frac{\mathrm{d}s}{\mathrm{d}t} = \lim_{\epsilon \to 0} \frac{s(t+\epsilon) - s(t)}{\epsilon}
+$$
+
