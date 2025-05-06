@@ -54,5 +54,17 @@ $$
 So, for the first three terms, and evaluated at time $t$, we find
 
 $$
-s(t + \Delta t) 
+s(t + \Delta t) = s(t) + \Delta t \frac{\partial s}{\partial t} + \frac{(\Delta t)^2}{2!}\frac{\partial^2 s}{\partial t^2} + \frac{(\Delta t)^3}{3!} \frac{\partial^3 s}{\partial t^3} + \dots
 $$
+
+We can approximate the accuracy of the forward finite difference operator using this. We take our finite difference to be the first term of the Taylor series, and consider the other terms to be equal to the error:
+
+$$
+\begin{aligned}
+s(t + \Delta t) &= s(t) + \Delta t \frac{\partial s}{\partial t} + \frac{(\Delta t)^2}{2!}\frac{\partial^2 s}{\partial t^2} + \frac{(\Delta t)^3}{3!} \frac{\partial^3 s}{\partial t^3} + \dots \\
+\frac{s(t + \Delta t) - s(t)}{\Delta t} &= \frac{}{}
+
+\end{aligned}
+$$
+
+\frac{\mathrm{d}s}{\mathrm{d}t}
