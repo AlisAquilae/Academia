@@ -62,9 +62,20 @@ We can approximate the accuracy of the forward finite difference operator using 
 $$
 \begin{aligned}
 s(t + \Delta t) &= s(t) + \Delta t \frac{\partial s}{\partial t} + \frac{(\Delta t)^2}{2!}\frac{\partial^2 s}{\partial t^2} + \frac{(\Delta t)^3}{3!} \frac{\partial^3 s}{\partial t^3} + \dots \\
-\frac{s(t + \Delta t) - s(t)}{\Delta t} &= \frac{}{}
-
+\frac{s(t + \Delta t) - s(t)}{\Delta t} &= \frac{\partial s}{\partial t} + \frac{\Delta t}{2!}\frac{\partial^2 s}{\partial t^2} + \frac{(\Delta t)^2}{3!} \frac{\partial^3 s}{\partial t^3} +\dots \\
+\frac{s(t + \Delta t) - s(t)}{\Delta t} &= \frac{\partial s}{\partial t} + \text{errors}
 \end{aligned}
 $$
 
-\frac{\mathrm{d}s}{\mathrm{d}t}
+For our finite differences prediction to be accurate, the error needs to be small relative to $\frac{\partial s}{\partial t}$. 
+
+>[!Important]
+>The error always tends to be dominated by the first error term, i.e.
+>
+>$$
+>\frac{\Delta t}{2!}\frac{\partial^2 s}{\partial t^2}
+>$$
+>
+>This is because the error is proportional to $\Delta t$, i.e. $\text{error} \sim \Delta t$, which tells us this is a first-order approximation
+
+
