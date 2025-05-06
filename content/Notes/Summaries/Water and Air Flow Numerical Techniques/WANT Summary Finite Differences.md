@@ -35,4 +35,24 @@ $$
 \frac{\mathrm{d}s}{\mathrm{d}t} = \lim_{\epsilon \to 0} \frac{s(t+\epsilon) - s(t)}{\epsilon}
 $$
 
-If we do this in a finite difference way, we work with step-sizes larger than 0 by approximation. 
+If we do this in a finite difference way, we work with step-sizes larger than 0 by approximation. We do so because finding a derivative the normal way for derivatives with a step-size infinitely close to 0, we would have to wait infinitely long. The result would be highly accurate, but we are always bound by time-constraints. Thus, we take a finite-difference approach, which approximates the derivative but includes some errors. 
+
+The finite differences definition of a derivative is as follows:
+
+$$
+\frac{s(t + \Delta t) - s(t)}{\Delta t} \approx \frac{\mathrm{d}s}{\mathrm{d}t} + \text{errors}
+$$
+
+We then have to evaluate these errors: whether they are large or small relative to the change of our state variable over time, how they behave, etc.
+
+What we are going to use do this, is through the [[Taylor Series]]. We can approximate our state variable a little bit ahead in time as a function of a lot of things which we know at the actual time.
+
+$$
+s(t + \Delta t) = s(t) + \sum\limits_{n=1}^\infty \frac{(\Delta t)^n}{n!} \frac{\partial^n s}{\partial t^n}
+$$
+
+So, for the first three terms, and evaluated at time $t$, we find
+
+$$
+s(t + \Delta t) 
+$$
