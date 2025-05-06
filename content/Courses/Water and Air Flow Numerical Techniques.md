@@ -26,11 +26,12 @@ The course is relevant for students that want to study and solve problems using 
 The course material for this course consists purely of lectures and associated practicals. 
 
 # 📢 Lectures
-The lectures are divided along the 5 topics discussed during this course. Instead of
+I did not attend the lectures physically, instead making use of the online recordings. As all lectures are structured along the 5 topics of this course, I decided to summarise all material immediately, not treating the lectures as separate
 
 
 # 🔗 Summaries
-## Finite Differences
+- [[WANT Summary General Overview]]
+- [[WANT Summary Finite Differences]]
 
 ## Finite Volumes
 
