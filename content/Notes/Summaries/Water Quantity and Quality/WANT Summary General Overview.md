@@ -31,4 +31,4 @@ We will discuss three different techniques for solving flow equations:
 
 When dealing with flow models, we have to deal with different kinds of uncertainty:
 - Uncertainty in initial conditions: it is often difficult to get high quality data, but slight changes in the initial conditions can have enormous impacts on the outcome of our models
-- Uncertainty in flow parameters: many models constants or parameters vary in space, and the
+- Uncertainty in flow parameters: many models constants or parameters vary in space, and they are often poorly known. 
