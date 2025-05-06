@@ -35,3 +35,4 @@ $$
 \frac{\mathrm{d}s}{\mathrm{d}t} = \lim_{\epsilon \to 0} \frac{s(t+\epsilon) - s(t)}{\epsilon}
 $$
 
+If we do this in a finite difference way, we work with step-sizes larger than 0 by approximation. 
