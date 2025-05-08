@@ -154,8 +154,17 @@ $$
 h\left(t + \frac{\Delta t}{2}\right) = h(t) + \frac{\Delta t}{2}\frac{\partial h}{\partial t} + \frac{1}{2} \left( \frac{\Delta t}{2} \right)^2 \frac{\partial^2 h}{\partial t^2} + \frac{1}{6}\left( \frac{\Delta t}{2} \right)^3 \frac{\partial^3 h}{\partial t^3} + \dots
 $$
 
-Let's take as our end point
+Let's take as our end point only the first terms and neglect the higher order ones
 
 $$
-h^* = 
+h^* = h(t) + \frac{\Delta t}{2}\frac{\partial h}{\partial t}
 $$
+
+The Euler backward now starts from $h^*$
+
+$$
+h(t) = h(t + \Delta t) - \frac{\Delta t}{2}\frac{\partial h}{\partial t} + \frac{(\Delta t)^2}{8} \frac{\partial^2 h}{\partial t^2} - \frac{(\Delta t)^3}{48} \frac{\partial^3 h}{\partial t^3} + \dots
+$$
+
+
+This is still a model in two steps. We can also merge it into one large step. 
