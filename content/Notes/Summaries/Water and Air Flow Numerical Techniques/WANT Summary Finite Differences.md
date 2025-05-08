@@ -147,5 +147,9 @@ $$
 
 This is called the implicit method, or [[Euler Backward]]. 
 
-## 1.4 Implicit and Explicit Combined
-Is it possible tyo
+## 1.4 Implicit and Explicit Combined: The Midpoint Method
+It is possible to combine the previous two methods into one. There are various ways of doing so. Here, we will present an example where we first take half a step using the explicit method, and then half a step using the implicit method.
+
+$$
+h\left(t + \frac{\Delta t}{2}\right) = h(t) + \frac{(\Delta t)^2}{8}
+$$
