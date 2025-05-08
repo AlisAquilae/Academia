@@ -159,5 +159,20 @@ It is possible to combine the previous two methods into one. There are various w
 Central to this course is the advection-diffusion equation. We now have to create a derivative in space rather than time. We can, once again, use the Taylor series. 
 
 $$
-s(x + \Delta x) = s(x) + \Delta x \frac{\Delta s}{\Delta x} + \frac{(\Delta x)^2}{2} \frac{\partial^2 s}{\partial x^2} + \frac{(\Delta x)^3}{6}\frac{\partial^3 s}{\partial x^3}
+s(x + \Delta x) = s(x) + \Delta x \frac{\partial s}{\partial x} + \frac{(\Delta x)^2}{2} \frac{\partial^2 s}{\partial x^2} + \frac{(\Delta x)^3}{6}\frac{\partial^3 s}{\partial x^3}
 $$
+
+We can again work towards a solution we have seen before
+
+$$
+\frac{s(x + \Delta x) - s(x)}{\Delta x} = \frac{\partial s}{\partial x} + \frac{\Delta x}{2}\frac{\partial^2 s}{\partial x^2} + \frac{(\Delta x)^2}{6} \frac{\partial^3 s}{\partial x^3}
+$$
+
+This corresponds to the forward method.  The backward method is as follows:
+
+$$
+s(x- \Delta x) = s(x) - \Delta x \frac{\partial s}{\partial x} + \frac{(\Delta x)^2}{2} \frac{\partial^2 s}{\partial x^2} - \frac{(\Delta x)^3}{6} \frac{\partial^3 s}{\partial x^3}
+$$
+
+For the derivative, we then get
+
