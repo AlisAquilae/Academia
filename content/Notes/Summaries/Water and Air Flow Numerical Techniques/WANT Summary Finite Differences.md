@@ -151,5 +151,8 @@ This is called the implicit method, or [[Euler Backward]].
 It is possible to combine the previous two methods into one. There are various ways of doing so. Here, we will present an example where we first take half a step using the explicit method, and then half a step using the implicit method.
 
 $$
-h\left(t + \frac{\Delta t}{2}\right) = h(t) + \frac{(\Delta t)^2}{8}
+\begin{aligned}
+h\left(t + \frac{\Delta t}{2}\right) &= h(t) + \frac{(\Delta t)^2}{8}\frac{\partial^2 h}{\partial t^2} + \frac{(\Delta t)^3}{48} \frac{\partial^3 h}{\partial t^3} + \dots \\
+h(t) &= h(t+\Delta t)
+\end{aligned}
 $$
