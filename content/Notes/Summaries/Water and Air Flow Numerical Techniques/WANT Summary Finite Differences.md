@@ -104,8 +104,27 @@ This is our first numerical model, which is called [[Euler Forward]]. We can tel
 One could argue that if we are able to use the Taylor series to estimate a future value, we can also use the same method to estimate a past value. In other words (estimated at time $t+\Delta t$)
 
 $$
-h(t) = h(t + \Delta t) - \Delta t \frac{\partial h}{\partial t} + \frac{(\Delta t)^2}{2} \frac{\partial^2 h}{\partial t^2}
+h(t) = h(t + \Delta t) - \Delta t \frac{\partial h}{\partial t} + \frac{(\Delta t)^2}{2} \frac{\partial^2 h}{\partial t^2} - \frac{(\Delta t)^3}{6}\frac{\partial^3 h}{\partial t^3}
 $$
 
 >[!Note]
->Given that our timestep is $-\Delta t$, we would assume the second operator to be $-$ instead of $+$. However, $(-\Delta t)
+>Given that our timestep is $-\Delta t$, we would assume the second operator to be $-$ instead of $+$. However, $(-\Delta t)^2$ becomes positive, hence the positive operator. For the sign after that, $(-\Delta t)^3$ becomes negative again. We therefore find alternating $+$ and $-$
+
+
+We are still interested in an expression of the form
+
+$$
+\frac{h(t+\Delta t) - h(t)}{\Delta t}
+$$
+
+
+as this allows us to integrate our model in time. Shuffling the terms around and following the same argument used at Euler Forward, we find (estimated at time $t+\Delta t$). 
+
+$$
+\begin{aligned}
+\frac{h(t+\Delta t) - h(t)}{\Delta t} &= \frac{\partial h}{\partial t} - \frac{\Delta t}{2}\frac{\partial^2 h}{\partial t^2} + \frac{(\Delta t)^2}{6}\frac{\partial^3 h}{\partial t^3} \\
+&= \frac{\partial h}{\partial t} - \text{errors}
+\end{aligned}
+$$
+
+This is still a first order approximation, with the error term being proportional to $\Delta t$. However, now the error term has a negative value. Thus, if we overestimate using the first method, we will underestim
