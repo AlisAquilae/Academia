@@ -9,6 +9,7 @@ Related Terminology:
 Related Courses: ["[[Water and Air Flow Numerical Techniques]]"]
 ---
 # 1. Finite Differences in Time
+## 1.1 Introduction
 Finite differences in time are applicable to numerical models of physical problems that evolve over time only (i.e. no spatial dimension). To do this, we will solve [[Ordinary Differential Equation]]s. Specifically, the form that we will study is, with $s$ as the state variable,
 
 $$
@@ -45,6 +46,7 @@ $$
 
 We then have to evaluate these errors: whether they are large or small relative to the change of our state variable over time, how they behave, etc.
 
+## 1.2 Explicit method (Euler Forward)
 What we are going to use do this, is through the [[Taylor Series]]. We can approximate our state variable a little bit ahead in time as a function of a lot of things which we know at the actual time.
 
 $$
@@ -97,3 +99,13 @@ h(t+\Delta t) &= h(t) + \Delta t \alpha h(t) \\
 $$
 
 This is our first numerical model, which is called [[Euler Forward]]. We can tell what our future value of $h(t)$ is going to be using the value of $h(t)$ at our current timestep. 
+
+## 1.3 Implicit Method (Euler Backward)
+One could argue that if we are able to use the Taylor series to estimate a future value, we can also use the same method to estimate a past value. In other words (estimated at time $t+\Delta t$)
+
+$$
+h(t) = h(t + \Delta t) - \Delta t \frac{\partial h}{\partial t} + \frac{(\Delta t)^2}{2} \frac{\partial^2 h}{\partial t^2}
+$$
+
+>[!Note]
+>Given that our timestep is $-\Delta t$, we would assume the second operator to be $-$ instead of $+$. However, $(-\Delta t)
