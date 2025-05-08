@@ -127,4 +127,25 @@ $$
 \end{aligned}
 $$
 
-This is still a first order approximation, with the error term being proportional to $\Delta t$. However, now the error term has a negative value. Thus, if we overestimate using the first method, we will underestim
+This is still a first order approximation, with the error term being proportional to $\Delta t$. However, now the error term has a negative value. Thus, if we overestimate using the first method, we will underestimate with this one.
+
+Taking our usual example, we take
+
+$$
+h(t + \Delta t) = h(t) + \Delta t \, \alpha \, h(t+\Delta t)
+$$
+
+This is more difficult to solve, especially in practice. In this case, it is relatively easy. 
+
+$$
+\begin{aligned}
+h(t+\Delta t) - \Delta t \, \alpha \, h(t+\Delta t) &= h(t) \\
+h(t+\Delta t) (1-\Delta t \, \alpha) &= h(t) \\
+h(t+\Delta t) &= \frac{h(t)}{1-\Delta t \, \alpha}
+\end{aligned}
+$$
+
+This is called the implicit method, or [[Euler Backward]]. 
+
+## 1.4 Implicit and Explicit Combined
+Is it possible tyo
