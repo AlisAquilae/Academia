@@ -236,24 +236,43 @@ Let's take an example. We are interested in how a concentration of a substance m
 
 What would happen if there were only advection? The shape of the concentration remains the same, but moves downstream.
 
-In some contexts, the notation of the advection-diffusion equation is transformed to use the divergence of fluxes. 
+What would happen if there were only diffusion? The concentration would flatten out and spread around in a "smearing" fashion 
 
-$$
-\frac{\partial s}{\partial t} = -\frac{\partial q}{\partial x}
-$$
+A combination of both moves downstream and is smeared out simultaneously
 
-where $q$ is the divergence of the flux. The total flux $q$ is, in the example above, the sum of the advection flux and the diffusion flux. 
 
-The advection flux is equal to $u \cdot s$, i.e. the velocity times the concentration itself. 
+>[!Info]
+>In some contexts, the notation of the advection-diffusion equation is transformed to use the divergence of fluxes. 
+>
+>$$
+>\frac{\partial s}{\partial t} = -\frac{\partial q}{\partial x}
+>$$
+>
+>where $q$ is the divergence of the flux. The total flux $q$ is, in the example above, the sum of the advection flux and the diffusion flux. 
+>
+>The advection flux is equal to $u \cdot s$, i.e. the velocity times the concentration itself. 
+>
+>The diffusion flux is equal to 
+>
+>$$
+>-D \frac{\partial s}{\partial x}
+>$$
+>
+>So, the total flux is
+>
+>$$
+>q = (u \cdot s) - D \frac{\partial s}{\partial x}
+>$$
+>
+>What this shows is that advection as a process depends only on the speed at which the concentration moves. Meanwhile, diffusion depends on the local gradient of the concentration in space. It is highest when the concentration is highest, and moves from high to low concentration
 
-The diffusion flux is equal to 
 
-$$
--D \frac{\partial s}{\partial x}
-$$
+We are now interested in creating a model for this advection-diffusion equation. To do so, we are going to combine all of the previously discussed examples (keeping diffusion centred for simplicity):
+- Euler forward in time (explicit) with forward in space advection
+- Euler forward in time (explicit) with centred in space advection
+- Euler forward in time (explicit) with backward in space advection
+- Euler backward in time (implicit) with forward in space advection
+- Euler backward in time (implicit) with centred in space advection
+- Euler backward in time (implicit) with backward in space advection
+- Midpoint in time (mixed explicit/implicit) with centred in space advection
 
-So, the total flux is
-
-$$
-q = (u \cdot s) - D \frac{\partial s}{\partial x}
-$$
