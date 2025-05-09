@@ -181,4 +181,23 @@ $$
 $$
 
 >[!Note]
->Finite differences in space are different from finite differences in time regarding what it is we are evaluating. Using finite differences in time, we are estimating present or future value derivatives using respectively explicit and implicit methods. Using finite differences in space, we are always interested in values at the present location. 
+>Finite differences in space are different from finite differences in time regarding what it is we are evaluating. Using finite differences in time, we are estimating present or future value derivatives using respectively explicit and implicit methods. Using finite differences in space, we are always interested in values at the present location. The explicit and implicit methods then correspond to estimating the present value from the past or the future, respectively
+
+
+Again, we can create a composite method using both methods described above. We can subtract the past value from the future one, i.e. subtracting the implicit method from the explicit one. We find
+
+$$
+s(x+\Delta x) - s(x-\Delta x) = 2\Delta x \frac{\partial s}{\partial x} + \frac{(\Delta x)^3}{3}\frac{\partial^3 s}{\partial x^3}
+$$
+
+>[!Note]
+>We see that the first and third terms cancel each other out, which leads to the equation above
+
+We can again rewrite this into a derivative form
+
+$$
+\frac{s(x+\Delta x) - s(x-\Delta x)}{2\Delta x} = \frac{\partial s}{\partial x} + \frac{(\Delta x)^2}{6}\frac{\partial^3 s}{\partial x^3}
+$$
+
+What is nice about this centred method is that it has an error term which is proportional to $(\Delta x)^2$. Therefore, this is a second-order approximation rather than a first-order one, as if we half the step-size the error goes down with a factor 4. 
+
