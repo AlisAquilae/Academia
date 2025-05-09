@@ -390,4 +390,11 @@ $$
 \left(\frac{u}{2\Delta x} + \frac{D}{(\Delta x)^2}\right) s_1 -\frac{2D}{(\Delta x)^2} s_2  - \left(\frac{u}{2\Delta x} + \frac{D}{(\Delta x)^ 2} \right) s_3 = 0
 $$
 
-We can do the same for all the other equations, i.e for $i=3$ and $i=4$ 
+We can do the same for all the other equations, i.e for $i=3$ and $i=4$. One we have done so, we can put them in a matrix, where row $v$ corresponds to $i=v$
+
+$$
+\begin{bmatrix}
+? & ? & ? & ? & ? \\
+\frac{u}{2\Delta x} + \frac{D}{(\Delta x)^2} & -\frac{2D}{(\Delta x)^2} & - \frac{u}{2\Delta x} + \frac{D}{(\Delta x)^ 2} \right)
+\end{bmatrix}
+$$
