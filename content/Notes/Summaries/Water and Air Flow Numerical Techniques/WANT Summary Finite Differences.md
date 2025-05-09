@@ -343,4 +343,26 @@ c_5 s_5 &= 1\cdot s_5 &= C_R
 \end{aligned}
 $$
 
-The ones in between are more difficult. Let's work out $i=2$ as an example. In this equation
+The ones in between are more difficult. Let's work out $i=2$ as an example. In its equation
+
+$$
+0 = -u\frac{s_3 - s_1}{2\Delta x} + D \frac{s_3 - 2s_2 + s_1}{(\Delta x)^2}
+$$
+
+we find 2 times $s_1$, once in the advection component and once in the diffusion component. The advection component can be refactored into a component for each $s_i$:
+
+$$
+-u\frac{s_3 - s_1}{2\Delta x} = - \frac{u}{2\Delta x} s_3 + \frac{u}{2\Delta x}s_1
+$$
+
+We can do the same for the diffusion component:
+
+$$
+D \frac{s_3 - 2s_2 + s_1}{(\Delta x)^2} = \frac{D}{(\Delta x)^ 2}s_3 - \frac{2D}{(\Delta x)^2}s_2 + \frac{D}{(\Delta x)^2}s_1
+$$
+
+We can now find the constant $c$ for every component $s$. So for 
+
+$$
+
+$$
