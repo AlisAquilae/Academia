@@ -221,4 +221,9 @@ $$
 s(x+\Delta x) + s(x-\Delta x) -2s(x) = (\Delta x)^2 \frac{\partial^2 s}{\partial x^2} + \dots
 $$
 
-In order to find the derivative, we now divide everything by 
+In order to find the derivative, we now divide everything by $(\Delta x)^2$
+
+$$
+\frac{s(x+\Delta x) + s(x-\Delta x) - 2s(x)}{(\Delta x)^2} = \frac{\partial^2 s}{\partial x^2} + \dots
+$$
+
