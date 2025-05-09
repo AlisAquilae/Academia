@@ -320,7 +320,27 @@ $$
 We first need to introduce boundary conditions.
 
 Assume we are working with a grid of 5 points. We want to model the shape of the water table between two ditches. In this case, the equations would look as follows:
-1. $s_1 = C_L$
-2. $s_2 = -u\frac{s_3 - s_1}{2\Delta x} + D \frac{s_3 - 2s_2 + s_1}{(\Delta x)^2}$
-3. $s_3 = -u\frac{s_4 - s_2}{2\Delta x} + D \frac{s_4 - 2s_3 + s_2}{(\Delta x)^2}$
-4. $s_4 = -u\frac{s_5 - s_2}{2\Delta x} + D \frac{s_5 - 2s_3 + s_1}{(\Delta x)^2}
+1. For $i=1$: $s_1 = C_L$
+2. For $i = 2$: $0 = -u\frac{s_3 - s_1}{2\Delta x} + D \frac{s_3 - 2s_2 + s_1}{(\Delta x)^2}$
+3. For $i=3$: $0 = -u\frac{s_4 - s_2}{2\Delta x} + D \frac{s_4 - 2s_3 + s_2}{(\Delta x)^2}$
+4. For $i=4$: $0 = -u\frac{s_5 - s_3}{2\Delta x} + D \frac{s_5 - 2s_3 + s_3}{(\Delta x)^2}$
+5. For $i=5$: $s_5 = C_R$
+
+We cannot solve these equations step-wise, as they all depend on one another. Rather, we need to solve them in one go. We are going to do so using matrices. For this, we are going to require our equations to be of the following form:
+
+$$
+c_1 s_1 + c_2 s_2 + c_3 s_3 + c_4 s_4 + c_5 s_5 = \alpha
+$$
+
+where $c$ and $\alpha$ are constants. 
+
+The boundary conditions are easy, as we know the end-points (which are fixed). Thus, 
+
+$$
+\begin{aligned}
+c_1 s_1 &= 1\cdot s_1 &= C_L \\
+c_5 s_5 &= 1\cdot s_5 &= C_R
+\end{aligned}
+$$
+
+The ones in between are more difficult. Let's work out $i=2$ as an example. In this equation
