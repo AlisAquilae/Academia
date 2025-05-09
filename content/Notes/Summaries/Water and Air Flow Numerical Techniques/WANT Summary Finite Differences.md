@@ -317,4 +317,10 @@ $$
 0 = -u \frac{s_{i+1} - s_{i-1}}{2\Delta x} + D \frac{s_{i+1} - 2s_i + s_{i-1}}{(\Delta x)^ 2}
 $$
 
-We first need to introduce boundary conditions
+We first need to introduce boundary conditions.
+
+Assume we are working with a grid of 5 points. We want to model the shape of the water table between two ditches. In this case, the equations would look as follows:
+1. $s_1 = C_L$
+2. $s_2 = -u\frac{s_3 - s_1}{2\Delta x} + D \frac{s_3 - 2s_2 + s_1}{(\Delta x)^2}$
+3. $s_3 = -u\frac{s_4 - s_2}{2\Delta x} + D \frac{s_4 - 2s_3 + s_2}{(\Delta x)^2}$
+4. $s_4 = -u\frac{s_5 - s_2}{2\Delta x} + D \frac{s_5 - 2s_3 + s_1}{(\Delta x)^2}
