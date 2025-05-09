@@ -304,3 +304,17 @@ Now onto solving the actual equation. We need a few things
 >1. Dirchlet boundary condition: a fixed boundary value
 >2. Neumann boundary condition: a fixed boundary flux
 >3. Robin boundary condition: a combination of Dirchlet and Neumann
+
+We would like to solve the steady-state solution with centred advection:
+
+$$
+0 = -u \frac{\partial s}{\partial x} + D \frac{\partial^ 2 s}{\partial x^ 2}
+$$
+
+We can compose equations for every grid point
+
+$$
+0 = -u \frac{s_{i+1} - s_{i-1}}{2\Delta x} + D \frac{s_{i+1} - 2s_i + s_{i-1}}{(\Delta x)^ 2}
+$$
+
+We first need to introduce boundary conditions
