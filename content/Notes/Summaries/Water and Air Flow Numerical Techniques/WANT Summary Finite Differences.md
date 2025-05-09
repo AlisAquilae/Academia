@@ -156,6 +156,7 @@ It is possible to combine the previous two methods into one. There are various w
 
 ---
 # 2. Finite Differences in Space
+## 2.1 The First Derivative
 Central to this course is the advection-diffusion equation. We now have to create a derivative in space rather than time. We can, once again, use the Taylor series. 
 
 $$
@@ -187,7 +188,7 @@ $$
 Again, we can create a composite method using both methods described above. We can subtract the past value from the future one, i.e. subtracting the implicit method from the explicit one. We find
 
 $$
-s(x+\Delta x) - s(x-\Delta x) = 2\Delta x \frac{\partial s}{\partial x} + \frac{(\Delta x)^3}{3}\frac{\partial^3 s}{\partial x^3}
+s(x+\Delta x) - s(x-\Delta x) = 2\Delta x \frac{\partial s}{\partial x} + \frac{(\Delta x)^3}{3}\frac{\partial^3 s}{\partial x^3} + \dots
 $$
 
 >[!Note]
@@ -201,3 +202,23 @@ $$
 
 What is nice about this centred method is that it has an error term which is proportional to $(\Delta x)^2$. Therefore, this is a second-order approximation rather than a first-order one, as if we half the step-size the error goes down with a factor 4. 
 
+## 2.2 The Second Derivative
+So far, we have only seen how to solve for the first derivative. We are, however, predominantly interested in the convection-diffusion equation, which contains a second-order derivative as well
+
+$$
+\frac{\partial s}{\partial t} = -u \frac{\partial s}{\partial x} + D \frac{\partial^2 s}{\partial x^2}
+$$
+
+To solve the second derivative, we want to find $\frac{\partial^2 s}{\partial x^2}$ as a function of $s(x)$, $s(x+\Delta x)$ and $s(x - \Delta x)$. In order to do so, we add the explicit and implicit methods together. Doing so, the second term disappears. We find
+
+$$
+s(x+\Delta x) + s(x - \Delta x) = 2s(x) + (\Delta x)^2\frac{\partial^2 s}{\partial x^2} + \dots
+$$
+
+We take $s(x)$ to the left-hand side of the equation
+
+$$
+s(x+\Delta x) + s(x-\Delta x) -2s(x) = (\Delta x)^2 \frac{\partial^2 s}{\partial x^2} + \dots
+$$
+
+In order to find the derivative, we now divide everything by 
