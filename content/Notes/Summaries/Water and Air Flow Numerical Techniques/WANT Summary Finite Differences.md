@@ -178,7 +178,7 @@ $$
 For the derivative, we then get
 
 $$
-\frac{s(x) - s(x + \Delta x)}{\Delta x} = \frac{\partial s}{\partial x} - \frac{\Delta x}{2}\frac{\partial^2 s}{\partial x^2} + \frac{(\Delta x)^2}{6}\frac{\partial^3 s}{\partial x^3}
+\frac{s(x) - s(x - \Delta x)}{\Delta x} = \frac{\partial s}{\partial x} - \frac{\Delta x}{2}\frac{\partial^2 s}{\partial x^2} + \frac{(\Delta x)^2}{6}\frac{\partial^3 s}{\partial x^3}
 $$
 
 >[!Note]
@@ -227,3 +227,7 @@ $$
 \frac{s(x+\Delta x) + s(x-\Delta x) - 2s(x)}{(\Delta x)^2} = \frac{\partial^2 s}{\partial x^2} + \dots
 $$
 
+## 2.3 Advection-Diffusion Equation
+Advection refers to the process of moving things around. Diffusion is concerned with mixing. 
+
+Let's take an example. We are interested in how a 
