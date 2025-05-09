@@ -394,7 +394,51 @@ We can do the same for all the other equations, i.e for $i=3$ and $i=4$. One we 
 
 $$
 \begin{bmatrix}
-? & ? & ? & ? & ? \\
-\frac{u}{2\Delta x} + \frac{D}{(\Delta x)^2} & -\frac{2D}{(\Delta x)^2} & - \frac{u}{2\Delta x} + \frac{D}{(\Delta x)^ 2} \right)
+1 & 0 & 0 & 0 & 0 \\
+\frac{u}{2\Delta x} + \frac{D}{(\Delta x)^2} & -\frac{2D}{(\Delta x)^2} & - \frac{u}{2\Delta x} + \frac{D}{(\Delta x)^ 2} & 0 & 0 \\
+0 & \frac{u}{2\Delta x} + \frac{D}{(\Delta x)^2} & -\frac{2D}{(\Delta x)^2} & - \frac{u}{2\Delta x} + \frac{D}{(\Delta x)^ 2} & 0 \\
+0 & 0 & \frac{u}{2\Delta x} + \frac{D}{(\Delta x)^2} & -\frac{2D}{(\Delta x)^2} & - \frac{u}{2\Delta x} + \frac{D}{(\Delta x)^ 2} \\
+0 & 0 & 0 & 0 & 1
 \end{bmatrix}
+\begin{bmatrix}
+s_1 \\ s_2 \\ s_3 \\ s_4 \\ s_5
+\end{bmatrix} = \begin{bmatrix}
+C_L \\ 0 \\ 0 \\ 0 \\ C_R
+\end{bmatrix}
+$$
+
+This corresponds to a matrix-vector product:
+
+$$
+M \overrightarrow{s} = \overrightarrow{w}
+$$
+
+To solve for this, we need to find the inverse of the matrix. $M^ {-1}$, and solve
+
+$$
+M^{-1}M \overrightarrow{s} = M^{-1}\overrightarrow{w}
+$$
+
+The product of a matrix with its inverse is simply the identity matrix $I$:
+
+$$
+I = \begin{bmatrix}
+1 & 0 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 & 0 \\
+0 & 0 & 1 & 0 & 0 \\
+0 & 0 & 0 & 1 & 0 \\
+0 & 0 & 0 & 0 & 1
+\end{bmatrix}
+$$
+
+Thus, we are left with
+
+$$
+I \overrightarrow{s} = M^{-1}\overrightarrow{w}
+$$
+
+However, the product of an identity matrix and a vector is simply that vector itself, meaning this reduces to
+
+$$
+\overrightarrow{s} = M^{-1}\overrightarrow{w}
 $$
