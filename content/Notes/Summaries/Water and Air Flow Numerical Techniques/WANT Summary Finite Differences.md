@@ -276,3 +276,17 @@ We are now interested in creating a model for this advection-diffusion equation.
 - Euler backward in time (implicit) with backward in space advection
 - Midpoint in time (mixed explicit/implicit) with centred in space advection
 
+>[!Note]
+>These were worked out during the practicals. I will only give a single example here
+
+>[!Example]
+>The following is an example of the Euler forward in time (explicit) with forward in space advection. The state variable is $s$. and the indices $i$ and $n$ refer to space and time, respectively
+>
+>$$
+>\frac{s_{i, n+1} - s_{i, n}}{\Delta t} = -u \frac{s_{i + 1, n} - s_{i, n}}{\Delta x} + D \frac{s_{i+1. n} - 2s_{i, n} + s_{i-1, n}}{(\Delta x)^ 2}
+>$$
+>
+>For time $n$, we see that when evaluating the space derivatives, $n$ remains constant and at the time $n$ itself. At the time derivative, we are interested in the next timestep, as is indicated by looking at the difference between the point ahead in time ($n+1$) minus the point at the present ($n$). 
+>
+ >For space $i$, we see that when evaluating the time derivative, space remains constant. At the space derivative, we see the centred method implemented through taking the average of one step back ($i-1$) and one step forward ($i+1$), as well as the usual implementation of the diffusion equation as derived earlier
+ 
