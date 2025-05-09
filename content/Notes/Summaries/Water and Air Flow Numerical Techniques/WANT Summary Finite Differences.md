@@ -361,8 +361,33 @@ $$
 D \frac{s_3 - 2s_2 + s_1}{(\Delta x)^2} = \frac{D}{(\Delta x)^ 2}s_3 - \frac{2D}{(\Delta x)^2}s_2 + \frac{D}{(\Delta x)^2}s_1
 $$
 
-We can now find the constant $c$ for every component $s$. So for 
+We can now find the constant $c$ for every component $s$. So for $i=2$:
 
 $$
+\begin{aligned}
+c_1 &= \left(\frac{u}{2\Delta x} + \frac{D}{(\Delta x)^2}\right) \\
+c_2 &= -\frac{2D}{(\Delta x)^2} \\
+c_3 &= \left(- \frac{u}{2\Delta x} + \frac{D}{(\Delta x)^ 2} \right)
+\end{aligned}
+$$
+
+Thus, our equation corresponding to $i=2$ is
 
 $$
+\begin{aligned}
+c_1 s_1 + c_2 s_2 + c_3 s_3 &= \alpha \\
+\left(\frac{u}{2\Delta x} + \frac{D}{(\Delta x)^2}\right) s_1 -\frac{2D}{(\Delta x)^2} s_2  - \left(\frac{u}{2\Delta x} + \frac{D}{(\Delta x)^ 2} \right) s_3 &= \alpha
+\end{aligned}
+$$
+
+>[!Note]
+>In the equation above, we excluded $s_4$ and $s_5$. We did so because these do not occur in the equation for $i=2$, meaning that their constant is equal to $0$. 
+
+
+We know, however, that the sum of advection and diffusion is $0$. Thus, our constant $\alpha$ is also equal to $0$. We therefore find for $i=2$
+
+$$
+\left(\frac{u}{2\Delta x} + \frac{D}{(\Delta x)^2}\right) s_1 -\frac{2D}{(\Delta x)^2} s_2  - \left(\frac{u}{2\Delta x} + \frac{D}{(\Delta x)^ 2} \right) s_3 = 0
+$$
+
+We can do the same for all the other equations, i.e for $i=3$ and $i=4$ 
