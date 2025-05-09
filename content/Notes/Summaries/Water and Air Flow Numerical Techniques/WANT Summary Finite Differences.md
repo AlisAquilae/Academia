@@ -290,3 +290,17 @@ We are now interested in creating a model for this advection-diffusion equation.
 >
  >For space $i$, we see that when evaluating the time derivative, space remains constant. At the space derivative, we see the centred method implemented through taking the average of one step back ($i-1$) and one step forward ($i+1$), as well as the usual implementation of the diffusion equation as derived earlier
  
+
+Now onto solving the actual equation. We need a few things
+- Paramaters ($u, D$)
+- Initial conditions
+- The length in time
+- Boundary conditions
+- Equations to use
+- Description of the spatial domain
+
+>[!Note]
+>There are different kind of boundary conditions. 
+>1. Dirchlet boundary condition: a fixed boundary value
+>2. Neumann boundary condition: a fixed boundary flux
+>3. Robin boundary condition: a combination of Dirchlet and Neumann
