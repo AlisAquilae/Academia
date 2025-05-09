@@ -176,3 +176,9 @@ $$
 
 For the derivative, we then get
 
+$$
+\frac{s(x) - s(x + \Delta x)}{\Delta x} = \frac{\partial s}{\partial x} - \frac{\Delta x}{2}\frac{\partial^2 s}{\partial x^2} + \frac{(\Delta x)^2}{6}\frac{\partial^3 s}{\partial x^3}
+$$
+
+>[!Note]
+>Finite differences in space are different from finite differences in time regarding what it is we are evaluating. Using finite differences in time, we are estimating present or future value derivatives using respectively explicit and implicit methods. Using finite differences in space, we are always interested in values at the present location. 
