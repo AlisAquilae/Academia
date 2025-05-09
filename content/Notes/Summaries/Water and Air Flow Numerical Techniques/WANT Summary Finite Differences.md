@@ -230,4 +230,30 @@ $$
 ## 2.3 Advection-Diffusion Equation
 Advection refers to the process of moving things around. Diffusion is concerned with mixing. 
 
-Let's take an example. We are interested in how a 
+Let's take an example. We are interested in how a concentration of a substance moves around. It moves (advects) with 1 m/s, and diffuses with 0.5 m$^ 2$/s, and we are interested in the next 50 seconds. 
+
+![[Pasted image 20250509132200.png]]
+
+What would happen if there were only advection? The shape of the concentration remains the same, but moves downstream.
+
+In some contexts, the notation of the advection-diffusion equation is transformed to use the divergence of fluxes. 
+
+$$
+\frac{\partial s}{\partial t} = -\frac{\partial q}{\partial x}
+$$
+
+where $q$ is the divergence of the flux. The total flux $q$ is, in the example above, the sum of the advection flux and the diffusion flux. 
+
+The advection flux is equal to $u \cdot s$, i.e. the velocity times the concentration itself. 
+
+The diffusion flux is equal to 
+
+$$
+-D \frac{\partial s}{\partial x}
+$$
+
+So, the total flux is
+
+$$
+q = (u \cdot s) - D \frac{\partial s}{\partial x}
+$$
