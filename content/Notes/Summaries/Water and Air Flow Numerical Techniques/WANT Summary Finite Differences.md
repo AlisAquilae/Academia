@@ -290,6 +290,7 @@ We are now interested in creating a model for this advection-diffusion equation.
 >
  >For space $i$, we see that when evaluating the time derivative, space remains constant. At the space derivative, we see the centred method implemented through taking the average of one step back ($i-1$) and one step forward ($i+1$), as well as the usual implementation of the diffusion equation as derived earlier
  
+### 2.3.1 Solving the cD-equation in space
 
 Now onto solving the actual equation. We need a few things
 - Paramaters ($u, D$)
@@ -349,7 +350,7 @@ $$
 0 = -u\frac{s_3 - s_1}{2\Delta x} + D \frac{s_3 - 2s_2 + s_1}{(\Delta x)^2}
 $$
 
-we find 2 times $s_1$, once in the advection component and once in the diffusion component. The advection component can be refactored into a component for each $s_i$:
+we find 2 times $s_1$, once in the convection component and once in the diffusion component. The advection component can be refactored into a component for each $s_i$:
 
 $$
 -u\frac{s_3 - s_1}{2\Delta x} = - \frac{u}{2\Delta x} s_3 + \frac{u}{2\Delta x}s_1
@@ -442,3 +443,8 @@ However, the product of an identity matrix and a vector is simply that vector it
 $$
 \overrightarrow{s} = M^{-1}\overrightarrow{w}
 $$
+
+### 2.3.2 Solving the cD-equation in space and time
+Solving the convection-diffusion equation in time is very similar to solving the same equation in space, with the main difference being that we are not going to solve the equation once, but we do so once for each time-step. 
+
+Let's look at our previous matrix $M$ again. For now, we evaluate all spatial components $s_i$ at once, meaning the $i$-index drops 
