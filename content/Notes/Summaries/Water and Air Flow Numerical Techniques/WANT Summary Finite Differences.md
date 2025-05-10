@@ -472,5 +472,23 @@ $$
 We can refactor this
 
 $$
-\overrightarrow{s}_{n+1} ( 1 - \frac{1}{2} \Delta t M)
+\overrightarrow{s}_{n+1} ( I - \frac{1}{2} \Delta t M) = \overrightarrow{s}_n (I + \frac{1}{2} \Delta t M)
 $$
+
+>[!Note]
+>When refactoring, we would like to put a $1$ where we put an $I$. However, we are working with matrices and vectors. The vector-equivalent of $1$ is the identity matrix $I$, hence why we use $I$ here. 
+
+Now,  we have something we can solve. Except, we still need to account for the boundary conditions, for which we use the same method as above.
+
+
+$$
+\begin{aligned}
+\overrightarrow{s}_{n+1} \underbrace{( I - \frac{1}{2} \Delta t M)}_{M^*} &= \underbrace{\overrightarrow{s}_n (I + \frac{1}{2} \Delta t M)}_{\overrightarrow{w}} \\
+M^* \overrightarrow{s}_{n+1} &= \overrightarrow{v}
+\end{aligned}
+$$
+
+This is solvable using the previous methods.
+
+Once we proceed to the next timestep, we simply include for $s_n$ our previous values of $s_{n+1}$
+
