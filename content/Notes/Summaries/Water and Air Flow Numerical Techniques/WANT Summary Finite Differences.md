@@ -501,6 +501,11 @@ $$
 \frac{\partial s}{\partial t} = -u \frac{\partial s}{\partial x} + D \frac{\partial^ 2 s}{\partial x^ 2}
 $$
 
+For this equation, we take as an example
+- $u = 1$ m/s
+- $D = 0.5$ m$^2$/s
+- $T=50$ s
+
 We are going to non-dimensionalise the equations by non-dimensionalising our variables (which are noted down with a 'hat'). We achieve this by dividing our variables by some representative values
 
 $$
@@ -512,4 +517,17 @@ $$
 $$
 
 
-We can find the characteristic time $T$
+We can find the characteristic time $T$ as the characteristic length $L$ divided by the velocity $u$, meaning
+
+$$
+\hat{t} = \frac{tu}{L}
+$$
+
+Next, we substitute in the values defined in the problem. 
+
+$$
+\begin{aligned}
+\frac{\partial s}{\partial t} &= -u \frac{\partial s}{\partial x} + D \frac{\partial^ 2 s}{\partial x^ 2} \\
+\frac{uS}{L} \frac{\partial \hat{s}}{\partial \hat{t}} &= - \frac{uS}{L} \frac{\partial \hat{s}}{\partial \hat{x}}
+\end{aligned}
+$$
