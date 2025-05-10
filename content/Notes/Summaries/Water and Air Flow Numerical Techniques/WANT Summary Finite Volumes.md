@@ -51,4 +51,12 @@ $$
 \int\limits_V \frac{\partial s}{\partial t} \, \mathrm{d}V = \sum\limits_i^N Q_i
 $$
 
-Let's give our box the dimensions $\Delta x$, $\Delta y$ and $\Delta z$. The change in state $s$ between timesteps $n$ and $n+1$ can then be calculated in our example (again, )
+Let's give our box the dimensions $\Delta x$, $\Delta y$ and $\Delta z$. The change in state $s$ between timesteps $n$ and $n+1$ can then be calculated in our example (again, assuming only flow in the $x$-direction) as
+
+$$
+s_{n+1} \Delta x \Delta y \Delta z - s_n \Delta x \Delta y \Delta z = q_{\text{left}} \Delta y \Delta z \Delta t - q_{\text{right}} \Delta y \Delta z \Delta t
+$$
+
+![[Pasted image 20250510153349.png]]
+
+We can easily extend this for the other faces of the box by adding $q_{\text{top}}$ and $q_{\text{bottom}}$, for example. 
