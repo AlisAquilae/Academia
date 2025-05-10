@@ -41,3 +41,14 @@ We imagine a square box through which a fluid passes. Here, we keep it simple, a
 
 In the finite volume approach we take here, rather than solving the equation, we are going to create a budget for all the faces of the box. This is represented mathematically as follows:
 
+$$
+\int\limits_V \frac{\partial s}{\partial t} \, \mathrm{d}V = \oint\limits_S q \, \mathrm{d}S
+$$
+
+This reads as follows: the change of the state $s$, integrated over the control volume, is equal to the balance of everything which goes in and out of the volume through the box's faces. We can also write this as the sum of all the fluxes going in and out of the box
+
+$$
+\int\limits_V \frac{\partial s}{\partial t} \, \mathrm{d}V = \sum\limits_i^N Q_i
+$$
+
+Let's give our box the dimensions $\Delta x$, $\Delta y$ and $\Delta z$. The change in state $s$ between timesteps $n$ and $n+1$ can then be calculated in our example (again, )
