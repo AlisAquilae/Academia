@@ -447,4 +447,30 @@ $$
 ### 2.3.2 Solving the cD-equation in space and time
 Solving the convection-diffusion equation in time is very similar to solving the same equation in space, with the main difference being that we are not going to solve the equation once, but we do so once for each time-step. 
 
-Let's look at our previous matrix $M$ again. For now, we evaluate all spatial components $s_i$ at once, meaning the $i$-index drops 
+Let's look at our previous matrix $M$ again. For now, we evaluate all spatial components $s_i$ at once, meaning the $i$-index drops temporarily. However, the convection-diffusion equation now changes in time, meaning the left-hand side of the equation is no longer $0$
+
+$$
+\frac{\partial s}{\partial t} = -u \frac{\partial s}{\partial x} + D \frac{\partial^ 2 s}{\partial x^ 2}
+$$
+
+We can still compose equations for every grid point.
+
+$$
+\frac{s_{n+1} - s_n}{\Delta t} = \frac{1}{2} M \overrightarrow{s_n} + \frac{1}{2} M \overrightarrow{s}_{n+1}
+$$
+
+>[!Note]
+>The method taken above is called the Crank-Nicolson method, which takes an in-between from the explicit and implicit methods by including both with a factor $1/2$. We could alter these factors ourselves. Taking factors $0$ and $1$, we would have a fully implicit method, and taking factors $1$ and $0$ is fully explicit.
+>
+
+To make our lives easier, we multiply with $\Delta t$ and rewrite.
+
+$$
+\overrightarrow{s}_{n+1} - \frac{1}{2} \Delta t M \overrightarrow{s}_{n+1} = \overrightarrow{s}_n + \frac{1}{2} \Delta t M \overrightarrow{s}_n
+$$
+
+We can refactor this
+
+$$
+\overrightarrow{s}_{n+1} ( 1 - \frac{1}{2} \Delta t M)
+$$
