@@ -492,3 +492,24 @@ This is solvable using the previous methods.
 
 Once we proceed to the next timestep, we simply include for $s_n$ our previous values of $s_{n+1}$
 
+### 2.3.3 Importance of advection relative to diffusion
+Now that we can calculate both advection and diffusion, we can calculate which of the two processes is dominant and whether, for example, a concentration is completely diffused before it advects to a certain location. However, there are ways aside from solving the entire equation with which we can achieve the same insight.
+
+Let's take the standard convection-diffusion equation.
+
+$$
+\frac{\partial s}{\partial t} = -u \frac{\partial s}{\partial x} + D \frac{\partial^ 2 s}{\partial x^ 2}
+$$
+
+We are going to non-dimensionalise the equations by non-dimensionalising our variables (which are noted down with a 'hat'). We achieve this by dividing our variables by some representative values
+
+$$
+\begin{aligned}
+\hat{s} &= \frac{s}{S} \\
+\hat{t} &= \frac{t}{T} \\
+\hat{x} &= \frac{x}{L}
+\end{aligned}
+$$
+
+
+We can find the characteristic time $T$
