@@ -520,7 +520,11 @@ $$
 We can find the characteristic time $T$ as the characteristic length $L$ divided by the velocity $u$, meaning
 
 $$
-\hat{t} = \frac{tu}{L}
+\begin{aligned}
+T &= \frac{L}{u} \\
+\hat{t} &= \frac{tu}{L}
+
+\end{aligned}
 $$
 
 Next, we substitute in the values defined in the problem. 
@@ -528,6 +532,14 @@ Next, we substitute in the values defined in the problem.
 $$
 \begin{aligned}
 \frac{\partial s}{\partial t} &= -u \frac{\partial s}{\partial x} + D \frac{\partial^ 2 s}{\partial x^ 2} \\
-\frac{uS}{L} \frac{\partial \hat{s}}{\partial \hat{t}} &= - \frac{uS}{L} \frac{\partial \hat{s}}{\partial \hat{x}}
+\frac{uS}{L} \frac{\partial \hat{s}}{\partial \hat{t}} &= - \frac{uS}{L} \frac{\partial \hat{s}}{\partial \hat{x}} + \frac{DS}{L} \frac{\partial^2 \hat{s}}{\partial \hat{x}^2}
 \end{aligned}
 $$
+
+We can factor our some common terms
+
+$$
+\frac{\partial \hat{s}}{\partial \hat{t}} = - \frac{\partial \hat{s}}{\partial \hat{x}} + \frac{D}{uL}\frac{\partial^2 \hat{s}}{\partial \hat{x}^2}
+$$
+
+The term $\frac{D}{uL}$ when reversed (i.e.  )is a famous dimensionless number called the Péclet number, and describes the relative importance of advection relative to diffusion. 
