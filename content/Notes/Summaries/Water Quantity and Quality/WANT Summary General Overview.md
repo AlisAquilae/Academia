@@ -1,12 +1,12 @@
 ---
 fileClass: Base, Summaries
 title: 
-Parents: 
+Parents: ["[[Water and Air Flow Numerical Techniques]]"]
 Draft: 
-Status: 
+Status: Done
 Related Notes: 
 Related Terminology: 
-Related Courses: 
+Related Courses: ["[[Water and Air Flow Numerical Techniques]]"]
 ---
 # Introduction
 This course is about flow modelling. We can model different topics, such as turbulent mixing of fluid layers, the water level evolution of lakes, the turbulent dispersion of forest fire plumes or moisture transport in the atmosphere. 

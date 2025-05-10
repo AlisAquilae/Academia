@@ -32,6 +32,7 @@ I did not attend the lectures physically, instead making use of the online recor
 # 🔗 Summaries
 - [[WANT Summary General Overview]]
 - [[WANT Summary Finite Differences]]
+- [[WANT Summary Finite Volumes]]
 
 ## Finite Volumes
 
