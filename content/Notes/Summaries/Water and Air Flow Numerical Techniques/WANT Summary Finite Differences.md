@@ -542,4 +542,19 @@ $$
 \frac{\partial \hat{s}}{\partial \hat{t}} = - \frac{\partial \hat{s}}{\partial \hat{x}} + \frac{D}{uL}\frac{\partial^2 \hat{s}}{\partial \hat{x}^2}
 $$
 
-The term $\frac{D}{uL}$ when reversed (i.e.  )is a famous dimensionless number called the Péclet number, and describes the relative importance of advection relative to diffusion. 
+The term $\frac{D}{uL}$ when reversed (i.e. $\frac{uL}{D}$ )is a famous dimensionless number called the Péclet number, and describes the relative importance of advection relative to diffusion. 
+
+Another way to check this is through the Courant-Friedrichs-Lewy condition (CFL):
+- If advection dominates, 
+  
+  $$
+  u \frac{\Delta t}{\Delta x} \le 1
+  $$
+
+
+- If diffusion dominates
+
+$$
+\frac{2D \Delta t}{(\Delta x)^2} \le 1
+$$
+
