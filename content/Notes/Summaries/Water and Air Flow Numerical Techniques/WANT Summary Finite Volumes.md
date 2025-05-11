@@ -60,3 +60,17 @@ $$
 ![[Pasted image 20250510153349.png]]
 
 We can easily extend this for the other faces of the box by adding $q_{\text{top}}$ and $q_{\text{bottom}}$, for example. 
+
+## 1.3 Steps to a Solution
+In general, the steps needed to come to a solution can be divided along the two problems which are central:
+
+1. The mathematical problem
+   - Define a domain
+   - Define a flux function
+   - Define boundary conditions
+   - Define external fluxes
+2. The numerical problem
+   - Define the discretization
+   - Create the control volumes
+   - Choose a method to solve the equations
+
