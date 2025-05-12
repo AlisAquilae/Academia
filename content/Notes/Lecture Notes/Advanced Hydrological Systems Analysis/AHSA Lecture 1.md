@@ -20,3 +20,14 @@ Typically we move through a flowchart:
 4. Procedural model: Get code running on a computer
 5. Calibration (hindcasting) / sensitivity analysis: identify parameters, estimate uncertainty
 6. Evaluation: compare output with observations
+
+# Unsaturated zone
+Richard's equation, mainly vertical direction.
+
+Extinction depth: area below rooting zone
+
+# Saturated zone
+Assume horizontal flow in aquifers. Vertical flow in aquitards (Dupuit assumptions)
+
+Recharge = net rainfall (not accounting for storage in unsaturated zone)
+
