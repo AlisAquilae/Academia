@@ -54,4 +54,10 @@ Before, there was no representation of input. What if we do this now? Qin is con
 
 Now what happens if input is variable? We take, for now, input as oscillating one per day. 
 - When Tnum is smaller than Tin and smaller than Tres, it does decently, but not great
-- When Tnum is much smaller, it does better
+- When Tnum is much smaller that Tin, it does better
+- When Tin equal to Tnum, it is completely off, and misses all dynamics of the variability
+
+>[!Important]
+>The numerical scale should be (much) less than the input scale, i.e. the time period through which your input varies. 
+
+
