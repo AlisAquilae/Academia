@@ -46,3 +46,12 @@ In our case, open water behaves the fastest, and therefore mostly dictates our a
 Start with simple reservoir model (bucket model). This visualises our catchment, with a Qout. We find an analytical solution which depends on the previous Qout. 
 
 An analytical solution is an exact solution of the differential equation. However, we cannot always find this mathematically. Thus, we often make simplifying assumptions. In this case, we make a numerical solution which approximates the analytical one. 
+
+>[!Important]
+>The numerical scale should be less than the system scale, or the scale of system dynamics
+
+Before, there was no representation of input. What if we do this now? Qin is constant, and the water level converges to an equilibrium. The lesson learnt mentioned above in the important box still holds for this case.
+
+Now what happens if input is variable? We take, for now, input as oscillating one per day. 
+- When Tnum is smaller than Tin and smaller than Tres, it does decently, but not great
+- When Tnum is much smaller, it does better
