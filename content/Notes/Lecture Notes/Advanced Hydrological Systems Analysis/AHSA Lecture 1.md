@@ -44,3 +44,5 @@ Depending on the system you are looking at, different scales are relevant (e.g. 
 In our case, open water behaves the fastest, and therefore mostly dictates our approach. 
 
 Start with simple reservoir model (bucket model). This visualises our catchment, with a Qout. We find an analytical solution which depends on the previous Qout. 
+
+An analytical solution is an exact solution of the differential equation. However, we cannot always find this mathematically. Thus, we often make simplifying assumptions. In this case, we make a numerical solution which approximates the analytical one. 
