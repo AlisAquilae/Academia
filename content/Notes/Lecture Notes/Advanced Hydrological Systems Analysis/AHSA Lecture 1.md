@@ -34,3 +34,13 @@ Recharge = net rainfall (not accounting for storage in unsaturated zone)
 # Open water
 Linearised (one channel in one line) St-Venant equations, constant drainage, i.e. equilibrium flow
 
+---
+# Numerics of Time and Space Scales (mostly time)
+
+Looking at the flow-chart, this mostly looks at the procedural model: choosing the code and how to represent space and time discretizations.
+
+Depending on the system you are looking at, different scales are relevant (e.g. cm vs m, seconds vs hours)
+
+In our case, open water behaves the fastest, and therefore mostly dictates our approach. 
+
+Start with simple reservoir model (bucket model). This visualises our catchment, with a Qout. We find an analytical solution which depends on the previous Qout. 
