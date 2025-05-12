@@ -31,3 +31,6 @@ Assume horizontal flow in aquifers. Vertical flow in aquitards (Dupuit assumptio
 
 Recharge = net rainfall (not accounting for storage in unsaturated zone)
 
+# Open water
+Linearised (one channel in one line) St-Venant equations, constant drainage, i.e. equilibrium flow
+
