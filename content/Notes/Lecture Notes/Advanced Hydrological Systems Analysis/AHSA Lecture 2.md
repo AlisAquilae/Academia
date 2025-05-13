@@ -34,4 +34,8 @@ Timestep should be smaller than 1/e
 
 In this context, the eigenvalues are independent of the external inputs, meaning the timestep is independent of the input. The same holds for the independence of the initial condition. 
 
+>[!Important]
+>We want the numerical scale to be smaller than the smallest system scale (i.e. smallest eigenvalue)
+
 # One-sided coupled reservoirs
+
