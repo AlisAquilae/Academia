@@ -27,3 +27,7 @@ We can write these formulas in matrix notation. We will use matrix notation when
 
 We end up with an analytical solution of vector C (input), matrix T and vector of eigenvalues (e)
 
+Timestep should be smaller than 1/e
+
+>[!Example]
+>If e = 5t and e = -2t, smallest timestep should be less than 1/5 = 0.2
