@@ -9,18 +9,21 @@ Related Terminology:
 Related Courses: ["[[Advanced Hydrological Systems Analysis]]"]
 ---
 # Introduction
-Yesterday, we left off with trying to identify the right timestep when finding the numerical solution. 
+We are going to couple the system, which introduces complexity in what we discussed yesterday.
+- One-sided coupled reservoirs (one bucket feeds into another)
+- Double-coupled reservoirs (two buckets can feed into each other)
 
-As long as timestep numerical is smaller than timestep of input variability and timestep of the system.
+>[!Warning]
+>See slides for example formulas
+
+
+First set of formulas (slide 8): more general formulas, can relate to either one-sided or coupled.
+
+We can write these formulas in matrix notation. We will use matrix notation when discussing coupling today.
 
 >[!Important]
->Tnum should be (much) smaller than Tin
+>Any linear ODE in time has an analytical solution
 
 
-What happens with variable input and more than one frequency? If Tnum in between Tin 1 and Tin 2, the solution is not very good. Tnum smaller than Tin 1 and Tin 2, only then good match
+We end up with an analytical solution of vector C (input), matrix T and vector of eigenvalues (e)
 
->[!Important]
->Tnum should be smaller than the smallest Tin
-
-
-We will not always need to take a small timestep which takes into account all the details. In this case, we average over some longer length. E.g. moving average, used as input for your model. This performs decently for larger seasonal variation, for example, but ignores the details. 
