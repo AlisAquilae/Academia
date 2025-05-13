@@ -16,7 +16,7 @@ We are going to couple the system, which introduces complexity in what we discus
 >[!Warning]
 >See slides for example formulas
 
-
+# One-sided coupled reservoirs
 First set of formulas (slide 8): more general formulas, can relate to either one-sided or coupled.
 
 We can write these formulas in matrix notation. We will use matrix notation when discussing coupling today.
@@ -37,5 +37,6 @@ In this context, the eigenvalues are independent of the external inputs, meaning
 >[!Important]
 >We want the numerical scale to be smaller than the smallest system scale (i.e. smallest eigenvalue)
 
-# One-sided coupled reservoirs
+# Double-coupled reservoirs
+Slightly more complex, but more realistic: two-way coupled. 
 
