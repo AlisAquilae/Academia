@@ -40,3 +40,7 @@ In this context, the eigenvalues are independent of the external inputs, meaning
 # Double-coupled reservoirs
 Slightly more complex, but more realistic: two-way coupled. 
 
+Be careful of 'hidden' eigenvalues. Always do the full calculation, don't eyeball it
+
+Eigenvalue analysis only possible for linear systems. 
+
