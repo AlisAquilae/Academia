@@ -31,3 +31,7 @@ Timestep should be smaller than 1/e
 
 >[!Example]
 >If e = 5t and e = -2t, smallest timestep should be less than 1/5 = 0.2
+
+In this context, the eigenvalues are independent of the external inputs, meaning the timestep is independent of the input. The same holds for the independence of the initial condition. 
+
+# One-sided coupled reservoirs
