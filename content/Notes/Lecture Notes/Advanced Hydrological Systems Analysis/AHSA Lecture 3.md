@@ -89,3 +89,10 @@ Vertical flow (aquitards) or anisotropical flow in aquifers, we use the harmonic
 
 >[!Warning]
 >See slides
+
+
+How to implement this in a 500km2 model?
+- Following lithology: too detailed, requires tiny cell size, very cpu itnensive, not sufficient data
+- Following hydrogeology: scaled up to formations, identify aquifer and aquitard formations
+
+Rule of thumb: when layers differ in k by 2 orders of magnitude, you can consider one an aquifer and another an aquitard. 
