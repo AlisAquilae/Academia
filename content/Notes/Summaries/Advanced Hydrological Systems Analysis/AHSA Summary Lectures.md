@@ -51,5 +51,27 @@ $$
 For our numerical solution, we use an explicit [[Finite Differences]] approach. We first choose a timestep to discretize by
 
 $$
+S(n\Delta t) \approx \tilde{S}(n)
+$$
 
+Next, we write
+
+$$
+\tilde{S}(n+1) = \left(1 - \frac{\Delta t}{T_{\text{res}}} \right) \tilde{S}(n)
+$$
+
+We can investigate the numerical solution above to identify a few cases:
+1. For $\Delta t \to 0$ and $\Delta t \ll T_{\text{res}}$, we find convergence to the extent that $\tilde{S}$ tends to $S$
+2. For $0 \lt \Delta t \ll T_{\text{res}}$, we find ok results. $\tilde{S} \approx S$
+3. For $T_{\text{res}} \lt \Delta t \lt 2 \cdot T_{\text{res}}$, $\tilde{S}$ becomes less than $0$. This is a physical impossibility, indicating our model behaves poorly
+4. For $2 \cdot T_{\text{res}} \gt \Delta t$, we see that the numerical solution starts oscillating, not modelling the analytical solution well at all. This is called **Instability**
+
+Each of these cases is visualised in the figure below for the value $T_{\text{res}} = 1$
+
+![[Pasted image 20250514110939.png]]
+
+We can do the same, now for an implicit finite differences method. The formula then becomes
+
+$$
+\tilde{S}(n+1) = \frac{1}{1-\frac{\Delta t}{T_{\text{res}}}}\tilde{S}(n)
 $$
