@@ -125,5 +125,45 @@ $$
 For our purposes, it is useful to convert this into matrix notation
 
 $$
-\frac{\partial}{\partial t} \begin{pmatrix}S_1 \\ S_2 \end{pmatrix} = \begin{pmatrix}a_{1,1} & a_{1,2} \\ a_{2,1} & a_{2,2} \end{pmatrix} \begin{pmatrix}S_1(t) \\ S_2(t) \end{pmatrix} + \begin{pmatrix}S_1(0) \\ S_2(0) \end{pmatrix}
+\frac{\partial}{\partial t} \begin{pmatrix}S_1 \\ S_2 \end{pmatrix} = \begin{pmatrix}a_{1,1} & a_{1,2} \\ a_{2,1} & a_{2,2} \end{pmatrix} \begin{pmatrix}S_1(t) \\ S_2(t) \end{pmatrix} + \begin{pmatrix}S_1(0) \\ S_2(0) \end{pmatrix} = \begin{pmatrix}S_{\text{init},1} \\ S_{\text{init},2} \end{pmatrix}
 $$
+
+We can write this in the following, more general form
+
+$$
+\begin{aligned}
+\frac{\partial S}{\partial t}(t) &= A_s S(t) + B_s \\
+S(0) &= S_{\text{init}}
+\end{aligned}
+$$
+
+We know all linear ordinary differential equations in time to have an analytical solution
+
+$$
+S(t) = C_s + T_s \exp(e_s \, t)
+$$
+
+where
+- $C_s$ is a vector containing the equilibrium value
+- $T_s$ is a matrix
+- $e_s$ is a vector containing the eigenvalues
+
+It are the eigenvalues that are interesting to us. That's because they allow us to quickly determine the timescale of our system. Specifically, the timescale of each eigenvalue is calculated as
+
+$$
+\Delta t_i = -\frac{1}{e_i}
+$$
+
+In line with the rules of thumb, we should take the lowest $\Delta t_i$ corresponding to all eigenvalues of our system
+
+>[!Example]
+>We find from our analysis 2 eigenvalues: $e_1=-5$ and $e_2=-2$. Their respective timesteps are then
+>
+>$$
+>\begin{aligned}
+>\Delta t_1 &= -\frac{1}{-5} = 0.2 \\
+>\Delta t_2 &= -\frac{1}{-2} = 0.5
+>\end{aligned}
+>$$
+>
+>Given that 
