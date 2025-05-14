@@ -96,3 +96,7 @@ How to implement this in a 500km2 model?
 - Following hydrogeology: scaled up to formations, identify aquifer and aquitard formations
 
 Rule of thumb: when layers differ in k by 2 orders of magnitude, you can consider one an aquifer and another an aquitard. 
+
+---
+# Upscaling drainage systems
+In regional models, are we going to explicitly include all drainage channels? Is it feasible
