@@ -109,3 +109,30 @@ Our way of aggregating, we call 'diffuse' (effective drainage system). Coming up
 - Fully penetrating ditches
 - Homogeneous soil
 
+$$
+p = \frac{8kDm_0}{L^2}
+$$
+
+$$p = q$$
+
+$$
+\overline{\Delta H} \approx \frac{2}{3}m_0
+$$
+
+So Darcy (with resistance)
+
+$$
+q = \frac{\frac{2}{3} m_0}{C_{\text{drainage}}}
+$$
+
+Rewrite and eliminate to find drainage resistance
+
+$$
+C_{\text{drainage}} = \frac{L^2}{12kD}
+$$
+
+
+>[!Warning]
+>See slides
+
+
