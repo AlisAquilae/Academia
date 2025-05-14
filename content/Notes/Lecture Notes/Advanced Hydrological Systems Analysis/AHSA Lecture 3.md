@@ -99,4 +99,13 @@ Rule of thumb: when layers differ in k by 2 orders of magnitude, you can conside
 
 ---
 # Upscaling drainage systems
-In regional models, are we going to explicitly include all drainage channels? Is it feasible
+In regional models, are we going to explicitly include all drainage channels? Is it feasible? Results in very dense grids/networks. Is it even necessary?
+
+Our way of aggregating, we call 'diffuse' (effective drainage system). Coming up with an average, using drainage theory. Keep proper (average) fluxes.
+- We assume steady flow
+- Recharge from precipitation
+- Discharge is recharge
+- Dupuit assumption
+- Fully penetrating ditches
+- Homogeneous soil
+
