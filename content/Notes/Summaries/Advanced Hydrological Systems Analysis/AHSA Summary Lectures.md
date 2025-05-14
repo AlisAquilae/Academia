@@ -98,4 +98,32 @@ Our final example is when the input has different frequencies with which it vari
 >The scale of our numerical approximation should be less than the scale at which our system operates or the smallest period with which the input varies, whichever is smallest
 
 
-All rules of thumb above apply when we want to capture as much of the details in our analytical solution as possible. It might happen, however, that we are only interested in the gene
+All rules of thumb above apply when we want to capture as much of the details in our analytical solution as possible. It might happen, however, that we are only interested in the general trend and not in the small artefacts. One technique to deal with this is to 'filter' our input, for example by taking a moving average. In this case, the rule of thumb becomes
+
+>[!Important]
+>The scale of our numerical approximation should be less than the scale at which our system operates or the period with which the filtered input varies, whichever is smallest
+
+
+---
+# 2. Lecture 2
+## 2.1 Introduction
+In Lecture 1, we discussed what is the appropriate time step to take when finding a numerical solution for our system. In this lecture, we introduce some extra complexity by coupling our systems. Specifically, we are going to discuss 2 cases:
+- One-sided coupled reservoirs: These are cases where one bucket feeds into the other, but not vice versa
+- Two-sided coupled reservoirs: These are cases where two buckets feed into each other. 
+
+Let's say, for example, that we have a two-sided coupled reservoir. A general formula would look as follows:
+
+$$
+\begin{aligned}
+\frac{\partial S_1}{\partial t} (t) &= a_{1,1} S_1(t) + a_{1,2}S_2 (t) + b_1 \\
+S_1(0) &= S_{\text{init},1} \\
+\frac{\partial S_2}{\partial t} (t) &= a_{2,1} S_1(t) + a_{2,2}S_2 (t) + b_2 \\
+S_2(0) &= S_{\text{init},2}
+\end{aligned}
+$$
+
+For our purposes, it is useful to convert this into matrix notation
+
+$$
+\frac{\partial}{\partial t} \begin{pmatrix}S_1 \\ S_2 \end{pmatrix} = \begin{pmatrix}a_{1,1} & a_{1,2} \\ a_{2,1} & a_{2,2} \end{pmatrix} \begin{pmatrix}S_1(t) \\ S_2(t) \end{pmatrix} + \begin{pmatrix}S_1(0) \\ S_2(0) \end{pmatrix}
+$$
