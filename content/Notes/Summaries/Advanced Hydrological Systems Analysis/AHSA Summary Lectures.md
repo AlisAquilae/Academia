@@ -166,4 +166,10 @@ In line with the rules of thumb, we should take the lowest $\Delta t_i$ correspo
 >\end{aligned}
 >$$
 >
->Given that 
+>Given that $0.2$ is the lowest timestep of our system, the timestep of our numerical solution should be at least less than $0.2$
+
+
+>[!Important]
+>It is important to mention that the eigenvalues (and, therefore, the system's timestep) are independent of (changes in) external inputs and initial conditions
+
+
