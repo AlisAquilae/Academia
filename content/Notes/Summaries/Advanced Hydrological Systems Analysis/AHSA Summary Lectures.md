@@ -75,3 +75,27 @@ We can do the same, now for an implicit finite differences method. The formula t
 $$
 \tilde{S}(n+1) = \frac{1}{1-\frac{\Delta t}{T_{\text{res}}}}\tilde{S}(n)
 $$
+
+Although we no longer see physical impossibilities, we do find the same pattern as before: the more the timestep for our model exceeds the timestep of our system's behaviour, the worse our results. 
+
+![[Pasted image 20250514111706.png]]
+
+>[!Important]
+>Thus, the scale of our numerical approximation should be less than the scale at which our system operates
+
+
+Now, let's investigate what happens when we change our model slightly. First, let's add a constant input $Q_{\text{in}}$. Instead of converging towards $0$ (i.e. being completely empty), the system now converges towards a certain water level where the input is balanced by the output. 
+
+Another example: what if the input is variable? For our purposes, let's say the input oscillates with some sine function. It now becomes important which period is the smallest. 
+
+>[!Important]
+>The scale of our numerical approximation should be less than the scale at which our system operates or the period with which the input varies, whichever is smallest
+
+
+Our final example is when the input has different frequencies with which it varies. Here, we must change the rule above slightly
+
+>[!Important]
+>The scale of our numerical approximation should be less than the scale at which our system operates or the smallest period with which the input varies, whichever is smallest
+
+
+All rules of thumb above apply when we want to capture as much of the details in our analytical solution as possible. It might happen, however, that we are only interested in the gene
