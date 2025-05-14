@@ -50,3 +50,6 @@ This course does not contain separate course material. Instead, all theory is pr
 9. [[AHSA Practical 9]]
 10. [[AHSA Practical 10]]
 
+
+# 🔗 Summaries
+- [[AHSA Summary Lectures]]
