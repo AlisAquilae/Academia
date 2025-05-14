@@ -66,5 +66,26 @@ All variations summed = 0
 Back to the formula above, we can rewrite as
 
 $$
-\overline{q}_x = -
+\overline{q}_x = -\overline{k}_x \overline{i}_x - \overline{(k_x^0 i_x^0)}
 $$
+
+>[!Warning]
+>See slides
+
+
+This we have a remaining term which appears by averaging Darcy. Rewriting again,
+
+$$
+\overline{q} = - \left( \overline{k} + \frac{\overline{k^0 i^0}}{\overline{i}}\right)  \cdot \overline{i} 
+$$
+
+Thus, we find an effective hydraulic conductivity, which depends on hydraulic properties as well as local gradients (which are unknown). Thus not 100% measurable and identifiable. This is bad, because we cannot find the values. What do we do?
+
+We calibrate the effective hydraulic conductivity. We try different averaging methods for $k$ and tweak the best one with calibration.
+
+If we have flow parallel to layers (i.e. aquifers), we use the arithmetic mean. Sum of transmissivity and divide by sum of layer depths.
+
+Vertical flow (aquitards) or anisotropical flow in aquifers, we use the harmonic mean. We use the total depth divided by the sum of all resistances
+
+>[!Warning]
+>See slides
