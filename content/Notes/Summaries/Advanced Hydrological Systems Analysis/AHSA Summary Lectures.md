@@ -30,6 +30,26 @@ In order to investigate this, we start with a simple reservoir model (bucket mod
 
 ![[Pasted image 20250514104902.png]]
 
-In our model, we have a bucket with a constant outlet $Q_{\text{out}}$. The water level in our bucket, $S$, is dependent on time, as at each timestep water leaves the bucket through the outlet. Thus, we write $S$ to be dependent on time, $S(t)$. 
+In our model, we have a bucket with a constant outlet $Q_{\text{out}}$. The water level in our bucket, $S$, is dependent on time, as at each timestep water leaves the bucket through the outlet. Thus, we write $S$ to be dependent on time, $S(t)$. The amount of water leaving the bucket is, however, also dependent on the water level itself, as the water 'pushes' the other water our. Thus, $Q_{\text{out}}$ can also change in time, leading to the formulation $Q_{\text{out}}(t)$. Finally, the outlet can be opened or closed further, for which we take a factor $T_{\text{res}}$ which represents the resistance. Thus, a high $T_{\text{res}}$value represents a very small outlet. Finally, we choose an arbitrary initial condition, $S_0$. Our equations thus become
+
+$$
+\begin{aligned}
+Q_{\text{out}}(t) &= \frac{1}{T_{\text{res}}} S(t) \\
+\frac{\mathrm{d}S}{\mathrm{d}t} &= -\frac{1}{T_{\text{res}}} S(t) \\
+S(0) &= S_0
+\end{aligned}
+$$
 
 We are going to compare various basic model predictions to the real solution. This 'real' solution is called the **Analytical solution**. In practice, this analytical solution is often unknown, due to the complexity of our case. In this case, we work with a **numerical solution** which approximates the analytical one. 
+
+The analytical solution is found to be as follows:
+
+$$
+S(t) = S_0 \exp(-t/T_{\text{res}})
+$$
+
+For our numerical solution, we use an explicit [[Finite Differences]] approach. We first choose a timestep to discretize by
+
+$$
+
+$$
