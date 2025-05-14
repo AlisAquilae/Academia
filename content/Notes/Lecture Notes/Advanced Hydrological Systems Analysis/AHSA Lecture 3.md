@@ -42,3 +42,29 @@ Suppose many CV's into one single model block. How to average (scale-up)?
 - Harmonic average
 
 Consider a stationary box (no storage and change in storage in time). Many boxes in a single volume, each with its own flow direction and magnitude. 
+
+Now how to upscale all local flows into a single, uniform flow? We use space flow scaling
+
+$$
+\overline{q} = \frac{1}{V} \int\limits_V \, q \, \mathrm{d}V
+$$
+
+We look at the average $q$, meaning Darcy is also averaged. Write gradient as $i_x$ for clarity
+
+$$
+\overline{q} = - \overline{(k_x i_x)}
+$$
+
+>[!Warning]
+>See slides
+
+
+Variance is variation squared
+
+All variations summed = 0
+
+Back to the formula above, we can rewrite as
+
+$$
+\overline{q}_x = -
+$$
