@@ -22,4 +22,15 @@ We typically divide the system into multiple parts. We heer deal with
 
 To couple OW and GR, we need water level for both (for head differences), the flux/discharge, and the velocity of the flux/discharge
 
-We generally take the groundwater as the 'master' at the regional scale. We take the St-Venant equations for classical open water modelling, and further simplify this to allow for the courpling. The OW is 
+We generally take the groundwater as the 'master' at the regional scale. We take the St-Venant equations for classical open water modelling, and further simplify this to allow for the coupling. The OW is 'inserted' in the GW system as an additional package. 
+
+We use $a$ as water level, $v$ as velocity, and $Q$ as discharge. 
+
+We look at gradually-varied flow (i.e. long-waves), and only look at the large-scale effects of weirs. 
+
+Classical assumptions
+1. Cross-section averaged properties (e.g. velocity averaged)
+2. Hydrostatic pressure
+3. Uniform velocity
+
+We find the St-Venant equations: a mass balance and a momentum balance. 
