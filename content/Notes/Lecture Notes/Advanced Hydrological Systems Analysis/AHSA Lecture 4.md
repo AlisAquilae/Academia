@@ -87,4 +87,11 @@ $$
 >See notes
 
 
-## Open water geometry
+## Coupling
+Exchange flux is
+
+$$
+\frac{h(x,y) - H(x,y)}{\text{a resistance}}
+$$
+
+
