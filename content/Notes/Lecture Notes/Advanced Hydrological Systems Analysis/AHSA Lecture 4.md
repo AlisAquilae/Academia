@@ -34,3 +34,8 @@ Classical assumptions
 3. Uniform velocity
 
 We find the St-Venant equations: a mass balance and a momentum balance. 
+
+>[!Note]
+>See notes of RFM on the derivation of the St-Venant equations
+
+
