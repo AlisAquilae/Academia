@@ -60,3 +60,31 @@ For steady flow
 >[!Warning]
 >See slides for the flromulas
 
+Steady flow without side inflow
+
+$$
+\frac{\partial a}{\partial x} = \frac{S_o - S_f}{1 - \text{Fr}^2}
+$$
+
+
+Steady flow with side inflow
+
+$$
+i \neq 0
+$$
+
+$$
+\frac{\partial a}{\partial s} = \frac{S_o - S_f - S_i}{1 - \text{Fr}^2}
+$$
+
+Lateral inflow slope is
+
+$$
+S_i = 2\frac{Q}{gA^2}I
+$$
+
+>[!Warning]
+>See notes
+
+
+## Open water geometry

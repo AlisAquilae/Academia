@@ -370,8 +370,8 @@ Those flowing situations that do not change in time are called *stationary*. As 
 
 $$
 \begin{aligned}
-\frac{\partial Q}{\partial x} = I
-\frac{\partial Q \, u}{\partial x} = g \, A \left(S_o - S_f - S_p \right)
+\frac{\partial Q}{\partial x} &= I \\
+\frac{\partial Q \, u}{\partial x} &= g \, A \left(S_o - S_f - S_p \right)
 \end{aligned}
 $$
 
