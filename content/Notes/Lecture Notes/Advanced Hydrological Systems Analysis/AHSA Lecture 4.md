@@ -39,3 +39,24 @@ We find the St-Venant equations: a mass balance and a momentum balance.
 >See notes of RFM on the derivation of the St-Venant equations
 
 
+We have different variants
+- Dynamic: change over time and space
+- Steady: no change over time
+- Uniform: No change over time
+- Equilibrium: no change over time and space
+
+Equilibrium: $I=0$, pure equilibrium. We find $S_o - S_f = 0$
+
+We find
+
+$$
+Q_e = \frac{1}{n} \sqrt{S_o} \, A \, R^{2/3}
+$$
+
+However, we have inflow and outflow. Still, we look at different blocks which we consider to be in equilibrium. There's no backwater curve, as we are looking at equilibrium and no influence of one block on the other.
+
+For steady flow
+
+>[!Warning]
+>See slides for the flromulas
+
