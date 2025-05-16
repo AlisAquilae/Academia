@@ -30,3 +30,37 @@ $$
 - $\mu$ is dynamic viscosity
 
 This $K$ is hydraulic conductivity, which thus depends both on the fluid and the soil properties. 
+
+$$
+h = \frac{v}{\rho g} + z = \psi + z = \text{pressure head} + \text{elevation head}
+$$
+
+>[!Warning]
+>See slides
+
+For unsaturated flow, it becomes a mass balance
+
+$$
+q_x = -K_x(\theta) \frac{\partial \psi(\theta)}{\partial x}
+$$
+
+$q_y$ is the same
+
+$$
+q_z = -K_z(\theta) \left( \frac{\partial \psi (\theta)}{\partial z} +1 \right)
+$$
+
+where $\theta$ is volumetric water content. $K$ usually strongly decreases when unsaturated
+
+Combine Darcy's Law with mass balance equation, we find
+
+$$
+\begin{aligned}
+\text{change of storage with time} = \text{mass inflow rate} - \text{mass outflow rate} \\
+-S_s \frac{\partial h}{\partial t}  = 
+\end{aligned}
+$$
+
+This results in Richard's equation, with flow dependent on volumetric water content. This is highly nonlinear, and therefore difficult to deal with. 
+
+In modelling, we usually use the Van Genuchten equation which models the water retention curve. 
