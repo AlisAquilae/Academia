@@ -64,3 +64,17 @@ $$
 This results in Richard's equation, with flow dependent on volumetric water content. This is highly nonlinear, and therefore difficult to deal with. 
 
 In modelling, we usually use the Van Genuchten equation which models the water retention curve. 
+
+You can always add sources and sinks to the Richard's equation. 
+
+To summarise
+- Unsaturated flow
+  - $\theta$ variable, $\psi$ negative
+  - $q_x$ and $q_y$ negligible
+  - $K(\psi)$
+- Saturated zone
+  - $\theta$ constant
+  - $\psi + z$ constant, i.e. $q_z = 0$ (Dupuit)
+  - $K$ independent of $\psi$
+
+How to couple all of this together?
