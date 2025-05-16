@@ -87,3 +87,10 @@ We don't use both, because UZ is probably too dynamic, different spatial and tem
 
 ---
 # GW Recharge
+This part focuses on how important it is to estimate recharge. 
+
+GW recharge is the water flux that replenishes an aquifer. Equivalent terms: net infiltration. 
+
+Why do we care? In terms of regional groundwater management, we look at sustainable / safe yield. This is the rate at which groundwater can withdrawn without producing undesirable effects. Recharge refills groundwater reservoir, and you shouldn't be taking out more than comes in.  Moreover, safe yield should be less than recharge, since groundwater is also used for other processes (e.g. as baseflow to rivers, as evapotranspiration, etc.)
+
+We can quantify recharge to some extent, but what is then the safe yield? How much water do all our ecosystems need? This is not easy to determine. 
