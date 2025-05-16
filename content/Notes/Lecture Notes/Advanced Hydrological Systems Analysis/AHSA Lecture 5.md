@@ -77,4 +77,13 @@ To summarise
   - $\psi + z$ constant, i.e. $q_z = 0$ (Dupuit)
   - $K$ independent of $\psi$
 
-How to couple all of this together?
+How to couple all of this together? Take 1 POV and concentrate on essentials from that POV. Here: saturated groundwater
+- Unsaturated zone: too dynamic
+- Need to respect mass balance
+- Effective porosity, mean soil moisture
+- Recharge goes through the unsaturated zone (intermediate between atmosphere and groundwater)
+
+We don't use both, because UZ is probably too dynamic, different spatial and temporal scales are of interest, it is computationally expensive, and seldom all aspects are interesting. 
+
+---
+# GW Recharge
