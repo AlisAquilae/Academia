@@ -101,6 +101,7 @@ How to measure groundwater recharge? Some field techniques include (not exhausti
   - Chloride mass balance
   - "Historical" tracers
 - Deep groundwater
+  - Water table fluctuations
 
 
 **Lysimeters**: Jar separates soil from everything else, a scale to measure the soil, and  a pump underneath to catch the water. Record weights, inflow and outflow and compute mass balance
@@ -113,4 +114,9 @@ How to measure groundwater recharge? Some field techniques include (not exhausti
 - Works well only up to a certain amount of recharge (+300 mm/yr). In this case, your concentration of chloride in UZ becomes low, and chloride concentration becomes difficult to measure
 
 
-****
+**Historical tracers**: Test for substances in GW sample due to historical events. E.g. tritium, introduced in the atmosphere, due to nuclear bomb testing. Leads to peak in radioactive isotopes. Can be used to date groundwater. Once water enters the ground, no longer exchange with atmosphere, measure decay, gives estimate of GW age.
+- Use dependent on half-life of the tracers
+
+**Water-table fluctuation method**: If recharge occurs, there is a change in water table due to increase in water storage (by definition). Thus, the rise of WT can be interpreted as the volume of recharge. Widely used
+- Care should be taken when interpreting this, as changes in WT can also be due to other processes, like ET, groundwater abstraction, etc.
+
