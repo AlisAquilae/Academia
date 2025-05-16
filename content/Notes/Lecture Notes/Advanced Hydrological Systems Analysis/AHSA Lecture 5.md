@@ -94,3 +94,23 @@ GW recharge is the water flux that replenishes an aquifer. Equivalent terms: net
 Why do we care? In terms of regional groundwater management, we look at sustainable / safe yield. This is the rate at which groundwater can withdrawn without producing undesirable effects. Recharge refills groundwater reservoir, and you shouldn't be taking out more than comes in.  Moreover, safe yield should be less than recharge, since groundwater is also used for other processes (e.g. as baseflow to rivers, as evapotranspiration, etc.)
 
 We can quantify recharge to some extent, but what is then the safe yield? How much water do all our ecosystems need? This is not easy to determine. 
+
+How to measure groundwater recharge? Some field techniques include (not exhaustive):
+- To the water table
+  - Lysimeters
+  - Chloride mass balance
+  - "Historical" tracers
+- Deep groundwater
+
+
+**Lysimeters**: Jar separates soil from everything else, a scale to measure the soil, and  a pump underneath to catch the water. Record weights, inflow and outflow and compute mass balance
+- Point-measurement, not representative for large areas
+- Expensive
+- Need maintenance
+
+**Chloride mass balance**: Relies upon knowing the chloride deposition from rainfall and chloride concentration of groundwater. With these, you can calculate the recharge.
+- Other sources of chloride in the environment interfere with results.
+- Works well only up to a certain amount of recharge (+300 mm/yr). In this case, your concentration of chloride in UZ becomes low, and chloride concentration becomes difficult to measure
+
+
+****
