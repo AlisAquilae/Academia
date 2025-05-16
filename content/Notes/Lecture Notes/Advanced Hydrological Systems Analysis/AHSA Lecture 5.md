@@ -102,6 +102,7 @@ How to measure groundwater recharge? Some field techniques include (not exhausti
   - "Historical" tracers
 - Deep groundwater
   - Water table fluctuations
+  - Groundwater age
 
 
 **Lysimeters**: Jar separates soil from everything else, a scale to measure the soil, and  a pump underneath to catch the water. Record weights, inflow and outflow and compute mass balance
@@ -120,3 +121,11 @@ How to measure groundwater recharge? Some field techniques include (not exhausti
 **Water-table fluctuation method**: If recharge occurs, there is a change in water table due to increase in water storage (by definition). Thus, the rise of WT can be interpreted as the volume of recharge. Widely used
 - Care should be taken when interpreting this, as changes in WT can also be due to other processes, like ET, groundwater abstraction, etc.
 
+**Groundwater age**: Similar to using groundwater tracers, just natural ones. GW age is zero at the surface, when recharge takes place. Based on decaying activity once isolated from the atmosphere. There are different compounds that are often use. 
+
+**Temperature-depth profiles**: Depending on the inflection of temperature increase with depth, we can estimate recharge and discharge. Relatively cheap
+
+
+We also commonly use modelling approaches: water balance models and vadose zone models
+- WB models account for all sources and sinks, and try to isolate recharge. 
+- Vadoze zone models (e.g. Hydrus, SWAP): physical processes in the vadose zone. driven by meteorological inputs, but need a rerpesentation of subsurface parameters. 
