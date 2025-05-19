@@ -23,4 +23,32 @@ There is always a conflict between model and real world. This conflict is usuall
 
 Different kinds of uncertainty
 - Real input (e.g. precipitation), we know real-world system, we get a true response. We measure this, and we have an observed response. The measurement is not equal to the true response due to errors in the measurement
-- We can measure the rainfall as an observed input. There is uncertainty due to measuring this, for example uncertainty in the measurement instrument as well as human error. 
+- We can measure the rainfall as an observed input. There is uncertainty due to measuring this, for example uncertainty in the measurement instrument as well as human error. We have a model to represent observed rainfall, but prameters of this model are unknown (as well as how model is built creates uncertainty). The model gives a simulated response, which we can compare to the observed response. 
+
+If the model does not fit, we optimise our parameters to better represent the observed response. 
+
+- Uncertainty in measuring input
+- Uncertainty in measuring response
+- Uncertainty in model conceptualisation and definition
+- Uncertainty in parameters
+
+Combining these, we get a final uncertainty. Uncertainty is therefore not just caused by parameters, but also by measurements. In this course, we assume our input is perfect, and therefore only focus on parameter uncertainty. 
+
+>[!Important]
+>We have a model, we have real-world, and we cannot make these perfectly fit due to uncertainties. 
+
+
+We start with parametric modelling
+
+---
+# Parametric modelling
+PM is modelling using a finite number of parameters. A finite number of parameters is able to represent the real world.
+
+We need
+- Inputs
+- Boundary conditions
+- Parameters
+- Discretisation (resolution in space and time, for example)
+
+We are not focused on all 4, just the 3rd, namely the parameters. Aside from this, our model is 'perfect'
+
