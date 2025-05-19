@@ -69,5 +69,8 @@ Calibration sets optimal values for the model parameters for a certain case stud
 
 Manually: 
 - fit-by-eye. Simple, but subjective
-- fit-by-eye using residuals (error): minimising difference between model and observation. Provides more information, as it allows for residual analysis (e.g. trends, shifts, variable variance/heteroscedasticity, normally distributed). However, only looks at the vertical, not at the horizontal (e.g. time-shift or lag) 
+- fit-by-eye using residuals (error): minimising difference between model and observation. Provides more information, as it allows for residual analysis (e.g. trends, shifts, variable variance/heteroscedasticity, normally distributed). However, only looks at the vertical, not at the horizontal (e.g. time-shift or lag)
+
+These are all subjective, we need an objective function, using fitting criteria. There are many of them
+- Mean error: sum of all residuals divided by number of observations
 
