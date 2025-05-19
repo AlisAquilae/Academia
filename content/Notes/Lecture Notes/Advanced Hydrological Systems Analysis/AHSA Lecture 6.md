@@ -72,5 +72,8 @@ Manually:
 - fit-by-eye using residuals (error): minimising difference between model and observation. Provides more information, as it allows for residual analysis (e.g. trends, shifts, variable variance/heteroscedasticity, normally distributed). However, only looks at the vertical, not at the horizontal (e.g. time-shift or lag)
 
 These are all subjective, we need an objective function, using fitting criteria. There are many of them
-- Mean error: sum of all residuals divided by number of observations
+- Mean error (ME): sum of all residuals divided by number of observations. If mean error is close to 0, we call it a good model. If not, we have bias. Overestimation is positive bias, underestimation is negative bias. Problem: positive and negative errors can cancel each other out. It can therefore be useful for bias, but not for model fit. 
+- Mean absolute error (MAE): Use absolute error to get the mean. For "good" model MAE is still close to $0$. However, it is difficult to differentiate and therefore to use for finding the optimal parameters (which we will discuss in the next lecture).
+- Mean relative error (MRE): sum of all residuals relative to observation, divided by the number of observations. Only appliccable if observations are positive. In addition, gives relatively high weight to small values.
+- Mean sqare error (MSE): The mean of the square of the residuals. If ME is close to 0, then this is an estimator of the variance of the residuals. Good model if MSE close to 0. Problem: large values have more weight (especially because quadratic). Good thing: it is easily differentiated
 
