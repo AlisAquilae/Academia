@@ -75,5 +75,9 @@ These are all subjective, we need an objective function, using fitting criteria.
 - Mean error (ME): sum of all residuals divided by number of observations. If mean error is close to 0, we call it a good model. If not, we have bias. Overestimation is positive bias, underestimation is negative bias. Problem: positive and negative errors can cancel each other out. It can therefore be useful for bias, but not for model fit. 
 - Mean absolute error (MAE): Use absolute error to get the mean. For "good" model MAE is still close to $0$. However, it is difficult to differentiate and therefore to use for finding the optimal parameters (which we will discuss in the next lecture).
 - Mean relative error (MRE): sum of all residuals relative to observation, divided by the number of observations. Only appliccable if observations are positive. In addition, gives relatively high weight to small values.
-- Mean sqare error (MSE): The mean of the square of the residuals. If ME is close to 0, then this is an estimator of the variance of the residuals. Good model if MSE close to 0. Problem: large values have more weight (especially because quadratic). Good thing: it is easily differentiated
+- Mean square error (MSE): The mean of the square of the residuals. If ME is close to 0, then this is an estimator of the variance of the residuals. Good model if MSE close to 0. Problem: large values have more weight (especially because quadratic). Good thing: it is easily differentiated
+- Root mean square error (RMSE): The root of the MSE. If ME is 0, RMSE is an estimator of the Standard Deviation of the residuals. For a good model, the RMSE is close to 0, similar to the MSE. Advantage: it has the same unit as the observation
+- Sum of squares (SS): Similar to MSE, you end up with very similar to scores
+- Percentage root mean square error (PRMSE): Percentage of the RMSE compared to the mean of the observations. Again, very similar to MSE and RMSE, and good if close to 0. Useful to compare different models. 
+- Fraction residual variance: MSE divided by variance of observations. Again, very similar to the previous ones. 
 
