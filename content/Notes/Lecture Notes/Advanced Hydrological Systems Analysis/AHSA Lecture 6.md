@@ -84,4 +84,8 @@ These are all subjective, we need an objective function, using fitting criteria.
 
 We are still missing correlation between model and observation, as this shows whether the dynamics are captured well. $R^2$ is the correlation only in the context of linear regression and a single parameter; otherwise, it does not.
 
-Correlation itself is not a good criterion, as it does not capture fluctuation and systematic bias. It needs to be combined with
+Correlation itself is not a good criterion, as it does not capture fluctuation and systematic bias. It needs to be combined with mean and standard deviation. 
+
+MSE can be decomposed into three main components: standard deviation, mean and correlation. SD is variability, mean is bias, correlation is correlation. 
+
+This is called the Kling-Gupta Criterion. We can also assign weights to each component, which combined into the Kling-Gupta Efficiency. 
