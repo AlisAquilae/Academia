@@ -67,5 +67,7 @@ Parameterisation of a spatial property needs to be finite, and independent of nu
 # Fitting to observations (model calibration)
 Calibration sets optimal values for the model parameters for a certain case study in an iterative process. Compare model output to observation, and change parameters until it performs good enough. We can do this manually or automatically. 
 
-Manually: fit-by-eye
+Manually: 
+- fit-by-eye. Simple, but subjective
+- fit-by-eye using residuals (error): minimising difference between model and observation. Provides more information, as it allows for residual analysis (e.g. trends, shifts, variable variance/heteroscedasticity, normally distributed). However, only looks at the vertical, not at the horizontal (e.g. time-shift or lag) 
 
