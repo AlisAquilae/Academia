@@ -59,4 +59,13 @@ How to parameterise spatial variability? For example, transmissivity depends on 
 Model gives a simulation for 1000 cells. How to parameterise a model's spatial property? Assumptions:
 - For example, we assume transmissivity constant everywhere. Not very realistic
 - Transmissivity in every grid cell. Perfect, but impossible to measure. Depends on numerics
-- Pilot points: you know 2 representative points, define parameters based on that using interpolation. 
+- Pilot points: you know 2 representative points, define parameters based on that using interpolation. There are different methods of doing so, which again causes uncertainty. We typically use pilot points for GW modelling
+
+Parameterisation of a spatial property needs to be finite, and independent of numerics. 
+
+---
+# Fitting to observations (model calibration)
+Calibration sets optimal values for the model parameters for a certain case study in an iterative process. Compare model output to observation, and change parameters until it performs good enough. We can do this manually or automatically. 
+
+Manually: fit-by-eye
+
