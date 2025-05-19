@@ -52,4 +52,11 @@ We need
 
 We are not focused on all 4, just the 3rd, namely the parameters. Aside from this, our model is 'perfect'
 
-If you have $n$ number of parameters, our parameters can solve $n$ number of simulations. Our 
+If you have $n$ number of parameters, our parameters can solve $n$ number of simulations. 
+
+How to parameterise spatial variability? For example, transmissivity depends on hydraulic conductivity and depth, but depth only saturated depth, thus depending on the water table. 
+
+Model gives a simulation for 1000 cells. How to parameterise a model's spatial property? Assumptions:
+- For example, we assume transmissivity constant everywhere. Not very realistic
+- Transmissivity in every grid cell. Perfect, but impossible to measure. Depends on numerics
+- Pilot points: you know 2 representative points, define parameters based on that using interpolation. 
