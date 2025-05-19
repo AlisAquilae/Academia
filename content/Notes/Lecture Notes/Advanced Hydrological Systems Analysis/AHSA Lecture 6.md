@@ -52,3 +52,4 @@ We need
 
 We are not focused on all 4, just the 3rd, namely the parameters. Aside from this, our model is 'perfect'
 
+If you have $n$ number of parameters, our parameters can solve $n$ number of simulations. Our 
