@@ -79,5 +79,9 @@ These are all subjective, we need an objective function, using fitting criteria.
 - Root mean square error (RMSE): The root of the MSE. If ME is 0, RMSE is an estimator of the Standard Deviation of the residuals. For a good model, the RMSE is close to 0, similar to the MSE. Advantage: it has the same unit as the observation
 - Sum of squares (SS): Similar to MSE, you end up with very similar to scores
 - Percentage root mean square error (PRMSE): Percentage of the RMSE compared to the mean of the observations. Again, very similar to MSE and RMSE, and good if close to 0. Useful to compare different models. 
-- Fraction residual variance: MSE divided by variance of observations. Again, very similar to the previous ones. 
+- Fraction residual variance (FRV): MSE divided by variance of observations. Compares model in terms of MSE with simplest model. Again, very similar to the previous ones. 
+- R squared ($R^2$): 1 - FRV. Close to 1 means good model. Also called NSE, coefficient of determination, fraction-explained variance. 
 
+We are still missing correlation between model and observation, as this shows whether the dynamics are captured well. $R^2$ is the correlation only in the context of linear regression and a single parameter; otherwise, it does not.
+
+Correlation itself is not a good criterion, as it does not capture fluctuation and systematic bias. It needs to be combined with
