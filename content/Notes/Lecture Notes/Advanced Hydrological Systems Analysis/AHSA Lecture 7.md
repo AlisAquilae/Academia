@@ -32,7 +32,14 @@ We already discussed fitting using the hydrograph. Now, we are going to fit base
 Another way is by doing this automatically using a computer. An algorithm changes parameters using algorithms. There are, however, different problems here
 - Local search vs. global search (or minima)
 
-Another way of fitting is using a parameter response surface/plane. Plot all sum of squares for different parameter sets. It is basically the objective function response surface/plane. 
+Another way of fitting is using a parameter response surface/plane. Plot all sum of squares for different parameter sets. It is basically the objective function response surface/plane. This technique also allows you to change multiple parameters at the same time, instead of one at the same time.
 
-Now, our fitting problem is to find the optimum, our best parameter set such that our Sum of Square is as small as possible. Mathematical minimisation techniques exist to account for that. This technique also allows you to change multiple parameters at the same time, instead of one at the same time.
+Now, our fitting problem is to find the optimum, our best parameter set such that our Sum of Square is as small as possible. Mathematical minimisation techniques exist to account for that. In other words, for every change in the parameter, our new objective function should be smaller than the previous objective function. 
+
+The problem is that we do not know the surface of the objective function plane, meaning we might end up in a local minimum instead of a global one. This depends on your starting point. It is completely random, and depends on your luck. 
+
+How can we solve our minimisation problem here? In general, the minimum is not directly visible. Instead, we let the algorithm find the minimum iteratively with different starting points. Here, we will discuss the different principles behind them
+
+## Minimisation by sampling
+Let's say we plot a sum of squares in a parameter response plane. You do some sampling
 
