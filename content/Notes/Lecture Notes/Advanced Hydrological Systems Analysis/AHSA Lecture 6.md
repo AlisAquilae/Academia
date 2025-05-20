@@ -89,3 +89,5 @@ Correlation itself is not a good criterion, as it does not capture fluctuation a
 MSE can be decomposed into three main components: standard deviation, mean and correlation. SD is variability, mean is bias, correlation is correlation. 
 
 This is called the Kling-Gupta Criterion. We can also assign weights to each component, which combined into the Kling-Gupta Efficiency. 
+
+Any square-based objective function is good
