@@ -45,3 +45,9 @@ Let's say we plot a sum of squares in a parameter response plane. You do some sa
 
 But what if you had prior information? This helps reduce the search area and therefore the model runs. 
 
+## Monte-Carlo Sampling
+Very popular in parameter uncertainty estimation. Instead of doing parameter selection yourself, the computer does the optimisation for you randomly, similar to above. You have no guarantee to find the global minimum. 
+
+However, we sill don't know which direction to go, and the starting point is again completely random. It may therefore take many model runs to find the optimum parameter set. 
+
+## Gradient direction
