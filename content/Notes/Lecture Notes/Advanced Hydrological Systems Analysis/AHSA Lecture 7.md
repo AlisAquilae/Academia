@@ -64,6 +64,11 @@ However, we sill don't know which direction to go, and the starting point is aga
 ## Gradient direction
 This computes a gradient of the objective function in the downward direction. The gradient is negative, because we are looking for a minimum. It is just the direction, not a point. It points towards lower values, meaning your next step should be in that direction. 
 
-Can we calculate the gradient for our objective function? To calculate, we need a vector of 2 partial derivatives. Whether this works depends on the objective function. Mean absolute error is very difficult to differentiate, for example, and therefore more difficult to work with
+Can we calculate the gradient for our objective function? To calculate, we need a vector of 2 partial derivatives. Whether this works depends on the objective function. Mean absolute error is very difficult to differentiate, for example, and therefore more difficult to work with. Similarly, KGE is also very difficult to differentiate. Sum of squares, for example, is easier, and is therefore used more often for this kind of thing.
 
-Similarly, KGE is also ver
+The change of the model with respect to the parameter is called the sensitivity. We can calculate the gradient numerically, or through the residuals and the model sensitivity. 
+
+The next problem is that we know the direction, but we don't know the step size, i.e. how far to go. 
+
+## Minimisation using gradient size
+The gradient size should be proportional to your step size, and vice versa. If you have a high, steep slope of your response surface. If the gradient is high, you can go further and your step size can be long. If the gradient is small, or flat, the step-size should be smaller. 
