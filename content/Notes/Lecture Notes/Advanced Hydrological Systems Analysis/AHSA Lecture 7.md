@@ -72,3 +72,18 @@ The next problem is that we know the direction, but we don't know the step size,
 
 ## Minimisation using gradient size
 The gradient size should be proportional to your step size, and vice versa. If you have a high, steep slope of your response surface. If the gradient is high, you can go further and your step size can be long. If the gradient is small, or flat, the step-size should be smaller. 
+
+This works well. However, you can still get 'caught' by local minimum
+
+## Minimisation by minimum in gradient direction
+This computed the exact minimum in that direction, combining the previous 2. Check endpoint of step; lower or higher than previous value? Otherwise, check halfway step. 
+
+There is still a risk of local minima. 
+
+>[!Important]
+>All gradient-based methods are called first-order methods, and are used in an iterative fashion
+
+
+However, if you have a quadratic function, you can find the exact minimum. We assume our objective function is quadratic. This is a simplification. We get a one-step solution, no iteration needed. We can sometimes assume this very close to the minimum.
+
+But our model is not always linear and quadratic. 
