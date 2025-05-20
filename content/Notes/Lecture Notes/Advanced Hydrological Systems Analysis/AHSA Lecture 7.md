@@ -41,5 +41,7 @@ The problem is that we do not know the surface of the objective function plane, 
 How can we solve our minimisation problem here? In general, the minimum is not directly visible. Instead, we let the algorithm find the minimum iteratively with different starting points. Here, we will discuss the different principles behind them
 
 ## Minimisation by sampling
-Let's say we plot a sum of squares in a parameter response plane. You do some sampling
+Let's say we plot a sum of squares in a parameter response plane. You do some sampling, taking random parameter sets and hope you get close to the minimum. And we don't know the contours, meaning we also cannot easily validate. Very time consuming and therefore costly
+
+But what if you had prior information? This helps reduce the search area and therefore the model runs. 
 
