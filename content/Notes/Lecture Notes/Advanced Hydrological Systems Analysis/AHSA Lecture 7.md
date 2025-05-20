@@ -91,3 +91,10 @@ But our model is not always linear and quadratic.
 This is called a second-order approximation, also called a 'Newtonian method'.
 
 Most commonly used algorithms (e.g. PEST, Levenberg-Marquardt equation) combine first and second order methods
+
+## Global search methods
+Use not one but multiple starting points at a time, which communicate with each other. This way, we can avoid the risk of local minimum. 
+
+---
+# Sensitivities and Gradients
+Sensitivity of objective function. Sensitivity is how a model reacts to changes in input factors (not the parameters, which we discussed previously). Input factors concerns data input, boundary conditions, initial conditions, as well as parameters. We use this to search for the 'most important' parameters, as well as parameters which are 'non-influential'. 
