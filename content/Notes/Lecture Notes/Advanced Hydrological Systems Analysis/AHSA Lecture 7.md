@@ -51,3 +51,12 @@ Very popular in parameter uncertainty estimation. Instead of doing parameter sel
 However, we sill don't know which direction to go, and the starting point is again completely random. It may therefore take many model runs to find the optimum parameter set. 
 
 ## Gradient direction
+
+>[!Note] Intermezzo
+>The conflict between observation and the model can never be completely resolved because of uncertainty in the model and observation of the real world
+>
+>There are 4 sources of uncertainty
+>1. Uncertainty in measuring model input (e.g. precipitation), e.g. due to measurement errors
+>2. Uncertainty in measuring real-world output (e.g. groundwater level), e.g. due to measurement errors
+>3. Uncertainty in the model setup, e.g. on whether all processes are included
+>4. Parameter uncertainty, relating to
