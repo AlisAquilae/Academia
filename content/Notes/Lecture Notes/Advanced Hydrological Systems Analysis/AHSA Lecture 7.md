@@ -83,7 +83,11 @@ There is still a risk of local minima.
 >[!Important]
 >All gradient-based methods are called first-order methods, and are used in an iterative fashion
 
-
+## Minimisation by second order approximation
 However, if you have a quadratic function, you can find the exact minimum. We assume our objective function is quadratic. This is a simplification. We get a one-step solution, no iteration needed. We can sometimes assume this very close to the minimum.
 
 But our model is not always linear and quadratic. 
+
+This is called a second-order approximation, also called a 'Newtonian method'.
+
+Most commonly used algorithms (e.g. PEST, Levenberg-Marquardt equation) combine first and second order methods
