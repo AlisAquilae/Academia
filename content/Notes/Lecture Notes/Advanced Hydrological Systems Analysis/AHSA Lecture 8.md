@@ -40,4 +40,4 @@ We can assume noise to be random, but in present it is often not. This is where 
 
 The higher the uncertainty, the more model runs you need. 
 
-We can quantify the uncertainty in our parameters statistically. 
+We can quantify the uncertainty in our parameters statistically. If the distribution of parameters is normally distributed, we take the average and take our uncertainty as the mean.
