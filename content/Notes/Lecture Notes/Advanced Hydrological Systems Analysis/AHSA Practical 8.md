@@ -8,3 +8,4 @@ Related Notes:
 Related Terminology: 
 Related Courses: 
 ---
+# Introduction GMS
