@@ -41,3 +41,10 @@ We can assume noise to be random, but in present it is often not. This is where 
 The higher the uncertainty, the more model runs you need. 
 
 We can quantify the uncertainty in our parameters statistically. If the distribution of parameters is normally distributed, we take the average and take our uncertainty as the mean.
+
+## Graphical representation
+Elevation of parabola above x-axis is the leftover sum of squares we can never find due to measurement errors and uncertainties. This is our residuals. The smaller this quantity, the lower the measurement error. 
+
+Model sensitivity is the steepness of the curve. Steeper is more sensitive. 
+
+The variance of the noise is the vertical difference between the parameter and the minimum of the curve. The SD is the horizontal distance between the paramet
