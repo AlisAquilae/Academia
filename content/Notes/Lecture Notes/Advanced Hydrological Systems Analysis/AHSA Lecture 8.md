@@ -52,3 +52,7 @@ The variance of the noise is the vertical difference between the parameter and t
 SD increases when noise increases. Less sensitive model means SD increase. Greater SD means more uncertainty. High sensitivity means low SD, means low uncertainty. 
 
 When we work with more parameters, we need a covariance matrix. The covariance matrix for an $n$ number of parameters is known as a Hessian matrix. 
+
+In a 2D plane, if the response surface is rotated, this means our parameters are correlated and interaction. 
+
+All of this holds for linear models. We often use it for non-linear cases as well, and just assume it to be linear. 
