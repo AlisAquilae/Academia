@@ -36,4 +36,8 @@ In reality, we don't have a demon adding noise constantly. Rather, there is unce
 
 This noise level is unknown. We know the source to be present, but its magnitude is unknown (this is the demon's influence)
 
-We can assume noise to be random, but in present it is often not. This is where expert knowledge comes in, as it allows us to estimate the error. 
+We can assume noise to be random, but in present it is often not. This is where expert knowledge comes in, as it allows us to estimate the error. We can add this prior knowledge in different ways, such as the bounds within which parameters can be chosen being uniformly or normally distributed. 
+
+The higher the uncertainty, the more model runs you need. 
+
+We can quantify the uncertainty in our parameters statistically. 
