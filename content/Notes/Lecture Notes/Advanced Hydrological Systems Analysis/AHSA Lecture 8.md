@@ -30,3 +30,9 @@ Our goal is to find the optimal parameter set as close as possible to the true p
 
 The demon generates many observation series by adding the error. For each observation series, we use the model for a different optimal parameter set. In doing so, we are fitting our model to the noisy observation, not the true observation. We thus end up with an ensemble of parameter sets. The ensemble of fitted parameters cam give estimation of the uncertainty. 
 
+In reality, we don't have a demon adding noise constantly. Rather, there is uncertainty (and therefore noise) when making our observations
+- Human error
+- Device error
+
+This noise level is unknown. We know the source to be present, but its magnitude is unknown (this is the demon's influence)
+
