@@ -204,7 +204,7 @@ Then how do we find the representative value? We do so by calibrating our value,
 ---
 # 4. Lecture 4
 ## 4.1 St-Venant Equations
-To describe open water flow, we use the St-Venant Equations. These equations are derived from the more general Navier-Stokes Equation by applying a long-wave assumption. This implies that flow is gradually varied, thereby neglecting small-scale variations in depth and velocity. 
+To describe open water flow, we use the St-Venant Equations. These equations are derived from the more general Navier-Stokes Equation by applying a long-wave assumption. This implies that flow is gradually varied, thereby neglecting small-scale variations in depth and velocity. We also assume a constant density and hydrostatic conditions. 
 
 The equations are as follows
 
@@ -221,4 +221,37 @@ where
 - $I$ is an external mass flux
 - $u$ is the velocity
 - $S_o$ is the bed slope (gravity)
-- $S_f$ is the frictions l
+- $S_f$ is the friction slope
+- $S_p$ is the pressure slope
+
+The bed slope ($S_o$) is simply the change in depth over the change in the downstream direction, i.e.
+
+$$
+\frac{\partial a}{\partial x}
+$$
+
+The pressure slope is calculated in a similar fashion, as we assume pressure to change only as a function of water depth (i.e. hydrostatic). 
+
+The friction slope, however, is more difficult to calculate. Specifically, we use Manning's Equation
+
+$$
+S_f = \frac{n^2 Q^2}{A^2 R^{4/3}}
+$$
+
+where $n$ is the Manning coefficient, which differs for different river types and surfaces. 
+
+## 4.2 The Equilibrium Case
+In the case of equilibrium, i.e. where flow changes in neither space nor time, the St-Venant equations reduce to
+
+$$
+S_o - S_f = 0
+$$
+
+Substituting Manning's Equation into the formula above and rewriting, we find
+
+$$
+Q_e = \frac{\sqrt{S_o}}{n} \, A_e \, R_e^{2/3}
+$$
+
+## 4.3 The Steady Case
+In the case of steady flow, i.e. where flow does not change
