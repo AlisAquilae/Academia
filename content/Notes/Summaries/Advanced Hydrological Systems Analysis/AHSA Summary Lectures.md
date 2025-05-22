@@ -304,4 +304,7 @@ We mainly deal with 4 kinds of uncertainty
 >Uncertainty is therefore not just caused by the parameters in our model, but also by the model itself and the data we compare our model to
 
 
-To get a best estimate of our parameter values, we need to calibrate them. This implies an iterative process whereby we compare our model output to real-life observations, and change our parameter values until we are satisfied with the model performance. We can do this manually, using a fit-by-eye method, but this is time-consuming and arbitrary. Therefore, we often use some o
+To get a best estimate of our parameter values, we need to calibrate them. This implies an iterative process whereby we compare our model output to real-life observations, and change our parameter values until we are satisfied with the model performance. We can do this manually, using a fit-by-eye method, but this is time-consuming and arbitrary. Therefore, we often use some objective function: a score which describes our model's performance. We can then use this objective function as a criterion to fit our model to our observations. 
+
+There are many options when it comes to objective functions
+1. **Mean Error (ME)**: The sum of all residuals divided by the number of observations. If mean error is close to $0$, we call it a good model. If it is not, we have model bias, where overestimation is called a positive bias and underestimation is a negative bias. The problem with this objective function is that positive and negative bias can
