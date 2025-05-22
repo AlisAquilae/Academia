@@ -254,4 +254,42 @@ Q_e = \frac{\sqrt{S_o}}{n} \, A_e \, R_e^{2/3}
 $$
 
 ## 4.3 The Steady Case
-In the case of steady flow, i.e. where flow does not change
+In the case of steady flow, i.e. where flow does not change in time but does change in space, the St-Venant equations are given by
+
+$$
+\begin{aligned}
+\frac{\partial Q}{\partial x} &= I \\
+\frac{\partial a}{\partial x} &= \frac{s_o - s_f - \frac{2 \, u \, I}{g \, A}}{1 - \text{Fr}^2}
+\end{aligned}
+$$
+
+In the case where we have no external inflow, i.e. $I = 0$, this reduces to
+
+$$
+\frac{\mathrm{d}a}{\mathrm{d}x} (x) = \frac{S_o - S_f}{1 - \text{Fr}^2}
+$$
+
+This is known as the **Standard Backwater Equation**. 
+
+Where there is side inflow, i.e. $I \neq 0$, we find
+
+$$
+\begin{aligned}
+\frac{\partial Q}{\partial x} &= I \\
+\frac{\partial a}{\partial x} &= \frac{S_o - S_f - S_i}{1 - \text{Fr}^2}
+\end{aligned}
+$$
+
+where $S_i$ is some lateral inflow slope
+
+$$
+S_i = \frac{2 \, u \, I}{g \, A} = \frac{2 \, Q \, I}{g \, A^2}
+$$
+
+---
+# 5. Lecture 5
+For this lecture, the most important thing to remember is that for unsaturated flow, flow is highly non-linear: both the pressure head ($\psi$) and the hydraulic conductivity ($K$) are functions of the local water content ($\theta$), where hydraulic conductivity strongly decreases when the  water content decreases.
+
+---
+# 6. Lecture 6
+When creating models, there is always a c
