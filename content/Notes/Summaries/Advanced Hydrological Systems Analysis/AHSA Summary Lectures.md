@@ -405,4 +405,3 @@ $$
 \end{bmatrix}
 $$
 
-Here, contrary to when we were discussing uncertainty in the parameters, a higher model sensitivity
