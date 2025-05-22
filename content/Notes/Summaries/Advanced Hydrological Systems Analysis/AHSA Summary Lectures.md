@@ -185,11 +185,40 @@ Then how do we find the representative value? We do so by calibrating our value,
 >1. In a stratified deposit layer with horizontal flow (i.e. parallel to the aquifers), we use the **arithmetic mean**
 >   
 >   $$
->   k = \frac{\sum k_i D_i}{\sum D_i}
+>   k_{\text{eff}} = \frac{\sum k_i D_i}{\sum D_i}
 >   $$
 >   
->2. In a stratified deposit layer with vertical flow (i.e. serial), we use the harmonic mean
+>2. In a stratified deposit layer with vertical flow (i.e. serial), we use the **harmonic mean**
 >   
 >   $$
->   k = \frac{z}{}
+>   k_{\text{eff}} = \frac{D_{\text{tot}}}{\sum \frac{D_i}{k_i}} = \frac{D_{\text{tot}}}{\sum c_i}
 >   $$
+>   
+>3. In a layer with no stratification, we use the **geometric mean**
+>
+>$$
+>k_{\text{eff}} = \exp(\overline{\ln(k)})
+>$$
+
+
+---
+# 4. Lecture 4
+## 4.1 St-Venant Equations
+To describe open water flow, we use the St-Venant Equations. These equations are derived from the more general Navier-Stokes Equation by applying a long-wave assumption. This implies that flow is gradually varied, thereby neglecting small-scale variations in depth and velocity. 
+
+The equations are as follows
+
+$$
+\begin{aligned}
+\frac{\partial A}{\partial t} + \frac{\partial Q}{\partial x} &= I \\
+\frac{\partial Q}{\partial t} + \frac{\partial Q \, u}{\partial x} &= g \, A \left(S_o - S_f - S_p \right)
+\end{aligned}
+$$
+
+where
+- $A$ is the cross-sectional area of the river
+- $Q$ is the discharge in the downstream direction
+- $I$ is an external mass flux
+- $u$ is the velocity
+- $S_o$ is the bed slope (gravity)
+- $S_f$ is the frictions l
