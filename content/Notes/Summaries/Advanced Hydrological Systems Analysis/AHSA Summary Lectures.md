@@ -307,4 +307,20 @@ We mainly deal with 4 kinds of uncertainty
 To get a best estimate of our parameter values, we need to calibrate them. This implies an iterative process whereby we compare our model output to real-life observations, and change our parameter values until we are satisfied with the model performance. We can do this manually, using a fit-by-eye method, but this is time-consuming and arbitrary. Therefore, we often use some objective function: a score which describes our model's performance. We can then use this objective function as a criterion to fit our model to our observations. 
 
 There are many options when it comes to objective functions
-1. **Mean Error (ME)**: The sum of all residuals divided by the number of observations. If mean error is close to $0$, we call it a good model. If it is not, we have model bias, where overestimation is called a positive bias and underestimation is a negative bias. The problem with this objective function is that positive and negative bias can
+1. **Mean Error (ME)**: The sum of all residuals divided by the number of observations. If mean error is close to $0$, we call it a good model. If it is not, we have model bias, where overestimation is called a positive bias and underestimation is a negative bias. The problem with this objective function is that positive and negative bias can cancel each other out. This OF is therefore useful for bias, but not for model fit
+2. **Mean Absolute Error (MAE)**: Use the absolute error to get the mean. We still work towards a score of $0$. This OF is, however, difficult to differentiate, and therefore difficult to optimise using gradients
+3. **Mean Square Error (MSE)**: The mean of the square of the residuals. If the mean error is close to $0$, then the MSE becomes an estimator of the variance of the residuals. We still work towards a score of $0$. The problem with this OF is that it is square-based, and therefore assigns more weight to larger values. The good thing, however, is that it is easily differentiated. 
+4. **Root Mean Square Error (RMSE)**: The root of the MSE. If the mean error is close to $0$, then the RMSE becomes an estimator of the standard deviation of the residuals. We still work towards a score of $0$. The advantage of this OF is that it has the same units as our observations. 
+5. **Sum of squares (SS)**: Very similar to the MSE, now just the sum rather than the mean
+6. **R Squared ($R^2$)**: Calculated as 
+   
+   $$
+   1 - \frac{\text{MSE}}{\text{Variance of observations}}
+   $$
+   
+   The $R^2$ is also known as the Nash-Sutcliff Efficiency (NSE). Here, close to $1$ means the model has a good performance. 
+
+We are still missing the correlation between our model and the observations. This is by itself not a good fitting criterion, but it serves well to be combined with the previous cases. For example, we can decompose the MSE into three main components: standard deviation, mean and correlation. Here, the SD indicates the variability, the mean indicates the bias, and the correlation indicates itself. This reformulation is known as the **Kling-Gupta Criterion**. 
+
+>[!Important]
+>I
