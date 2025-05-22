@@ -24,3 +24,4 @@ the $a$ is the slope, and therefore the local sensitivity. How to calculate this
 >[!Important]
 >Variance in output is determined by variance in parameter multiplied by model sensitivity squared
 
+
