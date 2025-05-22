@@ -355,8 +355,9 @@ When calculating our parameters, we fit our model output to our observations in 
 
 Our goal is to find parameters which best fit the 'true' signal, rather than the noisy observations. We can never know these parameters, but we can give a confidence estimate of where we think the best parameters are situated approximately. For this, we make a few assumptions:
 1. We assume our parameters to be normally distributed, with a mean of $0$, a variance $\sigma^2$ and independent of each other (i.e. we assume homoscedasticity)
-2. We expect some parameter value, $p^o$, to be equal to the parameter value we fitted, $p^t$. 
-3. We express our uncertainty in terms of the variance of the optimal parameter, which we calculate as 
+2. We assume linearity
+3. We expect some parameter value, $p^o$, to be equal to the parameter value we fitted, $p^t$. 
+4. We express our uncertainty in terms of the variance of the optimal parameter, which we calculate as 
 
 $$
 \begin{aligned}
@@ -373,3 +374,20 @@ Graphically, a parameter is more uncertain if
 1. The leftover objective function is greater (i.e. further away form x-axis)
 2. The slope is less steep
 
+When working with 2 parameters instead of 1, the above still holds. However, now we are working with the covariance matrix.
+
+When the surface of the objective function is 'rotated', this indicates correlation between the parameters.
+
+---
+# 9. Lecture 9
+We now want to find out what the uncertainty in our parameter(s) implies for the uncertainty in our outcome variable(s). For this, we again assume linearity and use what is called the Gaussian Escape. 
+
+We find the expected value of our outcome to be equal to the outcome corresponding to our expected parameter value $p^t$, and the variance of our outcome to be equal to
+
+$$
+\text{var}(Y) = a^2 \, \text{var}(X)
+$$
+
+where $a$ is the slope of the parameter-outcome relation - in other words, the model sensitivity. 
+
+Now let's make the step to using 2 parameters. Our fitting procedure now produces a covariance matrix, wh
