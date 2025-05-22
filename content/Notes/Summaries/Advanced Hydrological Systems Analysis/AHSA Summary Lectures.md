@@ -340,4 +340,18 @@ We can plot all outcomes of our model's performance using the objective function
 
 The problem is that we do not know the surface of this objective function plane exactly, meaning we might end up in a local minimum instead of a global one. There are different ways to try to go around this
 1. Minimisation by sampling. You take random samples of parameter sets and hope you find the minimum somewhere. Very time consuming and therefore costly. We can also do this automatically, for example using Monte-Carlo Sampling. However, this is still based on luck, and it might take many model runs to find a minimum
-2. Minimisation using gradient direction. We compute the gradient of the objective function in the downward direction, thereby pointing towards the direction of lower values. Note that this is just the direction, not a point. To calculate the gradient, we need to differentiate our objective function. This explains why square-based objective functions are preferred when fitting. We now know the direction to go in, but we don't know how far to actuall
+2. Minimisation using gradient direction. We compute the gradient of the objective function in the downward direction, thereby pointing towards the direction of lower values. Note that this is just the direction, not a point. To calculate the gradient, we need to differentiate our objective function. This explains why square-based objective functions are preferred when fitting. We now know the direction to go in, but we don't know how far to actually go
+3. Minimisation using gradient size: Calculates the gradient as well as a length for the gradient proportional to the step size. If you have a high gradient / steep slope, you can go further and therefore the gradient size is larger. This works well, but we can still get caught in a 'local' minimum
+4. Minimisation by second-order approximation: The methods discussed so-far (i.e. gradient-based) are all first-order approximations. We can opt for a second-order approximation (also known as a 'Newtonian Method') by adding the assumption that our objective function is quadratic close to the minimum. This is quicker and more accurate, but still does not prevent local minima
+5. The final option is to use global search methods. These use not one starting point at a time, but multiple starting points which can communicate with each other. 
+
+
+---
+# 8. Lecture 8
+## 8.1 Parameter Uncertainty
+As discussed previously, when modelling we are faced with various kinds of uncertainty. Here, we will go into more depth on parameter uncertainty. 
+
+When calculating our parameters, we fit our model output to our observations in the process of calibration. These observations, however, do not represent the 'true' situation: rather, they are uncertain themselves. Thus, they represent the true signal as well as some random, stochastic error. 
+
+Our goal is to find parameters which best fit the 'true' signal, rather than the noisy observations. We can never know these parameters, but we can give a confidence estimate of where we think the best parameters are situated approximately. For this, we make a few assumptions:
+1. We assume our parameters t
