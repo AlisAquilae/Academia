@@ -175,3 +175,21 @@ In line with the rules of thumb, we should take the lowest $\Delta t_i$ correspo
 
 ---
 # 3. Lecture 3
+## 3.1 Upscaling
+When modelling at a regional scale, we are interested in areas of many kilometers. The processes we want to include are, however, often of a much smaller scale, and the theories and formulas used to describe them assume a (small) control volume. Thus, we cannot make our grid-size too large. On the other hand, computing an area of 100 km$^2$ with control volumes of 1 cm$^3$ would be computationally almost impossible to do. Thus, we need to find a way to average ('scale up') by assuming a single model block to contain many different control volumes, and determine a value that is representative for all control volumes underlying the model block. This is difficult to do, as aside from the value we are interested in, we end up with local gradients which are unknown to us and impossible to find. 
+
+Then how do we find the representative value? We do so by calibrating our value, including local gradients, in order to best fit to our data. 
+
+>[!Important]
+>Experience teaches us that in different situations different aggregation methods perform better:
+>1. In a stratified deposit layer with horizontal flow (i.e. parallel to the aquifers), we use the **arithmetic mean**
+>   
+>   $$
+>   k = \frac{\sum k_i D_i}{\sum D_i}
+>   $$
+>   
+>2. In a stratified deposit layer with vertical flow (i.e. serial), we use the harmonic mean
+>   
+>   $$
+>   k = \frac{z}{}
+>   $$
