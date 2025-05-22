@@ -11,4 +11,12 @@ Related Courses:
 # Introduction
 We now know how to quantify the uncertainty in our parameters. Now what is the effect of this uncertainty on our model output? This is our main question for today.
 
-We know there is some relation between our parameter and our output, we just don't know what the exact relation is like. If we did, we could calculate our output immediately from the parameter value. This is not the uncertainty, however, but the value for the mean/expected. 
+We know there is some relation between our parameter and our output, we just don't know what the exact relation is like. If we did, we could calculate our output immediately from the parameter value. This is not the uncertainty, however, but the value for the mean/expected. So how to find the uncertainty in our output and quantify it?
+
+One option is sampling: generate random parameters, measure the related output. Works, but takes a long time and is computationally expensive. 
+
+Let's assume our system is linear again and we are working with a normal distribution. In this case, our expected output
+- Mean target output is $b + aE(X)$
+- Target output variance = $a^2 \text{var}(X)$ 
+
+the $a$ is the slope, and therefore the local sensitivity. How to calculate this? Assume linear again, and calculate dOutput/dPar
