@@ -323,4 +323,21 @@ There are many options when it comes to objective functions
 We are still missing the correlation between our model and the observations. This is by itself not a good fitting criterion, but it serves well to be combined with the previous cases. For example, we can decompose the MSE into three main components: standard deviation, mean and correlation. Here, the SD indicates the variability, the mean indicates the bias, and the correlation indicates itself. This reformulation is known as the **Kling-Gupta Criterion**. 
 
 >[!Important]
->I
+>In general, when it comes to using objective functions as fitting criteria, any square-based objective function is good
+
+
+---
+# 7. Lecture 7
+## 7.1 Equifinality and Overfitting
+When making the best model we can, it is important to account for equifinality and overfitting
+
+Equifinality refers to the concept where different parameter sets can produce equally good models. Thus, there is no 'best' parameter set. To account for this, as well as for the uncertainty when modelling, we usually present all sets which produce equally good results within some range. 
+
+Overfitting refers to tailoring our model to the observations too strictly, causing problems when adding new observations. To prevent this, we usually separate our modelling process in calibrating (fitting to one part of our observations) and validating (assessing whether our model performs well for the other set of observations as well)
+
+## 7.2 Fitting Techniques
+We can plot all outcomes of our model's performance using the objective function of choice into a plane. Now, our fitting problem is to find the optimum, our best parameter set such that our objective function (let's say Sum of Squares) is as small as possible. For this, we can use mathematical minimisation techniques. 
+
+The problem is that we do not know the surface of this objective function plane exactly, meaning we might end up in a local minimum instead of a global one. There are different ways to try to go around this
+1. Minimisation by sampling. You take random samples of parameter sets and hope you find the minimum somewhere. Very time consuming and therefore costly. We can also do this automatically, for example using Monte-Carlo Sampling. However, this is still based on luck, and it might take many model runs to find a minimum
+2. Minimisation using gradient direction. We compute the gradient of the objective function in the downward direction, thereby pointing towards the direction of lower values. Note that this is just the direction, not a point. To calculate the gradient, we need to differentiate our objective function. This explains why square-based objective functions are preferred when fitting. We now know the direction to go in, but we don't know how far to actuall
