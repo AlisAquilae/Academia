@@ -367,4 +367,9 @@ x_i &= \frac{\partial M}{\partial p} = \text{model sensitivity}
 $$
 
 
-In other words, the variance of the optimal parameter set is calculated as
+In other words, the variance of the optimal parameter set is calculated as the variance of the noise divided by the sum of the model sensitivity squared.
+
+Graphically, a parameter is more uncertain if
+1. The leftover objective function is greater (i.e. further away form x-axis)
+2. The slope is less steep
+
