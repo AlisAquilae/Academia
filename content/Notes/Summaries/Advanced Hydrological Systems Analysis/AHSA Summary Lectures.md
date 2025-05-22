@@ -292,4 +292,16 @@ For this lecture, the most important thing to remember is that for unsaturated f
 
 ---
 # 6. Lecture 6
-When creating models, there is always a c
+There is always a conflict between our model and the real world, which cannot be fully resolved. This conflict is caused by different sources of uncertainty, which could cause the values we are working with to not be the 'true' values. 
+
+We mainly deal with 4 kinds of uncertainty
+1. Uncertainty in the real-life data we use as input for our model (e.g. precipitation). Our measurement data might differ from the 'true' data due to measurement device errors or human error
+2. Uncertainty in the real-life data we use to validate and calibrate our output with (e.g. the water table elevation). This is a similar source of error to point 1, but now to the 'response' rather than the input
+3. Model uncertainty is caused by different design choices made during the conceptualisation of the model. Think of the discretization method used, our timestep, and the processes we find important. These might not align best with reality, and therefore create uncertainty
+4. Finally, uncertainty in the parameters. These often describe physical processes of which we do not know the exact magnitude. We are able to estimate them based on our observations, but we cannot validate them. 
+
+>[!Important]
+>Uncertainty is therefore not just caused by the parameters in our model, but also by the model itself and the data we compare our model to
+
+
+To get a best estimate of our parameter values, we need to calibrate them. This implies an iterative process whereby we compare our model output to real-life observations, and change our parameter values until we are satisfied with the model performance. We can do this manually, using a fit-by-eye method, but this is time-consuming and arbitrary. Therefore, we often use some o
