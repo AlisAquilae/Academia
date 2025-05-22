@@ -25,3 +25,4 @@ the $a$ is the slope, and therefore the local sensitivity. How to calculate this
 >Variance in output is determined by variance in parameter multiplied by model sensitivity squared
 
 
+Again, when we are working with 2 parameters, we need their correlation. For this we can use the covariance which we obtain when fitting the model to the observations. We get a covariance matrix, where top-left to bottom-right is the variance, and the rest is the covariance. 
