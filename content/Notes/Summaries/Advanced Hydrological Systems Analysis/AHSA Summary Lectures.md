@@ -354,4 +354,17 @@ As discussed previously, when modelling we are faced with various kinds of uncer
 When calculating our parameters, we fit our model output to our observations in the process of calibration. These observations, however, do not represent the 'true' situation: rather, they are uncertain themselves. Thus, they represent the true signal as well as some random, stochastic error. 
 
 Our goal is to find parameters which best fit the 'true' signal, rather than the noisy observations. We can never know these parameters, but we can give a confidence estimate of where we think the best parameters are situated approximately. For this, we make a few assumptions:
-1. We assume our parameters t
+1. We assume our parameters to be normally distributed, with a mean of $0$, a variance $\sigma^2$ and independent of each other (i.e. we assume homoscedasticity)
+2. We expect some parameter value, $p^o$, to be equal to the parameter value we fitted, $p^t$. 
+3. We express our uncertainty in terms of the variance of the optimal parameter, which we calculate as 
+
+$$
+\begin{aligned}
+\text{var}(p^o) &= \frac{\sigma_{\epsilon}^2}{\sum_i x_i^2} \\
+&= \frac{\frac{1}{N_o}SS(p^o)}{\sum_i x_i^2} \\
+x_i &= \frac{\partial M}{\partial p} = \text{model sensitivity}
+\end{aligned}
+$$
+
+
+In other words, the variance of the optimal parameter set is calculated as
