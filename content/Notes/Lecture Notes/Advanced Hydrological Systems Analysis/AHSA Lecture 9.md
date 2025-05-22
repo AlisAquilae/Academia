@@ -20,3 +20,7 @@ Let's assume our system is linear again and we are working with a normal distrib
 - Target output variance = $a^2 \text{var}(X)$ 
 
 the $a$ is the slope, and therefore the local sensitivity. How to calculate this? Assume linear again, and calculate dOutput/dPar
+
+>[!Important]
+>Variance in output is determined by variance in parameter multiplied by model sensitivity squared
+
