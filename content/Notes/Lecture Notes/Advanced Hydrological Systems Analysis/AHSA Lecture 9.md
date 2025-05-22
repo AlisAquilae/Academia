@@ -33,3 +33,10 @@ $$
 cor = \frac{covar(x_1,x_2)}{SD(x_1) \cdot SD(x_2)}
 $$
 
+
+$$
+covar(Y) = A \; covar(X)A^T
+$$
+
+where $A$ is the sensitivity matrix
+
