@@ -173,3 +173,5 @@ In line with the rules of thumb, we should take the lowest $\Delta t_i$ correspo
 >It is important to mention that the eigenvalues (and, therefore, the system's timestep) are independent of (changes in) external inputs and initial conditions
 
 
+---
+# 3. Lecture 3
