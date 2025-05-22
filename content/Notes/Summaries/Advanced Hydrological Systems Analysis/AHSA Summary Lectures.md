@@ -372,7 +372,7 @@ In other words, the variance of the optimal parameter set is calculated as the v
 
 Graphically, a parameter is more uncertain if
 1. The leftover objective function is greater (i.e. further away form x-axis)
-2. The slope is less steep
+2. The slope (and, therefore, model sensitivity) is less steep
 
 When working with 2 parameters instead of 1, the above still holds. However, now we are working with the covariance matrix.
 
@@ -390,4 +390,19 @@ $$
 
 where $a$ is the slope of the parameter-outcome relation - in other words, the model sensitivity. 
 
-Now let's make the step to using 2 parameters. Our fitting procedure now produces a covariance matrix, wh
+Now let's make the step to using 2 parameters. Our fitting procedure now produces a covariance matrix, which shows not only the variance of the parameters themselves, but also their covariance. We can use this to calculate the correlation as follows:
+
+$$
+\text{Corr}(P_1, P_2) = \frac{\text{Covar} (P_1, P_2)}{\text{SD}(P_1) \cdot \text{SD}(P_2)}
+$$
+
+We can read the variance and the covariance from a covariance matrix as follows: For $X_1$ and $X_2$:
+
+$$
+\begin{bmatrix}
+\text{Var}(X_1) & \text{Covar}(X_1, X_2) \\
+\text{Covar}(X_2, X_1) & \text{Var}(X_2)
+\end{bmatrix}
+$$
+
+Here, contrary to when we were discussing uncertainty in the parameters, a higher model sensitivity
