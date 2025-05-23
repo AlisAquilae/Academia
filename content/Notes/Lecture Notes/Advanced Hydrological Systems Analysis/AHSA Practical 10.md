@@ -36,4 +36,25 @@ Solver packages
 Optional packages / Top systems / Boundary condition packages
 - NO COUPLING: not related to calculated head. Neumann (RCH, WEL)
 - ONE-WAY COUPLING: Related to calculated head. Cauchy (RIV, DRN, GHB) and Dirichlet (IBOUND)
-- TWO-WAY COUPLING: Flow process packages. Own water balance (budget). Own "flow"
+- TWO-WAY COUPLING: Flow process packages. Own water balance (budget). Own "flow" packages (UZF, STR/SFR, SWR, LAK)
+
+Saturated zone flow:
+- Dirichlet
+  - IBOUND: prescribed head at the boundaries
+  - CHD1: Time-variant specified head package
+- Neumann
+  - RCH: Recharge package
+  - WEL: Well package (MNW1, MNW2)
+- Cauchy
+  - GHB: General Head Boundary
+
+Unsaturated zone flow:
+- Dirchlet
+  - None
+- Neumann
+  - RCH
+- ONE-WAY COUPLING
+  - EVT (Evapotranspiration Package)
+  - ETS: Evapotranspiration Segments Package
+- TWO-WAY COUPLING
+  - UZF: Unsaturated Zone Flow package
