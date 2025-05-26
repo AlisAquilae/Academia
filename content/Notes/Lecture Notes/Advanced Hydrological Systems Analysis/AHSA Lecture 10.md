@@ -92,4 +92,14 @@ The temporal scale is also dependent on your hydrologic properties
 
 ---
 # Schematisation
-This means to represent the subsoil: defining aquifers and aquitards and your top system ()
+This means to represent the subsoil: defining aquifers and aquitards and your top system (top boundary conditions, e.g. river, wells, etc.)
+
+We want to translate the geologic information into a conceptual model suitable for numerical modelling. This can be from maps, cross-sections, boreholes, etc.
+
+For aquifers, use arithmetic average, and for aquitards we use harmonic average. When it is very heterogeneous, we use the geometric average. 
+
+For top systems, we have 2 boundary conditions:
+- Independent on calculated head (well)
+- Dependent on calculated head (recharge). Mostly for interaction with surface water (e.g. rivers and drains) and vegetation (Evapotranspiration)
+
+
