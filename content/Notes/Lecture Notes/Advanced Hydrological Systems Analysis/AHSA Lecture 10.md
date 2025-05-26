@@ -47,4 +47,24 @@ where
 - $kD$ is the transmissivity
 - $C$ is the resistance
 
+This describes the point where the impact of the boundary condition on our area of interest is only 5%
 
+This distance is $3 \times \lambda$. 
+
+We go $3 \times \lambda$ in all directions and that is the extent.
+
+This is, of course, a thumb rule which needs to be checked. 
+
+To account for different water layers. We are going to use
+
+$$
+\lambda = \sqrt{\sum kD \, C'}
+$$
+
+where
+- $\sum kD$ is the sum of the transmissivity of all aquifers
+- $C'$  is the sum of the resistances of all aquitards
+
+Now we know a distance, but we don't know the exact boundary conditions. There are 3
+- Constant head: Dirichlet
+- Constant flux: Neumann
