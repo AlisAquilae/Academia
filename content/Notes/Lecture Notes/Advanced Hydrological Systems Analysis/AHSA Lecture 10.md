@@ -68,3 +68,4 @@ where
 Now we know a distance, but we don't know the exact boundary conditions. There are 3
 - Constant head: Dirichlet
 - Constant flux: Neumann
+- Head-dependent flux: Cauchy
