@@ -79,3 +79,17 @@ Spatial and temporal resolution.
 For spatial, we can have coarse or fine grid size, structured or unstructured. Which do we use, and how do we decide on this? Unfortunately, there is no mathematical rule. We have to decide based on our objective and our expert judgement.
 
 In general, however, it should be small enough to capture the details we are interested in, but large enough that it does not burden the CPU too much. 
+
+In general, choose the highest resolution you can. This is constrained by the curse of dimensionality: high resolution models need many, many, many more parameters, observations and calculations, increasing non-linearly. 
+
+One of the solutions is to use a fine grid in and around the area if interest, and a courser area on the outer area. You can also try with a fine grid. If it performs well, try a finer version. If the difference is small, use the previous one. If it is large, use the finer one. 
+
+For the temporal aspect, i.e. the time-step. The smaller the time-step, the more dynamic the head is. The larger the time-step, the more gradual the head change is. 
+
+The temporal scale is also dependent on your hydrologic properties
+- Specific yield and specific storage. In clays, the system is much less dynamic, meaning you can get away with a larger timestep
+
+
+---
+# Schematisation
+This means to represent the subsoil: defining aquifers and aquitards and your top system ()
