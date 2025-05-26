@@ -69,3 +69,5 @@ Now we know a distance, but we don't know the exact boundary conditions. There a
 - Constant head: Dirichlet
 - Constant flux: Neumann
 - Head-dependent flux: Cauchy
+
+We might also need an initial condition for our first timestep. This is, of course, only required if we are making a transient simulation. Doing this also requires a storage parameter, but we will come back to this later. 
