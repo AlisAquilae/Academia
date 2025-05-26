@@ -71,3 +71,11 @@ Now we know a distance, but we don't know the exact boundary conditions. There a
 - Head-dependent flux: Cauchy
 
 We might also need an initial condition for our first timestep. This is, of course, only required if we are making a transient simulation. Doing this also requires a storage parameter, but we will come back to this later. 
+
+---
+# Discretisation
+Spatial and temporal resolution.
+
+For spatial, we can have coarse or fine grid size, structured or unstructured. Which do we use, and how do we decide on this? Unfortunately, there is no mathematical rule. We have to decide based on our objective and our expert judgement.
+
+In general, however, it should be small enough to capture the details we are interested in, but large enough that it does not burden the CPU too much. 
